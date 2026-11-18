@@ -11,6 +11,8 @@ import re
 import shutil
 import unicodedata
 
+from config import ANIO, ANIO_INICIO_ALQUILER
+
 base = Path(__file__).parent
 DATOS = base / "datos_limpios" / "ciudades_nivel1.json"
 WEB = base / "web"
@@ -103,7 +105,7 @@ def migas(items):
                                 for i, (nom, ruta) in enumerate(items, 1)]}
 
 
-def dataset(nombre, desc, ruta, lugar, variables, periodo="2011/2024"):
+def dataset(nombre, desc, ruta, lugar, variables, periodo=f"{ANIO_INICIO_ALQUILER}/{ANIO}"):
     return {"@context": "https://schema.org", "@type": "Dataset", "name": nombre.replace("'", "’"), "description": desc.replace("'", "’"),
             "url": url_abs(ruta), "inLanguage": "es", "temporalCoverage": periodo,
             "spatialCoverage": {"@type": "Place", "name": lugar},
@@ -166,9 +168,9 @@ def cabecera(root, extra):
 
 
 def pie(root):
-    return (f"<footer>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de 2024; actualizado el {FECHA_SERPAVI}). "
+    return (f"<footer>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de {ANIO}; actualizado el {FECHA_SERPAVI}). "
             "Renta y población: Elaboración propia con datos extraídos del sitio web del INE: www.ine.es "
-            f"(Atlas de Distribución de Renta de los Hogares, 2024; actualizado el {FECHA_ADRH}). "
+            f"(Atlas de Distribución de Renta de los Hogares, {ANIO}; actualizado el {FECHA_ADRH}). "
             "Los indicadores combinados, como el alquiler sobre la renta, son estimaciones propias de "
             f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda."
             + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "") + "</footer>")
@@ -220,10 +222,10 @@ def pagina_ciudad(c, todas, rank_n):
     m2 = dict(ser)
 
     corto = nombre_comun(c)
-    titulo = (f"Precio del alquiler en {corto} por distrito (2024)" if dist
-              else f"Precio del alquiler y renta en {corto} (2024)")
+    titulo = (f"Precio del alquiler en {corto} por distrito ({ANIO})" if dist
+              else f"Precio del alquiler y renta en {corto} ({ANIO})")
     if len(titulo) > 60:   # nombres largos: versión corta para que Google no corte el título
-        titulo = f"Alquiler en {corto} por distrito (2024)" if dist else f"Alquiler y renta en {corto} (2024)"
+        titulo = f"Alquiler en {corto} por distrito ({ANIO})" if dist else f"Alquiler y renta en {corto} ({ANIO})"
     desc = (f"El alquiler mediano en {corto} es de {n(c['alquiler_mes'])} € al mes y equivale al "
             f"{d(c['alquiler_pct_renta'])} % de la renta del hogar. "
             + ("Datos oficiales por distrito." if dist else "Elaboración propia con datos oficiales."))
@@ -254,14 +256,14 @@ def pagina_ciudad(c, todas, rank_n):
         ch = cambio(v0, ser[-1][1])
         if ch is not None and a0 < ser[-1][0]:
             txt.append(f"En {ser[-1][0]} el alquiler por m² es un {d(abs(ch), 0)} % {'mayor' if ch >= 0 else 'menor'} que en {a0}.")
-        if 2019 in m2 and 2024 in m2 and a0 < 2019:
-            ch19 = cambio(m2[2019], m2[2024])
+        if 2019 in m2 and ANIO in m2 and a0 < 2019:
+            ch19 = cambio(m2[2019], m2[ANIO])
             txt.append(f"Desde 2019 ha {'subido' if ch19 >= 0 else 'bajado'} un {d(abs(ch19), 0)} %.")
-        if 2015 in m2 and 2024 in m2 and 2015 in rent and 2024 in rent:
-            ca, cr = cambio(m2[2015], m2[2024]), cambio(rent[2015], rent[2024])
+        if 2015 in m2 and ANIO in m2 and 2015 in rent and ANIO in rent:
+            ca, cr = cambio(m2[2015], m2[ANIO]), cambio(rent[2015], rent[ANIO])
             if ca is not None and cr is not None:
                 rel = ("más rápido" if ca > cr else "más despacio")
-                txt.append(f"Entre 2015 y 2024 el alquiler por m² ha cambiado un {d(ca, 0)} % y la renta del hogar un {d(cr, 0)} %: "
+                txt.append(f"Entre 2015 y {ANIO} el alquiler por m² ha cambiado un {d(ca, 0)} % y la renta del hogar un {d(cr, 0)} %: "
                            f"el alquiler ha crecido {rel} que los ingresos.")
         sec.append(f'<section id="evolucion"><h2>Cómo ha cambiado el alquiler en {esc(nombre)}</h2>'
                    f'<p class="sub">Alquiler mediano de un piso, en euros por m² al mes.</p>{svg}'
@@ -346,7 +348,7 @@ def pagina_ciudad(c, todas, rank_n):
               ("Tamaño medio del hogar", d(c.get("tam_hogar"), 2) + " personas" if c.get("tam_hogar") else None)]
     items = "".join(f"<div><dt>{esc(a)}</dt><dd>{esc(b)}</dd></div>" for a, b in perfil if b)
     sec.append(f'<section id="perfil"><h2>Quién vive en {esc(nombre)}</h2><dl class="perfil">{items}</dl>'
-               f'<p class="sub" style="margin-top:12px;font-size:14px">Datos de 2024 del INE.</p></section>')
+               f'<p class="sub" style="margin-top:12px;font-size:14px">Datos de {ANIO} del INE.</p></section>')
 
     # enlaces internos
     prov = [x for x in todas if x["provincia"] == c["provincia"] and x["slug"] != c["slug"]][:8]
@@ -370,7 +372,7 @@ def pagina_ciudad(c, todas, rank_n):
     # metodología
     nav.append(("#metodologia", "Metodología"))
     sec.append('<section id="metodologia"><h2>Cómo leer estos datos</h2><ul class="notes">'
-               '<li><strong>Alquiler:</strong> mediana de los alquileres de vivienda habitual declarados en el IRPF de 2024, solo pisos. '
+               f'<li><strong>Alquiler:</strong> mediana de los alquileres de vivienda habitual declarados en el IRPF de {ANIO}, solo pisos. '
                'Son contratos vigentes, no anuncios, así que suelen ser más bajos que los precios de los portales inmobiliarios.</li>'
                '<li><strong>Renta:</strong> renta neta media por hogar de todos los hogares, también los que no alquilan.</li>'
                '<li><strong>Alquiler sobre renta:</strong> alquiler mediano × 12 ÷ renta neta media del hogar. Sirve para comparar zonas entre sí; '
@@ -385,7 +387,7 @@ def pagina_ciudad(c, todas, rank_n):
     ld = [dataset(f"Alquiler y renta en {nombre}", desc, ruta, f"{nombre}, {c['provincia']}, España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"]
                   + (["Desglose por distrito censal"] if dist else []),
-                  f"{ser[0][0]}/{ser[-1][0]}" if ser else "2024"),
+                  f"{ser[0][0]}/{ser[-1][0]}" if ser else str(ANIO)),
           migas([("Inicio", ""), (nombre, ruta)])]
     return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root, mapa_js)
 
@@ -419,21 +421,28 @@ def pagina_ranking(slug, clave, titulo, def_, todas, rank_n):
     top = ", ".join(f'{esc(c["nombre"])} ({f(c[clave])})' for c in orden[:5])
     bot = ", ".join(f'{esc(c["nombre"])} ({f(c[clave])})' for c in orden[:-6:-1])
     otros = "".join(f'<li><a href="{root}rankings/{s}/">{esc(t)}</a></li>' for s, k, t, _ in RANKINGS if s != slug)
-    desc = f"{titulo} en 2024, con datos oficiales de las {len(todas)} ciudades españolas de más de {MIN_POB} habitantes."
+    desc = f"{titulo} en {ANIO}, con datos oficiales de las {len(todas)} ciudades españolas de más de {MIN_POB} habitantes."
     cuerpo = (cabecera(root, [("#tabla", "Tabla")]) +
-              f'<div class="hero"><div><h1>{esc(titulo)} (2024)</h1><p class="lead">{esc(def_)}</p>'
-              f'<p class="sub"><strong>Mayor:</strong> {top}.<br><strong>Menor:</strong> {bot}.</p></div></div>'
+              f'<div class="hero"><div><h1>{esc(titulo)} ({ANIO})</h1><p class="lead">{esc(def_)}</p>'
+              f'<p class="sub"><strong>Mayor:</strong> {top}.<br><strong>Menor:</strong> {bot}.</p>{aviso_turistico()}</div></div>'
               f'<main><section id="tabla"><div class="wrap"><table class="sortable numbered" data-sort="{ {"alquiler_pct_renta": 7, "alquiler_mes": 4, "eur_m2": 5, "renta_hogar": 6}[clave] }">'
               f'<thead><tr><th>#</th>{th_orden(1, "Ciudad", "text")}{th_orden(2, "Provincia", "text")}{th_orden(3, "Población")}'
               f'{th_orden(4, "Alquiler al mes")}{th_orden(5, "€/m²")}{th_orden(6, "Renta del hogar")}{th_orden(7, "Alquiler sobre renta")}</tr></thead>'
               f'<tbody>{filas}</tbody></table></div></section>'
               f'<section><h2>Otros rankings</h2><ul class="lnk">{otros}</ul></section>'
-              f'<p class="proto">Las cifras de zonas con mucho alquiler turístico o segunda residencia (costa, islas) pueden no reflejar lo que paga quien llega de fuera.</p>'
               f'{pie(root)}</main>')
     ruta = f"rankings/{slug}/"
-    ld = [dataset(f"{titulo} (2024)", desc, ruta, "España", [ETIQ[clave]]),
+    ld = [dataset(f"{titulo} ({ANIO})", desc, ruta, "España", [ETIQ[clave]]),
           migas([("Inicio", ""), (titulo, ruta)])]
-    return head(f"{titulo} (2024)", desc, root, ruta, ld) + cuerpo + fin(root)
+    return head(f"{titulo} ({ANIO})", desc, root, ruta, ld) + cuerpo + fin(root)
+
+
+# ------------------------------------------------------------------ aviso de zonas turísticas (B-13)
+def aviso_turistico():
+    return ('<p class="aviso" role="note"><strong>Ojo con las zonas turísticas.</strong> En la costa y las islas, '
+            'muchos de los que alquilan o compran no viven allí todo el año. Estos datos miden el alquiler de vivienda habitual y la renta '
+            'de los residentes, así que un peso del alquiler alto puede reflejar sobre todo una renta baja de los residentes, '
+            'y el alquiler que paga quien llega de fuera puede ser bastante mayor.</p>')
 
 
 # ------------------------------------------------------------------ portada
@@ -446,24 +455,24 @@ def pagina_indice(todas, rank_n):
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
-    desc = (f"Alquiler, renta de los hogares y peso del alquiler en {N} ciudades de España, con datos oficiales de 2024 "
+    desc = (f"Alquiler, renta de los hogares y peso del alquiler en {N} ciudades de España, con datos oficiales de {ANIO} "
             "y desglose por distrito.")
     cuerpo = (cabecera(root, [("#rankings", "Más datos")]) +
               f'<div class="hero"><div><h1>Alquiler, renta y coste de vida en las ciudades de España</h1>'
-              f'<p class="lead">Datos oficiales de 2024 para {N} ciudades de más de {MIN_POB} habitantes: cuánto cuesta alquilar, '
+              f'<p class="lead">Datos oficiales de {ANIO} para {N} ciudades de más de {MIN_POB} habitantes: cuánto cuesta alquilar, '
               f'cuánto ingresan los hogares y qué parte de esos ingresos se lleva el alquiler, también por distrito.</p>'
               f'<label class="busca"><span>Busca tu ciudad</span><input id="buscador" type="search" placeholder="Madrid, Valladolid, Sevilla…" autocomplete="off"></label>'
               f'</div></div><main>'
               f'<section id="rankings"><h2>Rankings</h2><div class="cards">{tarjetas}</div></section>'
               f'<section><h2>Dónde pesa más y menos el alquiler</h2><div class="two">'
               f'<div><h3>Más peso sobre la renta</h3><ol class="lnk">{li(orden[:5])}</ol></div>'
-              f'<div><h3>Menos peso sobre la renta</h3><ol class="lnk">{li(orden[:-6:-1])}</ol></div></div></section>'
+              f'<div><h3>Menos peso sobre la renta</h3><ol class="lnk">{li(orden[:-6:-1])}</ol></div></div>{aviso_turistico()}</section>'
               f'<section id="ciudades"><h2>Todas las ciudades</h2><p class="sub" id="cuenta">{N} ciudades</p>'
               f'<ul class="todas" id="lista">{lista}</ul></section>{pie(root)}</main>')
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "url": url_abs(""), "inLanguage": "es"},
           dataset(f"Alquiler y renta en {N} ciudades de España", desc, "", "España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"])]
-    return head(f"Alquiler y renta por ciudad en España (2024) | {SITIO}", desc, root, "", ld) + cuerpo + fin(root)
+    return head(f"Alquiler y renta por ciudad en España ({ANIO}) | {SITIO}", desc, root, "", ld) + cuerpo + fin(root)
 
 
 # ------------------------------------------------------------------ recursos estáticos
@@ -548,6 +557,7 @@ tbody th{font-weight:600}
 .chart circle:hover{fill:var(--acc)}
 .notes{padding-left:20px}
 .notes li{margin:0 0 10px;max-width:72ch}
+.aviso{margin:16px 0 0;padding:12px 16px;border-left:4px solid #b7791f;background:var(--surface);font-size:15px;max-width:72ch}
 .proto{margin:12px 0 0;padding:10px 14px;border-left:4px solid var(--acc);background:var(--surface);font-size:15px;color:var(--muted)}
 .busca{display:block;max-width:520px;margin:6px 0 24px}
 .busca span{display:block;font-size:15px;color:var(--muted);margin-bottom:4px}

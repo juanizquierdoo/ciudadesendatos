@@ -210,6 +210,18 @@ for f, p in paginas.items():
             err.append(f"{f.relative_to(WEB)}: atributo con valor vacío «{atr[:60]}»")
 comprobar("nan", "Ningún «nan», «None», «undefined»… visible en las páginas", err)
 
+err = []
+for f, p in paginas.items():
+    for m in re.finditer(r"\{[A-Za-z_][^{}]{0,40}\}", p.texto):
+        err.append(f"{f.relative_to(WEB)}: variable sin rellenar «{m.group(0)}»")
+comprobar("llaves", "Ninguna variable sin rellenar ({...}) en el texto visible", err)
+
+err = []
+for f in [WEB / "index.html", *sorted((WEB / "rankings").glob("*/index.html"))]:
+    if f in paginas and "Ojo con las zonas turísticas" not in paginas[f].texto:
+        err.append(f"{f.relative_to(WEB)}: falta el aviso de zonas turísticas")
+comprobar("aviso_turistico", "Aviso visible de zonas turísticas en la portada y en los rankings", err)
+
 # ------------------------------------------------------------ 4. enlaces internos
 err = []
 for f, p in paginas.items():

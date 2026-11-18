@@ -79,6 +79,7 @@ tbody th{font-weight:600}
 .chart circle:hover{fill:var(--acc)}
 .notes{padding-left:20px}
 .notes li{margin:0 0 10px;max-width:72ch}
+.aviso{margin:16px 0 0;padding:12px 16px;border-left:4px solid #b7791f;background:var(--surface);font-size:15px;max-width:72ch}
 .proto{margin:12px 0 0;padding:10px 14px;border-left:4px solid var(--acc);background:var(--surface);font-size:15px;color:var(--muted)}
 .busca{display:block;max-width:520px;margin:6px 0 24px}
 .busca span{display:block;font-size:15px;color:var(--muted);margin-bottom:4px}
