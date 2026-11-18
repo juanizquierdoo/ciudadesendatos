@@ -13,7 +13,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 |---|---|
 | Ciudades con página (más de 50.000 hab., alquiler fiable) | 151 |
 | Ciudades con desglose por distrito | 130 (843 distritos) |
-| Distritos con nombre oficial | 40 (Madrid 21, Valencia 19) |
+| Distritos con nombre oficial | 50 (Madrid 21, Valencia 19, Barcelona 10) |
 | Páginas de la web | 156: portada, 4 rankings, 151 ciudades |
 | Mapa | Solo Madrid (esquemático, no son los límites reales) |
 | Publicada | **No**. BASE_URL está vacío, así que no hay sitemap ni canonical |
@@ -30,7 +30,7 @@ python generar_web.py          # genera web/ (se borra y se rehace entera)
 python tests/ejecutar_tests.py # comprobaciones automáticas
 ```
 Tiempo total medido el 18/11/2026: menos de 2 minutos.
-Todavía no existe `actualizar.py` (está en el backlog, B-07).
+O todo de una vez: `python actualizar.py` (o `python actualizar.py --desde 3` para saltarse la lectura de los CSV grandes del INE). El año se cambia en `config.py`.
 
 ## Valores de referencia (comprobados el 18/11/2026)
 | Ciudad | Alquiler mediano | Renta neta hogar | Alquiler/renta | Resultado |
@@ -54,5 +54,8 @@ Ver INSTRUCCIONES_PROYECTO.md, apartado "Decisiones tomadas". Añadidas en esta 
 - 18/11/2026: los tests son un script de Python sin dependencias (sin pytest) para que funcionen en Windows sin instalar nada.
 - 18/11/2026: los fallos conocidos aparecen como PENDIENTE en los tests y enlazan a una entrada del backlog. No se ocultan.
 
-## Próximo paso
+## Fase actual (actualizado)
+Fase 0 aprobada el 18/11/2026. Juan va a comprar un dominio. Corregidos los riesgos 2, 4 y 5; el 3 (nombres de distrito) está en curso, ciudad a ciudad.
+
+## Próximo paso (anterior)
 Que Juan revise INFORME_FASE0.md y apruebe (o reordene) la Fase 1.

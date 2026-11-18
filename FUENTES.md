@@ -11,7 +11,11 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
 - **Qué mide:** alquiler de vivienda habitual declarado en el IRPF (Modelo 100), sin alquileres a familiares. Medianas y percentiles 25 y 75 del alquiler mensual (€ y €/m²), superficie y número de inmuebles. Usamos solo vivienda colectiva (pisos, sufijo `_VC`).
 - **Niveles:** CCAA, provincia, municipio, distrito y sección censal. Usa los códigos del **Censo 2021** del INE.
 - **Periodo:** 2011-2024. Metadatos corregidos el 08/07/2026 (según la hoja "Metadatos").
-- **Licencia:** INSTRUCCIONES_PROYECTO.md la da por revisada: reutilización permitida, también comercial. **Falta registrar la URL oficial (B-02).** Aviso: el PDF `SERPAVI2026...pdf` dice "Todos los derechos reservados", pero se refiere a la publicación en PDF. En datos.gob.es, otro conjunto del mismo ministerio ("Transacciones inmobiliarias de vivienda") figura como CC BY 4.0 (leído el 18/11/2026). Eso es un indicio, no una confirmación para el SERPAVI.
+- **Descarga oficial:** https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi → "BD Sistema Estatal Índices de Alquiler de Vivienda (Xlsx)", archivo `2026-03_09_bd_SERPAVI_2011-2024 - DEFINITIVO WEB_v2.xlsx` en cdn.mivau.gob.es (comprobado el 18/11/2026).
+- **Licencia:** verificada el 18/11/2026 en el aviso legal del Ministerio (https://www.mivau.gob.es/ministerio/aviso-legal), que se aplica al portal "y todos los Subdominios y Directorios". Dice que la información "es susceptible de reutilización" y que está autorizada su reproducción, modificación y distribución "para usos comerciales y no comerciales", salvo indicación expresa en contrario. Remite a las condiciones generales de datos.gob.es/avisolegal (Ley 37/2007 y RD 1495/2011).
+  - Condiciones: no desnaturalizar el sentido de la información; citar la fuente (fórmula sugerida: "Origen de los datos: Ministerio de Vivienda y Agenda Urbana"); mencionar la fecha de la última actualización; no sugerir que el Ministerio participa, patrocina o apoya la web; conservar los metadatos de fecha y de condiciones de reutilización. Los logotipos y las marcas están protegidos: no se usan.
+  - Excepción: el PDF `SERPAVI2026...pdf` dice expresamente "Todos los derechos reservados". Es una indicación en contrario para ese PDF, así que **el PDF no se reproduce**. La base de datos en Excel no lleva esa mención.
+  - El aviso legal de la sede electrónica (mivau.sede.gob.es) es más restrictivo, pero se refiere a la sede, no al portal desde el que se descarga el SERPAVI.
 - **Cita que usamos:** "Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de 2024)".
 - **Condiciones:** indicar la fecha (pendiente, B-01), no desnaturalizar el sentido de los datos, no sugerir patrocinio y no usar sus logotipos.
 
@@ -31,6 +35,12 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
 - **Nivel y periodo:** usamos el municipio, año 2024.
 - **Licencia y cita:** las mismas que la fuente 2 (INE, CC BY 4.0).
 
+### 4. Nombres de distrito
+- `datos_limpios/nombres_distritos.csv` (columnas: codigo, nombre_distrito, fuente). Se edita a mano; cada fila lleva su fuente.
+- **Barcelona (10 distritos):** Ajuntament de Barcelona, Open Data BCN, conjunto "20170706-districtes-barris", **CC BY 4.0** (según el portal, consultado el 18/11/2026). Cita: "Ajuntament de Barcelona, Open Data BCN". Verificación: el fichero municipal de secciones censales tiene las mismas 1068 secciones (distrito + sección) que el ADRH 2024 del INE, así que los códigos de distrito coinciden. Los nombres son los oficiales en catalán.
+- **Madrid y Valencia:** incorporados antes de la Fase 0, con la fuente sin documentar (B-20).
+- Método para añadir una ciudad: (1) buscar en el portal de datos abiertos del ayuntamiento un fichero de secciones censales con su distrito y anotar su licencia; (2) comprobar que el conjunto (distrito, sección) es idéntico al del ADRH del INE; (3) solo si coincide, añadir los nombres con su fuente. Si no coincide (por ejemplo, porque los distritos municipales no son los censales), no se añade.
+
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
 |---|---|---|---|---|---|
@@ -38,5 +48,6 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
 | Transacciones inmobiliarias de vivienda | Ministerio de Vivienda y Agenda Urbana | "Por ámbito geográfico", sin concretar | Trimestral; CSV `VDP003_01.csv` | CC BY 4.0 (ficha de datos.gob.es: e05233601-transacciones-inmobiliarias-de-vivienda) | **Nivel territorial**: hay que abrir el CSV y su readme para ver si llega a municipio |
 | Valor tasado de la vivienda libre (municipios de más de 25.000 hab.) | Ministerio (según el título) | Municipio de más de 25.000 hab. (según el título) | No consta | **No consta** en la ficha de datos.gob.es (casi vacía) | Todo: publicador, licencia, formato y periodo |
 | Viviendas de uso turístico (estadística experimental) | INE | Ofrece mapas municipales; no consta si hay sección censal | Dos veces al año (mayo y noviembre desde el segundo semestre de 2024) | Aviso legal del INE (CC BY 4.0); la página no indica otra licencia | Último periodo publicado; formato de descarga; carácter experimental (hay que avisarlo) |
+| Cartografía de distritos y secciones censales para el SERPAVI | Ministerio de Vivienda y Agenda Urbana | Distrito y sección censal (zip en la página del SERPAVI) | Según el nombre del archivo, los distritos son de 2011 y las secciones de 2021 | Aviso legal de mivau.gob.es (reutilización comercial permitida) | Si los límites de 2011 sirven para los distritos de 2024 |
 | Cartografía de secciones censales | INE | Sección censal (en SHAPE, UTM huso 30) | Ficheros anuales de 2001 a 2026 (falta 2002); también WMS, WFS y API Features | La página no da una licencia propia; el Aviso legal del INE habla de "información estadística" y no menciona la cartografía | Si la cartografía está bajo CC BY 4.0; si trae distritos o hay que agregarlos desde las secciones |
 | Datos de datos.gob.es en general | Varios | | | Condiciones generales: permiten uso comercial; obligan a citar, indicar la fecha y no desnaturalizar los datos (aviso legal de datos.gob.es). La licencia concreta va en cada ficha | |

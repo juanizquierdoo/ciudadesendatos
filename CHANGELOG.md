@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 18/11/2026: corrección de los riesgos de la auditoría
+- Riesgo 5: nuevo `config.py` con el año, las rutas y los valores de referencia. Los scripts del pipeline (y `generar_web.py`) leen el año de ahí. Nuevo `actualizar.py`, que ejecuta todo y los tests con un solo comando y se para en el primer error. `preparar_json.py` termina con error si los valores de referencia no cuadran. Salida idéntica a la anterior (comprobado por hash).
+- Riesgo 2: licencia del SERPAVI confirmada en el aviso legal de mivau.gob.es y URL oficial de descarga registrada en FUENTES.md. La fecha del pie la añadió el hilo de SEO (B-01).
+- Riesgo 4: aviso destacado sobre las zonas turísticas en la portada y en los 4 rankings.
+- Riesgo 3 (empezado): nombres oficiales de los 10 distritos de Barcelona (Open Data BCN, CC BY 4.0), con los códigos verificados sección a sección frente al INE.
+- Tests: detecta variables sin rellenar ({...}) en el texto y exige el aviso turístico. Resultado: 15 OK, 0 FALLA.
+
 ## 18/11/2026: Mejoras SEO (auditoría SEO, prioridades 1 a 3)
 Hecho (en `generar_web.py`; copia previa en `_copias/2026-11-18/`):
 - Títulos de ciudad más cortos (todos ≤ 60 caracteres), con el nombre más usado al buscar (Alicante, Elche, Castellón de la Plana, Ibiza…). El H1 mantiene el nombre oficial del INE. Rankings sin el sufijo de marca.
