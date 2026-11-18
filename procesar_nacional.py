@@ -3,9 +3,10 @@ import re
 import numpy as np
 import pandas as pd
 
-base = Path(__file__).parent
-origen = base / "datos_originales"
-destino = base / "datos_limpios"
+from config import ANIO, ORIGEN, DATOS, DEMOGRAFIA, RENTA_LARGO
+
+origen = ORIGEN
+destino = DATOS
 destino.mkdir(exist_ok=True)
 
 PATRON = re.compile(r"-?\d{1,3}(\.\d{3})*(,\d+)?|-?\d+(,\d+)?")
@@ -51,17 +52,17 @@ for t in leer("renta_total.csv"):
     trozos.append(preparar(t, "Indicadores de renta media"))
 renta = pd.concat(trozos, ignore_index=True)
 renta["indicador"] = renta["indicador"].map(INDICADORES)
-renta.to_csv(destino / "renta_nacional_largo.csv", index=False, encoding="utf-8-sig")
+renta.to_csv(RENTA_LARGO, index=False, encoding="utf-8-sig")
 print("Indicadores de renta que trae el archivo:", sorted(vistos))
 print("Renta guardada:", len(renta), "filas")
 
-# ---------- 2) DEMOGRAFÍA: solo municipios, 2024 ----------
+# ---------- 2) DEMOGRAFÍA: solo municipios, año ANIO ----------
 trozos = []
 for t in leer("demograficos_total.csv"):
-    t = t[t["Secciones"].isna() & t["Distritos"].isna() & (t["Periodo"] == "2024")]
+    t = t[t["Secciones"].isna() & t["Distritos"].isna() & (t["Periodo"] == str(ANIO))]
     trozos.append(preparar(t, "Indicadores demográficos"))
 demo = pd.concat(trozos, ignore_index=True)
-demo.to_csv(destino / "demografia_municipios_2024.csv", index=False, encoding="utf-8-sig")
+demo.to_csv(DEMOGRAFIA, index=False, encoding="utf-8-sig")
 
 indicadores = sorted(demo["indicador"].unique())
 print("\nIndicadores demográficos:")
@@ -80,7 +81,7 @@ if pob_ind:
     print("\nLos 10 mayores:")
     print(pob.sort_values("valor", ascending=False)[["nombre_muni", "valor"]].head(10).to_string())
 
-    r = renta[(renta["año"] == 2024) & (renta["indicador"] == "renta_hogar")]
+    r = renta[(renta["año"] == ANIO) & (renta["indicador"] == "renta_hogar")]
     n_dist = r[r["nivel"] == "distrito"].groupby("cod_muni").size()
     con_varios = n_dist[n_dist >= 2]
     print("\nMunicipios con 2 o más distritos:", len(con_varios))

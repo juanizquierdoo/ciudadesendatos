@@ -7,12 +7,13 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
-base = Path(__file__).parent
-origen = base / "datos_originales"
-datos = base / "datos_limpios"
+from config import (ANIO, ANIO_INICIO_ALQUILER, ORIGEN, DATOS, MUNICIPIOS, DISTRITOS, RENTA_LARGO,
+                    ARCHIVO_SERPAVI, JSON_NIVEL1, UMBRAL_POBLACION, REFERENCIA)
 
-UMBRAL_POBLACION = 50_000
-ANIOS = list(range(2011, 2025))
+origen = ORIGEN
+datos = DATOS
+
+ANIOS = list(range(ANIO_INICIO_ALQUILER, ANIO + 1))
 ARTICULOS = {"El", "La", "Los", "Las", "L'", "Les", "Els", "A", "O", "Os", "As", "Sa", "Ses", "Es"}
 
 
@@ -53,9 +54,9 @@ def leer_csv(ruta, **kw):
 
 
 # ---------- entradas ----------
-mun = leer_csv(datos / "municipios_2024.csv", dtype={"cod_muni": str})
-dis = leer_csv(datos / "distritos_2024.csv", dtype={"cod_muni": str, "codigo": str})
-renta = leer_csv(datos / "renta_nacional_largo.csv", dtype={"cod_muni": str, "codigo": str})
+mun = leer_csv(MUNICIPIOS, dtype={"cod_muni": str})
+dis = leer_csv(DISTRITOS, dtype={"cod_muni": str, "codigo": str})
+renta = leer_csv(RENTA_LARGO, dtype={"cod_muni": str, "codigo": str})
 
 nombres = {}
 f_nombres = datos / "nombres_distritos.csv"
@@ -69,17 +70,17 @@ else:
 sel = mun[(mun["poblacion"] > UMBRAL_POBLACION) & (mun["fiabilidad"] == "ok")].copy()
 print("Ciudades seleccionadas:", len(sel))
 
-# ---------- series de alquiler 2011-2024 (Excel del Ministerio) ----------
+# ---------- series de alquiler (Excel del Ministerio) ----------
 yy = [f"{a % 100:02d}" for a in ANIOS]
 c_m2 = [f"ALQM2_LV_M_VC_{y}" for y in yy]
 c_mes = [f"ALQTBID12_M_VC_{y}" for y in yy]
 c_bi = [f"BI_ALVHEPCO_TVC_{y}" for y in yy]
-ex = pd.read_excel(origen / "Datos_municipios_2024.xlsx", sheet_name="Municipios",
+ex = pd.read_excel(ARCHIVO_SERPAVI, sheet_name="Municipios",
                    usecols=["CUMUN"] + c_m2 + c_mes + c_bi)
 ex["cod_muni"] = ex["CUMUN"].astype(int).astype(str).str.zfill(5)
 ex = ex.drop_duplicates("cod_muni").set_index("cod_muni")
 
-# ---------- serie de renta 2015-2024 ----------
+# ---------- serie de renta ----------
 rm = renta[(renta["nivel"] == "municipio") & (renta["indicador"] == "renta_hogar")]
 renta_serie = {c: g.sort_values("año") for c, g in rm.groupby("cod_muni")}
 
@@ -140,26 +141,36 @@ for s, lista in vistos.items():
             c["slug"] = f"{s}-{slug(c['provincia'])}"
         print("Slug repetido resuelto:", s, "->", [c["slug"] for c in lista])
 
-salida = {"generado": date.today().isoformat(), "anio_datos": 2024, "ciudades": ciudades}
-ruta_json = datos / "ciudades_nivel1.json"
+salida = {"generado": date.today().isoformat(), "anio_datos": ANIO, "ciudades": ciudades}
+ruta_json = JSON_NIVEL1
 ruta_json.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"\nGuardado {ruta_json.name}: {round(ruta_json.stat().st_size / 1024)} KB")
 
 # ---------- comprobaciones ----------
 print("\n=== COMPROBACIÓN CON LAS TRES CIUDADES DE PRUEBA ===")
-esperado = {"28079": (868.75, 53213, 19.6), "46250": (680.83, 42374, 19.3), "47186": (530.83, 39685, 16.1)}
+esperado = REFERENCIA.get(ANIO, {})
+if not esperado:
+    print(f"AVISO: no hay valores de referencia para {ANIO} en config.py")
 por_cod = {c["cod_muni"]: c for c in ciudades}
-for cod, (alq, ren, pct) in esperado.items():
+fallos = 0
+for cod, (_, alq, ren, pct) in esperado.items():
     c = por_cod.get(cod)
     if not c:
         print(cod, "NO ESTÁ EN LA LISTA")
+        fallos += 1
         continue
     ok = abs(c["alquiler_mes"] - alq) < 0.5 and abs(c["renta_hogar"] - ren) < 1 and abs(c["alquiler_pct_renta"] - pct) < 0.1
     print(f"{c['nombre']:<12} alquiler {c['alquiler_mes']} | renta {c['renta_hogar']} | "
           f"{c['alquiler_pct_renta']} % | distritos {len(c['distritos'])} -> {'OK' if ok else 'REVISAR'}")
+    fallos += 0 if ok else 1
 
 completas = sum(1 for c in ciudades if sum(1 for s in c["serie_alquiler"] if s["eur_m2"] is not None) == len(ANIOS))
-print("\nCiudades con serie de alquiler completa 2011-2024:", completas, "de", len(ciudades))
+print(f"\nCiudades con serie de alquiler completa {ANIOS[0]}-{ANIOS[-1]}:", completas, "de", len(ciudades))
 print("Ciudades con desglose por distrito:", sum(1 for c in ciudades if c["distritos"]))
 print("Distritos en total:", sum(len(c["distritos"]) for c in ciudades))
 print("Distritos con nombre oficial:", sum(1 for c in ciudades for d in c["distritos"] if d["con_nombre_oficial"]))
+
+if fallos:
+    import sys
+    print(f"\nERROR: {fallos} ciudad(es) de referencia no cuadran. Revisa antes de generar la web.")
+    sys.exit(1)
