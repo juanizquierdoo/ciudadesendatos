@@ -18,6 +18,20 @@ WEB = base / "web"
 BASE_URL = ""          # p. ej. "https://ciudadesendatos.es" (sin barra final). Vacío = sin sitemap ni canonical.
 SITIO = "ciudadesendatos"
 MIN_POB = "50.000"
+RECURSOS = base / "recursos"   # og.png, favicon.png, favicon.ico (se crean con crear_imagenes.py)
+FECHA_GEN = ""                 # se rellena en main() con el campo "generado" del JSON
+
+# Nombre que más se usa al buscar, para el título de la página. El H1 mantiene el nombre oficial del INE.
+# Por defecto, en los nombres oficiales con barra se usa la forma en castellano (la segunda).
+NOMBRE_COMUN = {"Pamplona/Iruña": "Pamplona", "Eivissa": "Ibiza"}
+
+# Fuentes de los datos (para los datos estructurados)
+FUENTES_LD = [
+    {"@type": "Dataset", "name": "Sistema Estatal de Referencia del Precio del Alquiler de Vivienda (SERPAVI)",
+     "creator": {"@type": "GovernmentOrganization", "name": "Ministerio de Vivienda y Agenda Urbana"}},
+    {"@type": "Dataset", "name": "Atlas de Distribución de Renta de los Hogares (ADRH)",
+     "creator": {"@type": "GovernmentOrganization", "name": "Instituto Nacional de Estadística (INE)"}, "url": "https://www.ine.es"},
+]
 
 # Posición aproximada de cada distrito en el mapa esquemático (columna, fila). Solo Madrid por ahora.
 TILE = {"28079": {1: (2, 3), 2: (2, 4), 3: (3, 3), 4: (3, 2), 5: (3, 1), 6: (2, 1), 7: (2, 2), 8: (2, 0),
@@ -52,6 +66,46 @@ def cambio(a, b):
 
 def artículo(c):
     return c["nombre"]
+
+
+def nombre_comun(c):
+    nom = c["nombre"]
+    if nom in NOMBRE_COMUN:
+        return NOMBRE_COMUN[nom]
+    return nom.split("/")[-1] if "/" in nom else nom
+
+
+def url_abs(ruta):
+    return f"{BASE_URL}/{ruta}" if BASE_URL else None
+
+
+def jsonld(obj):
+    """Bloque JSON-LD. Quita las claves vacías (p. ej. url cuando todavía no hay dominio)."""
+    def limpia(x):
+        if isinstance(x, dict):
+            return {k: limpia(v) for k, v in x.items() if v not in (None, "", [], {})}
+        if isinstance(x, list):
+            return [limpia(v) for v in x]
+        return x
+    texto = json.dumps(limpia(obj), ensure_ascii=False).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{texto}</script>'
+
+
+def migas(items):
+    """BreadcrumbList. Google exige URL absoluta en cada paso, así que solo se crea con BASE_URL."""
+    if not BASE_URL:
+        return None
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i, "name": nom, "item": url_abs(ruta)}
+                                for i, (nom, ruta) in enumerate(items, 1)]}
+
+
+def dataset(nombre, desc, ruta, lugar, variables, periodo="2011/2024"):
+    return {"@context": "https://schema.org", "@type": "Dataset", "name": nombre.replace("'", "’"), "description": desc.replace("'", "’"),
+            "url": url_abs(ruta), "inLanguage": "es", "temporalCoverage": periodo,
+            "spatialCoverage": {"@type": "Place", "name": lugar},
+            "variableMeasured": variables, "dateModified": FECHA_GEN, "isBasedOn": FUENTES_LD,
+            "creator": {"@type": "Organization", "name": SITIO, "url": url_abs("")}}
 
 
 # ------------------------------------------------------------------ gráfico SVG
@@ -116,15 +170,25 @@ def pie(root):
             f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda.</footer>")
 
 
-def head(titulo, desc, root, ruta):
-    canon = f'<link rel="canonical" href="{BASE_URL}/{ruta}">' if BASE_URL else ""
+def head(titulo, desc, root, ruta, ld=()):
+    # canonical, og:url y og:image necesitan la dirección completa: solo se escriben cuando BASE_URL tiene valor
+    extra = ""
+    if BASE_URL:
+        extra += f'<link rel="canonical" href="{BASE_URL}/{ruta}"><meta property="og:url" content="{BASE_URL}/{ruta}">'
+        if (RECURSOS / "og.png").exists():
+            extra += (f'<meta property="og:image" content="{BASE_URL}/og.png"><meta property="og:image:width" content="1200">'
+                      f'<meta property="og:image:height" content="630"><meta property="og:image:alt" content="{esc(SITIO)}: alquiler y renta en las ciudades de España">'
+                      f'<meta name="twitter:card" content="summary_large_image">')
+    icono = (f'<link rel="icon" type="image/png" sizes="48x48" href="{root}favicon.png">'
+             if (RECURSOS / "favicon.png").exists() else "")
+    bloques = "".join(jsonld(x) for x in ld if x)
     return (f'<!doctype html><html lang="es"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
             f'<title>{esc(titulo)}</title><meta name="description" content="{esc(desc)}">'
             f'<meta property="og:title" content="{esc(titulo)}"><meta property="og:description" content="{esc(desc)}">'
-            f'<meta property="og:type" content="website">{canon}'
-            f'<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🏙️%3C/text%3E%3C/svg%3E">'
-            f'<link rel="stylesheet" href="{root}assets/estilo.css"></head><body>')
+            f'<meta property="og:type" content="website"><meta property="og:locale" content="es_ES">'
+            f'<meta property="og:site_name" content="{esc(SITIO)}">{extra}{icono}'
+            f'<link rel="stylesheet" href="{root}assets/estilo.css">{bloques}</head><body>')
 
 
 def fin(root, extra_js=""):
@@ -146,10 +210,14 @@ def pagina_ciudad(c, todas, rank_n):
     rent = {s["anio"]: s["renta_hogar"] for s in c["serie_renta"] if s["renta_hogar"] is not None}
     m2 = dict(ser)
 
-    titulo = (f"Alquiler y renta por distrito en {nombre} ({2024}) | {SITIO}" if dist
-              else f"Alquiler y renta en {nombre} ({2024}) | {SITIO}")
-    desc = (f"El alquiler mediano en {nombre} es de {n(c['alquiler_mes'])} € al mes y equivale al "
-            f"{d(c['alquiler_pct_renta'])} % de la renta del hogar. Datos oficiales por distrito.")
+    corto = nombre_comun(c)
+    titulo = (f"Precio del alquiler en {corto} por distrito (2024)" if dist
+              else f"Precio del alquiler y renta en {corto} (2024)")
+    if len(titulo) > 60:   # nombres largos: versión corta para que Google no corte el título
+        titulo = f"Alquiler en {corto} por distrito (2024)" if dist else f"Alquiler y renta en {corto} (2024)"
+    desc = (f"El alquiler mediano en {corto} es de {n(c['alquiler_mes'])} € al mes y equivale al "
+            f"{d(c['alquiler_pct_renta'])} % de la renta del hogar. "
+            + ("Datos oficiales por distrito." if dist else "Elaboración propia con datos oficiales."))
 
     lead = (f"La mitad de los pisos alquilados en {esc(nombre)} cuesta menos de {n(c['alquiler_mes'])} € al mes. "
             f"Al año, ese alquiler equivale al {d(c['alquiler_pct_renta'])} % de la renta media de un hogar "
@@ -283,6 +351,13 @@ def pagina_ciudad(c, todas, rank_n):
     rel += f'<div><h3>Ciudades con un peso del alquiler parecido</h3><ul class="lnk">{lnk(cerca)}</ul></div>'
     sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2><div class="two">{rel}</div></section>')
 
+    # puesto en cada ranking, con enlace a la fila de la ciudad
+    lis = "".join(
+        f'<li><a href="{root}rankings/{s}/#c-{c["slug"]}">{esc({"eur_m2": "Alquiler por m²"}.get(k, ETIQ[k]))}: {FMT[k](c[k])}</a>'
+        f'<span>puesto {r[k]} de {rank_n[k]}</span></li>' for s, k, t, _ in RANKINGS)
+    sec.append(f'<section id="rankings"><h2>{esc(nombre)} en los rankings</h2>'
+               f'<p class="sub">El puesto 1 es la ciudad con el valor más alto.</p><ul class="lnk">{lis}</ul></section>')
+
     # metodología
     nav.append(("#metodologia", "Metodología"))
     sec.append('<section id="metodologia"><h2>Cómo leer estos datos</h2><ul class="notes">'
@@ -297,7 +372,13 @@ def pagina_ciudad(c, todas, rank_n):
     cuerpo = (cabecera(root, nav) +
               f'<div class="hero"><div id="resumen"><h1>{"Alquiler y renta por distrito en " if dist else "Alquiler y renta en "}{esc(nombre)}</h1>'
               f'<p class="lead">{lead}</p>{facts}</div></div><main>{"".join(sec)}{pie(root)}</main>')
-    return head(titulo, desc, root, f"{c['slug']}/") + cuerpo + fin(root, mapa_js)
+    ruta = f"{c['slug']}/"
+    ld = [dataset(f"Alquiler y renta en {nombre}", desc, ruta, f"{nombre}, {c['provincia']}, España",
+                  ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"]
+                  + (["Desglose por distrito censal"] if dist else []),
+                  f"{ser[0][0]}/{ser[-1][0]}" if ser else "2024"),
+          migas([("Inicio", ""), (nombre, ruta)])]
+    return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root, mapa_js)
 
 
 # ------------------------------------------------------------------ rankings
@@ -320,7 +401,7 @@ def pagina_ranking(slug, clave, titulo, def_, todas, rank_n):
     orden = sorted(todas, key=lambda c: c["rank"][clave])
     f = FMT[clave]
     filas = "".join(
-        f'<tr><td data-v="{i}">{i}</td><th scope="row" data-v="{esc(c["nombre"])}"><a href="{root}{c["slug"]}/">{esc(c["nombre"])}</a></th>'
+        f'<tr id="c-{c["slug"]}"><td data-v="{i}">{i}</td><th scope="row" data-v="{esc(c["nombre"])}"><a href="{root}{c["slug"]}/">{esc(c["nombre"])}</a></th>'
         f'<td data-v="{esc(c["provincia"])}">{esc(c["provincia"])}</td><td data-v="{c["poblacion"] or ""}">{n(c["poblacion"])}</td>'
         f'<td data-v="{c["alquiler_mes"] or ""}">{n(c["alquiler_mes"])} €</td><td data-v="{c["eur_m2"] or ""}">{d(c["eur_m2"], 2)}</td>'
         f'<td data-v="{c["renta_hogar"] or ""}">{n(c["renta_hogar"])} €</td>'
@@ -329,7 +410,7 @@ def pagina_ranking(slug, clave, titulo, def_, todas, rank_n):
     top = ", ".join(f'{esc(c["nombre"])} ({f(c[clave])})' for c in orden[:5])
     bot = ", ".join(f'{esc(c["nombre"])} ({f(c[clave])})' for c in orden[:-6:-1])
     otros = "".join(f'<li><a href="{root}rankings/{s}/">{esc(t)}</a></li>' for s, k, t, _ in RANKINGS if s != slug)
-    desc = f"{titulo} en 2024. {def_}"
+    desc = f"{titulo} en 2024, con datos oficiales de las {len(todas)} ciudades españolas de más de {MIN_POB} habitantes."
     cuerpo = (cabecera(root, [("#tabla", "Tabla")]) +
               f'<div class="hero"><div><h1>{esc(titulo)} (2024)</h1><p class="lead">{esc(def_)}</p>'
               f'<p class="sub"><strong>Mayor:</strong> {top}.<br><strong>Menor:</strong> {bot}.</p></div></div>'
@@ -340,7 +421,10 @@ def pagina_ranking(slug, clave, titulo, def_, todas, rank_n):
               f'<section><h2>Otros rankings</h2><ul class="lnk">{otros}</ul></section>'
               f'<p class="proto">Las cifras de zonas con mucho alquiler turístico o segunda residencia (costa, islas) pueden no reflejar lo que paga quien llega de fuera.</p>'
               f'{pie(root)}</main>')
-    return head(f"{titulo} (2024) | {SITIO}", desc, root, f"rankings/{slug}/") + cuerpo + fin(root)
+    ruta = f"rankings/{slug}/"
+    ld = [dataset(f"{titulo} (2024)", desc, ruta, "España", [ETIQ[clave]]),
+          migas([("Inicio", ""), (titulo, ruta)])]
+    return head(f"{titulo} (2024)", desc, root, ruta, ld) + cuerpo + fin(root)
 
 
 # ------------------------------------------------------------------ portada
@@ -367,7 +451,10 @@ def pagina_indice(todas, rank_n):
               f'<div><h3>Menos peso sobre la renta</h3><ol class="lnk">{li(orden[:-6:-1])}</ol></div></div></section>'
               f'<section id="ciudades"><h2>Todas las ciudades</h2><p class="sub" id="cuenta">{N} ciudades</p>'
               f'<ul class="todas" id="lista">{lista}</ul></section>{pie(root)}</main>')
-    return head(f"Alquiler y renta en las ciudades de España (2024) | {SITIO}", desc, root, "") + cuerpo + fin(root)
+    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "url": url_abs(""), "inLanguage": "es"},
+          dataset(f"Alquiler y renta en {N} ciudades de España", desc, "", "España",
+                  ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"])]
+    return head(f"Alquiler y renta por ciudad en España (2024) | {SITIO}", desc, root, "", ld) + cuerpo + fin(root)
 
 
 # ------------------------------------------------------------------ recursos estáticos
@@ -533,7 +620,9 @@ def escribir(ruta, texto):
 
 
 def main():
+    global FECHA_GEN
     datos = json.loads(DATOS.read_text(encoding="utf-8"))
+    FECHA_GEN = datos.get("generado", "")
     todas = [c for c in datos["ciudades"] if c.get("alquiler_pct_renta") is not None and c.get("renta_hogar") and c.get("alquiler_mes")]
     omitidas = len(datos["ciudades"]) - len(todas)
     # rankings (1 = valor más alto)
@@ -549,6 +638,9 @@ def main():
         shutil.rmtree(WEB)
     escribir(WEB / "assets" / "estilo.css", CSS)
     escribir(WEB / "assets" / "app.js", JS)
+    for nombre_rec in ("og.png", "favicon.png", "favicon.ico"):
+        if (RECURSOS / nombre_rec).exists():
+            shutil.copy(RECURSOS / nombre_rec, WEB / nombre_rec)
     escribir(WEB / "index.html", pagina_indice(todas, rank_n))
     for slug, clave, titulo, df in RANKINGS:
         escribir(WEB / "rankings" / slug / "index.html", pagina_ranking(slug, clave, titulo, df, todas, rank_n))
@@ -559,7 +651,7 @@ def main():
     robots = "User-agent: *\nAllow: /\n"
     if BASE_URL:
         mapa = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                + "".join(f"<url><loc>{BASE_URL}/{u}</loc></url>\n" for u in urls) + "</urlset>\n")
+                + "".join(f"<url><loc>{BASE_URL}/{u}</loc>" + (f"<lastmod>{FECHA_GEN}</lastmod>" if FECHA_GEN else "") + "</url>\n" for u in urls) + "</urlset>\n")
         escribir(WEB / "sitemap.xml", mapa)
         robots += f"Sitemap: {BASE_URL}/sitemap.xml\n"
     escribir(WEB / "robots.txt", robots)

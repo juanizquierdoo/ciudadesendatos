@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 18/11/2026: Mejoras SEO (auditoría SEO, prioridades 1 a 3)
+Hecho (en `generar_web.py`; copia previa en `_copias/2026-11-18/`):
+- Títulos de ciudad más cortos (todos ≤ 60 caracteres), con el nombre más usado al buscar (Alicante, Elche, Castellón de la Plana, Ibiza…). El H1 mantiene el nombre oficial del INE. Rankings sin el sufijo de marca.
+- La descripción ya no dice "Datos oficiales por distrito" en las 21 ciudades sin desglose. Descripción de los rankings ≤ 160 caracteres.
+- Datos estructurados JSON-LD: Dataset en todas las páginas (fuentes, periodo, lugar, fecha), WebSite en la portada y BreadcrumbList (esta solo cuando haya BASE_URL, porque Google pide URL absoluta).
+- og:locale y og:site_name siempre; og:url, og:image (1200×630) y twitter:card cuando haya BASE_URL. Sitemap con `<lastmod>`.
+- Favicon como archivo (`favicon.png` 48×48 y `favicon.ico`). Imágenes en `recursos/`, creadas con `crear_imagenes.py` (necesita Pillow solo si se quieren rehacer).
+- Cada ficha tiene un bloque "X en los rankings" con su puesto en los 4 rankings, enlazado a su fila (`#c-<slug>`).
+- Nuevo `tests/test_seo.py` (10 comprobaciones). `ejecutar_tests.py`: 12 OK, 0 FALLA, 1 PENDIENTE (B-01).
+
+
 ## 18/11/2026: Fase 0, auditoría
 Hecho:
 - Repositorio git local (rama `main`). Primer commit con el estado anterior a cualquier cambio. `.gitignore` deja fuera `datos_originales/` y los dos intermedios pesados. `.gitattributes` normaliza los saltos de línea.

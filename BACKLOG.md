@@ -10,7 +10,7 @@ Estado: pendiente / en curso / hecho.
 | B-02 | A | Confirmar la licencia del fichero SERPAVI con una URL oficial y guardarla en FUENTES.md | El PDF del SERPAVI dice "Todos los derechos reservados" (se refiere a la publicación PDF, no necesariamente a la base de datos). INSTRUCCIONES dice que la reutilización está permitida, pero no hay enlace registrado. Otros conjuntos del mismo ministerio en datos.gob.es son CC BY 4.0 | pendiente |
 | B-03 | A | Publicar: elegir dominio, BASE_URL, GitHub Pages, sitemap y canonical | Sin publicar no hay visitas | pendiente |
 | B-04 | A | Páginas legales: aviso legal, privacidad y cookies; metodología y "sobre el proyecto" como páginas propias | LSSI y RGPD; además dan confianza (E-E-A-T). No es asesoramiento legal | pendiente |
-| B-05 | B | Acortar el título de 37 páginas de ciudad que pasan de 70 caracteres (p. ej. Castelló de la Plana, 100) | Google los corta en los resultados. El test `titulo_largo` está en PENDIENTE | pendiente |
+| B-05 | B | Acortar el título de 37 páginas de ciudad que pasan de 70 caracteres (p. ej. Castelló de la Plana, 100) | Google los corta en los resultados. El test `titulo_largo` está en PENDIENTE | hecho 18/11/2026 (títulos de ciudad ≤ 60 caracteres con el nombre común; test `test_seo.py`) |
 | B-06 | A | Medición: Google Search Console y una analítica sin cookies | Para medir la demanda real y no suponerla | pendiente |
 | B-07 | A | Crear `actualizar.py`, que ejecute el pipeline completo y los tests con un solo comando | Lo piden las instrucciones; reduce errores | pendiente |
 
@@ -25,6 +25,10 @@ Estado: pendiente / en curso / hecho.
 | B-13 | B | Revisar el ranking "peso del alquiler": los 8 primeros son de Málaga y casi todos de costa | Puede inducir a error (renta de residentes frente a demanda de fuera). Valorar un aviso destacado o separar los municipios turísticos | pendiente |
 | B-14 | C | Probar la web en Firefox, Safari y un móvil real | Ya está probada en Chromium (escritorio y móvil, 18/11/2026); faltan los demás navegadores | pendiente |
 | B-15 | C | Normalizar los saltos de línea (`.gitattributes`) | Al generar en Linux y en Windows, git ve todos los archivos como cambiados | hecho 18/11/2026 |
+| B-16 | A | Decidir la licencia de nuestros propios datos y textos (p. ej. CC BY 4.0) y añadirla al pie y al campo `license` del Dataset | Google recomienda `license` en los datos estructurados de tipo Dataset; hoy se omite porque no está decidida | pendiente |
+| B-17 | B | SEO de contenido (auditoría SEO, prioridad 4): cambio 2023→2024, rango p25-p75 de €/m², comparación con la mediana de las 151 ciudades y con la provincia, quitar la sección "Distritos" vacía en las 21 ciudades sin desglose | Fichas menos de plantilla, con datos que ya tenemos | pendiente |
+| B-18 | B | Páginas por comunidad autónoma o por provincia con 3 o más ciudades, con miga de pan visible | Enlazado interno y búsquedas por zona; necesita ficha y aprobación | pendiente |
+| B-19 | B | Al publicar: comprobar 2-3 páginas con la prueba de resultados enriquecidos de Google y la vista previa de enlaces (og:image) | Los datos estructurados y la imagen solo se han comprobado con tests locales | pendiente |
 
 ## Funcionalidades candidatas
 El ranking puntuado está en INFORME_FASE0.md. Cada una necesita su ficha y la aprobación de Juan antes de empezar.

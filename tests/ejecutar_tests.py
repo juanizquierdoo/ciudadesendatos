@@ -35,7 +35,6 @@ REFERENCIA = {
 
 # Fallos conocidos que todavía no se han arreglado (id de comprobación -> motivo)
 PENDIENTES = {
-    "titulo_largo": "B-05 en BACKLOG.md: acortar el título de las ciudades con nombre largo",
     "fecha_actualizacion": "B-01 en BACKLOG.md: el pie no indica la fecha de actualización que piden las licencias",
 }
 
