@@ -1,0 +1,8 @@
+# Datos originales: solo lectura, muy pesados (se descargan de las fuentes)
+datos_originales/
+# Intermedios pesados que regenera procesar_nacional.py
+datos_limpios/renta_nacional_largo.csv
+datos_limpios/demografia_municipios_2024.csv
+__pycache__/
+*.pyc
+.pytest_cache/

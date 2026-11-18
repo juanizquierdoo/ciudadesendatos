@@ -1,0 +1,26 @@
+ALQUILER - SERPAVI (Ministerio de Vivienda y Agenda Urbana)
+Archivo: Datos_municipios_2024.xlsx (BD SERPAVI 2011-2024, v2)
+Periodo: 2011-2024. Metadatos corregidos el 08/07/2026.
+Origen: declaraciones IRPF (Modelo 100), alquiler de vivienda habitual
+        (excluye alquileres a familiares).
+Niveles: CCAA, provincia, municipio, distrito, seccion censal.
+Medidas: mediana de alquiler mensual (EUR/m2 y EUR total), percentiles 25 y 75,
+         superficie mediana y numero de inmuebles.
+Pendiente: licencia / aviso legal sobre reutilizacion.
+Pendiente: nombres de distritos (el archivo solo trae codigos).
+
+RENTA - ADRH (INE), Atlas de Distribucion de Renta de los Hogares
+Año: 2024 (definitivo). Nota de prensa del 19/10/2026.
+Origen: datos tributarios (AEAT, Haciendas Forales, Nastat).
+Niveles: seccion censal, distrito, municipio, provincia, CCAA.
+Medidas: renta neta media por persona y por hogar, renta mediana por
+         unidad de consumo, renta bruta media.
+Licencia: CC BY-SA 4.0 (segun pie de pagina del INE). Pendiente confirmar
+          el Aviso legal para datos estadisticos.
+
+SALARIOS - EAES (INE), Encuesta Anual de Estructura Salarial
+Año: 2024 (definitivo). Nota de prensa del 28/05/2026.
+Origen: Seguridad Social + Modelo 190 IRPF + encuesta de ocupacion.
+Niveles: solo nacional y CCAA. Ocupacion y sector: solo nacional.
+Medidas: ganancia bruta anual media por trabajador (tambien mediana nacional).
+Licencia: CC BY-SA 4.0 (segun pie de pagina del INE).
