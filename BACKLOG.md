@@ -6,7 +6,7 @@ Estado: pendiente / en curso / hecho.
 ## Antes de publicar (Fase 1)
 | Id | Prio | Tarea | Por qué | Estado |
 |---|---|---|---|---|
-| B-01 | A | Añadir al pie de cada página la fecha de actualización de cada fuente (ADRH: nota de prensa 19/10/2026; SERPAVI: metadatos 08/07/2026) y la fecha de generación de la web | El Aviso legal del INE y las condiciones generales de reutilización piden mencionar la fecha de actualización cuando figura en el original. El test `fecha_actualizacion` está en PENDIENTE | pendiente |
+| B-01 | A | Añadir al pie de cada página la fecha de actualización de cada fuente (ADRH: nota de prensa 19/10/2026; SERPAVI: metadatos 08/07/2026) y la fecha de generación de la web | El Aviso legal del INE y las condiciones generales de reutilización piden mencionar la fecha de actualización cuando figura en el original. El test `fecha_actualizacion` está en PENDIENTE | hecho 18/11/2026 (pie con la fecha de cada fuente y de generación; constantes FECHA_SERPAVI y FECHA_ADRH en generar_web.py) |
 | B-02 | A | Confirmar la licencia del fichero SERPAVI con una URL oficial y guardarla en FUENTES.md | El PDF del SERPAVI dice "Todos los derechos reservados" (se refiere a la publicación PDF, no necesariamente a la base de datos). INSTRUCCIONES dice que la reutilización está permitida, pero no hay enlace registrado. Otros conjuntos del mismo ministerio en datos.gob.es son CC BY 4.0 | pendiente |
 | B-03 | A | Publicar: elegir dominio, BASE_URL, GitHub Pages, sitemap y canonical | Sin publicar no hay visitas | pendiente |
 | B-04 | A | Páginas legales: aviso legal, privacidad y cookies; metodología y "sobre el proyecto" como páginas propias | LSSI y RGPD; además dan confianza (E-E-A-T). No es asesoramiento legal | pendiente |

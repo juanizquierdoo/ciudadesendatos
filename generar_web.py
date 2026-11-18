@@ -18,6 +18,9 @@ WEB = base / "web"
 BASE_URL = ""          # p. ej. "https://ciudadesendatos.es" (sin barra final). Vacío = sin sitemap ni canonical.
 SITIO = "ciudadesendatos"
 MIN_POB = "50.000"
+# Fecha de actualización de cada fuente (la piden sus licencias). Cambiarla al cargar datos nuevos.
+FECHA_SERPAVI = "08/07/2026"   # metadatos corregidos de la BD SERPAVI 2011-2024
+FECHA_ADRH = "19/10/2026"      # nota de prensa del ADRH 2024 (INE)
 RECURSOS = base / "recursos"   # og.png, favicon.png, favicon.ico (se crean con crear_imagenes.py)
 FECHA_GEN = ""                 # se rellena en main() con el campo "generado" del JSON
 
@@ -163,11 +166,17 @@ def cabecera(root, extra):
 
 
 def pie(root):
-    return ("<footer>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de 2024). "
+    return (f"<footer>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de 2024; actualizado el {FECHA_SERPAVI}). "
             "Renta y población: Elaboración propia con datos extraídos del sitio web del INE: www.ine.es "
-            "(Atlas de Distribución de Renta de los Hogares, 2024). "
+            f"(Atlas de Distribución de Renta de los Hogares, 2024; actualizado el {FECHA_ADRH}). "
             "Los indicadores combinados, como el alquiler sobre la renta, son estimaciones propias de "
-            f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda.</footer>")
+            f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda."
+            + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "") + "</footer>")
+
+
+def fecha_es(iso):
+    a, m, d_ = iso.split("-")
+    return f"{d_}/{m}/{a}"
 
 
 def head(titulo, desc, root, ruta, ld=()):

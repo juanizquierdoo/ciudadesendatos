@@ -8,7 +8,8 @@ Hecho (en `generar_web.py`; copia previa en `_copias/2026-11-18/`):
 - og:locale y og:site_name siempre; og:url, og:image (1200×630) y twitter:card cuando haya BASE_URL. Sitemap con `<lastmod>`.
 - Favicon como archivo (`favicon.png` 48×48 y `favicon.ico`). Imágenes en `recursos/`, creadas con `crear_imagenes.py` (necesita Pillow solo si se quieren rehacer).
 - Cada ficha tiene un bloque "X en los rankings" con su puesto en los 4 rankings, enlazado a su fila (`#c-<slug>`).
-- Nuevo `tests/test_seo.py` (10 comprobaciones). `ejecutar_tests.py`: 12 OK, 0 FALLA, 1 PENDIENTE (B-01).
+- B-01: el pie indica la fecha de actualización de cada fuente (SERPAVI 08/07/2026, ADRH 19/10/2026) y la fecha de generación de la página.
+- Nuevo `tests/test_seo.py` (11 comprobaciones, incluida una que exige las dos fechas en el pie y ninguna llave sin rellenar). `ejecutar_tests.py`: 13 OK, 0 FALLA, 0 PENDIENTE.
 
 
 ## 18/11/2026: Fase 0, auditoría

@@ -35,7 +35,6 @@ REFERENCIA = {
 
 # Fallos conocidos que todavía no se han arreglado (id de comprobación -> motivo)
 PENDIENTES = {
-    "fecha_actualizacion": "B-01 en BACKLOG.md: el pie no indica la fecha de actualización que piden las licencias",
 }
 
 resultados = []

@@ -117,6 +117,16 @@ else:
     comprobar("Sin dominio todavía: no hay canonical ni og:image con dirección relativa",
               [r or "portada" for r, s in paginas.items() if 'rel="canonical"' in s or 'og:image' in s])
 
+# el pie no deja plantillas sin rellenar (p. ej. "{FECHA_SERPAVI}") y cita la fecha de cada fuente
+errores = []
+for r, s in paginas.items():
+    pie_ = campo(r"<footer>(.*?)</footer>", s) or ""
+    if "{" in pie_ or "}" in pie_:
+        errores.append(f"{r or 'portada'}: llaves sin rellenar en el pie")
+    if len(re.findall(r"actualizado el \d{2}/\d{2}/\d{4}", pie_)) < 2:
+        errores.append(f"{r or 'portada'}: el pie no da la fecha de las dos fuentes")
+comprobar("El pie cita la fecha de actualización de cada fuente, sin llaves sin rellenar", errores)
+
 total_falla = resultados.count("FALLA")
 print(f"\n{len(resultados) - total_falla} OK, {total_falla} FALLA")
 sys.exit(1 if total_falla else 0)
