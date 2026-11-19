@@ -14,7 +14,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 | Ciudades con página (más de 50.000 hab., alquiler fiable) | 151 |
 | Ciudades con desglose por distrito | 130 (843 distritos) |
 | Distritos con nombre oficial | 50 (Madrid 21, Valencia 19, Barcelona 10) |
-| Páginas de la web | 156: portada, 4 rankings, 151 ciudades |
+| Páginas de la web | 170: portada, 4 rankings, índice de comunidades, 13 comunidades y 151 ciudades |
 | Mapa | Solo Madrid (esquemático, no son los límites reales) |
 | Publicada | **En preparación**. Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
 | Páginas legales y analítica | No existen |
@@ -26,6 +26,7 @@ Desde la carpeta del proyecto, en este orden:
 python procesar_nacional.py    # lee los CSV grandes del INE por trozos -> renta_nacional_largo.csv, demografia_municipios_2024.csv
 python unir_nacional.py        # une renta, demografía y SERPAVI -> municipios_2024.csv, distritos_2024.csv
 python preparar_json.py        # selecciona las ciudades -> ciudades_nivel1.json (comprueba los valores de referencia)
+python preparar_comunidades.py # alquiler por comunidad (SERPAVI, hoja CCAA) -> comunidades.json
 python generar_web.py          # genera web/ (se borra y se rehace entera)
 python tests/ejecutar_tests.py # comprobaciones automáticas
 ```
@@ -70,3 +71,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Hosting: GitHub Pages, publicado por GitHub Actions desde la carpeta `web/` de la rama main (`.github/workflows/publicar.yml`). Para actualizar la web: `python actualizar.py`, commit y `git push`.
 - DNS en DonDominio: 4 registros A a 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 (y AAAA 2606:50c0:8000::153 … 8003::153) para el dominio raíz, y CNAME `www` -> juanizquierdoo.github.io.
 - Después de publicar: HTTPS obligatorio en Pages, verificar el dominio en GitHub, alta en Search Console con el sitemap, páginas legales y analítica (resto de la Fase 1), B-19.
+
+## Páginas por comunidad autónoma (19/11/2026)
+- Hecho B-18 (Juan lo aprobó en el hilo). Solo hay página para comunidades con 3 o más ciudades (constante MIN_CIUDADES_CCAA en generar_web.py). Las URL son /comunidades/<nombre>/; los nombres de la URL y el nombre corto están en CCAA_INFO.
+- Siguiente: medir en Search Console (B-25) antes de hacer páginas por provincia (B-24).

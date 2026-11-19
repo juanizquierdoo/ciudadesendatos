@@ -93,4 +93,9 @@ tbody th{font-weight:600}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
 .todas strong{grid-row:1/3;grid-column:2;align-self:center;font-variant-numeric:tabular-nums}
+.ccaa td:nth-child(2){text-align:left}
+.migas{font-size:14px;color:var(--muted);margin:0 0 12px}
+.migas a{color:var(--muted)}
+.lnk.cols{columns:2 300px;column-gap:28px;border-top:0}
+.lnk.cols li{break-inside:avoid}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;max-width:76ch}

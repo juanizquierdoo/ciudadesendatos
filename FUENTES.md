@@ -17,6 +17,7 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
   - Excepción: el PDF `SERPAVI2026...pdf` dice expresamente "Todos los derechos reservados". Es una indicación en contrario para ese PDF, así que **el PDF no se reproduce**. La base de datos en Excel no lleva esa mención.
   - El aviso legal de la sede electrónica (mivau.sede.gob.es) es más restrictivo, pero se refiere a la sede, no al portal desde el que se descarga el SERPAVI.
 - **Cita que usamos:** "Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de 2024)".
+- **Nivel comunidad autónoma (desde 19/11/2026):** hoja "CCAA" del mismo fichero, columnas de vivienda colectiva (`ALQTBID12_M_VC`, `ALQM2_LV_*_VC`, `BI_ALVHEPCO_TVC`). Misma licencia y cita. Navarra tiene serie desde 2021 y el País Vasco solo 2024 (régimen foral). La relación provincia → comunidad usa los códigos del INE que trae el propio fichero y se comprueba sumando los inmuebles de las provincias (`preparar_comunidades.py`).
 - **Condiciones:** indicar la fecha (pendiente, B-01), no desnaturalizar el sentido de los datos, no sugerir patrocinio y no usar sus logotipos.
 
 ### 2. Renta: Atlas de Distribución de Renta de los Hogares (ADRH), INE

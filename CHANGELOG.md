@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 19/11/2026: Páginas por comunidad autónoma (B-18)
+- Nuevo paso del pipeline `preparar_comunidades.py` (entre preparar_json y generar_web; ya incluido en `actualizar.py`): lee la hoja CCAA del SERPAVI y escribe `datos_limpios/comunidades.json` con el alquiler mediano, €/m², percentiles y la serie 2011-2024 de cada comunidad. La relación provincia → comunidad (códigos del INE) se comprueba con el propio fichero: la suma de inmuebles de las provincias coincide con el total de la comunidad en los 243 pares comunidad-año.
+- Nueva página `/comunidades/` (tabla de las 17 comunidades y Ceuta y Melilla: alquiler, €/m², cambio desde 2019 y sus ciudades) y 13 páginas `/comunidades/<nombre>/` para las comunidades con 3 o más ciudades: tabla ordenable de sus ciudades (alquiler, €/m², cambio desde 2019, renta, peso del alquiler), gráfico de evolución, aviso turístico en las de costa, enlaces a las demás y metodología. Aragón, Cantabria, Navarra, La Rioja, Ceuta y Melilla no tienen página propia (menos de 3 ciudades): la tabla enlaza directamente a sus ciudades.
+- Fichas de ciudad: miga de pan visible (Inicio › Comunidad › Ciudad) y en JSON-LD, y una frase que compara su alquiler con el de toda su comunidad, con enlace. Portada: bloque "Por comunidad autónoma". Menú: enlace "Comunidades" en todas las páginas.
+- Sitemap: 170 URL (antes 156).
+- Nuevo `tests/test_comunidades.py` (8 comprobaciones: valores de referencia por comunidad, una página por comunidad con exactamente sus ciudades, migas de pan, comparación en cada ficha, índice y sitemap completo). `ejecutar_tests.py`: 16 OK, 0 FALLA, 0 PENDIENTE.
+- Prueba en Chromium (escritorio 1280 px y móvil 390 px): sin scroll horizontal, tablas ordenables y sin errores de JavaScript, 20 de 20 OK. Firefox, Safari y móvil real siguen sin probar (B-14).
+
 ## 19/11/2026: Preparada la publicación en ciudadesendatos.es (B-03, Fase 1)
 - Juan compró el dominio ciudadesendatos.es (DonDominio, sin hosting). Se publica con GitHub Pages.
 - `generar_web.py`: BASE_URL = https://ciudadesendatos.es. Con ello se activan sitemap.xml (156 URL), la línea Sitemap en robots.txt, canonical, og:url, og:image y la miga de pan en JSON-LD. Escribe también `web/CNAME`.

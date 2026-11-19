@@ -30,6 +30,35 @@ FECHA_GEN = ""                 # se rellena en main() con el campo "generado" de
 # Por defecto, en los nombres oficiales con barra se usa la forma en castellano (la segunda).
 NOMBRE_COMUN = {"Pamplona/Iruña": "Pamplona", "Eivissa": "Ibiza"}
 
+# ---- Comunidades autónomas (B-18). Datos: datos_limpios/comunidades.json (preparar_comunidades.py, SERPAVI)
+DATOS_CCAA = base / "datos_limpios" / "comunidades.json"
+MIN_CIUDADES_CCAA = 3   # solo hay página de comunidad si tiene al menos 3 ciudades (regla 8: nada de páginas flojas)
+# código INE -> (slug de la URL, nombre que más se usa al buscar, forma con "en")
+CCAA_INFO = {
+    "01": ("andalucia", "Andalucía", "en Andalucía"),
+    "02": ("aragon", "Aragón", "en Aragón"),
+    "03": ("asturias", "Asturias", "en Asturias"),
+    "04": ("islas-baleares", "Baleares", "en Baleares"),
+    "05": ("canarias", "Canarias", "en Canarias"),
+    "06": ("cantabria", "Cantabria", "en Cantabria"),
+    "07": ("castilla-y-leon", "Castilla y León", "en Castilla y León"),
+    "08": ("castilla-la-mancha", "Castilla-La Mancha", "en Castilla-La Mancha"),
+    "09": ("cataluna", "Cataluña", "en Cataluña"),
+    "10": ("comunidad-valenciana", "Comunidad Valenciana", "en la Comunidad Valenciana"),
+    "11": ("extremadura", "Extremadura", "en Extremadura"),
+    "12": ("galicia", "Galicia", "en Galicia"),
+    "13": ("comunidad-de-madrid", "Comunidad de Madrid", "en la Comunidad de Madrid"),
+    "14": ("region-de-murcia", "Región de Murcia", "en la Región de Murcia"),
+    "15": ("navarra", "Navarra", "en Navarra"),
+    "16": ("pais-vasco", "País Vasco", "en el País Vasco"),
+    "17": ("la-rioja", "La Rioja", "en La Rioja"),
+    "18": ("ceuta", "Ceuta", "en Ceuta"),
+    "19": ("melilla", "Melilla", "en Melilla"),
+}
+CCAA_COSTA = {"01", "03", "04", "05", "06", "09", "10", "12", "14", "16", "18", "19"}   # llevan el aviso turístico
+COMUNIDADES = {}     # se rellena en main(): código -> datos del JSON + ciudades + si tiene página
+PROV_CCAA = {}       # código de provincia -> código de comunidad
+
 # Fuentes de los datos (para los datos estructurados)
 FUENTES_LD = [
     {"@type": "Dataset", "name": "Sistema Estatal de Referencia del Precio del Alquiler de Vivienda (SERPAVI)",
@@ -82,6 +111,32 @@ def nombre_comun(c):
 
 def url_abs(ruta):
     return f"{BASE_URL}/{ruta}" if BASE_URL else None
+
+
+def de_(en):
+    """'en la Comunidad de Madrid' -> 'de la Comunidad de Madrid'; 'en el País Vasco' -> 'del País Vasco'."""
+    return "del " + en[6:] if en.startswith("en el ") else "de " + en[3:]
+
+
+def ccaa_de(c):
+    """Comunidad de una ciudad (o None si no hay datos de comunidades)."""
+    return COMUNIDADES.get(PROV_CCAA.get(c["cod_muni"][:2]))
+
+
+def migas_html(root, pasos, actual):
+    """Miga de pan visible: pasos = [(texto, ruta relativa a la raíz)]."""
+    enl = "".join(f'<a href="{root}{r}">{esc(t)}</a> › ' for t, r in pasos)
+    return f'<nav class="migas" aria-label="Miga de pan">{enl}<span aria-current="page">{esc(actual)}</span></nav>'
+
+
+def cambio_19(serie):
+    """Cambio del €/m² entre 2019 y ANIO, en %, o None si falta alguno de los dos años."""
+    m2 = {s["anio"]: s["eur_m2"] for s in serie if s.get("eur_m2") is not None}
+    return cambio(m2.get(2019), m2.get(ANIO))
+
+
+def pc_signo(x):
+    return "—" if x is None else ("+" if x > 0 else "") + d(x, 1) + " %"
 
 
 def jsonld(obj):
@@ -164,7 +219,8 @@ def chart_svg(pts, etiqueta):
 def cabecera(root, extra):
     enl = "".join(f'<a href="{h}">{esc(t)}</a>' for h, t in extra)
     return (f'<header class="top"><nav aria-label="Principal"><a class="brand" href="{root}">ciudades<b>en</b>datos</a>'
-            f'{enl}<a href="{root}rankings/peso-del-alquiler/">Rankings</a><a href="{root}#ciudades">Ciudades</a></nav></header>')
+            f'{enl}<a href="{root}rankings/peso-del-alquiler/">Rankings</a><a href="{root}comunidades/">Comunidades</a>'
+            f'<a href="{root}#ciudades">Ciudades</a></nav></header>')
 
 
 LICENCIA = "CC BY 4.0"
@@ -364,10 +420,18 @@ def pagina_ciudad(c, todas, rank_n):
     cerca = ordenadas[max(0, i - 3):i] + ordenadas[i + 1:i + 4]
     lnk = lambda arr: "".join(f'<li><a href="{root}{x["slug"]}/">{esc(x["nombre"])}</a><span>{pc(x["alquiler_pct_renta"])}</span></li>' for x in arr)
     rel = ""
+    cc = ccaa_de(c)
+    comp_ccaa = ""
+    if cc and cc.get("alquiler_mes"):
+        comp_ccaa = (f'<p class="sub">En el conjunto {de_(cc["en"])} (todos sus municipios, no solo las ciudades), el alquiler mediano de un piso '
+                     f'es de {n(cc["alquiler_mes"])} € al mes ({d(cc["eur_m2"], 2)} €/m²). En {esc(nombre)} es de {n(c["alquiler_mes"])} € '
+                     f'({d(c["eur_m2"], 2)} €/m²).'
+                     + (f' <a href="{root}comunidades/{cc["slug"]}/">Compara las {len(cc["ciudades"])} ciudades {de_(cc["en"])}</a>.' if cc["pagina"] else "")
+                     + '</p>')
     if prov:
         rel += f'<div><h3>Otras ciudades de {esc(c["provincia"])}</h3><ul class="lnk">{lnk(prov)}</ul></div>'
     rel += f'<div><h3>Ciudades con un peso del alquiler parecido</h3><ul class="lnk">{lnk(cerca)}</ul></div>'
-    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2><div class="two">{rel}</div></section>')
+    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2>{comp_ccaa}<div class="two">{rel}</div></section>')
 
     # puesto en cada ranking, con enlace a la fila de la ciudad
     lis = "".join(
@@ -387,15 +451,16 @@ def pagina_ciudad(c, todas, rank_n):
                '<li><strong>Zonas turísticas:</strong> donde hay mucha segunda residencia o alquiler turístico, la renta de los residentes y el alquiler '
                'de vivienda habitual pueden no reflejar lo que paga quien llega de fuera.</li></ul></section>')
 
+    pasos = [("Inicio", "")] + ([(cc["comun"], f'comunidades/{cc["slug"]}/')] if cc and cc["pagina"] else [])
     cuerpo = (cabecera(root, nav) +
-              f'<div class="hero"><div id="resumen"><h1>{"Alquiler y renta por distrito en " if dist else "Alquiler y renta en "}{esc(nombre)}</h1>'
+              f'<div class="hero"><div id="resumen">{migas_html(root, pasos, nombre)}<h1>{"Alquiler y renta por distrito en " if dist else "Alquiler y renta en "}{esc(nombre)}</h1>'
               f'<p class="lead">{lead}</p>{facts}</div></div><main>{"".join(sec)}{pie(root)}</main>')
     ruta = f"{c['slug']}/"
     ld = [dataset(f"Alquiler y renta en {nombre}", desc, ruta, f"{nombre}, {c['provincia']}, España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"]
                   + (["Desglose por distrito censal"] if dist else []),
                   f"{ser[0][0]}/{ser[-1][0]}" if ser else str(ANIO)),
-          migas([("Inicio", ""), (nombre, ruta)])]
+          migas([(t, r) for t, r in pasos] + [(nombre, ruta)])]
     return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root, mapa_js)
 
 
@@ -453,6 +518,15 @@ def aviso_turistico():
 
 
 # ------------------------------------------------------------------ portada
+def comunidades_portada():
+    cs = sorted([x for x in COMUNIDADES.values() if x["pagina"]], key=lambda x: norm(x["comun"]))
+    if not cs:
+        return ""
+    lis = "".join(f'<li><a href="comunidades/{x["slug"]}/">{esc(x["comun"])}</a><span>{len(x["ciudades"])} ciudades · {n(x.get("alquiler_mes"))} €/mes</span></li>' for x in cs)
+    return (f'<section id="comunidades"><h2>Por comunidad autónoma</h2><p class="sub">Alquiler mediano de toda la comunidad y número de ciudades. '
+            f'<a href="comunidades/">Ver la tabla de todas las comunidades</a>.</p><ul class="lnk cols">{lis}</ul></section>')
+
+
 def pagina_indice(todas, rank_n):
     root = ""
     N = len(todas)
@@ -474,12 +548,164 @@ def pagina_indice(todas, rank_n):
               f'<section><h2>Dónde pesa más y menos el alquiler</h2><div class="two">'
               f'<div><h3>Más peso sobre la renta</h3><ol class="lnk">{li(orden[:5])}</ol></div>'
               f'<div><h3>Menos peso sobre la renta</h3><ol class="lnk">{li(orden[:-6:-1])}</ol></div></div>{aviso_turistico()}</section>'
+              + comunidades_portada() +
               f'<section id="ciudades"><h2>Todas las ciudades</h2><p class="sub" id="cuenta">{N} ciudades</p>'
               f'<ul class="todas" id="lista">{lista}</ul></section>{pie(root)}</main>')
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "url": url_abs(""), "inLanguage": "es"},
           dataset(f"Alquiler y renta en {N} ciudades de España", desc, "", "España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"])]
     return head(f"Alquiler y renta por ciudad en España ({ANIO}) | {SITIO}", desc, root, "", ld) + cuerpo + fin(root)
+
+
+# ------------------------------------------------------------------ comunidades autónomas (B-18)
+def metodologia_ccaa():
+    return ('<section id="metodologia"><h2>Cómo leer estos datos</h2><ul class="notes">'
+            f'<li><strong>Alquiler de la comunidad:</strong> mediana de los alquileres de vivienda habitual declarados en el IRPF de {ANIO} '
+            'en todos los municipios de la comunidad, solo pisos (SERPAVI). Incluye pueblos y ciudades pequeñas, así que suele ser más bajo '
+            'que el de las ciudades grandes. Son contratos vigentes, no anuncios.</li>'
+            f'<li><strong>Ciudades:</strong> solo las de más de {MIN_POB} habitantes con alquiler fiable (100 inmuebles o más).</li>'
+            '<li><strong>Renta:</strong> renta neta media por hogar del INE, por ciudad. No damos una renta de toda la comunidad porque '
+            'nuestro dato del INE es municipal.</li>'
+            '<li><strong>Alquiler sobre renta:</strong> alquiler mediano × 12 ÷ renta neta media del hogar. Estimación propia y aproximada, '
+            'útil para comparar ciudades entre sí.</li>'
+            '<li><strong>Navarra y País Vasco</strong> tienen régimen fiscal propio y su serie del SERPAVI empieza más tarde que la del resto.</li>'
+            '</ul></section>')
+
+
+def pagina_comunidad(cc, todas, rank_n):
+    root = "../../"
+    ciu = sorted(cc["ciudades"], key=lambda c: -c["alquiler_pct_renta"])
+    N = len(ciu)
+    nom, en = cc["comun"], cc["en"]
+    ruta = f'comunidades/{cc["slug"]}/'
+    alq = cc.get("alquiler_mes")
+    ch19 = cambio_19(cc["serie_alquiler"])
+
+    titulo = f"Precio del alquiler {en} por ciudad ({ANIO})"
+    if len(titulo) > 60:
+        titulo = f"Alquiler {en} por ciudad ({ANIO})"
+    desc = ((f"El alquiler mediano {en} es de {n(alq)} € al mes. " if alq else "")
+            + f"Alquiler, renta y peso del alquiler en sus {N} ciudades de más de {MIN_POB} habitantes ({ANIO}).")
+
+    por_alq = sorted(ciu, key=lambda c: -c["alquiler_mes"])
+    lead = (f"La mitad de los pisos alquilados como vivienda habitual {en} cuesta menos de {n(alq)} € al mes "
+            f"({d(cc['eur_m2'], 2)} €/m²), según los datos de toda la comunidad. " if alq else
+            f"No hay dato oficial fiable del alquiler de toda la comunidad. ")
+    lead += (f"Entre sus {N} ciudades de más de {MIN_POB} habitantes, el alquiler más alto está en {esc(por_alq[0]['nombre'])} "
+             f"({n(por_alq[0]['alquiler_mes'])} €) y el más bajo en {esc(por_alq[-1]['nombre'])} ({n(por_alq[-1]['alquiler_mes'])} €). "
+             f"El peso del alquiler sobre la renta va del {d(ciu[-1]['alquiler_pct_renta'])} % de {esc(ciu[-1]['nombre'])} "
+             f"al {d(ciu[0]['alquiler_pct_renta'])} % de {esc(ciu[0]['nombre'])}.")
+
+    rango = (f"de {d(cc['eur_m2_p25'], 2)} a {d(cc['eur_m2_p75'], 2)} €/m² la mitad central"
+             if cc.get("eur_m2_p25") and cc.get("eur_m2_p75") else "")
+    facts = (f'<dl class="facts">'
+             f'<div><dt>Alquiler mediano en toda la comunidad</dt><dd>{n(alq)} €/mes<small>{d(cc.get("eur_m2"), 2)} €/m²'
+             f'{", " + rango if rango else ""}</small></dd></div>'
+             f'<div><dt>Cambio del €/m² desde 2019</dt><dd class="big">{pc_signo(ch19)}<small>'
+             f'{"de " + d({s_["anio"]: s_["eur_m2"] for s_ in cc["serie_alquiler"]}[2019], 2) + " a " + d(cc["eur_m2"], 2) + " €/m²" if ch19 is not None else "no hay dato de 2019"}'
+             f'</small></dd></div>'
+             f'<div><dt>Ciudades de más de {MIN_POB} habitantes</dt><dd>{N}<small>{n(sum(c["poblacion"] for c in ciu))} habitantes en total</small></dd></div></dl>')
+
+    sec = []
+    nav = [("#ciudades", "Tabla"), ("#evolucion", "Evolución"), ("#metodologia", "Metodología")]
+
+    fv = lambda v: "" if v is None else f"{v:.2f}"
+    con_19 = any(cambio_19(c["serie_alquiler"]) is not None for c in ciu)
+    filas = []
+    for c in ciu:
+        ch = cambio_19(c["serie_alquiler"])
+        filas.append(f'<tr id="c-{c["slug"]}"><th scope="row" data-v="{esc(c["nombre"])}"><a href="{root}{c["slug"]}/">{esc(c["nombre"])}</a></th>'
+                     f'<td data-v="{esc(c["provincia"])}">{esc(c["provincia"])}</td>'
+                     f'<td data-v="{fv(c["alquiler_mes"])}">{n(c["alquiler_mes"])} €</td>'
+                     f'<td data-v="{fv(c["eur_m2"])}">{d(c["eur_m2"], 2)}</td>'
+                     + (f'<td data-v="{fv(ch)}">{pc_signo(ch)}</td>' if con_19 else "")
+                     + f'<td data-v="{fv(c["renta_hogar"])}">{n(c["renta_hogar"])} €</td>'
+                     f'<td data-v="{fv(c["alquiler_pct_renta"])}">{pc(c["alquiler_pct_renta"])}</td></tr>')
+    sec.append(f'<section id="ciudades"><h2>Las {N} ciudades {de_(en)}</h2>'
+               f'<p class="sub">Pulsa en una columna para ordenar.'
+               + (f' El cambio es el del alquiler por m² entre 2019 y {ANIO}.' if con_19 else "") + '</p>'
+               f'<div class="wrap"><table class="sortable ccaa" data-sort="{6 if con_19 else 5}"><thead><tr>{th_orden(0, "Ciudad", "text")}{th_orden(1, "Provincia", "text")}'
+               f'{th_orden(2, "Alquiler al mes")}{th_orden(3, "€/m²")}'
+               + (th_orden(4, "Cambio €/m² desde 2019") if con_19 else "")
+               + f'{th_orden(4 + con_19, "Renta del hogar")}{th_orden(5 + con_19, "Alquiler sobre renta")}</tr></thead>'
+               f'<tbody>{"".join(filas)}</tbody></table></div>'
+               + (aviso_turistico() if cc["cod_ccaa"] in CCAA_COSTA else "") + '</section>')
+
+    ser = [(s_["anio"], s_["eur_m2"]) for s_ in cc["serie_alquiler"]]
+    svg = chart_svg(ser, f"Evolución del alquiler mediano por m² {en}")
+    txt = []
+    if ch19 is not None:
+        txt.append(f"Desde 2019, el alquiler por m² {en} ha {'subido' if ch19 >= 0 else 'bajado'} un {d(abs(ch19), 0)} %.")
+    con_ch = [(cambio_19(c["serie_alquiler"]), c) for c in ciu]
+    con_ch = sorted([x for x in con_ch if x[0] is not None], key=lambda x: -x[0])
+    if len(con_ch) >= 2:
+        txt.append(f"Entre sus ciudades, donde más ha subido es {esc(con_ch[0][1]['nombre'])} ({pc_signo(con_ch[0][0])}) "
+                   f"y donde menos, {esc(con_ch[-1][1]['nombre'])} ({pc_signo(con_ch[-1][0])}).")
+    if svg:
+        sec.append(f'<section id="evolucion"><h2>Cómo ha cambiado el alquiler {en}</h2>'
+                   f'<p class="sub">Alquiler mediano de un piso en toda la comunidad, en euros por m² al mes.</p>{svg}'
+                   f'<p class="sub" style="margin-top:12px">{" ".join(txt)}</p></section>')
+    else:
+        sec.append(f'<section id="evolucion"><h2>Evolución</h2><p class="sub">La serie del SERPAVI {en} es demasiado corta para un gráfico. '
+                   f'{" ".join(txt)}</p></section>')
+
+    otras = sorted([x for x in COMUNIDADES.values() if x["pagina"] and x["cod_ccaa"] != cc["cod_ccaa"]], key=lambda x: norm(x["comun"]))
+    lis = "".join(f'<li><a href="{root}comunidades/{x["slug"]}/">{esc(x["comun"])}</a><span>{n(x.get("alquiler_mes"))} €/mes</span></li>' for x in otras)
+    sec.append(f'<section id="otras"><h2>Otras comunidades</h2><p class="sub">Alquiler mediano de toda la comunidad. '
+               f'<a href="{root}comunidades/">Ver la tabla de las 17 comunidades y 2 ciudades autónomas</a>.</p><ul class="lnk">{lis}</ul></section>')
+    sec.append(metodologia_ccaa())
+
+    pasos = [("Inicio", ""), ("Comunidades autónomas", "comunidades/")]
+    cuerpo = (cabecera(root, nav) +
+              f'<div class="hero"><div id="resumen">{migas_html(root, pasos, nom)}<h1>Alquiler y renta en las ciudades {de_(en)}</h1>'
+              f'<p class="lead">{lead}</p>{facts}</div></div><main>{"".join(sec)}{pie(root)}</main>')
+    ld = [dataset(f"Alquiler y renta {en} ({ANIO})", desc, ruta, f"{cc['nombre']}, España",
+                  ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"],
+                  f"{ser[0][0]}/{ser[-1][0]}" if ser else str(ANIO)),
+          migas(pasos + [(nom, ruta)])]
+    return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root)
+
+
+def pagina_comunidades(todas):
+    root = "../"
+    ruta = "comunidades/"
+    cs = [x for x in COMUNIDADES.values() if x.get("alquiler_mes")]
+    orden = sorted(cs, key=lambda x: -x["alquiler_mes"])
+    fv = lambda v: "" if v is None else f"{v:.2f}"
+    filas = []
+    for x in orden:
+        ch = cambio_19(x["serie_alquiler"])
+        nomb = (f'<a href="{root}comunidades/{x["slug"]}/">{esc(x["comun"])}</a>' if x["pagina"] else esc(x["comun"]))
+        if x["pagina"]:
+            ciud = f'<a href="{root}comunidades/{x["slug"]}/#ciudades">{len(x["ciudades"])}</a>'
+        else:
+            ciud = ", ".join(f'<a href="{root}{c["slug"]}/">{esc(c["nombre"])}</a>' for c in x["ciudades"]) or "—"
+        filas.append(f'<tr id="cc-{x["slug"]}"><th scope="row" data-v="{esc(x["comun"])}">{nomb}</th>'
+                     f'<td data-v="{fv(x["alquiler_mes"])}">{n(x["alquiler_mes"])} €</td>'
+                     f'<td data-v="{fv(x["eur_m2"])}">{d(x["eur_m2"], 2)}</td>'
+                     f'<td data-v="{fv(ch)}">{pc_signo(ch)}</td>'
+                     f'<td data-v="{len(x["ciudades"])}">{ciud}</td></tr>')
+    sube = sorted([(cambio_19(x["serie_alquiler"]), x) for x in cs if cambio_19(x["serie_alquiler"]) is not None], key=lambda t: -t[0])
+    desc = (f"Alquiler mediano de un piso en cada comunidad autónoma en {ANIO}, con datos oficiales del SERPAVI: "
+            f"de {n(orden[-1]['alquiler_mes'])} € {orden[-1]['en']} a {n(orden[0]['alquiler_mes'])} € {orden[0]['en']}.")
+    lead = (f"La mitad de los pisos alquilados como vivienda habitual cuesta menos de {n(orden[0]['alquiler_mes'])} € al mes {orden[0]['en']}, "
+            f"la comunidad más cara, y menos de {n(orden[-1]['alquiler_mes'])} € {orden[-1]['en']}, la más barata. "
+            + (f"Desde 2019, donde más ha subido el alquiler por m² es {sube[0][1]['en'][3:]} ({pc_signo(sube[0][0])}) "
+               f"y donde menos, {sube[-1][1]['en'][3:]} ({pc_signo(sube[-1][0])})." if len(sube) >= 2 else ""))
+    sin_pag = [x for x in COMUNIDADES.values() if not x["pagina"]]
+    nota = (f'<p class="proto">Solo tienen página propia las comunidades con {MIN_CIUDADES_CCAA} o más ciudades de más de {MIN_POB} habitantes. '
+            f'En el resto ({", ".join(x["comun"] for x in sorted(sin_pag, key=lambda x: norm(x["comun"])))}) enlazamos directamente sus ciudades.</p>'
+            if sin_pag else "")
+    cuerpo = (cabecera(root, [("#tabla", "Tabla")]) +
+              f'<div class="hero"><div>{migas_html(root, [("Inicio", "")], "Comunidades autónomas")}'
+              f'<h1>Alquiler por comunidad autónoma ({ANIO})</h1><p class="lead">{lead}</p>{aviso_turistico()}</div></div>'
+              f'<main><section id="tabla"><div class="wrap"><table class="sortable" data-sort="1"><thead><tr>'
+              f'{th_orden(0, "Comunidad", "text")}{th_orden(1, "Alquiler al mes")}{th_orden(2, "€/m²")}{th_orden(3, "Cambio €/m² desde 2019")}'
+              f'{th_orden(4, f"Ciudades de más de {MIN_POB} hab.")}</tr></thead><tbody>{"".join(filas)}</tbody></table></div>{nota}</section>'
+              f'{metodologia_ccaa()}{pie(root)}</main>')
+    ld = [dataset(f"Alquiler por comunidad autónoma ({ANIO})", desc, ruta, "España", ["Alquiler mensual mediano", "Alquiler mediano por m²"]),
+          migas([("Inicio", ""), ("Comunidades autónomas", ruta)])]
+    return head(f"Alquiler por comunidad autónoma en España ({ANIO})", desc, root, ruta, ld) + cuerpo + fin(root)
 
 
 # ------------------------------------------------------------------ recursos estáticos
@@ -578,6 +804,11 @@ tbody th{font-weight:600}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
 .todas strong{grid-row:1/3;grid-column:2;align-self:center;font-variant-numeric:tabular-nums}
+.ccaa td:nth-child(2){text-align:left}
+.migas{font-size:14px;color:var(--muted);margin:0 0 12px}
+.migas a{color:var(--muted)}
+.lnk.cols{columns:2 300px;column-gap:28px;border-top:0}
+.lnk.cols li{break-inside:avoid}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;max-width:76ch}
 """
 
@@ -660,6 +891,23 @@ def main():
             c.setdefault("rank", {})[k] = i
     todas = [c for c in todas if all(k in c["rank"] for k in rank_n)]
 
+    # comunidades autónomas (B-18)
+    COMUNIDADES.clear()
+    PROV_CCAA.clear()
+    if DATOS_CCAA.exists():
+        for x in json.loads(DATOS_CCAA.read_text(encoding="utf-8"))["comunidades"]:
+            slug, comun, en = CCAA_INFO[x["cod_ccaa"]]
+            x.update(slug=slug, comun=comun, en=en, ciudades=[])
+            COMUNIDADES[x["cod_ccaa"]] = x
+            PROV_CCAA.update({p_: x["cod_ccaa"] for p_ in x["provincias"]})
+        for c in todas:
+            COMUNIDADES[PROV_CCAA[c["cod_muni"][:2]]]["ciudades"].append(c)
+        for x in COMUNIDADES.values():
+            x["pagina"] = len(x["ciudades"]) >= MIN_CIUDADES_CCAA and bool(x.get("alquiler_mes"))
+    else:
+        print("AVISO: falta datos_limpios/comunidades.json (python preparar_comunidades.py). Sin páginas de comunidad.")
+    con_pagina = sorted([x for x in COMUNIDADES.values() if x["pagina"]], key=lambda x: x["cod_ccaa"])
+
     if WEB.exists():
         shutil.rmtree(WEB)
     escribir(WEB / "assets" / "estilo.css", CSS)
@@ -672,8 +920,14 @@ def main():
         escribir(WEB / "rankings" / slug / "index.html", pagina_ranking(slug, clave, titulo, df, todas, rank_n))
     for c in todas:
         escribir(WEB / c["slug"] / "index.html", pagina_ciudad(c, todas, rank_n))
+    if COMUNIDADES:
+        escribir(WEB / "comunidades" / "index.html", pagina_comunidades(todas))
+    for x in con_pagina:
+        escribir(WEB / "comunidades" / x["slug"] / "index.html", pagina_comunidad(x, todas, rank_n))
 
-    urls = [""] + [f"rankings/{s}/" for s, *_ in RANKINGS] + [f"{c['slug']}/" for c in todas]
+    urls = ([""] + [f"rankings/{s}/" for s, *_ in RANKINGS]
+            + (["comunidades/"] if COMUNIDADES else []) + [f"comunidades/{x['slug']}/" for x in con_pagina]
+            + [f"{c['slug']}/" for c in todas])
     robots = "User-agent: *\nAllow: /\n"
     if BASE_URL:
         mapa = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -687,7 +941,7 @@ def main():
 
     print(f"Web generada en: {WEB}")
     print(f"  Páginas de ciudad: {len(todas)} (omitidas por falta de datos: {omitidas})")
-    print(f"  Rankings: {len(RANKINGS)} | Portada: 1 | Total de páginas: {len(urls)}")
+    print(f"  Rankings: {len(RANKINGS)} | Comunidades: {len(con_pagina)} + índice | Portada: 1 | Total de páginas: {len(urls)}")
     print("  Con mapa esquemático:", sum(1 for c in todas if c["cod_muni"] in TILE))
     print("  Sitemap:", "sí" if BASE_URL else "no (BASE_URL vacío; se creará cuando tengas dirección web)")
     print("\nPara verla en tu ordenador:  cd web   y luego   python -m http.server 8000")

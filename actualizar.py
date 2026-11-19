@@ -8,8 +8,9 @@ Pasos:
     1. procesar_nacional.py  lee los CSV grandes del INE (renta y demografía)
     2. unir_nacional.py      une renta, demografía y alquiler (SERPAVI)
     3. preparar_json.py      selecciona ciudades y comprueba los valores de referencia
-    4. generar_web.py        genera la carpeta web/
-    5. tests/ejecutar_tests.py
+    4. preparar_comunidades.py  alquiler oficial por comunidad autónoma (SERPAVI, hoja CCAA)
+    5. generar_web.py        genera la carpeta web/
+    6. tests/ejecutar_tests.py
 
 Se para en el primer paso que falle. El año de los datos se cambia en config.py.
 """
@@ -21,8 +22,8 @@ from pathlib import Path
 from config import ANIO
 
 BASE = Path(__file__).parent
-PASOS = ["procesar_nacional.py", "unir_nacional.py", "preparar_json.py", "generar_web.py",
-         "tests/ejecutar_tests.py"]
+PASOS = ["procesar_nacional.py", "unir_nacional.py", "preparar_json.py", "preparar_comunidades.py",
+         "generar_web.py", "tests/ejecutar_tests.py"]
 
 
 def main():
