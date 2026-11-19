@@ -57,5 +57,9 @@ Ver INSTRUCCIONES_PROYECTO.md, apartado "Decisiones tomadas". Añadidas en esta 
 ## Fase actual (actualizado)
 Fase 0 aprobada el 18/11/2026. Juan va a comprar un dominio. Corregidos los riesgos 2, 4 y 5; el 3 (nombres de distrito) está en curso, ciudad a ciudad.
 
-## Próximo paso (anterior)
-Que Juan revise INFORME_FASE0.md y apruebe (o reordene) la Fase 1.
+## Próximo paso (19/11/2026)
+Decidido por Juan: los nombres de distrito se continúan en otra sesión, por este orden:
+1. B-23: crear `verificar_distritos.py`, que compare las secciones censales (distrito + sección) de un fichero municipal con las del ADRH del INE y solo dé por buenos los nombres si coinciden todas, como se hizo con Barcelona.
+2. Añadir ciudades por tandas, empezando por las más grandes: Sevilla, Bilbao, Córdoba… (Málaga necesita comparar geometrías: B-22).
+3. B-20: documentar y verificar Madrid y Valencia.
+En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, páginas legales y medición).
