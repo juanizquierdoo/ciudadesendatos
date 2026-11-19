@@ -16,9 +16,9 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 | Distritos con nombre oficial | 50 (Madrid 21, Valencia 19, Barcelona 10) |
 | Páginas de la web | 156: portada, 4 rankings, 151 ciudades |
 | Mapa | Solo Madrid (esquemático, no son los límites reales) |
-| Publicada | **No**. BASE_URL está vacío, así que no hay sitemap ni canonical |
+| Publicada | **En preparación**. Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
 | Páginas legales y analítica | No existen |
-| Git | Repositorio local desde el 18/11/2026, sin remoto |
+| Git | Repositorio local desde el 18/11/2026. Remoto previsto: github.com/juanizquierdoo/ciudadesendatos (público, lo crea Juan) |
 
 ## Cómo se ejecuta
 Desde la carpeta del proyecto, en este orden:
@@ -64,3 +64,9 @@ Decidido por Juan: los nombres de distrito se continúan en otra sesión, por es
 2. Añadir ciudades por tandas, empezando por las más grandes: Sevilla, Bilbao, Córdoba… (Málaga necesita comparar geometrías: B-22).
 3. B-20: documentar y verificar Madrid y Valencia.
 En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, páginas legales y medición).
+
+## Publicación (19/11/2026)
+- Dominio: ciudadesendatos.es, comprado en DonDominio, solo dominio. Dirección principal sin www; www redirige.
+- Hosting: GitHub Pages, publicado por GitHub Actions desde la carpeta `web/` de la rama main (`.github/workflows/publicar.yml`). Para actualizar la web: `python actualizar.py`, commit y `git push`.
+- DNS en DonDominio: 4 registros A a 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 (y AAAA 2606:50c0:8000::153 … 8003::153) para el dominio raíz, y CNAME `www` -> juanizquierdoo.github.io.
+- Después de publicar: HTTPS obligatorio en Pages, verificar el dominio en GitHub, alta en Search Console con el sitemap, páginas legales y analítica (resto de la Fase 1), B-19.

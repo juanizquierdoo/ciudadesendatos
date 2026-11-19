@@ -17,7 +17,7 @@ base = Path(__file__).parent
 DATOS = base / "datos_limpios" / "ciudades_nivel1.json"
 WEB = base / "web"
 
-BASE_URL = ""          # p. ej. "https://ciudadesendatos.es" (sin barra final). Vacío = sin sitemap ni canonical.
+BASE_URL = "https://ciudadesendatos.es"   # sin barra final. Vacío = sin sitemap ni canonical.
 SITIO = "ciudadesendatos"
 MIN_POB = "50.000"
 # Fecha de actualización de cada fuente (la piden sus licencias). Cambiarla al cargar datos nuevos.
@@ -681,6 +681,9 @@ def main():
         escribir(WEB / "sitemap.xml", mapa)
         robots += f"Sitemap: {BASE_URL}/sitemap.xml\n"
     escribir(WEB / "robots.txt", robots)
+    if BASE_URL:
+        # GitHub Pages: dominio propio (sin https:// ni barra)
+        escribir(WEB / "CNAME", BASE_URL.split("://", 1)[1] + "\n")
 
     print(f"Web generada en: {WEB}")
     print(f"  Páginas de ciudad: {len(todas)} (omitidas por falta de datos: {omitidas})")

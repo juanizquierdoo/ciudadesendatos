@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 19/11/2026: Preparada la publicación en ciudadesendatos.es (B-03, Fase 1)
+- Juan compró el dominio ciudadesendatos.es (DonDominio, sin hosting). Se publica con GitHub Pages.
+- `generar_web.py`: BASE_URL = https://ciudadesendatos.es. Con ello se activan sitemap.xml (156 URL), la línea Sitemap en robots.txt, canonical, og:url, og:image y la miga de pan en JSON-LD. Escribe también `web/CNAME`.
+- Nuevo `.github/workflows/publicar.yml`: cada vez que se sube a main un cambio en web/, GitHub Actions publica esa carpeta en Pages. La web se sigue generando en el ordenador.
+- Tests: 15 OK, 0 FALLA, 0 PENDIENTE (incluye "Con dominio: canonical, og:url y og:image en todas las páginas").
+- Pendiente de Juan: crear el repositorio en GitHub, subir el código, activar Pages y poner los registros DNS en DonDominio.
+
 ## 19/11/2026: Licencia propia CC BY 4.0 (B-16)
 - Decisión de Juan: los datos elaborados y los textos de ciudadesendatos se publican con licencia CC BY 4.0. Los datos de origen mantienen la licencia de sus fuentes.
 - El pie de todas las páginas lo indica con enlace (`rel="license"`) y cada Dataset del JSON-LD lleva `license`. Constantes LICENCIA y LICENCIA_URL en `generar_web.py`.
