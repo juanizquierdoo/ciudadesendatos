@@ -110,7 +110,7 @@ def dataset(nombre, desc, ruta, lugar, variables, periodo=f"{ANIO_INICIO_ALQUILE
             "url": url_abs(ruta), "inLanguage": "es", "temporalCoverage": periodo,
             "spatialCoverage": {"@type": "Place", "name": lugar},
             "variableMeasured": variables, "dateModified": FECHA_GEN, "isBasedOn": FUENTES_LD,
-            "creator": {"@type": "Organization", "name": SITIO, "url": url_abs("")}}
+            "creator": {"@type": "Organization", "name": SITIO, "url": url_abs("")}, "license": LICENCIA_URL}
 
 
 # ------------------------------------------------------------------ gráfico SVG
@@ -167,12 +167,19 @@ def cabecera(root, extra):
             f'{enl}<a href="{root}rankings/peso-del-alquiler/">Rankings</a><a href="{root}#ciudades">Ciudades</a></nav></header>')
 
 
+LICENCIA = "CC BY 4.0"
+LICENCIA_URL = "https://creativecommons.org/licenses/by/4.0/deed.es"
+
+
 def pie(root):
     return (f"<footer>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de {ANIO}; actualizado el {FECHA_SERPAVI}). "
             "Renta y población: Elaboración propia con datos extraídos del sitio web del INE: www.ine.es "
             f"(Atlas de Distribución de Renta de los Hogares, {ANIO}; actualizado el {FECHA_ADRH}). "
             "Los indicadores combinados, como el alquiler sobre la renta, son estimaciones propias de "
-            f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda."
+            f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda. "
+            f'Los datos elaborados y los textos de {SITIO} se publican con licencia '
+            f'<a href="{LICENCIA_URL}" rel="license">{LICENCIA}</a>: puedes reutilizarlos citando {SITIO} con un enlace a esta web.'
+            " Los datos de origen mantienen la licencia de sus fuentes."
             + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "") + "</footer>")
 
 

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 19/11/2026: Licencia propia CC BY 4.0 (B-16)
+- Decisión de Juan: los datos elaborados y los textos de ciudadesendatos se publican con licencia CC BY 4.0. Los datos de origen mantienen la licencia de sus fuentes.
+- El pie de todas las páginas lo indica con enlace (`rel="license"`) y cada Dataset del JSON-LD lleva `license`. Constantes LICENCIA y LICENCIA_URL en `generar_web.py`.
+- `tests/test_seo.py` comprueba la licencia en el pie y en los datos estructurados. `ejecutar_tests.py`: 15 OK, 0 FALLA, 0 PENDIENTE.
+
 ## 18/11/2026: corrección de los riesgos de la auditoría
 - Riesgo 5: nuevo `config.py` con el año, las rutas y los valores de referencia. Los scripts del pipeline (y `generar_web.py`) leen el año de ahí. Nuevo `actualizar.py`, que ejecuta todo y los tests con un solo comando y se para en el primer error. `preparar_json.py` termina con error si los valores de referencia no cuadran. Salida idéntica a la anterior (comprobado por hash).
 - Riesgo 2: licencia del SERPAVI confirmada en el aviso legal de mivau.gob.es y URL oficial de descarga registrada en FUENTES.md. La fecha del pie la añadió el hilo de SEO (B-01).

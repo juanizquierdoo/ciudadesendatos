@@ -127,6 +127,18 @@ for r, s in paginas.items():
         errores.append(f"{r or 'portada'}: el pie no da la fecha de las dos fuentes")
 comprobar("El pie cita la fecha de actualización de cada fuente, sin llaves sin rellenar", errores)
 
+# licencia propia (CC BY 4.0) en el pie y en cada Dataset
+LIC = "https://creativecommons.org/licenses/by/4.0/"
+errores = []
+for r, s in paginas.items():
+    if f'href="{LIC}' not in s or 'rel="license"' not in s:
+        errores.append(f"{r or 'portada'}: el pie no enlaza la licencia CC BY 4.0")
+    for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', s, re.S):
+        obj = json.loads(b)
+        if obj.get("@type") == "Dataset" and not str(obj.get("license", "")).startswith(LIC):
+            errores.append(f"{r or 'portada'}: Dataset sin license CC BY 4.0")
+comprobar("Licencia CC BY 4.0 en el pie y en los datos estructurados", errores)
+
 total_falla = resultados.count("FALLA")
 print(f"\n{len(resultados) - total_falla} OK, {total_falla} FALLA")
 sys.exit(1 if total_falla else 0)

@@ -53,6 +53,7 @@ El pipeline es reproducible: al ejecutarlo de nuevo, los datos limpios y la web 
 Ver INSTRUCCIONES_PROYECTO.md, apartado "Decisiones tomadas". Añadidas en esta sesión:
 - 18/11/2026: los tests son un script de Python sin dependencias (sin pytest) para que funcionen en Windows sin instalar nada.
 - 18/11/2026: los fallos conocidos aparecen como PENDIENTE en los tests y enlazan a una entrada del backlog. No se ocultan.
+- 19/11/2026: licencia propia CC BY 4.0 para los datos elaborados y los textos de ciudadesendatos (pie y JSON-LD). Los datos de origen mantienen la licencia de sus fuentes.
 
 ## Fase actual (actualizado)
 Fase 0 aprobada el 18/11/2026. Juan va a comprar un dominio. Corregidos los riesgos 2, 4 y 5; el 3 (nombres de distrito) está en curso, ciudad a ciudad.
