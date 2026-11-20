@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 20/11/2026: fondo siempre claro y enlaces sin subrayado
+- Juan lo vio en el móvil con modo oscuro y la web salía con fondo azul oscuro. Se quita el modo oscuro: fondo blanco siempre (`color-scheme: light only`).
+- Enlaces sin subrayado: en tablas y listas, nombre en negrita oscura con una flecha azul "›" (así se distinguen las filas con página propia); subrayado solo al pasar el ratón. Tests: 20 OK.
+
 ## 20/11/2026: diseño más sencillo y coherente entre páginas
 - Petición de Juan: que la web se lea mejor y no líe al pasar de una página a otra. Solo cambian la plantilla y el CSS de `generar_web.py`; el contenido, las URL, los títulos y los datos estructurados son los mismos.
 - Menú principal igual en todas las páginas (Ciudades, Rankings, Comunidades). Los enlaces dentro de la página (Resumen, Claves, Distritos…) van en una barra aparte, "En esta página", solo si hay 3 o más.
