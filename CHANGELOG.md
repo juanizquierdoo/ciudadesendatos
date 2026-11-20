@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 20/11/2026: Páginas legales (B-04, en parte)
+- Nuevo `paginas_legales.py`: aviso legal (LSSI art. 10), política de privacidad (RGPD) y política de cookies, en /aviso-legal/, /privacidad/ y /cookies/, enlazadas desde el pie de todas las páginas y en el sitemap. `generar_web.py` solo añade el enlace del pie y la llamada que escribe las páginas.
+- La web no usa cookies, almacenamiento local ni recursos de otros sitios, así que no necesita aviso de cookies. Cuando haya publicidad habrá que añadir un aviso de consentimiento y actualizar privacidad y cookies ANTES de activarla.
+- Mientras falten los datos del titular (TITULAR en `paginas_legales.py`), las páginas no se generan y el pie no las enlaza.
+- Nuevo `tests/test_legales.py`: datos del titular en las páginas (con datos ficticios), enlaces del pie, sitemap y que la web siga sin cookies ni recursos externos. Probado en una copia con datos ficticios: 19 OK, 0 FALLA.
+- No es asesoramiento legal.
+
 ## 20/11/2026: Barrios de Valladolid en 6 de sus 12 distritos
 - Nuevo `zonas_valladolid.py` y `datos_limpios/zonas_nombradas.csv`. `preparar_json.py` y `generar_web.py` leen ese archivo: un distrito sin nombre oficial pero con barrios verificados se muestra como "Distrito 8 · Rondilla, Hospital y otros barrios", con la lista completa y el código postal debajo y la cita del Ayuntamiento bajo la tabla.
 - Valladolid: distritos 3, 6, 8, 10, 11 y 12 con barrios (las zonas estadísticas suman exactamente su población); el resto, con código postal y calles.

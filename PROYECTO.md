@@ -17,7 +17,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 | Páginas de la web | 170: portada, 4 rankings, índice de comunidades, 13 comunidades y 151 ciudades |
 | Mapa | Solo Madrid (esquemático, no son los límites reales) |
 | Publicada | **Sí, desde el 20/11/2026** en https://ciudadesendatos.es (HTTPS, http y www redirigen). Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
-| Páginas legales y analítica | No existen |
+| Páginas legales y analítica | Aviso legal, privacidad y cookies preparados en `paginas_legales.py` (se publican al rellenar TITULAR con los datos de Juan). Sin analítica |
 | Git | Repositorio local desde el 18/11/2026. Remoto previsto: github.com/juanizquierdoo/ciudadesendatos (público, lo crea Juan) |
 
 ## Cómo se ejecuta
