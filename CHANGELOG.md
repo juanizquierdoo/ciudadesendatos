@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 20/11/2026: Nombres de distrito de Bilbao y script de verificación (B-23, B-12)
+- Nuevo `verificar_distritos.py`: compara las secciones censales de un fichero municipal (en `datos_municipales/`) con las del ADRH del INE y, solo si coinciden todas, escribe los nombres con su fuente en `datos_limpios/nombres_distritos.csv` (`--escribir --fuente "..."`). La primera vez crea `datos_limpios/secciones_adrh_2024.csv` (caché, fuera de git); después tarda unos segundos.
+- Bilbao: 8 distritos con nombre oficial (Bilbao Open Data, CC BY 3.0 ES). Las 278 secciones coinciden con el INE. Distritos con nombre en la web: 58 (antes 50).
+- Sevilla y Zaragoza buscadas sin encontrar un fichero válido (ver FUENTES.md).
+- Pendiente B-26: la web todavía no cita al ayuntamiento como fuente de los nombres (tampoco en Barcelona); requiere un cambio pequeño en la plantilla.
+- Tests: 17 OK, 0 FALLA, 0 PENDIENTE. No se ha tocado la plantilla de la web.
+
 ## 20/11/2026: Texto explicativo en cada ficha de ciudad (B-17, en parte)
 - Nuevo `textos_ciudad.py`: genera la sección "Qué dicen los datos de <ciudad>" (6-7 párrafos, unas 300 palabras) solo con los datos del JSON, sin estimaciones. Si falta un dato, la frase no se escribe. Compara cada ciudad con la mediana de las ciudades de la web (alquiler, €/m², renta, peso del alquiler, edad media, hogares unipersonales, pisos alquilados por 1.000 habitantes), explica el cambio 2023-2024 y si está entre las 10 que más o menos suben, el rango p25-p75 de €/m², su puesto dentro de la provincia y el distrito más caro y más barato.
 - `generar_web.py` solo llama a `seccion_claves()` desde la plantilla de ciudad (y añade "Claves" al menú de la ficha). Las ciudades que se añadan al JSON tienen su texto automáticamente.

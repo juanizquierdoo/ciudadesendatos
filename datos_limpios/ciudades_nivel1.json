@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19",
+ "generado": "2026-11-20",
  "anio_datos": 2024,
  "ciudades": [
   {
@@ -3226,8 +3226,8 @@
     {
      "codigo": "4802001",
      "numero": 1,
-     "nombre": "Distrito 1",
-     "con_nombre_oficial": false,
+     "nombre": "Deustu",
+     "con_nombre_oficial": true,
      "renta_hogar": 47604.0,
      "renta_persona": 20666.0,
      "eur_m2": 11.43,
@@ -3240,8 +3240,8 @@
     {
      "codigo": "4802002",
      "numero": 2,
-     "nombre": "Distrito 2",
-     "con_nombre_oficial": false,
+     "nombre": "Uribarri",
+     "con_nombre_oficial": true,
      "renta_hogar": 42673.0,
      "renta_persona": 19304.0,
      "eur_m2": 11.34,
@@ -3254,8 +3254,8 @@
     {
      "codigo": "4802003",
      "numero": 3,
-     "nombre": "Distrito 3",
-     "con_nombre_oficial": false,
+     "nombre": "Otxarkoaga-Txurdinaga",
+     "con_nombre_oficial": true,
      "renta_hogar": 39039.0,
      "renta_persona": 16520.0,
      "eur_m2": 11.06,
@@ -3268,8 +3268,8 @@
     {
      "codigo": "4802004",
      "numero": 4,
-     "nombre": "Distrito 4",
-     "con_nombre_oficial": false,
+     "nombre": "Begoña",
+     "con_nombre_oficial": true,
      "renta_hogar": 38998.0,
      "renta_persona": 17531.0,
      "eur_m2": 11.28,
@@ -3282,8 +3282,8 @@
     {
      "codigo": "4802005",
      "numero": 5,
-     "nombre": "Distrito 5",
-     "con_nombre_oficial": false,
+     "nombre": "Ibaiondo",
+     "con_nombre_oficial": true,
      "renta_hogar": 41965.0,
      "renta_persona": 17833.0,
      "eur_m2": 10.77,
@@ -3296,8 +3296,8 @@
     {
      "codigo": "4802006",
      "numero": 6,
-     "nombre": "Distrito 6",
-     "con_nombre_oficial": false,
+     "nombre": "Abando",
+     "con_nombre_oficial": true,
      "renta_hogar": 76565.0,
      "renta_persona": 32874.0,
      "eur_m2": 13.7,
@@ -3310,8 +3310,8 @@
     {
      "codigo": "4802007",
      "numero": 7,
-     "nombre": "Distrito 7",
-     "con_nombre_oficial": false,
+     "nombre": "Errekalde",
+     "con_nombre_oficial": true,
      "renta_hogar": 41711.0,
      "renta_persona": 17740.0,
      "eur_m2": 11.21,
@@ -3324,8 +3324,8 @@
     {
      "codigo": "4802008",
      "numero": 8,
-     "nombre": "Distrito 8",
-     "con_nombre_oficial": false,
+     "nombre": "Basurtu-Zorrotza",
+     "con_nombre_oficial": true,
      "renta_hogar": 44366.0,
      "renta_persona": 19144.0,
      "eur_m2": 11.3,

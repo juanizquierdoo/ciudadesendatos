@@ -13,7 +13,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 |---|---|
 | Ciudades con página (más de 50.000 hab., alquiler fiable) | 151 |
 | Ciudades con desglose por distrito | 130 (843 distritos) |
-| Distritos con nombre oficial | 50 (Madrid 21, Valencia 19, Barcelona 10) |
+| Distritos con nombre oficial | 58 (Madrid 21, Valencia 19, Barcelona 10, Bilbao 8) |
 | Páginas de la web | 170: portada, 4 rankings, índice de comunidades, 13 comunidades y 151 ciudades |
 | Mapa | Solo Madrid (esquemático, no son los límites reales) |
 | Publicada | **Sí, desde el 20/11/2026** en https://ciudadesendatos.es (HTTPS, http y www redirigen). Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
@@ -79,3 +79,9 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Texto propio en las fichas (20/11/2026)
 - `textos_ciudad.py` escribe en cada ficha la sección "Qué dicen los datos de <ciudad>", calculada solo con el JSON (B-17). Se genera desde la plantilla: las ciudades nuevas lo tienen sin hacer nada. Test: `tests/test_textos.py`.
 - Siguiente: medir en Search Console, 3-4 semanas después de publicarlo, si suben las impresiones de las fichas.
+
+## Nombres de distrito por tandas (20/11/2026)
+- Hecho B-23: `python verificar_distritos.py datos_municipales/<cod>_<ciudad>_....csv` y, si coincide, lo mismo con `--escribir --fuente "..."`; después `python actualizar.py --desde 3`.
+- Tanda 1: Bilbao añadida. Sevilla y Zaragoza sin fuente válida. Siguientes: Córdoba, Murcia, Palma, Las Palmas, Alicante, Vigo, Gijón, Vitoria, A Coruña, Granada.
+- Nota técnica: desde esta sesión no hay acceso directo a internet; los ficheros municipales se leen con el navegador integrado.
+- Pendiente B-26 (cita de la fuente de los nombres en la ficha), que toca la plantilla.

@@ -8,3 +8,4 @@ __pycache__/
 .pytest_cache/
 # Copias de seguridad manuales (las crea el hilo de SEO)
 _copias/
+datos_limpios/secciones_adrh_*.csv
