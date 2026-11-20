@@ -9,10 +9,12 @@ import json
 import math
 import re
 import shutil
+import sys
 import unicodedata
 
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
+import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
 import paginas_legales
 
 base = Path(__file__).parent
@@ -575,7 +577,7 @@ def pagina_indice(todas, rank_n):
     N = len(todas)
     orden = sorted(todas, key=lambda c: c["rank"]["alquiler_pct_renta"])
     li = lambda arr: "".join(f'<li><a href="{c["slug"]}/">{esc(c["nombre"])}</a><strong>{pc(c["alquiler_pct_renta"])}</strong></li>' for c in arr)
-    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS)
+    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root)
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
@@ -965,6 +967,7 @@ def main():
     escribir(WEB / "index.html", pagina_indice(todas, rank_n))
     for slug, clave, titulo, df in RANKINGS:
         escribir(WEB / "rankings" / slug / "index.html", pagina_ranking(slug, clave, titulo, df, todas, rank_n))
+    urls_temas = rankings_temas.generar(sys.modules[__name__], todas)
     for c in todas:
         escribir(WEB / c["slug"] / "index.html", pagina_ciudad(c, todas, rank_n))
     if COMUNIDADES:
@@ -977,6 +980,7 @@ def main():
         escribir(WEB / carpeta / "index.html", texto)
 
     urls = ([""] + [f"rankings/{s}/" for s, *_ in RANKINGS]
+            + urls_temas
             + (["comunidades/"] if COMUNIDADES else []) + [f"comunidades/{x['slug']}/" for x in con_pagina]
             + [f"{c['slug']}/" for c in todas] + [f"{x}/" for x in legales])
     robots = "User-agent: *\nAllow: /\n"
