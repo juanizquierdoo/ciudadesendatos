@@ -18,7 +18,7 @@ import html
 # ---------------------------------------------------------------- datos del titular
 # Rellénalos exactamente como quieres que aparezcan en la web (serán públicos).
 TITULAR = {
-    "nombre": "",       # nombre y dos apellidos
+    "nombre": "Juan Izquierdo",       # nombre y dos apellidos
     "nif": "",          # DNI con letra. Obligatorio solo con ANUNCIOS = True
     "domicilio": "",    # calle, número, CP, ciudad (provincia). Obligatorio solo con ANUNCIOS = True
     "email": "",        # correo de contacto de la web
