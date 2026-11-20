@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 20/11/2026: web publicada
+- https://ciudadesendatos.es responde con HTTPS desde GitHub Pages; http y www redirigen a la dirección principal. Comprobados la portada, el sitemap, el canonical y el alquiler de Madrid (868,75 €).
+
 ## 19/11/2026: Páginas por comunidad autónoma (B-18)
 - Nuevo paso del pipeline `preparar_comunidades.py` (entre preparar_json y generar_web; ya incluido en `actualizar.py`): lee la hoja CCAA del SERPAVI y escribe `datos_limpios/comunidades.json` con el alquiler mediano, €/m², percentiles y la serie 2011-2024 de cada comunidad. La relación provincia → comunidad (códigos del INE) se comprueba con el propio fichero: la suma de inmuebles de las provincias coincide con el total de la comunidad en los 243 pares comunidad-año.
 - Nueva página `/comunidades/` (tabla de las 17 comunidades y Ceuta y Melilla: alquiler, €/m², cambio desde 2019 y sus ciudades) y 13 páginas `/comunidades/<nombre>/` para las comunidades con 3 o más ciudades: tabla ordenable de sus ciudades (alquiler, €/m², cambio desde 2019, renta, peso del alquiler), gráfico de evolución, aviso turístico en las de costa, enlaces a las demás y metodología. Aragón, Cantabria, Navarra, La Rioja, Ceuta y Melilla no tienen página propia (menos de 3 ciudades): la tabla enlaza directamente a sus ciudades.
