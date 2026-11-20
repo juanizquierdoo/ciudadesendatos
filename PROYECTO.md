@@ -86,3 +86,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Nota técnica: desde esta sesión no hay acceso directo a internet; los ficheros municipales se leen con el navegador integrado.
 - Hecho B-27: los distritos sin nombre se identifican con código postal y calles principales (callejero del INE, `preparar_zonas.py`). Al salir un callejero nuevo (enero y julio), descargarlo en datos_originales/ y ejecutar `python actualizar.py --desde 3`.
 - Hecho B-26: la ficha cita la fuente de los nombres (columna `cita` de nombres_distritos.csv). Al añadir una ciudad, rellenar esa columna.
+
+## Rankings temáticos (20/11/2026)
+- Hecho B-29: `rankings_temas.py` genera 5 rankings pensados para búsquedas concretas (subida del alquiler, sueldo necesario, distritos por renta y por alquiler, ciudades más jóvenes). Para añadir otro: una función `pagina_x(gw, todas, rutas)`, una línea en TEMAS y otra en PAGINAS; el test lo recoge solo si se añade a `esperado`.
+- La demanda de búsqueda de cada página es una hipótesis: medirla en Search Console (B-30) antes de crear más.

@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 20/11/2026: Rankings temáticos para búsquedas concretas (B-29)
+- Nuevo `rankings_temas.py` con 5 páginas en /rankings/, cada una con tabla ordenable, texto "Qué dicen los datos" calculado solo con el JSON, enlaces a las fichas de ciudad, metodología, aviso de zonas turísticas y entrada en el sitemap:
+  - `donde-mas-sube-el-alquiler/`: cambio del alquiler mediano 2019-2024 y 2023-2024, comparado con la renta del hogar (144 ciudades; 7 sin dato fiable en 2019).
+  - `sueldo-para-vivir-de-alquiler/`: ingresos netos al mes para que el alquiler mediano no pase del 30 % (cálculo propio con una regla orientativa, explicado en la página).
+  - `barrios-con-mas-renta/`: renta por hogar de los 843 distritos.
+  - `barrios-con-el-alquiler-mas-caro/`: alquiler de los 812 distritos con 30 inmuebles o más (los de 30-99 con *).
+  - `ciudades-mas-jovenes/`: edad media, menores de 18 y mayores de 65 (INE, ADRH).
+- `generar_web.py` solo añade las 5 tarjetas a la portada y las URL al sitemap. Las piezas comunes (pie, cabecera, JSON-LD) se reutilizan, así que los cambios del pie llegan también a estas páginas.
+- Nuevo `tests/test_rankings_temas.py` (7 comprobaciones: páginas en sitemap y portada, texto propio sin párrafos repetidos, enlaces a fichas, número de filas, valores de referencia y cálculos, distritos con menos de 30 inmuebles sin alquiler, metodología y año). `ejecutar_tests.py`: 20 OK, 0 FALLA.
+- Visto en Chromium (1280 px y 390 px): sin scroll horizontal de página, tablas ordenables, sin errores de JavaScript.
+
 ## 20/11/2026: Páginas legales (B-04, en parte)
 - Nuevo `paginas_legales.py`: aviso legal (LSSI art. 10), política de privacidad (RGPD) y política de cookies, en /aviso-legal/, /privacidad/ y /cookies/, enlazadas desde el pie de todas las páginas y en el sitemap. `generar_web.py` solo añade el enlace del pie y la llamada que escribe las páginas.
 - La web no usa cookies, almacenamiento local ni recursos de otros sitios, así que no necesita aviso de cookies. Cuando haya publicidad habrá que añadir un aviso de consentimiento y actualizar privacidad y cookies ANTES de activarla.
