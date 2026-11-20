@@ -100,3 +100,5 @@ tbody th{font-weight:600}
 .lnk.cols{columns:2 300px;column-gap:28px;border-top:0}
 .lnk.cols li{break-inside:avoid}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;max-width:76ch}
+footer .legal{margin-top:10px}
+.legal-texto section{max-width:76ch}
