@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 20/11/2026: diseño más sencillo y coherente entre páginas
+- Petición de Juan: que la web se lea mejor y no líe al pasar de una página a otra. Solo cambian la plantilla y el CSS de `generar_web.py`; el contenido, las URL, los títulos y los datos estructurados son los mismos.
+- Menú principal igual en todas las páginas (Ciudades, Rankings, Comunidades). Los enlaces dentro de la página (Resumen, Claves, Distritos…) van en una barra aparte, "En esta página", solo si hay 3 o más.
+- Fondo blanco, un solo color de acento (azul oscuro), letra algo mayor, líneas de texto más cortas y el mismo ancho en todas las páginas. Miga de pan visible también en los 4 rankings generales.
+- Pie nuevo de ancho completo, azul oscuro y letra pequeña: secciones, aviso legal, privacidad y cookies, fuentes con su fecha y licencia.
+- Sigue sin fuentes ni recursos externos. Visto en Chromium (1280 px y 390 px): sin scroll horizontal. Tests: 20 OK, 0 FALLA.
+
 
 ## 20/11/2026: barrios con nombre en Málaga (B-32, B-22)
 - Juan acepta la licencia CC BY-SA 4.0 de los datos de Málaga. `INCLUIR_MALAGA = True`; la nota bajo la tabla dice que esa lista de barrios va con CC BY-SA 4.0.
