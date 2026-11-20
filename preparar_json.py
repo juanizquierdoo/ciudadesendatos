@@ -59,10 +59,15 @@ dis = leer_csv(DISTRITOS, dtype={"cod_muni": str, "codigo": str})
 renta = leer_csv(RENTA_LARGO, dtype={"cod_muni": str, "codigo": str})
 
 nombres = {}
+citas = {}  # cita de la fuente de los nombres, por municipio (vacía si no está documentada, B-20)
 f_nombres = datos / "nombres_distritos.csv"
 if f_nombres.exists():
     nd = leer_csv(f_nombres, dtype=str)
     nombres = dict(zip(nd["codigo"].str.strip(), nd["nombre_distrito"].str.strip()))
+    if "cita" in nd.columns:
+        for cod_d, cita in zip(nd["codigo"].str.strip(), nd["cita"].fillna("").str.strip()):
+            if cita:
+                citas[cod_d[:5]] = cita
     print("Nombres de distrito cargados:", len(nombres))
 else:
     print("AVISO: no existe nombres_distritos.csv; se usará 'Distrito N' en todas las ciudades.")
@@ -129,6 +134,7 @@ for _, f in sel.iterrows():
         "provincia": nombre_bonito(f["provincia"]),
         **{k: limpio(f.get(k)) for k in CAMPOS},
         "serie_alquiler": serie_alq, "serie_renta": serie_renta, "distritos": distritos,
+        "cita_nombres_distritos": citas.get(cod, "") if any(x["con_nombre_oficial"] for x in distritos) else "",
     })
 
 # slugs repetidos: añadir la provincia

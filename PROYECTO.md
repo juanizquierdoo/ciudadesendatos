@@ -84,4 +84,4 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Hecho B-23: `python verificar_distritos.py datos_municipales/<cod>_<ciudad>_....csv` y, si coincide, lo mismo con `--escribir --fuente "..."`; después `python actualizar.py --desde 3`.
 - Tanda 1: Bilbao añadida. Sevilla y Zaragoza sin fuente válida. Siguientes: Córdoba, Murcia, Palma, Las Palmas, Alicante, Vigo, Gijón, Vitoria, A Coruña, Granada.
 - Nota técnica: desde esta sesión no hay acceso directo a internet; los ficheros municipales se leen con el navegador integrado.
-- Pendiente B-26 (cita de la fuente de los nombres en la ficha), que toca la plantilla.
+- Hecho B-26: la ficha cita la fuente de los nombres (columna `cita` de nombres_distritos.csv). Al añadir una ciudad, rellenar esa columna.

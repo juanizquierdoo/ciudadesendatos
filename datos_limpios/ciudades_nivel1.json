@@ -447,7 +447,8 @@
      "alquiler_pct_renta": 18.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08019",
@@ -740,7 +741,8 @@
      "alquiler_pct_renta": 23.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": "Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
   },
   {
    "cod_muni": "46250",
@@ -1159,7 +1161,8 @@
      "alquiler_pct_renta": 17.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "50297",
@@ -1480,7 +1483,8 @@
      "alquiler_pct_renta": 13.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "41091",
@@ -1787,7 +1791,8 @@
      "alquiler_pct_renta": 15.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29067",
@@ -2094,7 +2099,8 @@
      "alquiler_pct_renta": 20.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "30030",
@@ -2359,7 +2365,8 @@
      "alquiler_pct_renta": 17.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "07040",
@@ -2582,7 +2589,8 @@
      "alquiler_pct_renta": 20.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "35016",
@@ -2805,7 +2813,8 @@
      "alquiler_pct_renta": 16.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03014",
@@ -3070,7 +3079,8 @@
      "alquiler_pct_renta": 19.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "48020",
@@ -3335,7 +3345,8 @@
      "alquiler_pct_renta": 21.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": "Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
   },
   {
    "cod_muni": "14021",
@@ -3628,7 +3639,8 @@
      "alquiler_pct_renta": 16.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "47186",
@@ -3949,7 +3961,8 @@
      "alquiler_pct_renta": 8.9,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "36057",
@@ -4228,7 +4241,8 @@
      "alquiler_pct_renta": 15.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08101",
@@ -4465,7 +4479,8 @@
      "alquiler_pct_renta": 23.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "33024",
@@ -4744,7 +4759,8 @@
      "alquiler_pct_renta": 11.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "01059",
@@ -4981,7 +4997,8 @@
      "alquiler_pct_renta": 11.0,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "15030",
@@ -5274,7 +5291,8 @@
      "alquiler_pct_renta": 16.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03065",
@@ -5525,7 +5543,8 @@
      "alquiler_pct_renta": 15.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "18087",
@@ -5804,7 +5823,8 @@
      "alquiler_pct_renta": 15.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08279",
@@ -6055,7 +6075,8 @@
      "alquiler_pct_renta": 17.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08015",
@@ -6334,7 +6355,8 @@
      "alquiler_pct_renta": 23.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08187",
@@ -6585,7 +6607,8 @@
      "alquiler_pct_renta": 20.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "33044",
@@ -6962,7 +6985,8 @@
      "alquiler_pct_renta": 11.2,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "30016",
@@ -7255,7 +7279,8 @@
      "alquiler_pct_renta": 13.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11020",
@@ -7548,7 +7573,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28092",
@@ -7757,7 +7783,8 @@
      "alquiler_pct_renta": 21.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "38038",
@@ -8078,7 +8105,8 @@
      "alquiler_pct_renta": 18.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "31201",
@@ -8343,7 +8371,8 @@
      "alquiler_pct_renta": 16.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "04013",
@@ -8608,7 +8637,8 @@
      "alquiler_pct_renta": 17.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28005",
@@ -8831,7 +8861,8 @@
      "alquiler_pct_renta": 18.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28065",
@@ -9040,7 +9071,8 @@
      "alquiler_pct_renta": 20.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28074",
@@ -9291,7 +9323,8 @@
      "alquiler_pct_renta": 16.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28058",
@@ -9570,7 +9603,8 @@
      "alquiler_pct_renta": 20.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "20069",
@@ -9821,7 +9855,8 @@
      "alquiler_pct_renta": 22.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "12040",
@@ -10100,7 +10135,8 @@
      "alquiler_pct_renta": 14.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "09059",
@@ -10379,7 +10415,8 @@
      "alquiler_pct_renta": 16.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28007",
@@ -10588,7 +10625,8 @@
      "alquiler_pct_renta": 19.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "02003",
@@ -10853,7 +10891,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "39075",
@@ -11118,7 +11157,8 @@
      "alquiler_pct_renta": 16.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "38023",
@@ -11355,7 +11395,8 @@
      "alquiler_pct_renta": 12.7,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29069",
@@ -11564,7 +11605,8 @@
      "alquiler_pct_renta": 26.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "26089",
@@ -11801,7 +11843,8 @@
      "alquiler_pct_renta": 16.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "06015",
@@ -12094,7 +12137,8 @@
      "alquiler_pct_renta": 12.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "37274",
@@ -12331,7 +12375,8 @@
      "alquiler_pct_renta": 17.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "25120",
@@ -12610,7 +12655,8 @@
      "alquiler_pct_renta": 11.1,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "21041",
@@ -12875,7 +12921,8 @@
      "alquiler_pct_renta": 19.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28148",
@@ -13084,7 +13131,8 @@
      "alquiler_pct_renta": 20.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "41038",
@@ -13307,7 +13355,8 @@
      "alquiler_pct_renta": 17.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "43148",
@@ -13586,7 +13635,8 @@
      "alquiler_pct_renta": 17.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28106",
@@ -13738,7 +13788,8 @@
      "renta_hogar": 37572.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08121",
@@ -13975,7 +14026,8 @@
      "alquiler_pct_renta": 20.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11004",
@@ -14184,7 +14236,8 @@
      "alquiler_pct_renta": 16.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "24089",
@@ -14477,7 +14530,8 @@
      "alquiler_pct_renta": 15.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28006",
@@ -14629,7 +14683,8 @@
      "renta_hogar": 70503.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08245",
@@ -14866,7 +14921,8 @@
      "alquiler_pct_renta": 22.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "23050",
@@ -15145,7 +15201,8 @@
      "alquiler_pct_renta": 13.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "43123",
@@ -15438,7 +15495,8 @@
      "alquiler_pct_renta": 16.4,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11012",
@@ -15731,7 +15789,8 @@
      "alquiler_pct_renta": 19.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "04079",
@@ -15912,7 +15971,8 @@
      "alquiler_pct_renta": 15.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "17079",
@@ -16149,7 +16209,8 @@
      "alquiler_pct_renta": 18.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "32054",
@@ -16372,7 +16433,8 @@
      "alquiler_pct_renta": 14.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "35026",
@@ -16609,7 +16671,8 @@
      "alquiler_pct_renta": 16.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "48013",
@@ -16888,7 +16951,8 @@
      "alquiler_pct_renta": 21.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28123",
@@ -17040,7 +17104,8 @@
      "renta_hogar": 57904.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03133",
@@ -17235,7 +17300,8 @@
      "alquiler_pct_renta": 21.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "27028",
@@ -17514,7 +17580,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "15078",
@@ -17751,7 +17818,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28127",
@@ -17903,7 +17971,8 @@
      "renta_hogar": 79636.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "30024",
@@ -18084,7 +18153,8 @@
      "alquiler_pct_renta": 12.2,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28134",
@@ -18236,7 +18306,8 @@
      "renta_hogar": 56170.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "10037",
@@ -18487,7 +18558,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08205",
@@ -18724,7 +18796,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29070",
@@ -18876,7 +18949,8 @@
      "renta_hogar": 33588.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11031",
@@ -19113,7 +19187,8 @@
      "alquiler_pct_renta": 17.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08073",
@@ -19350,7 +19425,8 @@
      "alquiler_pct_renta": 23.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "19130",
@@ -19573,7 +19649,8 @@
      "alquiler_pct_renta": 15.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11015",
@@ -19796,7 +19873,8 @@
      "alquiler_pct_renta": 16.7,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "46244",
@@ -20005,7 +20083,8 @@
      "alquiler_pct_renta": 14.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "04902",
@@ -20157,7 +20236,8 @@
      "renta_hogar": 31505.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11027",
@@ -20366,7 +20446,8 @@
      "alquiler_pct_renta": 13.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28115",
@@ -20547,7 +20628,8 @@
      "alquiler_pct_renta": 16.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "38006",
@@ -20699,7 +20781,8 @@
      "renta_hogar": 32424.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29094",
@@ -20922,7 +21005,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "45168",
@@ -21173,7 +21257,8 @@
      "alquiler_pct_renta": 18.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28161",
@@ -21354,7 +21439,8 @@
      "alquiler_pct_renta": 18.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08200",
@@ -21591,7 +21677,8 @@
      "alquiler_pct_renta": 21.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29054",
@@ -21786,7 +21873,8 @@
      "alquiler_pct_renta": 23.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03099",
@@ -22051,7 +22139,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "52001",
@@ -22316,7 +22405,8 @@
      "alquiler_pct_renta": 13.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "45165",
@@ -22525,7 +22615,8 @@
      "alquiler_pct_renta": 16.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "36038",
@@ -22776,7 +22867,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "46131",
@@ -23027,7 +23119,8 @@
      "alquiler_pct_renta": 17.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08184",
@@ -23236,7 +23329,8 @@
      "alquiler_pct_renta": 20.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "51001",
@@ -23473,7 +23567,8 @@
      "alquiler_pct_renta": 20.1,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08113",
@@ -23710,7 +23805,8 @@
      "alquiler_pct_renta": 12.5,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28049",
@@ -23919,7 +24015,8 @@
      "alquiler_pct_renta": 24.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29051",
@@ -24114,7 +24211,8 @@
      "alquiler_pct_renta": 25.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "35022",
@@ -24309,7 +24407,8 @@
      "alquiler_pct_renta": 17.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29025",
@@ -24504,7 +24603,8 @@
      "alquiler_pct_renta": 25.4,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "30027",
@@ -24656,7 +24756,8 @@
      "renta_hogar": 41727.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "41004",
@@ -24865,7 +24966,8 @@
      "alquiler_pct_renta": 15.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "34120",
@@ -25116,7 +25218,8 @@
      "alquiler_pct_renta": 14.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03031",
@@ -25325,7 +25428,8 @@
      "alquiler_pct_renta": 20.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "33004",
@@ -25477,7 +25581,8 @@
      "renta_hogar": 36136.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "13034",
@@ -25700,7 +25805,8 @@
      "alquiler_pct_renta": 9.6,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "48044",
@@ -25895,7 +26001,8 @@
      "alquiler_pct_renta": 16.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "46190",
@@ -26047,7 +26154,8 @@
      "renta_hogar": 40918.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28080",
@@ -26228,7 +26336,8 @@
      "alquiler_pct_renta": 17.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "46220",
@@ -26479,7 +26588,8 @@
      "alquiler_pct_renta": 13.0,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29901",
@@ -26631,7 +26741,8 @@
      "renta_hogar": 35686.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11032",
@@ -26854,7 +26965,8 @@
      "alquiler_pct_renta": 20.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08056",
@@ -27077,7 +27189,8 @@
      "alquiler_pct_renta": 17.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "35004",
@@ -27258,7 +27371,8 @@
      "alquiler_pct_renta": 16.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08307",
@@ -27467,7 +27581,8 @@
      "alquiler_pct_renta": 18.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08301",
@@ -27648,7 +27763,8 @@
      "alquiler_pct_renta": 20.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28047",
@@ -27800,7 +27916,8 @@
      "renta_hogar": 43680.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28022",
@@ -27952,7 +28069,8 @@
      "renta_hogar": 94762.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08169",
@@ -28175,7 +28293,8 @@
      "alquiler_pct_renta": 21.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "11022",
@@ -28426,7 +28545,8 @@
      "alquiler_pct_renta": 19.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08096",
@@ -28635,7 +28755,8 @@
      "alquiler_pct_renta": 18.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "15036",
@@ -28900,7 +29021,8 @@
      "alquiler_pct_renta": 12.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "20045",
@@ -29109,7 +29231,8 @@
      "alquiler_pct_renta": 19.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "24115",
@@ -29346,7 +29469,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28013",
@@ -29555,7 +29679,8 @@
      "alquiler_pct_renta": 13.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03009",
@@ -29820,7 +29945,8 @@
      "alquiler_pct_renta": 13.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "06083",
@@ -30057,7 +30183,8 @@
      "alquiler_pct_renta": 15.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "18140",
@@ -30280,7 +30407,8 @@
      "alquiler_pct_renta": 18.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03122",
@@ -30475,7 +30603,8 @@
      "alquiler_pct_renta": 15.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "49275",
@@ -30698,7 +30827,8 @@
      "alquiler_pct_renta": 15.8,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28014",
@@ -30850,7 +30980,8 @@
      "renta_hogar": 42990.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "05019",
@@ -31087,7 +31218,8 @@
      "alquiler_pct_renta": 15.1,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "38017",
@@ -31239,7 +31371,8 @@
      "renta_hogar": 35744.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08266",
@@ -31391,7 +31524,8 @@
      "renta_hogar": 49474.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28045",
@@ -31543,7 +31677,8 @@
      "renta_hogar": 55604.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28113",
@@ -31724,7 +31859,8 @@
      "alquiler_pct_renta": 17.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "03066",
@@ -31947,7 +32083,8 @@
      "alquiler_pct_renta": 16.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "23055",
@@ -32212,7 +32349,8 @@
      "alquiler_pct_renta": null,
      "fiabilidad": "no_mostrar"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "35019",
@@ -32421,7 +32559,8 @@
      "alquiler_pct_renta": 17.9,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "28903",
@@ -32573,7 +32712,8 @@
      "renta_hogar": 71548.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "22125",
@@ -32838,7 +32978,8 @@
      "alquiler_pct_renta": 14.6,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "07011",
@@ -33075,7 +33216,8 @@
      "alquiler_pct_renta": 20.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "07026",
@@ -33270,7 +33412,8 @@
      "alquiler_pct_renta": 19.7,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "16078",
@@ -33479,7 +33622,8 @@
      "alquiler_pct_renta": 16.3,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "12135",
@@ -33688,7 +33832,8 @@
      "alquiler_pct_renta": 15.0,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "33066",
@@ -33840,7 +33985,8 @@
      "renta_hogar": 39406.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "29082",
@@ -33992,7 +34138,8 @@
      "renta_hogar": 39893.0
     }
    ],
-   "distritos": []
+   "distritos": [],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "41095",
@@ -34215,7 +34362,8 @@
      "alquiler_pct_renta": 16.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "08124",
@@ -34410,7 +34558,8 @@
      "alquiler_pct_renta": 18.5,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "40194",
@@ -34661,7 +34810,8 @@
      "alquiler_pct_renta": 15.2,
      "fiabilidad": "ok"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   },
   {
    "cod_muni": "39087",
@@ -34884,7 +35034,8 @@
      "alquiler_pct_renta": 15.0,
      "fiabilidad": "pocos_datos"
     }
-   ]
+   ],
+   "cita_nombres_distritos": ""
   }
  ]
 }

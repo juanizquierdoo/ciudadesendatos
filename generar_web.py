@@ -400,6 +400,8 @@ def pagina_ciudad(c, todas, rank_n):
                    f'{th_orden(2, "€/m²")}{th_orden(3, "Renta del hogar")}{th_orden(4, "Alquiler sobre renta")}</tr></thead>'
                    f'<tbody>{"".join(filas)}</tbody></table></div>'
                    + "".join(f'<p class="proto">{esc(t)}</p>' for t in notas)
+                   + (f'<p class="proto">Nombres de los distritos: {esc(c["cita_nombres_distritos"])}.</p>'
+                      if c.get("cita_nombres_distritos") else '')
                    + ('' if any(x["con_nombre_oficial"] for x in dist) else
                       '<p class="proto">Los distritos se identifican con el número del INE. Los nombres de barrio todavía no están incorporados.</p>')
                    + '</section>')

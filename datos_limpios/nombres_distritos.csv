@@ -1,59 +1,59 @@
-codigo,nombre_distrito,fuente
-2807901,Centro,pendiente de documentar (incorporado antes de la Fase 0)
-2807902,Arganzuela,pendiente de documentar (incorporado antes de la Fase 0)
-2807903,Retiro,pendiente de documentar (incorporado antes de la Fase 0)
-2807904,Salamanca,pendiente de documentar (incorporado antes de la Fase 0)
-2807905,Chamartín,pendiente de documentar (incorporado antes de la Fase 0)
-2807906,Tetuán,pendiente de documentar (incorporado antes de la Fase 0)
-2807907,Chamberí,pendiente de documentar (incorporado antes de la Fase 0)
-2807908,Fuencarral-El Pardo,pendiente de documentar (incorporado antes de la Fase 0)
-2807909,Moncloa-Aravaca,pendiente de documentar (incorporado antes de la Fase 0)
-2807910,Latina,pendiente de documentar (incorporado antes de la Fase 0)
-2807911,Carabanchel,pendiente de documentar (incorporado antes de la Fase 0)
-2807912,Usera,pendiente de documentar (incorporado antes de la Fase 0)
-2807913,Puente de Vallecas,pendiente de documentar (incorporado antes de la Fase 0)
-2807914,Moratalaz,pendiente de documentar (incorporado antes de la Fase 0)
-2807915,Ciudad Lineal,pendiente de documentar (incorporado antes de la Fase 0)
-2807916,Hortaleza,pendiente de documentar (incorporado antes de la Fase 0)
-2807917,Villaverde,pendiente de documentar (incorporado antes de la Fase 0)
-2807918,Villa de Vallecas,pendiente de documentar (incorporado antes de la Fase 0)
-2807919,Vicálvaro,pendiente de documentar (incorporado antes de la Fase 0)
-2807920,San Blas-Canillejas,pendiente de documentar (incorporado antes de la Fase 0)
-2807921,Barajas,pendiente de documentar (incorporado antes de la Fase 0)
-4625001,Ciutat Vella,pendiente de documentar (incorporado antes de la Fase 0)
-4625002,l'Eixample,pendiente de documentar (incorporado antes de la Fase 0)
-4625003,Extramurs,pendiente de documentar (incorporado antes de la Fase 0)
-4625004,Campanar,pendiente de documentar (incorporado antes de la Fase 0)
-4625005,la Saïdia,pendiente de documentar (incorporado antes de la Fase 0)
-4625006,el Pla del Real,pendiente de documentar (incorporado antes de la Fase 0)
-4625007,l'Olivereta,pendiente de documentar (incorporado antes de la Fase 0)
-4625008,Patraix,pendiente de documentar (incorporado antes de la Fase 0)
-4625009,Jesús,pendiente de documentar (incorporado antes de la Fase 0)
-4625010,Quatre Carreres,pendiente de documentar (incorporado antes de la Fase 0)
-4625011,Poblats Marítims,pendiente de documentar (incorporado antes de la Fase 0)
-4625012,Camins al Grau,pendiente de documentar (incorporado antes de la Fase 0)
-4625013,Algirós,pendiente de documentar (incorporado antes de la Fase 0)
-4625014,Benimaclet,pendiente de documentar (incorporado antes de la Fase 0)
-4625015,Rascanya,pendiente de documentar (incorporado antes de la Fase 0)
-4625016,Benicalap,pendiente de documentar (incorporado antes de la Fase 0)
-4625017,Pobles del Nord,pendiente de documentar (incorporado antes de la Fase 0)
-4625018,Pobles de l'Oest,pendiente de documentar (incorporado antes de la Fase 0)
-4625019,Pobles del Sud,pendiente de documentar (incorporado antes de la Fase 0)
-0801901,Ciutat Vella,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801902,Eixample,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801903,Sants-Montjuïc,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801904,Les Corts,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801905,Sarrià-Sant Gervasi,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801906,Gràcia,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801907,Horta-Guinardó,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801908,Nou Barris,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801909,Sant Andreu,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-0801910,Sant Martí,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE"
-4802001,Deustu,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802002,Uribarri,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802003,Otxarkoaga-Txurdinaga,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802004,Begoña,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802005,Ibaiondo,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802006,Abando,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802007,Errekalde,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
-4802008,Basurtu-Zorrotza,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE"
+codigo,nombre_distrito,fuente,cita
+2807901,Centro,pendiente de documentar (incorporado antes de la Fase 0),
+2807902,Arganzuela,pendiente de documentar (incorporado antes de la Fase 0),
+2807903,Retiro,pendiente de documentar (incorporado antes de la Fase 0),
+2807904,Salamanca,pendiente de documentar (incorporado antes de la Fase 0),
+2807905,Chamartín,pendiente de documentar (incorporado antes de la Fase 0),
+2807906,Tetuán,pendiente de documentar (incorporado antes de la Fase 0),
+2807907,Chamberí,pendiente de documentar (incorporado antes de la Fase 0),
+2807908,Fuencarral-El Pardo,pendiente de documentar (incorporado antes de la Fase 0),
+2807909,Moncloa-Aravaca,pendiente de documentar (incorporado antes de la Fase 0),
+2807910,Latina,pendiente de documentar (incorporado antes de la Fase 0),
+2807911,Carabanchel,pendiente de documentar (incorporado antes de la Fase 0),
+2807912,Usera,pendiente de documentar (incorporado antes de la Fase 0),
+2807913,Puente de Vallecas,pendiente de documentar (incorporado antes de la Fase 0),
+2807914,Moratalaz,pendiente de documentar (incorporado antes de la Fase 0),
+2807915,Ciudad Lineal,pendiente de documentar (incorporado antes de la Fase 0),
+2807916,Hortaleza,pendiente de documentar (incorporado antes de la Fase 0),
+2807917,Villaverde,pendiente de documentar (incorporado antes de la Fase 0),
+2807918,Villa de Vallecas,pendiente de documentar (incorporado antes de la Fase 0),
+2807919,Vicálvaro,pendiente de documentar (incorporado antes de la Fase 0),
+2807920,San Blas-Canillejas,pendiente de documentar (incorporado antes de la Fase 0),
+2807921,Barajas,pendiente de documentar (incorporado antes de la Fase 0),
+4625001,Ciutat Vella,pendiente de documentar (incorporado antes de la Fase 0),
+4625002,l'Eixample,pendiente de documentar (incorporado antes de la Fase 0),
+4625003,Extramurs,pendiente de documentar (incorporado antes de la Fase 0),
+4625004,Campanar,pendiente de documentar (incorporado antes de la Fase 0),
+4625005,la Saïdia,pendiente de documentar (incorporado antes de la Fase 0),
+4625006,el Pla del Real,pendiente de documentar (incorporado antes de la Fase 0),
+4625007,l'Olivereta,pendiente de documentar (incorporado antes de la Fase 0),
+4625008,Patraix,pendiente de documentar (incorporado antes de la Fase 0),
+4625009,Jesús,pendiente de documentar (incorporado antes de la Fase 0),
+4625010,Quatre Carreres,pendiente de documentar (incorporado antes de la Fase 0),
+4625011,Poblats Marítims,pendiente de documentar (incorporado antes de la Fase 0),
+4625012,Camins al Grau,pendiente de documentar (incorporado antes de la Fase 0),
+4625013,Algirós,pendiente de documentar (incorporado antes de la Fase 0),
+4625014,Benimaclet,pendiente de documentar (incorporado antes de la Fase 0),
+4625015,Rascanya,pendiente de documentar (incorporado antes de la Fase 0),
+4625016,Benicalap,pendiente de documentar (incorporado antes de la Fase 0),
+4625017,Pobles del Nord,pendiente de documentar (incorporado antes de la Fase 0),
+4625018,Pobles de l'Oest,pendiente de documentar (incorporado antes de la Fase 0),
+4625019,Pobles del Sud,pendiente de documentar (incorporado antes de la Fase 0),
+0801901,Ciutat Vella,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801902,Eixample,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801903,Sants-Montjuïc,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801904,Les Corts,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801905,Sarrià-Sant Gervasi,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801906,Gràcia,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801907,Horta-Guinardó,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801908,Nou Barris,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801909,Sant Andreu,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+0801910,Sant Martí,"Ajuntament de Barcelona, Open Data BCN, conjunto 20170706-districtes-barris (CC BY 4.0), consultado el 18/11/2026; códigos verificados: las 1068 secciones censales coinciden con el ADRH 2024 del INE","Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+4802001,Deustu,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802002,Uribarri,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802003,Otxarkoaga-Txurdinaga,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802004,Begoña,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802005,Ibaiondo,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802006,Abando,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802007,Errekalde,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+4802008,Basurtu-Zorrotza,"Ayuntamiento de Bilbao, Bilbao Open Data, conjunto Distritos y secciones estadísticas de Bilbao 2022 (distritos_secciones_2022.csv), CC BY 3.0 ES, consultado el 20/11/2026; códigos verificados: las 278 secciones censales coinciden con el ADRH 2024 del INE","Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
