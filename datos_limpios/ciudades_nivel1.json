@@ -3756,7 +3756,7 @@
     {
      "codigo": "3501601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 35016 y 35015",
+     "nombre": "Distrito 1 · Vega de San Jose, San Juan - San Jose y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -3775,7 +3775,13 @@
        "La Montañeta"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Vega de San Jose",
+      "San Juan - San Jose",
+      "Casablanca I",
+      "Vegueta",
+      "Tafira Alta"
+     ],
      "renta_hogar": 37717.0,
      "renta_persona": 14235.0,
      "eur_m2": 6.58,
@@ -3788,7 +3794,7 @@
     {
      "codigo": "3501602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 35014 y 35004",
+     "nombre": "Distrito 2 · Alcaravaneras, Lugo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -3802,7 +3808,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Alcaravaneras",
+      "Lugo",
+      "Triana",
+      "Canalejas",
+      "La Paterna"
+     ],
      "renta_hogar": 47640.0,
      "renta_persona": 18498.0,
      "eur_m2": 8.04,
@@ -3815,7 +3827,7 @@
     {
      "codigo": "3501603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 35009 y 35010",
+     "nombre": "Distrito 3 · Guanarteme, La Isleta y Santa Catalina - Canteras",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -3831,7 +3843,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Guanarteme",
+      "La Isleta",
+      "Santa Catalina - Canteras"
+     ],
      "renta_hogar": 42148.0,
      "renta_persona": 17667.0,
      "eur_m2": 10.31,
@@ -3844,7 +3860,7 @@
     {
      "codigo": "3501604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 35012 y 35011",
+     "nombre": "Distrito 4 · Escaleritas, Schamann y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -3859,7 +3875,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Escaleritas",
+      "Schamann",
+      "La Feria",
+      "San Lazaro",
+      "Las Rehoyas"
+     ],
      "renta_hogar": 41005.0,
      "renta_persona": 15600.0,
      "eur_m2": 7.39,
@@ -3872,7 +3894,7 @@
     {
      "codigo": "3501605",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 35018",
+     "nombre": "Distrito 5 · Tamaraceite, Lomo los Frailes y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -3889,7 +3911,12 @@
        "San Lorenzo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Tamaraceite",
+      "Lomo los Frailes",
+      "Hoya Andrea",
+      "Tenoya"
+     ],
      "renta_hogar": 38425.0,
      "renta_persona": 13803.0,
      "eur_m2": 6.57,
@@ -3901,8 +3928,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": "",
-   "nota_barrios": ""
+   "cita_barrios": "Origen de los datos: Ayuntamiento de Las Palmas de Gran Canaria (barrios y secciones)",
+   "nota_barrios": "Los distritos del INE no son los distritos municipales: se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito. Cada sección censal del Ayuntamiento se ha situado en su distrito del INE comparando sus calles (cruce propio); unas pocas no se pudieron situar y no cuentan."
   },
   {
    "cod_muni": "03014",

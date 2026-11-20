@@ -21,6 +21,14 @@ Ciudades:
     nombran hasta 5 barrios con al menos el 5 % de la población del distrito (son muy pequeños). Los "diseminados" no cuentan.
     LICENCIA PENDIENTE: el portal dice CC BY 4.0 en el título y CC BY-SA 4.0 en la licencia del conjunto.
     No se escribe hasta que Juan lo decida (INCLUIR_MALAGA).
+  * Las Palmas de Gran Canaria (35016). Capas "barrios" y "secciones" del SIT del Ayuntamiento
+    (sit.laspalmasgc.es/server/rest/services/opendata). Las secciones municipales no dicen su distrito y su
+    numeración se repite entre distritos, así que cada una se casa con la sección del INE (mismo número)
+    cuyas calles (callejero electoral del INE, julio 2026) coinciden con las calles principales de la sección
+    municipal. Si las calles no deciden, se usa el distrito de las secciones vecinas con los mismos barrios.
+    Las que siguen dudosas o chocan con otra se descartan. Resultado y método fila a fila en
+    datos_municipales/35016_laspalmas_barrio_por_seccion_censal.csv. Si una sección toca varios barrios, su
+    población se reparte a partes iguales. Mismo umbral que Málaga (hasta 5 barrios con al menos el 5 %).
 
 Uso: python zonas_ciudades.py   y después   python actualizar.py --desde 4
 """
@@ -57,6 +65,11 @@ FUENTES = {
               "'- Sección Censal' (actualizados el 19/11/2026), consultados el 20/11/2026. Cruce propio: cada sección censal se "
               "asigna al barrio que contiene su centro; peso: población del ADRH 2024 del INE",
               "Ayuntamiento de Málaga, datos abiertos (CC BY-SA 4.0)"),
+    "35016": ("Ayuntamiento de Las Palmas de Gran Canaria, SIT municipal (sit.laspalmasgc.es/server/rest/services/opendata): "
+              "capas 'barrios' y 'secciones', consultadas el 20/11/2026; reutilización comercial y no comercial permitida según "
+              "las Condiciones de reutilización de datosabiertos.laspalmasgc.es. Cruce propio con el callejero electoral del INE "
+              "(julio 2026); peso: población del ADRH 2024 del INE",
+              "Origen de los datos: Ayuntamiento de Las Palmas de Gran Canaria (barrios y secciones)"),
 }
 
 
@@ -68,6 +81,9 @@ NOTAS = {
     "29067": "Los distritos del INE no son los distritos municipales: se nombran hasta 5 barrios donde vive al menos el 5 % "
              "de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio). Esta lista de barrios "
              "se publica con licencia CC BY-SA 4.0, la de los datos de origen.",
+    "35016": "Los distritos del INE no son los distritos municipales: se nombran hasta 5 barrios donde vive al menos el 5 % "
+             "de la población del distrito. Cada sección censal del Ayuntamiento se ha situado en su distrito del INE "
+             "comparando sus calles (cruce propio); unas pocas no se pudieron situar y no cuentan.",
 }
 
 
@@ -80,7 +96,7 @@ def bonito(n):
     for i, pal in enumerate(n.split(" ")):
         partes = []
         for p in pal.split("-"):
-            if ROMANO.match(p.rstrip(",")) and p.rstrip(",") not in ("I",) and len(out) + len(partes) > 0:
+            if ROMANO.match(p.rstrip(",")) and (p.rstrip(",") != "I" or i == len(n.split(" ")) - 1) and len(out) + len(partes) > 0:
                 partes.append(p)
             elif "." in p or (len(p) == 1 and p.isalpha() and p not in ("Y", "I")):
                 partes.append(p)
@@ -191,10 +207,35 @@ def malaga(pob_sec):
     return filas
 
 
+def laspalmas(pob_sec):
+    t = pd.read_csv(BASE / "35016_laspalmas_barrio_por_seccion_censal.csv", sep=";", dtype=str).fillna("")
+    t = t[t["seccion_ine"] != ""].copy()
+    t["pob"] = t["seccion_ine"].map(pob_sec).fillna(0).astype(float)
+    tot = defaultdict(float)
+    for s, p in pob_sec.items():
+        if s.startswith("35016"):
+            tot[s[:7]] += p
+    reparto = defaultdict(lambda: defaultdict(float))
+    for _, r in t.iterrows():
+        bs = [b for b in r["barrios"].split("|") if not b.startswith("DISEMINADO")]
+        for b in bs:
+            reparto[r["seccion_ine"][:7]][b] += r["pob"] / len(bs)
+    filas = []
+    for d in sorted(reparto):
+        cub = t.loc[t["seccion_ine"].str[:7] == d, "pob"].sum()
+        s = sorted(reparto[d].items(), key=lambda x: -x[1])
+        total = sum(v for _, v in s)
+        nombres = [bonito(b) for b, v in s if total and v / total >= MIN_CUOTA_MALAGA][:MAX_MALAGA]
+        print(f"  Las Palmas distrito {d[-2:]} (secciones situadas: {cub / tot[d]:.0%} de la población): {', '.join(nombres)}")
+        if nombres:
+            filas.append((d, nombres))
+    return filas
+
+
 def main():
     pob_sec = poblacion_secciones()
     pob_ine = poblacion_distritos_ine()
-    filas = sevilla(pob_ine) + zaragoza()
+    filas = sevilla(pob_ine) + zaragoza() + laspalmas(pob_sec)
     m = malaga(pob_sec)
     if INCLUIR_MALAGA:
         filas += m

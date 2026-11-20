@@ -92,7 +92,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - La demanda de búsqueda de cada página es una hipótesis: medirla en Search Console (B-30) antes de crear más.
 
 ## Barrios en más ciudades (20/11/2026)
-- `python zonas_ciudades.py` y después `python actualizar.py --desde 4`. Hecho: Sevilla y Zaragoza. Málaga publicada (su lista de barrios con CC BY-SA 4.0, aceptado por Juan). Siguientes: Murcia, Palma, Las Palmas, Córdoba, Alicante, Vigo, Gijón, Granada (B-32). Detalle y método en FUENTES.md, fuente 6.
+- `python zonas_ciudades.py` y después `python actualizar.py --desde 4`. Hecho: Sevilla y Zaragoza. Málaga publicada (su lista de barrios con CC BY-SA 4.0, aceptado por Juan). Las Palmas hecha (cruce por calles). Siguientes: Murcia, Palma, Córdoba, Alicante, Vigo, Gijón, Granada (B-32). Detalle y método en FUENTES.md, fuente 6.
 
 ## Diseño (20/11/2026)
 - La cabecera y el pie son comunes (`cabecera()` y `pie()` en `generar_web.py`) y los usan también `rankings_temas.py` y `paginas_legales.py`. Para cambiar el aspecto, tocar solo esas funciones y la constante `CSS`. Muestra aprobada por Juan: capturas en la carpeta del proyecto `rediseno/`.

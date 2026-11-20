@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 20/11/2026: barrios con nombre en Las Palmas de Gran Canaria (B-32)
+- `zonas_ciudades.py` añade Las Palmas: cada sección censal del Ayuntamiento se sitúa en su distrito del INE comparando sus calles con el callejero electoral del INE; hasta 5 barrios por distrito con al menos el 5 % de la población. Detalle fila a fila en `datos_municipales/35016_laspalmas_barrio_por_seccion_censal.csv`.
+- Corrección menor: "Casablanca I" (la I final es un número romano). Tests: 20 OK.
+
 ## 20/11/2026: fondo siempre claro y enlaces sin subrayado
 - Juan lo vio en el móvil con modo oscuro y la web salía con fondo azul oscuro. Se quita el modo oscuro: fondo blanco siempre (`color-scheme: light only`).
 - Enlaces sin subrayado: en tablas y listas, nombre en negrita oscura con una flecha azul "›" (así se distinguen las filas con página propia); subrayado solo al pasar el ratón. Tests: 20 OK.
