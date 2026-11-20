@@ -270,6 +270,28 @@ def fin(root, extra_js=""):
     return f'{extra_js}<script src="{root}assets/app.js"></script></body></html>'
 
 
+FECHA_CALLEJERO = ""  # se rellena en main() con la fecha del callejero del INE (ciudades_nivel1.json)
+
+
+def zona_html(x):
+    """Segunda línea bajo 'Distrito N (CP ...)': núcleos de población o calles principales del distrito."""
+    z = x.get("zona")
+    if not z:
+        return ""
+    partes = []
+    if z.get("nucleos"):
+        partes.append("Incluye " + y_lista(z["nucleos"]))
+    if z.get("calles"):
+        partes.append("Calles principales: " + ", ".join(z["calles"]))
+    if not partes:
+        return ""
+    return f'<span class="zona">{esc(". ".join(partes))}</span>'
+
+
+def y_lista(xs):
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " y " + xs[-1]
+
+
 def th_orden(i, texto, tipo="num"):
     return f'<th><button type="button" data-col="{i}" data-type="{tipo}">{esc(texto)}</button></th>'
 
@@ -358,7 +380,7 @@ def pagina_ciudad(c, todas, rank_n):
             barra = (f'<div class="meter"><span class="track"><span class="fill" style="--w:{min(a_pc / 30 * 100, 100):.1f}%"></span></span>'
                      f'<span>{d(a_pc)} %{ast}</span></div>') if a_pc is not None else "—"
             fv = lambda v: "" if v is None else f"{v:.2f}"
-            filas.append(f'<tr><th scope="row" data-v="{esc(x["nombre"])}">{esc(x["nombre"])}</th>'
+            filas.append(f'<tr><th scope="row" data-v="{esc(x["nombre"])}">{esc(x["nombre"])}{zona_html(x)}</th>'
                          f'<td data-v="{fv(a_mes)}">{n(a_mes)}{" €" if a_mes else ""}{ast if a_mes else ""}</td>'
                          f'<td data-v="{fv(a_m2)}">{d(a_m2, 2) if a_m2 else "—"}</td>'
                          f'<td data-v="{fv(x["renta_hogar"])}">{n(x["renta_hogar"])}{" €" if x["renta_hogar"] else ""}</td>'
@@ -400,9 +422,13 @@ def pagina_ciudad(c, todas, rank_n):
                    f'{th_orden(2, "€/m²")}{th_orden(3, "Renta del hogar")}{th_orden(4, "Alquiler sobre renta")}</tr></thead>'
                    f'<tbody>{"".join(filas)}</tbody></table></div>'
                    + "".join(f'<p class="proto">{esc(t)}</p>' for t in notas)
+                   + (f'<p class="proto">Distritos sin nombre oficial: se identifican por sus códigos postales y por las calles que pasan '
+                      f'por más secciones censales del distrito, según el Callejero del Censo Electoral del INE (situación a {esc(FECHA_CALLEJERO)}). '
+                      f'Los nombres de las calles se escriben como los da el INE, sin tildes.</p>'
+                      if any(x.get("zona") for x in dist) else '')
                    + (f'<p class="proto">Nombres de los distritos: {esc(c["cita_nombres_distritos"])}.</p>'
                       if c.get("cita_nombres_distritos") else '')
-                   + ('' if any(x["con_nombre_oficial"] for x in dist) else
+                   + ('' if any(x["con_nombre_oficial"] or x.get("zona") for x in dist) else
                       '<p class="proto">Los distritos se identifican con el número del INE. Los nombres de barrio todavía no están incorporados.</p>')
                    + '</section>')
     else:
@@ -715,7 +741,8 @@ def pagina_comunidades(todas):
 
 
 # ------------------------------------------------------------------ recursos estáticos
-CSS = r""":root{--bg:#f3f5f6;--surface:#fff;--ink:#1f2933;--muted:#5b6672;--line:#dbe1e5;--acc:#0f7a5b;--on-acc:#fff;--tint:#e3f6ee;--lo:#e3f6ee;--hi:#0f7a5b;--nav-bg:#1f2933;--nav-fg:#fff;--nav-hi:#5fe0b0;--track:#e1e7ea;color-scheme:light}
+CSS = r""".zona{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px;max-width:34ch}
+:root{--bg:#f3f5f6;--surface:#fff;--ink:#1f2933;--muted:#5b6672;--line:#dbe1e5;--acc:#0f7a5b;--on-acc:#fff;--tint:#e3f6ee;--lo:#e3f6ee;--hi:#0f7a5b;--nav-bg:#1f2933;--nav-fg:#fff;--nav-hi:#5fe0b0;--track:#e1e7ea;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#11181f;--surface:#1a232c;--ink:#e7ecef;--muted:#9ba7b0;--line:#2a3640;--acc:#4fcf9f;--on-acc:#0b1f1a;--tint:#17302a;--lo:#1d3a33;--hi:#4fcf9f;--nav-bg:#0b1117;--track:#26323c;color-scheme:dark}}
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
@@ -883,9 +910,10 @@ def escribir(ruta, texto):
 
 
 def main():
-    global FECHA_GEN
+    global FECHA_GEN, FECHA_CALLEJERO
     datos = json.loads(DATOS.read_text(encoding="utf-8"))
     FECHA_GEN = datos.get("generado", "")
+    FECHA_CALLEJERO = datos.get("fecha_callejero", "")
     todas = [c for c in datos["ciudades"] if c.get("alquiler_pct_renta") is not None and c.get("renta_hogar") and c.get("alquiler_mes")]
     omitidas = len(datos["ciudades"]) - len(todas)
     # rankings (1 = valor más alto)

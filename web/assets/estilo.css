@@ -1,3 +1,4 @@
+.zona{display:block;font-weight:400;font-size:13px;color:var(--muted);margin-top:2px;max-width:34ch}
 :root{--bg:#f3f5f6;--surface:#fff;--ink:#1f2933;--muted:#5b6672;--line:#dbe1e5;--acc:#0f7a5b;--on-acc:#fff;--tint:#e3f6ee;--lo:#e3f6ee;--hi:#0f7a5b;--nav-bg:#1f2933;--nav-fg:#fff;--nav-hi:#5fe0b0;--track:#e1e7ea;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#11181f;--surface:#1a232c;--ink:#e7ecef;--muted:#9ba7b0;--line:#2a3640;--acc:#4fcf9f;--on-acc:#0b1f1a;--tint:#17302a;--lo:#1d3a33;--hi:#4fcf9f;--nav-bg:#0b1117;--track:#26323c;color-scheme:dark}}
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}

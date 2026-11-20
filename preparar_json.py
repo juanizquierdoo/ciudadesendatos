@@ -72,6 +72,18 @@ if f_nombres.exists():
 else:
     print("AVISO: no existe nombres_distritos.csv; se usará 'Distrito N' en todas las ciudades.")
 
+# Zonas de los distritos sin nombre oficial (preparar_zonas.py, callejero del INE)
+zonas, fecha_callejero = {}, ""
+f_zonas = datos / "zonas_distritos.csv"
+if f_zonas.exists():
+    zd = leer_csv(f_zonas, dtype=str).fillna("")
+    for _, z in zd.iterrows():
+        zonas[z["codigo"]] = {k: [x for x in z[k].split("|") if x] for k in ("cps", "calles", "nucleos")}
+        fecha_callejero = z["fecha_callejero"]
+    print("Zonas de distrito cargadas:", len(zonas))
+else:
+    print("AVISO: no existe zonas_distritos.csv; los distritos sin nombre se muestran como 'Distrito N'.")
+
 sel = mun[(mun["poblacion"] > UMBRAL_POBLACION) & (mun["fiabilidad"] == "ok")].copy()
 print("Ciudades seleccionadas:", len(sel))
 
@@ -120,9 +132,15 @@ for _, f in sel.iterrows():
             m = re.search(r"(\d+)\s*$", str(d["nombre_ine"]))
             num = int(m.group(1)) if m else None
             nombre_d = nombres.get(d["codigo"]) or (f"Distrito {num}" if num else d["nombre_ine"])
+            zona = None
+            if d["codigo"] not in nombres and d["codigo"] in zonas:
+                # Sin nombre oficial: se identifica por sus códigos postales y calles (callejero del INE)
+                zona = zonas[d["codigo"]]
+                if zona["cps"]:
+                    nombre_d += " · CP " + " y ".join(zona["cps"][:2])
             distritos.append({
                 "codigo": d["codigo"], "numero": num, "nombre": nombre_d,
-                "con_nombre_oficial": d["codigo"] in nombres,
+                "con_nombre_oficial": d["codigo"] in nombres, "zona": zona,
                 **{k: limpio(d.get(k)) for k in ["renta_hogar", "renta_persona", "eur_m2",
                                                   "alquiler_mes", "superficie_m2", "inmuebles",
                                                   "alquiler_pct_renta", "fiabilidad"]},
@@ -147,7 +165,7 @@ for s, lista in vistos.items():
             c["slug"] = f"{s}-{slug(c['provincia'])}"
         print("Slug repetido resuelto:", s, "->", [c["slug"] for c in lista])
 
-salida = {"generado": date.today().isoformat(), "anio_datos": ANIO, "ciudades": ciudades}
+salida = {"generado": date.today().isoformat(), "anio_datos": ANIO, "fecha_callejero": fecha_callejero, "ciudades": ciudades}
 ruta_json = JSON_NIVEL1
 ruta_json.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"\nGuardado {ruta_json.name}: {round(ruta_json.stat().st_size / 1024)} KB")

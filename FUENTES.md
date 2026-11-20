@@ -55,6 +55,13 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
 - **Madrid y Valencia:** incorporados antes de la Fase 0, con la fuente sin documentar (B-20).
 - Método para añadir una ciudad: (1) buscar en el portal de datos abiertos del ayuntamiento un fichero de secciones censales con su distrito y anotar su licencia; (2) comprobar que el conjunto (distrito, sección) es idéntico al del ADRH del INE; (3) solo si coincide, añadir los nombres con su fuente. Si no coincide (por ejemplo, porque los distritos municipales no son los censales), no se añade.
 
+### 5. Zonas de los distritos sin nombre: Callejero del Censo Electoral, INE (desde 20/11/2026)
+- **Archivo:** `datos_originales/caj_esp_072026/` (ficheros TRAM y VIAS; nacional, publicación de julio de 2026, situación a 30/06/2026), descargado de https://www.ine.es/dyngs/DAB/es/index.htm?cid=1390 (`caj_esp_072026.zip`, 50 MB). Diseño de registro: `datos_originales/Dis_nuevo.xlsx` (el bloque de la situación actual empieza en la posición 71).
+- **Qué da:** cada tramo de calle con su sección censal y su código postal ("distrito postal de cada tramo", según la página del INE), y la unidad poblacional (núcleo).
+- **Uso:** `preparar_zonas.py` describe cada distrito con los códigos postales presentes en al menos el 20 % de sus secciones, las 3 calles que pasan por más secciones y los núcleos distintos del principal. Solo se muestra en los distritos **sin nombre oficial** (785 de 864). Los nombres de calle van como los da el INE (sin tildes y, en algunas ciudades como Bilbao, con el apellido delante); solo se cambian mayúsculas y "(EL)" → "El".
+- **Ojo:** el callejero es de 2026 y el ADRH de 2024. Los códigos de distrito son los mismos, pero algunas secciones han cambiado (Valladolid: 256 secciones en 2026 frente a 266 en 2024). Para describir la zona del distrito basta.
+- **Licencia:** INE, CC BY 4.0 (Aviso legal, ver fuente 2). Cita: la general del INE del pie, y en la ficha se indica la fecha del callejero.
+
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
 |---|---|---|---|---|---|

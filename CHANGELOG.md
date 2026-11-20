@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 20/11/2026: Distritos sin nombre identificados por código postal y calles (B-27)
+- Nuevo paso `preparar_zonas.py` (paso 3 de `actualizar.py`, antes de preparar_json): lee el Callejero del Censo Electoral del INE (julio de 2026) y escribe `datos_limpios/zonas_distritos.csv`.
+- Los 785 distritos sin nombre oficial pasan de "Distrito 8" a "Distrito 8 · CP 47010 y 47011", con una segunda línea en la tabla: "Calles principales: Portillo de Balboa, Cardenal Torquemada, Moradas" (y "Incluye …" si hay núcleos como La Overuela o Puente Duero). El texto de la ficha, las listas y el mapa usan la misma etiqueta. Nota de fuente y fecha bajo la tabla.
+- `tests/test_distritos.py`: todo distrito sin nombre lleva código postal y ninguna tabla muestra solo "Distrito N". `ejecutar_tests.py`: 18 OK, 0 FALLA.
+
 ## 20/11/2026: Nombres de distrito de Bilbao y script de verificación (B-23, B-12)
 - Nuevo `verificar_distritos.py`: compara las secciones censales de un fichero municipal (en `datos_municipales/`) con las del ADRH del INE y, solo si coinciden todas, escribe los nombres con su fuente en `datos_limpios/nombres_distritos.csv` (`--escribir --fuente "..."`). La primera vez crea `datos_limpios/secciones_adrh_2024.csv` (caché, fuera de git); después tarda unos segundos.
 - Bilbao: 8 distritos con nombre oficial (Bilbao Open Data, CC BY 3.0 ES). Las 278 secciones coinciden con el INE. Distritos con nombre en la web: 58 (antes 50).

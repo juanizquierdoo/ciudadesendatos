@@ -24,4 +24,18 @@ for cod, cita in citas.items():
         mal.append(c["slug"])
 print(f"[{'OK   ' if not mal else 'FALLA'}] Las fichas con nombres citados muestran la fuente ({len(citas)} ciudades) {mal or ''}")
 fallos += mal
+
+# Distritos sin nombre oficial: deben llevar código postal (callejero del INE) para que se sepa qué zona son
+import re
+sin_zona = [f'{c["nombre"]}: {x["nombre"]}' for c in ciudades.values() for x in c["distritos"]
+            if not x["con_nombre_oficial"] and not (x.get("zona") and x["zona"].get("cps") and " · CP " in x["nombre"])]
+print(f"[{'OK   ' if not sin_zona else 'FALLA'}] Todo distrito sin nombre oficial lleva su código postal {sin_zona[:5] or ''}")
+fallos += sin_zona
+desnudos = []
+for c in ciudades.values():
+    html_c = (BASE / "web" / c["slug"] / "index.html").read_text(encoding="utf-8")
+    if re.search(r'<th scope="row"[^>]*>Distrito \d+</th>', html_c):
+        desnudos.append(c["slug"])
+print(f"[{'OK   ' if not desnudos else 'FALLA'}] Ninguna tabla muestra solo 'Distrito N' {desnudos[:5] or ''}")
+fallos += desnudos
 sys.exit(1 if fallos else 0)

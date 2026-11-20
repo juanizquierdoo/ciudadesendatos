@@ -7,10 +7,11 @@ Uso (desde la carpeta del proyecto):
 Pasos:
     1. procesar_nacional.py  lee los CSV grandes del INE (renta y demografía)
     2. unir_nacional.py      une renta, demografía y alquiler (SERPAVI)
-    3. preparar_json.py      selecciona ciudades y comprueba los valores de referencia
-    4. preparar_comunidades.py  alquiler oficial por comunidad autónoma (SERPAVI, hoja CCAA)
-    5. generar_web.py        genera la carpeta web/
-    6. tests/ejecutar_tests.py
+    3. preparar_zonas.py     códigos postales y calles de cada distrito (callejero del INE)
+    4. preparar_json.py      selecciona ciudades y comprueba los valores de referencia
+    5. preparar_comunidades.py  alquiler oficial por comunidad autónoma (SERPAVI, hoja CCAA)
+    6. generar_web.py        genera la carpeta web/
+    7. tests/ejecutar_tests.py
 
 Se para en el primer paso que falle. El año de los datos se cambia en config.py.
 """
@@ -22,7 +23,7 @@ from pathlib import Path
 from config import ANIO
 
 BASE = Path(__file__).parent
-PASOS = ["procesar_nacional.py", "unir_nacional.py", "preparar_json.py", "preparar_comunidades.py",
+PASOS = ["procesar_nacional.py", "unir_nacional.py", "preparar_zonas.py", "preparar_json.py", "preparar_comunidades.py",
          "generar_web.py", "tests/ejecutar_tests.py"]
 
 
