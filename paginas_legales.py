@@ -21,7 +21,7 @@ TITULAR = {
     "nombre": "Juan Izquierdo",       # nombre y dos apellidos
     "nif": "",          # DNI con letra. Obligatorio solo con ANUNCIOS = True
     "domicilio": "",    # calle, número, CP, ciudad (provincia). Obligatorio solo con ANUNCIOS = True
-    "email": "",        # correo de contacto de la web
+    "email": "ciudadesendatos@gmail.com",        # correo de contacto de la web
 }
 
 # ¿La web muestra publicidad o enlaces de afiliación? Cambiarlo a True exige NIF y
