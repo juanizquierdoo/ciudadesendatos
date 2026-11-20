@@ -7,8 +7,11 @@ RGPD para una web informativa sin formularios, sin cookies y sin analítica. Si 
 añade analítica, publicidad o un formulario, hay que revisar privacidad y cookies
 ANTES de publicarlo (y poner un aviso de consentimiento si se instalan cookies).
 
-Datos del titular: la LSSI (art. 10) obliga a publicarlos. Mientras falte alguno,
-las páginas no se generan y el pie no las enlaza (el test lo marca como PENDIENTE).
+Datos del titular: sin anuncios (web sin actividad económica) basta con nombre y
+correo (RGPD). Con anuncios o afiliación, la LSSI (art. 10) obliga a publicar también
+NIF y domicilio: pon ANUNCIOS = True y rellénalos ANTES de activarlos.
+Mientras falte algún dato obligatorio, las páginas no se generan y el pie no las
+enlaza (el test lo marca como PENDIENTE).
 """
 import html
 
@@ -16,10 +19,14 @@ import html
 # Rellénalos exactamente como quieres que aparezcan en la web (serán públicos).
 TITULAR = {
     "nombre": "",       # nombre y dos apellidos
-    "nif": "",          # DNI con letra, p. ej. 12345678Z
-    "domicilio": "",    # calle, número, código postal, ciudad (provincia)
+    "nif": "",          # DNI con letra. Obligatorio solo con ANUNCIOS = True
+    "domicilio": "",    # calle, número, CP, ciudad (provincia). Obligatorio solo con ANUNCIOS = True
     "email": "",        # correo de contacto de la web
 }
+
+# ¿La web muestra publicidad o enlaces de afiliación? Cambiarlo a True exige NIF y
+# domicilio y cambia los textos. Revisar también privacidad y cookies antes.
+ANUNCIOS = False
 
 ACTUALIZADO = "20/11/2026"   # cámbialo cada vez que cambie el texto de alguna página legal
 DOMINIO = "ciudadesendatos.es"
@@ -31,8 +38,12 @@ PAGINAS = {   # carpeta -> título del enlace
 }
 
 
+def obligatorios():
+    return ("nombre", "nif", "domicilio", "email") if ANUNCIOS else ("nombre", "email")
+
+
 def completo():
-    return all(str(v).strip() for v in TITULAR.values())
+    return all(str(TITULAR.get(k, "")).strip() for k in obligatorios())
 
 
 def esc(s):
@@ -50,9 +61,9 @@ def enlaces_pie(root):
 def _titular_html():
     t = {k: esc(v.strip()) for k, v in TITULAR.items()}
     return (f'<ul><li><strong>Titular:</strong> {t["nombre"]}</li>'
-            f'<li><strong>NIF:</strong> {t["nif"]}</li>'
-            f'<li><strong>Domicilio:</strong> {t["domicilio"]}</li>'
-            f'<li><strong>Correo electrónico:</strong> <a href="mailto:{t["email"]}">{t["email"]}</a></li>'
+            + (f'<li><strong>NIF:</strong> {t["nif"]}</li>' if t["nif"] else "")
+            + (f'<li><strong>Domicilio:</strong> {t["domicilio"]}</li>' if t["domicilio"] else "")
+            + f'<li><strong>Correo electrónico:</strong> <a href="mailto:{t["email"]}">{t["email"]}</a></li>'
             f'<li><strong>Sitio web:</strong> {DOMINIO}</li></ul>')
 
 
@@ -64,10 +75,10 @@ def _email():
 def _aviso_legal(root):
     return f"""
 <section><h2>1. Datos del titular</h2>
-<p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se informa de que el titular de este sitio web es:</p>
+<p>{"En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico (LSSI), se" if ANUNCIOS else "Se"} informa de que el titular de este sitio web es:</p>
 {_titular_html()}</section>
 <section><h2>2. Objeto</h2>
-<p>{DOMINIO} es un portal informativo y gratuito que reúne datos oficiales sobre las ciudades de España (alquiler, renta de los hogares, población y otros) y los presenta en fichas, rankings y tablas. El sitio puede mostrar publicidad o enlaces de afiliación, que se identificarán como tales.</p></section>
+<p>{DOMINIO} es un portal informativo y gratuito que reúne datos oficiales sobre las ciudades de España (alquiler, renta de los hogares, población y otros) y los presenta en fichas, rankings y tablas. {"El sitio muestra publicidad y puede incluir enlaces de afiliación, que se identifican como tales." if ANUNCIOS else "El sitio no tiene ánimo de lucro: no muestra publicidad ni cobra por sus contenidos."}</p></section>
 <section><h2>3. Condiciones de uso</h2>
 <p>El acceso a la web es libre y no requiere registro. Al usarla te comprometes a hacerlo de forma lícita y a no dañar su funcionamiento. El titular puede modificar los contenidos y estas condiciones en cualquier momento; la versión vigente es la publicada en esta página.</p></section>
 <section><h2>4. Origen y fiabilidad de los datos</h2>
@@ -131,6 +142,11 @@ def paginas(head, cabecera, pie, fin, sitio_url):
     """
     if not completo():
         return {}
+    if ANUNCIOS:
+        # Los textos de privacidad y cookies dicen que no hay publicidad ni cookies:
+        # hay que reescribirlos (y poner el aviso de consentimiento) antes de publicar.
+        raise SystemExit("paginas_legales.py: ANUNCIOS = True, pero privacidad y cookies aún dicen que no hay "
+                         "publicidad. Actualiza esos textos y el aviso de consentimiento antes de generar la web.")
     root = "../"
     salida = {}
     for carpeta, (cuerpo, titulo, desc) in CONTENIDO.items():
