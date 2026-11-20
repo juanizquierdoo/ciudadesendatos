@@ -13,6 +13,7 @@ import unicodedata
 
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
+import paginas_legales
 
 base = Path(__file__).parent
 DATOS = base / "datos_limpios" / "ciudades_nivel1.json"
@@ -237,7 +238,8 @@ def pie(root):
             f'Los datos elaborados y los textos de {SITIO} se publican con licencia '
             f'<a href="{LICENCIA_URL}" rel="license">{LICENCIA}</a>: puedes reutilizarlos citando {SITIO} con un enlace a esta web.'
             " Los datos de origen mantienen la licencia de sus fuentes."
-            + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "") + "</footer>")
+            + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "")
+            + paginas_legales.enlaces_pie(root) + "</footer>")
 
 
 def fecha_es(iso):
@@ -852,6 +854,8 @@ tbody th{font-weight:600}
 .lnk.cols{columns:2 300px;column-gap:28px;border-top:0}
 .lnk.cols li{break-inside:avoid}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;max-width:76ch}
+footer .legal{margin-top:10px}
+.legal-texto section{max-width:76ch}
 """
 
 JS = r"""(function(){
@@ -968,9 +972,13 @@ def main():
     for x in con_pagina:
         escribir(WEB / "comunidades" / x["slug"] / "index.html", pagina_comunidad(x, todas, rank_n))
 
+    legales = paginas_legales.paginas(head, cabecera, pie, fin, BASE_URL)  # B-04: vacío si faltan los datos del titular
+    for carpeta, texto in legales.items():
+        escribir(WEB / carpeta / "index.html", texto)
+
     urls = ([""] + [f"rankings/{s}/" for s, *_ in RANKINGS]
             + (["comunidades/"] if COMUNIDADES else []) + [f"comunidades/{x['slug']}/" for x in con_pagina]
-            + [f"{c['slug']}/" for c in todas])
+            + [f"{c['slug']}/" for c in todas] + [f"{x}/" for x in legales])
     robots = "User-agent: *\nAllow: /\n"
     if BASE_URL:
         mapa = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
