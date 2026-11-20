@@ -12,6 +12,7 @@ import shutil
 import unicodedata
 
 from config import ANIO, ANIO_INICIO_ALQUILER
+from textos_ciudad import seccion_claves
 
 base = Path(__file__).parent
 DATOS = base / "datos_limpios" / "ciudades_nivel1.json"
@@ -309,7 +310,10 @@ def pagina_ciudad(c, todas, rank_n):
              f'<div><dt>Alquiler sobre la renta</dt><dd class="big">{pc(c["alquiler_pct_renta"])}<small>puesto {r["alquiler_pct_renta"]} de {rank_n["alquiler_pct_renta"]} ciudades</small></dd></div></dl>')
 
     sec = []
-    nav = [("#resumen", "Resumen"), ("#evolucion", "Evolución")]
+    nav = [("#resumen", "Resumen"), ("#claves", "Claves"), ("#evolucion", "Evolución")]
+
+    # texto explicativo generado desde los datos (textos_ciudad.py, B-17)
+    sec.append(seccion_claves(c, todas, ANIO, f"ciudades de más de {MIN_POB} habitantes"))
 
     # evolución
     svg = chart_svg(ser, f"Evolución del alquiler mediano por m² en {nombre}")

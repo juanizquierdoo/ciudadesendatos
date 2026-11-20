@@ -75,3 +75,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Páginas por comunidad autónoma (19/11/2026)
 - Hecho B-18 (Juan lo aprobó en el hilo). Solo hay página para comunidades con 3 o más ciudades (constante MIN_CIUDADES_CCAA en generar_web.py). Las URL son /comunidades/<nombre>/; los nombres de la URL y el nombre corto están en CCAA_INFO.
 - Siguiente: medir en Search Console (B-25) antes de hacer páginas por provincia (B-24).
+
+## Texto propio en las fichas (20/11/2026)
+- `textos_ciudad.py` escribe en cada ficha la sección "Qué dicen los datos de <ciudad>", calculada solo con el JSON (B-17). Se genera desde la plantilla: las ciudades nuevas lo tienen sin hacer nada. Test: `tests/test_textos.py`.
+- Siguiente: medir en Search Console, 3-4 semanas después de publicarlo, si suben las impresiones de las fichas.

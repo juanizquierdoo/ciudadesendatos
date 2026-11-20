@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 20/11/2026: Texto explicativo en cada ficha de ciudad (B-17, en parte)
+- Nuevo `textos_ciudad.py`: genera la sección "Qué dicen los datos de <ciudad>" (6-7 párrafos, unas 300 palabras) solo con los datos del JSON, sin estimaciones. Si falta un dato, la frase no se escribe. Compara cada ciudad con la mediana de las ciudades de la web (alquiler, €/m², renta, peso del alquiler, edad media, hogares unipersonales, pisos alquilados por 1.000 habitantes), explica el cambio 2023-2024 y si está entre las 10 que más o menos suben, el rango p25-p75 de €/m², su puesto dentro de la provincia y el distrito más caro y más barato.
+- `generar_web.py` solo llama a `seccion_claves()` desde la plantilla de ciudad (y añade "Claves" al menú de la ficha). Las ciudades que se añadan al JSON tienen su texto automáticamente.
+- Nuevo `tests/test_textos.py` (8 comprobaciones: sección en todas las fichas, mínimo 5 párrafos y 150 palabras, ningún párrafo repetido entre ciudades, cifras iguales que el JSON, mediana correcta, valores de referencia y sentido de la subida). `ejecutar_tests.py`: 17 OK, 0 FALLA, 0 PENDIENTE.
+- Visto en Chromium (escritorio 1280 px y móvil 390 px): sin scroll horizontal.
+
 ## 20/11/2026: web publicada
 - https://ciudadesendatos.es responde con HTTPS desde GitHub Pages; http y www redirigen a la dirección principal. Comprobados la portada, el sitemap, el canonical y el alquiler de Madrid (868,75 €).
 
