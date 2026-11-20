@@ -275,10 +275,16 @@ FECHA_CALLEJERO = ""  # se rellena en main() con la fecha del callejero del INE 
 
 def zona_html(x):
     """Segunda línea bajo 'Distrito N (CP ...)': núcleos de población o calles principales del distrito."""
-    z = x.get("zona")
+    z = x.get("zona") or {}
+    partes = []
+    if x.get("barrios"):
+        if len(x["barrios"]) > 3:          # con 3 o menos ya están todos en el nombre
+            partes.append("Barrios: " + y_lista(x["barrios"]))
+        if z.get("cps"):
+            partes.append("CP " + ", ".join(z["cps"]))
+        return f'<span class="zona">{esc(". ".join(partes))}</span>'
     if not z:
         return ""
-    partes = []
     if z.get("nucleos"):
         partes.append("Incluye " + y_lista(z["nucleos"]))
     if z.get("calles"):
@@ -425,7 +431,10 @@ def pagina_ciudad(c, todas, rank_n):
                    + (f'<p class="proto">Distritos sin nombre oficial: se identifican por sus códigos postales y por las calles que pasan '
                       f'por más secciones censales del distrito, según el Callejero del Censo Electoral del INE (situación a {esc(FECHA_CALLEJERO)}). '
                       f'Los nombres de las calles se escriben como los da el INE, sin tildes.</p>'
-                      if any(x.get("zona") for x in dist) else '')
+                      if any(x.get("zona") and not x.get("barrios") for x in dist) else '')
+                   + (f'<p class="proto">Barrios de los distritos: {esc(c["cita_barrios"])}. Solo se indican cuando las zonas del Ayuntamiento '
+                      f'forman el distrito completo (la suma de su población coincide exactamente con la del distrito).</p>'
+                      if c.get("cita_barrios") else '')
                    + (f'<p class="proto">Nombres de los distritos: {esc(c["cita_nombres_distritos"])}.</p>'
                       if c.get("cita_nombres_distritos") else '')
                    + ('' if any(x["con_nombre_oficial"] or x.get("zona") for x in dist) else

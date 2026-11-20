@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 20/11/2026: Barrios de Valladolid en 6 de sus 12 distritos
+- Nuevo `zonas_valladolid.py` y `datos_limpios/zonas_nombradas.csv`. `preparar_json.py` y `generar_web.py` leen ese archivo: un distrito sin nombre oficial pero con barrios verificados se muestra como "Distrito 8 · Rondilla, Hospital y otros barrios", con la lista completa y el código postal debajo y la cita del Ayuntamiento bajo la tabla.
+- Valladolid: distritos 3, 6, 8, 10, 11 y 12 con barrios (las zonas estadísticas suman exactamente su población); el resto, con código postal y calles.
+- Tests: 19 OK, 0 FALLA.
+
 ## 20/11/2026: Distritos sin nombre identificados por código postal y calles (B-27)
 - Nuevo paso `preparar_zonas.py` (paso 3 de `actualizar.py`, antes de preparar_json): lee el Callejero del Censo Electoral del INE (julio de 2026) y escribe `datos_limpios/zonas_distritos.csv`.
 - Los 785 distritos sin nombre oficial pasan de "Distrito 8" a "Distrito 8 · CP 47010 y 47011", con una segunda línea en la tabla: "Calles principales: Portillo de Balboa, Cardenal Torquemada, Moradas" (y "Incluye …" si hay núcleos como La Overuela o Puente Duero). El texto de la ficha, las listas y el mapa usan la misma etiqueta. Nota de fuente y fecha bajo la tabla.

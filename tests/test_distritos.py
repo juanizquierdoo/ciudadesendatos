@@ -28,8 +28,9 @@ fallos += mal
 # Distritos sin nombre oficial: deben llevar código postal (callejero del INE) para que se sepa qué zona son
 import re
 sin_zona = [f'{c["nombre"]}: {x["nombre"]}' for c in ciudades.values() for x in c["distritos"]
-            if not x["con_nombre_oficial"] and not (x.get("zona") and x["zona"].get("cps") and " · CP " in x["nombre"])]
-print(f"[{'OK   ' if not sin_zona else 'FALLA'}] Todo distrito sin nombre oficial lleva su código postal {sin_zona[:5] or ''}")
+            if not x["con_nombre_oficial"] and not (x.get("barrios") and " · " in x["nombre"])
+            and not (x.get("zona") and x["zona"].get("cps") and " · CP " in x["nombre"])]
+print(f"[{'OK   ' if not sin_zona else 'FALLA'}] Todo distrito sin nombre oficial lleva sus barrios o su código postal {sin_zona[:5] or ''}")
 fallos += sin_zona
 desnudos = []
 for c in ciudades.values():

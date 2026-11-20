@@ -62,6 +62,12 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
 - **Ojo:** el callejero es de 2026 y el ADRH de 2024. Los códigos de distrito son los mismos, pero algunas secciones han cambiado (Valladolid: 256 secciones en 2026 frente a 266 en 2024). Para describir la zona del distrito basta.
 - **Licencia:** INE, CC BY 4.0 (Aviso legal, ver fuente 2). Cita: la general del INE del pie, y en la ficha se indica la fecha del callejero.
 
+### 6. Barrios de los distritos de Valladolid (desde 20/11/2026)
+- **Archivos** (en `datos_municipales/`, descargados por Juan de valladolid.es, Observatorio Urbano): población por zonas estadísticas 1986-2025 y por distritos 1981-2025 (actualizados el 13/07/2026), documentos de delimitación de los distritos censales y de las zonas estadísticas. También está el Excel de las elecciones generales de 2023 por distritos y zonas, que no se usa porque no relaciona zonas con distritos.
+- **Licencia:** portal Open Data del Ayuntamiento de Valladolid: "si no se indica lo contrario", **CC BY 3.0 ES** (leído el 20/11/2026 en https://www.valladolid.es/es/temas/hacemos/open-data-datos-abiertos).
+- **Verificación** (`zonas_valladolid.py`): los 12 distritos municipales son los distritos censales del INE (el documento los titula así y la población de cada uno coincide con el ADRH 2024 con diferencias de 0-4 %). Las zonas estadísticas no siempre caben enteras en un distrito. Se acepta un distrito solo si la suma de la población de sus zonas coincide **exactamente** con la del distrito; ocurre en los distritos 3, 6, 8, 10, 11 y 12, y en cuatro fechas distintas (2021, 2024, 2025 y julio de 2026). Los distritos 1, 2, 4, 5, 7 y 9 tienen zonas repartidas (Centro, Universidad, Campo Grande...) y se quedan con código postal y calles.
+- Resultado en `datos_limpios/zonas_nombradas.csv` (codigo, zonas, fuente, cita), formato compartido con el hilo de barrios de otras ciudades.
+
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
 |---|---|---|---|---|---|

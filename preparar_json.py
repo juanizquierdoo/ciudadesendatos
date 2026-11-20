@@ -84,6 +84,23 @@ if f_zonas.exists():
 else:
     print("AVISO: no existe zonas_distritos.csv; los distritos sin nombre se muestran como 'Distrito N'.")
 
+# Barrios con nombre de los distritos sin nombre oficial (zonas_nombradas.csv: zonas del ayuntamiento
+# que forman cada distrito, verificadas; lo escribe un script por ciudad, p. ej. zonas_valladolid.py)
+barrios, citas_barrios = {}, {}
+f_barrios = datos / "zonas_nombradas.csv"
+if f_barrios.exists():
+    zb = leer_csv(f_barrios, dtype=str).fillna("")
+    for _, z in zb.iterrows():
+        barrios[z["codigo"]] = [x for x in z["zonas"].split("|") if x]
+        if z["cita"]:
+            citas_barrios[z["codigo"][:5]] = z["cita"]
+    print("Distritos con barrios con nombre:", len(barrios))
+
+
+def lista_y(xs):
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " y " + xs[-1]
+
+
 sel = mun[(mun["poblacion"] > UMBRAL_POBLACION) & (mun["fiabilidad"] == "ok")].copy()
 print("Ciudades seleccionadas:", len(sel))
 
@@ -133,14 +150,23 @@ for _, f in sel.iterrows():
             num = int(m.group(1)) if m else None
             nombre_d = nombres.get(d["codigo"]) or (f"Distrito {num}" if num else d["nombre_ine"])
             zona = None
+            bs = barrios.get(d["codigo"]) if d["codigo"] not in nombres else None
             if d["codigo"] not in nombres and d["codigo"] in zonas:
                 # Sin nombre oficial: se identifica por sus códigos postales y calles (callejero del INE)
                 zona = zonas[d["codigo"]]
-                if zona["cps"]:
-                    nombre_d += " · CP " + " y ".join(zona["cps"][:2])
+            if bs:
+                # ...o, mejor, por los barrios (zonas del ayuntamiento) que lo forman
+                if len(bs) <= 3:
+                    nombre_d += " · " + lista_y(bs)
+                elif len(bs[0]) + len(bs[1]) <= 40:
+                    nombre_d += f" · {bs[0]}, {bs[1]} y otros barrios"
+                else:
+                    nombre_d += f" · {bs[0]} y otros barrios"
+            elif zona and zona["cps"]:
+                nombre_d += " · CP " + " y ".join(zona["cps"][:2])
             distritos.append({
                 "codigo": d["codigo"], "numero": num, "nombre": nombre_d,
-                "con_nombre_oficial": d["codigo"] in nombres, "zona": zona,
+                "con_nombre_oficial": d["codigo"] in nombres, "zona": zona, "barrios": bs or [],
                 **{k: limpio(d.get(k)) for k in ["renta_hogar", "renta_persona", "eur_m2",
                                                   "alquiler_mes", "superficie_m2", "inmuebles",
                                                   "alquiler_pct_renta", "fiabilidad"]},
@@ -153,6 +179,7 @@ for _, f in sel.iterrows():
         **{k: limpio(f.get(k)) for k in CAMPOS},
         "serie_alquiler": serie_alq, "serie_renta": serie_renta, "distritos": distritos,
         "cita_nombres_distritos": citas.get(cod, "") if any(x["con_nombre_oficial"] for x in distritos) else "",
+        "cita_barrios": citas_barrios.get(cod, "") if any(x["barrios"] for x in distritos) else "",
     })
 
 # slugs repetidos: añadir la provincia

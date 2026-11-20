@@ -160,6 +160,7 @@
      "nombre": "Centro",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 47580.0,
      "renta_persona": 23342.0,
      "eur_m2": 17.7,
@@ -175,6 +176,7 @@
      "nombre": "Arganzuela",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 56059.0,
      "renta_persona": 24214.0,
      "eur_m2": 15.97,
@@ -190,6 +192,7 @@
      "nombre": "Retiro",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 68718.0,
      "renta_persona": 28611.0,
      "eur_m2": 16.04,
@@ -205,6 +208,7 @@
      "nombre": "Salamanca",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 73257.0,
      "renta_persona": 31558.0,
      "eur_m2": 18.31,
@@ -220,6 +224,7 @@
      "nombre": "Chamartín",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 84608.0,
      "renta_persona": 34254.0,
      "eur_m2": 17.07,
@@ -235,6 +240,7 @@
      "nombre": "Tetuán",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 49081.0,
      "renta_persona": 20548.0,
      "eur_m2": 16.08,
@@ -250,6 +256,7 @@
      "nombre": "Chamberí",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 69554.0,
      "renta_persona": 31130.0,
      "eur_m2": 18.55,
@@ -265,6 +272,7 @@
      "nombre": "Fuencarral-El Pardo",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 66399.0,
      "renta_persona": 24814.0,
      "eur_m2": 13.77,
@@ -280,6 +288,7 @@
      "nombre": "Moncloa-Aravaca",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 78023.0,
      "renta_persona": 30198.0,
      "eur_m2": 15.5,
@@ -295,6 +304,7 @@
      "nombre": "Latina",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 40384.0,
      "renta_persona": 15960.0,
      "eur_m2": 11.54,
@@ -310,6 +320,7 @@
      "nombre": "Carabanchel",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 38887.0,
      "renta_persona": 14305.0,
      "eur_m2": 11.76,
@@ -325,6 +336,7 @@
      "nombre": "Usera",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 37328.0,
      "renta_persona": 12910.0,
      "eur_m2": 11.18,
@@ -340,6 +352,7 @@
      "nombre": "Puente de Vallecas",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 35023.0,
      "renta_persona": 12754.0,
      "eur_m2": 11.48,
@@ -355,6 +368,7 @@
      "nombre": "Moratalaz",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 45450.0,
      "renta_persona": 18294.0,
      "eur_m2": 11.73,
@@ -370,6 +384,7 @@
      "nombre": "Ciudad Lineal",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 50032.0,
      "renta_persona": 20022.0,
      "eur_m2": 13.28,
@@ -385,6 +400,7 @@
      "nombre": "Hortaleza",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 66048.0,
      "renta_persona": 24770.0,
      "eur_m2": 13.66,
@@ -400,6 +416,7 @@
      "nombre": "Villaverde",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 37328.0,
      "renta_persona": 12792.0,
      "eur_m2": 10.26,
@@ -415,6 +432,7 @@
      "nombre": "Villa de Vallecas",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 42218.0,
      "renta_persona": 15988.0,
      "eur_m2": 11.87,
@@ -430,6 +448,7 @@
      "nombre": "Vicálvaro",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 46175.0,
      "renta_persona": 16976.0,
      "eur_m2": 11.01,
@@ -445,6 +464,7 @@
      "nombre": "San Blas-Canillejas",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 47359.0,
      "renta_persona": 17794.0,
      "eur_m2": 12.69,
@@ -460,6 +480,7 @@
      "nombre": "Barajas",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 61417.0,
      "renta_persona": 23461.0,
      "eur_m2": 13.1,
@@ -470,7 +491,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08019",
@@ -629,6 +651,7 @@
      "nombre": "Ciutat Vella",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 35807.0,
      "renta_persona": 14323.0,
      "eur_m2": 15.55,
@@ -644,6 +667,7 @@
      "nombre": "Eixample",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 54371.0,
      "renta_persona": 22884.0,
      "eur_m2": 14.27,
@@ -659,6 +683,7 @@
      "nombre": "Sants-Montjuïc",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 43045.0,
      "renta_persona": 17601.0,
      "eur_m2": 13.5,
@@ -674,6 +699,7 @@
      "nombre": "Les Corts",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 67001.0,
      "renta_persona": 27533.0,
      "eur_m2": 14.91,
@@ -689,6 +715,7 @@
      "nombre": "Sarrià-Sant Gervasi",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 85131.0,
      "renta_persona": 32927.0,
      "eur_m2": 15.38,
@@ -704,6 +731,7 @@
      "nombre": "Gràcia",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 50808.0,
      "renta_persona": 22141.0,
      "eur_m2": 14.39,
@@ -719,6 +747,7 @@
      "nombre": "Horta-Guinardó",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 43921.0,
      "renta_persona": 18022.0,
      "eur_m2": 12.67,
@@ -734,6 +763,7 @@
      "nombre": "Nou Barris",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 37273.0,
      "renta_persona": 14599.0,
      "eur_m2": 12.03,
@@ -749,6 +779,7 @@
      "nombre": "Sant Andreu",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 44338.0,
      "renta_persona": 17788.0,
      "eur_m2": 12.31,
@@ -764,6 +795,7 @@
      "nombre": "Sant Martí",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 46303.0,
      "renta_persona": 18672.0,
      "eur_m2": 13.35,
@@ -774,7 +806,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": "Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)"
+   "cita_nombres_distritos": "Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "46250",
@@ -933,6 +966,7 @@
      "nombre": "Ciutat Vella",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 52638.0,
      "renta_persona": 23075.0,
      "eur_m2": 10.9,
@@ -948,6 +982,7 @@
      "nombre": "l'Eixample",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 59551.0,
      "renta_persona": 24719.0,
      "eur_m2": 9.51,
@@ -963,6 +998,7 @@
      "nombre": "Extramurs",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 48844.0,
      "renta_persona": 20437.0,
      "eur_m2": 8.7,
@@ -978,6 +1014,7 @@
      "nombre": "Campanar",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 47520.0,
      "renta_persona": 18422.0,
      "eur_m2": 8.51,
@@ -993,6 +1030,7 @@
      "nombre": "la Saïdia",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 38499.0,
      "renta_persona": 15929.0,
      "eur_m2": 8.03,
@@ -1008,6 +1046,7 @@
      "nombre": "el Pla del Real",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 64550.0,
      "renta_persona": 24861.0,
      "eur_m2": 9.42,
@@ -1023,6 +1062,7 @@
      "nombre": "l'Olivereta",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 34352.0,
      "renta_persona": 13546.0,
      "eur_m2": 7.03,
@@ -1038,6 +1078,7 @@
      "nombre": "Patraix",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 40470.0,
      "renta_persona": 16496.0,
      "eur_m2": 6.97,
@@ -1053,6 +1094,7 @@
      "nombre": "Jesús",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 36065.0,
      "renta_persona": 14377.0,
      "eur_m2": 7.23,
@@ -1068,6 +1110,7 @@
      "nombre": "Quatre Carreres",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 39698.0,
      "renta_persona": 15761.0,
      "eur_m2": 7.59,
@@ -1083,6 +1126,7 @@
      "nombre": "Poblats Marítims",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 35759.0,
      "renta_persona": 14495.0,
      "eur_m2": 8.35,
@@ -1098,6 +1142,7 @@
      "nombre": "Camins al Grau",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 43089.0,
      "renta_persona": 16822.0,
      "eur_m2": 8.79,
@@ -1113,6 +1158,7 @@
      "nombre": "Algirós",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 43011.0,
      "renta_persona": 18227.0,
      "eur_m2": 8.88,
@@ -1128,6 +1174,7 @@
      "nombre": "Benimaclet",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 42832.0,
      "renta_persona": 18039.0,
      "eur_m2": 8.53,
@@ -1143,6 +1190,7 @@
      "nombre": "Rascanya",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 37364.0,
      "renta_persona": 13684.0,
      "eur_m2": 7.69,
@@ -1158,6 +1206,7 @@
      "nombre": "Benicalap",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 37355.0,
      "renta_persona": 14263.0,
      "eur_m2": 7.62,
@@ -1173,6 +1222,7 @@
      "nombre": "Pobles del Nord",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 47897.0,
      "renta_persona": 18042.0,
      "eur_m2": 5.87,
@@ -1188,6 +1238,7 @@
      "nombre": "Pobles de l'Oest",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 34219.0,
      "renta_persona": 13031.0,
      "eur_m2": 6.25,
@@ -1203,6 +1254,7 @@
      "nombre": "Pobles del Sud",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 36809.0,
      "renta_persona": 14613.0,
      "eur_m2": 6.37,
@@ -1213,7 +1265,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "50297",
@@ -1384,6 +1437,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35559.0,
      "renta_persona": 16121.0,
      "eur_m2": 8.33,
@@ -1410,6 +1464,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 54210.0,
      "renta_persona": 24250.0,
      "eur_m2": 8.56,
@@ -1436,6 +1491,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35831.0,
      "renta_persona": 15044.0,
      "eur_m2": 7.69,
@@ -1463,6 +1519,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 51620.0,
      "renta_persona": 20831.0,
      "eur_m2": 7.98,
@@ -1490,6 +1547,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35850.0,
      "renta_persona": 15580.0,
      "eur_m2": 7.75,
@@ -1519,6 +1577,7 @@
        "Torrecilla de Valmadrid"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33240.0,
      "renta_persona": 14075.0,
      "eur_m2": 7.66,
@@ -1544,6 +1603,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41089.0,
      "renta_persona": 17594.0,
      "eur_m2": 7.58,
@@ -1570,6 +1630,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45925.0,
      "renta_persona": 16982.0,
      "eur_m2": 7.5,
@@ -1595,6 +1656,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36233.0,
      "renta_persona": 14727.0,
      "eur_m2": 7.35,
@@ -1622,6 +1684,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41925.0,
      "renta_persona": 16645.0,
      "eur_m2": 7.29,
@@ -1651,6 +1714,7 @@
        "Peñaflor"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46435.0,
      "renta_persona": 17255.0,
      "eur_m2": 6.39,
@@ -1682,6 +1746,7 @@
        "Venta del Olivar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40628.0,
      "renta_persona": 15777.0,
      "eur_m2": 5.93,
@@ -1692,7 +1757,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "41091",
@@ -1863,6 +1929,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48973.0,
      "renta_persona": 22106.0,
      "eur_m2": 10.71,
@@ -1889,6 +1956,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32039.0,
      "renta_persona": 13301.0,
      "eur_m2": 8.67,
@@ -1915,6 +1983,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 54725.0,
      "renta_persona": 22336.0,
      "eur_m2": 10.11,
@@ -1940,6 +2009,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 27560.0,
      "renta_persona": 10503.0,
      "eur_m2": 8.09,
@@ -1965,6 +2035,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42620.0,
      "renta_persona": 16405.0,
      "eur_m2": 9.61,
@@ -1990,6 +2061,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42701.0,
      "renta_persona": 18351.0,
      "eur_m2": 10.08,
@@ -2016,6 +2088,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32759.0,
      "renta_persona": 12841.0,
      "eur_m2": 7.37,
@@ -2042,6 +2115,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40910.0,
      "renta_persona": 16874.0,
      "eur_m2": 9.02,
@@ -2068,6 +2142,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37831.0,
      "renta_persona": 13975.0,
      "eur_m2": 7.55,
@@ -2095,6 +2170,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47935.0,
      "renta_persona": 17584.0,
      "eur_m2": 8.77,
@@ -2120,6 +2196,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 61171.0,
      "renta_persona": 23355.0,
      "eur_m2": 9.12,
@@ -2130,7 +2207,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29067",
@@ -2302,6 +2380,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45981.0,
      "renta_persona": 21869.0,
      "eur_m2": 12.04,
@@ -2331,6 +2410,7 @@
        "Olias"
       ]
      },
+     "barrios": [],
      "renta_hogar": 61160.0,
      "renta_persona": 22048.0,
      "eur_m2": 10.63,
@@ -2359,6 +2439,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39950.0,
      "renta_persona": 20045.0,
      "eur_m2": 12.48,
@@ -2385,6 +2466,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37476.0,
      "renta_persona": 15435.0,
      "eur_m2": 10.66,
@@ -2412,6 +2494,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32400.0,
      "renta_persona": 15082.0,
      "eur_m2": 12.62,
@@ -2440,6 +2523,7 @@
        "Verdiales"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32401.0,
      "renta_persona": 12451.0,
      "eur_m2": 9.42,
@@ -2469,6 +2553,7 @@
        "Verdiales"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33137.0,
      "renta_persona": 12290.0,
      "eur_m2": 9.15,
@@ -2498,6 +2583,7 @@
        "Verdiales"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40058.0,
      "renta_persona": 14321.0,
      "eur_m2": 9.32,
@@ -2525,6 +2611,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36281.0,
      "renta_persona": 14875.0,
      "eur_m2": 8.95,
@@ -2551,6 +2638,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36168.0,
      "renta_persona": 14076.0,
      "eur_m2": 9.46,
@@ -2579,6 +2667,7 @@
        "Churriana"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43151.0,
      "renta_persona": 14920.0,
      "eur_m2": 9.44,
@@ -2589,7 +2678,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "30030",
@@ -2760,6 +2850,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45510.0,
      "renta_persona": 17387.0,
      "eur_m2": 7.05,
@@ -2788,6 +2879,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 51262.0,
      "renta_persona": 19465.0,
      "eur_m2": 7.15,
@@ -2814,6 +2906,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39759.0,
      "renta_persona": 14571.0,
      "eur_m2": 6.08,
@@ -2844,6 +2937,7 @@
        "Puente Tocinos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40663.0,
      "renta_persona": 14234.0,
      "eur_m2": 6.99,
@@ -2873,6 +2967,7 @@
        "Alberca de las Torres"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37804.0,
      "renta_persona": 13366.0,
      "eur_m2": 5.78,
@@ -2902,6 +2997,7 @@
        "Los Garres"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33869.0,
      "renta_persona": 11940.0,
      "eur_m2": 4.62,
@@ -2931,6 +3027,7 @@
        "Guadalupe de Maciascoque"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38375.0,
      "renta_persona": 13518.0,
      "eur_m2": 5.8,
@@ -2961,6 +3058,7 @@
        "Sucina"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31931.0,
      "renta_persona": 11667.0,
      "eur_m2": 5.97,
@@ -2971,7 +3069,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "07040",
@@ -3143,6 +3242,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 62723.0,
      "renta_persona": 24183.0,
      "eur_m2": 11.63,
@@ -3175,6 +3275,7 @@
        "Genova"
       ]
      },
+     "barrios": [],
      "renta_hogar": 53378.0,
      "renta_persona": 19643.0,
      "eur_m2": 10.89,
@@ -3205,6 +3306,7 @@
        "Es Secar de la Real"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49137.0,
      "renta_persona": 17518.0,
      "eur_m2": 9.09,
@@ -3236,6 +3338,7 @@
        "Sa Casa Blanca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43128.0,
      "renta_persona": 14318.0,
      "eur_m2": 8.72,
@@ -3267,6 +3370,7 @@
        "Can Pastilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47014.0,
      "renta_persona": 17535.0,
      "eur_m2": 11.02,
@@ -3277,7 +3381,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "35016",
@@ -3452,6 +3557,7 @@
        "La Montañeta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37717.0,
      "renta_persona": 14235.0,
      "eur_m2": 6.58,
@@ -3478,6 +3584,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47640.0,
      "renta_persona": 18498.0,
      "eur_m2": 8.04,
@@ -3506,6 +3613,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42148.0,
      "renta_persona": 17667.0,
      "eur_m2": 10.31,
@@ -3533,6 +3641,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41005.0,
      "renta_persona": 15600.0,
      "eur_m2": 7.39,
@@ -3562,6 +3671,7 @@
        "San Lorenzo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38425.0,
      "renta_persona": 13803.0,
      "eur_m2": 6.57,
@@ -3572,7 +3682,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03014",
@@ -3743,6 +3854,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45636.0,
      "renta_persona": 21288.0,
      "eur_m2": 7.85,
@@ -3770,6 +3882,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32577.0,
      "renta_persona": 13662.0,
      "eur_m2": 6.71,
@@ -3797,6 +3910,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31314.0,
      "renta_persona": 11965.0,
      "eur_m2": 6.71,
@@ -3827,6 +3941,7 @@
        "Santa Faz"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43004.0,
      "renta_persona": 16095.0,
      "eur_m2": 9.02,
@@ -3853,6 +3968,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29472.0,
      "renta_persona": 10546.0,
      "eur_m2": 5.82,
@@ -3879,6 +3995,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38285.0,
      "renta_persona": 14556.0,
      "eur_m2": 6.52,
@@ -3905,6 +4022,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31010.0,
      "renta_persona": 12393.0,
      "eur_m2": 6.25,
@@ -3935,6 +4053,7 @@
        "Rebolledo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39215.0,
      "renta_persona": 15466.0,
      "eur_m2": 6.67,
@@ -3945,7 +4064,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "48020",
@@ -4104,6 +4224,7 @@
      "nombre": "Deustu",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 47604.0,
      "renta_persona": 20666.0,
      "eur_m2": 11.43,
@@ -4119,6 +4240,7 @@
      "nombre": "Uribarri",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 42673.0,
      "renta_persona": 19304.0,
      "eur_m2": 11.34,
@@ -4134,6 +4256,7 @@
      "nombre": "Otxarkoaga-Txurdinaga",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 39039.0,
      "renta_persona": 16520.0,
      "eur_m2": 11.06,
@@ -4149,6 +4272,7 @@
      "nombre": "Begoña",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 38998.0,
      "renta_persona": 17531.0,
      "eur_m2": 11.28,
@@ -4164,6 +4288,7 @@
      "nombre": "Ibaiondo",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 41965.0,
      "renta_persona": 17833.0,
      "eur_m2": 10.77,
@@ -4179,6 +4304,7 @@
      "nombre": "Abando",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 76565.0,
      "renta_persona": 32874.0,
      "eur_m2": 13.7,
@@ -4194,6 +4320,7 @@
      "nombre": "Errekalde",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 41711.0,
      "renta_persona": 17740.0,
      "eur_m2": 11.21,
@@ -4209,6 +4336,7 @@
      "nombre": "Basurtu-Zorrotza",
      "con_nombre_oficial": true,
      "zona": null,
+     "barrios": [],
      "renta_hogar": 44366.0,
      "renta_persona": 19144.0,
      "eur_m2": 11.3,
@@ -4219,7 +4347,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": "Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)"
+   "cita_nombres_distritos": "Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "14021",
@@ -4394,6 +4523,7 @@
        "Santo Domingo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43215.0,
      "renta_persona": 16574.0,
      "eur_m2": 6.85,
@@ -4424,6 +4554,7 @@
        "Las Quemadas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32330.0,
      "renta_persona": 13061.0,
      "eur_m2": 6.79,
@@ -4450,6 +4581,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42836.0,
      "renta_persona": 17416.0,
      "eur_m2": 7.05,
@@ -4476,6 +4608,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34722.0,
      "renta_persona": 14459.0,
      "eur_m2": 7.12,
@@ -4506,6 +4639,7 @@
        "Los Cansinos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31493.0,
      "renta_persona": 12530.0,
      "eur_m2": 6.15,
@@ -4536,6 +4670,7 @@
        "Los Arenales"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44655.0,
      "renta_persona": 16933.0,
      "eur_m2": 7.8,
@@ -4564,6 +4699,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49261.0,
      "renta_persona": 21661.0,
      "eur_m2": 7.51,
@@ -4591,6 +4727,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39580.0,
      "renta_persona": 16801.0,
      "eur_m2": 7.64,
@@ -4621,6 +4758,7 @@
        "Puente Viejo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 28330.0,
      "renta_persona": 11466.0,
      "eur_m2": 6.46,
@@ -4651,6 +4789,7 @@
        "Villarrubia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40179.0,
      "renta_persona": 16046.0,
      "eur_m2": 7.25,
@@ -4661,7 +4800,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "47186",
@@ -4833,6 +4973,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 62910.0,
      "renta_persona": 29914.0,
      "eur_m2": 8.57,
@@ -4859,6 +5000,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49235.0,
      "renta_persona": 22020.0,
      "eur_m2": 6.9,
@@ -4871,7 +5013,7 @@
     {
      "codigo": "4718603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 47004 y 47001",
+     "nombre": "Distrito 3 · Caño Argales",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -4885,6 +5027,9 @@
       ],
       "nucleos": []
      },
+     "barrios": [
+      "Caño Argales"
+     ],
      "renta_hogar": 47596.0,
      "renta_persona": 22167.0,
      "eur_m2": 7.26,
@@ -4911,6 +5056,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31612.0,
      "renta_persona": 13600.0,
      "eur_m2": 6.29,
@@ -4938,6 +5084,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50718.0,
      "renta_persona": 24267.0,
      "eur_m2": 7.93,
@@ -4950,7 +5097,7 @@
     {
      "codigo": "4718606",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 47012 y 47005",
+     "nombre": "Distrito 6 · Pajarillos Bajos, Circular y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -4964,6 +5111,14 @@
       ],
       "nucleos": []
      },
+     "barrios": [
+      "Pajarillos Bajos",
+      "Circular",
+      "Vadillos",
+      "Pajarillos Altos",
+      "Páramo San Isidro-Poblado Esperanza",
+      "Las Flores"
+     ],
      "renta_hogar": 31486.0,
      "renta_persona": 13835.0,
      "eur_m2": 6.39,
@@ -4991,6 +5146,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36025.0,
      "renta_persona": 16380.0,
      "eur_m2": 7.09,
@@ -5003,7 +5159,7 @@
     {
      "codigo": "4718608",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 47010 y 47011",
+     "nombre": "Distrito 8 · Rondilla, Hospital y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -5017,6 +5173,13 @@
       ],
       "nucleos": []
      },
+     "barrios": [
+      "Rondilla",
+      "Hospital",
+      "Santa Clara",
+      "San Pedro Regalado",
+      "Barrio España"
+     ],
      "renta_hogar": 30662.0,
      "renta_persona": 14385.0,
      "eur_m2": 6.95,
@@ -5044,6 +5207,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47353.0,
      "renta_persona": 22350.0,
      "eur_m2": 7.42,
@@ -5056,7 +5220,7 @@
     {
      "codigo": "4718610",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 47014 y 47009",
+     "nombre": "Distrito 10 · Parquesol y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -5072,6 +5236,18 @@
        "La Overuela"
       ]
      },
+     "barrios": [
+      "Parquesol",
+      "Avenida de Burgos-Canal de Castilla",
+      "Girón",
+      "Huerta del Rey (Alta)",
+      "Arturo Eyries (Alto)",
+      "Huerta del Rey (Media)",
+      "Huerta del Rey (Baja)",
+      "Gavilla",
+      "Colegio Cristo Rey-Insonusa",
+      "Arturo Eyries (Bajo)"
+     ],
      "renta_hogar": 43947.0,
      "renta_persona": 18498.0,
      "eur_m2": 6.46,
@@ -5084,7 +5260,7 @@
     {
      "codigo": "4718611",
      "numero": 11,
-     "nombre": "Distrito 11 · CP 47008 y 47007",
+     "nombre": "Distrito 11 · Las Villas-Cañada Puente Duero-Covaresa-Parque Alameda-Paula López y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -5098,6 +5274,15 @@
       ],
       "nucleos": []
      },
+     "barrios": [
+      "Las Villas-Cañada Puente Duero-Covaresa-Parque Alameda-Paula López",
+      "Paseo Zorrilla (Alto)",
+      "La Rubia",
+      "Cuatro de Marzo",
+      "Polígono de Argales",
+      "Arturo León",
+      "Camino de la Esperanza"
+     ],
      "renta_hogar": 44331.0,
      "renta_persona": 18919.0,
      "eur_m2": 6.91,
@@ -5110,7 +5295,7 @@
     {
      "codigo": "4718612",
      "numero": 12,
-     "nombre": "Distrito 12 · CP 47009 y 47152",
+     "nombre": "Distrito 12 · La Overuela-Navabuena, Puente Duero y El Pinar de Antequera",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -5130,6 +5315,11 @@
        "Pinar de Antequera"
       ]
      },
+     "barrios": [
+      "La Overuela-Navabuena",
+      "Puente Duero",
+      "El Pinar de Antequera"
+     ],
      "renta_hogar": 57170.0,
      "renta_persona": 20870.0,
      "eur_m2": 5.26,
@@ -5140,7 +5330,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": "Ayuntamiento de Valladolid, zonas estadísticas (CC BY 3.0 ES)"
   },
   {
    "cod_muni": "36057",
@@ -5310,6 +5501,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48976.0,
      "renta_persona": 21366.0,
      "eur_m2": 9.4,
@@ -5339,6 +5531,7 @@
        "Raviso"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41017.0,
      "renta_persona": 17432.0,
      "eur_m2": 8.01,
@@ -5366,6 +5559,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42609.0,
      "renta_persona": 17572.0,
      "eur_m2": 7.5,
@@ -5393,6 +5587,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38026.0,
      "renta_persona": 15615.0,
      "eur_m2": 7.29,
@@ -5425,6 +5620,7 @@
        "Laxe"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41075.0,
      "renta_persona": 15981.0,
      "eur_m2": 7.71,
@@ -5455,6 +5651,7 @@
        "Mouta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35143.0,
      "renta_persona": 14208.0,
      "eur_m2": 6.77,
@@ -5487,6 +5684,7 @@
        "Fonte Escura"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36711.0,
      "renta_persona": 14288.0,
      "eur_m2": 6.85,
@@ -5519,6 +5717,7 @@
        "Carballo do Pazo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 45055.0,
      "renta_persona": 14700.0,
      "eur_m2": 5.39,
@@ -5551,6 +5750,7 @@
        "Gandara"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47266.0,
      "renta_persona": 17176.0,
      "eur_m2": 7.21,
@@ -5561,7 +5761,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08101",
@@ -5730,6 +5931,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43254.0,
      "renta_persona": 16674.0,
      "eur_m2": 12.83,
@@ -5756,6 +5958,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35592.0,
      "renta_persona": 11893.0,
      "eur_m2": 13.43,
@@ -5781,6 +5984,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43826.0,
      "renta_persona": 16611.0,
      "eur_m2": 13.0,
@@ -5806,6 +6010,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34384.0,
      "renta_persona": 10843.0,
      "eur_m2": 13.4,
@@ -5831,6 +6036,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34955.0,
      "renta_persona": 12039.0,
      "eur_m2": 13.43,
@@ -5857,6 +6063,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38108.0,
      "renta_persona": 14574.0,
      "eur_m2": 10.51,
@@ -5867,7 +6074,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "33024",
@@ -6039,6 +6247,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43094.0,
      "renta_persona": 20890.0,
      "eur_m2": 8.0,
@@ -6064,6 +6273,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36284.0,
      "renta_persona": 18912.0,
      "eur_m2": 9.11,
@@ -6091,6 +6301,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46771.0,
      "renta_persona": 20703.0,
      "eur_m2": 8.4,
@@ -6116,6 +6327,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35675.0,
      "renta_persona": 16199.0,
      "eur_m2": 7.04,
@@ -6145,6 +6357,7 @@
        "Veriña de Baxo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31257.0,
      "renta_persona": 14069.0,
      "eur_m2": 6.57,
@@ -6171,6 +6384,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33246.0,
      "renta_persona": 14455.0,
      "eur_m2": 6.67,
@@ -6199,6 +6413,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32434.0,
      "renta_persona": 15063.0,
      "eur_m2": 6.96,
@@ -6225,6 +6440,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36468.0,
      "renta_persona": 16619.0,
      "eur_m2": 6.84,
@@ -6257,6 +6473,7 @@
        "Granda de Riba"
       ]
      },
+     "barrios": [],
      "renta_hogar": 52472.0,
      "renta_persona": 20795.0,
      "eur_m2": 7.22,
@@ -6267,7 +6484,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "01059",
@@ -6438,6 +6656,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40445.0,
      "renta_persona": 18426.0,
      "eur_m2": 9.58,
@@ -6467,6 +6686,7 @@
        "Armentia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 50861.0,
      "renta_persona": 21433.0,
      "eur_m2": 9.3,
@@ -6494,6 +6714,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39462.0,
      "renta_persona": 17012.0,
      "eur_m2": 8.68,
@@ -6520,6 +6741,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42566.0,
      "renta_persona": 19628.0,
      "eur_m2": 9.63,
@@ -6545,6 +6767,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43538.0,
      "renta_persona": 17152.0,
      "eur_m2": 8.68,
@@ -6577,6 +6800,7 @@
        "Gamarra Mayor/gamarra Nag"
       ]
      },
+     "barrios": [],
      "renta_hogar": 56476.0,
      "renta_persona": 22402.0,
      "eur_m2": 7.43,
@@ -6587,7 +6811,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "15030",
@@ -6758,6 +6983,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47992.0,
      "renta_persona": 22855.0,
      "eur_m2": 9.13,
@@ -6784,6 +7010,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39882.0,
      "renta_persona": 18130.0,
      "eur_m2": 7.59,
@@ -6811,6 +7038,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 59562.0,
      "renta_persona": 26030.0,
      "eur_m2": 7.85,
@@ -6836,6 +7064,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33637.0,
      "renta_persona": 14538.0,
      "eur_m2": 6.49,
@@ -6866,6 +7095,7 @@
        "Gramela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47158.0,
      "renta_persona": 19647.0,
      "eur_m2": 7.41,
@@ -6892,6 +7122,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33373.0,
      "renta_persona": 13910.0,
      "eur_m2": 6.2,
@@ -6923,6 +7154,7 @@
        "El Birloque"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38873.0,
      "renta_persona": 16864.0,
      "eur_m2": 6.82,
@@ -6954,6 +7186,7 @@
        "Zapateira"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39669.0,
      "renta_persona": 17042.0,
      "eur_m2": 7.25,
@@ -6984,6 +7217,7 @@
        "Zapateira"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42745.0,
      "renta_persona": 16275.0,
      "eur_m2": 6.35,
@@ -7015,6 +7249,7 @@
        "La Silva"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41987.0,
      "renta_persona": 17746.0,
      "eur_m2": 7.59,
@@ -7025,7 +7260,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03065",
@@ -7194,6 +7430,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39499.0,
      "renta_persona": 14608.0,
      "eur_m2": 5.79,
@@ -7219,6 +7456,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39988.0,
      "renta_persona": 14542.0,
      "eur_m2": 5.98,
@@ -7244,6 +7482,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 25039.0,
      "renta_persona": 9096.0,
      "eur_m2": 4.73,
@@ -7269,6 +7508,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29404.0,
      "renta_persona": 10924.0,
      "eur_m2": 5.0,
@@ -7294,6 +7534,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32381.0,
      "renta_persona": 12786.0,
      "eur_m2": 4.95,
@@ -7319,6 +7560,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31128.0,
      "renta_persona": 11614.0,
      "eur_m2": 5.49,
@@ -7348,6 +7590,7 @@
        "La Marina"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36026.0,
      "renta_persona": 13812.0,
      "eur_m2": 5.96,
@@ -7358,7 +7601,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "18087",
@@ -7529,6 +7773,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44766.0,
      "renta_persona": 20398.0,
      "eur_m2": 7.38,
@@ -7556,6 +7801,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38345.0,
      "renta_persona": 16965.0,
      "eur_m2": 6.91,
@@ -7585,6 +7831,7 @@
        "Cerrillo de Maracena"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35330.0,
      "renta_persona": 14824.0,
      "eur_m2": 6.49,
@@ -7611,6 +7858,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36143.0,
      "renta_persona": 19298.0,
      "eur_m2": 8.54,
@@ -7637,6 +7885,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34403.0,
      "renta_persona": 16399.0,
      "eur_m2": 7.37,
@@ -7663,6 +7912,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41182.0,
      "renta_persona": 17980.0,
      "eur_m2": 6.49,
@@ -7691,6 +7941,7 @@
        "Bobadilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37458.0,
      "renta_persona": 16979.0,
      "eur_m2": 6.93,
@@ -7721,6 +7972,7 @@
        "Alqueria del Fargue"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33509.0,
      "renta_persona": 14805.0,
      "eur_m2": 7.14,
@@ -7749,6 +8001,7 @@
        "Lancha del Genil"
       ]
      },
+     "barrios": [],
      "renta_hogar": 45855.0,
      "renta_persona": 19021.0,
      "eur_m2": 6.93,
@@ -7759,7 +8012,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08279",
@@ -7929,6 +8183,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50455.0,
      "renta_persona": 20340.0,
      "eur_m2": 9.8,
@@ -7955,6 +8210,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34229.0,
      "renta_persona": 11755.0,
      "eur_m2": 8.08,
@@ -7980,6 +8236,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37777.0,
      "renta_persona": 14708.0,
      "eur_m2": 9.06,
@@ -8007,6 +8264,7 @@
        "Can Palet de Vista Alegre"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42877.0,
      "renta_persona": 16521.0,
      "eur_m2": 8.62,
@@ -8034,6 +8292,7 @@
        "Can Gonteres"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43494.0,
      "renta_persona": 17179.0,
      "eur_m2": 9.02,
@@ -8060,6 +8319,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37212.0,
      "renta_persona": 13926.0,
      "eur_m2": 8.47,
@@ -8088,6 +8348,7 @@
        "Fonts (les)"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44257.0,
      "renta_persona": 15842.0,
      "eur_m2": 7.92,
@@ -8098,7 +8359,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08015",
@@ -8268,6 +8530,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 55662.0,
      "renta_persona": 22967.0,
      "eur_m2": 10.6,
@@ -8294,6 +8557,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42364.0,
      "renta_persona": 16575.0,
      "eur_m2": 10.25,
@@ -8319,6 +8583,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50691.0,
      "renta_persona": 19621.0,
      "eur_m2": 11.72,
@@ -8345,6 +8610,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45482.0,
      "renta_persona": 17232.0,
      "eur_m2": 10.26,
@@ -8370,6 +8636,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 51070.0,
      "renta_persona": 20481.0,
      "eur_m2": 10.68,
@@ -8396,6 +8663,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42374.0,
      "renta_persona": 16312.0,
      "eur_m2": 9.33,
@@ -8423,6 +8691,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37885.0,
      "renta_persona": 13824.0,
      "eur_m2": 9.94,
@@ -8448,6 +8717,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39328.0,
      "renta_persona": 14668.0,
      "eur_m2": 9.61,
@@ -8475,6 +8745,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33869.0,
      "renta_persona": 11983.0,
      "eur_m2": 9.94,
@@ -8485,7 +8756,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08187",
@@ -8656,6 +8928,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 52060.0,
      "renta_persona": 20947.0,
      "eur_m2": 9.3,
@@ -8683,6 +8956,7 @@
        "Togores"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43383.0,
      "renta_persona": 16928.0,
      "eur_m2": 8.77,
@@ -8708,6 +8982,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36417.0,
      "renta_persona": 13839.0,
      "eur_m2": 7.72,
@@ -8735,6 +9010,7 @@
        "Berard"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41603.0,
      "renta_persona": 15842.0,
      "eur_m2": 8.14,
@@ -8762,6 +9038,7 @@
        "Berard"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42183.0,
      "renta_persona": 16620.0,
      "eur_m2": 8.86,
@@ -8787,6 +9064,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34387.0,
      "renta_persona": 12838.0,
      "eur_m2": 8.15,
@@ -8815,6 +9093,7 @@
        "La Salut"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33155.0,
      "renta_persona": 11942.0,
      "eur_m2": 7.09,
@@ -8825,7 +9104,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "33044",
@@ -8997,6 +9277,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47440.0,
      "renta_persona": 22661.0,
      "eur_m2": 8.32,
@@ -9026,6 +9307,7 @@
        "Campiello"
       ]
      },
+     "barrios": [],
      "renta_hogar": 48981.0,
      "renta_persona": 22213.0,
      "eur_m2": 7.62,
@@ -9055,6 +9337,7 @@
        "El Monte San Cristoba"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38276.0,
      "renta_persona": 17293.0,
      "eur_m2": 6.89,
@@ -9085,6 +9368,7 @@
        "Caravia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33579.0,
      "renta_persona": 14591.0,
      "eur_m2": 6.18,
@@ -9111,6 +9395,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34326.0,
      "renta_persona": 15330.0,
      "eur_m2": 7.45,
@@ -9140,6 +9425,7 @@
        "La Granxa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34324.0,
      "renta_persona": 14863.0,
      "eur_m2": 7.04,
@@ -9167,6 +9453,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43454.0,
      "renta_persona": 20897.0,
      "eur_m2": 8.52,
@@ -9196,6 +9483,7 @@
        "Fitoria"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39678.0,
      "renta_persona": 17823.0,
      "eur_m2": 7.55,
@@ -9221,6 +9509,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39961.0,
      "renta_persona": 17176.0,
      "eur_m2": 7.03,
@@ -9247,6 +9536,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39441.0,
      "renta_persona": 17681.0,
      "eur_m2": 7.13,
@@ -9274,6 +9564,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 61937.0,
      "renta_persona": 27095.0,
      "eur_m2": 8.64,
@@ -9304,6 +9595,7 @@
        "Ayones"
       ]
      },
+     "barrios": [],
      "renta_hogar": 48755.0,
      "renta_persona": 20826.0,
      "eur_m2": 7.42,
@@ -9336,6 +9628,7 @@
        "Arguañes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29167.0,
      "renta_persona": 13854.0,
      "eur_m2": 4.03,
@@ -9367,6 +9660,7 @@
        "Llanu'l Río"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46282.0,
      "renta_persona": 18576.0,
      "eur_m2": 7.98,
@@ -9398,6 +9692,7 @@
        "Sotu"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31796.0,
      "renta_persona": 14913.0,
      "eur_m2": 4.83,
@@ -9430,6 +9725,7 @@
        "San Claudio/san Cloyo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42674.0,
      "renta_persona": 17503.0,
      "eur_m2": 5.95,
@@ -9440,7 +9736,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "30016",
@@ -9611,6 +9908,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45462.0,
      "renta_persona": 18322.0,
      "eur_m2": 6.34,
@@ -9638,6 +9936,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36773.0,
      "renta_persona": 14205.0,
      "eur_m2": 5.63,
@@ -9665,6 +9964,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46512.0,
      "renta_persona": 18653.0,
      "eur_m2": 5.59,
@@ -9690,6 +9990,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31156.0,
      "renta_persona": 10094.0,
      "eur_m2": 5.16,
@@ -9721,6 +10022,7 @@
        "Los Mateos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30907.0,
      "renta_persona": 10024.0,
      "eur_m2": 5.21,
@@ -9750,6 +10052,7 @@
        "Los Urrutias"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32321.0,
      "renta_persona": 13170.0,
      "eur_m2": 5.88,
@@ -9782,6 +10085,7 @@
        "La Palma"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35906.0,
      "renta_persona": 11677.0,
      "eur_m2": 4.21,
@@ -9813,6 +10117,7 @@
        "Barrio de la Concepcion"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36245.0,
      "renta_persona": 12863.0,
      "eur_m2": 5.11,
@@ -9845,6 +10150,7 @@
        "Molinos Marfagones"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34359.0,
      "renta_persona": 13811.0,
      "eur_m2": 6.52,
@@ -9875,6 +10181,7 @@
        "Los Barreros"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41697.0,
      "renta_persona": 14114.0,
      "eur_m2": 4.95,
@@ -9885,7 +10192,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11020",
@@ -10057,6 +10365,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32650.0,
      "renta_persona": 14177.0,
      "eur_m2": 7.47,
@@ -10085,6 +10394,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34568.0,
      "renta_persona": 14430.0,
      "eur_m2": 6.48,
@@ -10111,6 +10421,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 26053.0,
      "renta_persona": 10721.0,
      "eur_m2": 6.43,
@@ -10137,6 +10448,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 52021.0,
      "renta_persona": 18798.0,
      "eur_m2": 6.89,
@@ -10162,6 +10474,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35152.0,
      "renta_persona": 13880.0,
      "eur_m2": 5.85,
@@ -10188,6 +10501,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33664.0,
      "renta_persona": 12524.0,
      "eur_m2": 6.4,
@@ -10213,6 +10527,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 27971.0,
      "renta_persona": 10345.0,
      "eur_m2": 6.28,
@@ -10243,6 +10558,7 @@
        "El Portal"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39257.0,
      "renta_persona": 13920.0,
      "eur_m2": null,
@@ -10274,6 +10590,7 @@
        "Nueva Jarilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30542.0,
      "renta_persona": 11392.0,
      "eur_m2": 5.56,
@@ -10306,6 +10623,7 @@
        "La Ina"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27159.0,
      "renta_persona": 10218.0,
      "eur_m2": null,
@@ -10316,7 +10634,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28092",
@@ -10490,6 +10809,7 @@
        "Pinares Llanos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42882.0,
      "renta_persona": 14977.0,
      "eur_m2": 9.42,
@@ -10518,6 +10838,7 @@
        "Las Nieves"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43041.0,
      "renta_persona": 15969.0,
      "eur_m2": 9.06,
@@ -10545,6 +10866,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37320.0,
      "renta_persona": 13697.0,
      "eur_m2": 9.26,
@@ -10571,6 +10893,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40377.0,
      "renta_persona": 14682.0,
      "eur_m2": 9.23,
@@ -10581,7 +10904,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "38038",
@@ -10752,6 +11076,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 58933.0,
      "renta_persona": 22782.0,
      "eur_m2": 8.31,
@@ -10778,6 +11103,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 53619.0,
      "renta_persona": 22138.0,
      "eur_m2": 9.32,
@@ -10804,6 +11130,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49150.0,
      "renta_persona": 19299.0,
      "eur_m2": 8.87,
@@ -10829,6 +11156,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 28365.0,
      "renta_persona": 11096.0,
      "eur_m2": 6.55,
@@ -10856,6 +11184,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 56607.0,
      "renta_persona": 21664.0,
      "eur_m2": 7.92,
@@ -10883,6 +11212,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42680.0,
      "renta_persona": 16656.0,
      "eur_m2": 7.51,
@@ -10915,6 +11245,7 @@
        "Valleseco"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33532.0,
      "renta_persona": 13368.0,
      "eur_m2": 8.41,
@@ -10947,6 +11278,7 @@
        "Roque Negro"
       ]
      },
+     "barrios": [],
      "renta_hogar": 28533.0,
      "renta_persona": 12922.0,
      "eur_m2": null,
@@ -10973,6 +11305,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29583.0,
      "renta_persona": 11620.0,
      "eur_m2": 6.94,
@@ -10999,6 +11332,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34971.0,
      "renta_persona": 13890.0,
      "eur_m2": 6.41,
@@ -11029,6 +11363,7 @@
        "Tincer"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34310.0,
      "renta_persona": 12952.0,
      "eur_m2": 6.64,
@@ -11059,6 +11394,7 @@
        "Alisios"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36591.0,
      "renta_persona": 13189.0,
      "eur_m2": 6.35,
@@ -11069,7 +11405,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "31201",
@@ -11238,6 +11575,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38109.0,
      "renta_persona": 17890.0,
      "eur_m2": 8.73,
@@ -11265,6 +11603,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 59214.0,
      "renta_persona": 23965.0,
      "eur_m2": 8.58,
@@ -11291,6 +11630,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50877.0,
      "renta_persona": 21283.0,
      "eur_m2": 8.24,
@@ -11316,6 +11656,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50023.0,
      "renta_persona": 20818.0,
      "eur_m2": 7.95,
@@ -11342,6 +11683,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44722.0,
      "renta_persona": 17412.0,
      "eur_m2": 7.98,
@@ -11368,6 +11710,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39844.0,
      "renta_persona": 16696.0,
      "eur_m2": 7.31,
@@ -11394,6 +11737,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38418.0,
      "renta_persona": 15080.0,
      "eur_m2": 7.64,
@@ -11419,6 +11763,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47818.0,
      "renta_persona": 18605.0,
      "eur_m2": 7.39,
@@ -11429,7 +11774,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "04013",
@@ -11600,6 +11946,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31092.0,
      "renta_persona": 12871.0,
      "eur_m2": 6.9,
@@ -11628,6 +11975,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50891.0,
      "renta_persona": 21615.0,
      "eur_m2": 6.73,
@@ -11655,6 +12003,7 @@
        "Castell del Rey"
       ]
      },
+     "barrios": [],
      "renta_hogar": 25555.0,
      "renta_persona": 8750.0,
      "eur_m2": 5.68,
@@ -11683,6 +12032,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39712.0,
      "renta_persona": 16790.0,
      "eur_m2": 6.8,
@@ -11709,6 +12059,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29953.0,
      "renta_persona": 11371.0,
      "eur_m2": 6.48,
@@ -11736,6 +12087,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33569.0,
      "renta_persona": 12408.0,
      "eur_m2": 6.45,
@@ -11767,6 +12119,7 @@
        "Costacabana"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41590.0,
      "renta_persona": 16254.0,
      "eur_m2": 6.97,
@@ -11797,6 +12150,7 @@
        "Cabo de Gata"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36737.0,
      "renta_persona": 13623.0,
      "eur_m2": 6.93,
@@ -11807,7 +12161,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28005",
@@ -11979,6 +12334,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41396.0,
      "renta_persona": 16928.0,
      "eur_m2": 10.0,
@@ -12007,6 +12363,7 @@
        "Soto de la Ciudad y Geraf"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38144.0,
      "renta_persona": 13877.0,
      "eur_m2": 8.77,
@@ -12032,6 +12389,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45691.0,
      "renta_persona": 16608.0,
      "eur_m2": 9.57,
@@ -12058,6 +12416,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 55853.0,
      "renta_persona": 19572.0,
      "eur_m2": 9.62,
@@ -12084,6 +12443,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43384.0,
      "renta_persona": 16768.0,
      "eur_m2": 9.31,
@@ -12094,7 +12454,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28065",
@@ -12264,6 +12625,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38952.0,
      "renta_persona": 15184.0,
      "eur_m2": 9.91,
@@ -12290,6 +12652,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42898.0,
      "renta_persona": 16417.0,
      "eur_m2": 10.71,
@@ -12318,6 +12681,7 @@
        "El Bercial"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49261.0,
      "renta_persona": 18324.0,
      "eur_m2": 9.98,
@@ -12348,6 +12712,7 @@
        "Aldehuela y la Torrecilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41482.0,
      "renta_persona": 15695.0,
      "eur_m2": 10.32,
@@ -12358,7 +12723,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28074",
@@ -12529,6 +12895,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37612.0,
      "renta_persona": 14608.0,
      "eur_m2": 10.0,
@@ -12555,6 +12922,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33673.0,
      "renta_persona": 12853.0,
      "eur_m2": 9.84,
@@ -12581,6 +12949,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45312.0,
      "renta_persona": 16342.0,
      "eur_m2": 9.52,
@@ -12606,6 +12975,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35286.0,
      "renta_persona": 14347.0,
      "eur_m2": 10.07,
@@ -12634,6 +13004,7 @@
        "Butarque"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49639.0,
      "renta_persona": 17669.0,
      "eur_m2": 9.23,
@@ -12661,6 +13032,7 @@
        "Fortuna"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34236.0,
      "renta_persona": 12258.0,
      "eur_m2": 9.46,
@@ -12686,6 +13058,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 60676.0,
      "renta_persona": 19947.0,
      "eur_m2": 9.66,
@@ -12696,7 +13069,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28058",
@@ -12865,6 +13239,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36202.0,
      "renta_persona": 13017.0,
      "eur_m2": 8.83,
@@ -12891,6 +13266,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37931.0,
      "renta_persona": 13877.0,
      "eur_m2": 9.39,
@@ -12917,6 +13293,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37773.0,
      "renta_persona": 13380.0,
      "eur_m2": 8.69,
@@ -12942,6 +13319,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38634.0,
      "renta_persona": 13498.0,
      "eur_m2": 9.22,
@@ -12968,6 +13346,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37625.0,
      "renta_persona": 13661.0,
      "eur_m2": 9.19,
@@ -12996,6 +13375,7 @@
        "Loranca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41773.0,
      "renta_persona": 14902.0,
      "eur_m2": 8.67,
@@ -13022,6 +13402,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43353.0,
      "renta_persona": 15504.0,
      "eur_m2": 9.35,
@@ -13047,6 +13428,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39465.0,
      "renta_persona": 14400.0,
      "eur_m2": 9.15,
@@ -13074,6 +13456,7 @@
        "Loranca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44544.0,
      "renta_persona": 14840.0,
      "eur_m2": 8.74,
@@ -13084,7 +13467,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "20069",
@@ -13253,6 +13637,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 52620.0,
      "renta_persona": 23665.0,
      "eur_m2": 14.56,
@@ -13281,6 +13666,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 72366.0,
      "renta_persona": 34744.0,
      "eur_m2": 16.34,
@@ -13309,6 +13695,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 53456.0,
      "renta_persona": 23165.0,
      "eur_m2": 14.07,
@@ -13337,6 +13724,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50128.0,
      "renta_persona": 22516.0,
      "eur_m2": 14.06,
@@ -13364,6 +13752,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 56158.0,
      "renta_persona": 25146.0,
      "eur_m2": 15.24,
@@ -13395,6 +13784,7 @@
        "Añorga"
       ]
      },
+     "barrios": [],
      "renta_hogar": 67428.0,
      "renta_persona": 27514.0,
      "eur_m2": 14.77,
@@ -13422,6 +13812,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42443.0,
      "renta_persona": 18078.0,
      "eur_m2": 11.49,
@@ -13432,7 +13823,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "12040",
@@ -13604,6 +13996,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40680.0,
      "renta_persona": 17127.0,
      "eur_m2": 4.83,
@@ -13630,6 +14023,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37177.0,
      "renta_persona": 15428.0,
      "eur_m2": 5.39,
@@ -13656,6 +14050,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40235.0,
      "renta_persona": 16868.0,
      "eur_m2": 5.43,
@@ -13682,6 +14077,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41654.0,
      "renta_persona": 16810.0,
      "eur_m2": 5.28,
@@ -13708,6 +14104,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35431.0,
      "renta_persona": 14189.0,
      "eur_m2": 5.24,
@@ -13734,6 +14131,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34436.0,
      "renta_persona": 13352.0,
      "eur_m2": 5.77,
@@ -13760,6 +14158,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43592.0,
      "renta_persona": 17427.0,
      "eur_m2": 5.36,
@@ -13786,6 +14185,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32617.0,
      "renta_persona": 12453.0,
      "eur_m2": 5.87,
@@ -13811,6 +14211,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36840.0,
      "renta_persona": 14772.0,
      "eur_m2": 5.26,
@@ -13821,7 +14222,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "09059",
@@ -13990,6 +14392,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38078.0,
      "renta_persona": 19275.0,
      "eur_m2": 8.22,
@@ -14017,6 +14420,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49258.0,
      "renta_persona": 22868.0,
      "eur_m2": 8.01,
@@ -14045,6 +14449,7 @@
        "Villagonzalo-Arenas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39869.0,
      "renta_persona": 16786.0,
      "eur_m2": 7.03,
@@ -14071,6 +14476,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31895.0,
      "renta_persona": 15049.0,
      "eur_m2": 7.93,
@@ -14101,6 +14507,7 @@
        "Villimar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44348.0,
      "renta_persona": 19142.0,
      "eur_m2": 7.1,
@@ -14127,6 +14534,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40285.0,
      "renta_persona": 17814.0,
      "eur_m2": 6.78,
@@ -14154,6 +14562,7 @@
        "Cortes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40235.0,
      "renta_persona": 17725.0,
      "eur_m2": 7.1,
@@ -14179,6 +14588,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44156.0,
      "renta_persona": 18224.0,
      "eur_m2": 7.29,
@@ -14208,6 +14618,7 @@
        "Villayuda O la Ventilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36036.0,
      "renta_persona": 15398.0,
      "eur_m2": 6.79,
@@ -14218,7 +14629,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28007",
@@ -14392,6 +14804,7 @@
        "Carretera de San Martin"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44940.0,
      "renta_persona": 15843.0,
      "eur_m2": 10.51,
@@ -14418,6 +14831,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48162.0,
      "renta_persona": 18377.0,
      "eur_m2": 10.13,
@@ -14444,6 +14858,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37693.0,
      "renta_persona": 15110.0,
      "eur_m2": 10.29,
@@ -14470,6 +14885,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43916.0,
      "renta_persona": 16220.0,
      "eur_m2": 9.98,
@@ -14480,7 +14896,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "02003",
@@ -14650,6 +15067,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42644.0,
      "renta_persona": 17432.0,
      "eur_m2": 6.27,
@@ -14678,6 +15096,7 @@
        "Villar de Pozo-Rubio"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37824.0,
      "renta_persona": 14675.0,
      "eur_m2": 5.72,
@@ -14706,6 +15125,7 @@
        "Bacariza"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35318.0,
      "renta_persona": 13946.0,
      "eur_m2": 5.73,
@@ -14732,6 +15152,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36171.0,
      "renta_persona": 13865.0,
      "eur_m2": 5.81,
@@ -14758,6 +15179,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35790.0,
      "renta_persona": 14297.0,
      "eur_m2": 5.62,
@@ -14784,6 +15206,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 51172.0,
      "renta_persona": 20515.0,
      "eur_m2": 6.43,
@@ -14810,6 +15233,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39857.0,
      "renta_persona": 14939.0,
      "eur_m2": 6.31,
@@ -14842,6 +15266,7 @@
        "Santa Ana"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38410.0,
      "renta_persona": 14500.0,
      "eur_m2": null,
@@ -14852,7 +15277,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "39075",
@@ -15024,6 +15450,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39709.0,
      "renta_persona": 17550.0,
      "eur_m2": 8.34,
@@ -15051,6 +15478,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40070.0,
      "renta_persona": 17066.0,
      "eur_m2": 7.86,
@@ -15078,6 +15506,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37891.0,
      "renta_persona": 16695.0,
      "eur_m2": 8.58,
@@ -15105,6 +15534,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 58426.0,
      "renta_persona": 25133.0,
      "eur_m2": 9.4,
@@ -15131,6 +15561,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39071.0,
      "renta_persona": 16465.0,
      "eur_m2": 7.77,
@@ -15157,6 +15588,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35704.0,
      "renta_persona": 15518.0,
      "eur_m2": 8.0,
@@ -15184,6 +15616,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36549.0,
      "renta_persona": 16125.0,
      "eur_m2": 8.47,
@@ -15214,6 +15647,7 @@
        "Cueto"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43156.0,
      "renta_persona": 17166.0,
      "eur_m2": 8.14,
@@ -15224,7 +15658,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "38023",
@@ -15400,6 +15835,7 @@
        "Gracia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 44943.0,
      "renta_persona": 17850.0,
      "eur_m2": 8.21,
@@ -15430,6 +15866,7 @@
        "Finca España"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34919.0,
      "renta_persona": 13322.0,
      "eur_m2": 6.86,
@@ -15460,6 +15897,7 @@
        "Guajara"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34513.0,
      "renta_persona": 12930.0,
      "eur_m2": 6.33,
@@ -15491,6 +15929,7 @@
        "El Ortigal"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46909.0,
      "renta_persona": 16207.0,
      "eur_m2": 6.63,
@@ -15522,6 +15961,7 @@
        "Bajamar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35236.0,
      "renta_persona": 13622.0,
      "eur_m2": 7.84,
@@ -15553,6 +15993,7 @@
        "Las Mercedes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47111.0,
      "renta_persona": 16076.0,
      "eur_m2": 6.04,
@@ -15563,7 +16004,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29069",
@@ -15734,6 +16176,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39602.0,
      "renta_persona": 13991.0,
      "eur_m2": 9.38,
@@ -15761,6 +16204,7 @@
        "San Pedro Alcantara"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37954.0,
      "renta_persona": 12735.0,
      "eur_m2": 8.62,
@@ -15789,6 +16233,7 @@
        "Nueva Andalucia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40303.0,
      "renta_persona": 15210.0,
      "eur_m2": 11.71,
@@ -15815,6 +16260,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41033.0,
      "renta_persona": 15442.0,
      "eur_m2": 10.23,
@@ -15825,7 +16271,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "26089",
@@ -15996,6 +16443,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37290.0,
      "renta_persona": 17542.0,
      "eur_m2": 6.7,
@@ -16025,6 +16473,7 @@
        "Varea"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42210.0,
      "renta_persona": 16878.0,
      "eur_m2": 6.63,
@@ -16052,6 +16501,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42121.0,
      "renta_persona": 19211.0,
      "eur_m2": 6.49,
@@ -16079,6 +16529,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40024.0,
      "renta_persona": 17011.0,
      "eur_m2": 6.38,
@@ -16106,6 +16557,7 @@
        "El Cortijo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37079.0,
      "renta_persona": 15617.0,
      "eur_m2": 5.77,
@@ -16133,6 +16585,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36337.0,
      "renta_persona": 16124.0,
      "eur_m2": 7.08,
@@ -16143,7 +16596,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "06015",
@@ -16313,6 +16767,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38843.0,
      "renta_persona": 16928.0,
      "eur_m2": 6.27,
@@ -16338,6 +16793,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31024.0,
      "renta_persona": 12788.0,
      "eur_m2": 6.1,
@@ -16368,6 +16824,7 @@
        "Atalaya"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29398.0,
      "renta_persona": 11906.0,
      "eur_m2": 5.9,
@@ -16398,6 +16855,7 @@
        "Dehesilla de Calamon"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34917.0,
      "renta_persona": 14186.0,
      "eur_m2": 5.81,
@@ -16425,6 +16883,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44302.0,
      "renta_persona": 19116.0,
      "eur_m2": 5.24,
@@ -16450,6 +16909,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 21281.0,
      "renta_persona": 7779.0,
      "eur_m2": 4.34,
@@ -16479,6 +16939,7 @@
        "Rio Caya"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35847.0,
      "renta_persona": 14321.0,
      "eur_m2": 6.25,
@@ -16510,6 +16971,7 @@
        "Novelda del Guadiana"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32568.0,
      "renta_persona": 12384.0,
      "eur_m2": 4.79,
@@ -16538,6 +17000,7 @@
        "Corazon de Jesus"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43442.0,
      "renta_persona": 17820.0,
      "eur_m2": 5.81,
@@ -16566,6 +17029,7 @@
        "Las Vaguadas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 48485.0,
      "renta_persona": 17967.0,
      "eur_m2": 6.22,
@@ -16576,7 +17040,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "37274",
@@ -16747,6 +17212,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49679.0,
      "renta_persona": 24360.0,
      "eur_m2": 7.81,
@@ -16773,6 +17239,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37408.0,
      "renta_persona": 17289.0,
      "eur_m2": 6.0,
@@ -16798,6 +17265,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32294.0,
      "renta_persona": 14059.0,
      "eur_m2": 6.14,
@@ -16824,6 +17292,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31838.0,
      "renta_persona": 14855.0,
      "eur_m2": 6.67,
@@ -16851,6 +17320,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33199.0,
      "renta_persona": 15338.0,
      "eur_m2": 6.11,
@@ -16877,6 +17347,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35076.0,
      "renta_persona": 16104.0,
      "eur_m2": 6.04,
@@ -16887,7 +17358,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "25120",
@@ -17058,6 +17530,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38806.0,
      "renta_persona": 14809.0,
      "eur_m2": 6.47,
@@ -17084,6 +17557,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43677.0,
      "renta_persona": 17307.0,
      "eur_m2": 7.1,
@@ -17109,6 +17583,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40344.0,
      "renta_persona": 16041.0,
      "eur_m2": 7.11,
@@ -17135,6 +17610,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33301.0,
      "renta_persona": 12871.0,
      "eur_m2": 6.61,
@@ -17161,6 +17637,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48485.0,
      "renta_persona": 20024.0,
      "eur_m2": 6.7,
@@ -17189,6 +17666,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39017.0,
      "renta_persona": 14858.0,
      "eur_m2": 6.25,
@@ -17216,6 +17694,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39117.0,
      "renta_persona": 14496.0,
      "eur_m2": 6.14,
@@ -17248,6 +17727,7 @@
        "Torres de Sanui (les)"
       ]
      },
+     "barrios": [],
      "renta_hogar": 66377.0,
      "renta_persona": 23973.0,
      "eur_m2": 8.12,
@@ -17280,6 +17760,7 @@
        "Basses D'alpicat (les)"
       ]
      },
+     "barrios": [],
      "renta_hogar": 53206.0,
      "renta_persona": 20399.0,
      "eur_m2": 7.48,
@@ -17290,7 +17771,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "21041",
@@ -17462,6 +17944,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46521.0,
      "renta_persona": 19503.0,
      "eur_m2": 7.29,
@@ -17488,6 +17971,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33467.0,
      "renta_persona": 12996.0,
      "eur_m2": 6.82,
@@ -17516,6 +18000,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41190.0,
      "renta_persona": 16709.0,
      "eur_m2": 7.31,
@@ -17543,6 +18028,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38972.0,
      "renta_persona": 16097.0,
      "eur_m2": 6.96,
@@ -17570,6 +18056,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31962.0,
      "renta_persona": 12778.0,
      "eur_m2": 6.25,
@@ -17596,6 +18083,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30394.0,
      "renta_persona": 11840.0,
      "eur_m2": 6.09,
@@ -17626,6 +18114,7 @@
        "La Alquería"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32428.0,
      "renta_persona": 12336.0,
      "eur_m2": 6.75,
@@ -17655,6 +18144,7 @@
        "Santa Isabel"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27307.0,
      "renta_persona": 10525.0,
      "eur_m2": 5.61,
@@ -17665,7 +18155,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28148",
@@ -17836,6 +18327,7 @@
        "Casablanca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43063.0,
      "renta_persona": 15735.0,
      "eur_m2": 9.19,
@@ -17861,6 +18353,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 47053.0,
      "renta_persona": 16013.0,
      "eur_m2": 9.29,
@@ -17888,6 +18381,7 @@
        "El Castillo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 45799.0,
      "renta_persona": 15438.0,
      "eur_m2": 9.07,
@@ -17913,6 +18407,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38766.0,
      "renta_persona": 13425.0,
      "eur_m2": 9.23,
@@ -17923,7 +18418,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "41038",
@@ -18093,6 +18589,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31887.0,
      "renta_persona": 11329.0,
      "eur_m2": 6.76,
@@ -18119,6 +18616,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33509.0,
      "renta_persona": 12888.0,
      "eur_m2": 7.35,
@@ -18146,6 +18644,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36493.0,
      "renta_persona": 13804.0,
      "eur_m2": 7.68,
@@ -18173,6 +18672,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38447.0,
      "renta_persona": 13561.0,
      "eur_m2": 6.99,
@@ -18203,6 +18703,7 @@
        "Marisma Puntales Adriano"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47026.0,
      "renta_persona": 16134.0,
      "eur_m2": 7.78,
@@ -18213,7 +18714,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "43148",
@@ -18382,6 +18884,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29854.0,
      "renta_persona": 13654.0,
      "eur_m2": 7.84,
@@ -18407,6 +18910,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31852.0,
      "renta_persona": 15749.0,
      "eur_m2": 8.76,
@@ -18433,6 +18937,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 69361.0,
      "renta_persona": 27167.0,
      "eur_m2": 8.72,
@@ -18462,6 +18967,7 @@
        "L'oliva"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46470.0,
      "renta_persona": 19583.0,
      "eur_m2": 7.61,
@@ -18488,6 +18994,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38960.0,
      "renta_persona": 16592.0,
      "eur_m2": 7.5,
@@ -18520,6 +19027,7 @@
        "Pinedes (les)"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41002.0,
      "renta_persona": 16537.0,
      "eur_m2": 7.73,
@@ -18550,6 +19058,7 @@
        "Arrabassada i Savinosa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46085.0,
      "renta_persona": 18168.0,
      "eur_m2": 7.8,
@@ -18577,6 +19086,7 @@
        "Torreforta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31716.0,
      "renta_persona": 11434.0,
      "eur_m2": 5.65,
@@ -18604,6 +19114,7 @@
        "Bonavista"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30975.0,
      "renta_persona": 10859.0,
      "eur_m2": 6.06,
@@ -18614,7 +19125,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28106",
@@ -18767,7 +19279,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08121",
@@ -18937,6 +19450,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50089.0,
      "renta_persona": 21223.0,
      "eur_m2": 9.88,
@@ -18963,6 +19477,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41886.0,
      "renta_persona": 16695.0,
      "eur_m2": 9.68,
@@ -18988,6 +19503,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40163.0,
      "renta_persona": 14001.0,
      "eur_m2": 7.75,
@@ -19014,6 +19530,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41241.0,
      "renta_persona": 15569.0,
      "eur_m2": 9.51,
@@ -19039,6 +19556,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34014.0,
      "renta_persona": 11842.0,
      "eur_m2": 8.35,
@@ -19065,6 +19583,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40701.0,
      "renta_persona": 16577.0,
      "eur_m2": 9.09,
@@ -19075,7 +19594,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11004",
@@ -19246,6 +19766,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36440.0,
      "renta_persona": 14696.0,
      "eur_m2": 7.2,
@@ -19271,6 +19792,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38376.0,
      "renta_persona": 13565.0,
      "eur_m2": 6.75,
@@ -19299,6 +19821,7 @@
        "El Pelayo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 28738.0,
      "renta_persona": 10439.0,
      "eur_m2": 6.31,
@@ -19326,6 +19849,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35604.0,
      "renta_persona": 12963.0,
      "eur_m2": 6.35,
@@ -19336,7 +19860,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "24089",
@@ -19507,6 +20032,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49173.0,
      "renta_persona": 23610.0,
      "eur_m2": 6.96,
@@ -19533,6 +20059,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 50755.0,
      "renta_persona": 23915.0,
      "eur_m2": 6.68,
@@ -19559,6 +20086,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37132.0,
      "renta_persona": 17018.0,
      "eur_m2": 5.66,
@@ -19585,6 +20113,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38243.0,
      "renta_persona": 17397.0,
      "eur_m2": 5.83,
@@ -19612,6 +20141,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36248.0,
      "renta_persona": 17173.0,
      "eur_m2": 5.31,
@@ -19638,6 +20168,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40386.0,
      "renta_persona": 18706.0,
      "eur_m2": 5.49,
@@ -19666,6 +20197,7 @@
        "Armunia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33572.0,
      "renta_persona": 14999.0,
      "eur_m2": 5.06,
@@ -19691,6 +20223,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30660.0,
      "renta_persona": 13515.0,
      "eur_m2": 4.65,
@@ -19722,6 +20255,7 @@
        "Trobajo del Cerecedo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27656.0,
      "renta_persona": 11960.0,
      "eur_m2": 4.55,
@@ -19748,6 +20282,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34727.0,
      "renta_persona": 16223.0,
      "eur_m2": 5.59,
@@ -19758,7 +20293,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28006",
@@ -19911,7 +20447,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08245",
@@ -20081,6 +20618,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39030.0,
      "renta_persona": 14641.0,
      "eur_m2": 10.0,
@@ -20106,6 +20644,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36597.0,
      "renta_persona": 13315.0,
      "eur_m2": 10.28,
@@ -20131,6 +20670,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38078.0,
      "renta_persona": 14422.0,
      "eur_m2": 9.29,
@@ -20157,6 +20697,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37928.0,
      "renta_persona": 14746.0,
      "eur_m2": 10.12,
@@ -20182,6 +20723,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33419.0,
      "renta_persona": 11293.0,
      "eur_m2": 9.72,
@@ -20209,6 +20751,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32436.0,
      "renta_persona": 10012.0,
      "eur_m2": 9.94,
@@ -20219,7 +20762,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "23050",
@@ -20391,6 +20935,7 @@
        "Puente de la Sierra"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35172.0,
      "renta_persona": 14292.0,
      "eur_m2": 5.38,
@@ -20419,6 +20964,7 @@
        "Puente Jontoya"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40483.0,
      "renta_persona": 17175.0,
      "eur_m2": 5.62,
@@ -20449,6 +20995,7 @@
        "Puente Nuevo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36772.0,
      "renta_persona": 14963.0,
      "eur_m2": 5.76,
@@ -20478,6 +21025,7 @@
        "Grañena"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47325.0,
      "renta_persona": 18012.0,
      "eur_m2": 6.25,
@@ -20507,6 +21055,7 @@
        "Villar de Cuevas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39178.0,
      "renta_persona": 15674.0,
      "eur_m2": 6.0,
@@ -20536,6 +21085,7 @@
        "Caño Quebrado"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30105.0,
      "renta_persona": 11744.0,
      "eur_m2": 5.56,
@@ -20563,6 +21113,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32957.0,
      "renta_persona": 13722.0,
      "eur_m2": 5.56,
@@ -20591,6 +21142,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35710.0,
      "renta_persona": 15565.0,
      "eur_m2": 5.79,
@@ -20619,6 +21171,7 @@
        "Jabalcuz"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32000.0,
      "renta_persona": 12212.0,
      "eur_m2": 5.32,
@@ -20629,7 +21182,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "43123",
@@ -20800,6 +21354,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37582.0,
      "renta_persona": 17207.0,
      "eur_m2": 7.54,
@@ -20828,6 +21383,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37288.0,
      "renta_persona": 14920.0,
      "eur_m2": 6.38,
@@ -20854,6 +21410,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33889.0,
      "renta_persona": 12774.0,
      "eur_m2": 6.32,
@@ -20880,6 +21437,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33740.0,
      "renta_persona": 13128.0,
      "eur_m2": 6.65,
@@ -20907,6 +21465,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34278.0,
      "renta_persona": 12641.0,
      "eur_m2": 5.95,
@@ -20935,6 +21494,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45872.0,
      "renta_persona": 18031.0,
      "eur_m2": 6.4,
@@ -20962,6 +21522,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37140.0,
      "renta_persona": 13251.0,
      "eur_m2": 6.38,
@@ -20992,6 +21553,7 @@
        "Blancafort"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46535.0,
      "renta_persona": 16714.0,
      "eur_m2": 6.51,
@@ -21024,6 +21586,7 @@
        "Pelayo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 58335.0,
      "renta_persona": 20718.0,
      "eur_m2": 7.13,
@@ -21054,6 +21617,7 @@
        "Mas Carpa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47645.0,
      "renta_persona": 17030.0,
      "eur_m2": 7.25,
@@ -21064,7 +21628,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11012",
@@ -21235,6 +21800,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37707.0,
      "renta_persona": 16932.0,
      "eur_m2": 8.52,
@@ -21263,6 +21829,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36733.0,
      "renta_persona": 16458.0,
      "eur_m2": 8.79,
@@ -21290,6 +21857,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34086.0,
      "renta_persona": 14940.0,
      "eur_m2": 8.19,
@@ -21315,6 +21883,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30673.0,
      "renta_persona": 13609.0,
      "eur_m2": 8.58,
@@ -21343,6 +21912,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30332.0,
      "renta_persona": 13187.0,
      "eur_m2": 8.35,
@@ -21370,6 +21940,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30173.0,
      "renta_persona": 13468.0,
      "eur_m2": 8.22,
@@ -21397,6 +21968,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 26743.0,
      "renta_persona": 11948.0,
      "eur_m2": 8.05,
@@ -21424,6 +21996,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45277.0,
      "renta_persona": 17881.0,
      "eur_m2": 8.93,
@@ -21451,6 +22024,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40441.0,
      "renta_persona": 16443.0,
      "eur_m2": 9.49,
@@ -21478,6 +22052,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40476.0,
      "renta_persona": 17026.0,
      "eur_m2": 9.31,
@@ -21488,7 +22063,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "04079",
@@ -21659,6 +22235,7 @@
        "Cortijos de Marin"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32055.0,
      "renta_persona": 10247.0,
      "eur_m2": 5.31,
@@ -21689,6 +22266,7 @@
        "El Parador Hortichuelas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34701.0,
      "renta_persona": 13513.0,
      "eur_m2": 6.38,
@@ -21699,7 +22277,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "17079",
@@ -21871,6 +22450,7 @@
        "Font de la Pólvora"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37759.0,
      "renta_persona": 14034.0,
      "eur_m2": 9.71,
@@ -21900,6 +22480,7 @@
        "Creu de Palau"
       ]
      },
+     "barrios": [],
      "renta_hogar": 54645.0,
      "renta_persona": 21483.0,
      "eur_m2": 9.63,
@@ -21927,6 +22508,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42832.0,
      "renta_persona": 15348.0,
      "eur_m2": 8.43,
@@ -21952,6 +22534,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41770.0,
      "renta_persona": 18577.0,
      "eur_m2": 11.02,
@@ -21979,6 +22562,7 @@
        "Campdorà"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49898.0,
      "renta_persona": 18646.0,
      "eur_m2": 9.13,
@@ -22009,6 +22593,7 @@
        "Taialà-Germans Sàbat"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43506.0,
      "renta_persona": 16719.0,
      "eur_m2": 8.33,
@@ -22019,7 +22604,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "32054",
@@ -22193,6 +22779,7 @@
        "O Meson"
       ]
      },
+     "barrios": [],
      "renta_hogar": 46239.0,
      "renta_persona": 20792.0,
      "eur_m2": 6.12,
@@ -22223,6 +22810,7 @@
        "As Curuxeiras"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33946.0,
      "renta_persona": 15134.0,
      "eur_m2": 5.26,
@@ -22253,6 +22841,7 @@
        "Estrada de Reza"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35255.0,
      "renta_persona": 15378.0,
      "eur_m2": 4.83,
@@ -22281,6 +22870,7 @@
        "Seixalbo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32362.0,
      "renta_persona": 14665.0,
      "eur_m2": 4.94,
@@ -22310,6 +22900,7 @@
        "Untes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32747.0,
      "renta_persona": 14366.0,
      "eur_m2": 4.52,
@@ -22320,7 +22911,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "35026",
@@ -22489,6 +23081,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44059.0,
      "renta_persona": 16993.0,
      "eur_m2": 5.72,
@@ -22516,6 +23109,7 @@
        "Valle de los Nueve"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36569.0,
      "renta_persona": 14642.0,
      "eur_m2": 6.89,
@@ -22547,6 +23141,7 @@
        "Lomo de la Herradura"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32510.0,
      "renta_persona": 12080.0,
      "eur_m2": 6.35,
@@ -22578,6 +23173,7 @@
        "Las Medianias"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35778.0,
      "renta_persona": 13056.0,
      "eur_m2": 7.29,
@@ -22608,6 +23204,7 @@
        "La Pardilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41933.0,
      "renta_persona": 16507.0,
      "eur_m2": 8.04,
@@ -22639,6 +23236,7 @@
        "Las Huesas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38414.0,
      "renta_persona": 14915.0,
      "eur_m2": 7.29,
@@ -22649,7 +23247,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "48013",
@@ -22819,6 +23418,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41232.0,
      "renta_persona": 17949.0,
      "eur_m2": 11.07,
@@ -22844,6 +23444,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41654.0,
      "renta_persona": 17083.0,
      "eur_m2": 10.2,
@@ -22870,6 +23471,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38478.0,
      "renta_persona": 16372.0,
      "eur_m2": 10.52,
@@ -22896,6 +23498,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40542.0,
      "renta_persona": 17354.0,
      "eur_m2": 10.57,
@@ -22921,6 +23524,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44413.0,
      "renta_persona": 19124.0,
      "eur_m2": 10.59,
@@ -22946,6 +23550,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39434.0,
      "renta_persona": 17165.0,
      "eur_m2": 10.69,
@@ -22974,6 +23579,7 @@
        "El Regato"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43516.0,
      "renta_persona": 17356.0,
      "eur_m2": 8.97,
@@ -22999,6 +23605,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36958.0,
      "renta_persona": 15808.0,
      "eur_m2": 9.74,
@@ -23024,6 +23631,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40261.0,
      "renta_persona": 17321.0,
      "eur_m2": 11.25,
@@ -23034,7 +23642,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28123",
@@ -23187,7 +23796,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03133",
@@ -23359,6 +23969,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 27935.0,
      "renta_persona": 11067.0,
      "eur_m2": 6.15,
@@ -23387,6 +23998,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 26168.0,
      "renta_persona": 10477.0,
      "eur_m2": 6.89,
@@ -23415,6 +24027,7 @@
        "La Mata"
       ]
      },
+     "barrios": [],
      "renta_hogar": 23881.0,
      "renta_persona": 9875.0,
      "eur_m2": 6.72,
@@ -23425,7 +24038,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "27028",
@@ -23595,6 +24209,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45608.0,
      "renta_persona": 21137.0,
      "eur_m2": 5.41,
@@ -23620,6 +24235,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42442.0,
      "renta_persona": 18168.0,
      "eur_m2": 5.49,
@@ -23645,6 +24261,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35470.0,
      "renta_persona": 15459.0,
      "eur_m2": 4.68,
@@ -23671,6 +24288,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33029.0,
      "renta_persona": 14109.0,
      "eur_m2": 4.35,
@@ -23696,6 +24314,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34414.0,
      "renta_persona": 14633.0,
      "eur_m2": 4.18,
@@ -23724,6 +24343,7 @@
        "As Illas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32947.0,
      "renta_persona": 16614.0,
      "eur_m2": null,
@@ -23754,6 +24374,7 @@
        "Esperante"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34638.0,
      "renta_persona": 15836.0,
      "eur_m2": null,
@@ -23782,6 +24403,7 @@
        "Coeo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32176.0,
      "renta_persona": 15739.0,
      "eur_m2": null,
@@ -23814,6 +24436,7 @@
        "Gundin"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32385.0,
      "renta_persona": 15972.0,
      "eur_m2": null,
@@ -23824,7 +24447,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "15078",
@@ -23999,6 +24623,7 @@
        "Paredes de Laraño"
       ]
      },
+     "barrios": [],
      "renta_hogar": 50153.0,
      "renta_persona": 20392.0,
      "eur_m2": 7.23,
@@ -24029,6 +24654,7 @@
        "Santo Ignacio do Monte"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38013.0,
      "renta_persona": 15801.0,
      "eur_m2": 6.14,
@@ -24061,6 +24687,7 @@
        "Agra dos Campos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41378.0,
      "renta_persona": 17268.0,
      "eur_m2": 5.93,
@@ -24092,6 +24719,7 @@
        "A Veiga"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40944.0,
      "renta_persona": 17347.0,
      "eur_m2": 6.63,
@@ -24123,6 +24751,7 @@
        "O Porto de Conxo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49086.0,
      "renta_persona": 21159.0,
      "eur_m2": 8.12,
@@ -24155,6 +24784,7 @@
        "O Valado da Barciela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34997.0,
      "renta_persona": 15437.0,
      "eur_m2": null,
@@ -24165,7 +24795,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28127",
@@ -24318,7 +24949,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "30024",
@@ -24487,6 +25119,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37598.0,
      "renta_persona": 12211.0,
      "eur_m2": 4.82,
@@ -24517,6 +25150,7 @@
        "Casa de las Monjas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36823.0,
      "renta_persona": 12322.0,
      "eur_m2": 4.76,
@@ -24527,7 +25161,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28134",
@@ -24680,7 +25315,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "10037",
@@ -24850,6 +25486,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35523.0,
      "renta_persona": 14023.0,
      "eur_m2": 5.15,
@@ -24877,6 +25514,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45409.0,
      "renta_persona": 19701.0,
      "eur_m2": 5.77,
@@ -24904,6 +25542,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43627.0,
      "renta_persona": 20380.0,
      "eur_m2": 5.48,
@@ -24931,6 +25570,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39653.0,
      "renta_persona": 16887.0,
      "eur_m2": 5.3,
@@ -24958,6 +25598,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32343.0,
      "renta_persona": 14691.0,
      "eur_m2": 5.56,
@@ -24986,6 +25627,7 @@
        "Estacion de Arroyo-Malpar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27403.0,
      "renta_persona": 10957.0,
      "eur_m2": 4.91,
@@ -25017,6 +25659,7 @@
        "Rincon de Ballesteros"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34392.0,
      "renta_persona": 13384.0,
      "eur_m2": null,
@@ -25027,7 +25670,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08205",
@@ -25197,6 +25841,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 67981.0,
      "renta_persona": 23784.0,
      "eur_m2": 13.49,
@@ -25223,6 +25868,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 87612.0,
      "renta_persona": 30107.0,
      "eur_m2": 13.22,
@@ -25253,6 +25899,7 @@
        "Valldoreix"
       ]
      },
+     "barrios": [],
      "renta_hogar": 97940.0,
      "renta_persona": 29556.0,
      "eur_m2": 11.61,
@@ -25282,6 +25929,7 @@
        "La Floresta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 67374.0,
      "renta_persona": 22191.0,
      "eur_m2": 10.48,
@@ -25310,6 +25958,7 @@
        "Mira-Sol"
       ]
      },
+     "barrios": [],
      "renta_hogar": 92237.0,
      "renta_persona": 28444.0,
      "eur_m2": 14.93,
@@ -25337,6 +25986,7 @@
        "Planes (les)"
       ]
      },
+     "barrios": [],
      "renta_hogar": 51889.0,
      "renta_persona": 17561.0,
      "eur_m2": null,
@@ -25347,7 +25997,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29070",
@@ -25500,7 +26151,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11031",
@@ -25671,6 +26323,7 @@
        "Arsenal de la Carraca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33919.0,
      "renta_persona": 13135.0,
      "eur_m2": 6.73,
@@ -25696,6 +26349,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38680.0,
      "renta_persona": 15390.0,
      "eur_m2": 6.59,
@@ -25721,6 +26375,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36154.0,
      "renta_persona": 14404.0,
      "eur_m2": 6.47,
@@ -25746,6 +26401,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36947.0,
      "renta_persona": 14584.0,
      "eur_m2": 7.25,
@@ -25771,6 +26427,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40059.0,
      "renta_persona": 15504.0,
      "eur_m2": 6.7,
@@ -25796,6 +26453,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34988.0,
      "renta_persona": 13048.0,
      "eur_m2": 6.7,
@@ -25806,7 +26464,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08073",
@@ -25975,6 +26634,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45336.0,
      "renta_persona": 17473.0,
      "eur_m2": 10.99,
@@ -26003,6 +26663,7 @@
        "Femades"
       ]
      },
+     "barrios": [],
      "renta_hogar": 52517.0,
      "renta_persona": 19019.0,
      "eur_m2": 11.55,
@@ -26031,6 +26692,7 @@
        "Fontsanta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47213.0,
      "renta_persona": 17940.0,
      "eur_m2": 11.14,
@@ -26056,6 +26718,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39568.0,
      "renta_persona": 15374.0,
      "eur_m2": 10.71,
@@ -26081,6 +26744,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31867.0,
      "renta_persona": 11698.0,
      "eur_m2": 11.94,
@@ -26106,6 +26770,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33183.0,
      "renta_persona": 12424.0,
      "eur_m2": 11.9,
@@ -26116,7 +26781,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "19130",
@@ -26291,6 +26957,7 @@
        "Usanos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36969.0,
      "renta_persona": 14393.0,
      "eur_m2": 7.1,
@@ -26316,6 +26983,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43760.0,
      "renta_persona": 16701.0,
      "eur_m2": 7.84,
@@ -26343,6 +27011,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45719.0,
      "renta_persona": 17076.0,
      "eur_m2": 7.14,
@@ -26369,6 +27038,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43242.0,
      "renta_persona": 17245.0,
      "eur_m2": 6.58,
@@ -26395,6 +27065,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40838.0,
      "renta_persona": 14781.0,
      "eur_m2": 7.0,
@@ -26405,7 +27076,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11015",
@@ -26574,6 +27246,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34938.0,
      "renta_persona": 12836.0,
      "eur_m2": 6.99,
@@ -26599,6 +27272,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35634.0,
      "renta_persona": 13104.0,
      "eur_m2": 6.34,
@@ -26624,6 +27298,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29321.0,
      "renta_persona": 11119.0,
      "eur_m2": 6.34,
@@ -26649,6 +27324,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29711.0,
      "renta_persona": 10823.0,
      "eur_m2": 6.42,
@@ -26676,6 +27352,7 @@
        "Sancti Petri-La Barrosa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35865.0,
      "renta_persona": 13848.0,
      "eur_m2": 9.78,
@@ -26686,7 +27363,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "46244",
@@ -26855,6 +27533,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30616.0,
      "renta_persona": 10821.0,
      "eur_m2": 5.57,
@@ -26880,6 +27559,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33196.0,
      "renta_persona": 12380.0,
      "eur_m2": 6.23,
@@ -26905,6 +27585,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35844.0,
      "renta_persona": 13397.0,
      "eur_m2": 6.41,
@@ -26935,6 +27616,7 @@
        "Cumbres de Calicanto"
       ]
      },
+     "barrios": [],
      "renta_hogar": 54120.0,
      "renta_persona": 18994.0,
      "eur_m2": 7.62,
@@ -26945,7 +27627,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "04902",
@@ -27098,7 +27781,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11027",
@@ -27267,6 +27951,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30352.0,
      "renta_persona": 12080.0,
      "eur_m2": 6.88,
@@ -27295,6 +27980,7 @@
        "Los Arenales"
       ]
      },
+     "barrios": [],
      "renta_hogar": 58435.0,
      "renta_persona": 20539.0,
      "eur_m2": 9.72,
@@ -27324,6 +28010,7 @@
        "San Ignacio-Sierra"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35412.0,
      "renta_persona": 12119.0,
      "eur_m2": 6.87,
@@ -27351,6 +28038,7 @@
        "Valdelagrana"
       ]
      },
+     "barrios": [],
      "renta_hogar": 50287.0,
      "renta_persona": 19986.0,
      "eur_m2": 8.46,
@@ -27361,7 +28049,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28115",
@@ -27534,6 +28223,7 @@
        "Los Angeles"
       ]
      },
+     "barrios": [],
      "renta_hogar": 109180.0,
      "renta_persona": 34288.0,
      "eur_m2": 13.17,
@@ -27559,6 +28249,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 92919.0,
      "renta_persona": 30055.0,
      "eur_m2": 14.29,
@@ -27569,7 +28260,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "38006",
@@ -27722,7 +28414,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29094",
@@ -27893,6 +28586,7 @@
        "Lagos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31114.0,
      "renta_persona": 11576.0,
      "eur_m2": 5.72,
@@ -27920,6 +28614,7 @@
        "Cabrillas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29464.0,
      "renta_persona": 11379.0,
      "eur_m2": 5.56,
@@ -27948,6 +28643,7 @@
        "Caleta de Velez"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34774.0,
      "renta_persona": 14478.0,
      "eur_m2": 7.5,
@@ -27978,6 +28674,7 @@
        "Chilches"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37474.0,
      "renta_persona": 14096.0,
      "eur_m2": 8.38,
@@ -28008,6 +28705,7 @@
        "Trapiche"
       ]
      },
+     "barrios": [],
      "renta_hogar": 23060.0,
      "renta_persona": 10560.0,
      "eur_m2": null,
@@ -28018,7 +28716,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "45168",
@@ -28189,6 +28888,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42441.0,
      "renta_persona": 18972.0,
      "eur_m2": 8.33,
@@ -28215,6 +28915,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37160.0,
      "renta_persona": 16898.0,
      "eur_m2": 8.33,
@@ -28241,6 +28942,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42945.0,
      "renta_persona": 18356.0,
      "eur_m2": 7.69,
@@ -28269,6 +28971,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39973.0,
      "renta_persona": 18644.0,
      "eur_m2": 8.24,
@@ -28295,6 +28998,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 55440.0,
      "renta_persona": 20142.0,
      "eur_m2": 7.41,
@@ -28321,6 +29025,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41199.0,
      "renta_persona": 15700.0,
      "eur_m2": 7.48,
@@ -28347,6 +29052,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36751.0,
      "renta_persona": 14470.0,
      "eur_m2": 6.85,
@@ -28357,7 +29063,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28161",
@@ -28527,6 +29234,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49152.0,
      "renta_persona": 16327.0,
      "eur_m2": 8.93,
@@ -28553,6 +29261,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45638.0,
      "renta_persona": 15884.0,
      "eur_m2": 8.97,
@@ -28563,7 +29272,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08200",
@@ -28732,6 +29442,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36836.0,
      "renta_persona": 14770.0,
      "eur_m2": 11.87,
@@ -28757,6 +29468,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45398.0,
      "renta_persona": 16909.0,
      "eur_m2": 10.71,
@@ -28782,6 +29494,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43083.0,
      "renta_persona": 16690.0,
      "eur_m2": 10.71,
@@ -28807,6 +29520,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41831.0,
      "renta_persona": 16111.0,
      "eur_m2": 10.8,
@@ -28832,6 +29546,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41041.0,
      "renta_persona": 14238.0,
      "eur_m2": 8.89,
@@ -28857,6 +29572,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37670.0,
      "renta_persona": 14130.0,
      "eur_m2": 11.11,
@@ -28867,7 +29583,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29054",
@@ -29036,6 +29753,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33268.0,
      "renta_persona": 12622.0,
      "eur_m2": 8.97,
@@ -29061,6 +29779,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33511.0,
      "renta_persona": 12909.0,
      "eur_m2": 9.53,
@@ -29086,6 +29805,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36177.0,
      "renta_persona": 13791.0,
      "eur_m2": 9.9,
@@ -29096,7 +29816,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03099",
@@ -29267,6 +29988,7 @@
        "Orihuela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36880.0,
      "renta_persona": 13661.0,
      "eur_m2": 4.17,
@@ -29294,6 +30016,7 @@
        "Orihuela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41064.0,
      "renta_persona": 15134.0,
      "eur_m2": 4.18,
@@ -29321,6 +30044,7 @@
        "Orihuela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27763.0,
      "renta_persona": 9617.0,
      "eur_m2": 3.95,
@@ -29348,6 +30072,7 @@
        "Orihuela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33867.0,
      "renta_persona": 11721.0,
      "eur_m2": 4.39,
@@ -29378,6 +30103,7 @@
        "Torremendo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 25716.0,
      "renta_persona": 11611.0,
      "eur_m2": 7.84,
@@ -29407,6 +30133,7 @@
        "Molins"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31574.0,
      "renta_persona": 11840.0,
      "eur_m2": 4.38,
@@ -29437,6 +30164,7 @@
        "Parroquia de la Matanza"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30818.0,
      "renta_persona": 11755.0,
      "eur_m2": 4.4,
@@ -29469,6 +30197,7 @@
        "El Escorratel"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32893.0,
      "renta_persona": 12366.0,
      "eur_m2": null,
@@ -29479,7 +30208,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "52001",
@@ -29648,6 +30378,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 57837.0,
      "renta_persona": 18078.0,
      "eur_m2": 7.39,
@@ -29676,6 +30407,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 53834.0,
      "renta_persona": 18193.0,
      "eur_m2": 8.62,
@@ -29702,6 +30434,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33762.0,
      "renta_persona": 10490.0,
      "eur_m2": 9.93,
@@ -29728,6 +30461,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29372.0,
      "renta_persona": 8261.0,
      "eur_m2": 8.33,
@@ -29753,6 +30487,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 28910.0,
      "renta_persona": 7743.0,
      "eur_m2": 8.16,
@@ -29781,6 +30516,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 57315.0,
      "renta_persona": 19899.0,
      "eur_m2": 9.91,
@@ -29807,6 +30543,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 51947.0,
      "renta_persona": 15950.0,
      "eur_m2": 8.87,
@@ -29833,6 +30570,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 55900.0,
      "renta_persona": 17760.0,
      "eur_m2": 9.25,
@@ -29843,7 +30581,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "45165",
@@ -30015,6 +30754,7 @@
        "Barrio de Santa Maria"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30762.0,
      "renta_persona": 11735.0,
      "eur_m2": 5.6,
@@ -30040,6 +30780,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37805.0,
      "renta_persona": 14855.0,
      "eur_m2": 4.93,
@@ -30065,6 +30806,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30856.0,
      "renta_persona": 11954.0,
      "eur_m2": 5.15,
@@ -30094,6 +30836,7 @@
        "Colonia Ntra Sra Prado"
       ]
      },
+     "barrios": [],
      "renta_hogar": 28794.0,
      "renta_persona": 10963.0,
      "eur_m2": 5.23,
@@ -30104,7 +30847,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "36038",
@@ -30275,6 +31019,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41295.0,
      "renta_persona": 17164.0,
      "eur_m2": 5.91,
@@ -30304,6 +31049,7 @@
        "A Ponte Muiños"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43339.0,
      "renta_persona": 17780.0,
      "eur_m2": 6.61,
@@ -30335,6 +31081,7 @@
        "O Carballo do Pazo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31672.0,
      "renta_persona": 13664.0,
      "eur_m2": 4.29,
@@ -30367,6 +31114,7 @@
        "Vilaverde"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31480.0,
      "renta_persona": 13696.0,
      "eur_m2": 5.72,
@@ -30396,6 +31144,7 @@
        "Medico Ballina"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29306.0,
      "renta_persona": 14121.0,
      "eur_m2": null,
@@ -30420,6 +31169,7 @@
        "O Couso"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29226.0,
      "renta_persona": 13830.0,
      "eur_m2": null,
@@ -30448,6 +31198,7 @@
        "Rabaleira"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32897.0,
      "renta_persona": 14744.0,
      "eur_m2": null,
@@ -30458,7 +31209,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "46131",
@@ -30628,6 +31380,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43716.0,
      "renta_persona": 17856.0,
      "eur_m2": 5.17,
@@ -30653,6 +31406,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35089.0,
      "renta_persona": 12765.0,
      "eur_m2": 4.65,
@@ -30678,6 +31432,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32718.0,
      "renta_persona": 12512.0,
      "eur_m2": 5.2,
@@ -30706,6 +31461,7 @@
        "Grau i Platja"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31281.0,
      "renta_persona": 13604.0,
      "eur_m2": 6.98,
@@ -30732,6 +31488,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32538.0,
      "renta_persona": 12071.0,
      "eur_m2": 4.54,
@@ -30757,6 +31514,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34869.0,
      "renta_persona": 12877.0,
      "eur_m2": 4.96,
@@ -30786,6 +31544,7 @@
        "Marxuquera Baixa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33592.0,
      "renta_persona": 12841.0,
      "eur_m2": 4.8,
@@ -30796,7 +31555,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08184",
@@ -30965,6 +31725,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48149.0,
      "renta_persona": 17093.0,
      "eur_m2": 8.34,
@@ -30990,6 +31751,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49005.0,
      "renta_persona": 16974.0,
      "eur_m2": 10.54,
@@ -31015,6 +31777,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40611.0,
      "renta_persona": 14211.0,
      "eur_m2": 8.76,
@@ -31040,6 +31803,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41595.0,
      "renta_persona": 15363.0,
      "eur_m2": 9.32,
@@ -31050,7 +31814,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "51001",
@@ -31219,6 +31984,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 73710.0,
      "renta_persona": 26595.0,
      "eur_m2": 10.32,
@@ -31245,6 +32011,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 53879.0,
      "renta_persona": 17882.0,
      "eur_m2": 11.22,
@@ -31271,6 +32038,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48686.0,
      "renta_persona": 17234.0,
      "eur_m2": 8.82,
@@ -31297,6 +32065,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40452.0,
      "renta_persona": 12675.0,
      "eur_m2": 8.54,
@@ -31323,6 +32092,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33336.0,
      "renta_persona": 10746.0,
      "eur_m2": 8.82,
@@ -31352,6 +32122,7 @@
        "Benzu"
       ]
      },
+     "barrios": [],
      "renta_hogar": 28644.0,
      "renta_persona": 7906.0,
      "eur_m2": 8.96,
@@ -31362,7 +32133,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08113",
@@ -31531,6 +32303,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29115.0,
      "renta_persona": 12457.0,
      "eur_m2": 6.01,
@@ -31561,6 +32334,7 @@
        "Mas D'en Pla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41802.0,
      "renta_persona": 17031.0,
      "eur_m2": 6.5,
@@ -31586,6 +32360,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33195.0,
      "renta_persona": 13429.0,
      "eur_m2": 6.35,
@@ -31616,6 +32391,7 @@
        "El Colomer"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40700.0,
      "renta_persona": 16377.0,
      "eur_m2": 6.39,
@@ -31646,6 +32422,7 @@
        "Mas D'en Roca"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37449.0,
      "renta_persona": 14645.0,
      "eur_m2": 6.0,
@@ -31677,6 +32454,7 @@
        "Els Comtals"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36079.0,
      "renta_persona": 14207.0,
      "eur_m2": 5.52,
@@ -31687,7 +32465,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28049",
@@ -31856,6 +32635,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45229.0,
      "renta_persona": 16186.0,
      "eur_m2": 9.65,
@@ -31882,6 +32662,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44167.0,
      "renta_persona": 16595.0,
      "eur_m2": 9.76,
@@ -31908,6 +32689,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41874.0,
      "renta_persona": 16059.0,
      "eur_m2": 9.37,
@@ -31933,6 +32715,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35756.0,
      "renta_persona": 14409.0,
      "eur_m2": 14.29,
@@ -31943,7 +32726,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29051",
@@ -32116,6 +32900,7 @@
        "Buenas Noches"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37897.0,
      "renta_persona": 14124.0,
      "eur_m2": 8.22,
@@ -32141,6 +32926,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34481.0,
      "renta_persona": 12564.0,
      "eur_m2": 7.63,
@@ -32171,6 +32957,7 @@
        "Resinera-Voladilla"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36895.0,
      "renta_persona": 13941.0,
      "eur_m2": 9.9,
@@ -32181,7 +32968,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "35022",
@@ -32355,6 +33143,7 @@
        "El Ingenio"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35076.0,
      "renta_persona": 14588.0,
      "eur_m2": null,
@@ -32382,6 +33171,7 @@
        "Sardina"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34917.0,
      "renta_persona": 12677.0,
      "eur_m2": 6.99,
@@ -32411,6 +33201,7 @@
        "Pozo Izquierdo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35283.0,
      "renta_persona": 12220.0,
      "eur_m2": 6.75,
@@ -32421,7 +33212,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29025",
@@ -32593,6 +33385,7 @@
        "Benalmadena"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41402.0,
      "renta_persona": 16160.0,
      "eur_m2": 10.32,
@@ -32618,6 +33411,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36269.0,
      "renta_persona": 13439.0,
      "eur_m2": 9.09,
@@ -32643,6 +33437,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32786.0,
      "renta_persona": 14083.0,
      "eur_m2": 10.81,
@@ -32653,7 +33448,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "30027",
@@ -32806,7 +33602,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "41004",
@@ -32975,6 +33772,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37750.0,
      "renta_persona": 14746.0,
      "eur_m2": 6.29,
@@ -33000,6 +33798,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35096.0,
      "renta_persona": 12894.0,
      "eur_m2": 6.73,
@@ -33025,6 +33824,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32698.0,
      "renta_persona": 12605.0,
      "eur_m2": 6.13,
@@ -33054,6 +33854,7 @@
        "Trujillo - Cabeza Sordo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36849.0,
      "renta_persona": 13145.0,
      "eur_m2": 6.28,
@@ -33064,7 +33865,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "34120",
@@ -33234,6 +34036,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46518.0,
      "renta_persona": 20812.0,
      "eur_m2": 5.73,
@@ -33263,6 +34066,7 @@
        "Paredes de Monte"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42180.0,
      "renta_persona": 19294.0,
      "eur_m2": 6.18,
@@ -33289,6 +34093,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39949.0,
      "renta_persona": 19221.0,
      "eur_m2": 5.87,
@@ -33314,6 +34119,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35792.0,
      "renta_persona": 16284.0,
      "eur_m2": 5.56,
@@ -33340,6 +34146,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37678.0,
      "renta_persona": 16811.0,
      "eur_m2": 5.79,
@@ -33365,6 +34172,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32196.0,
      "renta_persona": 13539.0,
      "eur_m2": 5.54,
@@ -33391,6 +34199,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36442.0,
      "renta_persona": 16122.0,
      "eur_m2": 5.79,
@@ -33401,7 +34210,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03031",
@@ -33570,6 +34380,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30333.0,
      "renta_persona": 12875.0,
      "eur_m2": 7.25,
@@ -33596,6 +34407,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30349.0,
      "renta_persona": 12795.0,
      "eur_m2": 9.31,
@@ -33622,6 +34434,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31538.0,
      "renta_persona": 12657.0,
      "eur_m2": 7.43,
@@ -33647,6 +34460,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32977.0,
      "renta_persona": 14040.0,
      "eur_m2": 9.17,
@@ -33657,7 +34471,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "33004",
@@ -33810,7 +34625,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "13034",
@@ -33981,6 +34797,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43488.0,
      "renta_persona": 17855.0,
      "eur_m2": 6.06,
@@ -34008,6 +34825,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38379.0,
      "renta_persona": 15689.0,
      "eur_m2": 5.56,
@@ -34035,6 +34853,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37346.0,
      "renta_persona": 15762.0,
      "eur_m2": 5.99,
@@ -34063,6 +34882,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42231.0,
      "renta_persona": 17530.0,
      "eur_m2": 5.61,
@@ -34094,6 +34914,7 @@
        "Valverde"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43588.0,
      "renta_persona": 16702.0,
      "eur_m2": 5.0,
@@ -34104,7 +34925,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "48044",
@@ -34277,6 +35099,7 @@
        "Andra Mari"
       ]
      },
+     "barrios": [],
      "renta_hogar": 65914.0,
      "renta_persona": 25901.0,
      "eur_m2": 11.06,
@@ -34304,6 +35127,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 64559.0,
      "renta_persona": 26254.0,
      "eur_m2": 11.25,
@@ -34331,6 +35155,7 @@
        "Las Arenas-Areeta"
       ]
      },
+     "barrios": [],
      "renta_hogar": 66403.0,
      "renta_persona": 27101.0,
      "eur_m2": 11.75,
@@ -34341,7 +35166,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "46190",
@@ -34494,7 +35320,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28080",
@@ -34667,6 +35494,7 @@
        "La Grajera"
       ]
      },
+     "barrios": [],
      "renta_hogar": 71267.0,
      "renta_persona": 23132.0,
      "eur_m2": 12.79,
@@ -34696,6 +35524,7 @@
        "Monte del Pilar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 86529.0,
      "renta_persona": 27731.0,
      "eur_m2": 13.45,
@@ -34706,7 +35535,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "46220",
@@ -34880,6 +35710,7 @@
        "Partida de Montiver"
       ]
      },
+     "barrios": [],
      "renta_hogar": 45790.0,
      "renta_persona": 19299.0,
      "eur_m2": null,
@@ -34909,6 +35740,7 @@
        "Partida de Gausa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33409.0,
      "renta_persona": 13244.0,
      "eur_m2": 5.29,
@@ -34936,6 +35768,7 @@
        "Sagunt/sagunto"
       ]
      },
+     "barrios": [],
      "renta_hogar": 48134.0,
      "renta_persona": 17837.0,
      "eur_m2": 5.81,
@@ -34964,6 +35797,7 @@
        "El Baladre"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27328.0,
      "renta_persona": 9721.0,
      "eur_m2": 4.83,
@@ -34989,6 +35823,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34101.0,
      "renta_persona": 14064.0,
      "eur_m2": 6.08,
@@ -35014,6 +35849,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37810.0,
      "renta_persona": 15393.0,
      "eur_m2": 6.2,
@@ -35041,6 +35877,7 @@
        "Almarda"
       ]
      },
+     "barrios": [],
      "renta_hogar": 49924.0,
      "renta_persona": 24136.0,
      "eur_m2": 7.4,
@@ -35051,7 +35888,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29901",
@@ -35204,7 +36042,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11032",
@@ -35376,6 +36215,7 @@
        "Miraflores"
       ]
      },
+     "barrios": [],
      "renta_hogar": 27024.0,
      "renta_persona": 9460.0,
      "eur_m2": 6.1,
@@ -35403,6 +36243,7 @@
        "La Jara"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33785.0,
      "renta_persona": 12458.0,
      "eur_m2": 6.76,
@@ -35428,6 +36269,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35753.0,
      "renta_persona": 15316.0,
      "eur_m2": 6.82,
@@ -35453,6 +36295,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30092.0,
      "renta_persona": 12420.0,
      "eur_m2": 6.85,
@@ -35482,6 +36325,7 @@
        "La Algaida"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29088.0,
      "renta_persona": 10487.0,
      "eur_m2": 6.61,
@@ -35492,7 +36336,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08056",
@@ -35661,6 +36506,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48449.0,
      "renta_persona": 16959.0,
      "eur_m2": 11.51,
@@ -35686,6 +36532,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45402.0,
      "renta_persona": 16847.0,
      "eur_m2": 12.12,
@@ -35711,6 +36558,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 58107.0,
      "renta_persona": 20192.0,
      "eur_m2": 11.95,
@@ -35736,6 +36584,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 62663.0,
      "renta_persona": 22609.0,
      "eur_m2": 14.07,
@@ -35761,6 +36610,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 62578.0,
      "renta_persona": 23295.0,
      "eur_m2": 14.25,
@@ -35771,7 +36621,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "35004",
@@ -35940,6 +36791,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39261.0,
      "renta_persona": 14160.0,
      "eur_m2": 7.22,
@@ -35965,6 +36817,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37193.0,
      "renta_persona": 12141.0,
      "eur_m2": 7.03,
@@ -35975,7 +36828,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08307",
@@ -36144,6 +36998,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43875.0,
      "renta_persona": 18155.0,
      "eur_m2": 8.76,
@@ -36169,6 +37024,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43538.0,
      "renta_persona": 18780.0,
      "eur_m2": 9.34,
@@ -36194,6 +37050,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37158.0,
      "renta_persona": 15325.0,
      "eur_m2": 9.27,
@@ -36219,6 +37076,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43836.0,
      "renta_persona": 16886.0,
      "eur_m2": 8.29,
@@ -36229,7 +37087,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08301",
@@ -36398,6 +37257,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45970.0,
      "renta_persona": 17012.0,
      "eur_m2": 10.32,
@@ -36423,6 +37283,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44752.0,
      "renta_persona": 16424.0,
      "eur_m2": 10.26,
@@ -36433,7 +37294,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28047",
@@ -36586,7 +37448,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28022",
@@ -36739,7 +37602,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08169",
@@ -36908,6 +37772,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46781.0,
      "renta_persona": 18353.0,
      "eur_m2": 10.71,
@@ -36933,6 +37798,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43250.0,
      "renta_persona": 17079.0,
      "eur_m2": 11.49,
@@ -36958,6 +37824,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43398.0,
      "renta_persona": 16620.0,
      "eur_m2": 10.71,
@@ -36983,6 +37850,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34342.0,
      "renta_persona": 12052.0,
      "eur_m2": 8.19,
@@ -37008,6 +37876,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44731.0,
      "renta_persona": 17270.0,
      "eur_m2": 11.17,
@@ -37018,7 +37887,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "11022",
@@ -37187,6 +38057,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36240.0,
      "renta_persona": 14463.0,
      "eur_m2": 7.89,
@@ -37212,6 +38083,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37024.0,
      "renta_persona": 14650.0,
      "eur_m2": 7.84,
@@ -37237,6 +38109,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32112.0,
      "renta_persona": 12206.0,
      "eur_m2": 7.39,
@@ -37262,6 +38135,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 26372.0,
      "renta_persona": 9976.0,
      "eur_m2": 6.95,
@@ -37287,6 +38161,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 23629.0,
      "renta_persona": 8509.0,
      "eur_m2": 7.93,
@@ -37312,6 +38187,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 24322.0,
      "renta_persona": 8633.0,
      "eur_m2": 6.79,
@@ -37337,6 +38213,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44417.0,
      "renta_persona": 16287.0,
      "eur_m2": 8.3,
@@ -37347,7 +38224,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08096",
@@ -37517,6 +38395,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43554.0,
      "renta_persona": 16277.0,
      "eur_m2": 8.72,
@@ -37543,6 +38422,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46861.0,
      "renta_persona": 17690.0,
      "eur_m2": 8.87,
@@ -37568,6 +38448,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 46297.0,
      "renta_persona": 17489.0,
      "eur_m2": 8.84,
@@ -37594,6 +38475,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44754.0,
      "renta_persona": 16960.0,
      "eur_m2": 8.57,
@@ -37604,7 +38486,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "15036",
@@ -37773,6 +38656,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35004.0,
      "renta_persona": 16521.0,
      "eur_m2": 5.64,
@@ -37801,6 +38685,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34117.0,
      "renta_persona": 15961.0,
      "eur_m2": 4.65,
@@ -37828,6 +38713,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36042.0,
      "renta_persona": 17183.0,
      "eur_m2": 4.82,
@@ -37854,6 +38740,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42087.0,
      "renta_persona": 19359.0,
      "eur_m2": 4.5,
@@ -37879,6 +38766,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 39353.0,
      "renta_persona": 17738.0,
      "eur_m2": 5.01,
@@ -37905,6 +38793,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30200.0,
      "renta_persona": 14440.0,
      "eur_m2": 4.76,
@@ -37935,6 +38824,7 @@
        "Beleicon"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33152.0,
      "renta_persona": 14879.0,
      "eur_m2": 4.06,
@@ -37967,6 +38857,7 @@
        "Mouga"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34655.0,
      "renta_persona": 15992.0,
      "eur_m2": 4.27,
@@ -37977,7 +38868,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "20045",
@@ -38148,6 +39040,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 45413.0,
      "renta_persona": 19667.0,
      "eur_m2": 10.49,
@@ -38175,6 +39068,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44242.0,
      "renta_persona": 17747.0,
      "eur_m2": 9.62,
@@ -38202,6 +39096,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42624.0,
      "renta_persona": 17532.0,
      "eur_m2": 9.83,
@@ -38228,6 +39123,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42454.0,
      "renta_persona": 17186.0,
      "eur_m2": 9.83,
@@ -38238,7 +39134,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "24115",
@@ -38409,6 +39306,7 @@
        "Santo Tomas de las Ollas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34124.0,
      "renta_persona": 15599.0,
      "eur_m2": 5.0,
@@ -38435,6 +39333,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36203.0,
      "renta_persona": 16307.0,
      "eur_m2": 5.24,
@@ -38464,6 +39363,7 @@
        "La Placa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29418.0,
      "renta_persona": 13025.0,
      "eur_m2": 4.5,
@@ -38495,6 +39395,7 @@
        "San Lorenzo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 38943.0,
      "renta_persona": 17031.0,
      "eur_m2": 4.26,
@@ -38525,6 +39426,7 @@
        "Cuatrovientos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 34474.0,
      "renta_persona": 14883.0,
      "eur_m2": 4.94,
@@ -38555,6 +39457,7 @@
        "San Esteban de Valdueza"
       ]
      },
+     "barrios": [],
      "renta_hogar": 26559.0,
      "renta_persona": 13739.0,
      "eur_m2": null,
@@ -38565,7 +39468,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28013",
@@ -38734,6 +39638,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42410.0,
      "renta_persona": 15114.0,
      "eur_m2": 7.79,
@@ -38759,6 +39664,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41825.0,
      "renta_persona": 14713.0,
      "eur_m2": 7.91,
@@ -38784,6 +39690,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40478.0,
      "renta_persona": 14531.0,
      "eur_m2": 8.08,
@@ -38813,6 +39720,7 @@
        "Sotomayor"
       ]
      },
+     "barrios": [],
      "renta_hogar": 50682.0,
      "renta_persona": 16000.0,
      "eur_m2": 7.46,
@@ -38823,7 +39731,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03009",
@@ -38992,6 +39901,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33098.0,
      "renta_persona": 15037.0,
      "eur_m2": 5.49,
@@ -39017,6 +39927,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30767.0,
      "renta_persona": 13499.0,
      "eur_m2": 4.79,
@@ -39043,6 +39954,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31247.0,
      "renta_persona": 13155.0,
      "eur_m2": 4.16,
@@ -39069,6 +39981,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31706.0,
      "renta_persona": 13350.0,
      "eur_m2": 4.23,
@@ -39094,6 +40007,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35971.0,
      "renta_persona": 14846.0,
      "eur_m2": 4.47,
@@ -39120,6 +40034,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35316.0,
      "renta_persona": 14819.0,
      "eur_m2": 4.52,
@@ -39145,6 +40060,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30253.0,
      "renta_persona": 12649.0,
      "eur_m2": 4.12,
@@ -39170,6 +40086,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35522.0,
      "renta_persona": 14258.0,
      "eur_m2": 4.44,
@@ -39180,7 +40097,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "06083",
@@ -39349,6 +40267,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36698.0,
      "renta_persona": 16516.0,
      "eur_m2": 5.35,
@@ -39374,6 +40293,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36013.0,
      "renta_persona": 15731.0,
      "eur_m2": 5.17,
@@ -39401,6 +40321,7 @@
        "El Vivero"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39337.0,
      "renta_persona": 16005.0,
      "eur_m2": 5.28,
@@ -39430,6 +40351,7 @@
        "Campomanes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32137.0,
      "renta_persona": 12239.0,
      "eur_m2": 4.8,
@@ -39455,6 +40377,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 26111.0,
      "renta_persona": 10979.0,
      "eur_m2": null,
@@ -39484,6 +40407,7 @@
        "El Prado"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33889.0,
      "renta_persona": 13568.0,
      "eur_m2": 4.98,
@@ -39494,7 +40418,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "18140",
@@ -39664,6 +40589,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37069.0,
      "renta_persona": 13949.0,
      "eur_m2": 5.19,
@@ -39689,6 +40615,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34742.0,
      "renta_persona": 12328.0,
      "eur_m2": 5.24,
@@ -39714,6 +40641,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37935.0,
      "renta_persona": 14614.0,
      "eur_m2": 5.17,
@@ -39739,6 +40667,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30507.0,
      "renta_persona": 11193.0,
      "eur_m2": 5.3,
@@ -39771,6 +40700,7 @@
        "Puntalon"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30405.0,
      "renta_persona": 11842.0,
      "eur_m2": 6.21,
@@ -39781,7 +40711,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03122",
@@ -39950,6 +40881,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34609.0,
      "renta_persona": 13018.0,
      "eur_m2": 5.95,
@@ -39975,6 +40907,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35961.0,
      "renta_persona": 13828.0,
      "eur_m2": 6.76,
@@ -40003,6 +40936,7 @@
        "Raspeig"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43382.0,
      "renta_persona": 14906.0,
      "eur_m2": 7.05,
@@ -40013,7 +40947,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "49275",
@@ -40185,6 +41120,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38228.0,
      "renta_persona": 17965.0,
      "eur_m2": 4.86,
@@ -40213,6 +41149,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34830.0,
      "renta_persona": 16446.0,
      "eur_m2": 5.02,
@@ -40241,6 +41178,7 @@
        "Carrascal"
       ]
      },
+     "barrios": [],
      "renta_hogar": 30009.0,
      "renta_persona": 12919.0,
      "eur_m2": 4.94,
@@ -40269,6 +41207,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37853.0,
      "renta_persona": 16859.0,
      "eur_m2": 5.29,
@@ -40297,6 +41236,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29575.0,
      "renta_persona": 13358.0,
      "eur_m2": 4.64,
@@ -40307,7 +41247,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28014",
@@ -40460,7 +41401,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "05019",
@@ -40634,6 +41576,7 @@
        "Alamedilla del Berrocal"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37389.0,
      "renta_persona": 17165.0,
      "eur_m2": 5.9,
@@ -40661,6 +41604,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44628.0,
      "renta_persona": 21299.0,
      "eur_m2": 6.26,
@@ -40689,6 +41633,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 49483.0,
      "renta_persona": 19904.0,
      "eur_m2": 5.25,
@@ -40717,6 +41662,7 @@
        "Aldea del Rey Niño"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33948.0,
      "renta_persona": 14169.0,
      "eur_m2": 5.51,
@@ -40742,6 +41688,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34445.0,
      "renta_persona": 15255.0,
      "eur_m2": 6.04,
@@ -40774,6 +41721,7 @@
        "Bernuy-Salinero"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39440.0,
      "renta_persona": 16932.0,
      "eur_m2": 6.25,
@@ -40784,7 +41732,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "38017",
@@ -40937,7 +41886,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08266",
@@ -41090,7 +42040,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28045",
@@ -41243,7 +42194,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28113",
@@ -41412,6 +42364,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43170.0,
      "renta_persona": 15330.0,
      "eur_m2": 9.53,
@@ -41439,6 +42392,7 @@
        "Las Arenas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 47022.0,
      "renta_persona": 16948.0,
      "eur_m2": 9.34,
@@ -41449,7 +42403,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "03066",
@@ -41618,6 +42573,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 23349.0,
      "renta_persona": 9208.0,
      "eur_m2": 4.43,
@@ -41643,6 +42599,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 28513.0,
      "renta_persona": 11721.0,
      "eur_m2": 4.91,
@@ -41670,6 +42627,7 @@
        "Estacion de Monovar"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33280.0,
      "renta_persona": 12571.0,
      "eur_m2": null,
@@ -41695,6 +42653,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30826.0,
      "renta_persona": 12124.0,
      "eur_m2": 4.31,
@@ -41720,6 +42679,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29331.0,
      "renta_persona": 11996.0,
      "eur_m2": 4.68,
@@ -41730,7 +42690,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "23055",
@@ -41903,6 +42864,7 @@
        "Cañada Incosa-Cerro Pelad"
       ]
      },
+     "barrios": [],
      "renta_hogar": 33429.0,
      "renta_persona": 12727.0,
      "eur_m2": 4.31,
@@ -41928,6 +42890,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 29418.0,
      "renta_persona": 11603.0,
      "eur_m2": 4.06,
@@ -41953,6 +42916,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 25728.0,
      "renta_persona": 10153.0,
      "eur_m2": 3.99,
@@ -41978,6 +42942,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 34866.0,
      "renta_persona": 14254.0,
      "eur_m2": 3.98,
@@ -42003,6 +42968,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35101.0,
      "renta_persona": 13828.0,
      "eur_m2": 4.24,
@@ -42028,6 +42994,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 31785.0,
      "renta_persona": 13602.0,
      "eur_m2": 3.99,
@@ -42053,6 +43020,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42355.0,
      "renta_persona": 15230.0,
      "eur_m2": 4.41,
@@ -42080,6 +43048,7 @@
        "Estacion Linares-Baeza"
       ]
      },
+     "barrios": [],
      "renta_hogar": 26693.0,
      "renta_persona": 10216.0,
      "eur_m2": null,
@@ -42090,7 +43059,8 @@
      "fiabilidad": "no_mostrar"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "35019",
@@ -42266,6 +43236,7 @@
        "Cercados de Araña"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31390.0,
      "renta_persona": 15138.0,
      "eur_m2": null,
@@ -42297,6 +43268,7 @@
        "Juan Grande"
       ]
      },
+     "barrios": [],
      "renta_hogar": 35440.0,
      "renta_persona": 12837.0,
      "eur_m2": 7.32,
@@ -42326,6 +43298,7 @@
        "Campo Internacional"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36760.0,
      "renta_persona": 15675.0,
      "eur_m2": 9.15,
@@ -42357,6 +43330,7 @@
        "El Salobre"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37700.0,
      "renta_persona": 13873.0,
      "eur_m2": 8.59,
@@ -42367,7 +43341,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "28903",
@@ -42520,7 +43495,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "22125",
@@ -42691,6 +43667,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32084.0,
      "renta_persona": 13649.0,
      "eur_m2": 7.79,
@@ -42717,6 +43694,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37259.0,
      "renta_persona": 15597.0,
      "eur_m2": 6.61,
@@ -42748,6 +43726,7 @@
        "Tabernas del Isuela"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43424.0,
      "renta_persona": 17856.0,
      "eur_m2": 7.37,
@@ -42780,6 +43759,7 @@
        "Fornillos de Apies"
       ]
      },
+     "barrios": [],
      "renta_hogar": 29712.0,
      "renta_persona": 11018.0,
      "eur_m2": 6.23,
@@ -42812,6 +43792,7 @@
        "Banaries"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41239.0,
      "renta_persona": 17721.0,
      "eur_m2": 6.56,
@@ -42839,6 +43820,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 42479.0,
      "renta_persona": 18917.0,
      "eur_m2": 5.68,
@@ -42867,6 +43849,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41743.0,
      "renta_persona": 17174.0,
      "eur_m2": 5.76,
@@ -42894,6 +43877,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43599.0,
      "renta_persona": 18888.0,
      "eur_m2": 6.14,
@@ -42904,7 +43888,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "07011",
@@ -43076,6 +44061,7 @@
        "Es Capdella"
       ]
      },
+     "barrios": [],
      "renta_hogar": 55251.0,
      "renta_persona": 19771.0,
      "eur_m2": 7.69,
@@ -43105,6 +44091,7 @@
        "Ses Cas Catala-Illetes"
       ]
      },
+     "barrios": [],
      "renta_hogar": 64912.0,
      "renta_persona": 25339.0,
      "eur_m2": 15.42,
@@ -43134,6 +44121,7 @@
        "Son Caliu"
       ]
      },
+     "barrios": [],
      "renta_hogar": 40878.0,
      "renta_persona": 16084.0,
      "eur_m2": 12.08,
@@ -43164,6 +44152,7 @@
        "Sa Porrassa"
       ]
      },
+     "barrios": [],
      "renta_hogar": 45096.0,
      "renta_persona": 15893.0,
      "eur_m2": 10.62,
@@ -43194,6 +44183,7 @@
        "Galatzo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42949.0,
      "renta_persona": 17297.0,
      "eur_m2": 13.21,
@@ -43221,6 +44211,7 @@
        "Peguera"
       ]
      },
+     "barrios": [],
      "renta_hogar": 43245.0,
      "renta_persona": 16405.0,
      "eur_m2": 11.75,
@@ -43231,7 +44222,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "07026",
@@ -43400,6 +44392,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 38062.0,
      "renta_persona": 16555.0,
      "eur_m2": 14.63,
@@ -43425,6 +44418,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 60007.0,
      "renta_persona": 24005.0,
      "eur_m2": 14.71,
@@ -43450,6 +44444,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 54752.0,
      "renta_persona": 18086.0,
      "eur_m2": 12.3,
@@ -43460,7 +44455,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "16078",
@@ -43632,6 +44628,7 @@
        "Valdecabras"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36881.0,
      "renta_persona": 19285.0,
      "eur_m2": 5.85,
@@ -43658,6 +44655,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37807.0,
      "renta_persona": 18946.0,
      "eur_m2": 6.18,
@@ -43689,6 +44687,7 @@
        "Villanueva Escuderos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 41458.0,
      "renta_persona": 17401.0,
      "eur_m2": 5.82,
@@ -43718,6 +44717,7 @@
        "Mohorte"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36804.0,
      "renta_persona": 15043.0,
      "eur_m2": 5.56,
@@ -43728,7 +44728,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "12135",
@@ -43897,6 +44898,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 41140.0,
      "renta_persona": 16297.0,
      "eur_m2": 4.67,
@@ -43924,6 +44926,7 @@
        "Virgen de Gracia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39866.0,
      "renta_persona": 14715.0,
      "eur_m2": 4.93,
@@ -43951,6 +44954,7 @@
        "Virgen de Gracia"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37040.0,
      "renta_persona": 14416.0,
      "eur_m2": 4.81,
@@ -43978,6 +44982,7 @@
        "Pinella"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36163.0,
      "renta_persona": 13677.0,
      "eur_m2": 4.9,
@@ -43988,7 +44993,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "33066",
@@ -44141,7 +45147,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "29082",
@@ -44294,7 +45301,8 @@
     }
    ],
    "distritos": [],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "41095",
@@ -44463,6 +45471,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 32359.0,
      "renta_persona": 12753.0,
      "eur_m2": 4.91,
@@ -44489,6 +45498,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 33451.0,
      "renta_persona": 12524.0,
      "eur_m2": 6.03,
@@ -44514,6 +45524,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30747.0,
      "renta_persona": 11493.0,
      "eur_m2": 5.63,
@@ -44539,6 +45550,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 35359.0,
      "renta_persona": 13019.0,
      "eur_m2": 5.91,
@@ -44568,6 +45580,7 @@
        "Pinzon"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32739.0,
      "renta_persona": 11654.0,
      "eur_m2": 4.93,
@@ -44578,7 +45591,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "08124",
@@ -44747,6 +45761,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40539.0,
      "renta_persona": 15199.0,
      "eur_m2": 8.16,
@@ -44772,6 +45787,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 43961.0,
      "renta_persona": 17069.0,
      "eur_m2": 8.9,
@@ -44799,6 +45815,7 @@
        "Gallecs"
       ]
      },
+     "barrios": [],
      "renta_hogar": 42071.0,
      "renta_persona": 15458.0,
      "eur_m2": 8.39,
@@ -44809,7 +45826,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "40194",
@@ -44980,6 +45998,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 48241.0,
      "renta_persona": 21662.0,
      "eur_m2": 8.22,
@@ -45007,6 +46026,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 40986.0,
      "renta_persona": 18059.0,
      "eur_m2": 8.0,
@@ -45035,6 +46055,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 44806.0,
      "renta_persona": 19214.0,
      "eur_m2": 6.82,
@@ -45066,6 +46087,7 @@
        "Fuentemilanos"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37972.0,
      "renta_persona": 15823.0,
      "eur_m2": 6.7,
@@ -45093,6 +46115,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 37465.0,
      "renta_persona": 14783.0,
      "eur_m2": 7.25,
@@ -45118,6 +46141,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 36829.0,
      "renta_persona": 15066.0,
      "eur_m2": 6.5,
@@ -45147,6 +46171,7 @@
        "Las Serillas"
       ]
      },
+     "barrios": [],
      "renta_hogar": 39412.0,
      "renta_persona": 15621.0,
      "eur_m2": 6.05,
@@ -45157,7 +46182,8 @@
      "fiabilidad": "ok"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   },
   {
    "cod_muni": "39087",
@@ -45328,6 +46354,7 @@
        "Campuzano"
       ]
      },
+     "barrios": [],
      "renta_hogar": 36194.0,
      "renta_persona": 15883.0,
      "eur_m2": 6.07,
@@ -45353,6 +46380,7 @@
       ],
       "nucleos": []
      },
+     "barrios": [],
      "renta_hogar": 30932.0,
      "renta_persona": 12833.0,
      "eur_m2": 5.94,
@@ -45382,6 +46410,7 @@
        "Ganzo"
       ]
      },
+     "barrios": [],
      "renta_hogar": 31241.0,
      "renta_persona": 13332.0,
      "eur_m2": 6.71,
@@ -45411,6 +46440,7 @@
        "Viernoles"
       ]
      },
+     "barrios": [],
      "renta_hogar": 37021.0,
      "renta_persona": 15182.0,
      "eur_m2": 6.56,
@@ -45439,6 +46469,7 @@
        "Sierrapando"
       ]
      },
+     "barrios": [],
      "renta_hogar": 32049.0,
      "renta_persona": 13326.0,
      "eur_m2": 5.92,
@@ -45449,7 +46480,8 @@
      "fiabilidad": "pocos_datos"
     }
    ],
-   "cita_nombres_distritos": ""
+   "cita_nombres_distritos": "",
+   "cita_barrios": ""
   }
  ]
 }
