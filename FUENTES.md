@@ -43,7 +43,15 @@ Regla: un dato no entra en la web sin una fila aquí con la licencia **leída en
   - **Licencia:** **CC BY 3.0 ES**, leída el 20/11/2026 en https://www.bilbao.eus/opendata/es/licencia-para-conjunto-de-datos ("si no se indica lo contrario"). Condiciones: no alterar el contenido, no desnaturalizar su sentido, citar la fuente y mencionar la fecha de la última actualización. Cita que piden (https://www.bilbao.eus/opendata/es/reconocimiento): "Fuente de los datos: Ayuntamiento de Bilbao".
   - **Verificación:** con `verificar_distritos.py`, las 278 secciones (distrito + sección) del fichero de 2022 coinciden exactamente con las del ADRH 2024 del INE. El fichero de 2023 del mismo portal tiene solo 273 (le faltan 5 secciones que sí están en el INE y en el de 2022), así que se usa el de 2022.
   - Nombres en euskera, tal como los publica el Ayuntamiento (Deustu, Uribarri, Otxarkoaga-Txurdinaga, Begoña, Ibaiondo, Abando, Errekalde, Basurtu-Zorrotza); solo se pasan de MAYÚSCULAS a mayúscula inicial.
-- **Buscadas sin éxito (20/11/2026):** Sevilla (no se encontró un fichero municipal de secciones con su distrito), Zaragoza (sus distritos municipales no son los distritos censales del INE; hay datos por sección en zaragoza.es, pero sin el distrito censal). Pendientes: Córdoba, Murcia, Palma, Las Palmas, Alicante, Vigo, Gijón, Vitoria, A Coruña, Granada.
+- **Buscadas sin éxito (20/11/2026):**
+  - Sevilla: no se encontró un fichero municipal de secciones con el nombre de su distrito (solo anuarios en PDF).
+  - Zaragoza: hay datos por sección censal en zaragoza.es, pero sin el nombre del distrito; sus juntas de distrito no coinciden con los 12 distritos del INE.
+  - Palma: solo los "Districtes censals 2017" del Govern balear (catálogo CAIB), sin nombres municipales.
+  - Las Palmas de Gran Canaria: el portal municipal solo tiene el callejero.
+  - A Coruña: datos.coruna.gal tiene los distritos y secciones censales, pero solo como servicio de mapas (ArcGIS/WMS, 2021) y sin nombres; no se ha comprobado si el servicio trae alguno.
+  - Vitoria-Gasteiz: solo PDF y tablas de Eustat.
+  - Valladolid: sus 12 distritos son divisiones estadísticas sin nombre oficial (INSTRUCCIONES_PROYECTO.md).
+- Sin buscar todavía: Córdoba, Murcia, Alicante, Vigo, Gijón, Granada y el resto.
 - **Madrid y Valencia:** incorporados antes de la Fase 0, con la fuente sin documentar (B-20).
 - Método para añadir una ciudad: (1) buscar en el portal de datos abiertos del ayuntamiento un fichero de secciones censales con su distrito y anotar su licencia; (2) comprobar que el conjunto (distrito, sección) es idéntico al del ADRH del INE; (3) solo si coincide, añadir los nombres con su fuente. Si no coincide (por ejemplo, porque los distritos municipales no son los censales), no se añade.
 
