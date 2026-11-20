@@ -152,11 +152,13 @@ for _, f in sel.iterrows():
             num = int(m.group(1)) if m else None
             nombre_d = nombres.get(d["codigo"]) or (f"Distrito {num}" if num else d["nombre_ine"])
             zona = None
-            bs = barrios.get(d["codigo"]) if d["codigo"] not in nombres else None
+            bs = barrios.get(d["codigo"])   # también en distritos con nombre oficial, para buscarlos por barrio (B-32)
             if d["codigo"] not in nombres and d["codigo"] in zonas:
                 # Sin nombre oficial: se identifica por sus códigos postales y calles (callejero del INE)
                 zona = zonas[d["codigo"]]
-            if bs:
+            if bs and d["codigo"] in nombres:
+                pass   # el nombre oficial ya identifica el distrito; los barrios se ven debajo y en el buscador
+            elif bs:
                 # ...o, mejor, por los barrios (zonas del ayuntamiento) que lo forman
                 if len(bs) <= 3:
                     nombre_d += " · " + lista_y(bs)

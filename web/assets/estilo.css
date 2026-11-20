@@ -113,6 +113,10 @@ tbody tr:hover{background:var(--surface)}
 .card span{color:var(--muted);font-size:15px;line-height:1.5;display:block}
 .card:hover{border-color:var(--acc);text-decoration:none}
 .card:hover strong{color:var(--acc)}
+.resb{list-style:none;margin:8px 0 0;padding:0;max-width:520px}
+.resb li{padding:6px 0;border-bottom:1px solid var(--line)}
+.resb a{color:var(--ink);font-weight:600}
+.resb span{color:var(--muted);font-size:14px}
 .todas{list-style:none;margin:0;padding:0;columns:3 260px;column-gap:28px}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}

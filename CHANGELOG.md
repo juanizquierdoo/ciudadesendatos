@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 20/11/2026: barrios de OpenStreetMap y buscador de barrios (B-32)
+- Juan aprueba OpenStreetMap para las ciudades sin datos municipales, con la cita en el pie. Nuevo `zonas_osm.py` (cruce de calles de OSM con el callejero del INE) y `osm_descarga.py` (página para bajar los datos desde el navegador de Juan).
+- Primera tanda: 47 ciudades con barrios en algún distrito (Madrid, Barcelona, València, Murcia, Palma, Alicante, Córdoba, Vigo, Gijón, Granada…). Quedan las de los archivos que Overpass no devolvió.
+- Comprobado con Sevilla y Málaga: OSM da casi los mismos barrios que los datos oficiales.
+- Los distritos con nombre oficial (Madrid, Barcelona, València…) también muestran sus barrios debajo del nombre.
+- Buscador de la portada: ahora encuentra barrios y distritos con nombre ("Triana" → Sevilla, distrito 6) y enlaza a su fila de la tabla (`#dN`).
+- Pie: cita de OpenStreetMap y licencia ODbL. Tests: 20 OK.
+
 ## 20/11/2026: barrios con nombre en Las Palmas de Gran Canaria (B-32)
 - `zonas_ciudades.py` añade Las Palmas: cada sección censal del Ayuntamiento se sitúa en su distrito del INE comparando sus calles con el callejero electoral del INE; hasta 5 barrios por distrito con al menos el 5 % de la población. Detalle fila a fila en `datos_municipales/35016_laspalmas_barrio_por_seccion_censal.csv`.
 - Corrección menor: "Casablanca I" (la I final es un número romano). Tests: 20 OK.

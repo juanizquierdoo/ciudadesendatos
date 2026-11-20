@@ -36,6 +36,9 @@ NOMBRE_COMUN = {"Pamplona/Iruña": "Pamplona", "Eivissa": "Ibiza"}
 
 # ---- Comunidades autónomas (B-18). Datos: datos_limpios/comunidades.json (preparar_comunidades.py, SERPAVI)
 DATOS_CCAA = base / "datos_limpios" / "comunidades.json"
+# Barrios de OpenStreetMap (zonas_osm.py): la cita va solo en el pie, por decisión de Juan (20/11/2026). Licencia ODbL.
+_ZONAS = base / "datos_limpios" / "zonas_nombradas.csv"
+USA_OSM = _ZONAS.exists() and "OpenStreetMap" in _ZONAS.read_text(encoding="utf-8")
 MIN_CIUDADES_CCAA = 3   # solo hay página de comunidad si tiene al menos 3 ciudades (regla 8: nada de páginas flojas)
 # código INE -> (slug de la URL, nombre que más se usa al buscar, forma con "en")
 CCAA_INFO = {
@@ -261,6 +264,10 @@ def pie(root):
             f'<p>Los datos elaborados y los textos de {SITIO} se publican con licencia '
             f'<a href="{LICENCIA_URL}" rel="license">{LICENCIA}</a>: puedes reutilizarlos citando {SITIO} con un enlace a esta web.'
             " Los datos de origen mantienen la licencia de sus fuentes."
+            + (" Nombres de barrios de las ciudades sin datos municipales: © colaboradores de "
+               '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>; la lista de barrios por distrito '
+               'que se deriva de ellos se publica con licencia <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a>.'
+               if USA_OSM else "")
             + (f" Página generada el {fecha_es(FECHA_GEN)}." if FECHA_GEN else "")
             + "</p></div></footer>")
 
@@ -303,7 +310,7 @@ def zona_html(x):
     z = x.get("zona") or {}
     partes = []
     if x.get("barrios"):
-        if len(x["barrios"]) > 3:          # con 3 o menos ya están todos en el nombre
+        if len(x["barrios"]) > 3 or x.get("con_nombre_oficial"):   # con 3 o menos ya están en el nombre (salvo nombre oficial)
             partes.append("Barrios: " + y_lista(x["barrios"]))
         if z.get("cps"):
             partes.append("CP " + ", ".join(z["cps"]))
@@ -411,7 +418,7 @@ def pagina_ciudad(c, todas, rank_n):
             barra = (f'<div class="meter"><span class="track"><span class="fill" style="--w:{min(a_pc / 30 * 100, 100):.1f}%"></span></span>'
                      f'<span>{d(a_pc)} %{ast}</span></div>') if a_pc is not None else "—"
             fv = lambda v: "" if v is None else f"{v:.2f}"
-            filas.append(f'<tr><th scope="row" data-v="{esc(x["nombre"])}">{esc(x["nombre"])}{zona_html(x)}</th>'
+            filas.append(f'<tr id="d{x["numero"]}"><th scope="row" data-v="{esc(x["nombre"])}">{esc(x["nombre"])}{zona_html(x)}</th>'
                          f'<td data-v="{fv(a_mes)}">{n(a_mes)}{" €" if a_mes else ""}{ast if a_mes else ""}</td>'
                          f'<td data-v="{fv(a_m2)}">{d(a_m2, 2) if a_m2 else "—"}</td>'
                          f'<td data-v="{fv(x["renta_hogar"])}">{n(x["renta_hogar"])}{" €" if x["renta_hogar"] else ""}</td>'
@@ -605,13 +612,20 @@ def pagina_indice(todas, rank_n):
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
+    # Buscador de barrios (B-32): barrio o distrito con nombre -> ciudad y distrito, enlazando a su fila de la tabla
+    zonas_busca = [[b, c["nombre"], c["slug"], x["numero"]] for c in todas for x in c["distritos"] for b in x["barrios"]]
+    zonas_busca += [[x["nombre"], c["nombre"], c["slug"], x["numero"]] for c in todas for x in c["distritos"]
+                    if x["con_nombre_oficial"]]
+    zonas_js = ('<script type="application/json" id="zonas-datos">'
+                + json.dumps(zonas_busca, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + "</script>")
     desc = (f"Alquiler, renta de los hogares y peso del alquiler en {N} ciudades de España, con datos oficiales de {ANIO} "
             "y desglose por distrito.")
     cuerpo = (cabecera(root, [("#rankings", "Más datos")]) +
               f'<div class="hero"><div><h1>Alquiler, renta y coste de vida en las ciudades de España</h1>'
               f'<p class="lead">Datos oficiales de {ANIO} para {N} ciudades de más de {MIN_POB} habitantes: cuánto cuesta alquilar, '
               f'cuánto ingresan los hogares y qué parte de esos ingresos se lleva el alquiler, también por distrito.</p>'
-              f'<label class="busca"><span>Busca tu ciudad</span><input id="buscador" type="search" placeholder="Madrid, Valladolid, Sevilla…" autocomplete="off"></label>'
+              f'<label class="busca"><span>Busca tu ciudad o tu barrio</span><input id="buscador" type="search" placeholder="Madrid, Triana, Gràcia…" autocomplete="off"></label>'
+              f'<ul class="resb" id="resbarrios" aria-live="polite"></ul>{zonas_js}'
               f'</div></div><main>'
               f'<section id="rankings"><h2>Rankings</h2><div class="cards">{tarjetas}</div></section>'
               f'<section><h2>Dónde pesa más y menos el alquiler</h2><div class="two">'
@@ -893,6 +907,10 @@ tbody tr:hover{background:var(--surface)}
 .card span{color:var(--muted);font-size:15px;line-height:1.5;display:block}
 .card:hover{border-color:var(--acc);text-decoration:none}
 .card:hover strong{color:var(--acc)}
+.resb{list-style:none;margin:8px 0 0;padding:0;max-width:520px}
+.resb li{padding:6px 0;border-bottom:1px solid var(--line)}
+.resb a{color:var(--ink);font-weight:600}
+.resb span{color:var(--muted);font-size:14px}
 .todas{list-style:none;margin:0;padding:0;columns:3 260px;column-gap:28px}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
@@ -949,7 +967,13 @@ var q=document.getElementById("buscador");
 if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("cuenta");
   q.addEventListener("input",function(){var s=norm(q.value.trim()),k=0;
     li.forEach(function(e){var ok=!s||e.dataset.b.indexOf(s)>-1;e.style.display=ok?"":"none";if(ok)k++});
-    cu.textContent=k+(k===1?" ciudad":" ciudades")})}
+    cu.textContent=k+(k===1?" ciudad":" ciudades");barrios(s)});
+  var zd=document.getElementById("zonas-datos"),Z=zd?JSON.parse(zd.textContent):[],rb=document.getElementById("resbarrios");
+  Z.forEach(function(z){z.push(norm(z[0]))});
+  function barrios(s){rb.innerHTML="";if(s.length<3)return;
+    Z.filter(function(z){return z[4].indexOf(s)>-1}).sort(function(a,b){return (b[4].indexOf(s)===0)-(a[4].indexOf(s)===0)}).slice(0,8).forEach(function(z){
+      var e=document.createElement("li"),a=document.createElement("a");a.href=z[2]+"/#d"+z[3];a.textContent=z[0];
+      var sp=document.createElement("span");sp.textContent=" · "+z[1]+", distrito "+z[3];e.appendChild(a);e.appendChild(sp);rb.appendChild(e)})}}
 // mapa esquemático
 var el=document.getElementById("mapa-datos");
 if(el){

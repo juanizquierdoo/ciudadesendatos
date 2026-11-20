@@ -9,3 +9,5 @@ __pycache__/
 # Copias de seguridad manuales (las crea el hilo de SEO)
 _copias/
 datos_limpios/secciones_adrh_*.csv
+# Descargas de OpenStreetMap (pesadas; se vuelven a bajar con datos_municipales/osm/descargar_osm.html)
+datos_municipales/osm/osm_*

@@ -1,0 +1,23 @@
+<!doctype html><meta charset="utf-8"><title>Descargar OpenStreetMap</title>
+<body style="font-family:sans-serif;max-width:640px;margin:40px auto;line-height:1.5">
+<h1>Descargar barrios y calles de OpenStreetMap</h1>
+<p>Pulsa el botón y deja esta pestaña abierta. Tarda unos minutos. Se guardan 5 archivos en Descargas.</p>
+<button id="b" style="font-size:18px;padding:10px 20px">Descargar</button><ul id="l"></ul>
+<script>
+const T=[["osm_calles_2.csv", "[out:csv(::type,\"ine:municipio\",name,::lat,::lon;true;\"|\")][timeout:900][maxsize:1073741824];area[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"ine:municipio\"~\"^(02003|39075|38023|29069|26089|06015|37274|25120|21041|28148|41038|43148|08121|11004|24089)$\"]->.ms;foreach.ms->.m(.m out tags;way(area.m)[\"highway\"][\"name\"];out center;);"], ["osm_calles_3.csv", "[out:csv(::type,\"ine:municipio\",name,::lat,::lon;true;\"|\")][timeout:900][maxsize:1073741824];area[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"ine:municipio\"~\"^(08245|23050|43123|11012|04079|17079|32054|35026|48013|03133|27028|15078|30024|10037|08205)$\"]->.ms;foreach.ms->.m(.m out tags;way(area.m)[\"highway\"][\"name\"];out center;);"], ["osm_calles_4.csv", "[out:csv(::type,\"ine:municipio\",name,::lat,::lon;true;\"|\")][timeout:900][maxsize:1073741824];area[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"ine:municipio\"~\"^(11031|08073|19130|11015|46244|11027|28115|29094|45168|28161|08200|29054|03099|52001|45165)$\"]->.ms;foreach.ms->.m(.m out tags;way(area.m)[\"highway\"][\"name\"];out center;);"], ["osm_barrios_6.json", "[out:json][timeout:900][maxsize:1073741824];area[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"ine:municipio\"~\"^(46220|11032|08056|35004|08307|08301|08169|11022|08096|15036|20045|24115|28013|03009|06083)$\"]->.ms;foreach.ms->.m(.m out tags;(rel(area.m)[\"boundary\"=\"administrative\"][\"admin_level\"~\"^(9|10)$\"];rel(area.m)[\"place\"~\"^(suburb|neighbourhood|quarter)$\"];way(area.m)[\"place\"~\"^(suburb|neighbourhood|quarter)$\"];);out geom;node(area.m)[\"place\"~\"^(suburb|neighbourhood|quarter)$\"];out;);"], ["osm_calles_7.csv", "[out:csv(::type,\"ine:municipio\",name,::lat,::lon;true;\"|\")][timeout:900][maxsize:1073741824];area[\"boundary\"=\"administrative\"][\"admin_level\"=\"8\"][\"ine:municipio\"~\"^(18140|03122|49275|05019|28113|03066|23055|35019|22125|07011|07026|16078|12135|41095|08124)$\"]->.ms;foreach.ms->.m(.m out tags;way(area.m)[\"highway\"][\"name\"];out center;);"]];
+async function bajar(nombre,q,li){
+  for(let i=1;i<=5;i++){
+    li.textContent=nombre+': descargando (intento '+i+')...';
+    try{const r=await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:new URLSearchParams({data:q})});
+      if(!r.ok) throw new Error('error '+r.status);
+      const b=await r.blob(); if(b.size<200) throw new Error('respuesta vacía');
+      const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=nombre;a.click();
+      li.textContent=nombre+': listo ('+Math.round(b.size/1e6)+' MB)';return;
+    }catch(e){li.textContent=nombre+': '+e.message+', reintento en 2 minutos';await new Promise(s=>setTimeout(s,120000));}
+  }
+  li.textContent=nombre+': no se pudo descargar';
+}
+document.getElementById('b').onclick=async()=>{document.getElementById('b').disabled=true;
+  for(const [n,q] of T){const li=document.createElement('li');document.getElementById('l').appendChild(li);await bajar(n,q,li);await new Promise(s=>setTimeout(s,60000));}
+  const li=document.createElement('li');li.innerHTML='<b>Terminado.</b> Mueve los archivos osm_* de Descargas a datos_municipales\\osm';document.getElementById('l').appendChild(li);};
+</script>

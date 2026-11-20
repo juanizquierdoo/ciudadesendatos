@@ -26,7 +26,13 @@ var q=document.getElementById("buscador");
 if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("cuenta");
   q.addEventListener("input",function(){var s=norm(q.value.trim()),k=0;
     li.forEach(function(e){var ok=!s||e.dataset.b.indexOf(s)>-1;e.style.display=ok?"":"none";if(ok)k++});
-    cu.textContent=k+(k===1?" ciudad":" ciudades")})}
+    cu.textContent=k+(k===1?" ciudad":" ciudades");barrios(s)});
+  var zd=document.getElementById("zonas-datos"),Z=zd?JSON.parse(zd.textContent):[],rb=document.getElementById("resbarrios");
+  Z.forEach(function(z){z.push(norm(z[0]))});
+  function barrios(s){rb.innerHTML="";if(s.length<3)return;
+    Z.filter(function(z){return z[4].indexOf(s)>-1}).sort(function(a,b){return (b[4].indexOf(s)===0)-(a[4].indexOf(s)===0)}).slice(0,8).forEach(function(z){
+      var e=document.createElement("li"),a=document.createElement("a");a.href=z[2]+"/#d"+z[3];a.textContent=z[0];
+      var sp=document.createElement("span");sp.textContent=" · "+z[1]+", distrito "+z[3];e.appendChild(a);e.appendChild(sp);rb.appendChild(e)})}}
 // mapa esquemático
 var el=document.getElementById("mapa-datos");
 if(el){

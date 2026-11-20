@@ -81,7 +81,16 @@ Script: `zonas_ciudades.py` → `datos_limpios/zonas_nombradas.csv` (columnas co
   - Vigo: datos.vigo.org tiene el callejero con números de portal y coordenadas, pero ninguna capa de barrios.
   - Gijón: población por barrios y parroquias (padrón 2012) y consejos de distrito, sin relación con las secciones censales.
   - Murcia, Palma, Córdoba y Alicante: no se encontró en sus portales ni en datos.gob.es una capa de barrios con licencia y relacionable con las secciones censales. En ArcGIS Online hay capas de barrios de Murcia y Palma subidas por usuarios sin licencia indicada: no se usan.
-  - Estas ciudades siguen con código postal, calles principales y núcleos (fuente 5).
+  - Estas ciudades pasan a usar OpenStreetMap (fuente 7).
+
+### 7. Barrios de OpenStreetMap para las ciudades sin fuente municipal (desde 20/11/2026)
+- **Decisión de Juan (20/11/2026):** usar OpenStreetMap en todas las ciudades donde no se pueda comprobar con datos municipales; la cita va en el pie de la web, no bajo cada tabla.
+- **Fuente:** © colaboradores de OpenStreetMap, base de datos con licencia ODbL 1.0 (openstreetmap.org/copyright). Consulta a la API Overpass (overpass-api.de) del 20/11/2026: barrios (`boundary=administrative` con `admin_level` 9 o 10, y `place=suburb/neighbourhood/quarter` como polígono o punto) y calles con nombre (`highway` + `name`, punto central), por municipio (`ine:municipio`). Las consultas están en `osm_descarga.py`; la página `datos_municipales/osm/descargar_osm.html` las lanza desde el navegador de Juan (desde aquí Overpass no responde). Los archivos `osm_*` no se suben a git.
+- **Nivel territorial:** calle de OSM → barrio; sección censal del INE → distrito del INE.
+- **Método (cruce propio, `zonas_osm.py`):** cada calle de OSM se sitúa en el barrio cuyo polígono contiene su punto central (primero admin_level 10 o neighbourhood/quarter, después admin_level 9 o suburb; se descartan nombres "Distrito…", "Districte…", "Barrutia…"); si no cae en ninguno, en el punto de barrio más cercano a menos de 800 m. Cada tramo de calle de una sección del callejero electoral del INE (julio 2026) reparte su peso entre los barrios de esa calle en OSM (nombres comparados sin tildes, tipo de vía ni artículos). La población ADRH 2024 de la sección se reparte igual. Por distrito se nombran hasta 5 barrios con ≥5 % de la población, solo si al menos la mitad de los tramos (ponderados por población) caen en un barrio de OSM.
+- **Comprobación:** calculado también para Sevilla y Málaga, que tienen barrios oficiales. Coinciden en casi todos los distritos (fallo visto: "Santa Cruz" sale en el distrito 7 de Sevilla, y es del 1). Esas dos ciudades siguen con los datos municipales.
+- **Licencia de lo publicado:** la lista de barrios por distrito es una base de datos derivada y se publica con ODbL; la web lo dice en el pie de página.
+- **Prioridad:** nunca sustituye a una fuente municipal (fuentes 4 y 6, Valladolid).
 
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
