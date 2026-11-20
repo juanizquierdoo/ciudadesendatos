@@ -74,7 +74,7 @@ def main():
     if SALIDA.exists():
         otras = [r for r in csv.DictReader(open(SALIDA, encoding="utf-8")) if not r["codigo"].startswith("47186")]
     with open(SALIDA, "w", encoding="utf-8", newline="") as out:
-        w = csv.DictWriter(out, fieldnames=["codigo", "zonas", "fuente", "cita"])
+        w = csv.DictWriter(out, fieldnames=["codigo", "zonas", "fuente", "cita", "nota"], restval="")
         w.writeheader()
         w.writerows(otras + filas)
     print(f"Escritos {len(filas)} distritos de Valladolid en {SALIDA.name}")

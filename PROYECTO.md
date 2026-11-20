@@ -90,3 +90,6 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Rankings temáticos (20/11/2026)
 - Hecho B-29: `rankings_temas.py` genera 5 rankings pensados para búsquedas concretas (subida del alquiler, sueldo necesario, distritos por renta y por alquiler, ciudades más jóvenes). Para añadir otro: una función `pagina_x(gw, todas, rutas)`, una línea en TEMAS y otra en PAGINAS; el test lo recoge solo si se añade a `esperado`.
 - La demanda de búsqueda de cada página es una hipótesis: medirla en Search Console (B-30) antes de crear más.
+
+## Barrios en más ciudades (20/11/2026)
+- `python zonas_ciudades.py` y después `python actualizar.py --desde 4`. Hecho: Sevilla y Zaragoza. Málaga preparada (falta decidir la licencia, B-22). Siguientes: Murcia, Palma, Las Palmas, Córdoba, Alicante, Vigo, Gijón, Granada (B-32). Detalle y método en FUENTES.md, fuente 6.

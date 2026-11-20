@@ -1,5 +1,11 @@
 # CHANGELOG
 
+
+## 20/11/2026: barrios con nombre en Sevilla y Zaragoza (B-32)
+- Nuevo `zonas_ciudades.py`: escribe en `zonas_nombradas.csv` los barrios de Sevilla (nombre del distrito municipal y sus barrios, ide.SEVILLA, CC BY 4.0) y las juntas de Zaragoza (cruce de secciones censales y juntas del Ayuntamiento). Málaga calculada pero sin publicar (licencia CC BY / CC BY-SA por aclarar).
+- `zonas_nombradas.csv` tiene una columna opcional `nota` que la ficha muestra bajo la tabla para explicar cómo se asignaron los barrios (si falta, sale el texto de Valladolid). Tocado en `preparar_json.py`, `generar_web.py` y `zonas_valladolid.py` (solo para conservar la columna).
+- Tests: 20 OK, 0 FALLA, 0 PENDIENTE.
+
 ## 20/11/2026: Rankings temáticos para búsquedas concretas (B-29)
 - Nuevo `rankings_temas.py` con 5 páginas en /rankings/, cada una con tabla ordenable, texto "Qué dicen los datos" calculado solo con el JSON, enlaces a las fichas de ciudad, metodología, aviso de zonas turísticas y entrada en el sitemap:
   - `donde-mas-sube-el-alquiler/`: cambio del alquiler mediano 2019-2024 y 2023-2024, comparado con la renta del hogar (144 ciudades; 7 sin dato fiable en 2019).

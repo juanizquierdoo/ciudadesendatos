@@ -436,8 +436,11 @@ def pagina_ciudad(c, todas, rank_n):
                       f'por más secciones censales del distrito, según el Callejero del Censo Electoral del INE (situación a {esc(FECHA_CALLEJERO)}). '
                       f'Los nombres de las calles se escriben como los da el INE, sin tildes.</p>'
                       if any(x.get("zona") and not x.get("barrios") for x in dist) else '')
-                   + (f'<p class="proto">Barrios de los distritos: {esc(c["cita_barrios"])}. Solo se indican cuando las zonas del Ayuntamiento '
-                      f'forman el distrito completo (la suma de su población coincide exactamente con la del distrito).</p>'
+                   + (f'<p class="proto">Barrios de los distritos: {esc(c["cita_barrios"])}. '
+                      + (esc(c["nota_barrios"]) if c.get("nota_barrios") else
+                         'Solo se indican cuando las zonas del Ayuntamiento forman el distrito completo '
+                         '(la suma de su población coincide exactamente con la del distrito).')
+                      + '</p>'
                       if c.get("cita_barrios") else '')
                    + (f'<p class="proto">Nombres de los distritos: {esc(c["cita_nombres_distritos"])}.</p>'
                       if c.get("cita_nombres_distritos") else '')

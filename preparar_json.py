@@ -86,7 +86,7 @@ else:
 
 # Barrios con nombre de los distritos sin nombre oficial (zonas_nombradas.csv: zonas del ayuntamiento
 # que forman cada distrito, verificadas; lo escribe un script por ciudad, p. ej. zonas_valladolid.py)
-barrios, citas_barrios = {}, {}
+barrios, citas_barrios, notas_barrios = {}, {}, {}
 f_barrios = datos / "zonas_nombradas.csv"
 if f_barrios.exists():
     zb = leer_csv(f_barrios, dtype=str).fillna("")
@@ -94,6 +94,8 @@ if f_barrios.exists():
         barrios[z["codigo"]] = [x for x in z["zonas"].split("|") if x]
         if z["cita"]:
             citas_barrios[z["codigo"][:5]] = z["cita"]
+        if z.get("nota"):
+            notas_barrios[z["codigo"][:5]] = z["nota"]   # cómo se asignaron los barrios (si no, el texto por defecto)
     print("Distritos con barrios con nombre:", len(barrios))
 
 
@@ -180,6 +182,7 @@ for _, f in sel.iterrows():
         "serie_alquiler": serie_alq, "serie_renta": serie_renta, "distritos": distritos,
         "cita_nombres_distritos": citas.get(cod, "") if any(x["con_nombre_oficial"] for x in distritos) else "",
         "cita_barrios": citas_barrios.get(cod, "") if any(x["barrios"] for x in distritos) else "",
+        "nota_barrios": notas_barrios.get(cod, ""),
     })
 
 # slugs repetidos: añadir la provincia

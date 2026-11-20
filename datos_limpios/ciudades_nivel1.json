@@ -492,7 +492,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08019",
@@ -807,7 +808,8 @@
     }
    ],
    "cita_nombres_distritos": "Ajuntament de Barcelona, Open Data BCN (CC BY 4.0)",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "46250",
@@ -1266,7 +1268,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "50297",
@@ -1422,7 +1425,7 @@
     {
      "codigo": "5029701",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 50003 y 50002",
+     "nombre": "Distrito 1 · Casco Histórico",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1437,7 +1440,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Histórico"
+     ],
      "renta_hogar": 35559.0,
      "renta_persona": 16121.0,
      "eur_m2": 8.33,
@@ -1450,7 +1455,7 @@
     {
      "codigo": "5029702",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 50008 y 50004",
+     "nombre": "Distrito 2 · Centro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1464,7 +1469,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro"
+     ],
      "renta_hogar": 54210.0,
      "renta_persona": 24250.0,
      "eur_m2": 8.56,
@@ -1477,7 +1484,7 @@
     {
      "codigo": "5029703",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 50010 y 50017",
+     "nombre": "Distrito 3 · Delicias",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1491,7 +1498,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Delicias"
+     ],
      "renta_hogar": 35831.0,
      "renta_persona": 15044.0,
      "eur_m2": 7.69,
@@ -1504,7 +1513,7 @@
     {
      "codigo": "5029704",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 50009 y 50006",
+     "nombre": "Distrito 4 · Universidad, Distrito Sur y Casablanca",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1519,7 +1528,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Universidad",
+      "Distrito Sur",
+      "Casablanca"
+     ],
      "renta_hogar": 51620.0,
      "renta_persona": 20831.0,
      "eur_m2": 7.98,
@@ -1532,7 +1545,7 @@
     {
      "codigo": "5029705",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 50007 y 50013",
+     "nombre": "Distrito 5 · San José",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1547,7 +1560,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San José"
+     ],
      "renta_hogar": 35850.0,
      "renta_persona": 15580.0,
      "eur_m2": 7.75,
@@ -1560,7 +1575,7 @@
     {
      "codigo": "5029706",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 50002 y 50013",
+     "nombre": "Distrito 6 · Las Fuentes",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1577,7 +1592,9 @@
        "Torrecilla de Valmadrid"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Fuentes"
+     ],
      "renta_hogar": 33240.0,
      "renta_persona": 14075.0,
      "eur_m2": 7.66,
@@ -1590,7 +1607,7 @@
     {
      "codigo": "5029707",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 50003",
+     "nombre": "Distrito 7 · Almozara",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1603,7 +1620,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Almozara"
+     ],
      "renta_hogar": 41089.0,
      "renta_persona": 17594.0,
      "eur_m2": 7.58,
@@ -1616,7 +1635,7 @@
     {
      "codigo": "5029708",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 50011 y 50012",
+     "nombre": "Distrito 8 · Oliver Valdefierro y Miralbueno",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1630,7 +1649,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Oliver Valdefierro",
+      "Miralbueno"
+     ],
      "renta_hogar": 45925.0,
      "renta_persona": 16982.0,
      "eur_m2": 7.5,
@@ -1643,7 +1665,7 @@
     {
      "codigo": "5029709",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 50007",
+     "nombre": "Distrito 9 · Torrero",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1656,7 +1678,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Torrero"
+     ],
      "renta_hogar": 36233.0,
      "renta_persona": 14727.0,
      "eur_m2": 7.35,
@@ -1669,7 +1693,7 @@
     {
      "codigo": "5029710",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 50018 y 50015",
+     "nombre": "Distrito 10 · El Rabal y Actur Rey Fernando",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1684,7 +1708,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Rabal",
+      "Actur Rey Fernando"
+     ],
      "renta_hogar": 41925.0,
      "renta_persona": 16645.0,
      "eur_m2": 7.29,
@@ -1697,7 +1724,7 @@
     {
      "codigo": "5029711",
      "numero": 11,
-     "nombre": "Distrito 11 · CP 50016",
+     "nombre": "Distrito 11 · Santa Isabel, San Juan de Mozarrifar y Movera",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1714,7 +1741,11 @@
        "Peñaflor"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Isabel",
+      "San Juan de Mozarrifar",
+      "Movera"
+     ],
      "renta_hogar": 46435.0,
      "renta_persona": 17255.0,
      "eur_m2": 6.39,
@@ -1727,7 +1758,7 @@
     {
      "codigo": "5029712",
      "numero": 12,
-     "nombre": "Distrito 12 · CP 50011 y 50620",
+     "nombre": "Distrito 12 · Casetas y Garrapinillos",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1746,7 +1777,10 @@
        "Venta del Olivar"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Casetas",
+      "Garrapinillos"
+     ],
      "renta_hogar": 40628.0,
      "renta_persona": 15777.0,
      "eur_m2": 5.93,
@@ -1758,7 +1792,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "Origen de los datos: Ayuntamiento de Zaragoza (juntas municipales y vecinales)",
+   "nota_barrios": "Las juntas municipales no coinciden con los distritos del INE: se nombran las juntas donde vive al menos el 10 % de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio)."
   },
   {
    "cod_muni": "41091",
@@ -1914,7 +1949,7 @@
     {
      "codigo": "4109101",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 41003 y 41002",
+     "nombre": "Distrito 1 · Casco Antiguo, Santa Cruz y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1929,7 +1964,21 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Antiguo",
+      "Santa Cruz",
+      "Museo",
+      "San Vicente",
+      "Arenal",
+      "San Lorenzo",
+      "Alfalfa",
+      "Feria",
+      "Encarnación-Regina",
+      "San Gil",
+      "San Julian",
+      "San Bartolome",
+      "Santa Catalina"
+     ],
      "renta_hogar": 48973.0,
      "renta_persona": 22106.0,
      "eur_m2": 10.71,
@@ -1942,7 +1991,7 @@
     {
      "codigo": "4109102",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 41009 y 41008",
+     "nombre": "Distrito 2 · Macarena, Los Principes-La Fontanilla y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1956,7 +2005,33 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Macarena",
+      "Los Principes-La Fontanilla",
+      "Doctor Barraquer-Grupo Renfe-Policlinico",
+      "Cruz Roja-Capuchinos",
+      "Leon XIII-Los Naranjos",
+      "Pio XII",
+      "Poligono Norte",
+      "La Paz-Las Golondrinas",
+      "Santa Maria de Ordas-San Nicolas",
+      "Hermandades-La Carrasca",
+      "Begoña-Santa Catalina",
+      "Campos de Soria",
+      "Macarena Tres Huertas-Macarena Cinco",
+      "Cisneo Alto-Santa Maria de Gracia",
+      "Las Avenidas",
+      "Pino Flores",
+      "El Cerezo",
+      "Retiro Obrero",
+      "La Barzola",
+      "Villegas",
+      "El Carmen",
+      "El Rocio",
+      "La Palmilla-Doctor Marañon",
+      "El Torrejon",
+      "Santa Justa y Rufina-Parque Miraflores"
+     ],
      "renta_hogar": 32039.0,
      "renta_persona": 13301.0,
      "eur_m2": 8.67,
@@ -1969,7 +2044,7 @@
     {
      "codigo": "4109103",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 41005 y 41018",
+     "nombre": "Distrito 3 · Nervión, La Buhaira y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -1983,7 +2058,16 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Nervión",
+      "La Buhaira",
+      "Ciudad Jardin",
+      "San Bernardo",
+      "La Calzada",
+      "Huerta del Pilar",
+      "La Florida",
+      "San Roque"
+     ],
      "renta_hogar": 54725.0,
      "renta_persona": 22336.0,
      "eur_m2": 10.11,
@@ -1996,7 +2080,7 @@
     {
      "codigo": "4109104",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 41006",
+     "nombre": "Distrito 4 · Cerro-Amate, Palmete y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2009,7 +2093,17 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cerro-Amate",
+      "Palmete",
+      "Santa Aurelia-Cantabrico-Atlantico-La Romeria",
+      "El Cerro",
+      "La Plata",
+      "Los Pajaros",
+      "Juan XXIII",
+      "Amate",
+      "Rochelambert"
+     ],
      "renta_hogar": 27560.0,
      "renta_persona": 10503.0,
      "eur_m2": 8.09,
@@ -2022,7 +2116,7 @@
     {
      "codigo": "4109105",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 41013",
+     "nombre": "Distrito 5 · Sur, Poligono Sur y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2035,7 +2129,23 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sur",
+      "Poligono Sur",
+      "El Juncal-Hispalis",
+      "El Prado-Parque Maria Luisa",
+      "Tabladilla-La Estrella",
+      "El Porvenir",
+      "Huerta de la Salud",
+      "Tiro de Linea-Santa Genoveva",
+      "Avenida de la Paz",
+      "La Oliva",
+      "El Plantinar",
+      "Giralda Sur",
+      "Bami",
+      "Las Letanias",
+      "Felipe II-Los Diez Mandamientos"
+     ],
      "renta_hogar": 42620.0,
      "renta_persona": 16405.0,
      "eur_m2": 9.61,
@@ -2048,7 +2158,7 @@
     {
      "codigo": "4109106",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 41010",
+     "nombre": "Distrito 6 · Triana, Triana Este y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2061,7 +2171,14 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Triana",
+      "Triana Este",
+      "Triana Casco Antiguo",
+      "El Tardon-El Carmen",
+      "Barrio Leon",
+      "Triana Oeste"
+     ],
      "renta_hogar": 42701.0,
      "renta_persona": 18351.0,
      "eur_m2": 10.08,
@@ -2074,7 +2191,7 @@
     {
      "codigo": "4109107",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 41015 y 41008",
+     "nombre": "Distrito 7 · Norte, La Bachillera y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2088,7 +2205,22 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Norte",
+      "La Bachillera",
+      "El Gordillo",
+      "Aeropuerto Viejo",
+      "Valdezorras",
+      "Barriada Pino Montano",
+      "San Jeronimo",
+      "Consolacion",
+      "Las Almenas",
+      "San Diego",
+      "Los Arcos",
+      "Las Naciones-Parque Atlantico-Las Dalias",
+      "Los Carteros",
+      "San Matias"
+     ],
      "renta_hogar": 32759.0,
      "renta_persona": 12841.0,
      "eur_m2": 7.37,
@@ -2101,7 +2233,7 @@
     {
      "codigo": "4109108",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 41007 y 41008",
+     "nombre": "Distrito 8 · San Pablo-Santa Justa, Santa Clara y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2115,7 +2247,21 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Pablo-Santa Justa",
+      "Santa Clara",
+      "Las Huertas",
+      "Huerta de Santa Teresa",
+      "San Jose Obrero",
+      "San Pablo C",
+      "San Pablo D y E",
+      "San Pablo A y B",
+      "El Fontanal-Maria Auxiliadora-Carretera de Carmona",
+      "San Carlos-Tartessos",
+      "La Corza",
+      "Arbol Gordo",
+      "Zodiaco"
+     ],
      "renta_hogar": 40910.0,
      "renta_persona": 16874.0,
      "eur_m2": 9.02,
@@ -2128,7 +2274,7 @@
     {
      "codigo": "4109109",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 41020 y 41019",
+     "nombre": "Distrito 9 · Este-Alcosa-Torreblanca y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2142,7 +2288,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Este-Alcosa-Torreblanca",
+      "Colores, Entreparques",
+      "Torreblanca",
+      "Palacio de Congresos, Urbadiez, Entrepuentes",
+      "Parque Alcosa-Jardines del Edén"
+     ],
      "renta_hogar": 37831.0,
      "renta_persona": 13975.0,
      "eur_m2": 7.55,
@@ -2155,7 +2307,7 @@
     {
      "codigo": "4109110",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 41012 y 41014",
+     "nombre": "Distrito 10 · Bellavista-La Palmera, Bellavista y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2170,7 +2322,15 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Bellavista-La Palmera",
+      "Bellavista",
+      "Sector Sur-La Palmera-Reina Mercedes",
+      "Barriada de Pineda",
+      "Elcano-Bermejales",
+      "Heliopolis",
+      "Pedro Salvador-Las Palmeritas-Guadaira"
+     ],
      "renta_hogar": 47935.0,
      "renta_persona": 17584.0,
      "eur_m2": 8.77,
@@ -2183,7 +2343,7 @@
     {
      "codigo": "4109111",
      "numero": 11,
-     "nombre": "Distrito 11 · CP 41011",
+     "nombre": "Distrito 11 · Los Remedios, Tablada y Isla de Garza",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2196,7 +2356,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Los Remedios",
+      "Tablada",
+      "Isla de Garza"
+     ],
      "renta_hogar": 61171.0,
      "renta_persona": 23355.0,
      "eur_m2": 9.12,
@@ -2208,7 +2372,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "Ayuntamiento de Sevilla, ide.SEVILLA (CC BY 4.0)",
+   "nota_barrios": "Los 11 distritos del Ayuntamiento son los del INE (mismo orden y misma población, con diferencias de entre el 1 y el 7 %); se indica el nombre del distrito municipal y todos los barrios que el Ayuntamiento sitúa en él."
   },
   {
    "cod_muni": "29067",
@@ -2679,7 +2844,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "30030",
@@ -3070,7 +3236,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "07040",
@@ -3382,7 +3549,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "35016",
@@ -3683,7 +3851,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03014",
@@ -4065,7 +4234,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "48020",
@@ -4348,7 +4518,8 @@
     }
    ],
    "cita_nombres_distritos": "Ayuntamiento de Bilbao, Bilbao Open Data (CC BY 3.0 ES)",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "14021",
@@ -4801,7 +4972,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "47186",
@@ -5331,7 +5503,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": "Ayuntamiento de Valladolid, zonas estadísticas (CC BY 3.0 ES)"
+   "cita_barrios": "Ayuntamiento de Valladolid, zonas estadísticas (CC BY 3.0 ES)",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "36057",
@@ -5762,7 +5935,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08101",
@@ -6075,7 +6249,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "33024",
@@ -6485,7 +6660,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "01059",
@@ -6812,7 +6988,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "15030",
@@ -7261,7 +7438,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03065",
@@ -7602,7 +7780,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "18087",
@@ -8013,7 +8192,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08279",
@@ -8360,7 +8540,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08015",
@@ -8757,7 +8938,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08187",
@@ -9105,7 +9287,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "33044",
@@ -9737,7 +9920,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "30016",
@@ -10193,7 +10377,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11020",
@@ -10635,7 +10820,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28092",
@@ -10905,7 +11091,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "38038",
@@ -11406,7 +11593,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "31201",
@@ -11775,7 +11963,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "04013",
@@ -12162,7 +12351,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28005",
@@ -12455,7 +12645,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28065",
@@ -12724,7 +12915,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28074",
@@ -13070,7 +13262,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28058",
@@ -13468,7 +13661,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "20069",
@@ -13824,7 +14018,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "12040",
@@ -14223,7 +14418,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "09059",
@@ -14630,7 +14826,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28007",
@@ -14897,7 +15094,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "02003",
@@ -15278,7 +15476,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "39075",
@@ -15659,7 +15858,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "38023",
@@ -16005,7 +16205,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29069",
@@ -16272,7 +16473,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "26089",
@@ -16597,7 +16799,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "06015",
@@ -17041,7 +17244,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "37274",
@@ -17359,7 +17563,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "25120",
@@ -17772,7 +17977,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "21041",
@@ -18156,7 +18362,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28148",
@@ -18419,7 +18626,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "41038",
@@ -18715,7 +18923,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "43148",
@@ -19126,7 +19335,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28106",
@@ -19280,7 +19490,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08121",
@@ -19595,7 +19806,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11004",
@@ -19861,7 +20073,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "24089",
@@ -20294,7 +20507,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28006",
@@ -20448,7 +20662,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08245",
@@ -20763,7 +20978,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "23050",
@@ -21183,7 +21399,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "43123",
@@ -21629,7 +21846,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11012",
@@ -22064,7 +22282,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "04079",
@@ -22278,7 +22497,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "17079",
@@ -22605,7 +22825,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "32054",
@@ -22912,7 +23133,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "35026",
@@ -23248,7 +23470,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "48013",
@@ -23643,7 +23866,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28123",
@@ -23797,7 +24021,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03133",
@@ -24039,7 +24264,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "27028",
@@ -24448,7 +24674,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "15078",
@@ -24796,7 +25023,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28127",
@@ -24950,7 +25178,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "30024",
@@ -25162,7 +25391,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28134",
@@ -25316,7 +25546,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "10037",
@@ -25671,7 +25902,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08205",
@@ -25998,7 +26230,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29070",
@@ -26152,7 +26385,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11031",
@@ -26465,7 +26699,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08073",
@@ -26782,7 +27017,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "19130",
@@ -27077,7 +27313,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11015",
@@ -27364,7 +27601,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "46244",
@@ -27628,7 +27866,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "04902",
@@ -27782,7 +28021,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11027",
@@ -28050,7 +28290,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28115",
@@ -28261,7 +28502,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "38006",
@@ -28415,7 +28657,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29094",
@@ -28717,7 +28960,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "45168",
@@ -29064,7 +29308,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28161",
@@ -29273,7 +29518,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08200",
@@ -29584,7 +29830,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29054",
@@ -29817,7 +30064,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03099",
@@ -30209,7 +30457,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "52001",
@@ -30582,7 +30831,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "45165",
@@ -30848,7 +31098,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "36038",
@@ -31210,7 +31461,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "46131",
@@ -31556,7 +31808,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08184",
@@ -31815,7 +32068,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "51001",
@@ -32134,7 +32388,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08113",
@@ -32466,7 +32721,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28049",
@@ -32727,7 +32983,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29051",
@@ -32969,7 +33226,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "35022",
@@ -33213,7 +33471,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29025",
@@ -33449,7 +33708,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "30027",
@@ -33603,7 +33863,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "41004",
@@ -33866,7 +34127,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "34120",
@@ -34211,7 +34473,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03031",
@@ -34472,7 +34735,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "33004",
@@ -34626,7 +34890,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "13034",
@@ -34926,7 +35191,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "48044",
@@ -35167,7 +35433,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "46190",
@@ -35321,7 +35588,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28080",
@@ -35536,7 +35804,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "46220",
@@ -35889,7 +36158,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29901",
@@ -36043,7 +36313,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11032",
@@ -36337,7 +36608,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08056",
@@ -36622,7 +36894,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "35004",
@@ -36829,7 +37102,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08307",
@@ -37088,7 +37362,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08301",
@@ -37295,7 +37570,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28047",
@@ -37449,7 +37725,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28022",
@@ -37603,7 +37880,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08169",
@@ -37888,7 +38166,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "11022",
@@ -38225,7 +38504,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08096",
@@ -38487,7 +38767,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "15036",
@@ -38869,7 +39150,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "20045",
@@ -39135,7 +39417,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "24115",
@@ -39469,7 +39752,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28013",
@@ -39732,7 +40016,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03009",
@@ -40098,7 +40383,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "06083",
@@ -40419,7 +40705,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "18140",
@@ -40712,7 +40999,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03122",
@@ -40948,7 +41236,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "49275",
@@ -41248,7 +41537,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28014",
@@ -41402,7 +41692,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "05019",
@@ -41733,7 +42024,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "38017",
@@ -41887,7 +42179,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08266",
@@ -42041,7 +42334,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28045",
@@ -42195,7 +42489,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28113",
@@ -42404,7 +42699,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "03066",
@@ -42691,7 +42987,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "23055",
@@ -43060,7 +43357,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "35019",
@@ -43342,7 +43640,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "28903",
@@ -43496,7 +43795,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "22125",
@@ -43889,7 +44189,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "07011",
@@ -44223,7 +44524,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "07026",
@@ -44456,7 +44758,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "16078",
@@ -44729,7 +45032,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "12135",
@@ -44994,7 +45298,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "33066",
@@ -45148,7 +45453,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "29082",
@@ -45302,7 +45608,8 @@
    ],
    "distritos": [],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "41095",
@@ -45592,7 +45899,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "08124",
@@ -45827,7 +46135,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "40194",
@@ -46183,7 +46492,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   },
   {
    "cod_muni": "39087",
@@ -46481,7 +46791,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": ""
+   "cita_barrios": "",
+   "nota_barrios": ""
   }
  ]
 }
