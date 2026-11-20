@@ -92,4 +92,4 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - La demanda de búsqueda de cada página es una hipótesis: medirla en Search Console (B-30) antes de crear más.
 
 ## Barrios en más ciudades (20/11/2026)
-- `python zonas_ciudades.py` y después `python actualizar.py --desde 4`. Hecho: Sevilla y Zaragoza. Málaga preparada (falta decidir la licencia, B-22). Siguientes: Murcia, Palma, Las Palmas, Córdoba, Alicante, Vigo, Gijón, Granada (B-32). Detalle y método en FUENTES.md, fuente 6.
+- `python zonas_ciudades.py` y después `python actualizar.py --desde 4`. Hecho: Sevilla y Zaragoza. Málaga publicada (su lista de barrios con CC BY-SA 4.0, aceptado por Juan). Siguientes: Murcia, Palma, Las Palmas, Córdoba, Alicante, Vigo, Gijón, Granada (B-32). Detalle y método en FUENTES.md, fuente 6.

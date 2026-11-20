@@ -2529,7 +2529,7 @@
     {
      "codigo": "2906701",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 29001 y 29005",
+     "nombre": "Distrito 1 · Centro Historico, Puerto y Ensanche Centro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2545,7 +2545,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro Historico",
+      "Puerto",
+      "Ensanche Centro"
+     ],
      "renta_hogar": 45981.0,
      "renta_persona": 21869.0,
      "eur_m2": 12.04,
@@ -2558,7 +2562,7 @@
     {
      "codigo": "2906702",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 29018 y 29017",
+     "nombre": "Distrito 2 · El Palo, Cerrado de Calderon y La Malagueta",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2575,7 +2579,11 @@
        "Olias"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "El Palo",
+      "Cerrado de Calderon",
+      "La Malagueta"
+     ],
      "renta_hogar": 61160.0,
      "renta_persona": 22048.0,
      "eur_m2": 10.63,
@@ -2588,7 +2596,7 @@
     {
      "codigo": "2906703",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 29008 y 29012",
+     "nombre": "Distrito 3 · Centro Historico",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2604,7 +2612,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro Historico"
+     ],
      "renta_hogar": 39950.0,
      "renta_persona": 20045.0,
      "eur_m2": 12.48,
@@ -2617,7 +2627,7 @@
     {
      "codigo": "2906704",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 29012 y 29013",
+     "nombre": "Distrito 4 · Cristo de la Epidemia, La Victoria y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2631,7 +2641,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cristo de la Epidemia",
+      "La Victoria",
+      "Olletas",
+      "Lagunillas",
+      "Conde de Ureña"
+     ],
      "renta_hogar": 37476.0,
      "renta_persona": 15435.0,
      "eur_m2": 10.66,
@@ -2644,7 +2660,7 @@
     {
      "codigo": "2906705",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 29008 y 29012",
+     "nombre": "Distrito 5 · La Goleta y La Merced",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2659,7 +2675,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Goleta",
+      "La Merced"
+     ],
      "renta_hogar": 32400.0,
      "renta_persona": 15082.0,
      "eur_m2": 12.62,
@@ -2672,7 +2691,7 @@
     {
      "codigo": "2906706",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 29014 y 29013",
+     "nombre": "Distrito 6 · Ciudad Jardín, El Ejido y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2688,7 +2707,13 @@
        "Verdiales"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Ciudad Jardín",
+      "El Ejido",
+      "El Molinillo",
+      "San Miguel",
+      "Las Flores"
+     ],
      "renta_hogar": 32401.0,
      "renta_persona": 12451.0,
      "eur_m2": 9.42,
@@ -2701,7 +2726,7 @@
     {
      "codigo": "2906707",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 29011 y 29010",
+     "nombre": "Distrito 7 · La Trinidad, Suarez y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2718,7 +2743,12 @@
        "Verdiales"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Trinidad",
+      "Suarez",
+      "La Palma",
+      "Parque Victoria Eugenia"
+     ],
      "renta_hogar": 33137.0,
      "renta_persona": 12290.0,
      "eur_m2": 9.15,
@@ -2731,7 +2761,7 @@
     {
      "codigo": "2906708",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 29010 y 29006",
+     "nombre": "Distrito 8 · Camino de Antequera y Hacienda Bizcochero",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2748,7 +2778,10 @@
        "Verdiales"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Camino de Antequera",
+      "Hacienda Bizcochero"
+     ],
      "renta_hogar": 40058.0,
      "renta_persona": 14321.0,
      "eur_m2": 9.32,
@@ -2761,7 +2794,7 @@
     {
      "codigo": "2906709",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 29002 y 29006",
+     "nombre": "Distrito 9 · Pol Alameda, Huelin y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2776,7 +2809,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pol Alameda",
+      "Huelin",
+      "Carranque",
+      "La Union",
+      "Marmoles"
+     ],
      "renta_hogar": 36281.0,
      "renta_persona": 14875.0,
      "eur_m2": 8.95,
@@ -2789,7 +2828,7 @@
     {
      "codigo": "2906710",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 29004 y 29003",
+     "nombre": "Distrito 10 · La Luz, Vistafranca y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2803,7 +2842,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Luz",
+      "Vistafranca",
+      "Nuevo San Andres 1",
+      "Puerta Blanca"
+     ],
      "renta_hogar": 36168.0,
      "renta_persona": 14076.0,
      "eur_m2": 9.46,
@@ -2816,7 +2860,7 @@
     {
      "codigo": "2906711",
      "numero": 11,
-     "nombre": "Distrito 11 · CP 29140 y 29004",
+     "nombre": "Distrito 11 · Guadalmar, Hacienda Platero y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -2832,7 +2876,13 @@
        "Churriana"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Guadalmar",
+      "Hacienda Platero",
+      "El Retiro",
+      "Carambuco",
+      "Santa Tecla"
+     ],
      "renta_hogar": 43151.0,
      "renta_persona": 14920.0,
      "eur_m2": 9.44,
@@ -2844,8 +2894,8 @@
     }
    ],
    "cita_nombres_distritos": "",
-   "cita_barrios": "",
-   "nota_barrios": ""
+   "cita_barrios": "Ayuntamiento de Málaga, datos abiertos (CC BY-SA 4.0)",
+   "nota_barrios": "Los distritos del INE no son los distritos municipales: se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio). Esta lista de barrios se publica con licencia CC BY-SA 4.0, la de los datos de origen."
   },
   {
    "cod_muni": "30030",

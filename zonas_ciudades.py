@@ -37,7 +37,7 @@ SALIDA = DATOS / "zonas_nombradas.csv"
 CACHE_POB = DATOS / f"poblacion_secciones_adrh_{ANIO}.csv"
 MIN_CUOTA = 0.10
 MIN_CUOTA_MALAGA, MAX_MALAGA = 0.05, 5   # en Málaga los barrios son muy pequeños (419 en la ciudad)
-INCLUIR_MALAGA = False
+INCLUIR_MALAGA = True   # Juan aceptó la licencia CC BY-SA 4.0 para esta lista (20/11/2026)
 
 MINUSCULAS = {"de", "del", "la", "las", "los", "el", "y", "i", "en"}
 ROMANO = re.compile(r"^[IVXL]+$")
@@ -66,7 +66,8 @@ NOTAS = {
     "50297": "Las juntas municipales no coinciden con los distritos del INE: se nombran las juntas donde vive al menos el "
              "10 % de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio).",
     "29067": "Los distritos del INE no son los distritos municipales: se nombran hasta 5 barrios donde vive al menos el 5 % "
-             "de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio).",
+             "de la población del distrito, según las secciones censales del Ayuntamiento (cruce propio). Esta lista de barrios "
+             "se publica con licencia CC BY-SA 4.0, la de los datos de origen.",
 }
 
 
