@@ -288,11 +288,11 @@ def head(titulo, desc, root, ruta, ld=()):
             f'<meta property="og:title" content="{esc(titulo)}"><meta property="og:description" content="{esc(desc)}">'
             f'<meta property="og:type" content="website"><meta property="og:locale" content="es_ES">'
             f'<meta property="og:site_name" content="{esc(SITIO)}">{extra}{icono}'
-            f'<link rel="stylesheet" href="{root}assets/estilo.css">{bloques}</head><body>')
+            f'<link rel="stylesheet" href="{root}assets/estilo.css?v={VERSION_ASSETS}">{bloques}</head><body>')
 
 
 def fin(root, extra_js=""):
-    return f'{extra_js}<script src="{root}assets/app.js"></script></body></html>'
+    return f'{extra_js}<script src="{root}assets/app.js?v={VERSION_ASSETS}"></script></body></html>'
 
 
 FECHA_CALLEJERO = ""  # se rellena en main() con la fecha del callejero del INE (ciudades_nivel1.json)
@@ -977,6 +977,12 @@ if(el){
 }
 })();
 """
+
+
+# Versión de estilo.css y app.js en sus enlaces (?v=...): cambia sola cuando cambian, para que
+# los navegadores no sigan usando una copia antigua guardada en caché.
+import hashlib  # noqa: E402
+VERSION_ASSETS = hashlib.md5((CSS + JS).encode("utf-8")).hexdigest()[:8]
 
 
 # ------------------------------------------------------------------ principal
