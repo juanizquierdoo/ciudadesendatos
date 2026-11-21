@@ -6,7 +6,9 @@ import json
 from config import DATOS
 
 YA_BAJADOS = {"osm_calles_1.csv", "osm_barrios_1.json", "osm_barrios_2.json", "osm_barrios_3.json", "osm_barrios_4.json",
-              "osm_barrios_5.json", "osm_calles_5.csv", "osm_calles_6.csv", "osm_barrios_7.json", "osm_calles_8.csv", "osm_barrios_8.json"}
+              "osm_barrios_5.json", "osm_calles_5.csv", "osm_calles_6.csv", "osm_barrios_7.json", "osm_calles_8.csv", "osm_barrios_8.json",
+              "osm_calles_2.csv", "osm_calles_3.csv", "osm_barrios_6.json"}
+PARTIR = {"osm_calles_4.csv", "osm_calles_7.csv"}   # fallaron 2 veces: se piden en trozos de 5 ciudades (4a, 4b, 4c...)
 HECHAS = {"50297", "35016", "47186"}   # con fuente oficial o en otro hilo (Valladolid)
 # Sevilla y Málaga se bajan también, solo para comprobar el método contra sus barrios oficiales.
 
@@ -34,7 +36,10 @@ def main():
     tareas = []
     for i, g in enumerate(grupos, 1):
         c, b = consultas(g)
-        tareas += [t for t in ((f"osm_calles_{i}.csv", c), (f"osm_barrios_{i}.json", b)) if t[0] not in YA_BAJADOS]
+        if f"osm_calles_{i}.csv" in PARTIR:
+            for j in range(0, len(g), 5):
+                tareas.append((f"osm_calles_{i}{'abc'[j // 5]}.csv", consultas(g[j:j + 5])[0]))
+        tareas += [t for t in ((f"osm_calles_{i}.csv", c), (f"osm_barrios_{i}.json", b)) if t[0] not in YA_BAJADOS | PARTIR]
     html = """<!doctype html><meta charset="utf-8"><title>Descargar OpenStreetMap</title>
 <body style="font-family:sans-serif;max-width:640px;margin:40px auto;line-height:1.5">
 <h1>Descargar barrios y calles de OpenStreetMap</h1>

@@ -40,6 +40,13 @@ TEMAS = [
 ]
 
 
+
+def corto(x):
+    """Nombre breve de un distrito para la meta description (máx. 160 caracteres): su primer barrio si lo tiene."""
+    if " · " in x["nombre"] and x.get("barrios"):
+        return x["barrios"][0]
+    return x["nombre"]
+
 def tarjetas(root):
     """Tarjetas para la portada (mismo formato que las de los rankings generales)."""
     return "".join(f'<a class="card" href="{root}rankings/{s}/"><strong>{_esc(t)}</strong><span>{_esc(df)}</span></a>'
@@ -291,7 +298,7 @@ def pagina_renta_distritos(gw, todas, rutas):
              f'<tbody>{filas}</tbody></table></div>{_notas_distritos(ds)}')
     lead = (f"Renta neta media por hogar en los {N} distritos de las {NC} ciudades españolas de más de {gw.MIN_POB} habitantes "
             f"que tienen desglose por distrito: dónde están las zonas con más y con menos ingresos.")
-    desc = (f"Los distritos con más renta de España en {gw.ANIO}: {ds[0]['nombre']} ({ds[0]['ciudad']['nombre']}) encabeza la lista de {N}. "
+    desc = (f"Los distritos con más renta de España en {gw.ANIO}: {corto(ds[0])} ({ds[0]['ciudad']['nombre']}) encabeza la lista de {N}. "
             "Datos oficiales del INE.")
     met = _metodologia(gw, [NOTA_RENTA, NOTA_ALQUILER,
                             "<strong>Distritos:</strong> son los distritos censales del INE, que en algunas ciudades coinciden con los distritos municipales "
@@ -369,7 +376,7 @@ def pagina_alquiler_distritos(gw, todas, rutas):
              f'<tbody>{filas}</tbody></table></div>{_notas_distritos(ds)}')
     lead = (f"Alquiler mediano de un piso en los {N} distritos con dato fiable de {NC} ciudades españolas de más de {gw.MIN_POB} habitantes: "
             "las zonas más caras y las más baratas para alquilar.")
-    desc = (f"Barrios con el alquiler más caro de España en {gw.ANIO}: {ds[0]['nombre']} ({ds[0]['ciudad']['nombre']}), {gw.n(ds[0]['alquiler_mes'])} € al mes. "
+    desc = (f"Barrios con el alquiler más caro de España en {gw.ANIO}: {corto(ds[0])} ({ds[0]['ciudad']['nombre']}), {gw.n(ds[0]['alquiler_mes'])} € al mes. "
             f"{N} distritos con datos oficiales.")
     met = _metodologia(gw, [NOTA_ALQUILER, NOTA_RENTA,
                             "<strong>Distritos:</strong> distritos censales del INE. Donde no hay nombre oficial verificado se identifican por sus "

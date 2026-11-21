@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20",
+ "generado": "2026-11-21",
  "anio_datos": 2024,
  "fecha_callejero": "30/06/2026",
  "ciudades": [
@@ -7813,8 +7813,8 @@
       "A Pescaría",
       "Cidade Vella",
       "O Orzán",
-      "As Atochas",
-      "O Ensanche"
+      "O Ensanche",
+      "As Atochas"
      ],
      "renta_hogar": 47992.0,
      "renta_persona": 22855.0,
@@ -16567,7 +16567,7 @@
     {
      "codigo": "0200301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 02001 y 02005",
+     "nombre": "Distrito 1 · Polígono de San Antón, La Pajarita y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16581,7 +16581,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Polígono de San Antón",
+      "La Pajarita",
+      "San Antonio Abad",
+      "Villacerrada-Centro",
+      "La Estrella"
+     ],
      "renta_hogar": 42644.0,
      "renta_persona": 17432.0,
      "eur_m2": 6.27,
@@ -16594,7 +16600,7 @@
     {
      "codigo": "0200302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 02005 y 02006",
+     "nombre": "Distrito 2 · Industria, Congo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16610,7 +16616,13 @@
        "Villar de Pozo-Rubio"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Industria",
+      "Congo",
+      "El Pilar",
+      "Feria",
+      "Cañicas-Canal de María Cristina"
+     ],
      "renta_hogar": 37824.0,
      "renta_persona": 14675.0,
      "eur_m2": 5.72,
@@ -16623,7 +16635,7 @@
     {
      "codigo": "0200303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 02004 y 02006",
+     "nombre": "Distrito 3 · San Pablo, Fátima y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16639,7 +16651,13 @@
        "Bacariza"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Pablo",
+      "Fátima",
+      "Feria",
+      "Villacerrada-Centro",
+      "Vereda"
+     ],
      "renta_hogar": 35318.0,
      "renta_persona": 13946.0,
      "eur_m2": 5.73,
@@ -16652,7 +16670,7 @@
     {
      "codigo": "0200304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 02004 y 02006",
+     "nombre": "Distrito 4 · Santa Teresa, Franciscanos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16666,7 +16684,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Teresa",
+      "Franciscanos",
+      "Fátima",
+      "Vereda",
+      "San Pedro-Mortero"
+     ],
      "renta_hogar": 36171.0,
      "renta_persona": 13865.0,
      "eur_m2": 5.81,
@@ -16679,7 +16703,7 @@
     {
      "codigo": "0200305",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 02003 y 02004",
+     "nombre": "Distrito 5 · Franciscanos, Pedro Lamata y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16693,7 +16717,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Franciscanos",
+      "Pedro Lamata",
+      "Villacerrada-Centro",
+      "San Pedro-Mortero"
+     ],
      "renta_hogar": 35790.0,
      "renta_persona": 14297.0,
      "eur_m2": 5.62,
@@ -16706,7 +16735,7 @@
     {
      "codigo": "0200306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 02002 y 02003",
+     "nombre": "Distrito 6 · Parque Sur, Franciscanos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16720,7 +16749,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Parque Sur",
+      "Franciscanos",
+      "Villacerrada-Centro",
+      "Sepulcro-Bolera",
+      "Carretas-Huerta Marzo"
+     ],
      "renta_hogar": 51172.0,
      "renta_persona": 20515.0,
      "eur_m2": 6.43,
@@ -16733,7 +16768,7 @@
     {
      "codigo": "0200307",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 02008 y 02002",
+     "nombre": "Distrito 7 · Hospital, Carretas-Huerta Marzo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16747,7 +16782,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Hospital",
+      "Carretas-Huerta Marzo",
+      "Medicina",
+      "La Milagrosa",
+      "Universidad"
+     ],
      "renta_hogar": 39857.0,
      "renta_persona": 14939.0,
      "eur_m2": 6.31,
@@ -16793,7 +16834,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "39075",
@@ -16949,7 +16990,7 @@
     {
      "codigo": "3907501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 39001 y 39002",
+     "nombre": "Distrito 1 · Cabildo de Arriba, Centro y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16965,7 +17006,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cabildo de Arriba",
+      "Centro",
+      "Perines",
+      "Correos",
+      "Ensanche"
+     ],
      "renta_hogar": 39709.0,
      "renta_persona": 17550.0,
      "eur_m2": 8.34,
@@ -16978,7 +17025,7 @@
     {
      "codigo": "3907502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 39007 y 39010",
+     "nombre": "Distrito 2 · Perines, Cazoña y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -16993,7 +17040,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Perines",
+      "Cazoña",
+      "Cabildo de Arriba",
+      "Cuatro Caminos",
+      "Pronillo"
+     ],
      "renta_hogar": 40070.0,
      "renta_persona": 17066.0,
      "eur_m2": 7.86,
@@ -17006,7 +17059,7 @@
     {
      "codigo": "3907503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 39001 y 39003",
+     "nombre": "Distrito 3 · Grupo El Carmelo, Ensanche y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17021,7 +17074,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Grupo El Carmelo",
+      "Ensanche",
+      "Centro",
+      "La Gándara",
+      "Tetuán"
+     ],
      "renta_hogar": 37891.0,
      "renta_persona": 16695.0,
      "eur_m2": 8.58,
@@ -17034,7 +17093,7 @@
     {
      "codigo": "3907504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 39004 y 39005",
+     "nombre": "Distrito 4 · San Martín, Tetuán y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17049,7 +17108,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Martín",
+      "Tetuán",
+      "El Sardinero",
+      "Alto Miranda",
+      "La Pereda"
+     ],
      "renta_hogar": 58426.0,
      "renta_persona": 25133.0,
      "eur_m2": 9.4,
@@ -17062,7 +17127,7 @@
     {
      "codigo": "3907505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 39009 y 39002",
+     "nombre": "Distrito 5 · Castilla-Hermida, Cabildo de Arriba y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17076,7 +17141,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Castilla-Hermida",
+      "Cabildo de Arriba",
+      "Barrio Pesquero",
+      "Marqués de Valdecilla"
+     ],
      "renta_hogar": 39071.0,
      "renta_persona": 16465.0,
      "eur_m2": 7.77,
@@ -17089,7 +17159,7 @@
     {
      "codigo": "3907506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 39008 y 39010",
+     "nombre": "Distrito 6 · Perines, Marqués de Valdecilla y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17103,7 +17173,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Perines",
+      "Marqués de Valdecilla",
+      "Cuatro Caminos",
+      "Cabildo de Arriba",
+      "Castilla-Hermida"
+     ],
      "renta_hogar": 35704.0,
      "renta_persona": 15518.0,
      "eur_m2": 8.0,
@@ -17116,7 +17192,7 @@
     {
      "codigo": "3907507",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 39005 y 39006",
+     "nombre": "Distrito 7 · Grupo El Carmelo, Barrio Obrero del Rey y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17131,7 +17207,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Grupo El Carmelo",
+      "Barrio Obrero del Rey",
+      "Barrio La Torre",
+      "Pronillo",
+      "El Sardinero"
+     ],
      "renta_hogar": 36549.0,
      "renta_persona": 16125.0,
      "eur_m2": 8.47,
@@ -17144,7 +17226,7 @@
     {
      "codigo": "3907508",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 39011 y 39012",
+     "nombre": "Distrito 8 · Valdenoja, Cazoña y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17162,7 +17244,13 @@
        "Cueto"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Valdenoja",
+      "Cazoña",
+      "Sector 3",
+      "Nueva Montaña",
+      "La Pereda"
+     ],
      "renta_hogar": 43156.0,
      "renta_persona": 17166.0,
      "eur_m2": 8.14,
@@ -17175,7 +17263,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "38023",
@@ -17331,7 +17419,7 @@
     {
      "codigo": "3802301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 38204 y 38202",
+     "nombre": "Distrito 1 · San Honorato, San Roque y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17351,7 +17439,13 @@
        "Gracia"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Honorato",
+      "San Roque",
+      "San Benito",
+      "La Manzanilla",
+      "Barrio Nuevo"
+     ],
      "renta_hogar": 44943.0,
      "renta_persona": 17850.0,
      "eur_m2": 8.21,
@@ -17364,7 +17458,7 @@
     {
      "codigo": "3802302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 38320 y 38205",
+     "nombre": "Distrito 2 · La Candelaria y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17382,7 +17476,13 @@
        "Finca España"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Candelaria",
+      "Urbanización Princesa Yballa",
+      "Finca España",
+      "El Rocío",
+      "Curva de Gracia"
+     ],
      "renta_hogar": 34919.0,
      "renta_persona": 13322.0,
      "eur_m2": 6.86,
@@ -17395,7 +17495,7 @@
     {
      "codigo": "3802303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 38108 y 38296",
+     "nombre": "Distrito 3 · San Matías, El Cardonal y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17413,7 +17513,13 @@
        "Guajara"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Matías",
+      "El Cardonal",
+      "San Miguel de Chimisay",
+      "Las Torres",
+      "El Gramal"
+     ],
      "renta_hogar": 34513.0,
      "renta_persona": 12930.0,
      "eur_m2": 6.33,
@@ -17490,7 +17596,7 @@
     {
      "codigo": "3802306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 38208 y 38293",
+     "nombre": "Distrito 6 · Vega de las Mercedes, Las Mercedes y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17509,7 +17615,12 @@
        "Las Mercedes"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Vega de las Mercedes",
+      "Las Mercedes",
+      "La Manzanilla",
+      "La Vega Lagunera"
+     ],
      "renta_hogar": 47111.0,
      "renta_persona": 16076.0,
      "eur_m2": 6.04,
@@ -17522,7 +17633,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "29069",
@@ -17678,7 +17789,7 @@
     {
      "codigo": "2906901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 29601 y 29602",
+     "nombre": "Distrito 1 · Divina Pastora, Miraflores y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17693,7 +17804,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Divina Pastora",
+      "Miraflores",
+      "Las Albarizas",
+      "Casco antiguo",
+      "Barrio Nuevo"
+     ],
      "renta_hogar": 39602.0,
      "renta_persona": 13991.0,
      "eur_m2": 9.38,
@@ -17790,7 +17907,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "26089",
@@ -17946,7 +18063,7 @@
     {
      "codigo": "2608901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 26001 y 26003",
+     "nombre": "Distrito 1 · Villanueva, Casco Antiguo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17961,7 +18078,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Villanueva",
+      "Casco Antiguo",
+      "Paseo de las 100 Tiendas",
+      "San Millán"
+     ],
      "renta_hogar": 37290.0,
      "renta_persona": 17542.0,
      "eur_m2": 6.7,
@@ -17974,7 +18096,7 @@
     {
      "codigo": "2608902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 26004 y 26006",
+     "nombre": "Distrito 2 · Cascajos, Madre de Dios y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -17991,7 +18113,13 @@
        "Varea"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Cascajos",
+      "Madre de Dios",
+      "San José",
+      "Ballesteros",
+      "Los Lirios"
+     ],
      "renta_hogar": 42210.0,
      "renta_persona": 16878.0,
      "eur_m2": 6.63,
@@ -18004,7 +18132,7 @@
     {
      "codigo": "2608903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 26003 y 26002",
+     "nombre": "Distrito 3 · El Carmen, Paseo de las 100 Tiendas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18019,7 +18147,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Carmen",
+      "Paseo de las 100 Tiendas",
+      "Casco Antiguo",
+      "Lobete",
+      "San Millán"
+     ],
      "renta_hogar": 42121.0,
      "renta_persona": 19211.0,
      "eur_m2": 6.49,
@@ -18032,7 +18166,7 @@
     {
      "codigo": "2608904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 26007 y 26005",
+     "nombre": "Distrito 4 · Siete Infantes, Las Gaunas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18047,7 +18181,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Siete Infantes",
+      "Las Gaunas",
+      "Casco Antiguo",
+      "Valdegastea",
+      "El Carmen"
+     ],
      "renta_hogar": 40024.0,
      "renta_persona": 17011.0,
      "eur_m2": 6.38,
@@ -18060,7 +18200,7 @@
     {
      "codigo": "2608905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 26005",
+     "nombre": "Distrito 5 · El Cubo, Casco Antiguo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18075,7 +18215,12 @@
        "El Cortijo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "El Cubo",
+      "Casco Antiguo",
+      "Parque de Los Enamorados-San Lázaro",
+      "Siete Infantes"
+     ],
      "renta_hogar": 37079.0,
      "renta_persona": 15617.0,
      "eur_m2": 5.77,
@@ -18088,7 +18233,7 @@
     {
      "codigo": "2608906",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 26001 y 26005",
+     "nombre": "Distrito 6 · Casco Antiguo, San Antonio y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18103,7 +18248,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Antiguo",
+      "San Antonio",
+      "El Campillo",
+      "Las Norias"
+     ],
      "renta_hogar": 36337.0,
      "renta_persona": 16124.0,
      "eur_m2": 7.08,
@@ -18116,7 +18266,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "06015",
@@ -18272,7 +18422,7 @@
     {
      "codigo": "0601501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 06002 y 06001",
+     "nombre": "Distrito 1 · Casco Antiguo y Santo Domingo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18286,7 +18436,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Antiguo",
+      "Santo Domingo"
+     ],
      "renta_hogar": 38843.0,
      "renta_persona": 16928.0,
      "eur_m2": 6.27,
@@ -18299,7 +18452,7 @@
     {
      "codigo": "0601502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 06008",
+     "nombre": "Distrito 2 · San Roque y Ronda Norte - Vidarte",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18312,7 +18465,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Roque",
+      "Ronda Norte - Vidarte"
+     ],
      "renta_hogar": 31024.0,
      "renta_persona": 12788.0,
      "eur_m2": 6.1,
@@ -18325,7 +18481,7 @@
     {
      "codigo": "0601503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 06009 y 06008",
+     "nombre": "Distrito 3 · San Roque, Suerte de Saavedra y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18343,7 +18499,12 @@
        "Atalaya"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Roque",
+      "Suerte de Saavedra",
+      "Barriada San Miguel",
+      "Las 500 viviendas"
+     ],
      "renta_hogar": 29398.0,
      "renta_persona": 11906.0,
      "eur_m2": 5.9,
@@ -18356,7 +18517,7 @@
     {
      "codigo": "0601504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 06010 y 06003",
+     "nombre": "Distrito 4 · Antonio Domínguez, Pardaleras y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18374,7 +18535,12 @@
        "Dehesilla de Calamon"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Antonio Domínguez",
+      "Pardaleras",
+      "Cerro de Reyes",
+      "Valverde - Ciudad Jardín"
+     ],
      "renta_hogar": 34917.0,
      "renta_persona": 14186.0,
      "eur_m2": 5.81,
@@ -18387,7 +18553,7 @@
     {
      "codigo": "0601505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 06005 y 06004",
+     "nombre": "Distrito 5 · Santa Marina, María Auxiliadora y Santo Domingo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18402,7 +18568,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Marina",
+      "María Auxiliadora",
+      "Santo Domingo"
+     ],
      "renta_hogar": 44302.0,
      "renta_persona": 19116.0,
      "eur_m2": 5.24,
@@ -18415,7 +18585,7 @@
     {
      "codigo": "0601506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 06007",
+     "nombre": "Distrito 6 · Santa Engracia, El Gurugú y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18428,7 +18598,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Engracia",
+      "El Gurugú",
+      "Los Colorines",
+      "El Progreso"
+     ],
      "renta_hogar": 21281.0,
      "renta_persona": 7779.0,
      "eur_m2": 4.34,
@@ -18441,7 +18616,7 @@
     {
      "codigo": "0601507",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 06006 y 06007",
+     "nombre": "Distrito 7 · San Fernando, La Cañada - Las Moreras y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18458,7 +18633,13 @@
        "Rio Caya"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Fernando",
+      "La Cañada - Las Moreras",
+      "Urbanización Guadiana",
+      "Urbanización Universitaria",
+      "El Progreso"
+     ],
      "renta_hogar": 35847.0,
      "renta_persona": 14321.0,
      "eur_m2": 6.25,
@@ -18503,7 +18684,7 @@
     {
      "codigo": "0601509",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 06011",
+     "nombre": "Distrito 9 · Huerta Rosales, La Paz y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18519,7 +18700,13 @@
        "Corazon de Jesus"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Huerta Rosales",
+      "La Paz",
+      "Valdepasillas",
+      "La Granadilla",
+      "María Auxiliadora"
+     ],
      "renta_hogar": 43442.0,
      "renta_persona": 17820.0,
      "eur_m2": 5.81,
@@ -18532,7 +18719,7 @@
     {
      "codigo": "0601510",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 06010 y 06011",
+     "nombre": "Distrito 10 · María Auxiliadora, Las Vaguadas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18548,7 +18735,12 @@
        "Las Vaguadas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "María Auxiliadora",
+      "Las Vaguadas",
+      "Barriada de Llera",
+      "La Banasta"
+     ],
      "renta_hogar": 48485.0,
      "renta_persona": 17967.0,
      "eur_m2": 6.22,
@@ -18561,7 +18753,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "37274",
@@ -18717,7 +18909,7 @@
     {
      "codigo": "3727401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 37002 y 37001",
+     "nombre": "Distrito 1 · Centro, Oeste y San Vicente",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18732,7 +18924,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro",
+      "Oeste",
+      "San Vicente"
+     ],
      "renta_hogar": 49679.0,
      "renta_persona": 24360.0,
      "eur_m2": 7.81,
@@ -18745,7 +18941,7 @@
     {
      "codigo": "3727402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 37003 y 37001",
+     "nombre": "Distrito 2 · Prosperidad, Delicias y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18759,7 +18955,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Prosperidad",
+      "Delicias",
+      "Rollo",
+      "Centro",
+      "San Isidro"
+     ],
      "renta_hogar": 37408.0,
      "renta_persona": 17289.0,
      "eur_m2": 6.0,
@@ -18772,7 +18974,7 @@
     {
      "codigo": "3727403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 37008",
+     "nombre": "Distrito 3 · Zurguén, San José y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18785,7 +18987,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Zurguén",
+      "San José",
+      "Vistahermosa",
+      "Chamberí",
+      "Tejares"
+     ],
      "renta_hogar": 32294.0,
      "renta_persona": 14059.0,
      "eur_m2": 6.14,
@@ -18798,7 +19006,7 @@
     {
      "codigo": "3727404",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 37006 y 37007",
+     "nombre": "Distrito 4 · Pizarrales, Oeste y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18812,7 +19020,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pizarrales",
+      "Oeste",
+      "San Bernardo",
+      "Blanco",
+      "Capuchinos"
+     ],
      "renta_hogar": 31838.0,
      "renta_persona": 14855.0,
      "eur_m2": 6.67,
@@ -18825,7 +19039,7 @@
     {
      "codigo": "3727405",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 37005 y 37004",
+     "nombre": "Distrito 5 · Garrido Norte, Vidal y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18840,7 +19054,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Garrido Norte",
+      "Vidal",
+      "Chinchibarra",
+      "Salesas",
+      "Labradores"
+     ],
      "renta_hogar": 33199.0,
      "renta_persona": 15338.0,
      "eur_m2": 6.11,
@@ -18853,7 +19073,7 @@
     {
      "codigo": "3727406",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 37004 y 37003",
+     "nombre": "Distrito 6 · Garrido Sur, Garrido Norte y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -18867,7 +19087,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Garrido Sur",
+      "Garrido Norte",
+      "Puente Ladrillo",
+      "Labradores",
+      "Rollo"
+     ],
      "renta_hogar": 35076.0,
      "renta_persona": 16104.0,
      "eur_m2": 6.04,
@@ -18880,7 +19106,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "25120",
@@ -19036,7 +19262,7 @@
     {
      "codigo": "2512001",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 25005 y 25007",
+     "nombre": "Distrito 1 · Pardinyes, el Secà de Sant Pere y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19051,7 +19277,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pardinyes",
+      "el Secà de Sant Pere",
+      "la Magdalena",
+      "Rambla de Ferran - Estació",
+      "Nova Balàfia"
+     ],
      "renta_hogar": 38806.0,
      "renta_persona": 14809.0,
      "eur_m2": 6.47,
@@ -19064,7 +19296,7 @@
     {
      "codigo": "2512002",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 25001 y 25197",
+     "nombre": "Distrito 2 · Cappont, la Copa d'Or y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19078,7 +19310,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cappont",
+      "la Copa d'Or",
+      "el Noguerola",
+      "la Bordeta",
+      "Sant Ignasi"
+     ],
      "renta_hogar": 43677.0,
      "renta_persona": 17307.0,
      "eur_m2": 7.1,
@@ -19091,7 +19329,7 @@
     {
      "codigo": "2512003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 25002",
+     "nombre": "Distrito 3 · Sant Ignasi, el Canyeret y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19104,7 +19342,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Ignasi",
+      "el Canyeret",
+      "Centre Històric",
+      "Jaume I el Conqueridor"
+     ],
      "renta_hogar": 40344.0,
      "renta_persona": 16041.0,
      "eur_m2": 7.11,
@@ -19117,7 +19360,7 @@
     {
      "codigo": "2512004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 25003 y 25002",
+     "nombre": "Distrito 4 · Pius XII-Germanor, Universitat y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19131,7 +19374,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pius XII-Germanor",
+      "Universitat",
+      "Santa Maria de Gardeny",
+      "Blocs Joan Carles",
+      "Blocs la Mariola"
+     ],
      "renta_hogar": 33301.0,
      "renta_persona": 12871.0,
      "eur_m2": 6.61,
@@ -19144,7 +19393,7 @@
     {
      "codigo": "2512005",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 25006 y 25003",
+     "nombre": "Distrito 5 · Joc de la Bola, Zona Alta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19158,7 +19407,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Joc de la Bola",
+      "Zona Alta",
+      "Universitat",
+      "Camp d'Esports",
+      "Xalets - Humbert Torres"
+     ],
      "renta_hogar": 48485.0,
      "renta_persona": 20024.0,
      "eur_m2": 6.7,
@@ -19171,7 +19426,7 @@
     {
      "codigo": "2512006",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 25008 y 25004",
+     "nombre": "Distrito 6 · Balàfia, Nova Balàfia y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19187,7 +19442,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Balàfia",
+      "Nova Balàfia",
+      "el Clot de les Granotes",
+      "Príncep de Viana - Clot",
+      "Xalets - Humbert Torres"
+     ],
      "renta_hogar": 39017.0,
      "renta_persona": 14858.0,
      "eur_m2": 6.25,
@@ -19200,7 +19461,7 @@
     {
      "codigo": "2512007",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 25001 y 25191",
+     "nombre": "Distrito 7 · la Bordeta, els Magraners y la Copa d'Or",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19215,7 +19476,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Bordeta",
+      "els Magraners",
+      "la Copa d'Or"
+     ],
      "renta_hogar": 39117.0,
      "renta_persona": 14496.0,
      "eur_m2": 6.14,
@@ -19228,7 +19493,7 @@
     {
      "codigo": "2512008",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 25199 y 25198",
+     "nombre": "Distrito 8 · Ciutat Jardí, Butsènit y les Torres de Sanui",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -19248,7 +19513,11 @@
        "Torres de Sanui (les)"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Ciutat Jardí",
+      "Butsènit",
+      "les Torres de Sanui"
+     ],
      "renta_hogar": 66377.0,
      "renta_persona": 23973.0,
      "eur_m2": 8.12,
@@ -19294,7 +19563,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "21041",
@@ -20099,7 +20368,7 @@
     {
      "codigo": "4103801",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 41702 y 41701",
+     "nombre": "Distrito 1 · El Chaparral, Costa del Sol y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20113,7 +20382,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Chaparral",
+      "Costa del Sol",
+      "Ibarburu",
+      "Los Montecillos",
+      "Cerro Blanco"
+     ],
      "renta_hogar": 31887.0,
      "renta_persona": 11329.0,
      "eur_m2": 6.76,
@@ -20126,7 +20401,7 @@
     {
      "codigo": "4103802",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 41702 y 41701",
+     "nombre": "Distrito 2 · Los Montecillos, Barriada Juan de la Cosa y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20140,7 +20415,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Los Montecillos",
+      "Barriada Juan de la Cosa",
+      "El Palmarillo",
+      "El Rocío",
+      "Ciudad Blanca"
+     ],
      "renta_hogar": 33509.0,
      "renta_persona": 12888.0,
      "eur_m2": 7.35,
@@ -20153,7 +20434,7 @@
     {
      "codigo": "4103803",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 41703 y 41701",
+     "nombre": "Distrito 3 · El Palmarillo, El Rocío y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20168,7 +20449,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Palmarillo",
+      "El Rocío",
+      "La Motilla",
+      "Las Portadas",
+      "Casas Baratas"
+     ],
      "renta_hogar": 36493.0,
      "renta_persona": 13804.0,
      "eur_m2": 7.68,
@@ -20181,7 +20468,7 @@
     {
      "codigo": "4103804",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 41701 y 41704",
+     "nombre": "Distrito 4 · Vistazul, La Moneda y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20196,7 +20483,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Vistazul",
+      "La Moneda",
+      "Arco Norte",
+      "Barriada Federico Mayo",
+      "Barriada Juan de la Cosa"
+     ],
      "renta_hogar": 38447.0,
      "renta_persona": 13561.0,
      "eur_m2": 6.99,
@@ -20209,7 +20502,7 @@
     {
      "codigo": "4103805",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 41089 y 41704",
+     "nombre": "Distrito 5 · Montequinto, Olivar de Quintos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20227,7 +20520,12 @@
        "Marisma Puntales Adriano"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Montequinto",
+      "Olivar de Quintos",
+      "Condequinto",
+      "Entrenúcleos"
+     ],
      "renta_hogar": 47026.0,
      "renta_persona": 16134.0,
      "eur_m2": 7.78,
@@ -20240,7 +20538,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "43148",
@@ -20396,7 +20694,7 @@
     {
      "codigo": "4314801",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 43003",
+     "nombre": "Distrito 1 · Part Alta",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20409,7 +20707,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Part Alta"
+     ],
      "renta_hogar": 29854.0,
      "renta_persona": 13654.0,
      "eur_m2": 7.84,
@@ -20422,7 +20722,7 @@
     {
      "codigo": "4314802",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 43003",
+     "nombre": "Distrito 2 · Part Alta",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20435,7 +20735,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Part Alta"
+     ],
      "renta_hogar": 31852.0,
      "renta_persona": 15749.0,
      "eur_m2": 8.76,
@@ -20448,7 +20750,7 @@
     {
      "codigo": "4314803",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 43003 y 43007",
+     "nombre": "Distrito 3 · Part Alta y la Vall de l'Arrabassada",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20462,7 +20764,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Part Alta",
+      "la Vall de l'Arrabassada"
+     ],
      "renta_hogar": 69361.0,
      "renta_persona": 27167.0,
      "eur_m2": 8.72,
@@ -20475,7 +20780,7 @@
     {
      "codigo": "4314804",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 43002 y 43003",
+     "nombre": "Distrito 4 · Nou Eixample Nord, Part Alta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20492,7 +20797,12 @@
        "L'oliva"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Nou Eixample Nord",
+      "Part Alta",
+      "Eixample",
+      "l'Oliva"
+     ],
      "renta_hogar": 46470.0,
      "renta_persona": 19583.0,
      "eur_m2": 7.61,
@@ -20505,7 +20815,7 @@
     {
      "codigo": "4314805",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 43001 y 43004",
+     "nombre": "Distrito 5 · Eixample, Barris Marítims y Nou Eixample Sud",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20519,7 +20829,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Eixample",
+      "Barris Marítims",
+      "Nou Eixample Sud"
+     ],
      "renta_hogar": 38960.0,
      "renta_persona": 16592.0,
      "eur_m2": 7.5,
@@ -20532,7 +20846,7 @@
     {
      "codigo": "4314806",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 43005 y 43001",
+     "nombre": "Distrito 6 · Nou Eixample Sud, el Serrallo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20552,7 +20866,12 @@
        "Pinedes (les)"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Nou Eixample Sud",
+      "el Serrallo",
+      "Barris Marítims",
+      "Eixample"
+     ],
      "renta_hogar": 41002.0,
      "renta_persona": 16537.0,
      "eur_m2": 7.73,
@@ -20565,7 +20884,7 @@
     {
      "codigo": "4314807",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 43007 y 43005",
+     "nombre": "Distrito 7 · Zona Eixample, Sant Pere i Sant Pau y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20583,7 +20902,13 @@
        "Arrabassada i Savinosa"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Zona Eixample",
+      "Sant Pere i Sant Pau",
+      "Sant Ramon",
+      "Sant Salvador",
+      "la Vall de l'Arrabassada"
+     ],
      "renta_hogar": 46085.0,
      "renta_persona": 18168.0,
      "eur_m2": 7.8,
@@ -20596,7 +20921,7 @@
     {
      "codigo": "4314808",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 43006",
+     "nombre": "Distrito 8 · Campclar, Torreforta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20611,7 +20936,12 @@
        "Torreforta"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Campclar",
+      "Torreforta",
+      "la Granja",
+      "Verge del Pilar"
+     ],
      "renta_hogar": 31716.0,
      "renta_persona": 11434.0,
      "eur_m2": 5.65,
@@ -20624,7 +20954,7 @@
     {
      "codigo": "4314809",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 43100",
+     "nombre": "Distrito 9 · Bonavista",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20639,7 +20969,9 @@
        "Bonavista"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Bonavista"
+     ],
      "renta_hogar": 30975.0,
      "renta_persona": 10859.0,
      "eur_m2": 6.06,
@@ -20652,7 +20984,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28106",
@@ -20963,7 +21295,7 @@
     {
      "codigo": "0812101",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08302 y 08301",
+     "nombre": "Distrito 1 · Eixample, Centre y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -20977,7 +21309,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Eixample",
+      "Centre",
+      "Via Europa",
+      "els Molins"
+     ],
      "renta_hogar": 50089.0,
      "renta_persona": 21223.0,
      "eur_m2": 9.88,
@@ -20990,7 +21327,7 @@
     {
      "codigo": "0812102",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08301 y 08302",
+     "nombre": "Distrito 2 · el Palau-Escorxador, Centre y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21004,7 +21341,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Palau-Escorxador",
+      "Centre",
+      "l'Havana",
+      "Can Quirze"
+     ],
      "renta_hogar": 41886.0,
      "renta_persona": 16695.0,
      "eur_m2": 9.68,
@@ -21017,7 +21359,7 @@
     {
      "codigo": "0812103",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08304",
+     "nombre": "Distrito 3 · Rocafonda, els Molins y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21030,7 +21372,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Rocafonda",
+      "els Molins",
+      "Camí de la Serra",
+      "Vista Alegre"
+     ],
      "renta_hogar": 40163.0,
      "renta_persona": 14001.0,
      "eur_m2": 7.75,
@@ -21043,7 +21390,7 @@
     {
      "codigo": "0812104",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08304 y 08303",
+     "nombre": "Distrito 4 · Cirera, Via Europa y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21057,7 +21404,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cirera",
+      "Via Europa",
+      "la Llàntia",
+      "els Molins"
+     ],
      "renta_hogar": 41241.0,
      "renta_persona": 15569.0,
      "eur_m2": 9.51,
@@ -21070,7 +21422,7 @@
     {
      "codigo": "0812105",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08303",
+     "nombre": "Distrito 5 · Cerdanyola y Peramàs",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21083,7 +21435,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cerdanyola",
+      "Peramàs"
+     ],
      "renta_hogar": 34014.0,
      "renta_persona": 11842.0,
      "eur_m2": 8.35,
@@ -21096,7 +21451,7 @@
     {
      "codigo": "0812106",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 08302 y 08303",
+     "nombre": "Distrito 6 · Peramàs, Pla d'en Boet y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21110,7 +21465,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Peramàs",
+      "Pla d'en Boet",
+      "Eixample",
+      "el Rengle"
+     ],
      "renta_hogar": 40701.0,
      "renta_persona": 16577.0,
      "eur_m2": 9.09,
@@ -21123,7 +21483,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "11004",
@@ -21307,7 +21667,7 @@
     {
      "codigo": "1100402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 11207",
+     "nombre": "Distrito 2 · 15 de Junio, El Saladillo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21320,7 +21680,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "15 de Junio",
+      "El Saladillo",
+      "Playa Getares",
+      "Pescadores",
+      "Altozano"
+     ],
      "renta_hogar": 38376.0,
      "renta_persona": 13565.0,
      "eur_m2": 6.75,
@@ -21333,7 +21699,7 @@
     {
      "codigo": "1100403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 11206 y 11203",
+     "nombre": "Distrito 3 · La Yesera - La Piñera, El Cobre - Pastores y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21349,7 +21715,13 @@
        "El Pelayo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Yesera - La Piñera",
+      "El Cobre - Pastores",
+      "Bajadilla",
+      "Cortijo Vides",
+      "15 de Junio"
+     ],
      "renta_hogar": 28738.0,
      "renta_persona": 10439.0,
      "eur_m2": 6.31,
@@ -21362,7 +21734,7 @@
     {
      "codigo": "1100404",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 11203 y 11204",
+     "nombre": "Distrito 4 · Bajadilla, San Bernabé y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21377,7 +21749,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Bajadilla",
+      "San Bernabé",
+      "Urbanización Parque Bolonia",
+      "La Granja",
+      "Barriada Pescadores"
+     ],
      "renta_hogar": 35604.0,
      "renta_persona": 12963.0,
      "eur_m2": 6.35,
@@ -21390,7 +21768,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "24089",
@@ -21546,7 +21924,7 @@
     {
      "codigo": "2408901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 24004 y 24001",
+     "nombre": "Distrito 1 · Centro, Mercado y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21561,7 +21939,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro",
+      "Mercado",
+      "Casco Histórico",
+      "San Claudio"
+     ],
      "renta_hogar": 49173.0,
      "renta_persona": 23610.0,
      "eur_m2": 6.96,
@@ -21574,7 +21957,7 @@
     {
      "codigo": "2408902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 24001 y 24002",
+     "nombre": "Distrito 2 · Centro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21588,7 +21971,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro"
+     ],
      "renta_hogar": 50755.0,
      "renta_persona": 23915.0,
      "eur_m2": 6.68,
@@ -21601,7 +21986,7 @@
     {
      "codigo": "2408903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 24008 y 24002",
+     "nombre": "Distrito 3 · Eras de Renueva, Ventas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21615,7 +22000,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Eras de Renueva",
+      "Ventas",
+      "Renueva - San Esteban",
+      "Asunción"
+     ],
      "renta_hogar": 37132.0,
      "renta_persona": 17018.0,
      "eur_m2": 5.66,
@@ -21628,7 +22018,7 @@
     {
      "codigo": "2408904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 24007 y 24008",
+     "nombre": "Distrito 4 · San Lorenzo - La Palomera - San Mamés y Casco Histórico",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21642,7 +22032,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Lorenzo - La Palomera - San Mamés",
+      "Casco Histórico"
+     ],
      "renta_hogar": 38243.0,
      "renta_persona": 17397.0,
      "eur_m2": 5.83,
@@ -21655,7 +22048,7 @@
     {
      "codigo": "2408905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 24006 y 24003",
+     "nombre": "Distrito 5 · Santa Ana, Moisés de León y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21670,7 +22063,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Ana",
+      "Moisés de León",
+      "El Ejido",
+      "Casco Histórico",
+      "Mercado"
+     ],
      "renta_hogar": 36248.0,
      "renta_persona": 17173.0,
      "eur_m2": 5.31,
@@ -21683,7 +22082,7 @@
     {
      "codigo": "2408906",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 24005 y 24004",
+     "nombre": "Distrito 6 · Chantría, La Lastra y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21697,7 +22096,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Chantría",
+      "La Lastra",
+      "San Claudio",
+      "La Vega"
+     ],
      "renta_hogar": 40386.0,
      "renta_persona": 18706.0,
      "eur_m2": 5.49,
@@ -21710,7 +22114,7 @@
     {
      "codigo": "2408907",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 24009 y 24010",
+     "nombre": "Distrito 7 · Crucero, El Soto y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21726,7 +22130,12 @@
        "Armunia"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Crucero",
+      "El Soto",
+      "La Vega",
+      "Armunia"
+     ],
      "renta_hogar": 33572.0,
      "renta_persona": 14999.0,
      "eur_m2": 5.06,
@@ -21739,7 +22148,7 @@
     {
      "codigo": "2408908",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 24005",
+     "nombre": "Distrito 8 · Puente Castro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21752,7 +22161,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Puente Castro"
+     ],
      "renta_hogar": 30660.0,
      "renta_persona": 13515.0,
      "eur_m2": 4.65,
@@ -21765,7 +22176,7 @@
     {
      "codigo": "2408909",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 24009 y 24010",
+     "nombre": "Distrito 9 · Armunia, Oteruelo de la Valdoncina y Trobajo del Cerecedo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21784,7 +22195,11 @@
        "Trobajo del Cerecedo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Armunia",
+      "Oteruelo de la Valdoncina",
+      "Trobajo del Cerecedo"
+     ],
      "renta_hogar": 27656.0,
      "renta_persona": 11960.0,
      "eur_m2": 4.55,
@@ -21797,7 +22212,7 @@
     {
      "codigo": "2408910",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 24006 y 24007",
+     "nombre": "Distrito 10 · El Ejido y La Granja",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -21811,7 +22226,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Ejido",
+      "La Granja"
+     ],
      "renta_hogar": 34727.0,
      "renta_persona": 16223.0,
      "eur_m2": 5.59,
@@ -21824,7 +22242,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28006",
@@ -22135,7 +22553,7 @@
     {
      "codigo": "0824501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08922 y 08921",
+     "nombre": "Distrito 1 · Centre, Can Mariner y Fondo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22149,7 +22567,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Can Mariner",
+      "Fondo"
+     ],
      "renta_hogar": 39030.0,
      "renta_persona": 14641.0,
      "eur_m2": 10.0,
@@ -22162,7 +22584,7 @@
     {
      "codigo": "0824502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08921",
+     "nombre": "Distrito 2 · Llatí, Riera Alta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22175,7 +22597,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Llatí",
+      "Riera Alta",
+      "Centre",
+      "Fondo"
+     ],
      "renta_hogar": 36597.0,
      "renta_persona": 13315.0,
      "eur_m2": 10.28,
@@ -22188,7 +22615,7 @@
     {
      "codigo": "0824503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08924",
+     "nombre": "Distrito 3 · Singuerlin, les Oliveres y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22201,7 +22628,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Singuerlin",
+      "les Oliveres",
+      "Guinardera",
+      "Can Calvet",
+      "Can Franquesa"
+     ],
      "renta_hogar": 38078.0,
      "renta_persona": 14422.0,
      "eur_m2": 9.29,
@@ -22214,7 +22647,7 @@
     {
      "codigo": "0824504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08922 y 08921",
+     "nombre": "Distrito 4 · Riu Sud, Riu Nord y Centre",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22228,7 +22661,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Riu Sud",
+      "Riu Nord",
+      "Centre"
+     ],
      "renta_hogar": 37928.0,
      "renta_persona": 14746.0,
      "eur_m2": 10.12,
@@ -22241,7 +22678,7 @@
     {
      "codigo": "0824505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08923",
+     "nombre": "Distrito 5 · Santa Rosa, Raval y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22254,7 +22691,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Rosa",
+      "Raval",
+      "Fondo",
+      "Safaretjos"
+     ],
      "renta_hogar": 33419.0,
      "renta_persona": 11293.0,
      "eur_m2": 9.72,
@@ -22267,7 +22709,7 @@
     {
      "codigo": "0824506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 08922 y 08923",
+     "nombre": "Distrito 6 · Fondo, Llatí y Santa Rosa",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22282,7 +22724,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Fondo",
+      "Llatí",
+      "Santa Rosa"
+     ],
      "renta_hogar": 32436.0,
      "renta_persona": 10012.0,
      "eur_m2": 9.94,
@@ -22295,7 +22741,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "23050",
@@ -22451,7 +22897,7 @@
     {
      "codigo": "2305001",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 23002 y 23001",
+     "nombre": "Distrito 1 · La Alcantarilla, La Merced y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22467,7 +22913,13 @@
        "Puente de la Sierra"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Alcantarilla",
+      "La Merced",
+      "Valparaíso",
+      "El Almendral",
+      "San Félix"
+     ],
      "renta_hogar": 35172.0,
      "renta_persona": 14292.0,
      "eur_m2": 5.38,
@@ -22480,7 +22932,7 @@
     {
      "codigo": "2305002",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 23001 y 23003",
+     "nombre": "Distrito 2 · San Ildefonso y San Félix",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22496,7 +22948,10 @@
        "Puente Jontoya"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Ildefonso",
+      "San Félix"
+     ],
      "renta_hogar": 40483.0,
      "renta_persona": 17175.0,
      "eur_m2": 5.62,
@@ -22509,7 +22964,7 @@
     {
      "codigo": "2305003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 23009 y 23008",
+     "nombre": "Distrito 3 · Las Protegidas, San Ildefonso y Tentesón 2ª fase",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22527,7 +22982,11 @@
        "Puente Nuevo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Protegidas",
+      "San Ildefonso",
+      "Tentesón 2ª fase"
+     ],
      "renta_hogar": 36772.0,
      "renta_persona": 14963.0,
      "eur_m2": 5.76,
@@ -22540,7 +22999,7 @@
     {
      "codigo": "2305004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 23008 y 23009",
+     "nombre": "Distrito 4 · Peñamefecit y Las Protegidas",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22557,7 +23016,10 @@
        "Grañena"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Peñamefecit",
+      "Las Protegidas"
+     ],
      "renta_hogar": 47325.0,
      "renta_persona": 18012.0,
      "eur_m2": 6.25,
@@ -22570,7 +23032,7 @@
     {
      "codigo": "2305005",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 23006 y 23005",
+     "nombre": "Distrito 5 · Las Fuentezuelas, Santa Isabel y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22587,7 +23049,13 @@
        "Villar de Cuevas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Fuentezuelas",
+      "Santa Isabel",
+      "Peñamefecit",
+      "Urbanización Azahar",
+      "Gran Eje"
+     ],
      "renta_hogar": 39178.0,
      "renta_persona": 15674.0,
      "eur_m2": 6.0,
@@ -22600,7 +23068,7 @@
     {
      "codigo": "2305006",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 23004 y 23005",
+     "nombre": "Distrito 6 · San Andrés, San Vicente de Paúl y San Juan",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22617,7 +23085,11 @@
        "Caño Quebrado"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Andrés",
+      "San Vicente de Paúl",
+      "San Juan"
+     ],
      "renta_hogar": 30105.0,
      "renta_persona": 11744.0,
      "eur_m2": 5.56,
@@ -22630,7 +23102,7 @@
     {
      "codigo": "2305007",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 23004 y 23002",
+     "nombre": "Distrito 7 · San Andrés, San Juan y San Bartolomé",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22645,7 +23117,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Andrés",
+      "San Juan",
+      "San Bartolomé"
+     ],
      "renta_hogar": 32957.0,
      "renta_persona": 13722.0,
      "eur_m2": 5.56,
@@ -22658,7 +23134,7 @@
     {
      "codigo": "2305008",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 23004 y 23001",
+     "nombre": "Distrito 8 · San Bartolomé y La Merced",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22674,7 +23150,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Bartolomé",
+      "La Merced"
+     ],
      "renta_hogar": 35710.0,
      "renta_persona": 15565.0,
      "eur_m2": 5.79,
@@ -22687,7 +23166,7 @@
     {
      "codigo": "2305009",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 23002 y 23004",
+     "nombre": "Distrito 9 · La Glorieta, San Felipe y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22703,7 +23182,12 @@
        "Jabalcuz"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Glorieta",
+      "San Felipe",
+      "San Sebastián",
+      "Valparaíso"
+     ],
      "renta_hogar": 32000.0,
      "renta_persona": 12212.0,
      "eur_m2": 5.32,
@@ -22716,7 +23200,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "43123",
@@ -22872,7 +23356,7 @@
     {
      "codigo": "4312301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 43201 y 43204",
+     "nombre": "Distrito 1 · Casc antic, Mercat central y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22887,7 +23371,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casc antic",
+      "Mercat central",
+      "Sant Jordi",
+      "Carme"
+     ],
      "renta_hogar": 37582.0,
      "renta_persona": 17207.0,
      "eur_m2": 7.54,
@@ -22900,7 +23389,7 @@
     {
      "codigo": "4312302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 43202 y 43205",
+     "nombre": "Distrito 2 · Mare Molas, Sardana y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22916,7 +23405,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Mare Molas",
+      "Sardana",
+      "Carme",
+      "Mas Vilanova",
+      "els Poetes"
+     ],
      "renta_hogar": 37288.0,
      "renta_persona": 14920.0,
      "eur_m2": 6.38,
@@ -22929,7 +23424,7 @@
     {
      "codigo": "4312303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 43205 y 43204",
+     "nombre": "Distrito 3 · Pastoreta, Carrilet y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22943,7 +23438,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pastoreta",
+      "Carrilet",
+      "Fortuny",
+      "Monestirs",
+      "Barri Fortuny"
+     ],
      "renta_hogar": 33889.0,
      "renta_persona": 12774.0,
      "eur_m2": 6.32,
@@ -22956,7 +23457,7 @@
     {
      "codigo": "4312304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 43204 y 43205",
+     "nombre": "Distrito 4 · Horts de miró y Carrilet",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22970,7 +23471,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Horts de miró",
+      "Carrilet"
+     ],
      "renta_hogar": 33740.0,
      "renta_persona": 13128.0,
      "eur_m2": 6.65,
@@ -22983,7 +23487,7 @@
     {
      "codigo": "4312305",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 43204 y 43203",
+     "nombre": "Distrito 5 · Muralla, Horts de miró y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -22998,7 +23502,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Muralla",
+      "Horts de miró",
+      "els Xalets Quintana",
+      "Ample"
+     ],
      "renta_hogar": 34278.0,
      "renta_persona": 12641.0,
      "eur_m2": 5.95,
@@ -23011,7 +23520,7 @@
     {
      "codigo": "4312306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 43203 y 43202",
+     "nombre": "Distrito 6 · Ample, Niloga y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23027,7 +23536,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Ample",
+      "Niloga",
+      "Barri Gaudí",
+      "Sant Jordi",
+      "Poetes"
+     ],
      "renta_hogar": 45872.0,
      "renta_persona": 18031.0,
      "eur_m2": 6.4,
@@ -23040,7 +23555,7 @@
     {
      "codigo": "4312307",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 43204 y 43206",
+     "nombre": "Distrito 7 · Mas Abelló, Mas Iglesias y Bellissens",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23055,7 +23570,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Mas Abelló",
+      "Mas Iglesias",
+      "Bellissens"
+     ],
      "renta_hogar": 37140.0,
      "renta_persona": 13251.0,
      "eur_m2": 6.38,
@@ -23068,7 +23587,7 @@
     {
      "codigo": "4312308",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 43205 y 43206",
+     "nombre": "Distrito 8 · Barri Immaculada, Juroca y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23086,7 +23605,13 @@
        "Blancafort"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Barri Immaculada",
+      "Juroca",
+      "Montserrat",
+      "Lladoners",
+      "Sol-i-vista"
+     ],
      "renta_hogar": 46535.0,
      "renta_persona": 16714.0,
      "eur_m2": 6.51,
@@ -23099,7 +23624,7 @@
     {
      "codigo": "4312309",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 43206 y 43201",
+     "nombre": "Distrito 9 · el Pinar, Pelai y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23119,7 +23644,12 @@
        "Pelayo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "el Pinar",
+      "Pelai",
+      "Sant Joan",
+      "la Mineta"
+     ],
      "renta_hogar": 58335.0,
      "renta_persona": 20718.0,
      "eur_m2": 7.13,
@@ -23132,7 +23662,7 @@
     {
      "codigo": "4312310",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 43203 y 43204",
+     "nombre": "Distrito 10 · Jardins de Reus, Mas Carpa y els Xalets Quintana",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23150,7 +23680,11 @@
        "Mas Carpa"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Jardins de Reus",
+      "Mas Carpa",
+      "els Xalets Quintana"
+     ],
      "renta_hogar": 47645.0,
      "renta_persona": 17030.0,
      "eur_m2": 7.25,
@@ -23163,7 +23697,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "11012",
@@ -23319,7 +23853,7 @@
     {
      "codigo": "1101201",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 11004 y 11003",
+     "nombre": "Distrito 1 · San Carlos, Mentidero y San Francisco",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23334,7 +23868,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Carlos",
+      "Mentidero",
+      "San Francisco"
+     ],
      "renta_hogar": 37707.0,
      "renta_persona": 16932.0,
      "eur_m2": 8.52,
@@ -23347,7 +23885,7 @@
     {
      "codigo": "1101202",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 11001 y 11004",
+     "nombre": "Distrito 2 · Centro, San Francisco y El Pópulo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23363,7 +23901,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro",
+      "San Francisco",
+      "El Pópulo"
+     ],
      "renta_hogar": 36733.0,
      "renta_persona": 16458.0,
      "eur_m2": 8.79,
@@ -23376,7 +23918,7 @@
     {
      "codigo": "1101203",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 11002 y 11003",
+     "nombre": "Distrito 3 · Balón, Mentidero y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23391,7 +23933,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Balón",
+      "Mentidero",
+      "Centro",
+      "La Viña"
+     ],
      "renta_hogar": 34086.0,
      "renta_persona": 14940.0,
      "eur_m2": 8.19,
@@ -23404,7 +23951,7 @@
     {
      "codigo": "1101204",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 11002",
+     "nombre": "Distrito 4 · La Viña",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23417,7 +23964,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Viña"
+     ],
      "renta_hogar": 30673.0,
      "renta_persona": 13609.0,
      "eur_m2": 8.58,
@@ -23430,7 +23979,7 @@
     {
      "codigo": "1101205",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 11002 y 11001",
+     "nombre": "Distrito 5 · Callejones, Centro y La Viña",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23446,7 +23995,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Callejones",
+      "Centro",
+      "La Viña"
+     ],
      "renta_hogar": 30332.0,
      "renta_persona": 13187.0,
      "eur_m2": 8.35,
@@ -23459,7 +24012,7 @@
     {
      "codigo": "1101206",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 11005 y 11001",
+     "nombre": "Distrito 6 · San Juan, El Pópulo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23474,7 +24027,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Juan",
+      "El Pópulo",
+      "Santa María",
+      "Callejones"
+     ],
      "renta_hogar": 30173.0,
      "renta_persona": 13468.0,
      "eur_m2": 8.22,
@@ -23487,7 +24045,7 @@
     {
      "codigo": "1101207",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 11006 y 11005",
+     "nombre": "Distrito 7 · Santa María y Puerta Tierra",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23502,7 +24060,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa María",
+      "Puerta Tierra"
+     ],
      "renta_hogar": 26743.0,
      "renta_persona": 11948.0,
      "eur_m2": 8.05,
@@ -23515,7 +24076,7 @@
     {
      "codigo": "1101208",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 11007 y 11008",
+     "nombre": "Distrito 8 · Barrio Astilleros, Guillén Moreno y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23530,7 +24091,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio Astilleros",
+      "Guillén Moreno",
+      "Cuarteles",
+      "Brunete",
+      "Santa María del Mar"
+     ],
      "renta_hogar": 45277.0,
      "renta_persona": 17881.0,
      "eur_m2": 8.93,
@@ -23543,7 +24110,7 @@
     {
      "codigo": "1101209",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 11009 y 11012",
+     "nombre": "Distrito 9 · Trille, San José y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23558,7 +24125,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Trille",
+      "San José",
+      "Segunda Aguada",
+      "Cerro del Moro",
+      "Guillén Moreno"
+     ],
      "renta_hogar": 40441.0,
      "renta_persona": 16443.0,
      "eur_m2": 9.49,
@@ -23571,7 +24144,7 @@
     {
      "codigo": "1101210",
      "numero": 10,
-     "nombre": "Distrito 10 · CP 11011 y 11010",
+     "nombre": "Distrito 10 · La Laguna, Cortadura y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23586,7 +24159,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Laguna",
+      "Cortadura",
+      "Cerro del Moro",
+      "Loreto"
+     ],
      "renta_hogar": 40476.0,
      "renta_persona": 17026.0,
      "eur_m2": 9.31,
@@ -23599,7 +24177,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "04079",
@@ -23970,7 +24548,7 @@
     {
      "codigo": "1707901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 17004",
+     "nombre": "Distrito 1 · el Carme, Font de la Pólvora y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -23986,7 +24564,12 @@
        "Font de la Pólvora"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "el Carme",
+      "Font de la Pólvora",
+      "Vila-roja",
+      "Barri Vell"
+     ],
      "renta_hogar": 37759.0,
      "renta_persona": 14034.0,
      "eur_m2": 9.71,
@@ -23999,7 +24582,7 @@
     {
      "codigo": "1707902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 17003 y 17002",
+     "nombre": "Distrito 2 · Eixample, Palau y Montilivi",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24016,7 +24599,11 @@
        "Creu de Palau"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Eixample",
+      "Palau",
+      "Montilivi"
+     ],
      "renta_hogar": 54645.0,
      "renta_persona": 21483.0,
      "eur_m2": 9.63,
@@ -24029,7 +24616,7 @@
     {
      "codigo": "1707903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 17005 y 17006",
+     "nombre": "Distrito 3 · Eixample, Santa Eugènia y Can Gibert del Pla",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24044,7 +24631,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Eixample",
+      "Santa Eugènia",
+      "Can Gibert del Pla"
+     ],
      "renta_hogar": 42832.0,
      "renta_persona": 15348.0,
      "eur_m2": 8.43,
@@ -24057,7 +24648,7 @@
     {
      "codigo": "1707904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 17004",
+     "nombre": "Distrito 4 · Barri Vell y Torre Gironella",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24070,7 +24661,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barri Vell",
+      "Torre Gironella"
+     ],
      "renta_hogar": 41770.0,
      "renta_persona": 18577.0,
      "eur_m2": 11.02,
@@ -24083,7 +24677,7 @@
     {
      "codigo": "1707905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 17007",
+     "nombre": "Distrito 5 · Disseminat de Pont Major, Montjuïc y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24098,7 +24692,13 @@
        "Campdorà"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Disseminat de Pont Major",
+      "Montjuïc",
+      "Barri Vell",
+      "Pedret",
+      "Disseminat de Sant Daniel"
+     ],
      "renta_hogar": 49898.0,
      "renta_persona": 18646.0,
      "eur_m2": 9.13,
@@ -24111,7 +24711,7 @@
     {
      "codigo": "1707906",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 17007 y 17004",
+     "nombre": "Distrito 6 · Taialà, Domeny y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24129,7 +24729,13 @@
        "Taialà-Germans Sàbat"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Taialà",
+      "Domeny",
+      "Fontajau",
+      "Germans Sàbat",
+      "Sant Ponç"
+     ],
      "renta_hogar": 43506.0,
      "renta_persona": 16719.0,
      "eur_m2": 8.33,
@@ -24142,7 +24748,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "32054",
@@ -24298,7 +24904,7 @@
     {
      "codigo": "3205401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 32004 y 32003",
+     "nombre": "Distrito 1 · As Lagoas, Casco Vello y O Couto",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24316,7 +24922,11 @@
        "O Meson"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "As Lagoas",
+      "Casco Vello",
+      "O Couto"
+     ],
      "renta_hogar": 46239.0,
      "renta_persona": 20792.0,
      "eur_m2": 6.12,
@@ -24329,7 +24939,7 @@
     {
      "codigo": "3205402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 32005 y 32004",
+     "nombre": "Distrito 2 · San Francisco, Barrocás y Casco Vello",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24347,7 +24957,11 @@
        "As Curuxeiras"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Francisco",
+      "Barrocás",
+      "Casco Vello"
+     ],
      "renta_hogar": 33946.0,
      "renta_persona": 15134.0,
      "eur_m2": 5.26,
@@ -24360,7 +24974,7 @@
     {
      "codigo": "3205403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 32002 y 32003",
+     "nombre": "Distrito 3 · O Couto, A Carballeira y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24378,7 +24992,13 @@
        "Estrada de Reza"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "O Couto",
+      "A Carballeira",
+      "Casco Vello",
+      "Vista Fermosa",
+      "Gurugú"
+     ],
      "renta_hogar": 35255.0,
      "renta_persona": 15378.0,
      "eur_m2": 4.83,
@@ -24391,7 +25011,7 @@
     {
      "codigo": "3205404",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 32005 y 32002",
+     "nombre": "Distrito 4 · O Posío, Mariñamansa y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24407,7 +25027,13 @@
        "Seixalbo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "O Posío",
+      "Mariñamansa",
+      "Casco Vello",
+      "O Polvorín",
+      "Gurugú"
+     ],
      "renta_hogar": 32362.0,
      "renta_persona": 14665.0,
      "eur_m2": 4.94,
@@ -24420,7 +25046,7 @@
     {
      "codigo": "3205405",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 32001",
+     "nombre": "Distrito 5 · A Ponte, O Vinteún y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24437,7 +25063,12 @@
        "Untes"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "A Ponte",
+      "O Vinteún",
+      "San Rosendo",
+      "Peliquín"
+     ],
      "renta_hogar": 32747.0,
      "renta_persona": 14366.0,
      "eur_m2": 4.52,
@@ -24450,7 +25081,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "35026",
@@ -24606,7 +25237,7 @@
     {
      "codigo": "3502601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 35200",
+     "nombre": "Distrito 1 · San Juan y San Francisco",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24619,7 +25250,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Juan",
+      "San Francisco"
+     ],
      "renta_hogar": 44059.0,
      "renta_persona": 16993.0,
      "eur_m2": 5.72,
@@ -24632,7 +25266,7 @@
     {
      "codigo": "3502602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 35200",
+     "nombre": "Distrito 2 · San Juan, La Rocha y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24647,7 +25281,12 @@
        "Valle de los Nueve"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Juan",
+      "La Rocha",
+      "San Gregorio",
+      "Ejido"
+     ],
      "renta_hogar": 36569.0,
      "renta_persona": 14642.0,
      "eur_m2": 6.89,
@@ -24660,7 +25299,7 @@
     {
      "codigo": "3502603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 35220 y 35210",
+     "nombre": "Distrito 3 · Valle de Jinámar, Jinámar y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24679,7 +25318,13 @@
        "Lomo de la Herradura"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Valle de Jinámar",
+      "Jinámar",
+      "Lomo de la Herradura",
+      "Los Caserones",
+      "San José de las Longueras"
+     ],
      "renta_hogar": 32510.0,
      "renta_persona": 12080.0,
      "eur_m2": 6.35,
@@ -24692,7 +25337,7 @@
     {
      "codigo": "3502604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 35200 y 35211",
+     "nombre": "Distrito 4 · Las Medianías, Lomo Magullo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24711,7 +25356,13 @@
        "Las Medianias"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Medianías",
+      "Lomo Magullo",
+      "Valle de los Nueve",
+      "Lomo del Cementerio",
+      "Malpaís"
+     ],
      "renta_hogar": 35778.0,
      "renta_persona": 13056.0,
      "eur_m2": 7.29,
@@ -24724,7 +25375,7 @@
     {
      "codigo": "3502605",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 35213 y 35212",
+     "nombre": "Distrito 5 · Las Remudas, La Garita y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24742,7 +25393,13 @@
        "La Pardilla"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Remudas",
+      "La Garita",
+      "Marpequeña",
+      "San Antonio",
+      "Hoya del Pozo"
+     ],
      "renta_hogar": 41933.0,
      "renta_persona": 16507.0,
      "eur_m2": 8.04,
@@ -24755,7 +25412,7 @@
     {
      "codigo": "3502606",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 35215 y 35200",
+     "nombre": "Distrito 6 · Las Huesas, La Montañeta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24774,7 +25431,13 @@
        "Las Huesas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Las Huesas",
+      "La Montañeta",
+      "Calero Alto",
+      "Callejón del Castillo",
+      "Casas Nuevas"
+     ],
      "renta_hogar": 38414.0,
      "renta_persona": 14915.0,
      "eur_m2": 7.29,
@@ -24787,7 +25450,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "48013",
@@ -24943,7 +25606,7 @@
     {
      "codigo": "4801301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 48901 y 48902",
+     "nombre": "Distrito 1 · Zaballa, Arrontegi y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24957,7 +25620,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Zaballa",
+      "Arrontegi",
+      "Latsagazarra",
+      "Landaburu"
+     ],
      "renta_hogar": 41232.0,
      "renta_persona": 17949.0,
      "eur_m2": 11.07,
@@ -24970,7 +25638,7 @@
     {
      "codigo": "4801302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 48901",
+     "nombre": "Distrito 2 · Larrea, Latsagazarra y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -24983,7 +25651,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Larrea",
+      "Latsagazarra",
+      "Urban Galindo",
+      "Arrontegi"
+     ],
      "renta_hogar": 41654.0,
      "renta_persona": 17083.0,
      "eur_m2": 10.2,
@@ -24996,7 +25669,7 @@
     {
      "codigo": "4801303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 48902 y 48901",
+     "nombre": "Distrito 3 · Landaburu y Arrontegi",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25010,7 +25683,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Landaburu",
+      "Arrontegi"
+     ],
      "renta_hogar": 38478.0,
      "renta_persona": 16372.0,
      "eur_m2": 10.52,
@@ -25023,7 +25699,7 @@
     {
      "codigo": "4801304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 48901 y 48902",
+     "nombre": "Distrito 4 · Santa Teresa-Beurko, Beurko y Zaballa",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25037,7 +25713,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Teresa-Beurko",
+      "Beurko",
+      "Zaballa"
+     ],
      "renta_hogar": 40542.0,
      "renta_persona": 17354.0,
      "eur_m2": 10.57,
@@ -25050,7 +25730,7 @@
     {
      "codigo": "4801305",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 48902",
+     "nombre": "Distrito 5 · San Vicente de Barakaldo, Zaballa y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25063,7 +25743,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Vicente de Barakaldo",
+      "Zaballa",
+      "Ibarreta-Zuloko",
+      "Zuhatzu",
+      "Arteagabeitia"
+     ],
      "renta_hogar": 44413.0,
      "renta_persona": 19124.0,
      "eur_m2": 10.59,
@@ -25076,7 +25762,7 @@
     {
      "codigo": "4801306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 48902",
+     "nombre": "Distrito 6 · Arteagabeitia, Zuhatzu y Landaburu",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25089,7 +25775,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Arteagabeitia",
+      "Zuhatzu",
+      "Landaburu"
+     ],
      "renta_hogar": 39434.0,
      "renta_persona": 17165.0,
      "eur_m2": 10.69,
@@ -25102,7 +25792,7 @@
     {
      "codigo": "4801307",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 48903 y 48902",
+     "nombre": "Distrito 7 · Errekaortu, Ansio y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25118,7 +25808,13 @@
        "El Regato"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Errekaortu",
+      "Ansio",
+      "Kareaga",
+      "La Paz",
+      "Bengolea"
+     ],
      "renta_hogar": 43516.0,
      "renta_persona": 17356.0,
      "eur_m2": 8.97,
@@ -25131,7 +25827,7 @@
     {
      "codigo": "4801308",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 48903",
+     "nombre": "Distrito 8 · Lutxana, Llano y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25144,7 +25840,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Lutxana",
+      "Llano",
+      "Burtzeña",
+      "Munoa"
+     ],
      "renta_hogar": 36958.0,
      "renta_persona": 15808.0,
      "eur_m2": 9.74,
@@ -25157,7 +25858,7 @@
     {
      "codigo": "4801309",
      "numero": 9,
-     "nombre": "Distrito 9 · CP 48903",
+     "nombre": "Distrito 9 · Cruces, La Paz y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25170,7 +25871,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cruces",
+      "La Paz",
+      "La Dinamita",
+      "Burtzeña",
+      "Munoa"
+     ],
      "renta_hogar": 40261.0,
      "renta_persona": 17321.0,
      "eur_m2": 11.25,
@@ -25183,7 +25890,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28123",
@@ -25494,7 +26201,7 @@
     {
      "codigo": "0313301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 03181 y 03182",
+     "nombre": "Distrito 1 · Europa, Urbanización Punta Prima y Urbanización Calas Blancas",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25510,7 +26217,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Europa",
+      "Urbanización Punta Prima",
+      "Urbanización Calas Blancas"
+     ],
      "renta_hogar": 27935.0,
      "renta_persona": 11067.0,
      "eur_m2": 6.15,
@@ -25523,7 +26234,7 @@
     {
      "codigo": "0313302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 03185 y 03181",
+     "nombre": "Distrito 2 · Europa, San Roque y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25539,7 +26250,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Europa",
+      "San Roque",
+      "Urbanización Los Balcones",
+      "Baños de Europa",
+      "Casa Jardin"
+     ],
      "renta_hogar": 26168.0,
      "renta_persona": 10477.0,
      "eur_m2": 6.89,
@@ -25552,7 +26269,7 @@
     {
      "codigo": "0313303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 03182 y 03183",
+     "nombre": "Distrito 3 · Urbanización Calas Blancas, El Palmeral y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25568,7 +26285,12 @@
        "La Mata"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Urbanización Calas Blancas",
+      "El Palmeral",
+      "Europa",
+      "Torreblanca"
+     ],
      "renta_hogar": 23881.0,
      "renta_persona": 9875.0,
      "eur_m2": 6.72,
@@ -25581,7 +26303,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "27028",
@@ -25737,7 +26459,7 @@
     {
      "codigo": "2702801",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 27001 y 27002",
+     "nombre": "Distrito 1 · Casco Vello y Recatelo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25751,7 +26473,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Vello",
+      "Recatelo"
+     ],
      "renta_hogar": 45608.0,
      "renta_persona": 21137.0,
      "eur_m2": 5.41,
@@ -25764,7 +26489,7 @@
     {
      "codigo": "2702802",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 27002",
+     "nombre": "Distrito 2 · San Roque, Fingoi y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25777,7 +26502,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Roque",
+      "Fingoi",
+      "Fontiñas",
+      "Recatelo",
+      "A Tolda"
+     ],
      "renta_hogar": 42442.0,
      "renta_persona": 18168.0,
      "eur_m2": 5.49,
@@ -25790,7 +26521,7 @@
     {
      "codigo": "2702803",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 27003",
+     "nombre": "Distrito 3 · Sagrado Corazón, Paradai y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25803,7 +26534,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sagrado Corazón",
+      "Paradai",
+      "Casco Vello",
+      "San Roque",
+      "As Gándaras"
+     ],
      "renta_hogar": 35470.0,
      "renta_persona": 15459.0,
      "eur_m2": 4.68,
@@ -25816,7 +26553,7 @@
     {
      "codigo": "2702804",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 27003 y 27004",
+     "nombre": "Distrito 4 · A Milagrosa, Garabolos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25830,7 +26567,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "A Milagrosa",
+      "Garabolos",
+      "Cidade Norte",
+      "A Piringalla",
+      "Albeiros"
+     ],
      "renta_hogar": 33029.0,
      "renta_persona": 14109.0,
      "eur_m2": 4.35,
@@ -25843,7 +26586,7 @@
     {
      "codigo": "2702805",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 27004",
+     "nombre": "Distrito 5 · Abella, Fonte dos Ranchos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25856,7 +26599,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Abella",
+      "Fonte dos Ranchos",
+      "San Antonio",
+      "A Milagrosa",
+      "A Cheda"
+     ],
      "renta_hogar": 34414.0,
      "renta_persona": 14633.0,
      "eur_m2": 4.18,
@@ -25898,7 +26647,7 @@
     {
      "codigo": "2702807",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 27181 y 27180",
+     "nombre": "Distrito 7 · Piúgos",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -25916,7 +26665,9 @@
        "Esperante"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Piúgos"
+     ],
      "renta_hogar": 34638.0,
      "renta_persona": 15836.0,
      "eur_m2": null,
@@ -25991,7 +26742,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "15078",
@@ -26147,7 +26898,7 @@
     {
      "codigo": "1507801",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 15705 y 15897",
+     "nombre": "Distrito 1 · Villestro, Laraño y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26166,7 +26917,13 @@
        "Paredes de Laraño"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Villestro",
+      "Laraño",
+      "A Poza de Bar",
+      "O Carme de Abaixo",
+      "San Froitoso de Fóra"
+     ],
      "renta_hogar": 50153.0,
      "renta_persona": 20392.0,
      "eur_m2": 7.23,
@@ -26179,7 +26936,7 @@
     {
      "codigo": "1507802",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 15705 y 15704",
+     "nombre": "Distrito 2 · Os Salgueiriños, San Caetano y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26197,7 +26954,13 @@
        "Santo Ignacio do Monte"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Os Salgueiriños",
+      "San Caetano",
+      "Guadalupe",
+      "San Xoán de Fóra",
+      "Vista Alegre"
+     ],
      "renta_hogar": 38013.0,
      "renta_persona": 15801.0,
      "eur_m2": 6.14,
@@ -26210,7 +26973,7 @@
     {
      "codigo": "1507803",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 15703 y 15704",
+     "nombre": "Distrito 3 · San Lázaro, San Caetano y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26230,7 +26993,13 @@
        "Agra dos Campos"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Lázaro",
+      "San Caetano",
+      "A Raxeira",
+      "Aríns",
+      "Bando"
+     ],
      "renta_hogar": 41378.0,
      "renta_persona": 17268.0,
      "eur_m2": 5.93,
@@ -26243,7 +27012,7 @@
     {
      "codigo": "1507804",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 15702 y 15707",
+     "nombre": "Distrito 4 · As Fontiñas, A Raxeira y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26262,7 +27031,13 @@
        "A Veiga"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "As Fontiñas",
+      "A Raxeira",
+      "A Pontepedriña",
+      "O Paxonal",
+      "O Castiñeiriño"
+     ],
      "renta_hogar": 40944.0,
      "renta_persona": 17347.0,
      "eur_m2": 6.63,
@@ -26275,7 +27050,7 @@
     {
      "codigo": "1507805",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 15701 y 15706",
+     "nombre": "Distrito 5 · O Ensanche, A Rosaleda y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26294,7 +27069,13 @@
        "O Porto de Conxo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "O Ensanche",
+      "A Rosaleda",
+      "Conxo",
+      "O Castiñeiriño",
+      "A Espiñeira"
+     ],
      "renta_hogar": 49086.0,
      "renta_persona": 21159.0,
      "eur_m2": 8.12,
@@ -26307,7 +27088,7 @@
     {
      "codigo": "1507806",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 15820 y 15884",
+     "nombre": "Distrito 6 · San Lázaro, Os Salgueiriños y O Luar do Carme",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26327,7 +27108,11 @@
        "O Valado da Barciela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Lázaro",
+      "Os Salgueiriños",
+      "O Luar do Carme"
+     ],
      "renta_hogar": 34997.0,
      "renta_persona": 15437.0,
      "eur_m2": null,
@@ -26340,7 +27125,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28127",
@@ -26651,7 +27436,7 @@
     {
      "codigo": "3002401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 30800",
+     "nombre": "Distrito 1 · San Diego, Los Ángeles-Apolonia y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26664,7 +27449,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Diego",
+      "Los Ángeles-Apolonia",
+      "San José",
+      "San Mateo",
+      "San Cristóbal"
+     ],
      "renta_hogar": 37598.0,
      "renta_persona": 12211.0,
      "eur_m2": 4.82,
@@ -26677,7 +27468,7 @@
     {
      "codigo": "3002402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 30813 y 30815",
+     "nombre": "Distrito 2 · Campillo, La Hoya y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -26695,7 +27486,13 @@
        "Casa de las Monjas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Campillo",
+      "La Hoya",
+      "Purias",
+      "Cazalla",
+      "Tercia"
+     ],
      "renta_hogar": 36823.0,
      "renta_persona": 12322.0,
      "eur_m2": 4.76,
@@ -26708,7 +27505,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28134",
@@ -27019,7 +27816,7 @@
     {
      "codigo": "1003701",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 10004 y 10003",
+     "nombre": "Distrito 1 · Mejostilla, Montesol y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27033,7 +27830,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Mejostilla",
+      "Montesol",
+      "Cáceres el Viejo",
+      "Gredos",
+      "Ronda"
+     ],
      "renta_hogar": 35523.0,
      "renta_persona": 14023.0,
      "eur_m2": 5.15,
@@ -27046,7 +27849,7 @@
     {
      "codigo": "1003702",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 10004 y 10001",
+     "nombre": "Distrito 2 · Casas Baratas, R-66-B Parque del Príncipe y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27061,7 +27864,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casas Baratas",
+      "R-66-B Parque del Príncipe",
+      "La Madrila",
+      "R-66-A El Arco",
+      "Aguas Vivas"
+     ],
      "renta_hogar": 45409.0,
      "renta_persona": 19701.0,
      "eur_m2": 5.77,
@@ -27074,7 +27883,7 @@
     {
      "codigo": "1003703",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 10002 y 10004",
+     "nombre": "Distrito 3 · Cánovas, Virgen de Guadalupe y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27089,7 +27898,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Cánovas",
+      "Virgen de Guadalupe",
+      "Santa Clara",
+      "Virgen de la Montaña",
+      "San Juan"
+     ],
      "renta_hogar": 43627.0,
      "renta_persona": 20380.0,
      "eur_m2": 5.48,
@@ -27102,7 +27917,7 @@
     {
      "codigo": "1003704",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 10005 y 10002",
+     "nombre": "Distrito 4 · Nuevo Cáceres, Moctezuma y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27117,7 +27932,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Nuevo Cáceres",
+      "Moctezuma",
+      "Los Fratres",
+      "El Perú",
+      "Cabezarrubia"
+     ],
      "renta_hogar": 39653.0,
      "renta_persona": 16887.0,
      "eur_m2": 5.3,
@@ -27130,7 +27951,7 @@
     {
      "codigo": "1003705",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 10005 y 10002",
+     "nombre": "Distrito 5 · Llopis Ivorra, El Rodeo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27145,7 +27966,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Llopis Ivorra",
+      "El Rodeo",
+      "Espíritu Santo",
+      "Hernández Pacheco",
+      "Las Trescientas"
+     ],
      "renta_hogar": 32343.0,
      "renta_persona": 14691.0,
      "eur_m2": 5.56,
@@ -27158,7 +27985,7 @@
     {
      "codigo": "1003706",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 10195 y 10005",
+     "nombre": "Distrito 6 · La Abundancia, El Junquillo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27174,7 +28001,13 @@
        "Estacion de Arroyo-Malpar"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Abundancia",
+      "El Junquillo",
+      "La Paloma",
+      "Barriada Minera",
+      "Ceres Golf"
+     ],
      "renta_hogar": 27403.0,
      "renta_persona": 10957.0,
      "eur_m2": 4.91,
@@ -27187,7 +28020,7 @@
     {
      "codigo": "1003707",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 10005 y 10164",
+     "nombre": "Distrito 7 · Valdesalor y Rincón de Ballesteros",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27206,7 +28039,10 @@
        "Rincon de Ballesteros"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Valdesalor",
+      "Rincón de Ballesteros"
+     ],
      "renta_hogar": 34392.0,
      "renta_persona": 13384.0,
      "eur_m2": null,
@@ -27219,7 +28055,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08205",
@@ -27375,7 +28211,7 @@
     {
      "codigo": "0820501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08173 y 08172",
+     "nombre": "Distrito 1 · Monestir, Centre y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27389,7 +28225,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Monestir",
+      "Centre",
+      "Coll Favà",
+      "Volpelleres",
+      "Torre Blanca"
+     ],
      "renta_hogar": 67981.0,
      "renta_persona": 23784.0,
      "eur_m2": 13.49,
@@ -27402,7 +28244,7 @@
     {
      "codigo": "0820502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08173 y 08172",
+     "nombre": "Distrito 2 · Centre, Pla de la Pagesa y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27416,7 +28258,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Pla de la Pagesa",
+      "Eixample Sud",
+      "el Colomer",
+      "Parc Central"
+     ],
      "renta_hogar": 87612.0,
      "renta_persona": 30107.0,
      "eur_m2": 13.22,
@@ -27429,7 +28277,7 @@
     {
      "codigo": "0820503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08197 y 08195",
+     "nombre": "Distrito 3 · Valldoreix y Mira-sol",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27447,7 +28295,10 @@
        "Valldoreix"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Valldoreix",
+      "Mira-sol"
+     ],
      "renta_hogar": 97940.0,
      "renta_persona": 29556.0,
      "eur_m2": 11.61,
@@ -27460,7 +28311,7 @@
     {
      "codigo": "0820504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08198 y 08196",
+     "nombre": "Distrito 4 · Casino, Turó del Fumet y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27477,7 +28328,13 @@
        "La Floresta"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Casino",
+      "Turó del Fumet",
+      "la Serreta",
+      "la Muntanyesa",
+      "la Floresta"
+     ],
      "renta_hogar": 67374.0,
      "renta_persona": 22191.0,
      "eur_m2": 10.48,
@@ -27490,7 +28347,7 @@
     {
      "codigo": "0820505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08195 y 08173",
+     "nombre": "Distrito 5 · Mira-sol, Bell Indret y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27506,7 +28363,13 @@
        "Mira-Sol"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Mira-sol",
+      "Bell Indret",
+      "Colònia Oller",
+      "Can Gatxet",
+      "Can Mates Est"
+     ],
      "renta_hogar": 92237.0,
      "renta_persona": 28444.0,
      "eur_m2": 14.93,
@@ -27519,7 +28382,7 @@
     {
      "codigo": "0820506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 08196",
+     "nombre": "Distrito 6 · les Planes, Can Cortés y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -27534,7 +28397,12 @@
        "Planes (les)"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "les Planes",
+      "Can Cortés",
+      "el Coll Blau",
+      "Valldoreix"
+     ],
      "renta_hogar": 51889.0,
      "renta_persona": 17561.0,
      "eur_m2": null,
@@ -27547,7 +28415,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "29070",
@@ -28172,7 +29040,7 @@
     {
      "codigo": "0807301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08940",
+     "nombre": "Distrito 1 · Centre y Riera",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28185,7 +29053,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Riera"
+     ],
      "renta_hogar": 45336.0,
      "renta_persona": 17473.0,
      "eur_m2": 10.99,
@@ -28198,7 +29069,7 @@
     {
      "codigo": "0807302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08940",
+     "nombre": "Distrito 2 · Almeda, Femades y Riera",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28214,7 +29085,11 @@
        "Femades"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Almeda",
+      "Femades",
+      "Riera"
+     ],
      "renta_hogar": 52517.0,
      "renta_persona": 19019.0,
      "eur_m2": 11.55,
@@ -28227,7 +29102,7 @@
     {
      "codigo": "0807303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08940",
+     "nombre": "Distrito 3 · el Pedró, Can Fatjó y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28243,7 +29118,13 @@
        "Fontsanta"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "el Pedró",
+      "Can Fatjó",
+      "la Fontsanta",
+      "Centre",
+      "Fontsanta-Fatjó"
+     ],
      "renta_hogar": 47213.0,
      "renta_persona": 17940.0,
      "eur_m2": 11.14,
@@ -28256,7 +29137,7 @@
     {
      "codigo": "0807304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08940",
+     "nombre": "Distrito 4 · la Gavarra, el Pedró y Sant Ildefons",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28269,7 +29150,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Gavarra",
+      "el Pedró",
+      "Sant Ildefons"
+     ],
      "renta_hogar": 39568.0,
      "renta_persona": 15374.0,
      "eur_m2": 10.71,
@@ -28282,7 +29167,7 @@
     {
      "codigo": "0807305",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08940",
+     "nombre": "Distrito 5 · Sant Ildefons y la Gavarra",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28295,7 +29180,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Ildefons",
+      "la Gavarra"
+     ],
      "renta_hogar": 31867.0,
      "renta_persona": 11698.0,
      "eur_m2": 11.94,
@@ -28308,7 +29196,7 @@
     {
      "codigo": "0807306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 08940",
+     "nombre": "Distrito 6 · Sant Ildefons",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28321,7 +29209,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Ildefons"
+     ],
      "renta_hogar": 33183.0,
      "renta_persona": 12424.0,
      "eur_m2": 11.9,
@@ -28334,7 +29224,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "19130",
@@ -28522,7 +29412,7 @@
     {
      "codigo": "1913002",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 19005",
+     "nombre": "Distrito 2 · Alamín, Las Cañas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28535,7 +29425,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Alamín",
+      "Las Cañas",
+      "Aguas Vivas",
+      "Los Valles",
+      "Cacharrerías"
+     ],
      "renta_hogar": 43760.0,
      "renta_persona": 16701.0,
      "eur_m2": 7.84,
@@ -28548,7 +29444,7 @@
     {
      "codigo": "1913003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 19005 y 19002",
+     "nombre": "Distrito 3 · El Fuerte, Los Valles y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28563,7 +29459,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Fuerte",
+      "Los Valles",
+      "Adoratrices",
+      "Amistad"
+     ],
      "renta_hogar": 45719.0,
      "renta_persona": 17076.0,
      "eur_m2": 7.14,
@@ -28576,7 +29477,7 @@
     {
      "codigo": "1913004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 19002 y 19003",
+     "nombre": "Distrito 4 · Amistad y Adoratrices",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -28590,7 +29491,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Amistad",
+      "Adoratrices"
+     ],
      "renta_hogar": 43242.0,
      "renta_persona": 17245.0,
      "eur_m2": 6.58,
@@ -28630,7 +29534,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "11015",
@@ -29074,7 +29978,7 @@
     {
      "codigo": "4624401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 46900",
+     "nombre": "Distrito 1 · el Molí, l'Alter y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29087,7 +29991,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Molí",
+      "l'Alter",
+      "el Xenillet",
+      "Benisaet"
+     ],
      "renta_hogar": 30616.0,
      "renta_persona": 10821.0,
      "eur_m2": 5.57,
@@ -29100,7 +30009,7 @@
     {
      "codigo": "4624402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 46900",
+     "nombre": "Distrito 2 · el Poble Nou y el Molí",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29113,7 +30022,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Poble Nou",
+      "el Molí"
+     ],
      "renta_hogar": 33196.0,
      "renta_persona": 12380.0,
      "eur_m2": 6.23,
@@ -29183,7 +30095,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "04902",
@@ -29520,7 +30432,7 @@
     {
      "codigo": "1102702",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 11500",
+     "nombre": "Distrito 2 · El Camaleón, La Belleza y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29536,7 +30448,13 @@
        "Los Arenales"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "El Camaleón",
+      "La Belleza",
+      "Cantarranas",
+      "El Águila",
+      "Costa Oeste"
+     ],
      "renta_hogar": 58435.0,
      "renta_persona": 20539.0,
      "eur_m2": 9.72,
@@ -29549,7 +30467,7 @@
     {
      "codigo": "1102703",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 11500",
+     "nombre": "Distrito 3 · El Juncal, Los Frailes y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29566,7 +30484,13 @@
        "San Ignacio-Sierra"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "El Juncal",
+      "Los Frailes",
+      "Angelita Alta",
+      "Las Nieves",
+      "La Coronación"
+     ],
      "renta_hogar": 35412.0,
      "renta_persona": 12119.0,
      "eur_m2": 6.87,
@@ -29579,7 +30503,7 @@
     {
      "codigo": "1102704",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 11500",
+     "nombre": "Distrito 4 · Valdelagrana, Urbanización Colomina y Las Viñas",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29594,7 +30518,11 @@
        "Valdelagrana"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Valdelagrana",
+      "Urbanización Colomina",
+      "Las Viñas"
+     ],
      "renta_hogar": 50287.0,
      "renta_persona": 19986.0,
      "eur_m2": 8.46,
@@ -29607,7 +30535,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28115",
@@ -29763,7 +30691,7 @@
     {
      "codigo": "2811501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 28223",
+     "nombre": "Distrito 1 · Pozuelo Estación, Prado de Somosaguas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -29780,7 +30708,13 @@
        "Los Angeles"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Pozuelo Estación",
+      "Prado de Somosaguas",
+      "Somosaguas Sur",
+      "Somosaguas Norte",
+      "Colonia de los Ángeles"
+     ],
      "renta_hogar": 109180.0,
      "renta_persona": 34288.0,
      "eur_m2": 13.17,
@@ -29819,7 +30753,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "38006",
@@ -30130,7 +31064,7 @@
     {
      "codigo": "2909401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 29700",
+     "nombre": "Distrito 1 · Real Bajo, Capuchinos y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30145,7 +31079,13 @@
        "Lagos"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Real Bajo",
+      "Capuchinos",
+      "Rubeltor",
+      "El Romeral",
+      "El Limonar"
+     ],
      "renta_hogar": 31114.0,
      "renta_persona": 11576.0,
      "eur_m2": 5.72,
@@ -30158,7 +31098,7 @@
     {
      "codigo": "2909402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 29700",
+     "nombre": "Distrito 2 · Reñidero, Cruz del Cordero y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30173,7 +31113,12 @@
        "Cabrillas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Reñidero",
+      "Cruz del Cordero",
+      "La Villa",
+      "Rubeltor"
+     ],
      "renta_hogar": 29464.0,
      "renta_persona": 11379.0,
      "eur_m2": 5.56,
@@ -30186,7 +31131,7 @@
     {
      "codigo": "2909403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 29740",
+     "nombre": "Distrito 3 · La Viña, Pueblo Rocío y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30202,7 +31147,12 @@
        "Caleta de Velez"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Viña",
+      "Pueblo Rocío",
+      "El Tomillar",
+      "Cerro del Águila"
+     ],
      "renta_hogar": 34774.0,
      "renta_persona": 14478.0,
      "eur_m2": 7.5,
@@ -30277,7 +31227,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "45168",
@@ -30598,7 +31548,7 @@
     {
      "codigo": "4516807",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 45007 y 45006",
+     "nombre": "Distrito 7 · Santa María de Benquerencia y Santa Bárbara",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30612,7 +31562,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa María de Benquerencia",
+      "Santa Bárbara"
+     ],
      "renta_hogar": 36751.0,
      "renta_persona": 14470.0,
      "eur_m2": 6.85,
@@ -30625,7 +31578,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28161",
@@ -30781,7 +31734,7 @@
     {
      "codigo": "2816101",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 28341 y 28343",
+     "nombre": "Distrito 1 · El Caracol, El Restón y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30795,7 +31748,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Caracol",
+      "El Restón",
+      "Brezo",
+      "El Restón II"
+     ],
      "renta_hogar": 49152.0,
      "renta_persona": 16327.0,
      "eur_m2": 8.93,
@@ -30808,7 +31766,7 @@
     {
      "codigo": "2816102",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 28342 y 28341",
+     "nombre": "Distrito 2 · Brezo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -30822,7 +31780,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Brezo"
+     ],
      "renta_hogar": 45638.0,
      "renta_persona": 15884.0,
      "eur_m2": 8.97,
@@ -30835,7 +31795,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08200",
@@ -30991,7 +31951,7 @@
     {
      "codigo": "0820001",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08830",
+     "nombre": "Distrito 1 · Ciutat Cooperativa i Molí Nou y Marianao",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31004,7 +31964,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Ciutat Cooperativa i Molí Nou",
+      "Marianao"
+     ],
      "renta_hogar": 36836.0,
      "renta_persona": 14770.0,
      "eur_m2": 11.87,
@@ -31017,7 +31980,7 @@
     {
      "codigo": "0820002",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08830",
+     "nombre": "Distrito 2 · Marianao",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31030,7 +31993,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Marianao"
+     ],
      "renta_hogar": 45398.0,
      "renta_persona": 16909.0,
      "eur_m2": 10.71,
@@ -31043,7 +32008,7 @@
     {
      "codigo": "0820003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08830",
+     "nombre": "Distrito 3 · Barri Centre y Vinyets i Molí Vell",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31056,7 +32021,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barri Centre",
+      "Vinyets i Molí Vell"
+     ],
      "renta_hogar": 43083.0,
      "renta_persona": 16690.0,
      "eur_m2": 10.71,
@@ -31069,7 +32037,7 @@
     {
      "codigo": "0820004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08830",
+     "nombre": "Distrito 4 · Vinyets i Molí Vell y Barri Centre",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31082,7 +32050,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Vinyets i Molí Vell",
+      "Barri Centre"
+     ],
      "renta_hogar": 41831.0,
      "renta_persona": 16111.0,
      "eur_m2": 10.8,
@@ -31095,7 +32066,7 @@
     {
      "codigo": "0820005",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08830",
+     "nombre": "Distrito 5 · Camps Blancs",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31108,7 +32079,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Camps Blancs"
+     ],
      "renta_hogar": 41041.0,
      "renta_persona": 14238.0,
      "eur_m2": 8.89,
@@ -31121,7 +32094,7 @@
     {
      "codigo": "0820006",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 08830",
+     "nombre": "Distrito 6 · Casablanca y Vinyets i Molí Vell",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31134,7 +32107,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casablanca",
+      "Vinyets i Molí Vell"
+     ],
      "renta_hogar": 37670.0,
      "renta_persona": 14130.0,
      "eur_m2": 11.11,
@@ -31147,7 +32123,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "29054",
@@ -31329,7 +32305,7 @@
     {
      "codigo": "2905402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 29640",
+     "nombre": "Distrito 2 · Los Boliches y La Calerita",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31342,7 +32318,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Los Boliches",
+      "La Calerita"
+     ],
      "renta_hogar": 33511.0,
      "renta_persona": 12909.0,
      "eur_m2": 9.53,
@@ -31355,7 +32334,7 @@
     {
      "codigo": "2905403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 29640",
+     "nombre": "Distrito 3 · Los Trigueros, Los Sauces y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31368,7 +32347,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Los Trigueros",
+      "Los Sauces",
+      "Torreblanca",
+      "Royal Park",
+      "Torreblanca del Sol II"
+     ],
      "renta_hogar": 36177.0,
      "renta_persona": 13791.0,
      "eur_m2": 9.9,
@@ -31381,7 +32366,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "03099",
@@ -31537,7 +32522,7 @@
     {
      "codigo": "0309901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 03300",
+     "nombre": "Distrito 1 · Obispo Rocamora, Las Monserratinas y Casco Histórico",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31552,7 +32537,11 @@
        "Orihuela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Obispo Rocamora",
+      "Las Monserratinas",
+      "Casco Histórico"
+     ],
      "renta_hogar": 36880.0,
      "renta_persona": 13661.0,
      "eur_m2": 4.17,
@@ -31565,7 +32554,7 @@
     {
      "codigo": "0309902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 03300",
+     "nombre": "Distrito 2 · Severo Ochoa, Casco Histórico y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31580,7 +32569,13 @@
        "Orihuela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Severo Ochoa",
+      "Casco Histórico",
+      "Barrio de la Ascensión",
+      "Las Monserratinas",
+      "Raiguero de Levante"
+     ],
      "renta_hogar": 41064.0,
      "renta_persona": 15134.0,
      "eur_m2": 4.18,
@@ -31593,7 +32588,7 @@
     {
      "codigo": "0309903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 03300",
+     "nombre": "Distrito 3 · Rabaloche y Casco Histórico",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31608,7 +32603,10 @@
        "Orihuela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Rabaloche",
+      "Casco Histórico"
+     ],
      "renta_hogar": 27763.0,
      "renta_persona": 9617.0,
      "eur_m2": 3.95,
@@ -31621,7 +32619,7 @@
     {
      "codigo": "0309904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 03300",
+     "nombre": "Distrito 4 · Josefina Manresa, San Juan-Santo Domingo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31636,7 +32634,13 @@
        "Orihuela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Josefina Manresa",
+      "San Juan-Santo Domingo",
+      "Obispo Rocamora",
+      "Barrio Nuevo",
+      "San Antón"
+     ],
      "renta_hogar": 33867.0,
      "renta_persona": 11721.0,
      "eur_m2": 4.39,
@@ -31649,7 +32653,7 @@
     {
      "codigo": "0309905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 03189 y 03300",
+     "nombre": "Distrito 5 · Pau 8-Canal Norte, Lagosol-Sector F-2 y Manzana 1",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31667,7 +32671,11 @@
        "Torremendo"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Pau 8-Canal Norte",
+      "Lagosol-Sector F-2",
+      "Manzana 1"
+     ],
      "renta_hogar": 25716.0,
      "renta_persona": 11611.0,
      "eur_m2": 7.84,
@@ -31741,7 +32749,7 @@
     {
      "codigo": "0309908",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 03300 y 03314",
+     "nombre": "Distrito 8 · San Bartolomé, Urbanización Montepinar y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31761,7 +32769,13 @@
        "El Escorratel"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Bartolomé",
+      "Urbanización Montepinar",
+      "El Barrio-Sallavedra",
+      "Barrio de los Mazones",
+      "La Campaneta"
+     ],
      "renta_hogar": 32893.0,
      "renta_persona": 12366.0,
      "eur_m2": null,
@@ -31774,7 +32788,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "52001",
@@ -31930,7 +32944,7 @@
     {
      "codigo": "5200101",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 52001",
+     "nombre": "Distrito 1 · Barrio Ataque Seco y Melilla La Vieja",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31943,7 +32957,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio Ataque Seco",
+      "Melilla La Vieja"
+     ],
      "renta_hogar": 57837.0,
      "renta_persona": 18078.0,
      "eur_m2": 7.39,
@@ -31956,7 +32973,7 @@
     {
      "codigo": "5200102",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 52003 y 52004",
+     "nombre": "Distrito 2 · Barrio Gómez Jordana y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31972,7 +32989,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio Gómez Jordana",
+      "Barrio Príncipe de Asturias",
+      "Barrio Héroes de España",
+      "Triángulo de Oro"
+     ],
      "renta_hogar": 53834.0,
      "renta_persona": 18193.0,
      "eur_m2": 8.62,
@@ -31985,7 +33007,7 @@
     {
      "codigo": "5200103",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 52001 y 52002",
+     "nombre": "Distrito 3 · Barrio del Carmen y Triángulo de Oro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -31999,7 +33021,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio del Carmen",
+      "Triángulo de Oro"
+     ],
      "renta_hogar": 33762.0,
      "renta_persona": 10490.0,
      "eur_m2": 9.93,
@@ -32012,7 +33037,7 @@
     {
      "codigo": "5200104",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 52002 y 52003",
+     "nombre": "Distrito 4 · Triángulo de Oro y Barrio de los Pinares",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32026,7 +33051,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Triángulo de Oro",
+      "Barrio de los Pinares"
+     ],
      "renta_hogar": 29372.0,
      "renta_persona": 8261.0,
      "eur_m2": 8.33,
@@ -32039,7 +33067,7 @@
     {
      "codigo": "5200105",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 52003",
+     "nombre": "Distrito 5 · Barrio Cristóbal Colón y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32052,7 +33080,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio Cristóbal Colón",
+      "Barrio Batería Jota",
+      "Barrio de la Cañada Hidum",
+      "Barrio Hernán Cortés",
+      "Barrio de los Pinares"
+     ],
      "renta_hogar": 28910.0,
      "renta_persona": 7743.0,
      "eur_m2": 8.16,
@@ -32065,7 +33099,7 @@
     {
      "codigo": "5200106",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 52003 y 52004",
+     "nombre": "Distrito 6 · Triángulo de Oro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32081,7 +33115,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Triángulo de Oro"
+     ],
      "renta_hogar": 57315.0,
      "renta_persona": 19899.0,
      "eur_m2": 9.91,
@@ -32148,7 +33184,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "45165",
@@ -32304,7 +33340,7 @@
     {
      "codigo": "4516501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 45600",
+     "nombre": "Distrito 1 · Puerta Cuartos, Patrocinio de San José y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32320,7 +33356,13 @@
        "Barrio de Santa Maria"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Puerta Cuartos",
+      "Patrocinio de San José",
+      "San Jerónimo",
+      "Santa María",
+      "El Madroño"
+     ],
      "renta_hogar": 30762.0,
      "renta_persona": 11735.0,
      "eur_m2": 5.6,
@@ -32333,7 +33375,7 @@
     {
      "codigo": "4516502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 45600",
+     "nombre": "Distrito 2 · Fray Hernando, La Solana y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32346,7 +33388,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Fray Hernando",
+      "La Solana",
+      "El Parque",
+      "La Alameda",
+      "Las Moreras"
+     ],
      "renta_hogar": 37805.0,
      "renta_persona": 14855.0,
      "eur_m2": 4.93,
@@ -32359,7 +33407,7 @@
     {
      "codigo": "4516503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 45600",
+     "nombre": "Distrito 3 · El Carmen, El Pilar y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32372,7 +33420,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Carmen",
+      "El Pilar",
+      "El Faro",
+      "Puerta de Zamora"
+     ],
      "renta_hogar": 30856.0,
      "renta_persona": 11954.0,
      "eur_m2": 5.15,
@@ -32385,7 +33438,7 @@
     {
      "codigo": "4516504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 45600",
+     "nombre": "Distrito 4 · La Piedad, Puerta Cuartos y Puerta de Zamora",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -32402,7 +33455,11 @@
        "Colonia Ntra Sra Prado"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "La Piedad",
+      "Puerta Cuartos",
+      "Puerta de Zamora"
+     ],
      "renta_hogar": 28794.0,
      "renta_persona": 10963.0,
      "eur_m2": 5.23,
@@ -32415,7 +33472,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "36038",
@@ -37501,7 +38558,7 @@
     {
      "codigo": "4622003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 46500",
+     "nombre": "Distrito 3 · Sants de la Pedra, el Salt y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37518,7 +38575,13 @@
        "Partida de Gausa"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Sants de la Pedra",
+      "el Salt",
+      "Sant Ramon",
+      "Santa Ana",
+      "Ciutat vella de Sagunt"
+     ],
      "renta_hogar": 33409.0,
      "renta_persona": 13244.0,
      "eur_m2": 5.29,
@@ -37531,7 +38594,7 @@
     {
      "codigo": "4622004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 46500",
+     "nombre": "Distrito 4 · el Salt, Sants de la Pedra y Santa Ana",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37546,7 +38609,11 @@
        "Sagunt/sagunto"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "el Salt",
+      "Sants de la Pedra",
+      "Santa Ana"
+     ],
      "renta_hogar": 48134.0,
      "renta_persona": 17837.0,
      "eur_m2": 5.81,
@@ -37559,7 +38626,7 @@
     {
      "codigo": "4622005",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 46520 y 46500",
+     "nombre": "Distrito 5 · Baladre y Barri de Fusió",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37575,7 +38642,10 @@
        "El Baladre"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Baladre",
+      "Barri de Fusió"
+     ],
      "renta_hogar": 27328.0,
      "renta_persona": 9721.0,
      "eur_m2": 4.83,
@@ -37588,7 +38658,7 @@
     {
      "codigo": "4622006",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 46520",
+     "nombre": "Distrito 6 · Biensa, Barri Obrer y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37601,7 +38671,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Biensa",
+      "Barri Obrer",
+      "la Forja",
+      "la Palmereta",
+      "el Port de Sagunt"
+     ],
      "renta_hogar": 34101.0,
      "renta_persona": 14064.0,
      "eur_m2": 6.08,
@@ -37614,7 +38690,7 @@
     {
      "codigo": "4622007",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 46520",
+     "nombre": "Distrito 7 · Wichita (Dones Sindicalistes) y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37627,7 +38703,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Wichita (Dones Sindicalistes)",
+      "el Port de Sagunt",
+      "els Vents",
+      "les Illes",
+      "Barri Obrer"
+     ],
      "renta_hogar": 37810.0,
      "renta_persona": 15393.0,
      "eur_m2": 6.2,
@@ -37668,7 +38750,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "29901",
@@ -37979,7 +39061,7 @@
     {
      "codigo": "1103201",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 11540",
+     "nombre": "Distrito 1 · Pastrana, Miraflores y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -37995,7 +39077,13 @@
        "Miraflores"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Pastrana",
+      "Miraflores",
+      "Jardines del Picacho",
+      "Capuchinos",
+      "Barriada Arboledilla"
+     ],
      "renta_hogar": 27024.0,
      "renta_persona": 9460.0,
      "eur_m2": 6.1,
@@ -38008,7 +39096,7 @@
     {
      "codigo": "1103202",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 11540",
+     "nombre": "Distrito 2 · Capuchinos, La Jara y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38023,7 +39111,13 @@
        "La Jara"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Capuchinos",
+      "La Jara",
+      "Urbanización el Vergel",
+      "Urbanización los Colones",
+      "Marbella"
+     ],
      "renta_hogar": 33785.0,
      "renta_persona": 12458.0,
      "eur_m2": 6.76,
@@ -38036,7 +39130,7 @@
     {
      "codigo": "1103203",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 11540",
+     "nombre": "Distrito 3 · Jardines del Picacho, Urbanización el Vergel y Capuchinos",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38049,7 +39143,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Jardines del Picacho",
+      "Urbanización el Vergel",
+      "Capuchinos"
+     ],
      "renta_hogar": 35753.0,
      "renta_persona": 15316.0,
      "eur_m2": 6.82,
@@ -38062,7 +39160,7 @@
     {
      "codigo": "1103204",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 11540",
+     "nombre": "Distrito 4 · Jardines del Picacho, Capuchinos y Barriada Arboledilla",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38075,7 +39173,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Jardines del Picacho",
+      "Capuchinos",
+      "Barriada Arboledilla"
+     ],
      "renta_hogar": 30092.0,
      "renta_persona": 12420.0,
      "eur_m2": 6.85,
@@ -38088,7 +39190,7 @@
     {
      "codigo": "1103205",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 11540 y 11549",
+     "nombre": "Distrito 5 · Jardines del Picacho, Barriada Andalucia y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38105,7 +39207,13 @@
        "La Algaida"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Jardines del Picacho",
+      "Barriada Andalucia",
+      "Barriada Arboledilla",
+      "La Algaida",
+      "Bonanza"
+     ],
      "renta_hogar": 29088.0,
      "renta_persona": 10487.0,
      "eur_m2": 6.61,
@@ -38118,7 +39226,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08056",
@@ -38274,7 +39382,7 @@
     {
      "codigo": "0805601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08860",
+     "nombre": "Distrito 1 · el Castell - Poble Vell, els Canyars y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38287,7 +39395,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Castell - Poble Vell",
+      "els Canyars",
+      "Vista Alegre",
+      "Centre"
+     ],
      "renta_hogar": 48449.0,
      "renta_persona": 16959.0,
      "eur_m2": 11.51,
@@ -38300,7 +39413,7 @@
     {
      "codigo": "0805602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08860",
+     "nombre": "Distrito 2 · Centre, el Castell - Poble Vell y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38313,7 +39426,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "el Castell - Poble Vell",
+      "Montmar",
+      "Muntanyeta"
+     ],
      "renta_hogar": 45402.0,
      "renta_persona": 16847.0,
      "eur_m2": 12.12,
@@ -38326,7 +39444,7 @@
     {
      "codigo": "0805603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08860",
+     "nombre": "Distrito 3 · Can Vinader, Muntanyeta y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38339,7 +39457,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Can Vinader",
+      "Muntanyeta",
+      "Can Roca",
+      "Montmar",
+      "Vista Alegre"
+     ],
      "renta_hogar": 58107.0,
      "renta_persona": 20192.0,
      "eur_m2": 11.95,
@@ -38352,7 +39476,7 @@
     {
      "codigo": "0805604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08860",
+     "nombre": "Distrito 4 · el Poal, Montmar y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38365,7 +39489,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Poal",
+      "Montmar",
+      "Baixador",
+      "Bellamar",
+      "les Botigues"
+     ],
      "renta_hogar": 62663.0,
      "renta_persona": 22609.0,
      "eur_m2": 14.07,
@@ -38378,7 +39508,7 @@
     {
      "codigo": "0805605",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08860",
+     "nombre": "Distrito 5 · la Pineda, Lluminetes y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38391,7 +39521,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Pineda",
+      "Lluminetes",
+      "Granvia Mar",
+      "Mar-i-sol",
+      "Can Bou"
+     ],
      "renta_hogar": 62578.0,
      "renta_persona": 23295.0,
      "eur_m2": 14.25,
@@ -38404,7 +39540,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "35004",
@@ -38560,7 +39696,7 @@
     {
      "codigo": "3500401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 35500",
+     "nombre": "Distrito 1 · Centro Ciudad, La Vega y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38573,7 +39709,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro Ciudad",
+      "La Vega",
+      "Valterra",
+      "Las Salinas"
+     ],
      "renta_hogar": 39261.0,
      "renta_persona": 14160.0,
      "eur_m2": 7.22,
@@ -38586,7 +39727,7 @@
     {
      "codigo": "3500402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 35500",
+     "nombre": "Distrito 2 · Argana Alta, Altavista y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38599,7 +39740,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Argana Alta",
+      "Altavista",
+      "Titerroy",
+      "San Francisco Javier",
+      "La Vega"
+     ],
      "renta_hogar": 37193.0,
      "renta_persona": 12141.0,
      "eur_m2": 7.03,
@@ -38612,7 +39759,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08307",
@@ -38768,7 +39915,7 @@
     {
      "codigo": "0830701",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08800",
+     "nombre": "Distrito 1 · la Geltrú, Sant Joan y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38781,7 +39928,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Geltrú",
+      "Sant Joan",
+      "Molí de Vent",
+      "Centrevila",
+      "Plaça de la Sardana"
+     ],
      "renta_hogar": 43875.0,
      "renta_persona": 18155.0,
      "eur_m2": 8.76,
@@ -38794,7 +39947,7 @@
     {
      "codigo": "0830702",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08800",
+     "nombre": "Distrito 2 · Barri de Mar, Ribes Roges y Plaça de la Sardana",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38807,7 +39960,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barri de Mar",
+      "Ribes Roges",
+      "Plaça de la Sardana"
+     ],
      "renta_hogar": 43538.0,
      "renta_persona": 18780.0,
      "eur_m2": 9.34,
@@ -38820,7 +39977,7 @@
     {
      "codigo": "0830703",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08800",
+     "nombre": "Distrito 3 · la Geltrú, L'Armanyà y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38833,7 +39990,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Geltrú",
+      "L'Armanyà",
+      "Tacó",
+      "Casernes",
+      "Centrevila"
+     ],
      "renta_hogar": 37158.0,
      "renta_persona": 15325.0,
      "eur_m2": 9.27,
@@ -38846,7 +40009,7 @@
     {
      "codigo": "0830704",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08800",
+     "nombre": "Distrito 4 · Sant Joan, La Collada - Els Sis Camins y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -38859,7 +40022,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Joan",
+      "La Collada - Els Sis Camins",
+      "Nucli Antic",
+      "Molí de Vent",
+      "Centrevila"
+     ],
      "renta_hogar": 43836.0,
      "renta_persona": 16886.0,
      "eur_m2": 8.29,
@@ -38872,7 +40041,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08301",
@@ -39028,7 +40197,7 @@
     {
      "codigo": "0830101",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08840",
+     "nombre": "Distrito 1 · Barri Antic, Barri de Sales y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39041,7 +40210,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barri Antic",
+      "Barri de Sales",
+      "Grup Sant Jordi",
+      "la Torre-roja",
+      "l'Eixample Centre"
+     ],
      "renta_hogar": 45970.0,
      "renta_persona": 17012.0,
      "eur_m2": 10.32,
@@ -39054,7 +40229,7 @@
     {
      "codigo": "0830102",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08840",
+     "nombre": "Distrito 2 · el Ginestar, la Montserratina y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39067,7 +40242,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "el Ginestar",
+      "la Montserratina",
+      "l'Eixample Centre",
+      "el Torrent Ballester",
+      "el Mas Ratés"
+     ],
      "renta_hogar": 44752.0,
      "renta_persona": 16424.0,
      "eur_m2": 10.26,
@@ -39080,7 +40261,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28047",
@@ -39546,7 +40727,7 @@
     {
      "codigo": "0816901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08820",
+     "nombre": "Distrito 1 · Nucli Antic, Llevant-Marina y Centre",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39559,7 +40740,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Nucli Antic",
+      "Llevant-Marina",
+      "Centre"
+     ],
      "renta_hogar": 46781.0,
      "renta_persona": 18353.0,
      "eur_m2": 10.71,
@@ -39572,7 +40757,7 @@
     {
      "codigo": "0816902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08820",
+     "nombre": "Distrito 2 · Centre, Llevant-Marina y Nucli Antic",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39585,7 +40770,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Llevant-Marina",
+      "Nucli Antic"
+     ],
      "renta_hogar": 43250.0,
      "renta_persona": 17079.0,
      "eur_m2": 11.49,
@@ -39598,7 +40787,7 @@
     {
      "codigo": "0816903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08820",
+     "nombre": "Distrito 3 · Centre, Sant Jordi-Ribera Baixa y Nucli Antic",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39611,7 +40800,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Sant Jordi-Ribera Baixa",
+      "Nucli Antic"
+     ],
      "renta_hogar": 43398.0,
      "renta_persona": 16620.0,
      "eur_m2": 10.71,
@@ -39624,7 +40817,7 @@
     {
      "codigo": "0816904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08820",
+     "nombre": "Distrito 4 · Sant Cosme y la Granja",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39637,7 +40830,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Cosme",
+      "la Granja"
+     ],
      "renta_hogar": 34342.0,
      "renta_persona": 12052.0,
      "eur_m2": 8.19,
@@ -39650,7 +40846,7 @@
     {
      "codigo": "0816905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 08820",
+     "nombre": "Distrito 5 · Centre, Llevant-Marina y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39663,7 +40859,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Llevant-Marina",
+      "la Barceloneta",
+      "Eixample Sud"
+     ],
      "renta_hogar": 44731.0,
      "renta_persona": 17270.0,
      "eur_m2": 11.17,
@@ -39676,7 +40877,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "11022",
@@ -39832,7 +41033,7 @@
     {
      "codigo": "1102201",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 11300",
+     "nombre": "Distrito 1 · Centro Ciudad, Los Navegantes y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39845,7 +41046,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centro Ciudad",
+      "Los Navegantes",
+      "Ballesteros",
+      "Barriada San Pedro",
+      "Huerta Fava"
+     ],
      "renta_hogar": 36240.0,
      "renta_persona": 14463.0,
      "eur_m2": 7.89,
@@ -39858,7 +41065,7 @@
     {
      "codigo": "1102202",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 11300",
+     "nombre": "Distrito 2 · Huerta Fava, Santiago y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39871,7 +41078,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Huerta Fava",
+      "Santiago",
+      "Barriada Santa Bárbara",
+      "El Conchal-El Castillo",
+      "Nuevo El Conchal"
+     ],
      "renta_hogar": 37024.0,
      "renta_persona": 14650.0,
      "eur_m2": 7.84,
@@ -39884,7 +41097,7 @@
     {
      "codigo": "1102203",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 11300",
+     "nombre": "Distrito 3 · San José-Periáñez y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39897,7 +41110,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San José-Periáñez",
+      "Barriada Manuel de Falla",
+      "Barriada Paraíso - Manuel González",
+      "Barriada San Pedro",
+      "Santa Isabel"
+     ],
      "renta_hogar": 32112.0,
      "renta_persona": 12206.0,
      "eur_m2": 7.39,
@@ -39910,7 +41129,7 @@
     {
      "codigo": "1102204",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 11300",
+     "nombre": "Distrito 4 · Pío XII, Barriada Sagrado Corazón de Jesús y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39923,7 +41142,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Pío XII",
+      "Barriada Sagrado Corazón de Jesús",
+      "Mondéjar",
+      "Santa Isabel",
+      "Barriada San Pedro"
+     ],
      "renta_hogar": 26372.0,
      "renta_persona": 9976.0,
      "eur_m2": 6.95,
@@ -39936,7 +41161,7 @@
     {
      "codigo": "1102205",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 11300",
+     "nombre": "Distrito 5 · Mirasierra (Las Palomeras), La Colonia y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39949,7 +41174,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Mirasierra (Las Palomeras)",
+      "La Colonia",
+      "Barriada Sagrado Corazón de Jesús",
+      "Pío XII"
+     ],
      "renta_hogar": 23629.0,
      "renta_persona": 8509.0,
      "eur_m2": 7.93,
@@ -39962,7 +41192,7 @@
     {
      "codigo": "1102206",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 11300",
+     "nombre": "Distrito 6 · San Bernardo, La Atunara y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -39975,7 +41205,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Bernardo",
+      "La Atunara",
+      "Nueva Línea",
+      "Nuevo El Conchal",
+      "San José-Periáñez"
+     ],
      "renta_hogar": 24322.0,
      "renta_persona": 8633.0,
      "eur_m2": 6.79,
@@ -39988,7 +41224,7 @@
     {
      "codigo": "1102207",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 11300",
+     "nombre": "Distrito 7 · Venta Melchor, Barriada Manuel de Falla y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40001,7 +41237,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Venta Melchor",
+      "Barriada Manuel de Falla",
+      "Cotos de Alcaidesa",
+      "Las Anclas",
+      "El Paraíso"
+     ],
      "renta_hogar": 44417.0,
      "renta_persona": 16287.0,
      "eur_m2": 8.3,
@@ -40014,7 +41256,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08096",
@@ -40170,7 +41412,7 @@
     {
      "codigo": "0809601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08401 y 08403",
+     "nombre": "Distrito 1 · Sota el Camí Ral, Instituts y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40184,7 +41426,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sota el Camí Ral",
+      "Instituts",
+      "Centre",
+      "Barriada Congost",
+      "Fàtima"
+     ],
      "renta_hogar": 43554.0,
      "renta_persona": 16277.0,
      "eur_m2": 8.72,
@@ -40197,7 +41445,7 @@
     {
      "codigo": "0809602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08401 y 08402",
+     "nombre": "Distrito 2 · Joan Prim, Centre y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40211,7 +41459,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Joan Prim",
+      "Centre",
+      "Ponent",
+      "Hostal",
+      "Lledoner"
+     ],
      "renta_hogar": 46861.0,
      "renta_persona": 17690.0,
      "eur_m2": 8.87,
@@ -40224,7 +41478,7 @@
     {
      "codigo": "0809603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08402",
+     "nombre": "Distrito 3 · la Font Verda, Bellavista y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40237,7 +41491,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "la Font Verda",
+      "Bellavista",
+      "Centre",
+      "Can Mònic",
+      "Lledoner"
+     ],
      "renta_hogar": 46297.0,
      "renta_persona": 17489.0,
      "eur_m2": 8.84,
@@ -40250,7 +41510,7 @@
     {
      "codigo": "0809604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 08402 y 08401",
+     "nombre": "Distrito 4 · Sant Miquel, Tres Torres y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40264,7 +41524,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Sant Miquel",
+      "Tres Torres",
+      "Can Bassa",
+      "Centre"
+     ],
      "renta_hogar": 44754.0,
      "renta_persona": 16960.0,
      "eur_m2": 8.57,
@@ -40277,7 +41542,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "15036",
@@ -40433,7 +41698,7 @@
     {
      "codigo": "1503601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 15403",
+     "nombre": "Distrito 1 · Esteiro, Recimil y Ensanche B",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40446,7 +41711,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Esteiro",
+      "Recimil",
+      "Ensanche B"
+     ],
      "renta_hogar": 35004.0,
      "renta_persona": 16521.0,
      "eur_m2": 5.64,
@@ -40459,7 +41728,7 @@
     {
      "codigo": "1503602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 15404 y 15403",
+     "nombre": "Distrito 2 · Ensanche B, Ensanche A y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40475,7 +41744,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Ensanche B",
+      "Ensanche A",
+      "A Madalena",
+      "O Inferniño",
+      "O Loureiro"
+     ],
      "renta_hogar": 34117.0,
      "renta_persona": 15961.0,
      "eur_m2": 4.65,
@@ -40488,7 +41763,7 @@
     {
      "codigo": "1503603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 15401 y 15402",
+     "nombre": "Distrito 3 · Canido y A Madalena",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40503,7 +41778,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Canido",
+      "A Madalena"
+     ],
      "renta_hogar": 36042.0,
      "renta_persona": 17183.0,
      "eur_m2": 4.82,
@@ -40516,7 +41794,7 @@
     {
      "codigo": "1503604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 15401 y 15402",
+     "nombre": "Distrito 4 · A Madalena y Canido",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40530,7 +41808,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "A Madalena",
+      "Canido"
+     ],
      "renta_hogar": 42087.0,
      "renta_persona": 19359.0,
      "eur_m2": 4.5,
@@ -40543,7 +41824,7 @@
     {
      "codigo": "1503605",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 15401",
+     "nombre": "Distrito 5 · Canido, Ferrol Vello y A Madalena",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40556,7 +41837,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Canido",
+      "Ferrol Vello",
+      "A Madalena"
+     ],
      "renta_hogar": 39353.0,
      "renta_persona": 17738.0,
      "eur_m2": 5.01,
@@ -40569,7 +41854,7 @@
     {
      "codigo": "1503606",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 15406 y 15404",
+     "nombre": "Distrito 6 · Caranza, Ensanche B y San Xoán de Filgueira",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40583,7 +41868,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Caranza",
+      "Ensanche B",
+      "San Xoán de Filgueira"
+     ],
      "renta_hogar": 30200.0,
      "renta_persona": 14440.0,
      "eur_m2": 4.76,
@@ -40596,7 +41885,7 @@
     {
      "codigo": "1503607",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 15404 y 15405",
+     "nombre": "Distrito 7 · San Xoán de Filgueira, As Chousas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40614,7 +41903,13 @@
        "Beleicon"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Xoán de Filgueira",
+      "As Chousas",
+      "Catabois",
+      "Santa Icía de Trasancos",
+      "Santa Mariña do Vilar"
+     ],
      "renta_hogar": 33152.0,
      "renta_persona": 14879.0,
      "eur_m2": 4.06,
@@ -40627,7 +41922,7 @@
     {
      "codigo": "1503608",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 15405 y 15590",
+     "nombre": "Distrito 8 · Serantes, A Cabana y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40647,7 +41942,13 @@
        "Mouga"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Serantes",
+      "A Cabana",
+      "A Graña",
+      "Santa Mariña do Vilar",
+      "Xoane"
+     ],
      "renta_hogar": 34655.0,
      "renta_persona": 15992.0,
      "eur_m2": 4.27,
@@ -40660,7 +41961,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "20045",
@@ -40816,7 +42117,7 @@
     {
      "codigo": "2004501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 20304 y 20302",
+     "nombre": "Distrito 1 · Beraun, Santiago y Mendibil",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40831,7 +42132,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Beraun",
+      "Santiago",
+      "Mendibil"
+     ],
      "renta_hogar": 45413.0,
      "renta_persona": 19667.0,
      "eur_m2": 10.49,
@@ -40844,7 +42149,7 @@
     {
      "codigo": "2004502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 20304 y 20305",
+     "nombre": "Distrito 2 · Santiago, Behobia y Larreaundi",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40859,7 +42164,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santiago",
+      "Behobia",
+      "Larreaundi"
+     ],
      "renta_hogar": 44242.0,
      "renta_persona": 17747.0,
      "eur_m2": 9.62,
@@ -40872,7 +42181,7 @@
     {
      "codigo": "2004503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 20301 y 20302",
+     "nombre": "Distrito 3 · San Miguel, Mendibil y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40887,7 +42196,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Miguel",
+      "Mendibil",
+      "Lapitze",
+      "Anaka",
+      "Pinar"
+     ],
      "renta_hogar": 42624.0,
      "renta_persona": 17532.0,
      "eur_m2": 9.83,
@@ -40900,7 +42215,7 @@
     {
      "codigo": "2004504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 20303 y 20305",
+     "nombre": "Distrito 4 · Lapitze, Larreaundi y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -40914,7 +42229,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Lapitze",
+      "Larreaundi",
+      "Landetxa - Ventas",
+      "Katea"
+     ],
      "renta_hogar": 42454.0,
      "renta_persona": 17186.0,
      "eur_m2": 9.83,
@@ -40927,7 +42247,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "24115",
@@ -41138,7 +42458,7 @@
     {
      "codigo": "2411503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 24403",
+     "nombre": "Distrito 3 · Flores del Sil, La Martina y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41155,7 +42475,12 @@
        "La Placa"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Flores del Sil",
+      "La Martina",
+      "La Placa",
+      "Barrio de Arriba"
+     ],
      "renta_hogar": 29418.0,
      "renta_persona": 13025.0,
      "eur_m2": 4.5,
@@ -41262,7 +42587,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28013",
@@ -41418,7 +42743,7 @@
     {
      "codigo": "2801301",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 28300",
+     "nombre": "Distrito 1 · Alpajes, Guardiola y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41431,7 +42756,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Alpajes",
+      "Guardiola",
+      "Las Moreras",
+      "Colonia Aviación Norte",
+      "Colonia Militar"
+     ],
      "renta_hogar": 42410.0,
      "renta_persona": 15114.0,
      "eur_m2": 7.79,
@@ -41444,7 +42775,7 @@
     {
      "codigo": "2801302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 28300",
+     "nombre": "Distrito 2 · Nuevo Aranjuez, Residencial Monte Jardín y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41457,7 +42788,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Nuevo Aranjuez",
+      "Residencial Monte Jardín",
+      "Guardiola",
+      "El Mirador",
+      "Casco Antiguo"
+     ],
      "renta_hogar": 41825.0,
      "renta_persona": 14713.0,
      "eur_m2": 7.91,
@@ -41470,7 +42807,7 @@
     {
      "codigo": "2801303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 28300",
+     "nombre": "Distrito 3 · Olivas, Las Aves y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41483,7 +42820,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Olivas",
+      "Las Aves",
+      "Casco Antiguo",
+      "Urbanización Vista Real",
+      "El Deleite"
+     ],
      "renta_hogar": 40478.0,
      "renta_persona": 14531.0,
      "eur_m2": 8.08,
@@ -41496,7 +42839,7 @@
     {
      "codigo": "2801304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 28300",
+     "nombre": "Distrito 4 · Monte Perdido, Cáceres y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41513,7 +42856,13 @@
        "Sotomayor"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Monte Perdido",
+      "Cáceres",
+      "Jerusalén",
+      "Jardín Narvaez",
+      "Palacio"
+     ],
      "renta_hogar": 50682.0,
      "renta_persona": 16000.0,
      "eur_m2": 7.46,
@@ -41526,7 +42875,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "03009",
@@ -41682,7 +43031,7 @@
     {
      "codigo": "0300901",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 03801",
+     "nombre": "Distrito 1 · Centre y el Viaducte",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41695,7 +43044,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "el Viaducte"
+     ],
      "renta_hogar": 33098.0,
      "renta_persona": 15037.0,
      "eur_m2": 5.49,
@@ -41708,7 +43060,7 @@
     {
      "codigo": "0300902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 03801",
+     "nombre": "Distrito 2 · Zona Alta y Centre",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41721,7 +43073,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Zona Alta",
+      "Centre"
+     ],
      "renta_hogar": 30767.0,
      "renta_persona": 13499.0,
      "eur_m2": 4.79,
@@ -41734,7 +43089,7 @@
     {
      "codigo": "0300903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 03802 y 03801",
+     "nombre": "Distrito 3 · Santa Rosa y Batoi",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41748,7 +43103,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Rosa",
+      "Batoi"
+     ],
      "renta_hogar": 31247.0,
      "renta_persona": 13155.0,
      "eur_m2": 4.16,
@@ -41761,7 +43119,7 @@
     {
      "codigo": "0300904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 03802 y 03801",
+     "nombre": "Distrito 4 · Santa Rosa",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41775,7 +43133,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Rosa"
+     ],
      "renta_hogar": 31706.0,
      "renta_persona": 13350.0,
      "eur_m2": 4.23,
@@ -41788,7 +43148,7 @@
     {
      "codigo": "0300905",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 03803",
+     "nombre": "Distrito 5 · l'Eixample, Santa Rosa y les Mascarelles",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41801,7 +43161,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "l'Eixample",
+      "Santa Rosa",
+      "les Mascarelles"
+     ],
      "renta_hogar": 35971.0,
      "renta_persona": 14846.0,
      "eur_m2": 4.47,
@@ -41814,7 +43178,7 @@
     {
      "codigo": "0300906",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 03803 y 03804",
+     "nombre": "Distrito 6 · l'Eixample y Santa Rosa",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41828,7 +43192,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "l'Eixample",
+      "Santa Rosa"
+     ],
      "renta_hogar": 35316.0,
      "renta_persona": 14819.0,
      "eur_m2": 4.52,
@@ -41841,7 +43208,7 @@
     {
      "codigo": "0300907",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 03804",
+     "nombre": "Distrito 7 · Zona Nord, l'Eixample y Urbanització Sol i Camp",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41854,7 +43221,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Zona Nord",
+      "l'Eixample",
+      "Urbanització Sol i Camp"
+     ],
      "renta_hogar": 30253.0,
      "renta_persona": 12649.0,
      "eur_m2": 4.12,
@@ -41867,7 +43238,7 @@
     {
      "codigo": "0300908",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 03804",
+     "nombre": "Distrito 8 · Zona Nord, Urbanització Sol i Camp y Urbanització El Baradello Gelat",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -41880,7 +43251,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Zona Nord",
+      "Urbanització Sol i Camp",
+      "Urbanització El Baradello Gelat"
+     ],
      "renta_hogar": 35522.0,
      "renta_persona": 14258.0,
      "eur_m2": 4.44,
@@ -41893,7 +43268,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "06083",
@@ -42075,7 +43450,7 @@
     {
      "codigo": "0608302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 06800",
+     "nombre": "Distrito 2 · Los Bodegones, Zona Sur y San Antonio",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42088,7 +43463,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Los Bodegones",
+      "Zona Sur",
+      "San Antonio"
+     ],
      "renta_hogar": 36013.0,
      "renta_persona": 15731.0,
      "eur_m2": 5.17,
@@ -42101,7 +43480,7 @@
     {
      "codigo": "0608303",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 06800",
+     "nombre": "Distrito 3 · Los Bodegones, San Juan y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42116,7 +43495,13 @@
        "El Vivero"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Los Bodegones",
+      "San Juan",
+      "Plantonal de Vera",
+      "El Vivero",
+      "Zona Sur"
+     ],
      "renta_hogar": 39337.0,
      "renta_persona": 16005.0,
      "eur_m2": 5.28,
@@ -42129,7 +43514,7 @@
     {
      "codigo": "0608304",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 06800",
+     "nombre": "Distrito 4 · San Juan, Las Abadías y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42146,7 +43531,12 @@
        "Campomanes"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Juan",
+      "Las Abadías",
+      "Montealto",
+      "Proserpina"
+     ],
      "renta_hogar": 32137.0,
      "renta_persona": 12239.0,
      "eur_m2": 4.8,
@@ -42159,7 +43549,7 @@
     {
      "codigo": "0608305",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 06800",
+     "nombre": "Distrito 5 · San Andrés",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42172,7 +43562,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Andrés"
+     ],
      "renta_hogar": 26111.0,
      "renta_persona": 10979.0,
      "eur_m2": null,
@@ -42185,7 +43577,7 @@
     {
      "codigo": "0608306",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 06800",
+     "nombre": "Distrito 6 · Nueva Ciudad, El Prado y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42202,7 +43594,13 @@
        "El Prado"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Nueva Ciudad",
+      "El Prado",
+      "Bellavista",
+      "El Torillo",
+      "San Antonio"
+     ],
      "renta_hogar": 33889.0,
      "renta_persona": 13568.0,
      "eur_m2": 4.98,
@@ -42215,7 +43613,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "18140",
@@ -42371,7 +43769,7 @@
     {
      "codigo": "1814001",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 18600 y 18613",
+     "nombre": "Distrito 1 · Huerta Carrasco",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42385,7 +43783,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Huerta Carrasco"
+     ],
      "renta_hogar": 37069.0,
      "renta_persona": 13949.0,
      "eur_m2": 5.19,
@@ -42398,7 +43798,7 @@
     {
      "codigo": "1814002",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 18600",
+     "nombre": "Distrito 2 · Huerta Carrasco, Las Angustias y Barrio de Aviación",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42411,7 +43811,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Huerta Carrasco",
+      "Las Angustias",
+      "Barrio de Aviación"
+     ],
      "renta_hogar": 34742.0,
      "renta_persona": 12328.0,
      "eur_m2": 5.24,
@@ -42424,7 +43828,7 @@
     {
      "codigo": "1814003",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 18600",
+     "nombre": "Distrito 3 · La Fabriquilla y Huerta Carrasco",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42437,7 +43841,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Fabriquilla",
+      "Huerta Carrasco"
+     ],
      "renta_hogar": 37935.0,
      "renta_persona": 14614.0,
      "eur_m2": 5.17,
@@ -42450,7 +43857,7 @@
     {
      "codigo": "1814004",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 18600",
+     "nombre": "Distrito 4 · San José, La Fabriquilla y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42463,7 +43870,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San José",
+      "La Fabriquilla",
+      "Los Álamos",
+      "San Antonio",
+      "Cerrillo Jaime"
+     ],
      "renta_hogar": 30507.0,
      "renta_persona": 11193.0,
      "eur_m2": 5.3,
@@ -42509,7 +43922,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "03122",
@@ -42665,7 +44078,7 @@
     {
      "codigo": "0312201",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 03690",
+     "nombre": "Distrito 1 · Juan XXIII, Centro y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42678,7 +44091,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Juan XXIII",
+      "Centro",
+      "Polideportivo",
+      "Lo Torrent",
+      "Hospital"
+     ],
      "renta_hogar": 34609.0,
      "renta_persona": 13018.0,
      "eur_m2": 5.95,
@@ -42691,7 +44110,7 @@
     {
      "codigo": "0312202",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 03690",
+     "nombre": "Distrito 2 · Lo Torrent, Centro y Velódormo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42704,7 +44123,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Lo Torrent",
+      "Centro",
+      "Velódormo"
+     ],
      "renta_hogar": 35961.0,
      "renta_persona": 13828.0,
      "eur_m2": 6.76,
@@ -42717,7 +44140,7 @@
     {
      "codigo": "0312203",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 03690",
+     "nombre": "Distrito 3 · Santa Isabel, Lo Torrent y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42733,7 +44156,13 @@
        "Raspeig"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Santa Isabel",
+      "Lo Torrent",
+      "Boqueres",
+      "Los Girasoles",
+      "la Borinquen"
+     ],
      "renta_hogar": 43382.0,
      "renta_persona": 14906.0,
      "eur_m2": 7.05,
@@ -42746,7 +44175,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "49275",
@@ -42902,7 +44331,7 @@
     {
      "codigo": "4927501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 49008 y 49009",
+     "nombre": "Distrito 1 · Barrio La Lana, Pantoja y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42918,7 +44347,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio La Lana",
+      "Pantoja",
+      "Las Viñas",
+      "Ciudad Jardín"
+     ],
      "renta_hogar": 38228.0,
      "renta_persona": 17965.0,
      "eur_m2": 4.86,
@@ -42931,7 +44365,7 @@
     {
      "codigo": "4927502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 49021 y 49020",
+     "nombre": "Distrito 2 · La Horta, Candelaria y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42947,7 +44381,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Horta",
+      "Candelaria",
+      "Los Bloques",
+      "San Lorenzo",
+      "Barrio La Lana"
+     ],
      "renta_hogar": 34830.0,
      "renta_persona": 16446.0,
      "eur_m2": 5.02,
@@ -42960,7 +44400,7 @@
     {
      "codigo": "4927503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 49028 y 49027",
+     "nombre": "Distrito 3 · Pinilla, San Frontis y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -42976,7 +44416,12 @@
        "Carrascal"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Pinilla",
+      "San Frontis",
+      "El Sepulcro",
+      "Cabañales"
+     ],
      "renta_hogar": 30009.0,
      "renta_persona": 12919.0,
      "eur_m2": 4.94,
@@ -42989,7 +44434,7 @@
     {
      "codigo": "4927504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 49026 y 49001",
+     "nombre": "Distrito 4 · Olivares, Espíritu Santo y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -43005,7 +44450,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Olivares",
+      "Espíritu Santo",
+      "San Lázaro",
+      "Los Almendros",
+      "La Horta"
+     ],
      "renta_hogar": 37853.0,
      "renta_persona": 16859.0,
      "eur_m2": 5.29,
@@ -43018,7 +44469,7 @@
     {
      "codigo": "4927505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 49023 y 49024",
+     "nombre": "Distrito 5 · San José Obrero, San Blas - Peña Trevinca y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -43034,7 +44485,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San José Obrero",
+      "San Blas - Peña Trevinca",
+      "San Lázaro",
+      "Los Almendros"
+     ],
      "renta_hogar": 29575.0,
      "renta_persona": 13358.0,
      "eur_m2": 4.64,
@@ -43047,7 +44503,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28014",
@@ -44181,7 +45637,7 @@
     {
      "codigo": "2811302",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 28320",
+     "nombre": "Distrito 2 · Parque Europa, La Tenería II y La Tenería",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44196,7 +45652,11 @@
        "Las Arenas"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Parque Europa",
+      "La Tenería II",
+      "La Tenería"
+     ],
      "renta_hogar": 47022.0,
      "renta_persona": 16948.0,
      "eur_m2": 9.34,
@@ -44209,7 +45669,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "03066",
@@ -44365,7 +45825,7 @@
     {
      "codigo": "0306601",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 03600",
+     "nombre": "Distrito 1 · Huerta Nueva, Prosperidad y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44378,7 +45838,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Huerta Nueva",
+      "Prosperidad",
+      "El Caliu",
+      "Casco Antiguo de Elda",
+      "La Estación"
+     ],
      "renta_hogar": 23349.0,
      "renta_persona": 9208.0,
      "eur_m2": 4.43,
@@ -44391,7 +45857,7 @@
     {
      "codigo": "0306602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 03600",
+     "nombre": "Distrito 2 · Molinos de Félix, Casco Antiguo de Elda y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44404,7 +45870,12 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Molinos de Félix",
+      "Casco Antiguo de Elda",
+      "Caliu",
+      "Barrio Las 300"
+     ],
      "renta_hogar": 28513.0,
      "renta_persona": 11721.0,
      "eur_m2": 4.91,
@@ -44445,7 +45916,7 @@
     {
      "codigo": "0306604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 03600",
+     "nombre": "Distrito 4 · Barrio San Francisco de Sales y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44458,7 +45929,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio San Francisco de Sales",
+      "Barrio Las 300",
+      "El Trinquete",
+      "Las Trescientas",
+      "Barrio Sector 9"
+     ],
      "renta_hogar": 30826.0,
      "renta_persona": 12124.0,
      "eur_m2": 4.31,
@@ -44471,7 +45948,7 @@
     {
      "codigo": "0306605",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 03600",
+     "nombre": "Distrito 5 · La Nueva Fraternidad, Fraternidad y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44484,7 +45961,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "La Nueva Fraternidad",
+      "Fraternidad",
+      "El Progreso",
+      "Mujeres del Calzado",
+      "El Trinquete"
+     ],
      "renta_hogar": 29331.0,
      "renta_persona": 11996.0,
      "eur_m2": 4.68,
@@ -44497,7 +45980,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "23055",
@@ -44653,7 +46136,7 @@
     {
      "codigo": "2305501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 23700",
+     "nombre": "Distrito 1 · Anibal e Himilce, Blas Infante y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44670,7 +46153,13 @@
        "Cañada Incosa-Cerro Pelad"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Anibal e Himilce",
+      "Blas Infante",
+      "Cantarranas",
+      "La Zarzuela",
+      "La Florida"
+     ],
      "renta_hogar": 33429.0,
      "renta_persona": 12727.0,
      "eur_m2": 4.31,
@@ -44683,7 +46172,7 @@
     {
      "codigo": "2305502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 23700",
+     "nombre": "Distrito 2 · El Cerro, Centro y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44696,7 +46185,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "El Cerro",
+      "Centro",
+      "Belén",
+      "El Pisar",
+      "Masegosas"
+     ],
      "renta_hogar": 29418.0,
      "renta_persona": 11603.0,
      "eur_m2": 4.06,
@@ -44709,7 +46204,7 @@
     {
      "codigo": "2305503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 23700",
+     "nombre": "Distrito 3 · Barriada de los Arrayanes, La Malena y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44722,7 +46217,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barriada de los Arrayanes",
+      "La Malena",
+      "Santa Margarita",
+      "Villalonga",
+      "El Pisar"
+     ],
      "renta_hogar": 25728.0,
      "renta_persona": 10153.0,
      "eur_m2": 3.99,
@@ -44735,7 +46236,7 @@
     {
      "codigo": "2305504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 23700",
+     "nombre": "Distrito 4 · Paseo de Linarejos, Santa Margarita y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44748,7 +46249,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Paseo de Linarejos",
+      "Santa Margarita",
+      "San José",
+      "Las Aguas",
+      "San Francisco"
+     ],
      "renta_hogar": 34866.0,
      "renta_persona": 14254.0,
      "eur_m2": 3.98,
@@ -44761,7 +46268,7 @@
     {
      "codigo": "2305505",
      "numero": 5,
-     "nombre": "Distrito 5 · CP 23700",
+     "nombre": "Distrito 5 · Casco Antiguo, Barriada del Sol y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44774,7 +46281,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Antiguo",
+      "Barriada del Sol",
+      "La Florida",
+      "Marqueses de Linares",
+      "Barriada Girón"
+     ],
      "renta_hogar": 35101.0,
      "renta_persona": 13828.0,
      "eur_m2": 4.24,
@@ -44787,7 +46300,7 @@
     {
      "codigo": "2305506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 23700",
+     "nombre": "Distrito 6 · Colón, Marqueses de Linares y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44800,7 +46313,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Colón",
+      "Marqueses de Linares",
+      "Barriada Andaluza",
+      "San Francisco",
+      "Barriada Girón"
+     ],
      "renta_hogar": 31785.0,
      "renta_persona": 13602.0,
      "eur_m2": 3.99,
@@ -44813,7 +46332,7 @@
     {
      "codigo": "2305507",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 23700",
+     "nombre": "Distrito 7 · San Gonzalo, Las Américas y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44826,7 +46345,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "San Gonzalo",
+      "Las Américas",
+      "Estación de Almería",
+      "San José",
+      "Colón"
+     ],
      "renta_hogar": 42355.0,
      "renta_persona": 15230.0,
      "eur_m2": 4.41,
@@ -44839,7 +46364,7 @@
     {
      "codigo": "2305508",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 23490",
+     "nombre": "Distrito 8 · Estación Linares-Baeza",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -44854,7 +46379,9 @@
        "Estacion Linares-Baeza"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Estación Linares-Baeza"
+     ],
      "renta_hogar": 26693.0,
      "renta_persona": 10216.0,
      "eur_m2": null,
@@ -44867,7 +46394,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "35019",
@@ -45056,7 +46583,7 @@
     {
      "codigo": "3501902",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 35107 y 35100",
+     "nombre": "Distrito 2 · Castillo del Romeral, Aldea Blanca y Juan Grande",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45075,7 +46602,11 @@
        "Juan Grande"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Castillo del Romeral",
+      "Aldea Blanca",
+      "Juan Grande"
+     ],
      "renta_hogar": 35440.0,
      "renta_persona": 12837.0,
      "eur_m2": 7.32,
@@ -45088,7 +46619,7 @@
     {
      "codigo": "3501903",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 35100",
+     "nombre": "Distrito 3 · San Fernando, Playa del Inglés y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45105,7 +46636,13 @@
        "Campo Internacional"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "San Fernando",
+      "Playa del Inglés",
+      "Sonnenland",
+      "San Agustín",
+      "El Veril"
+     ],
      "renta_hogar": 36760.0,
      "renta_persona": 15675.0,
      "eur_m2": 9.15,
@@ -45118,7 +46655,7 @@
     {
      "codigo": "3501904",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 35109 y 35100",
+     "nombre": "Distrito 4 · El Tablero, Montaña La Data y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45137,7 +46674,13 @@
        "El Salobre"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "El Tablero",
+      "Montaña La Data",
+      "El Salobre",
+      "Lomo Galeon",
+      "Media Fanega"
+     ],
      "renta_hogar": 37700.0,
      "renta_persona": 13873.0,
      "eur_m2": 8.59,
@@ -45150,7 +46693,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "28903",
@@ -45461,7 +47004,7 @@
     {
      "codigo": "2212501",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 22001 y 22002",
+     "nombre": "Distrito 1 · Casco Antiguo y Barrio de Santo Domingo y San Martín",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45476,7 +47019,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Casco Antiguo",
+      "Barrio de Santo Domingo y San Martín"
+     ],
      "renta_hogar": 32084.0,
      "renta_persona": 13649.0,
      "eur_m2": 7.79,
@@ -45489,7 +47035,7 @@
     {
      "codigo": "2212502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 22001 y 22005",
+     "nombre": "Distrito 2 · Barrio de Santo Domingo y San Martín y Barrio del Perpetuo Socorro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45503,7 +47049,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Santo Domingo y San Martín",
+      "Barrio del Perpetuo Socorro"
+     ],
      "renta_hogar": 37259.0,
      "renta_persona": 15597.0,
      "eur_m2": 6.61,
@@ -45516,7 +47065,7 @@
     {
      "codigo": "2212503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 22005 y 22002",
+     "nombre": "Distrito 3 · Los Olivos, Barrio de San Lorenzo y Barrio de Santo Domingo y San Martín",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45535,7 +47084,11 @@
        "Tabernas del Isuela"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Los Olivos",
+      "Barrio de San Lorenzo",
+      "Barrio de Santo Domingo y San Martín"
+     ],
      "renta_hogar": 43424.0,
      "renta_persona": 17856.0,
      "eur_m2": 7.37,
@@ -45548,7 +47101,7 @@
     {
      "codigo": "2212504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 22006 y 22005",
+     "nombre": "Distrito 4 · Barrio del Perpetuo Socorro",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45568,7 +47121,9 @@
        "Fornillos de Apies"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio del Perpetuo Socorro"
+     ],
      "renta_hogar": 29712.0,
      "renta_persona": 11018.0,
      "eur_m2": 6.23,
@@ -45614,7 +47169,7 @@
     {
      "codigo": "2212506",
      "numero": 6,
-     "nombre": "Distrito 6 · CP 22003 y 22004",
+     "nombre": "Distrito 6 · Barrio de Santiago, Barrio de San José y Barrio de la Encarnación",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45629,7 +47184,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Santiago",
+      "Barrio de San José",
+      "Barrio de la Encarnación"
+     ],
      "renta_hogar": 42479.0,
      "renta_persona": 18917.0,
      "eur_m2": 5.68,
@@ -45642,7 +47201,7 @@
     {
      "codigo": "2212507",
      "numero": 7,
-     "nombre": "Distrito 7 · CP 22004 y 22003",
+     "nombre": "Distrito 7 · Barrio de Santiago, Barrio de María Auxiliadora y María Auxiliadora",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45658,7 +47217,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Santiago",
+      "Barrio de María Auxiliadora",
+      "María Auxiliadora"
+     ],
      "renta_hogar": 41743.0,
      "renta_persona": 17174.0,
      "eur_m2": 5.76,
@@ -45671,7 +47234,7 @@
     {
      "codigo": "2212508",
      "numero": 8,
-     "nombre": "Distrito 8 · CP 22003 y 22002",
+     "nombre": "Distrito 8 · Barrio de Santiago, Barrio de San José y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -45686,7 +47249,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Santiago",
+      "Barrio de San José",
+      "Casco Antiguo",
+      "Barrio de María Auxiliadora",
+      "Barrio de San Lorenzo"
+     ],
      "renta_hogar": 43599.0,
      "renta_persona": 18888.0,
      "eur_m2": 6.14,
@@ -45699,7 +47268,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "07011",
@@ -46190,7 +47759,7 @@
     {
      "codigo": "0702602",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 07800",
+     "nombre": "Distrito 2 · Dalt Vila, la Marina y sa Penya",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46203,7 +47772,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Dalt Vila",
+      "la Marina",
+      "sa Penya"
+     ],
      "renta_hogar": 38062.0,
      "renta_persona": 16555.0,
      "eur_m2": 14.63,
@@ -46216,7 +47789,7 @@
     {
      "codigo": "0702603",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 07800",
+     "nombre": "Distrito 3 · s'Alamera, Passeig Maritim y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46229,7 +47802,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "s'Alamera",
+      "Passeig Maritim",
+      "s'Illa Plana",
+      "s'Hort de sa Fruita",
+      "ses Figueres"
+     ],
      "renta_hogar": 60007.0,
      "renta_persona": 24005.0,
      "eur_m2": 14.71,
@@ -46242,7 +47821,7 @@
     {
      "codigo": "0702604",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 07800",
+     "nombre": "Distrito 4 · ses Figueretes, es Pratet y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46255,7 +47834,13 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "ses Figueretes",
+      "es Pratet",
+      "Can Serres",
+      "es Clot",
+      "s'Hort del Bisbe"
+     ],
      "renta_hogar": 54752.0,
      "renta_persona": 18086.0,
      "eur_m2": 12.3,
@@ -46268,7 +47853,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "16078",
@@ -46424,7 +48009,7 @@
     {
      "codigo": "1607801",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 16001 y 16146",
+     "nombre": "Distrito 1 · Barrio de Tiradores y Barrio del Castillo",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46440,7 +48025,10 @@
        "Valdecabras"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Tiradores",
+      "Barrio del Castillo"
+     ],
      "renta_hogar": 36881.0,
      "renta_persona": 19285.0,
      "eur_m2": 5.85,
@@ -46453,7 +48041,7 @@
     {
      "codigo": "1607802",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 16001 y 16002",
+     "nombre": "Distrito 2 · Barrio de Tiradores y Barrio de San Antón",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46467,7 +48055,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barrio de Tiradores",
+      "Barrio de San Antón"
+     ],
      "renta_hogar": 37807.0,
      "renta_persona": 18946.0,
      "eur_m2": 6.18,
@@ -46542,7 +48133,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "12135",
@@ -46752,7 +48343,7 @@
     {
      "codigo": "1213503",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 12540",
+     "nombre": "Distrito 3 · els Evangelistes y Melilla",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46767,7 +48358,10 @@
        "Virgen de Gracia"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "els Evangelistes",
+      "Melilla"
+     ],
      "renta_hogar": 37040.0,
      "renta_persona": 14416.0,
      "eur_m2": 4.81,
@@ -46780,7 +48374,7 @@
     {
      "codigo": "1213504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 12540",
+     "nombre": "Distrito 4 · els Evangelistes",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -46795,7 +48389,9 @@
        "Pinella"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "els Evangelistes"
+     ],
      "renta_hogar": 36163.0,
      "renta_persona": 13677.0,
      "eur_m2": 4.9,
@@ -46808,7 +48404,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "33066",
@@ -47300,7 +48896,7 @@
     {
      "codigo": "4109502",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 41710 y 41728",
+     "nombre": "Distrito 2 · Barriada Los Salesianos y Barriada Madres Carmelitas",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -47314,7 +48910,10 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barriada Los Salesianos",
+      "Barriada Madres Carmelitas"
+     ],
      "renta_hogar": 33451.0,
      "renta_persona": 12524.0,
      "eur_m2": 6.03,
@@ -47353,7 +48952,7 @@
     {
      "codigo": "4109504",
      "numero": 4,
-     "nombre": "Distrito 4 · CP 41710",
+     "nombre": "Distrito 4 · Barriada Los Salesianos",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -47366,7 +48965,9 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Barriada Los Salesianos"
+     ],
      "renta_hogar": 35359.0,
      "renta_persona": 13019.0,
      "eur_m2": 5.91,
@@ -47409,7 +49010,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "08124",
@@ -47565,7 +49166,7 @@
     {
      "codigo": "0812401",
      "numero": 1,
-     "nombre": "Distrito 1 · CP 08100",
+     "nombre": "Distrito 1 · Estació de França, Estació del Nord y el Calderí",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -47578,7 +49179,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Estació de França",
+      "Estació del Nord",
+      "el Calderí"
+     ],
      "renta_hogar": 40539.0,
      "renta_persona": 15199.0,
      "eur_m2": 8.16,
@@ -47591,7 +49196,7 @@
     {
      "codigo": "0812402",
      "numero": 2,
-     "nombre": "Distrito 2 · CP 08100",
+     "nombre": "Distrito 2 · Centre, Can Pantiquet y la Riera Seca",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -47604,7 +49209,11 @@
       ],
       "nucleos": []
      },
-     "barrios": [],
+     "barrios": [
+      "Centre",
+      "Can Pantiquet",
+      "la Riera Seca"
+     ],
      "renta_hogar": 43961.0,
      "renta_persona": 17069.0,
      "eur_m2": 8.9,
@@ -47617,7 +49226,7 @@
     {
      "codigo": "0812403",
      "numero": 3,
-     "nombre": "Distrito 3 · CP 08100",
+     "nombre": "Distrito 3 · els Col·legis Nous, la Plana Lledó y otros barrios",
      "con_nombre_oficial": false,
      "zona": {
       "cps": [
@@ -47632,7 +49241,12 @@
        "Gallecs"
       ]
      },
-     "barrios": [],
+     "barrios": [
+      "els Col·legis Nous",
+      "la Plana Lledó",
+      "Can Borrell",
+      "Santa Rosa"
+     ],
      "renta_hogar": 42071.0,
      "renta_persona": 15458.0,
      "eur_m2": 8.39,
@@ -47645,7 +49259,7 @@
    ],
    "cita_nombres_distritos": "",
    "cita_barrios": "",
-   "nota_barrios": ""
+   "nota_barrios": "Se nombran hasta 5 barrios donde vive al menos el 5 % de la población del distrito."
   },
   {
    "cod_muni": "40194",

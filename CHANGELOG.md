@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 21/11/2026: barrios de OpenStreetMap en todas las ciudades posibles (B-32)
+- Con los archivos que faltaban (las consultas grandes se partieron en trozos de 5 ciudades), `zonas_osm.py` pone barrios en 654 distritos de 115 ciudades. Sin barrios por falta de datos en OSM: Huelva, Torrejón de Ardoz, Roquetas de Mar, San Fernando, Chiclana, Coslada, Alcalá de Guadaíra, Ávila y Calvià (y distritos sueltos de otras).
+- Nombres de OSM que empiezan en minúscula se ponen con mayúscula inicial ("carme" → "Carme"), salvo artículos ("els Poetes").
+- La meta description de los rankings de barrios usa el primer barrio del distrito (el nombre completo pasaba de 160 caracteres). Tests: 20 OK.
+
 ## 21/11/2026: datos estructurados de Dataset corregidos (aviso de Search Console)
 - Search Console avisó: falta "description" (crítico), tipo de "creator" no válido y falta "license". Venían de las dos fuentes citadas en `isBasedOn` (SERPAVI y ADRH), no del Dataset principal.
 - `FUENTES_LD` en `generar_web.py`: cada fuente lleva descripción, `creator` de tipo Organization con nombre y web, URL y licencia (INE: CC BY 4.0; Ministerio: su aviso legal, ver FUENTES.md).

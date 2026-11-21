@@ -133,6 +133,18 @@ def calles_ine(munis):
     return sec
 
 
+ARTICULOS = re.compile(r"^(el|la|les|los|las|els|es|sa|ses|so|o|a|os|as|l'|l’|s'|s’|d'|d’)\b", re.I)
+
+
+def arregla(k):
+    """Solo mayúsculas: 'SAN JOSE' -> 'San Jose'; 'carme' -> 'Carme' (los artículos en minúscula se respetan)."""
+    if k == k.upper():
+        return bonito(k)
+    if k[:1].islower() and not ARTICULOS.match(k):
+        return k[:1].upper() + k[1:]
+    return k
+
+
 def main():
     import pandas as pd
     calles, barrios = leer_calles(), leer_barrios()
@@ -192,7 +204,7 @@ def main():
         for d in sorted(tot):
             cov = cub[d] / tot[d] if tot[d] else 0
             t = sum(dist_b[d].values())
-            noms = [bonito(k) if k == k.upper() else k for k, v in dist_b[d].most_common() if t and v / t >= MIN_CUOTA][:MAX_BARRIOS]
+            noms = [arregla(k) for k, v in dist_b[d].most_common() if t and v / t >= MIN_CUOTA][:MAX_BARRIOS]
             informe.append((muni, nombres_muni.get(muni, ""), d, cov, noms, len(b["poli"]), len(b["nodos"])))
             if cov >= MIN_COBERTURA and noms and muni not in SOLO_COMPROBAR:
                 filas.append({"codigo": d, "zonas": "|".join(noms), "fuente": FUENTE, "cita": "", "nota": NOTA})
