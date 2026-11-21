@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 21/11/2026: datos estructurados de Dataset corregidos (aviso de Search Console)
+- Search Console avisó: falta "description" (crítico), tipo de "creator" no válido y falta "license". Venían de las dos fuentes citadas en `isBasedOn` (SERPAVI y ADRH), no del Dataset principal.
+- `FUENTES_LD` en `generar_web.py`: cada fuente lleva descripción, `creator` de tipo Organization con nombre y web, URL y licencia (INE: CC BY 4.0; Ministerio: su aviso legal, ver FUENTES.md).
+- Nuevo test en `tests/test_seo.py`: todos los Dataset, también los anidados, con description de 50-5000 caracteres, creator Person/Organization con name y url, y license. Tests: todo OK.
+- Tras publicar: en Search Console, "Validar corrección".
+
 ## 20/11/2026: barrios de OpenStreetMap y buscador de barrios (B-32)
 - Juan aprueba OpenStreetMap para las ciudades sin datos municipales, con la cita en el pie. Nuevo `zonas_osm.py` (cruce de calles de OSM con el callejero del INE) y `osm_descarga.py` (página para bajar los datos desde el navegador de Juan).
 - Primera tanda: 47 ciudades con barrios en algún distrito (Madrid, Barcelona, València, Murcia, Palma, Alicante, Córdoba, Vigo, Gijón, Granada…). Quedan las de los archivos que Overpass no devolvió.

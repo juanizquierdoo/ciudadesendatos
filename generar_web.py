@@ -67,11 +67,21 @@ COMUNIDADES = {}     # se rellena en main(): código -> datos del JSON + ciudade
 PROV_CCAA = {}       # código de provincia -> código de comunidad
 
 # Fuentes de los datos (para los datos estructurados)
-FUENTES_LD = [
+FUENTES_LD = [   # Google exige description en cada Dataset; creator debe ser Organization (con name y url) y conviene license
     {"@type": "Dataset", "name": "Sistema Estatal de Referencia del Precio del Alquiler de Vivienda (SERPAVI)",
-     "creator": {"@type": "GovernmentOrganization", "name": "Ministerio de Vivienda y Agenda Urbana"}},
+     "description": "Alquiler de vivienda habitual declarado en el IRPF: medianas y percentiles del alquiler mensual "
+                    "(€ y €/m²), superficie y número de inmuebles por comunidad, provincia, municipio, distrito y "
+                    "sección censal, 2011-2024. Publicado por el Ministerio de Vivienda y Agenda Urbana.",
+     "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/serpavi",
+     "creator": {"@type": "Organization", "name": "Ministerio de Vivienda y Agenda Urbana", "url": "https://www.mivau.gob.es"},
+     "license": "https://www.mivau.gob.es/ministerio/aviso-legal"},
     {"@type": "Dataset", "name": "Atlas de Distribución de Renta de los Hogares (ADRH)",
-     "creator": {"@type": "GovernmentOrganization", "name": "Instituto Nacional de Estadística (INE)"}, "url": "https://www.ine.es"},
+     "description": "Renta neta y bruta media por hogar y por persona y otros indicadores de renta, calculados con datos "
+                    "tributarios, por sección censal, distrito, municipio, provincia y comunidad autónoma. "
+                    "Publicado por el Instituto Nacional de Estadística (INE).",
+     "url": "https://www.ine.es",
+     "creator": {"@type": "Organization", "name": "Instituto Nacional de Estadística (INE)", "url": "https://www.ine.es"},
+     "license": "https://creativecommons.org/licenses/by/4.0/"},
 ]
 
 # Posición aproximada de cada distrito en el mapa esquemático (columna, fila). Solo Madrid por ahora.

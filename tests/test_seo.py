@@ -139,6 +139,33 @@ for r, s in paginas.items():
             errores.append(f"{r or 'portada'}: Dataset sin license CC BY 4.0")
 comprobar("Licencia CC BY 4.0 en el pie y en los datos estructurados", errores)
 
+# requisitos de Google para Dataset (también los anidados en isBasedOn): description de 50 a 5000
+# caracteres, creator de tipo Person u Organization con name y url, y license (URL)
+def datasets(o):
+    if isinstance(o, dict):
+        if o.get("@type") == "Dataset":
+            yield o
+        for v in o.values():
+            yield from datasets(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from datasets(v)
+
+errores = []
+for r, s in paginas.items():
+    for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', s, re.S):
+        for d in datasets(json.loads(b)):
+            nom = d.get("name", "?")[:40]
+            if not 50 <= len(str(d.get("description", ""))) <= 5000:
+                errores.append(f"{r or 'portada'}: Dataset '{nom}' sin description válida (50-5000 caracteres)")
+            cr = d.get("creator", {})
+            for c in (cr if isinstance(cr, list) else [cr]):
+                if c.get("@type") not in ("Person", "Organization") or not c.get("name") or not c.get("url"):
+                    errores.append(f"{r or 'portada'}: Dataset '{nom}' con creator no válido")
+            if not str(d.get("license", "")).startswith("http"):
+                errores.append(f"{r or 'portada'}: Dataset '{nom}' sin license")
+comprobar("Todos los Dataset (también los de las fuentes) cumplen description, creator y license de Google", errores)
+
 total_falla = resultados.count("FALLA")
 print(f"\n{len(resultados) - total_falla} OK, {total_falla} FALLA")
 sys.exit(1 if total_falla else 0)
