@@ -15,6 +15,7 @@ import unicodedata
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
 import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
+import herramienta_sueldo   # herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2)
 import paginas_legales
 
 base = Path(__file__).parent
@@ -316,14 +317,14 @@ FECHA_CALLEJERO = ""  # se rellena en main() con la fecha del callejero del INE 
 
 
 def zona_html(x):
-    """Segunda línea bajo 'Distrito N (CP ...)': núcleos de población o calles principales del distrito."""
+    """Segunda línea bajo el nombre del distrito: barrios, núcleos de población o calles principales (nunca códigos postales)."""
     z = x.get("zona") or {}
     partes = []
     if x.get("barrios"):
         if len(x["barrios"]) > 3 or x.get("con_nombre_oficial"):   # con 3 o menos ya están en el nombre (salvo nombre oficial)
             partes.append("Barrios: " + y_lista(x["barrios"]))
-        if z.get("cps"):
-            partes.append("CP " + ", ".join(z["cps"]))
+        if not partes:
+            return ""
         return f'<span class="zona">{esc(". ".join(partes))}</span>'
     if not z:
         return ""
@@ -470,7 +471,7 @@ def pagina_ciudad(c, todas, rank_n):
                    f'{th_orden(2, "€/m²")}{th_orden(3, "Renta del hogar")}{th_orden(4, "Alquiler sobre renta")}</tr></thead>'
                    f'<tbody>{"".join(filas)}</tbody></table></div>'
                    + "".join(f'<p class="proto">{esc(t)}</p>' for t in notas)
-                   + (f'<p class="proto">Distritos sin nombre oficial: se identifican por sus códigos postales y por las calles que pasan '
+                   + (f'<p class="proto">Distritos sin nombre oficial ni barrios: se identifican por sus núcleos de población o por las calles que pasan '
                       f'por más secciones censales del distrito, según el Callejero del Censo Electoral del INE (situación a {esc(FECHA_CALLEJERO)}). '
                       f'Los nombres de las calles se escriben como los da el INE, sin tildes.</p>'
                       if any(x.get("zona") and not x.get("barrios") for x in dist) else '')
@@ -618,7 +619,7 @@ def pagina_indice(todas, rank_n):
     N = len(todas)
     orden = sorted(todas, key=lambda c: c["rank"]["alquiler_pct_renta"])
     li = lambda arr: "".join(f'<li><a href="{c["slug"]}/">{esc(c["nombre"])}</a><strong>{pc(c["alquiler_pct_renta"])}</strong></li>' for c in arr)
-    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root)
+    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root) + herramienta_sueldo.tarjeta(root)
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
@@ -1069,6 +1070,7 @@ def main():
     for slug, clave, titulo, df in RANKINGS:
         escribir(WEB / "rankings" / slug / "index.html", pagina_ranking(slug, clave, titulo, df, todas, rank_n))
     urls_temas = rankings_temas.generar(sys.modules[__name__], todas)
+    urls_temas += herramienta_sueldo.generar(sys.modules[__name__], todas)
     for c in todas:
         escribir(WEB / c["slug"] / "index.html", pagina_ciudad(c, todas, rank_n))
     if COMUNIDADES:

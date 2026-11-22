@@ -96,3 +96,11 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 
 ## Diseño (20/11/2026)
 - La cabecera y el pie son comunes (`cabecera()` y `pie()` en `generar_web.py`) y los usan también `rankings_temas.py` y `paginas_legales.py`. Para cambiar el aspecto, tocar solo esas funciones y la constante `CSS`. Muestra aprobada por Juan: capturas en la carpeta del proyecto `rediseno/`.
+
+## Fase 2: "¿Dónde puedo vivir con mi sueldo?" (22/11/2026)
+- Hecho B-33: `herramienta_sueldo.py` genera /donde-vivir-con-mi-sueldo/ (calculadora en el navegador + texto y tabla fijos). `generar_web.py` solo la importa, pone la tarjeta en la portada y la añade al sitemap. Test: `tests/test_sueldo.py`.
+- Siguiente de la hoja de ruta: comparador de 2 a 4 ciudades (B-35). Después, descarga de datos. El mapa nacional sigue a la espera de confirmar la licencia de la cartografía.
+
+## Sin códigos postales (22/11/2026)
+- Decisión de Juan: en la web no aparece ningún código postal; las zonas se nombran por barrios, distritos o algo que se entienda a simple vista. Los distritos sin barrios se nombran por sus núcleos de población o sus dos calles principales (INE), con `etiqueta_zona()` en `preparar_json.py`. El test "Ningún código postal en la web" lo vigila.
+- Para mejorar esos 144 distritos (Huelva, Ávila, Toledo, Castellón, San Fernando…) haría falta una lista oficial de barrios de cada ayuntamiento (B-32).

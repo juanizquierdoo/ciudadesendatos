@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 22/11/2026: ningún código postal en la web (petición de Juan)
+- Antes, 144 distritos sin nombre oficial ni barrios se llamaban "Distrito N · CP 21003 y 21001", y otros 500 llevaban "CP ..." en la segunda línea de la tabla (128 fichas). Ahora ningún código postal aparece en la web.
+- Distritos sin barrios: si más de la mitad del distrito está fuera del núcleo principal, se nombran por sus núcleos de población del INE ("Distrito 8 · Gevora, Valdebotoa y otros núcleos"); si no, por sus dos calles principales del callejero del INE ("Distrito 1 · zona de Plaza Zocodover y calle Armas"). No se inventa ningún nombre.
+- `preparar_zonas.py` guarda además `fuera_principal` (parte del distrito fuera del núcleo principal). `preparar_json.py`: función `etiqueta_zona()`. `generar_web.py`: la segunda línea ya no lleva CP y la nota de la tabla explica el nuevo criterio. `rankings_temas.py`: notas de metodología sin "códigos postales".
+- `tests/test_distritos.py`: nueva comprobación "Ningún código postal en la web" (JSON y todo el HTML). `ejecutar_tests.py`: 21 OK, 0 FALLA.
+
+## 22/11/2026: herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2, funcionalidad 1)
+- Nuevo `herramienta_sueldo.py`: página /donde-vivir-con-mi-sueldo/. Escribes tus ingresos netos al mes, el máximo para el alquiler (25, 30, 35 o 40 %) y la comunidad, y sale en qué ciudades entra el alquiler mediano de un piso y, dentro de cada una, en qué distritos y barrios (con enlace a su fila de la ficha). Incluye las ciudades donde la media no entra pero algún distrito sí. El resultado se puede compartir: la dirección guarda los datos (?sueldo=1800&pct=35).
+- Solo datos que ya estaban en ciudades_nivel1.json; distritos con la misma regla que la ficha (menos de 30 inmuebles no se usan; 30-99 con *). Los nombres de distrito nunca llevan código postal (si el JSON lo trajera, se cambia por núcleos o calles). El cálculo se hace en el navegador: nada se envía ni se guarda.
+- Parte fija para Google y para quien no tenga JavaScript: texto "Qué dicen los datos" calculado con los datos, tabla "Hasta dónde llega cada sueldo" (1.000 a 3.000 €), metodología y aviso de zonas turísticas.
+- `generar_web.py`: solo 3 líneas (import, tarjeta en la portada y llamada en main() que añade la URL al sitemap).
+- Nuevo `tests/test_sueldo.py` (8 comprobaciones). `ejecutar_tests.py`: 21 OK, 0 FALLA.
+- Probado en Chromium (1280 px y 390 px): cálculo, filtro por comunidad, "ver más", desplegable de distritos, enlace con parámetros, sin scroll horizontal y sin errores de JavaScript. Firefox, Safari y móvil real sin probar (B-14).
+
 ## 21/11/2026: barrios de OpenStreetMap en todas las ciudades posibles (B-32)
 - Con los archivos que faltaban (las consultas grandes se partieron en trozos de 5 ciudades), `zonas_osm.py` pone barrios en 654 distritos de 115 ciudades. Sin barrios por falta de datos en OSM: Huelva, Torrejón de Ardoz, Roquetas de Mar, San Fernando, Chiclana, Coslada, Alcalá de Guadaíra, Ávila y Calvià (y distritos sueltos de otras).
 - Nombres de OSM que empiezan en minúscula se ponen con mayúscula inicial ("carme" → "Carme"), salvo artículos ("els Poetes").

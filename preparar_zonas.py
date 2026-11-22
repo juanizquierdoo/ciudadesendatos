@@ -3,11 +3,13 @@
 Para que el lector sepa qué zona es "Distrito 8" sin inventar nombres, cada distrito se describe con:
   - los códigos postales que aparecen en al menos el 20 % de sus secciones censales (máximo 4);
   - sus 3 calles principales: las que pasan por más secciones del distrito (desempate: más tramos);
-  - los núcleos de población (entidades singulares del INE) distintos del principal del municipio.
+  - los núcleos de población (entidades singulares del INE) distintos del principal del municipio,
+    y qué parte de los tramos de calle del distrito está fuera del núcleo principal.
+Los códigos postales NO se muestran en la web (decisión de Juan, 22/11/2026): solo se guardan como referencia.
 
 Entrada: datos_originales/caj_esp_<MMAAAA>/ (TRAM y VIAS). Se descarga de
 https://www.ine.es/dyngs/DAB/es/index.htm?cid=1390 (ficheros nacionales). Diseño de registro: Dis_nuevo.xlsx.
-Salida:  datos_limpios/zonas_distritos.csv (codigo, cps, calles, nucleos, secciones, fecha_callejero).
+Salida:  datos_limpios/zonas_distritos.csv (codigo, cps, calles, nucleos, fuera_principal, secciones, fecha_callejero).
 Si no está el callejero, avisa y no hace nada (la web sigue mostrando "Distrito N").
 """
 import collections
@@ -118,8 +120,11 @@ def main():
             calles.append((TIPOS[tipo] + " " if tipo in TIPOS else "") + bonito(nom))
         principal = nucleo_mun[cm].most_common(1)[0][0]
         nucs = [bonito(e) for e, k in nucleos[dist].most_common() if e and e != principal and k >= MIN_TRAMOS_NUCLEO][:3]
+        # parte de los tramos de calle del distrito que están fuera del núcleo principal (pedanías, urbanizaciones...)
+        fuera = sum(k for e, k in nucleos[dist].items() if e and e != principal) / sum(nucleos[dist].values())
         filas.append({"codigo": dist, "cps": "|".join(cps_ok), "calles": "|".join(calles),
-                      "nucleos": "|".join(nucs), "secciones": ns, "fecha_callejero": fecha})
+                      "nucleos": "|".join(nucs), "fuera_principal": f"{fuera:.2f}", "secciones": ns,
+                      "fecha_callejero": fecha})
     with open(SALIDA, "w", encoding="utf-8", newline="") as out:
         w = csv.DictWriter(out, fieldnames=list(filas[0]))
         w.writeheader()

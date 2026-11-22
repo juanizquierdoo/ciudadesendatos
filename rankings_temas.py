@@ -302,8 +302,8 @@ def pagina_renta_distritos(gw, todas, rutas):
             "Datos oficiales del INE.")
     met = _metodologia(gw, [NOTA_RENTA, NOTA_ALQUILER,
                             "<strong>Distritos:</strong> son los distritos censales del INE, que en algunas ciudades coinciden con los distritos municipales "
-                            "y en otras no. Donde no hay nombre oficial verificado se identifican por sus códigos postales; "
-                            "en la ficha de cada ciudad aparecen sus calles principales.",
+                            "y en otras no. Donde no hay nombre oficial verificado se identifican por sus barrios, "
+                            "sus núcleos de población o sus calles principales; en la ficha de cada ciudad hay más detalle.",
                             "<strong>Alquiler del distrito:</strong> no se muestra si hay menos de 30 inmuebles en la muestra (—); "
                             "con 30 a 99 inmuebles se marca con *."])
     return _pagina(gw, "barrios-con-mas-renta", "Barrios y distritos con más renta de España", desc, lead, claves,
@@ -380,7 +380,7 @@ def pagina_alquiler_distritos(gw, todas, rutas):
             f"{N} distritos con datos oficiales.")
     met = _metodologia(gw, [NOTA_ALQUILER, NOTA_RENTA,
                             "<strong>Distritos:</strong> distritos censales del INE. Donde no hay nombre oficial verificado se identifican por sus "
-                            "códigos postales; en la ficha de cada ciudad aparecen sus calles principales.",
+                            "barrios, sus núcleos de población o sus calles principales; en la ficha de cada ciudad hay más detalle.",
                             "<strong>Fiabilidad:</strong> solo se incluyen distritos con 30 inmuebles o más en la muestra; con 30 a 99 se marcan con *."])
     return _pagina(gw, "barrios-con-el-alquiler-mas-caro", "Barrios y distritos con el alquiler más caro de España", desc, lead, claves,
                    gw.aviso_turistico(), tabla, met, ["Alquiler mensual mediano por distrito", "Alquiler mediano por m² por distrito"], rutas)

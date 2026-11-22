@@ -25,13 +25,20 @@ for cod, cita in citas.items():
 print(f"[{'OK   ' if not mal else 'FALLA'}] Las fichas con nombres citados muestran la fuente ({len(citas)} ciudades) {mal or ''}")
 fallos += mal
 
-# Distritos sin nombre oficial: deben llevar código postal (callejero del INE) para que se sepa qué zona son
+# Distritos sin nombre oficial: deben llevar barrios, núcleos o calles (callejero del INE) para que se sepa qué zona son
 import re
 sin_zona = [f'{c["nombre"]}: {x["nombre"]}' for c in ciudades.values() for x in c["distritos"]
-            if not x["con_nombre_oficial"] and not (x.get("barrios") and " · " in x["nombre"])
-            and not (x.get("zona") and x["zona"].get("cps") and " · CP " in x["nombre"])]
-print(f"[{'OK   ' if not sin_zona else 'FALLA'}] Todo distrito sin nombre oficial lleva sus barrios o su código postal {sin_zona[:5] or ''}")
+            if not x["con_nombre_oficial"] and " · " not in x["nombre"]]
+print(f"[{'OK   ' if not sin_zona else 'FALLA'}] Todo distrito sin nombre oficial lleva barrios, núcleos o calles {sin_zona[:5] or ''}")
 fallos += sin_zona
+# Ningún código postal a la vista (decisión de Juan, 22/11/2026): ni en el JSON ni en ninguna página de la web
+con_cp = [f'{c["nombre"]}: {x["nombre"]}' for c in ciudades.values() for x in c["distritos"] if re.search(r"\bCP\b|\b\d{5}\b", x["nombre"])]
+for f in sorted((BASE / "web").rglob("*.html")):
+    t = re.sub(r"<script.*?</script>|<[^>]+>", " ", f.read_text(encoding="utf-8"), flags=re.S)
+    if re.search(r"\bCP\s*\d{5}|\bC\.P\.|[Cc][óo]digos? postal", t):
+        con_cp.append(str(f.relative_to(BASE / "web")))
+print(f"[{'OK   ' if not con_cp else 'FALLA'}] Ningún código postal en la web {con_cp[:5] or ''}")
+fallos += con_cp
 desnudos = []
 for c in ciudades.values():
     html_c = (BASE / "web" / c["slug"] / "index.html").read_text(encoding="utf-8")

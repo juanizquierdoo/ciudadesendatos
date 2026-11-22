@@ -1,865 +1,865 @@
-codigo,cps,calles,nucleos,secciones,fecha_callejero
-0105901,01012|01001|01005,Domingo Beltran de Otazu|Portal de Arriaga|Fueros,,27,30/06/2026
-0105902,01008|01007|01015,Beato Tomas de Zumarraga|Avenida Gasteiz|Avenida Reina Sofia,Armentia,46,30/06/2026
-0105903,01002|01003|01013,Los Herran|Bulevar de Salburua|Portal de Legutiano,,34,30/06/2026
-0105904,01003|01006,La Florida|Heraclio Fournier|Jacinto Benavente,,26,30/06/2026
-0105905,01010,Portal de Foronda|Donostia San Sebastian|Duque de Wellington,,34,30/06/2026
-0105906,01013|01194|01195|01520,Portal de Betoño|Amatierra|Andra Mari de Eskolunbe,Lasarte|Mendiola|Gamarra Mayor/gamarra Nag,3,30/06/2026
-0200301,02001|02005,Padre Romano|Paseo La Cuba|Carmen,,17,30/06/2026
-0200302,02005|02006,Avenida Ramon Menendez Pidal|Gabriel Ciscar|La Roda,Villar de Pozo-Rubio,25,30/06/2026
-0200303,02004|02006,Doctor Ferran|Feria|Cristobal Perez Pastor,Bacariza,14,30/06/2026
-0200304,02004|02006,Paseo Circunvalacion (de)|Doctor Fleming|Francisco Pizarro,,14,30/06/2026
-0200305,02003|02004,Torres Quevedo|Doctor Collado Piña|Pedro Coca,,12,30/06/2026
-0200306,02002|02003,Marques de Villores|Rosario|Hellin,,14,30/06/2026
-0200307,02008|02002,Carretera de Valencia|Francisco Javier de Moya|Angel,,17,30/06/2026
-0200308,02099|02140|02049|02006,Carretera Jaen|Carretera Madrid (los Gabrieles)|El Pasico,Bacariza|Aguas Nuevas|Santa Ana,4,30/06/2026
-0300901,03801,Sant Josep|Sant Joan|Barbacana,,4,30/06/2026
-0300902,03801,El Cami|Alacant|Forn del Vidre,,6,30/06/2026
-0300903,03802|03801,Oliver|Gregori Casasempere Juan|La Llibertat,,6,30/06/2026
-0300904,03802|03801,Joaquim Sorolla|Santa Rosa|Ibi,,8,30/06/2026
-0300905,03803,Isabel la Catolica|Sant Isidre|Enginyer Vilaplana,,6,30/06/2026
-0300906,03803|03804,Pintor Cabrera|Alameda Camilo Sesto|Cid,,5,30/06/2026
-0300907,03804,Hispanitat|Juan Gil - Albert|General Prieto,,6,30/06/2026
-0300908,03804,Ausias March|Hispanitat|Sabadell,,7,30/06/2026
-0301401,03003|03001|03002,Pintor Aparicio|Reyes Catolicos|Arzobispo Loaces,,21,30/06/2026
-0301402,03004|03012|03010,Avenida Alcoy|San Carlos|Jaime Segarra,,27,30/06/2026
-0301403,03012|03013|03015,Avenida Periodista Rodolfo de Salazar|General Espartero|Garbinet,,39,30/06/2026
-0301404,03540|03016|03015,Avenida Costa Blanca|Avenida Condomina|Britania,Monnegre - Cabeço D'or|Santa Faz,47,30/06/2026
-0301405,03010|03011,Avenida Novelda|Economista G. Bernacer|Avenida Pintor Baeza,,23,30/06/2026
-0301406,03005|03009,Padre Recaredo de los Rios|Avenida Doctor Jimenez Diaz|Nuestra Sra. los Angeles,,35,30/06/2026
-0301407,03006|03007,Avenida Orihuela|Cefeo|Cisne,,24,30/06/2026
-0301408,03008|03007,Avenida Elche|Foglietti|Pardo Gimeno,Moralet|Cañada del Fenollar|Rebolledo,30,30/06/2026
-0303101,03501,Tomas Ortuño|Maravall|Avenida Almendros,,15,30/06/2026
-0303102,03503|03501,Gerona|Avenida Estocolmo|Avenida Montecarlo,,9,30/06/2026
-0303103,03502|03503,Avenida Andalucia|Beniarda|Paseo Acacias,,15,30/06/2026
-0303104,03502,Vila Joiosa|Avenida Armada Española|Avenida Republica Argentina,,6,30/06/2026
-0306501,03202,De la Universitat D'elx|Antonio Mora Ferrandez|Fra Pere Balaguer,,21,30/06/2026
-0306502,03203,Filet de Fora|Alacant|Angel,,26,30/06/2026
-0306503,03206,Hermanos Navarro Caracena|Manuel Vicente Pastor|Gines Garcia Esquitino,,29,30/06/2026
-0306504,03205,Juan Diez Martinez|Monserrate Guilabert Valero|Pedro Moreno Sastre,,19,30/06/2026
-0306505,03201,Reina Victoria|Vicente Blasco Ibañez|Poeta Miguel Hernandez,,26,30/06/2026
-0306506,03204,Fernanda Santamaria|Pere Joan Perpinya|Fra Jaume Torres,,23,30/06/2026
-0306507,03296,Illice|Astronautas|Llibertat,El Altet|Torrellano|La Marina,28,30/06/2026
-0306601,03600,Amadeo Vives|Magdalena Maestre Amat|Ramon y Cajal,,6,30/06/2026
-0306602,03600,San Roque|Conde Coloma|Antonio Maura,,4,30/06/2026
-0306603,03600,Estacion de Monovar|La Torreta|Alemania,Estacion de Monovar,1,30/06/2026
-0306604,03600,Avenida Chapi|Avenida Ronda (de)|Avenida Alfonso XIII,,18,30/06/2026
-0306605,03600,Avenida Jose Martinez Gonzalez|Vicente Blasco Ibañez|Murillo,,12,30/06/2026
-0309901,03300,Avenida Duque de Tamames|Obispo Rocamora|Prendimiento,Orihuela,4,30/06/2026
-0309902,03300,Avenida Teodomiro|Avenida Duque de Tamames|Avenida La Vega,Orihuela,7,30/06/2026
-0309903,03300,Capuchinos|Barranco|San Francisco,Orihuela,3,30/06/2026
-0309904,03300,Avenida Doctor Garcia Rogel|Pintor Agrasot|San Juan,Orihuela,6,30/06/2026
-0309905,03189|03300|03313|03319,Acuario-La Florida|Aries-La Florida|Panticosa,Torremendo,5,30/06/2026
-0309906,03312,Carretera De Arneva|La Acequia|Las Acequias,Arneva|Desamparados|Molins,7,30/06/2026
-0309907,03311|03315,Olivo (la Murada)|1 de Mayo|1-(barbarroja),La Murada|La Aparecida|Parroquia de la Matanza,6,30/06/2026
-0309908,03300|03314|03317|03316,Senda Masquefa-Escorratel|24 de Agosto-San Bartolome|4 de Noviembre,San Bartolome|La Campaneta|El Escorratel,5,30/06/2026
-0312201,03690,Avenida Ancha de Castelar|Lillo Juan|La Huerta,,15,30/06/2026
-0312202,03690,Alicante|Alfonso XIII|Bailen,,8,30/06/2026
-0312203,03690,Camí Sendera (de La)|La Huerta|Rio Turia,Boqueres|Raspeig,11,30/06/2026
-0313301,03181|03182|03183|03184,Joaquin Chapaprieta|Clemente Gosalvez|Caballero de Rodas,,9,30/06/2026
-0313302,03185|03181|03183|03184,Urbano Arregui|Bilbao|Campoamor,,9,30/06/2026
-0313303,03182|03183,Avenida Diego Ramirez Pastor|La Loma|San Pascual,La Mata,15,30/06/2026
-0401301,04001|04002|04003,Plaza Catedral (de La)|Lope de Vega|Reina (de La),,2,30/06/2026
-0401302,04001|04002|04004|04003,Avenida Paseo de Almeria|Real|Plaza Virgen del Mar (de La),,5,30/06/2026
-0401303,04002,Avenida Mar (del)|San Eduardo|Rosario,Castell del Rey,9,30/06/2026
-0401304,04004|04003|04001|04008,Granada|Murcia|Avenida Federico Garcia Lorca,,7,30/06/2026
-0401305,04003|04008,Avenida Pablo Iglesias (de)|Restoy|Gran Capitan,,10,30/06/2026
-0401306,04009|04008|04005,Avenida Mediterraneo (del)|Carretera Nijar los Molinos|Carretera Ronda (de),,43,30/06/2026
-0401307,04007|04006|04005,Avenida Mediterraneo (del)|Avenida Cabo de Gata|Carretera Ronda (de),La Cañada de San Urbano|Loma Cabrera|Costacabana,50,30/06/2026
-0401308,04131|04130,Carretera Nijar Retamar|Manuel del Aguila Ortega (de)|Paseo Toyo (del),El Alquian|Retamar|Cabo de Gata,11,30/06/2026
-0407901,04740,Avenida Roquetas de Mar|Camino Hoyo Cuenca|Avenida Luis Buñuel,Cortijos de Marin,19,30/06/2026
-0407902,04720|04740,Avenida Carlos III|Avenida Sabinar|Carretera Alicun (de),Aguadulce|Campillo del Moro|El Parador Hortichuelas,31,30/06/2026
-0490201,04700,Avenida Bulevar de el Ejido|Murgis|Venezuela,Santa María del Águila|Las Norias|Balerma,51,30/06/2026
-0501901,05001|05002|05160,Conde Don Ramon|Vallespin|Marques de Santo Domingo,Narrillos de San Leonardo|Alamedilla del Berrocal,2,30/06/2026
-0501902,05001|05003|05002,San Juan de la Cruz|Paseo San Roque|Plaza Catedral,,2,30/06/2026
-0501903,05005|05001|05003|05004,Castilla|Palencia|Santa Maria de la Cabeza,,2,30/06/2026
-0501904,05003|05002,Avenida Derechos Humanos (de Los)|Avenida Juan Pablo II|Nuestra Señora de Sonsoles,Aldea del Rey Niño,13,30/06/2026
-0501905,05003,Gran Capitan|Agustin Rodriguez Sahagun|Bilbao,,6,30/06/2026
-0501906,05005|05004|05001|05003,Avenida Juan Carlos I|Segovia|Virgen de la Vega,Urraca-Miguel|Brieva-Vicolozano|Bernuy-Salinero,13,30/06/2026
-0601501,06002|06001,Martin Cansado|Plaza Cervantes|Afligidos,,8,30/06/2026
-0601502,06008,Avenida Ricardo Carapeto Zambrano|Macon|Avenida Manuel Rojas Torres,,5,30/06/2026
-0601503,06009|06008,Corte de Peleas|Isidro Pacense|Avenida Antonio Hernandez Gil,Los Montitos|La Pilara|Atalaya,13,30/06/2026
-0601504,06010|06003,Avenida Juan Sebastian Elcano|Lucas Vazquez Ayllon|Fuerte,Los Fresnos|La Corchuela|Dehesilla de Calamon,16,30/06/2026
-0601505,06005|06004|06001,Avenida Santa Marina|Avenida Colon|San Isidro,,10,30/06/2026
-0601506,06007,Gurugu|Carretera Campomayor|Avenida Sol,,5,30/06/2026
-0601507,06006|06007,Avenida Carolina Coronado|Avenida Adolfo Diaz Ambrona|Arguello Carvajal,Santa Engracia|Rio Caya,14,30/06/2026
-0601508,06009|06170|06180,Lady Smith|Nuestra Señora de Guadalupe (gevora)|Bardocas,Gevora|Valdebotoa|Novelda del Guadiana,9,30/06/2026
-0601509,06011,Avenida Jose Maria Alcaraz y Alenda|Godofredo Ortega y Muñoz|Avenida Sinforiano Madroñero,Albala|Corazon de Jesus,18,30/06/2026
-0601510,06010|06011,Vicente Delgado Algaba|Jacobo Rodriguez Pereira|Linares,Las Vaguadas,9,30/06/2026
-0608301,06800,Almendralejo|Muza|Calvario,,6,30/06/2026
-0608302,06800,Suarez Somonte|Maestros|Oviedo,,5,30/06/2026
-0608303,06800,Avenida Reina Sofia|Pontezuelas|Mariano Jose de Larra,El Vivero,10,30/06/2026
-0608304,06800,Avenida Felipe VI|Avenida Marques de Paterna|Avenida Via de la Plata,Proserpina|El Vivero|Campomanes,12,30/06/2026
-0608305,06800,Pablo Neruda|San Andres|Santa Romualda,,1,30/06/2026
-0608306,06800,Avenida Don Antonio Campos Hoyos|Avenida Cristobal Colon|Avenida Americas,Miralrio|Carrion|El Prado,10,30/06/2026
-0701101,07184|07196,Carretera Calvia-Capdella|Montcades|Palma,Es Capdella,3,30/06/2026
-0701102,07181,Carretera Andratx Km-7|Carretera Andratx|Carretera Andratx (portals),Portals Nous|Costa D'en Blanes|Ses Cas Catala-Illetes,4,30/06/2026
-0701103,07181,Ca's Saboners|Pinzons|Mestre Nicolau,Magaluf|Palmanova|Son Caliu,6,30/06/2026
-0701104,07181|07180,Ocell del Paradis|Ca'n Ferrer|Condor,Son Ferrer|El Toro|Sa Porrassa,4,30/06/2026
-0701105,07180|07183,Rei Jaume I|Golf|Vía Creu,Santa Ponça|Costa de la Calma|Galatzo,6,30/06/2026
-0701106,07160,Peguera|Talaia (peguera)|Carretera Barraques,Peguera,2,30/06/2026
-0702602,07800,Alfons XII|Alt|Andanes,,1,30/06/2026
-0702603,07800,8 D'agost|Ceramista Joan Daifa|Camí Cami de Cas Ferro,,3,30/06/2026
-0702604,07800,Espanya|Isidor Macabich|Arago,,26,30/06/2026
-0704001,07001|07002|07012|07003,Plaza Major|Concepcio|Sindicat,,19,30/06/2026
-0704002,07011|07013|07014|07015,Camí La Vileta|Joan Miro|Camí Reis,Sa Vileta|Sant Agusti|Genova,70,30/06/2026
-0704003,07010|07004,General Riera|Eusebi Estada|Valldemossa,Establiments|Sa Indioteria|Es Secar de la Real,56,30/06/2026
-0704004,07008|07007|07005,Arago|Manacor|Camí Muntanya,Sa Creu Vermella|Sant Jordi|Sa Casa Blanca,89,30/06/2026
-0704005,07007|07006|07610,Cardenal Rossell|Llucmajor|Camí Can Pastilla,Platja de Palma|Es Coll De'n Rabassa|Can Pastilla,23,30/06/2026
-0801501,08911|08912,Canonge Baranera|Francesc Layret|Marti Pujol,,6,30/06/2026
-0801502,08917|08911,Coll i Pujol|Angel Guimera|Antoni Botey,,13,30/06/2026
-0801503,08912,Guifre|Industria|Alfons XII,,13,30/06/2026
-0801504,08915|08917,Marti Pujol|Independencia|Doctor Robert,,17,30/06/2026
-0801505,08911,Sant Bru|Canyado|Santiago Rusiñol,,8,30/06/2026
-0801506,08915|08916,Terrassa|Carretera Canyet|Canyet,,6,30/06/2026
-0801507,08914|08917|08912,Baldomer Sola|Pau Piferrer|Don Pelayo,,25,30/06/2026
-0801508,08917,Liszt|Lloreda|Navata,,13,30/06/2026
-0801509,08913|08914|08918,Alfons XIII|Carretera Antiga de Valencia|Maresme,,48,30/06/2026
-0801901,08003|08001|08002,La Rambla|Vía Laietana|Princesa,,54,30/06/2026
-0801902,08013|08015,Arago|Provença|Valencia,,173,30/06/2026
-0801903,08014|08004|08028,Sants|Corts Catalanes|Rambla Badal (de),,117,30/06/2026
-0801904,08028|08029|08014,Corts|Diagonal|Galileu,,57,30/06/2026
-0801905,08017|08022|08006|08021,Ronda General Mitre|Vía Augusta|Balmes,,98,30/06/2026
-0801906,08024|08012|08023,Gracia (de)|Torrent de L'olla|L'escorial,,87,30/06/2026
-0801907,08032,Ronda Guinardo|Mare Deu de Montserrat|Fastenrath,,123,30/06/2026
-0801908,08016|08042|08031,Vía Favencia|Artesania (de L')|Cartella,,117,30/06/2026
-0801909,08030|08027,Meridiana|Gran de Sant Andreu|Concepcion Arenal,,95,30/06/2026
-0801910,08020|08018|08026,Llull|Corts Catalanes|Rambla Prim,,147,30/06/2026
-0805601,08860,Església (de L')|Major|General Palafox (del),,10,30/06/2026
-0805602,08860,Constitució (de La)|Arcadi Balaguer (d')|301,,7,30/06/2026
-0805603,08860,312|300|301,,6,30/06/2026
-0805604,08860,Constitució (de La)|Escolana (d')|309,,7,30/06/2026
-0805605,08860,Castelldefels (de)|Pineda (de La)|Sevilla (de),,7,30/06/2026
-0807301,08940,Rubio i Ors|Baix Llobregat|Miquel de Roncali,,14,30/06/2026
-0807302,08940,Dolors Almeda|Carretera Hospitalet|Lleo XIII,Almeda Mercader|Femades,4,30/06/2026
-0807303,08940,Joan Fernandez|Maria Benlliure|Carretera Esplugues,Fatjo|Fontsanta,10,30/06/2026
-0807304,08940,Frederic Soler|Carretera Esplugues|Mossen Andreu,,19,30/06/2026
-0807305,08940,Sant Ildefons|Bedoll|Mossen Andreu,,9,30/06/2026
-0807306,08940,Doctor Arus|Freixe|Gerdera,,10,30/06/2026
-0809601,08401|08403,Isabel de Villena|Enric Prat de la Riba|Roger de Flor,,8,30/06/2026
-0809602,08401|08402,Joan Prim|Corro|Ponent,,7,30/06/2026
-0809603,08402,Josep Maria de Sagarra|Francesc Ribas|Brasil,,10,30/06/2026
-0809604,08402|08401,Francesc Macia|Sant Esteve|Isaac Albeniz,,10,30/06/2026
-0810101,08901,Enric Prat de la Riba|Josep Tarradellas i Joan|Carrilet,,43,30/06/2026
-0810102,08904|08903,Doctor Marti i Julia|Rafael Campalans|Mas,,37,30/06/2026
-0810103,08902,Aprestadora|Santa Eulalia|Carrilet,,29,30/06/2026
-0810104,08905,Bobiles|Miraflors|Florida,,31,30/06/2026
-0810105,08906,Moli|Severo Ochoa|Can Serra,,30,30/06/2026
-0810106,08907|08902,Rambla Marina|Europa|Carmen Amaya,,27,30/06/2026
-0811301,08241,Plaza Major|Plaza Plana de L'om|Sobrerroca,,2,30/06/2026
-0811302,08242|08241,Barcelona|Bruc|Balsareny,El Poal|Mas Terros|Mas D'en Pla,14,30/06/2026
-0811303,08241,Muralla de Sant Francesc|Bruc|Cós,,5,30/06/2026
-0811304,08242|08243|08241,Carretera Santpedor|Carretera Vic|Pau,El Guix|El Colomer,13,30/06/2026
-0811305,08243|08241,Carretera Pont de Vilomara|Viladordis|Sabadell,Sant Pau|Viladordis|Mas D'en Roca,16,30/06/2026
-0811306,08241|08240|08243,Cascall|Espígol|Estornells,Santa Caterina|El Xup|Els Comtals,2,30/06/2026
-0812101,08302|08301,Plaza Tereses (de Les)|Camí Ral|Argentona (d'),,8,30/06/2026
-0812102,08301|08302,Camí Ral|Floridablanca|Ronda Alfons X el Savi (d'),,11,30/06/2026
-0812103,08304,Mexic|America|Mata (de),,14,30/06/2026
-0812104,08304|08303,Torrent de la Polvora|Esteve Albert|Cirera (de),,9,30/06/2026
-0812105,08303,Puig i Cadafalch|Rossello|Vitoria,,19,30/06/2026
-0812106,08302|08303,Sant Cugat|Ronda President Macia|Camí Ral,,14,30/06/2026
-0812401,08100,Burgos|Francesc Macià|Lluís Duran,,7,30/06/2026
-0812402,08100,Rambla Pompeu Fabra|Enric Morera|Jaume I,,9,30/06/2026
-0812403,08100,Jaume Coll|Rivoli|Gallecs,Gallecs,15,30/06/2026
-0816901,08820,Gaiter del Llobregat (lo)|Joan Maragall|Pintor Isidre Nonell,,5,30/06/2026
-0816902,08820,Verge Montserrat|Carretera Marina|Barcelona,,7,30/06/2026
-0816903,08820,Remolar|Verge Montserrat|Pompeu Fabra,,13,30/06/2026
-0816904,08820,Riu Llobregat|Remolar|Riu Anoia,,6,30/06/2026
-0816905,08820,Lleida|Girona|Tarragona,,9,30/06/2026
-0818401,08191,Castellbisbal|Can Fatjo|Rossinyol,,4,30/06/2026
-0818402,08191,Carretera Rubi a Ullastrell|Cabrera|Canejan,,5,30/06/2026
-0818403,08191,Monturiol|Lumiere|Edison,,8,30/06/2026
-0818404,08191,Estatut|General Castaños|Carretera Sabadell,,25,30/06/2026
-0818701,08203|08201|08202,Guell i Ferrer|Calderon|Rambla Rambla,,38,30/06/2026
-0818702,08208,Carretera Prats de Lluçanes|Batllevell|Agricultura,Togores,17,30/06/2026
-0818703,08207,Ronda Collsalarca|Matadepera|Llanera,,27,30/06/2026
-0818704,08206,Ronda Europa|Vía Aurelia|Estrasburg,Berard,30,30/06/2026
-0818705,08205,Carretera Terrassa|Carretera Barcelona|Jacint Verdaguer,Berard,15,30/06/2026
-0818706,08204,Carretera Barcelona|Magi Colet|Josep Comas,,23,30/06/2026
-0818707,08202,Sau|Camí Ripollet a Castellar|Begoña,Sant Nicolau|La Salut,8,30/06/2026
-0820001,08830,Primer de Maig|Ramon Llull|Camí Vell de la Colònia,,7,30/06/2026
-0820002,08830,Antoni Gaudí|Ronda Sant Ramon|Eusebi Güell,,19,30/06/2026
-0820003,08830,Marià Fortuny|Lluís Pascual Roca|Major,,9,30/06/2026
-0820004,08830,Mossèn Antoni Solanas|Dídac Priu|Bonaventura Aribau,,9,30/06/2026
-0820005,08830,Aragó|Arànser|Buda,,3,30/06/2026
-0820006,08830,Ronda Sant Ramon|Viladecans|Coín,,3,30/06/2026
-0820501,08173|08172,Montserrat|Rambla Celler|Can Volpelleres,,24,30/06/2026
-0820502,08173|08172,Angel Guimera|Rius i Taulet|Carretera Vallvidrera,,12,30/06/2026
-0820503,08197|08195|08173|08174,Rambla Mossen Jacint Verdaguer|Mas Fuster|Vall D'or,Valldoreix,4,30/06/2026
-0820504,08198|08196|08197,Bona Vista|Pearson|Salut,La Floresta,3,30/06/2026
-0820505,08195|08173,Pompeu Fabra|Camí Sant Cugat al Papiol|Tarragona,Mira-Sol,8,30/06/2026
-0820506,08196,Abat Odo|Abat Teodor|Aigues de Sabadell,Planes (les),1,30/06/2026
-0824501,08922|08921,Mila i Fontanals|Rafael Casanova|Irlanda,,18,30/06/2026
-0824502,08921,Napols|Peru|Sicilia,,11,30/06/2026
-0824503,08924,Anselm de Riu|Catalunya|Aguileres,,17,30/06/2026
-0824504,08922|08921,Sant Joaquim|Cultura|Santa Coloma,,16,30/06/2026
-0824505,08923,Banus|Generalitat|Roselles,,17,30/06/2026
-0824506,08922|08923|08921,Rambla Fondo (del)|Beethoven|Mossen Jacint Verdaguer,,9,30/06/2026
-0826601,08290,Primavera|Diagonal|Roma,Bellaterra,34,30/06/2026
-0827901,08221|08222,Carretera Montcada|Joaquim Costa|Colom,,24,30/06/2026
-0827902,08222|08227,Sant Cosme|Sant Crispi|Sant Damia,,13,30/06/2026
-0827903,08223,Carretera Montcada|Colom|Concepcion Arenal,,15,30/06/2026
-0827904,08224,Carretera Martorell|Pare Llaurador|Doctor Salva,Can Palet de Vista Alegre,25,30/06/2026
-0827905,08225,Abat Marcet|Carretera Rellinars|Ronda Ponent,Can Gonteres,32,30/06/2026
-0827906,08226|08227,Carretera Castellar|Pompeu Fabra|Tarragona,,27,30/06/2026
-0827907,08228|08801,Europa|Holanda|Italia,Fonts (les),5,30/06/2026
-0830101,08840,Catalunya|Antonio Machado|Carretera Prat,,20,30/06/2026
-0830102,08840,Dos de Maig|Doctor Reig|M D Montserrat,,29,30/06/2026
-0830701,08800,Francesc Macia|Cubelles|Providencia,,11,30/06/2026
-0830702,08800,Rambla Pau|Josep Anselm Clave|Ancora,,7,30/06/2026
-0830703,08800,Ronda Iberica|Plaza Pou|Santa Magdalena,,5,30/06/2026
-0830704,08800,Aigua|Ronda Iberica|Sant Onofre,,17,30/06/2026
-0905901,09003,Arco del Pilar|Cardenal Segura|Carnicerias,,1,30/06/2026
-0905902,09004|09005|09003,Avenida Del Cid Campeador|San Juan|Plaza España,,5,30/06/2026
-0905903,09003,Mariana Pineda|Emperador|Villalon,Villalonquejar|Villagonzalo-Arenas,11,30/06/2026
-0905904,09003|09005,San Francisco|Felipe de Abajo|Subida a San Miguel,,3,30/06/2026
-0905905,09006|09004|09005,Avenida Cantabria|Avenida Del Cid Campeador|Vitoria,Villatoro|Villimar,50,30/06/2026
-0905906,09001|09002,Madrid|Paseo Pisones|Calleja y Zurita,,11,30/06/2026
-0905907,09002,Santa Clara|Santa Cruz|Carcedo,Cortes,10,30/06/2026
-0905908,09001,San Pedro y San Felices|Alfareros|Fray Esteban de la Villa,,12,30/06/2026
-0905909,09007,Vitoria|Avenida Constitucion Española|Esteban Saez Alvarado,Villafria|Castañares|Villayuda O la Ventilla,42,30/06/2026
-1003701,10004|10003,Arsenio Gallego Hernandez|Avenida De la Universidad|Fuente Concejo,,17,30/06/2026
-1003702,10004|10001|10003,Avenida Hernan Cortes|Carretera De Salamanca|Libra,,13,30/06/2026
-1003703,10002|10004|10001,Avenida De España|Avenida Virgen de la Montaña|Catedratico Antonio Silva,,7,30/06/2026
-1003704,10005|10002|10001,Avenida Antonio Hurtado|Avenida De Alemania|Avenida Isabel de Moctezuma,,26,30/06/2026
-1003705,10005|10002|10003,Colombia|Avenida De la Hispanidad|Bolivia,,6,30/06/2026
-1003706,10195|10005,Avenida De la Constitucion|Avenida Rio Tiber|Sancho de Figueroa,Estacion de Arroyo-Malpar,6,30/06/2026
-1003707,10005|10164|10195|10199,Cristobal Colon|Ronda De Arrancajaras|Fernando de Magallanes,Valdesalor|Rincon de Ballesteros,1,30/06/2026
-1100401,11205|11202|11204,Avenida Diputacion|Avenida Virgen del Carmen|Avenida España,,26,30/06/2026
-1100402,11207,Carretera Getares Ctra.|Fray Junipero Serra|Juan Ramon Jimenez,,20,30/06/2026
-1100403,11206|11203,Avenida Gesto Por la Paz|Duero|Andalucia,El Pelayo,17,30/06/2026
-1100404,11203|11204|11205,Avenida La Caña|San Luis|Avenida Las Flores,,23,30/06/2026
-1101201,11004|11003|11006,Plaza España|Vea Murguia|Bendicion de Dios,,6,30/06/2026
-1101202,11001|11004|11005|11006,Sacramento|Rosario|San Francisco,,5,30/06/2026
-1101203,11002|11003|11001,Torre|Soledad|Virgili,,5,30/06/2026
-1101204,11002,Pericon de Cadiz|Arricruz|Lubet,,3,30/06/2026
-1101205,11002|11001|11005|11004,Sagasta|Regimiento Infanteria de Cadiz|Cardoso,,5,30/06/2026
-1101206,11005|11001|11006,Obispo Urquinaona|Compañia|Plaza Catedral,,4,30/06/2026
-1101207,11006|11005|11008,Merced|Mirador|Teniente Andujar,,4,30/06/2026
-1101208,11007|11008|11012,Avenida Andalucia|Avenida Sanidad Publica|Francisco Garcia de Sola,,24,30/06/2026
-1101209,11009|11012|11008,Trille|Avenida Portugal|Avenida Ana de Viya,,23,30/06/2026
-1101210,11011|11010|11012,Pintor Zuloaga|Paseo Maritimo|Avenida Cayetano del Toro,,25,30/06/2026
-1101501,11130,Avenida Diputacion (de La)|Carretera Barrosa (de La)|Plaza Retortillo (del),,10,30/06/2026
-1101502,11130,Avenida Mayorazgo (del)|Aguila (del)|Agustin Blazquez,,7,30/06/2026
-1101503,11130,Carretera Fuente Amarga (de)|Pablo Martin Sarasate|Cuesta del Matadero,,7,30/06/2026
-1101504,11130,Carretera Medina (de)|Travesía Alameda de Solano|Frailes (de Los),,17,30/06/2026
-1101505,11130,Carretera Barrosa (de La)|Avenida Atlantico (del)|Camino Agadir (de),Sancti Petri-La Barrosa,16,30/06/2026
-1102001,11403|11404|11408|11402,Torneria|Plaza Arroyo (del)|Plaza Compañia,,4,30/06/2026
-1102002,11401|11402|11403|11405,Diego Fernandez Herrera|Sol|Medina,,25,30/06/2026
-1102003,11404|11408,Avenida Amontillado (del)|Avenida Mosto (del)|Avenida San Juan Bosco,,19,30/06/2026
-1102004,11405|11407,Avenida Alcalde Alvaro Domecq|Avenida El Altillo|Avenida Espera (de),,14,30/06/2026
-1102005,11407,Avenida Tomas Garcia Figueras|Avenida Ingeniero Angel Mayo|Federico Garcia Lorca,,12,30/06/2026
-1102006,11406|11405,Paseo Las Delicias|Avenida Arcos de la Frontera|Avenida Nazaret (de),,51,30/06/2026
-1102007,11408,Avenida Puerta del Sur|Arquitecto Hernandez Rubio|Avenida Blas Infante,,22,30/06/2026
-1102008,11406|11400|11402|11596,Avenida Medina Sidonia (de)|Albarizones|Albarizuela,El Portal,2,30/06/2026
-1102009,11570|11591|11592,Plaza Artesania|Cadiz|Olivo,La Barca de la Florida|Guadalcacin|Nueva Jarilla,12,30/06/2026
-1102010,11400|11595|11406|11579,Olivo|Alcalde Juan Romero|Alcornoque,Torrecera|Los Repastaderos|La Ina,4,30/06/2026
-1102201,11300,Sol (del)|Isabel la Catolica|Avenida España (de),,6,30/06/2026
-1102202,11300,Gibraltar|Avenida Menendez Pelayo|San Jose,,7,30/06/2026
-1102203,11300,Avenida Maria Guerrero|Blanca de los Rios|Angel (del),,13,30/06/2026
-1102204,11300,Rocio (del)|Andalucia|Buenos Aires,,6,30/06/2026
-1102205,11300,Virgen del Rosario|Fernando Diaz de Mendoza|Zorrilla,,6,30/06/2026
-1102206,11300,Cartagena|Lepanto|Pavia,,7,30/06/2026
-1102207,11300,Avenida Hacienda (de La)|Camino Sobrevela|Camino Torrenueva,,4,30/06/2026
-1102701,11500,Federico Rubio|Cruces|Pedro Muñoz Seca,,36,30/06/2026
-1102702,11500,Carretera Puerto de Santa Maria-Rota|Camino del Aguila|Amparo Osborne Vazquez,Costa Oeste|Los Arenales,10,30/06/2026
-1102703,11500,Camino El Juncal|Carretera Sanlucar (de)|Camino Cañada del Verdugo,Campiña-Serrano|El Juncal|San Ignacio-Sierra,15,30/06/2026
-1102704,11500,Avenida Cadiz (de)|Avenida La Paz|Olas,Valdelagrana,4,30/06/2026
-1103101,11100,Doctor Francisco Cobos|Juan de Austria|San Rafael,Arsenal de la Carraca,16,30/06/2026
-1103102,11100,Churruca|Jesus de la Misericordia|Lanza,,1,30/06/2026
-1103103,11100,Colon|Almirante Cervera|Montañeses de la Isla,,7,30/06/2026
-1103104,11100,General Garcia de la Herran|Real|Acacias,,6,30/06/2026
-1103105,11100,Real|San Marcos|Sanchez Cerquero,,7,30/06/2026
-1103106,11100,Real|Buen Pastor|Carretera Camposoto (de),,32,30/06/2026
-1103201,11540,Avenida Via Ferrea|Avenida Constitucion (de La)|Puerto,Pastrana|Miraflores,19,30/06/2026
-1103202,11540,Plaza Capuchinos (de)|Carretera Chipiona (de)|Molinillo 2ª,La Jara,5,30/06/2026
-1103203,11540,Banda Playa|Avenida Calzada Duquesa Isabel|Avenida Cerro Falon (del),,6,30/06/2026
-1103204,11540,Carril San Diego|Santo Domingo|Alcoba,,2,30/06/2026
-1103205,11540|11549,Avenida 1492|Rubiños|Trasbolsa,Bonanza|La Algaida,14,30/06/2026
-1204001,12001|12002|12004|12006,Avenida Rey Don Jaime|Plaza Mayor|Alloza,,3,30/06/2026
-1204002,12004|12001,Avenida Cardenal Costa|Avenida Espronceda|Maestro Llorens,,8,30/06/2026
-1204003,12003|12001,Gobernador|Tenerias|Prim,,11,30/06/2026
-1204004,12005|12002,Avenida Casalduch|Herrero|Maestro Falla,,22,30/06/2026
-1204005,12006|12002,Avenida Alcora|Avenida Doctor Clara|Lucena,,14,30/06/2026
-1204006,12006|12005,Avenida Valencia|Juan Ramon Jimenez|Avenida Gran Via Tarrega Monteblanco,,17,30/06/2026
-1204007,12004|12003,Alcalde Tarrega|Camino De la Plana|Maria Rosa Molas,,14,30/06/2026
-1204008,12004|12006,Segorbe|Honori Garcia i Garcia|Botanico Cavanilles,,10,30/06/2026
-1204009,12100,Camino Serradal|Camino Serradal (1)|Juan de Austria,,12,30/06/2026
-1213501,12540,Solades|Borriana|Carlos Sarthou,,3,30/06/2026
-1213502,12540,Josep Nebot|Calvari|Santa Caterina,Virgen de Gracia,16,30/06/2026
-1213503,12540,Ermita|Creus Velles|Onda,Virgen de Gracia,7,30/06/2026
-1213504,12540,Avinguda Italia|Sant Bertomeu|Rei en Jaume,Pinella,7,30/06/2026
-1303401,13004|13001|13005,Ronda Ciruela|Carretera de Fuensanta|Tinte,,11,30/06/2026
-1303402,13002|13003|13005,Ronda Carmen|Pedrera Baja|Esperanza,,23,30/06/2026
-1303403,13003|13004|13005,Luz|Altagracia|Calatrava,,6,30/06/2026
-1303404,13004|13003|13001|13005,La Mata|Libertad|Calatrava,,14,30/06/2026
-1303405,13002|13005|13195|13196,Alcala (v)|Altillo (v)|Azada (c),Las Casas|Valverde,1,30/06/2026
-1402101,14006|14012|14001,Avenida Almogavares (de)|Avenida Brillante (del)|Avenida Virgen de las Angustias,Cerro Muriano|Los Morales|Santo Domingo,32,30/06/2026
-1402102,14014|14007,Arcos de la Frontera|Avenida Carlos Iii (de)|Avenida Virgen de Fatima (de),Nuestra Señora de Linares|Alcolea|Las Quemadas,45,30/06/2026
-1402103,14001|14002,Juan Rufo|Realejo|Conde de Arenales,,2,30/06/2026
-1402104,14002|14010,Plaza Magdalena (de La)|Escañuela|Ronda de Andujar,,4,30/06/2026
-1402105,14010|14014,Avenida Virgen del Mar (de La)|Federico Mayo|Arquitecto Hurtado Izquierdo,Alcolea|Las Quemadas|Los Cansinos,31,30/06/2026
-1402106,14011|14005,Carretera de Trassierra|Avenida Gran Capitan (del)|Avenida America (de),Santa Maria de Trassierra|Las Ermitas|Los Arenales,55,30/06/2026
-1402107,14001|14002|14003|14008,Plaza San Miguel (de)|Plaza Carrillos (de Los)|Conde de Torres Cabrera,,5,30/06/2026
-1402108,14002|14003|14001,San Fernando|Paseo Ribera (de La)|Plaza Almagra (de La),,4,30/06/2026
-1402109,14013|14009,General Lazaro Cardenas|Carretera de Castro|Beato Henares,Santa Cruz|Valchillon|Puente Viejo,32,30/06/2026
-1402110,14005|14004,Avenida Gran Via Parque|Avenida Aeropuerto (del)|Infanta Doña Maria,Majaneque|El Higueron|Villarrubia,48,30/06/2026
-1503001,15001|15003|15006,Orzan|San Andres|Sol,,10,30/06/2026
-1503002,15002|15001,Avenida Hercules|Angel Rebollo|Ronda Monte Alto,,23,30/06/2026
-1503003,15005|15004|15006,Juan Florez|Avenida Fernandez Latorre|Avenida Oza,,21,30/06/2026
-1503004,15007,Ronda Outeiro|Avenida Arteixo|Avenida Mallos,,26,30/06/2026
-1503005,15011|15004,Ronda Outeiro|Manuel Azaña|Avenida Calvo Sotelo,San Pedro de Visma|El Portiño|Gramela,22,30/06/2026
-1503006,15010|15011,Ronda Outeiro|Barcelona|Villa de Negreira,,23,30/06/2026
-1503007,15009|15008|15006,Avenida Concordia|Avenida Oza|Ronda Outeiro,Martinete|La Cabana|El Birloque,41,30/06/2026
-1503008,15009|15006|15008,Castaño de Eiris|Eiris de Arriba|Carretera Eiris,Casanova de Eiris|Peñarredonda|Zapateira,7,30/06/2026
-1503009,15190|15008,Avenida Nueva York|Avenida Novo Mesoiro|Penas da Agrela (das),Feans|Mesoiro|Zapateira,7,30/06/2026
-1503010,15010|15008|15007,Alcalde Jaime Hervada|Monasterio de Caaveiro|Avenida Fisterra,La Grela|Pena Moa|La Silva,6,30/06/2026
-1503601,15403,Avenida Vigo|Avenida Esteiro|Españoleto,,6,30/06/2026
-1503602,15404|15403|15402|15405,Alcalde Usero|Castela|San Salvador,,14,30/06/2026
-1503603,15401|15402|15405,A Coruña|Concepcion Arenal|Alegre,,3,30/06/2026
-1503604,15401|15402,Mendez Nuñez|Sanchez Barcaiztegui|A Coruña,,3,30/06/2026
-1503605,15401,Alonso Lopez|Avenida Breogan|Alta do Porto,,4,30/06/2026
-1503606,15406|15404,Avenida Castelao|Armada Española|Berton,,14,30/06/2026
-1503607,15404|15405,Catabois|San Pedro|Castela,Calvario|Leixa|Beleicon,7,30/06/2026
-1503608,15405|15590|15593|15594,Real Alta|Catabois|Cobas,A Cabana|A Graña|Mouga,9,30/06/2026
-1507801,15705|15897|15896,Pedreiras (das)|Carretas (das)|Cruceiro do Gaio (do),Roxos|Piñeiro de Villestro|Paredes de Laraño,7,30/06/2026
-1507802,15705|15704,Vilares (dos)|Tambre (do)|Avenida Cruceiro da Coruña (do),Boisaca|Lermo|Santo Ignacio do Monte,13,30/06/2026
-1507803,15703|15704|15707|15820,Pena Maria (da)|Agro dos Mozos (do)|Campo da Angustia (do),San Marcos|A Devesa|Agra dos Campos,9,30/06/2026
-1507804,15702|15707|15703,Avenida Lugo (de)|Lisboa (de)|Madrid (de),A Susana|Piñeiro do Eixo|A Veiga,18,30/06/2026
-1507805,15701|15706|15702,Republica Arxentina (da)|Horreo (do)|San Pedro de Mezonzo (de),A Rocha Vella|Outeiro do Castiñeiriño|O Porto de Conxo,23,30/06/2026
-1507806,15820|15884|15688|15707,Carballa (da)|Avenida Aeroporto (do)|Avenida Grabanxa (da),A Foca|A Barciela|O Valado da Barciela,5,30/06/2026
-1607801,16001|16146,Alfonso VIII|Plaza Carmen (del)|Castillo,Valdecabras,1,30/06/2026
-1607802,16001|16002,Gonzalez Frances|Posito|Tintes,,2,30/06/2026
-1607803,16002|16001|16191,Avenida Alfares (de Los)|Colon|Avenida San Julian,Colliga|Nohales|Villanueva Escuderos,8,30/06/2026
-1607804,16004|16003,Avenida Reyes Catolicos|Paseo San Antonio (de)|Avenida Castilla-La Mancha (de),La Melgosa|Mohorte,25,30/06/2026
-1707901,17004,Carme|Carretera Sant Feliu|Vista Alegre,Vila-Roja|Font de la Pólvora,6,30/06/2026
-1707902,17003|17002|17005,Migdia|Barcelona|Lluís Pericot,Creu de Palau,22,30/06/2026
-1707903,17005|17006|17001,Riu Güell|Santa Eugènia|Sant Narcís,,21,30/06/2026
-1707904,17004,Plaça Lledoners|Sant Domènec|Claveria,,2,30/06/2026
-1707905,17007,Bellpuig|Ronda Fort Roig|Plaça Sant Pere,Campdorà,6,30/06/2026
-1707906,17007|17004|17006,Antoni Varés i Martinell|Torre de Taialà|Can Massa,Domeny|Taialà-Germans Sàbat,5,30/06/2026
-1808701,18002|18004|18003,Camino Ronda (de)|Arabial|Pedro Antonio de Alarcon,,18,30/06/2026
-1808702,18007|18006|18005,Avenida Dilar (de)|Avenida Cadiz (de)|Camino Ronda (de),,47,30/06/2026
-1808703,18011|18013|18014,Avenida Juan Pablo II|Joaquina Eguaras|Ribera del Beiro,Cerrillo de Maracena,44,30/06/2026
-1808704,18009|18010,Carrera del Darro|San Juan de los Reyes|Puente Cabrera,,2,30/06/2026
-1808705,18009|18010,Aguirre|Alamo del Marques|Aljibe de Trillo,,1,30/06/2026
-1808706,18008|18006,Camino Bajo de Huetor|Poeta Manuel de Gongora|Avenida America (de),,24,30/06/2026
-1808707,18015|18003,Carretera Malaga (de)|Avenida Andalucia (de)|Doctor Medina Olmos,Bobadilla,29,30/06/2026
-1808708,18010|18011|18008|18009,Cruz de Piedra (de La)|Plaza Larga|Carretera Murcia (de),Alqueria del Fargue,5,30/06/2026
-1808709,18008|18009,Camino Real de los Neveros|Hoya de la Mora|Carretera Sierra (de La),Lancha del Genil,10,30/06/2026
-1814001,18600|18613,Avenida Salobreña|Rio Ebro|Camino de las Cañas,,4,30/06/2026
-1814002,18600,Avenida Angel Gijon Diaz|Manuel Peña Alta|Camino de las Cañas,,7,30/06/2026
-1814003,18600,Nueva|Plaza Javier de Burgos|Milanesa,,4,30/06/2026
-1814004,18600,Santisimo|Ancha|Padre Vazquez Alfalla,,14,30/06/2026
-1814005,18600|18613|18730|18614,Avenida Julio Moreno|Avenida Nuestra Señora de la Cabeza - Varadero|Carretera Celulosa (de La),Carchuna|El Varadero|Puntalon,5,30/06/2026
-1913001,19004|19003|19001,Avenida Ejercito|Cifuentes|Constitucion,Iriepal|Taracena|Usanos,15,30/06/2026
-1913002,19005,Avenida Barcelona|Avenida El Vado|Avenida Burgos,,18,30/06/2026
-1913003,19005|19002|19001,Ferial|Avenida Venezuela|Plaza Capitan Boixareu Rivera,,11,30/06/2026
-1913004,19002|19003,Dr Layna Serrano|Alvargomez de Ciudad Real|Siguenza,,11,30/06/2026
-1913005,19004|19080,Francisco Aritio|Plaza Los Manantiales|Buenafuente,,5,30/06/2026
-2004501,20304|20302|20303,Paseo Colon|Escuelas|Fermin Calbeton,,4,30/06/2026
-2004502,20304|20305|20303,Arbesko Errota|Juan Thalamas Labandibar|Dario de Regoyos,,11,30/06/2026
-2004503,20301|20302|20303,Anaca|Avenida Elizatxo|Paseo Colon,,19,30/06/2026
-2004504,20303|20305,Avenida Elizatxo|Araba Kalea|Bizkaia Kalea,,9,30/06/2026
-2006901,20003,Narrica|San Jeronimo|Iñigo,,5,30/06/2026
-2006902,20004|20005|20006|20007,San Martin|Arrasate|Avenida Libertad de la,,8,30/06/2026
-2006903,20011|20006|20010|20014,Avenida Isabel Ii de|Jose M. Salaberria|Eustasio Amilibia,,33,30/06/2026
-2006904,20012|20015|20001|20002,Virgen del Carmen|Paseo Duque de Mandas|Iparragirre,,20,30/06/2026
-2006905,20001|20013|20002,Segundo Ispizua|Bermingham|Avenida Navarra de,,14,30/06/2026
-2006906,20009|20018|20008,Paseo Aiete de|Zarautz|Paseo Doctor Marañon,Igeldo|Zubieta|Añorga,30,30/06/2026
-2006907,20017|20015|20016,Paseo Larratxo de|Paseo Altza de|Paseo Bertsol. Txirrita,,31,30/06/2026
-2104101,21003|21001|21002|21004,Puerto|Gines Martin|Avenida Italia,,13,30/06/2026
-2104102,21002|21001,Avenida Cristobal Colon|Perez Galdos|Avenida Union Europea de la,,10,30/06/2026
-2104103,21003|21001|21004|21006,Avenida Escultora Miss Whitney|Ismael Serrano|Avenida Pio XII,,11,30/06/2026
-2104104,21004|21006|21002,Marchena Colombo|Avenida Adoratrices|Nuestra Sra. del Rocio,,14,30/06/2026
-2104105,21006|21007|21003,Avenida Alcalde Federico Molina|Isla Cristina|Alosno,,14,30/06/2026
-2104106,21007|21006,Plaza Juan XXIII|Rio Tajo|Plaza Sancho Panza,,9,30/06/2026
-2104107,21005|21006|21007,Avenida Honduras|Avenida Andalucia|Avenida Pablo Ruiz Picasso,La Ribera|La Alquería,22,30/06/2026
-2104108,21005|21002,Avenida Diego Moron de|Avenida Manuel Siurot|Legion Española,Peguerillas|Santa Isabel,16,30/06/2026
-2212501,22001|22002|22003,Doña Petronila|Desengaño|Plaza Lizana,,3,30/06/2026
-2212502,22001|22005,Paseo Ramon y Cajal|Jose Maria Lacasa|Avenida Los Danzantes de Huesca,,6,30/06/2026
-2212503,22005|22002|22001|22196,Doña Sancha|Calatayud|Plaza Santa Clara,Buñales|Tabernas del Isuela,9,30/06/2026
-2212504,22006|22005|22195|22196,Miguel Fleta|Zacarias Martinez|Paseo Ramon y Cajal,Apies|Bellestar del Flumen|Fornillos de Apies,4,30/06/2026
-2212505,22004|22005|22197|22001,Avenida Martinez de Velasco|Cerro San Jorge|Algascar,Cuarte|Huerrios|Banaries,2,30/06/2026
-2212506,22003|22004|22005,Menendez Pidal|San Jorge|Avenida Juan XXIII,,4,30/06/2026
-2212507,22004|22003|22194|22002,Avenida Doctor Artero|Avenida Pirineos (de Los)|Pasaje Agustin de Carreras,,4,30/06/2026
-2212508,22003|22002|22005,Parque|San Jorge|Coso Alto,,3,30/06/2026
-2305001,23002|23001,Carrera de Jesus|Principe Alfonso|Francisco Coello,Puente de la Sierra,8,30/06/2026
-2305002,23001|23003,Plaza La Constitucion|Adarves Bajos|Puerta del Angel,Puente Jontoya,7,30/06/2026
-2305003,23009|23008|23003,Avenida Madrid (de)|La Luna|Santa Maria del Valle,Galapagar|Puente Nuevo,15,30/06/2026
-2305004,23008|23009,Paseo España (de)|Paseo La Estacion|Avenida Madrid (de),Las Infantas|Grañena,17,30/06/2026
-2305005,23006|23005,Avenida Andalucia|Avenida Barcelona|Avenida Arjona,La Imora|Villar de Cuevas,21,30/06/2026
-2305006,23004|23005|23007,Plaza La Magdalena|Santo Domingo|Doctor Luzon,Caño Quebrado,6,30/06/2026
-2305007,23004|23002|23007,Martinez Molina|Arroyo de San Pedro|Las Huertas,,4,30/06/2026
-2305008,23004|23001|23002|23007,San Clemente|Plaza San Bartolome|Capitan Oviedo,,4,30/06/2026
-2305009,23002|23004,Carretera Jabalcuz|Almodovar|Carretera Circunvalacion,Jabalcuz,6,30/06/2026
-2305501,23700,Avenida Andalucia|Cid Campeador|Plaza Anibal e Himilce,Arrayanes-La Cruz-La Lagu|Tobaruela-La Tortilla|Cañada Incosa-Cerro Pelad,9,30/06/2026
-2305502,23700,Avenida San Sebastian|Avenida Andres Segovia|Avenida Maria Auxiliadora,,3,30/06/2026
-2305503,23700,Calderon|Martinez de la Rosa|Carretera Arrayanes,,6,30/06/2026
-2305504,23700,Julio Burell|Pedro Poveda|Senda de la Moza,,8,30/06/2026
-2305505,23700,Plaza Alfonso XII|Alonso Poves|Ayala,,4,30/06/2026
-2305506,23700,Plaza Colon|Raphael|Sagunto,,5,30/06/2026
-2305507,23700,Reino Unido|Holanda|Alemania,,3,30/06/2026
-2305508,23490,Amor de Dios|Anastasio Fernandez de Rivas|Paseo Arquillos,Estacion Linares-Baeza,1,30/06/2026
-2408901,24004|24001|24003,Villa Benavente|Burgo Nuevo|Avenida Republica Argentina,,5,30/06/2026
-2408902,24001|24002,Gran Via de San Marcos|Plaza La Inmaculada|Roa de la Vega,,10,30/06/2026
-2408903,24008|24002,Avenida Mariano Andres|Reyes Leoneses|Carretera Carbajal,,20,30/06/2026
-2408904,24007|24008,Avenida Nocedo|Avenida San Mames|Avenida San Juan de Sahagun,,15,30/06/2026
-2408905,24006|24003|24005,Los Bordadores|Santa Ana|Moises de Leon,,11,30/06/2026
-2408906,24005|24004,Avenida Fernandez Ladreda|Avenida Jose Aguado|Avenida Alcalde Miguel Castaño,,17,30/06/2026
-2408907,24009|24010,Avenida Doctor Fleming|Paseo Salamanca|Avenida Quevedo,Armunia,13,30/06/2026
-2408908,24005,Avenida Madrid|Cirujano Rodriguez|La Alegria,,2,30/06/2026
-2408909,24009|24010|24192,Plaza Iglesia|Avenida Antibioticos|La Cuesta,Armunia|Oteruelo de la Valdoncina|Trobajo del Cerecedo,3,30/06/2026
-2408910,24006|24007,Avenida Real|Batalla de Clavijo|Avenida Jose Maria Fernandez,,7,30/06/2026
-2411501,24401,Avenida Castillo|San Fructuoso|Plaza El Ayuntamiento,Santo Tomas de las Ollas,12,30/06/2026
-2411502,24402|24404,Avenida La Libertad|Camino de Santiago|Avenida Castillo,,17,30/06/2026
-2411503,24403,Avenida Portugal|Vista Alegre|Avenida La Cemba,Flores del Sil|Dehesas|La Placa,7,30/06/2026
-2411504,24415|24414|24448,La Fuente|El Cristo|Camino Ozuela,Campo|Toral de Merayo|San Lorenzo,2,30/06/2026
-2411505,24404|24411,San Roque|Avenida Galicia|Iglesia,Fuentesnuevas|Columbrianos|Cuatrovientos,7,30/06/2026
-2411506,24414|24415,Real|Iglesia|La Fuente,Villar de los Barrios|Villanueva de Valdueza|San Esteban de Valdueza,1,30/06/2026
-2512001,25005|25007|25004,Del Corregidor Escofet|Del Baró de Maials|Dels Comtes D'urgell,,13,30/06/2026
-2512002,25001|25197,Avinguda De València|De la Doctora Castells|Avinguda De Les Garrigues,,8,30/06/2026
-2512003,25002,Avinguda De Catalunya|De República del Paraguai|Avinguda De Madrid,,6,30/06/2026
-2512004,25003|25002,Avinguda De Pius XII|De la Mariola|Del Cardenal Cisneros,,14,30/06/2026
-2512005,25006|25003,Avinguda Del Doctor Fleming|De Magí Morera|De Vallcalent,,11,30/06/2026
-2512006,25008|25004|25005|25006,D'alfred Pereña|Avinguda De Prat de la Riba|Avinguda De L'alcalde Porqueras,,15,30/06/2026
-2512007,25001|25191|25197,Avinguda De Flix|D'ignasi Bastús|De Sant Paulí de Nola,,8,30/06/2026
-2512008,25199|25198|25111|25113,De Victoria Kent|Del Bou - Sucs|Del Castell - Raimat,Raimat|Suchs|Torres de Sanui (les),4,30/06/2026
-2512009,25196|25005|25195|25198,Del Castell Formós|Gran - Llívia|D'albareda - Llivia,Llivia|Gualda|Basses D'alpicat (les),2,30/06/2026
-2608901,26001|26003|26004,Plaza Mercado (del)|Caballeria|Duquesa de la Victoria,,4,30/06/2026
-2608902,26004|26006|26007,Madre de Dios|Avenida La Paz de|Cigueña,Varea,29,30/06/2026
-2608903,26003|26002|26004,Avenida Solidaridad|General Vara de Rey|Avenida Colon,,25,30/06/2026
-2608904,26007|26005|26002,Avenida Perez Galdos|Huesca|Chile,,39,30/06/2026
-2608905,26005,Gonzalo de Berceo|Ronda de los Cuarteles|General Urrutia,El Cortijo,13,30/06/2026
-2608906,26001|26005|26009,San Agustin|Barriocepo|Marques de San Nicolas,,2,30/06/2026
-2702801,27001|27002,Praza Santo Domingo|Praza Campo (do)|Praza Pio XII,,3,30/06/2026
-2702802,27002,Ronda Fontiñas (das)|San Roque|Afonso X O Sabio,,21,30/06/2026
-2702803,27003,Conde (do)|Rio Sil|Gandaras (das),,11,30/06/2026
-2702804,27003|27004,Avenida Coruña (da)|Lavandeira|Angelo Colocci,,14,30/06/2026
-2702805,27004,Lamas de Prado|Praza Fonte dos Ranchos|Avenida Americas (das),,18,30/06/2026
-2702806,27230|27231|27232|27233,,Vilar|Vilaestevez|As Illas,1,30/06/2026
-2702807,27181|27180|27182|27185,Rego do Espiño,Cuiña|Argonde|Esperante,2,30/06/2026
-2702808,27140|27190|27141|27146,,A Estrada|Barbain|Coeo,2,30/06/2026
-2702809,27003|27191|27192|27289,Inspeccion (da)|Camiño da Rozanova|Camiño de Liñares,Urbanizacion Campiña|A Airexe|Gundin,2,30/06/2026
-2800501,28801|28807|28804|28805,Via Complutense|Paseo Estacion (de La)|Gran Canal,,23,30/06/2026
-2800502,28803|28802,Avenida Reyes Catolicos|Nuñez de Guzman|Ronda Fiscal,Soto de la Ciudad y Geraf,38,30/06/2026
-2800503,28806,Avenida Juan Carlos I|Torrelaguna|Ventura Rodriguez,,18,30/06/2026
-2800504,28806|28805,Avenida Miguel de Unamuno|Jose Maria Pereda|Jorge Luis Borges,,22,30/06/2026
-2800505,28804|28805,Avenida Juan de Austria|Avenida Lope de Figueroa|Via Complutense,,31,30/06/2026
-2800601,28100,Paseo Chopera (de La)|Marques de la Valdavia (del)|Constitucion (de La),,66,30/06/2026
-2800701,28921|28922,Polvoranca|Oslo|Mayor,Campodon|Ventorro del Cano|Carretera de San Martin,20,30/06/2026
-2800702,28924|28925,Avenida Lisboa|Avenida Las Flores|Avenida Los Castillos,,37,30/06/2026
-2800703,28923|28921,Polvoranca|Sapporo|Sierra de Albarracin,,28,30/06/2026
-2800704,28922|28921,Cisneros|Avenida Las Retamas|Alfredo Nobel,,38,30/06/2026
-2801301,28300,Moreras (de Las)|Foso (del)|Primero de Mayo (del),,10,30/06/2026
-2801302,28300,Camino Noblejas (de)|Jesus (de)|Abastos (de),,9,30/06/2026
-2801303,28300,Paseo Deleite (del)|Carretera Andalucia (de)|Calandria (de La),,10,30/06/2026
-2801304,28300,San Cristobal de la Laguna|Santiago de Compostela|Praga,La Montaña|Real Cortijo de San Isidr|Sotomayor,7,30/06/2026
-2801401,28500,Avenida Ejercito (del)|Carretera Loeches (de)|Carretera Valencia (de),Los Villares|Puente de Arganda,27,30/06/2026
-2802201,28660,Avenida Infante Don Luis (del)|Avenida Adolfo Suarez (de)|Avenida Condesa de Chinchon (de La),Boadilla del Monte|Urbanizaciones Este|Prado del Espino-San Babi,35,30/06/2026
-2804501,28770,Avenida Libertad (de La)|Mosquilona (de La)|Avenida Mediterraneo (del),Las Pueblas|Los Chortales|Navarrosillos-Poligono Su,31,30/06/2026
-2804701,28400,Carretera Moralzarzal|Playa Frexeira|Real,Collado Villalba|Dominio de Fontenebro,33,30/06/2026
-2804901,28821,Avenida Constitucion (de La)|Dr Fleming (del)|Avenida España (de),,21,30/06/2026
-2804902,28822|28823,Chile|Avenida Berlin (de)|Avenida Madrid (de),,19,30/06/2026
-2804903,28823|28822,Argentina|Peru|Mejico,,9,30/06/2026
-2804904,28823,Avenida Industria (de La)|Avenida Fuentemar (de)|Avenida Jose Garate (de),,2,30/06/2026
-2805801,28945,Avenida Andes (de Los)|Callao (de)|Habana (de La),,6,30/06/2026
-2805802,28945|28944,Lima (de)|Cuzco (de)|Avenida Francisco Javier Sauquillo,,17,30/06/2026
-2805803,28945|28944,Leganes (de)|Pozuelo (de)|Polvoranca (de),,10,30/06/2026
-2805804,28944,Extremadura (de)|Luis Sauquillo|Comunidad de Madrid (de La),,16,30/06/2026
-2805805,28941|28943,Nazaret (de)|Avenida España|Mostoles (de),,6,30/06/2026
-2805806,28941|28942,Avenida Provincias (de Las)|Avenida Comarcas (de Las)|Galicia,Loranca,19,30/06/2026
-2805807,28943|28942,Mostoles (de)|Alemania (de)|Belgica (de),,17,30/06/2026
-2805808,28943,Grecia (de)|Avenida Naciones (de Las)|Italia (de),,16,30/06/2026
-2805809,28942,Federica Montseny|Avenida Miguel de Cervantes|Avenida Tolerancia (de La),Loranca,12,30/06/2026
-2806501,28901|28902,Toledo|Magdalena (de La)|Madrid,,18,30/06/2026
-2806502,28903|28902,Madrid|General Castaños|San Jose de Calasanz,,21,30/06/2026
-2806503,28905|28904,Avenida Juan Carlos I|Garcilaso|Alonso de Mendoza,El Bercial,49,30/06/2026
-2806504,28903|28906,Avenida Aragon|Andalucia|Avenida España,Perales del Rio|Los Llanos|Aldehuela y la Torrecilla,34,30/06/2026
-2807401,28911|28912|28914,Avenida Fuenlabrada|Polvoranca|Hernan Cortes,,26,30/06/2026
-2807402,28912|28911,Avenida Fuenlabrada|Avenida Universidad|Madrid,,19,30/06/2026
-2807403,28918|28913,Rio Manzanares|Rio Duero|Argentina,,20,30/06/2026
-2807404,28915,Rioja|Monegros|Avenida Mancha (de La),,41,30/06/2026
-2807405,28916|28919,Avenida Maria Guerrero|Avenida Rey Juan Carlos I|Avenida Francia,Butarque,21,30/06/2026
-2807406,28917,Avenida Libertad|Santo Domingo|San Amado,Fortuna,8,30/06/2026
-2807407,28914,Alcalde Pedro Gonzalez Gonzalez|Coslada (de)|Plaza Alcalde Jose Manuel Matheo Luaces (del),,7,30/06/2026
-2807901,28012|28004|28005|28013,San Bernardo|Fuencarral|Gran Via,,110,30/06/2026
-2807902,28045|28005,Embajadores|Paseo Delicias|Paseo Santa Maria de la Cabeza,,111,30/06/2026
-2807903,28007|28009,Doctor Esquerdo|Avenida Ciudad de Barcelona|Valderribas,,93,30/06/2026
-2807904,28028|28006|28001,Hermosilla|Alcala|Jorge Juan,,124,30/06/2026
-2807905,28002|28016|28036,Lopez de Hoyos|Principe de Vergara|Paseo La Habana,,101,30/06/2026
-2807906,28020|28039|28029,Bravo Murillo|Orense|Paseo Direccion,,117,30/06/2026
-2807907,28003|28015|28010,Santa Engracia|Guzman el Bueno|Andres Mellado,,121,30/06/2026
-2807908,28034|28029|28035,Avenida Cardenal Herrera Oria|Avenida Monforte de Lemos|Avenida Betanzos,,187,30/06/2026
-2807909,28008|28023|28039,Juan Alvarez Mendizabal|Ferraz|Martin de los Heros,,90,30/06/2026
-2807910,28011|28047|28024,Paseo Extremadura|Camarena|Illescas,,196,30/06/2026
-2807911,28025|28019,General Ricardos|Camino Viejo de Leganes|Avenida Abrantes,,182,30/06/2026
-2807912,28026|28041,Marcelo Usera|Avenida Rafaela Ybarra|Camino Perales,,93,30/06/2026
-2807913,28038|28018|28053,Avenida Albufera|Avenida Pablo Neruda|Arroyo del Olivar,,176,30/06/2026
-2807914,28030,Hacienda de Pavones|Avenida Doctor Garcia Tapia|Camino de los Vinateros,,83,30/06/2026
-2807915,28017|28027,Arturo Soria|Alcala|Elfo,,168,30/06/2026
-2807916,28033|28043,Carretera Canillas|Lopez de Hoyos|Avenida San Luis,,126,30/06/2026
-2807917,28021|28041,Avenida Real de Pinto|Paseo Alberto Palacios|La del Manojo de Rosas,,109,30/06/2026
-2807918,28031|28051,Avenida Ensanche de Vallecas|Avenida Las Suertes|Congosto,,75,30/06/2026
-2807919,28032,Indalecio Prieto|Minerva|San Cipriano,,56,30/06/2026
-2807920,28022|28037,Alcala|Avenida Canillejas a Vicalvaro|Avenida Guadalajara,,112,30/06/2026
-2807921,28042,Avenida Logroño|Paseo Alameda de Osuna|Avenida Cantabria,,32,30/06/2026
-2808001,28220|28222,Doctor Bastos|Charaima|Granadilla,La Cumbre|La Grajera,19,30/06/2026
-2808002,28221|28220|28222,Norias|Avenida España|Avenida Paralela,Monte del Pilar,28,30/06/2026
-2809201,28935|28934,Pintor Velazquez (del)|Villaamil|Avenida Dos de Mayo (del),Parque Coimbra|Parque Guadarrama|Pinares Llanos,24,30/06/2026
-2809202,28933|28932,Pintor Velazquez (del)|Avenida Alcalde de Mostoles (del)|Paseo Goya (de),Las Nieves,37,30/06/2026
-2809203,28937|28936|28931,Baleares|Empecinado (del)|Camino de Leganes,,30,30/06/2026
-2809204,28938|28934,Alfonso XII|Palmas (de Las)|Camino de Humanes,,48,30/06/2026
-2810601,28981|28982|28983,Jaime i el Conquistador|Avenida Planetas (de Los)|Real,,67,30/06/2026
-2811301,28320,Juana Frances|Plaza Constitucion (de La)|Real (del),,15,30/06/2026
-2811302,28320,Castilla (de)|Avenida Europa (de)|Cordoba,Las Arenas,16,30/06/2026
-2811501,28223,Doctor Cornago|Avenida Pablo VI|Camino Alcorcon,Monteclaro-La Cabaña|Humera-Somosaguas|Los Angeles,34,30/06/2026
-2811502,28224,Carretera Humera (de)|Avenida Europa|Avenida Comunidad de Madrid (de La),,22,30/06/2026
-2812301,28523|28521|28522,Avenida Pablo Iglesias (de)|Avenida Almendros (de Los)|Avenida Levante (de),Rivas-Vaciamadrid|Rivas de Jarama|El Porcal,58,30/06/2026
-2812701,28231|28232|28290,Avenida Atenas|Carretera Escorial|Carretera Coruña,Las Rozas de Madrid|La Chopera|Las Ceudas,50,30/06/2026
-2813401,28701|28702|28703,Real|Avenida Navarrondan|Real Vieja,Ciudalcampo|Fuente del Fresno|La Granjilla,55,30/06/2026
-2814801,28850,Londres|Avenida Madrid|Avenida Constitucion,Casablanca,26,30/06/2026
-2814802,28850,Circunvalacion|Carretera Loeches|Solana,,29,30/06/2026
-2814803,28850,Carretera Loeches|Zeus|Avenida Constitucion,El Castillo,10,30/06/2026
-2814804,28850,Curas|Madrid|Cristo,,19,30/06/2026
-2816101,28341|28343,Avenida Mar Mediterraneo (del)|Avenida Andalucia (de)|Paseo Estacion (de La),,26,30/06/2026
-2816102,28342|28341,Agustina de Aragon|Lili Alvarez|Maria Curie,,17,30/06/2026
-2890301,28760,Avenida Artesanos (de Los)|Avenida Labradores (de Los)|Avenida Castilla y Leon (de),,30,30/06/2026
-2902501,29639|29630,Avenida Retamar|Avenida Juan Luis Peralta|Camino Real de Fuengirola,Benalmadena,5,30/06/2026
-2902502,29631,Velarde|Avenida Inmaculada Concepcion|Avenida Constitucion de la,,20,30/06/2026
-2902503,29630,Avenida Antonio Machado|Ronda del Golf Oeste|Avenida Bonanza de,,12,30/06/2026
-2905101,29680,Avenida Juan Carlos I|Avenida España|Avenida Andalucia,La Gaspara|Bahia Dorada|Buenas Noches,17,30/06/2026
-2905102,29680,Terraza|Avenida Andalucia|Avenida Reales (de Los),,13,30/06/2026
-2905103,29688|29689,Priorato|Avenida Hacienda del Sol|Abordaje (del),Saladillo-Benamara|Cancelada|Resinera-Voladilla,8,30/06/2026
-2905401,29640,Avenida Mijas|Avenida Alcalde Clemente Diaz Ruiz|Avenida Condes de San Isidro,,27,30/06/2026
-2905402,29640,Avenida Nuestro Padre Jesus Cautivo|Paseo Jesus Santos Rein|Avenida Boliches de los,,6,30/06/2026
-2905403,29640,Avenida Pacos los|Avenida Carvajal|Paseo Maritimo Rey de España,,7,30/06/2026
-2906701,29001|29005|29008|29015,Plaza Marina de la|Colon|Principal,,3,30/06/2026
-2906702,29018|29017|29016,Avenida Juan Sebastian Elcano|Avenida Salvador Allende|Almeria,Olias,52,30/06/2026
-2906703,29008|29012|29001|29015,Beatas|Juan de Padilla|Pozos Dulces,,2,30/06/2026
-2906704,29012|29013,Plaza Victoria|Cristo de la Epidemia|Ferrandiz,,12,30/06/2026
-2906705,29008|29012|29013,Ollerias|Cabello|Alvarez,,2,30/06/2026
-2906706,29014|29013,Francisco Lopez Lopez|Jerez Perchet|Avenida Santiago Ramon y Cajal,Verdiales,46,30/06/2026
-2906707,29011|29010|29009,Martinez de la Rosa|Eugenio Gross|Camino Suarez,Verdiales,90,30/06/2026
-2906708,29010|29006,Navarro Ledesma|Avenida Jose Ortega y Gasset|Avenida Plutarco,Campanillas|Verdiales,79,30/06/2026
-2906709,29002|29006|29007,Heroe de Sostoa|Union|Avenida Andalucia,,68,30/06/2026
-2906710,29004|29003,Avenida Velazquez|Avenida Europa|Avenida Sor Teresa Prat,,72,30/06/2026
-2906711,29140|29004,Carretera Coin|Avenida San Javier|Doctor Ramos Acosta,Churriana,15,30/06/2026
-2906901,29601|29602|29603,Avenida General Lopez Dominguez|Avenida Ricardo Soriano|Boqueron,,43,30/06/2026
-2906902,29670,Avenida Pablo Ruiz Picasso (sp)|Fuente Nueva (sp)|Alamos (sp),San Pedro Alcantara,19,30/06/2026
-2906903,29660|29602,Avenida Gustavo Adolfo Becquer|Avenida Miguel de Cervantes|Avenida Bulevar Principe Alfonso de Hohenlohe,Nueva Andalucia,10,30/06/2026
-2906904,29603|29604,Avenida Santa Clara Golf|Avenida Alcudia (de) (golf Rio Real)|Avenida Alisos (los) (artola Alta),,7,30/06/2026
-2907001,29651|29649|29650,Camino Viejo de Coin|Avenida Mijas de|Rio de las Pasadas,Las Lagunas|Osunillas-Peña Blanquilla|Mijas,44,30/06/2026
-2908201,29730|29720|29738,Camino Viejo de Velez|Avenida Mediterraneo (del)|Avenida Malaga,Torre de Benagalbon|La Cala del Moral|Benagalbon,29,30/06/2026
-2909401,29700,Camino Algarrobo|Avenida Vivar Tellez|Magallanes,Lagos,18,30/06/2026
-2909402,29700,Plaza India de la|Felix Lomas|Pancho Lopez,Cabrillas,9,30/06/2026
-2909403,29740,Avenida Andalucia|Mar (del)|Infantes,Torre del Mar|Caleta de Velez,15,30/06/2026
-2909404,29790|29749,Carretera Malaga Almeria|Carretera Malaga|Antonio Marquez Robles,Almayate Bajo|Benajarafe|Chilches,7,30/06/2026
-2909405,29700|29718|29719,Arroyo Moneda|Carretera Benamargosa|Cañada del Estudiante,Triana|Trapiche,1,30/06/2026
-2990101,29620,Avenida Carlota Alessandri|Cruz de la|Paseo Maritimo,,43,30/06/2026
-3001601,30201|30202|30203,Duque|Plaza Risueño (de)|Plaza Hospital (del),,3,30/06/2026
-3001602,30203|30201|30202,Avenida Pintor Portela|Carlos III|Paseo Alfonso XIII,,11,30/06/2026
-3001603,30204|30203|30205,Juan Fernandez|Avenida Reina Victoria Eugenia|Pintor Balaca,,31,30/06/2026
-3001604,30203,Cabrera|Alcalde Bartolome Spottorno|Plaza Alcalde Cendra Badia,,5,30/06/2026
-3001605,30202|30351|30392,Era Baja|Mayor|Sol,Santa Lucia|Alumbres|Los Mateos,10,30/06/2026
-3001606,30366,Mayor|Calderon de la Barca|Ramon y Cajal,El Algar|La Manga del Mar Menor|Los Urrutias,17,30/06/2026
-3001607,30593|30594|30330|30390,Santa Florentina|Jilguero (del)|San Juan,Pozo Estrecho|La Aljorra|La Palma,14,30/06/2026
-3001608,30205|30300|30310,Mayor|Avenida Colon (de)|Santiago Ramon y Cajal,Barrio de Peral|San Antonio Abad|Barrio de la Concepcion,39,30/06/2026
-3001609,30393|30396|30868|30391,Carretera A Mazarron|Lebeche|Puerto Libre,Isla Plana|La Azohia|Molinos Marfagones,5,30/06/2026
-3001610,30310|30319,Mayor|Carretera Palma (de La)|Camino Viejo Pozo Estrecho,Los Dolores|Canteras|Los Barreros,44,30/06/2026
-3002401,30800,Avenida Juan Carlos I|Jeronimo Santa Fe|Cervantes (de),,43,30/06/2026
-3002402,30813|30815,Camino Vera (de)|Carretera Aguilas (de)|Carretera Altobordo,Zarcilla de Ramos|La Hoya|Casa de las Monjas,25,30/06/2026
-3002701,30500|30509,Mayor|Avenida Madrid (de)|Avenida Gutierrez Mellado,Romeral|El Llano|Ribera de Molina,57,30/06/2026
-3003001,30009|30005|30100,Avenida Miguel de Cervantes|Calvario|Ronda Norte,,62,30/06/2026
-3003002,30008|30007|30003|30006,Avenida Fama|Ronda Levante|Avenida Marques de los Velez,,49,30/06/2026
-3003003,30002|30011,Torre de Romo|Cartagena|Orilla de la Via,,47,30/06/2026
-3003004,30007|30110,Mayor|Avenida Alicante|San Jose,Cabezo de Torres|Esparragal|Puente Tocinos,77,30/06/2026
-3003005,30120,Mayor|Gloria|Avenida Libertad,Palmar O Lugar D. Juan|Sangonera Verde O Ermita|Alberca de las Torres,63,30/06/2026
-3003006,30570,Mayor|Escuelas|San Antonio,Beniajan|Torreaguera|Los Garres,41,30/06/2026
-3003007,30107,Mayor|San Antonio|Fuensanta,San Jose de la Montaña|Aljucer|Guadalupe de Maciascoque,44,30/06/2026
-3003008,30153|30590,San Jose|Carmen|Mayor,La Tercia|Corvera|Sucina,6,30/06/2026
-3120101,31001,Hilarion Eslava / Hilarion Eslava Kalea|Mayor / Kale Nagusia|Plaza Consistorial / Udaletxe Plaza,,12,30/06/2026
-3120102,31004|31002|31003,Avenida Carlos Iii el Noble / Karlos Iii Noblearen Etorbid|Francisco Bergamin / Francisco Bergamin Kalea|Paulino Caballero / Paulino Caballero Kalea,,18,30/06/2026
-3120103,31011|31008,Avenida Barañain / Barañaingo Etorbidea|Avenida Bayona / Baiona Etorbidea|Ermitagaña / Ermitagañako Kalea,,27,30/06/2026
-3120104,31007,Iturrama / Iturrama Kalea|Serafin Olave / Serafin Olave Kalea|Avenida Sancho el Fuerte / Antso Azkarraren Etorbidea,,25,30/06/2026
-3120105,31006|31005,Avenida Zaragoza / Zaragozako Etorbidea|Julian Gayarre / Julian Gayarre Kalea|Tajonar / Taxoare Kalea,,16,30/06/2026
-3120106,31015|31014,Avenida Villava / Atarrabiako Etorbidea|Cuenca de Pamplona / Iruñerria Kalea|San Cristobal / San Kristobal Kalea,,15,30/06/2026
-3120107,31014|31012,Avenida Marcelo Celayeta / Marcelo Celayeta Etorbidea|Bernardino Tirapu / Bernardino Tirapu Kalea|Artica / Artika Kalea,,27,30/06/2026
-3120108,31016,Concejo de Elcano / Elkano Kontzejuaren Kalea|Señorio de Eransus / Erantsus Jaurerriaren Kalea|Palacio / Jauregiko Kalea,,11,30/06/2026
-3205401,32004|32003,Avenida Buenos Aires|Avenida Habana (de La)|Valle Inclan,Ceboliño|Velle|O Meson,18,30/06/2026
-3205402,32005|32004,A Granxa|Nuño de Ousende|Avenida Buenos Aires,Rairo|Santa Mariña do Monte|As Curuxeiras,11,30/06/2026
-3205403,32002|32003,Ervedelo|Avenida Portugal (de)|Faustino Santalices,A Granxa|Reza|Estrada de Reza,17,30/06/2026
-3205404,32005|32002,Avenida Zamora (de)|Bonhome|Nosa Sra. da Sainza,Seixalbo,14,30/06/2026
-3205405,32001,Avenida Santiago (de)|Alejandro Pedrosa|Rio Xares,Cudeiro|Val do Regueiro|Untes,20,30/06/2026
-3300401,33402|33401,Jose Cueto|Camara la|Gutierrez Herrero de,Heros|Valgranda|El Caliero,64,30/06/2026
-3302401,33205|33201|33202|33206,Avenida Costa|Cabrales|Menendez Valdes,,29,30/06/2026
-3302402,33201,Plaza Marques|Plaza Periodista Arturo Arias|Remedios los,,3,30/06/2026
-3302403,33203|33204|33202,Ezcurdia|Emilio Tuya|Marques de Casa Valdes,,25,30/06/2026
-3302404,33212,"Avenida Galicia|Avenida Jose Manuel Palacio Alvarez|Camino Cortijo, del",,12,30/06/2026
-3302405,33213|33212,Avenida Argentina|Brasil|Andes,Veriña de Riba|Veriña de Baxo,21,30/06/2026
-3302406,33210|33211,Cataluña|Carretera Carbonera|Avenida Gaspar Garcia Laviana,,22,30/06/2026
-3302407,33209|33208|33204|33205,Avenida Schulz|Juan Alvargonzalez|Avenida Llano del,,51,30/06/2026
-3302408,33207|33211,Avenida Constitucion|Avenida Portugal de|Magnus Blikstad,,22,30/06/2026
-3302409,33203|33391|33392|33394,"Carretera As-377 (gijon-Pola de Siero)|Carretera Providencia, de la|Carretera Somio, de",Cimavilla|La Pontica|Granda de Riba,19,30/06/2026
-3304401,33007|33003|33009|33008,Perez de la Sala|Rosal|Santa Susana,,8,30/06/2026
-3304402,33008|33007,Muñoz Degrain|Avenida Pedro Masaveu|Carretera Bolgachina de la,El Caseron|Campiello,9,30/06/2026
-3304403,33008|33009|33010,San Melchor Garcia Sampedro|Fernando Alonso|Vetusta,El Monte San Cristoba,12,30/06/2026
-3304404,33010|33008,Tenderina|Avenida Torrelavega de|Armando Álvarez Palacio,Colloto/cualloto|Cerdeño|Caravia,13,30/06/2026
-3304405,33011|33010,Bermudez de Castro|Rosa Maria Menendez Lopez|Manuel Llaneza,,13,30/06/2026
-3304406,33011,Avenida Aureliano San Roman|Avenida Pumarin de|Plaza Cuatro Caños,La Corredoria|El Pontón de Vaqueros|La Granxa,26,30/06/2026
-3304407,33001|33002|33003,General Elorza|Fray Ceferino|Caveda,,11,30/06/2026
-3304408,33012|33001|33011,Torrecerredo|Fernandez de Oviedo|Monte Gamonal,Fitoria,16,30/06/2026
-3304409,33012,Paseo Florida de la|Vazquez de Mella|Victor Hevia,,15,30/06/2026
-3304410,33013|33006,Alejandro Casona|Argañosa|Avenida Valentin Masip,,14,30/06/2026
-3304411,33005|33004|33007,Avenida Galicia de|Cervantes|Independencia,,11,30/06/2026
-3304412,33006|33005,Avenida Cristo de las Cadenas|Alvarez Lorenzana|Baldomero Fernandez,Latores/llatores|Cellagú|Ayones,15,30/06/2026
-3304413,33660|33669|33910|33919,Carretera Cargadero del|Corsino Naves Llaneza|Manzanilla,Veguín|Olloniego/lluniego|Arguañes,2,30/06/2026
-3304414,33171|33195|33196|33010,Avenida Ramon Pandiello|Tapia de Casariego,La Barraca|Llamascura|Llanu'l Río,2,30/06/2026
-3304415,33119|33140|33174,Aranjuez|Carretera Aviles-Soto (godos)|Celestino Zuazua,La Fábrica|Caces|Sotu,3,30/06/2026
-3304416,33194|33191|33012|33193,Carretera General|Carretera Oviedo|Camino Villamar de,San Roque|Cotayon|San Claudio/san Cloyo,4,30/06/2026
-3306601,33420|33510,Avenida Oviedo|Carretera Santander|Celleruelo,La Pola Siero|Urbanización la Fresneda|El Berrón,40,30/06/2026
-3412001,34002|34001,Empedrada|Paseo Salon (del)|Plaza San Lazaro,,4,30/06/2026
-3412002,34005|34001|34191,Mayor Antigua|Avenida Castilla|Marques de Albaida,Paredes de Monte,3,30/06/2026
-3412003,34001|34005,Mayor Principal|Lope de Vega|Avenida Casado del Alisal,,4,30/06/2026
-3412004,34005,Avenida Asturias|Primera Universidad de España|Avenida Simon Nieto,,8,30/06/2026
-3412005,34003|34004,Avenida Cuba|Los Robles|Tomillo,,15,30/06/2026
-3412006,34003,Paseo Otero (del)|Camino La Miranda|Lanzarote,,6,30/06/2026
-3412007,34004|34002,Avenida Cardenal Cisneros|Avenida San Telmo|Avenida Valladolid,,18,30/06/2026
-3500401,35500,Leon y Castillo|Manolo Millares|Triana,,12,30/06/2026
-3500402,35500,Avenida Temisas|La Joaquina|Dr. Juan Negrin,,22,30/06/2026
-3501601,35016|35015|35017,"Paseo San Jose|Cordoba|Paseo Blas Cabrera Felipe ""fisico""",Tafira|Marzagan|La Montañeta,59,30/06/2026
-3501602,35014|35004,Leon y Castillo|Pio XII|Paseo Tomas Morales,,58,30/06/2026
-3501603,35009|35010|35007|35008,Fernando Guanarteme|Avenida Jose Mesa y Lopez|Paseo Canteras las,,47,30/06/2026
-3501604,35012|35011|35013,Avenida Escaleritas|Mariucha|Federico Viera,,81,30/06/2026
-3501605,35018,Carretera San Lorenzo (de)|San Juan de Avila|Avenida Cesar Manrique,Tamaraceite|Tenoya|San Lorenzo,38,30/06/2026
-3501901,35100|35108|35280|35290,Santiago Cazorla|Ansite|Bartolome Febles,Tunte|Fataga|Cercados de Araña,1,30/06/2026
-3501902,35107|35100|35119,Barlovento|Honorato Martin Cobos|Era (de La),Castillo del Romeral|Aldea Blanca|Juan Grande,3,30/06/2026
-3501903,35100,Avenida Tirajana (de)|Avenida Alejand. del Castillo|Avenida Galdar (de),Playa del Ingles|San Agustin|Campo Internacional,18,30/06/2026
-3501904,35109|35100|35106,Jamaica|Panama|Avenida Americas (de Las),El Tablero|Montaña la Data|El Salobre,6,30/06/2026
-3502201,35110|35280,Alcalde Facundo Lopez|Baldomero Argente|Buenavista,Santa Lucia|Rosiana|El Ingenio,1,30/06/2026
-3502202,35110,Leon y Castillo|Orilla Baja|Becquer,Sardina,7,30/06/2026
-3502203,35110,Avenida Canarias|Avenida Atlantico del|Avenida Union de la,Vecindario|El Doctoral|Pozo Izquierdo,34,30/06/2026
-3502601,35200,Luis Doreste Silva|Doctor Castro Ojeda|Plaza San Juan de,,3,30/06/2026
-3502602,35200,Parque Franchy y Roca|Plaza San Gregorio de|Doctor Melian,Valle de los Nueve,11,30/06/2026
-3502603,35220|35210|35218,Fernando Sagaseta|Manuel Aleman Alamo|Lomo de las Brujas,Valle de Jinamar|Jinamar|Lomo de la Herradura,23,30/06/2026
-3502604,35200|35211|35215,Carretera Picos los|Carretera Breña la|Alto del Lomo Magullo,Lomo Magullo|Valle de los Nueve|Las Medianias,4,30/06/2026
-3502605,35213|35212,John Lennon|Fresno|Misericordia,La Garita|San Antonio|La Pardilla,11,30/06/2026
-3502606,35215|35200|35214,Americo Vespucio|Bravo Murillo|Callejon del Castillo,El Calero|Ojos de Garza|Las Huesas,16,30/06/2026
-3603801,36002|36001|36005,Praza España|Juan Bautista Andrade|Praza Ferreria (da),,10,30/06/2026
-3603802,36004|36003|36001,Joaquin Costa|Doutor Loureiro Crespo (do)|Avenida Vigo,A Ponte Muiños,26,30/06/2026
-3603803,36910|36143|36153,Avenida Avelino Montero Rios|Areal (do)|Caritel,Estribela|Os Praceres|O Carballo do Pazo,5,30/06/2026
-3603804,36162|36158|36004|36164,Alemania|Avenida Montecelo|Avenida Lugo,Moldes|Santa Margarida|Vilaverde,11,30/06/2026
-3603805,36157|36156,Avenida Medico Ballina|Rvdo. Don Leandro del Rio,San Caetano|O Bispo|Medico Ballina,6,30/06/2026
-3603806,36151|36150,,O Couso,3,30/06/2026
-3603807,36690,Antonio Medal Carrera|Ballota|Concello,A Ponte|Rabaleira,1,30/06/2026
-3605701,36201|36202,Avenida Garcia Barbon|Rosalia de Castro|Areal,,16,30/06/2026
-3605702,36204|36203|36206,Urzaiz|Avenida Gran Via|Venezuela,Raviso,30,30/06/2026
-3605703,36211|36202|36203,Avenida Camelias|Avenida Gran Via|Barcelona,,36,30/06/2026
-3605704,36209|36210|36208,Avenida Florida|Avenida Castelao|Espedrigada,,41,30/06/2026
-3605705,36210|36204|36213|36214,Avenida Castrelos|Finca dos Aires|Laxe,Freixeiro|Raviso|Laxe,12,30/06/2026
-3605706,36207|36216,Sanjurjo Badia|Travesia de Vigo|Avenida Galicia,Roris|Paraixal|Mouta,25,30/06/2026
-3605707,36205|36215|36206|36214,Avenida Aeroporto|Avenida E. Mtnez Garrido-Alcalde|Avenida Ramon Nieto,Pardavila|Bouciña|Fonte Escura,44,30/06/2026
-3605708,36312|36314|36213|36214,Carretera Bembrive|Carretera Valadares|Manuel Cominges,Babio|Saa|Carballo do Pazo,17,30/06/2026
-3605709,36212|36390|36213|36330,Avenida Ricardo Mella|Carretera Camposancos|As Teixugueiras,Casas|Igrexa|Gandara,19,30/06/2026
-3727401,37002|37001|37007,Toro|Paseo Carmelitas|Zamora,,11,30/06/2026
-3727402,37003|37001,Paseo Rollo|Doctor Gomez Ulla|Camino Aguas,,20,30/06/2026
-3727403,37008,Saavedra y Fajardo|Avenida Juan de Austria|Avenida Hilario Goyenechea,,20,30/06/2026
-3727404,37006|37007,Carretera Ledesma|Arapiles|Avenida Filiberto Villalobos,,23,30/06/2026
-3727405,37005|37004|37006,Avenida Federico Anaya|Avenida Portugal|Paseo Doctor Torres Villarroel,,21,30/06/2026
-3727406,37004|37003,Paseo Estacion|Maria Auxiliadora|Greco,,22,30/06/2026
-3800601,38632|38627|38650,Carretera General Tf-657 Cabo Blanco|Avenida Juan Carlos I|Carretera General Tf-28 Valle San Lorenzo,Buzanada|Los Cristianos|Arona,38,30/06/2026
-3801701,38611|38617,Avenida Santa Cruz|Isla de Lanzarote|La Constitucion,Granadilla de Abona|El Medano|Los Abrigos,29,30/06/2026
-3802301,38204|38202|38205|38201,Herradores|Avenida Los Menceyes|Juan de Vera,San Lazaro|La Vega Lagunera|Gracia,33,30/06/2026
-3802302,38320|38205,Carretera General Santa Cruz Laguna|Avenida Los Menceyes|Narciso de Vera,La Cuesta|Los Valles|Finca España,24,30/06/2026
-3802303,38108|38296,Camino Los Andenes|Camino San Bartolome de Geneto|Avenida Los Majuelos,Taco|Geneto|Guajara,29,30/06/2026
-3802304,38330|38206|38291,Carretera La Esperanza|Camino Santa Rosa de Lima|Camino Medio (del),Guamasa|Los Baldios|El Ortigal,8,30/06/2026
-3802305,38260|38270|38250,Carretera Tejina Tacoronte|Carretera General la Laguna Punta del Hidalgo|Juan Fernandez,Tejina|Valle de Guerra|Bajamar,15,30/06/2026
-3802306,38208|38293|38294,Camino Mercedes|Camino Mercedes (de Las)|Camino Las Mercedes,Vega de las Mercedes|Jardina|Las Mercedes,4,30/06/2026
-3803801,38001|38002|38004,San Martin|San Francisco|Santiago,,11,30/06/2026
-3803802,38002|38003,Castillo|El Pilar|Juan Padron,,9,30/06/2026
-3803803,38005|38003,Avenida Tres de Mayo|Avenida San Sebastian|Avenida Salle (de La),,20,30/06/2026
-3803804,38008,Hero|La Orotava|Enrique de Anaga,,12,30/06/2026
-3803805,38004|38006|38003,Alvarez de Lugo|Benavides|Rambla Santa Cruz (de),,15,30/06/2026
-3803806,38007|38008|38009,Avenida Benito Perez Armas|Avenida Islas Canarias|Eladio Roca y Salazar,,25,30/06/2026
-3803807,38120|38001|38150|38180,Avenida Anaga (de)|La Arena|Dique,Pueblo de San Andres|Maria Jimenez|Valleseco,8,30/06/2026
-3803808,38129|38130|38139|38294,Plaza Virgen de las Nieves|Plaza Afur|Camino Azano-Portugal,Pueblo de Taganana|Almaciga|Roque Negro,1,30/06/2026
-3803809,38010|38009,Carretera Rosario (del)|Sargento Provisional|Avenida Principes de España,,16,30/06/2026
-3803810,38010|38009,Carretera Rosario (del)|Elias Bacallado|Avenida Principes de España,,15,30/06/2026
-3803811,38107|38111,Avenida Luis Celso Garcia Guadalupe|Carretera Sobradillo (del)|Carretera General del Sur,El Sobradillo|Barranco Grande|Tincer,22,30/06/2026
-3803812,38107|38111,Carretera Santa Maria del Mar|Avenida Los Majuelos|Columbrete,El Sobradillo|El Tablero|Alisios,12,30/06/2026
-3907501,39001|39002|39003|39007,Santa Clara|Cardenal Cisneros|Isabel la Catolica,,10,30/06/2026
-3907502,39007|39010|39011,Floranes|Avenida Cardenal Herrera Oria|Avenida José Hierro,,25,30/06/2026
-3907503,39001|39003|39006,Prado San Roque|Sol|Rio de la Pila,,14,30/06/2026
-3907504,39004|39005|39003,Avenida Reina Victoria|Paseo Canalejas|Paseo Pereda,,14,30/06/2026
-3907505,39009|39002,Castilla|Marques de la Hermida|Ruiz Zorrilla,,15,30/06/2026
-3907506,39008|39010,Alta|Isaac Peral|Tres de Noviembre,,13,30/06/2026
-3907507,39005|39006|39012,Paseo Altamira (de)|Fernando de los Rios|Avenida Los Castros,,21,30/06/2026
-3907508,39011|39012,Avenida Deporte|Francisco Iturrino|La Pereda,San Roman|Peñacastillo|Cueto,29,30/06/2026
-3908701,39300,Alonso Astulez|Consolacion|Avenida España,Campuzano,13,30/06/2026
-3908702,39300,Casimiro Sainz|Juan XXIII|Pablo Garnica,,9,30/06/2026
-3908703,39300,Avenida Besaya|Avenida Palencia|Avenida Cantabria,Campuzano|Torres|Ganzo,11,30/06/2026
-3908704,39300,Tanos|Avenida Bilbao|Paseo Fernandez Vallejo,Tanos|Sierrapando|Viernoles,9,30/06/2026
-3908705,39300,Avenida Solvay|Plaza Antigua Ferretera (de La)|Concesa Josue,Barreda|Sierrapando,3,30/06/2026
-4019401,40001|40003|40002,Plaza Mayor|Plaza Guevara|Plaza Potro (del),,3,30/06/2026
-4019402,40001|40002|40003,Plaza Doctor Gila (del)|Santo Domingo de Silos|Paseo Ezequiel Gonzalez,,2,30/06/2026
-4019403,40002|40001|40005|40004,Gobernador Fernandez Jimenez (del)|Roble (del)|Los Coches,,9,30/06/2026
-4019404,40006|40002|40005,Jose Zorrilla|Agapito Marazuela|Rancho (del),Revenga|Madrona|Fuentemilanos,10,30/06/2026
-4019405,40006|40005|40004,Damaso Alonso|Avenida Vicente Aleixandre|Avenida La Constitucion,,8,30/06/2026
-4019406,40004,Avenida Marques de Lozoya (del)|Caceres|Claudio Moreno,,5,30/06/2026
-4019407,40003|40196,Avenida La Via Roma|Las Nieves|Puente de San Lorenzo (del),Zamarramala|Las Serillas,4,30/06/2026
-4100401,41500,Conde de Guadalhorce|Blanca de los Rios|Juan Abad,,2,30/06/2026
-4100402,41500,Abderraman|Avicena|Avenida Dos Hermanas,,5,30/06/2026
-4100403,41500,Avenida La Purisima Concepcion|Avenida La Asuncion|Escultor Pineda Calderon,,11,30/06/2026
-4100404,41500,Avenida La Constitucion|Avenida Santa Lucia|Rafael Beca,El Acebuchal|La Soledad|Trujillo - Cabeza Sordo,31,30/06/2026
-4103801,41702|41701,Real Utrera|Hojiblanca|Nuestra Señora del Carmen,,8,30/06/2026
-4103802,41702|41701,Avenida Andalucia|Avenida Reyes Catolicos|Aragon,,12,30/06/2026
-4103803,41703|41701|41702,Avenida Los Pirralos|Avenida Cristobal Colon|Doctor Fleming,,17,30/06/2026
-4103804,41701|41704|41702,Avenida España (de)|Esperanza|Luis Cernuda,,22,30/06/2026
-4103805,41089|41704,Avenida Europa|Avenida Los Pinos|Hierbaluisa,Quinto|Fuente del Rey|Marisma Puntales Adriano,32,30/06/2026
-4109101,41003|41002|41001,Feria|San Vicente|Plaza Alameda de Hercules,,47,30/06/2026
-4109102,41009|41008,Avenida Miraflores|Avenida Doctor Fedriani|Leon XIII,,59,30/06/2026
-4109103,41005|41018,Avenida Eduardo Dato|Luis Montoto|Marques de Nervion,,41,30/06/2026
-4109104,41006,Afan de Ribera|Lisboa|Avenida Los Gavilanes,,66,30/06/2026
-4109105,41013,Avenida La Paz|Nuestra Señora de las Mercedes|Cardenal Bueno Monreal,,51,30/06/2026
-4109106,41010,Pages del Corro|San Vicente de Paul|Evangelista,,41,30/06/2026
-4109107,41015|41008,Esturion|Mejillon|Medina y Galnares,,51,30/06/2026
-4109108,41007|41008,Avenida Kansas City|Arroyo|Avenida El Greco,,48,30/06/2026
-4109109,41020|41019,Avenida Emilio Lemos|Avenida Las Ciencias|Avenida Ciudad de Chiva,,71,30/06/2026
-4109110,41012|41014|41013,Avenida Jerez|Avenida Bellavista|Guadalajara,,29,30/06/2026
-4109111,41011,Virgen de Lujan|Fernando IV|Virgen de la Victoria,,19,30/06/2026
-4109501,41710,Avenida Maria Auxiliadora|Ronda Zarzuelas (de Las)|Avenida Blas Infante,,10,30/06/2026
-4109502,41710|41728,Avenida San Juan Bosco|Molares|Avenida Curro Guillen,,5,30/06/2026
-4109503,41710,Plaza Trianilla (de La)|Azorin|Eduardo Dato,,6,30/06/2026
-4109504,41710,San Fernando|Juan de Anaya|Plaza Fernan Caballero,,3,30/06/2026
-4109505,41710,Avenida Dolores Ibarruri|Avenida Constelacion Corona Boreal|Constelacion Cruz del Sur,Guadalema de los Quintero|Trajano|Pinzon,12,30/06/2026
-4312301,43201|43204|43202,Plaza Mercadal|Santa Anna|Llovera,,3,30/06/2026
-4312302,43202|43205|43201|43206,Paisos Catalans|Argentera|Lepant,,14,30/06/2026
-4312303,43205|43204,Pere el Cerimonios|Sant Bernat Calvó (de)|Miami,,11,30/06/2026
-4312304,43204|43205,President Macia|Pere el Cerimonios|Aigua Nova (cami de L'),,6,30/06/2026
-4312305,43204|43203|43201,Roser|Miro (de)|Maria Fortuny,,6,30/06/2026
-4312306,43203|43202|43201|43206,Onze de Setembre|Frederic Soler|Antoni Gaudi,,13,30/06/2026
-4312307,43204|43206|43205,Bellissens|Jaume Vidal i Alcover|Tarragona (de),,4,30/06/2026
-4312308,43205|43206,Riudoms|Paisos Catalans|Astorga,Aigüesverds|Sol i Vista|Blancafort,8,30/06/2026
-4312309,43206|43201|43203|43204,Castellvell|Abeurada (de L')|Garrotxa,El Pinar|Sant Joan|Pelayo,2,30/06/2026
-4312310,43203|43204|43205|43206,Montblanc|Camí Alzines (de Les)|Camí Burgar (del),Mas Carpa,1,30/06/2026
-4314801,43003,Baixada de la Peixateria|Baixada de Misericordia|Carrero de la Rosa,,1,30/06/2026
-4314802,43003,Portella (de La)|Sant Pere i Estubes|Abat (de L'),,1,30/06/2026
-4314803,43003|43007,Vía Augusta|Antoni Company i Fernandez de Cordoba (d')|Ernest Lluch,,3,30/06/2026
-4314804,43002|43003,Antoni Rovira i Virgili (d')|Catalunya|Estanislau Figueres (d'),Sant Pere i Sant Pau|L'oliva,14,30/06/2026
-4314805,43001|43004,Unio (de La)|Plaza Ponent (de)|Sant Miquel (de),,8,30/06/2026
-4314806,43005|43001|43004|43006,Ramon i Cajal|Pere Martell (de)|Cardenal Vidal i Barraquer,Els Montgons|Campsa|Pinedes (les),15,30/06/2026
-4314807,43007|43005,Vía Augusta|Sant Salvador|Carretera Valls,Sant Pere i Sant Pau|Monnars|Arrabassada i Savinosa,25,30/06/2026
-4314808,43006,Rambla Ponent|Prades (de)|Riu Llobregat,Torreforta,14,30/06/2026
-4314809,43100,Vint-I-Dos|Vint-I-Un|Vint,Bonavista,7,30/06/2026
-4516501,45600,Calera|Avenida Real Fabrica de Sedas|San Antonio,Talavera la Nueva|Barrio de Santa Maria,8,30/06/2026
-4516502,45600,Joaquina Santander|Banderas de Castilla|Avenida Constitucion,,21,30/06/2026
-4516503,45600,Santa Teresa de Jesus|Avenida Francisco Aguirre|Avenida Pio XII,,24,30/06/2026
-4516504,45600,Comuneros de Castilla|Avenida Francisco Aguirre|Cardenal Gil Albornoz,Gamonal|El Casar de Talavera|Colonia Ntra Sra Prado,9,30/06/2026
-4516801,45001|45002|45003,Plaza Zocodover|Armas|Comercio,,2,30/06/2026
-4516802,45001|45002,Plaza Colegio Infantes|Plaza San Justo|Plaza Fuentes,,2,30/06/2026
-4516803,45002|45004,Mano|Plaza Cerro de las Melojas|Granado,,3,30/06/2026
-4516804,45002|45003|45001|45004,Plaza Capuchinas|Plaza Padre Juan de Mariana|Bulas,,3,30/06/2026
-4516805,45005|45004,Ronda Buenavista|Avenida Portugal|Avenida Europa,,30,30/06/2026
-4516806,45003|45008,Camino Viejo|Plaza Azucaica|Carretera Mocejon,,4,30/06/2026
-4516807,45007|45006,Rio Alberche|Avenida Rio Boladiez|Avenida Rio Guadarrama,,19,30/06/2026
-4613101,46701|46702,Plaça Rei en Jaume i (del)|Major|Beneficencia,,2,30/06/2026
-4613102,46701,Avinguda Valencia (de)|Cardenal Cisneros|Avinguda Republica Argentina,,16,30/06/2026
-4613103,46702,Avinguda Raval (del)|Mesquita del Raval (de La)|Plaça Prado (del),,4,30/06/2026
-4613104,46730|46701,La Goleta|Carretera Natzaret-Oliva (cm.vell Vcia.)|Alcoi,Grau i Platja,7,30/06/2026
-4613105,46702|46701,Pintor Sorolla|Primer de Maig|Abat Sola,,9,30/06/2026
-4613106,46702,Avinguda Esclaves (de Les)|Lector Romero|Ameriques,,5,30/06/2026
-4613107,46702|46728,Carretera Barx (de)|Barranc|Falconera,Marxuquera Alta|Marxuquera Baixa,3,30/06/2026
-4619001,46980,Avinguda Vicent Mortes Alfonso|Santissim Crist de la Fe|Dels Molins,Paterna|La Coma|Terramelar,48,30/06/2026
-4622001,46500|46530,Camino Bonilles|Camino Gausa|Camino Pla del Aljup,Partida de Gausa|Sagunt/sagunto|Partida de Montiver,1,30/06/2026
-4622003,46500,Avenida Sants de la Pedra|Cami Real|Huertos,Sagunt/sagunto|Partida de Montiver|Partida de Gausa,13,30/06/2026
-4622004,46500,"Partida de L'oliba|Alquerieta de Roc, l'|Assalit de Gudal",Sagunt/sagunto,2,30/06/2026
-4622005,46520|46500,Avenida Advocat Fausto Caruana|Azorin|Plaza Juan Ramon Jimenez,El Baladre,2,30/06/2026
-4622006,46520,Avenida Nueve de Octubre|Teodoro Llorente|Luis Cendoya,,9,30/06/2026
-4622007,46520,Avenida Camp.morvedre|Alcala Galiano|Avenida Ribera la,,16,30/06/2026
-4622008,46500,Camino Corral del Batle|Avenida Europa|Gola,Almarda,1,30/06/2026
-4624401,46900,Gómez Ferrer|València|Santa Llúcia,,12,30/06/2026
-4624402,46900,Pare Méndez|Sant Pere D'alcàntera|Maria Auxiliadora,,7,30/06/2026
-4624403,46900,Al Vedat|Germanies|Constitució,,26,30/06/2026
-4624404,46901|46900,Sant Llorenç|Vicent Pallardó|Pare Méndez,Monte Vedat|Masia del Juez|Cumbres de Calicanto,12,30/06/2026
-4625001,46003|46001|46002,De la Pau|Guillem de Castro|Sant Vicent Màrtir,,24,30/06/2026
-4625002,46005|46006|46004,Regne de València|Cuba|Ciscar,,39,30/06/2026
-4625003,46008|46007,Ferran el Catòlic|Palleter|Pérez Galdós,,37,30/06/2026
-4625004,46015|46009,Mestre Rodrigo (músic)|General Avilés|Vall de la Ballestera,,29,30/06/2026
-4625005,46009,Constitució|Sagunt|Portugal,,35,30/06/2026
-4625006,46010|46021,Blasco Ibáñez|Aragó|Polo i Peyrolón,,23,30/06/2026
-4625007,46018|46014,Cid|Democràcia|Pérez Galdós,,35,30/06/2026
-4625008,46014|46018|46007,Arxiduc Carles|Fontanars Dels Alforins|Tres Forques,,40,30/06/2026
-4625009,46017|46007,Sant Vicent Màrtir|Jerónima Galés (impressora)|Carters,,38,30/06/2026
-4625010,46006|46013|46026,Fonteta de Sant Lluís|Ausiàs March|Malilla,,52,30/06/2026
-4625011,46011|46024|46022,Escalante|Josep Benlliure|Progrés,,39,30/06/2026
-4625012,46023|46022,Port|Illes Canàries|Sants Just i Pastor,,43,30/06/2026
-4625013,46021|46022,Blasco Ibáñez|Poeta Mas i Ros|Campoamor,,27,30/06/2026
-4625014,46020,Primat Reig|Emili Baró|Doctor Vicent Zaragozà,,21,30/06/2026
-4625015,46019|46025,Pare Viñas|Arquitecte Rodríguez|Duc de Mandas,,39,30/06/2026
-4625016,46025|46015,Burjassot|José Grollo|Florista,,32,30/06/2026
-4625017,46016|46025|46112,Camí Montcada|Rocafort|Camí Carpesa a Montcada,Masarrochos|Carpesa|Borboto,6,30/06/2026
-4625018,46035,Felipe Valls|Crisòstom Martínez|Campament,Benimamet-Beniferri,10,30/06/2026
-4625019,46026|46012|46017,Real de Madrid|Camí Tremolar|Carretera Riu,Castellar-Oliveral|El Perellonet|Pinedo,15,30/06/2026
-4718601,47001|47003|47002|47006,Plaza Santa Ana|Plaza Mayor|Plaza Poniente,,3,30/06/2026
-4718602,47006|47007,Paseo Zorrilla|Paseo Hospital Militar|Gabilondo,,14,30/06/2026
-4718603,47004|47001,Dos de Mayo|Panaderos|Estacion,,8,30/06/2026
-4718604,47013|47012,Paseo Juan Carlos I|Avenida Segovia|Caamaño,,37,30/06/2026
-4718605,47002|47001|47003,Lopez Gomez|Teresa Gil|Bajada de la Libertad,,4,30/06/2026
-4718606,47012|47005,Cigueña|Villabañez|Paseo Juan Carlos I,,34,30/06/2026
-4718607,47005|47011|47002,Paseo Cauce|Puente la Reina|Plaza Batallas,,18,30/06/2026
-4718608,47010|47011,Portillo de Balboa|Cardenal Torquemada|Moradas,,30,30/06/2026
-4718609,47003|47010|47011,Imperial|Plaza San Miguel|Plaza San Pablo,,9,30/06/2026
-4718610,47014|47009,Avenida Salamanca|Hernando de Acuña|Mieses,La Overuela,54,30/06/2026
-4718611,47008|47007,Paseo Zorrilla|Carretera Rueda|Doctor Moreno,,41,30/06/2026
-4718612,47009|47152|47008|47153,Carretera Fuensaldaña|Camino Fuensaldaña Valladolid Ramal 1|Carretera Rueda,La Overuela|Puente Duero-Esparragal|Pinar de Antequera,4,30/06/2026
-4801301,48901|48902,Juntas Generales|Avenida La Libertad|Juan de Garai,,7,30/06/2026
-4801302,48901,Murrieta|Paseo Dolores Ibarruri|Pormetxeta,,11,30/06/2026
-4801303,48902|48901,Bizkaia|Arrandi|Castilla-Leon,,8,30/06/2026
-4801304,48901|48902,Avenida La Libertad|Gabriel Aresti|Zorrilla,,11,30/06/2026
-4801305,48902,Avenida Gernikako Arbola|San Vicente|Francisco Gomez,,11,30/06/2026
-4801306,48902,Arteagabeitia|Avenida Euskadi|La Economia,,13,30/06/2026
-4801307,48903|48902,Retuerto|Avenida Euskadi|Rio Castaños,El Regato,5,30/06/2026
-4801308,48903,Andikollano|Guridi|Alberdi,,8,30/06/2026
-4801309,48903,Plaza Cruces|La Paz|Balejo,,12,30/06/2026
-4802001,48014|48015,Avenida Aguirre Lehendakari|Otero Blas de|Avenida Madariaga,,42,30/06/2026
-4802002,48007,Tiboli|Camino Via Vieja de Lezama|Avenida Ravel Maurice,,32,30/06/2026
-4802003,48004,Avenida Aresti Gabriel|Avenida Galindez Jesus|Avenida Garat Txomin,,19,30/06/2026
-4802004,48004|48006,Santutxu|Bonaparte Luis Luciano|Zabalbide,,34,30/06/2026
-4802005,48003|48006,Zabalbide|Zamacola|Iturribide,,42,30/06/2026
-4802006,48010|48011|48009,Poza Licenciado|Recalde|Urquijo,,43,30/06/2026
-4802007,48002|48012,Gordoniz|Avenida Kirikiño|Irala,,35,30/06/2026
-4802008,48013|48002|48012,Avenida Arana Sabino|Carretera Basurtu-Kastrexana|Avenida Montevideo,,23,30/06/2026
-4804401,48993|48991|48990,Maidagan|Avenida Angel|Bostgarrena,Andra Mari,9,30/06/2026
-4804402,48991|48992|48993,Avenida Algorta|Avenida Los Chopos|Avenida Basagoiti,,32,30/06/2026
-4804403,48930,Santa Ana|Joaquin Arellano|Avenida Zugatzarte,Las Arenas-Areeta,25,30/06/2026
-4927501,49008|49009|49004|49006,Avenida Cardenal Cisneros|Amargura|Libertad,,15,30/06/2026
-4927502,49021|49020|49016|49030,Avenida Requejo|Argentina|Colon,,17,30/06/2026
-4927503,49028|49027,Salamanca|Jose Regojo|Cañizal,Carrascal,4,30/06/2026
-4927504,49026|49001|49004|49031,Ramiro Don|Doctor Fleming|Avenida Feria,,4,30/06/2026
-4927505,49023|49024|49032|49025,Avenida Galicia|San Blas|Pinar,,7,30/06/2026
-5029701,50003|50002|50001,Coso|Boggiero|Paseo Echegaray y Caballero,,30,30/06/2026
-5029702,50008|50004,Leon XIII|Camino Las Torres|San Vicente Martir,,45,30/06/2026
-5029703,50010|50017,Avenida Madrid|Duquesa Villahermosa|Avenida Navarra,,81,30/06/2026
-5029704,50009|50006|50019,Paseo Fernando el Catolico|San Antonio Maria Claret|Vía Iberica,,70,30/06/2026
-5029705,50007|50013|50008,Avenida San Jose|Avenida Cesareo Alierta|Maria Moliner,,48,30/06/2026
-5029706,50002|50013,Doctor Iranzo|Salvador Minguijon|Avenida Compromiso de Caspe,Cartuja Baja|Torrecilla de Valmadrid,36,30/06/2026
-5029707,50003,Avenida Pablo Gargallo|Avenida Almozara|Avenida Puerta de Sancho,,16,30/06/2026
-5029708,50011|50012,"Carretera Madrid|Camino Pilon (el) (miralbueno)|Avenida Rodriguez Ayuso, Manuel",,29,30/06/2026
-5029709,50007,Lasierra Purroy|Avenida America|Fray Julian Garces,,29,30/06/2026
-5029710,50018|50015|50014,Avenida Cataluña|Avenida San Juan de la Peña|Avenida Salvador Allende,,92,30/06/2026
-5029711,50016,Avenida Santa Isabel|Avenida Movera|Carretera Huesca,Movera|Montañana|Peñaflor,17,30/06/2026
-5029712,50011|50620|50190,Avenida Autovia de Logroño (casetas)|Camino Pinseque|Carretera Logroño (autovia),Garrapinillos|Casetas|Venta del Olivar,10,30/06/2026
-5100101,51001,Paseo Marina Española (de La)|Real|Sargento Mena,,10,30/06/2026
-5100102,51001|51005,Real|Recinto Sur|Echegaray,,7,30/06/2026
-5100103,51002|51001,Avenida Africa (de)|Avenida España|Avenida Otero,,12,30/06/2026
-5100104,51002|51001,Avenida Ejercito Español|Argentina|Avenida Reyes Catolicos,,11,30/06/2026
-5100105,51002|51004,Capitan Claudio Vazquez|Alcalde Joaq. Garcia de la Torre Almenara|Alta,,7,30/06/2026
-5100106,51003|51004,Agrupacion Central|Agrupacion Este|Agrupacion Fuerte,El Principe|Benzu,7,30/06/2026
-5200101,52001,"Avenida Candido Lobera|Hornabeque, Foso de|Muelle de Ribera",,2,30/06/2026
-5200102,52003|52004|52001|52002,"Avenida Reyes Catolicos|Buceta, General|Constancia",,3,30/06/2026
-5200103,52001|52002,Avenida Castelar|Alicante|Almeria,,2,30/06/2026
-5200104,52002|52003,"Ricardos, General|Diaz Otero, Alfereces|Diego de Paredes",,4,30/06/2026
-5200105,52003,Carretera Hidum|Venezuela|Casiopea,,8,30/06/2026
-5200106,52003|52004|52005|52001,Querol|Plaza Velazquez|Actor Tallavi,,3,30/06/2026
-5200107,52006|52005,"Legion, la|Jimenez e Iglesias|Mar Chica",,7,30/06/2026
-5200108,52005|52006,"Carretera Alfonso XIII|Paseo Francisco Mir Berlanga, Maritimo|Avenida Donantes de Sangre",,15,30/06/2026
+codigo,cps,calles,nucleos,fuera_principal,secciones,fecha_callejero
+0105901,01012|01001|01005,Domingo Beltran de Otazu|Portal de Arriaga|Fueros,,0.00,27,30/06/2026
+0105902,01008|01007|01015,Beato Tomas de Zumarraga|Avenida Gasteiz|Avenida Reina Sofia,Armentia,0.05,46,30/06/2026
+0105903,01002|01003|01013,Los Herran|Bulevar de Salburua|Portal de Legutiano,,0.00,34,30/06/2026
+0105904,01003|01006,La Florida|Heraclio Fournier|Jacinto Benavente,,0.00,26,30/06/2026
+0105905,01010,Portal de Foronda|Donostia San Sebastian|Duque de Wellington,,0.01,34,30/06/2026
+0105906,01013|01194|01195|01520,Portal de Betoño|Amatierra|Andra Mari de Eskolunbe,Lasarte|Mendiola|Gamarra Mayor/gamarra Nag,0.89,3,30/06/2026
+0200301,02001|02005,Padre Romano|Paseo La Cuba|Carmen,,0.00,17,30/06/2026
+0200302,02005|02006,Avenida Ramon Menendez Pidal|Gabriel Ciscar|La Roda,Villar de Pozo-Rubio,0.01,25,30/06/2026
+0200303,02004|02006,Doctor Ferran|Feria|Cristobal Perez Pastor,Bacariza,0.01,14,30/06/2026
+0200304,02004|02006,Paseo Circunvalacion (de)|Doctor Fleming|Francisco Pizarro,,0.01,14,30/06/2026
+0200305,02003|02004,Torres Quevedo|Doctor Collado Piña|Pedro Coca,,0.00,12,30/06/2026
+0200306,02002|02003,Marques de Villores|Rosario|Hellin,,0.01,14,30/06/2026
+0200307,02008|02002,Carretera de Valencia|Francisco Javier de Moya|Angel,,0.00,17,30/06/2026
+0200308,02099|02140|02049|02006,Carretera Jaen|Carretera Madrid (los Gabrieles)|El Pasico,Bacariza|Aguas Nuevas|Santa Ana,1.00,4,30/06/2026
+0300901,03801,Sant Josep|Sant Joan|Barbacana,,0.00,4,30/06/2026
+0300902,03801,El Cami|Alacant|Forn del Vidre,,0.00,6,30/06/2026
+0300903,03802|03801,Oliver|Gregori Casasempere Juan|La Llibertat,,0.00,6,30/06/2026
+0300904,03802|03801,Joaquim Sorolla|Santa Rosa|Ibi,,0.00,8,30/06/2026
+0300905,03803,Isabel la Catolica|Sant Isidre|Enginyer Vilaplana,,0.00,6,30/06/2026
+0300906,03803|03804,Pintor Cabrera|Alameda Camilo Sesto|Cid,,0.00,5,30/06/2026
+0300907,03804,Hispanitat|Juan Gil - Albert|General Prieto,,0.00,6,30/06/2026
+0300908,03804,Ausias March|Hispanitat|Sabadell,,0.00,7,30/06/2026
+0301401,03003|03001|03002,Pintor Aparicio|Reyes Catolicos|Arzobispo Loaces,,0.00,21,30/06/2026
+0301402,03004|03012|03010,Avenida Alcoy|San Carlos|Jaime Segarra,,0.00,27,30/06/2026
+0301403,03012|03013|03015,Avenida Periodista Rodolfo de Salazar|General Espartero|Garbinet,,0.00,39,30/06/2026
+0301404,03540|03016|03015,Avenida Costa Blanca|Avenida Condomina|Britania,Monnegre - Cabeço D'or|Santa Faz,0.09,47,30/06/2026
+0301405,03010|03011,Avenida Novelda|Economista G. Bernacer|Avenida Pintor Baeza,,0.00,23,30/06/2026
+0301406,03005|03009,Padre Recaredo de los Rios|Avenida Doctor Jimenez Diaz|Nuestra Sra. los Angeles,,0.00,35,30/06/2026
+0301407,03006|03007,Avenida Orihuela|Cefeo|Cisne,,0.00,24,30/06/2026
+0301408,03008|03007,Avenida Elche|Foglietti|Pardo Gimeno,Moralet|Cañada del Fenollar|Rebolledo,0.74,30,30/06/2026
+0303101,03501,Tomas Ortuño|Maravall|Avenida Almendros,,0.00,15,30/06/2026
+0303102,03503|03501,Gerona|Avenida Estocolmo|Avenida Montecarlo,,0.00,9,30/06/2026
+0303103,03502|03503,Avenida Andalucia|Beniarda|Paseo Acacias,,0.00,15,30/06/2026
+0303104,03502,Vila Joiosa|Avenida Armada Española|Avenida Republica Argentina,,0.00,6,30/06/2026
+0306501,03202,De la Universitat D'elx|Antonio Mora Ferrandez|Fra Pere Balaguer,,0.00,21,30/06/2026
+0306502,03203,Filet de Fora|Alacant|Angel,,0.00,26,30/06/2026
+0306503,03206,Hermanos Navarro Caracena|Manuel Vicente Pastor|Gines Garcia Esquitino,,0.00,29,30/06/2026
+0306504,03205,Juan Diez Martinez|Monserrate Guilabert Valero|Pedro Moreno Sastre,,0.00,19,30/06/2026
+0306505,03201,Reina Victoria|Vicente Blasco Ibañez|Poeta Miguel Hernandez,,0.00,26,30/06/2026
+0306506,03204,Fernanda Santamaria|Pere Joan Perpinya|Fra Jaume Torres,,0.00,23,30/06/2026
+0306507,03296,Illice|Astronautas|Llibertat,El Altet|Torrellano|La Marina,1.00,28,30/06/2026
+0306601,03600,Amadeo Vives|Magdalena Maestre Amat|Ramon y Cajal,,0.00,6,30/06/2026
+0306602,03600,San Roque|Conde Coloma|Antonio Maura,,0.00,4,30/06/2026
+0306603,03600,Estacion de Monovar|La Torreta|Alemania,Estacion de Monovar,0.05,1,30/06/2026
+0306604,03600,Avenida Chapi|Avenida Ronda (de)|Avenida Alfonso XIII,,0.00,18,30/06/2026
+0306605,03600,Avenida Jose Martinez Gonzalez|Vicente Blasco Ibañez|Murillo,,0.00,12,30/06/2026
+0309901,03300,Avenida Duque de Tamames|Obispo Rocamora|Prendimiento,Orihuela,1.00,4,30/06/2026
+0309902,03300,Avenida Teodomiro|Avenida Duque de Tamames|Avenida La Vega,Orihuela,1.00,7,30/06/2026
+0309903,03300,Capuchinos|Barranco|San Francisco,Orihuela,1.00,3,30/06/2026
+0309904,03300,Avenida Doctor Garcia Rogel|Pintor Agrasot|San Juan,Orihuela,1.00,6,30/06/2026
+0309905,03189|03300|03313|03319,Acuario-La Florida|Aries-La Florida|Panticosa,Torremendo,0.10,5,30/06/2026
+0309906,03312,Carretera De Arneva|La Acequia|Las Acequias,Arneva|Desamparados|Molins,1.00,7,30/06/2026
+0309907,03311|03315,Olivo (la Murada)|1 de Mayo|1-(barbarroja),La Murada|La Aparecida|Parroquia de la Matanza,1.00,6,30/06/2026
+0309908,03300|03314|03317|03316,Senda Masquefa-Escorratel|24 de Agosto-San Bartolome|4 de Noviembre,San Bartolome|La Campaneta|El Escorratel,1.00,5,30/06/2026
+0312201,03690,Avenida Ancha de Castelar|Lillo Juan|La Huerta,,0.00,15,30/06/2026
+0312202,03690,Alicante|Alfonso XIII|Bailen,,0.00,8,30/06/2026
+0312203,03690,Camí Sendera (de La)|La Huerta|Rio Turia,Boqueres|Raspeig,0.38,11,30/06/2026
+0313301,03181|03182|03183|03184,Joaquin Chapaprieta|Clemente Gosalvez|Caballero de Rodas,,0.00,9,30/06/2026
+0313302,03185|03181|03183|03184,Urbano Arregui|Bilbao|Campoamor,,0.00,9,30/06/2026
+0313303,03182|03183,Avenida Diego Ramirez Pastor|La Loma|San Pascual,La Mata,0.06,15,30/06/2026
+0401301,04001|04002|04003,Plaza Catedral (de La)|Lope de Vega|Reina (de La),,0.00,2,30/06/2026
+0401302,04001|04002|04004|04003,Avenida Paseo de Almeria|Real|Plaza Virgen del Mar (de La),,0.00,5,30/06/2026
+0401303,04002,Avenida Mar (del)|San Eduardo|Rosario,Castell del Rey,0.08,9,30/06/2026
+0401304,04004|04003|04001|04008,Granada|Murcia|Avenida Federico Garcia Lorca,,0.00,7,30/06/2026
+0401305,04003|04008,Avenida Pablo Iglesias (de)|Restoy|Gran Capitan,,0.00,10,30/06/2026
+0401306,04009|04008|04005,Avenida Mediterraneo (del)|Carretera Nijar los Molinos|Carretera Ronda (de),,0.00,43,30/06/2026
+0401307,04007|04006|04005,Avenida Mediterraneo (del)|Avenida Cabo de Gata|Carretera Ronda (de),La Cañada de San Urbano|Loma Cabrera|Costacabana,0.45,50,30/06/2026
+0401308,04131|04130,Carretera Nijar Retamar|Manuel del Aguila Ortega (de)|Paseo Toyo (del),El Alquian|Retamar|Cabo de Gata,1.00,11,30/06/2026
+0407901,04740,Avenida Roquetas de Mar|Camino Hoyo Cuenca|Avenida Luis Buñuel,Cortijos de Marin,0.11,19,30/06/2026
+0407902,04720|04740,Avenida Carlos III|Avenida Sabinar|Carretera Alicun (de),Aguadulce|Campillo del Moro|El Parador Hortichuelas,0.83,31,30/06/2026
+0490201,04700,Avenida Bulevar de el Ejido|Murgis|Venezuela,Santa María del Águila|Las Norias|Balerma,0.52,51,30/06/2026
+0501901,05001|05002|05160,Conde Don Ramon|Vallespin|Marques de Santo Domingo,Narrillos de San Leonardo|Alamedilla del Berrocal,0.40,2,30/06/2026
+0501902,05001|05003|05002,San Juan de la Cruz|Paseo San Roque|Plaza Catedral,,0.00,2,30/06/2026
+0501903,05005|05001|05003|05004,Castilla|Palencia|Santa Maria de la Cabeza,,0.00,2,30/06/2026
+0501904,05003|05002,Avenida Derechos Humanos (de Los)|Avenida Juan Pablo II|Nuestra Señora de Sonsoles,Aldea del Rey Niño,0.16,13,30/06/2026
+0501905,05003,Gran Capitan|Agustin Rodriguez Sahagun|Bilbao,,0.00,6,30/06/2026
+0501906,05005|05004|05001|05003,Avenida Juan Carlos I|Segovia|Virgen de la Vega,Urraca-Miguel|Brieva-Vicolozano|Bernuy-Salinero,0.21,13,30/06/2026
+0601501,06002|06001,Martin Cansado|Plaza Cervantes|Afligidos,,0.00,8,30/06/2026
+0601502,06008,Avenida Ricardo Carapeto Zambrano|Macon|Avenida Manuel Rojas Torres,,0.00,5,30/06/2026
+0601503,06009|06008,Corte de Peleas|Isidro Pacense|Avenida Antonio Hernandez Gil,Los Montitos|La Pilara|Atalaya,0.14,13,30/06/2026
+0601504,06010|06003,Avenida Juan Sebastian Elcano|Lucas Vazquez Ayllon|Fuerte,Los Fresnos|La Corchuela|Dehesilla de Calamon,0.15,16,30/06/2026
+0601505,06005|06004|06001,Avenida Santa Marina|Avenida Colon|San Isidro,,0.00,10,30/06/2026
+0601506,06007,Gurugu|Carretera Campomayor|Avenida Sol,,0.00,5,30/06/2026
+0601507,06006|06007,Avenida Carolina Coronado|Avenida Adolfo Diaz Ambrona|Arguello Carvajal,Santa Engracia|Rio Caya,0.09,14,30/06/2026
+0601508,06009|06170|06180,Lady Smith|Nuestra Señora de Guadalupe (gevora)|Bardocas,Gevora|Valdebotoa|Novelda del Guadiana,1.00,9,30/06/2026
+0601509,06011,Avenida Jose Maria Alcaraz y Alenda|Godofredo Ortega y Muñoz|Avenida Sinforiano Madroñero,Albala|Corazon de Jesus,0.11,18,30/06/2026
+0601510,06010|06011,Vicente Delgado Algaba|Jacobo Rodriguez Pereira|Linares,Las Vaguadas,0.35,9,30/06/2026
+0608301,06800,Almendralejo|Muza|Calvario,,0.00,6,30/06/2026
+0608302,06800,Suarez Somonte|Maestros|Oviedo,,0.00,5,30/06/2026
+0608303,06800,Avenida Reina Sofia|Pontezuelas|Mariano Jose de Larra,El Vivero,0.05,10,30/06/2026
+0608304,06800,Avenida Felipe VI|Avenida Marques de Paterna|Avenida Via de la Plata,Proserpina|El Vivero|Campomanes,0.18,12,30/06/2026
+0608305,06800,Pablo Neruda|San Andres|Santa Romualda,,0.00,1,30/06/2026
+0608306,06800,Avenida Don Antonio Campos Hoyos|Avenida Cristobal Colon|Avenida Americas,Miralrio|Carrion|El Prado,0.08,10,30/06/2026
+0701101,07184|07196,Carretera Calvia-Capdella|Montcades|Palma,Es Capdella,0.30,3,30/06/2026
+0701102,07181,Carretera Andratx Km-7|Carretera Andratx|Carretera Andratx (portals),Portals Nous|Costa D'en Blanes|Ses Cas Catala-Illetes,1.00,4,30/06/2026
+0701103,07181,Ca's Saboners|Pinzons|Mestre Nicolau,Magaluf|Palmanova|Son Caliu,1.00,6,30/06/2026
+0701104,07181|07180,Ocell del Paradis|Ca'n Ferrer|Condor,Son Ferrer|El Toro|Sa Porrassa,1.00,4,30/06/2026
+0701105,07180|07183,Rei Jaume I|Golf|Vía Creu,Santa Ponça|Costa de la Calma|Galatzo,1.00,6,30/06/2026
+0701106,07160,Peguera|Talaia (peguera)|Carretera Barraques,Peguera,1.00,2,30/06/2026
+0702602,07800,Alfons XII|Alt|Andanes,,0.00,1,30/06/2026
+0702603,07800,8 D'agost|Ceramista Joan Daifa|Camí Cami de Cas Ferro,,0.00,3,30/06/2026
+0702604,07800,Espanya|Isidor Macabich|Arago,,0.00,26,30/06/2026
+0704001,07001|07002|07012|07003,Plaza Major|Concepcio|Sindicat,,0.00,19,30/06/2026
+0704002,07011|07013|07014|07015,Camí La Vileta|Joan Miro|Camí Reis,Sa Vileta|Sant Agusti|Genova,0.50,70,30/06/2026
+0704003,07010|07004,General Riera|Eusebi Estada|Valldemossa,Establiments|Sa Indioteria|Es Secar de la Real,0.47,56,30/06/2026
+0704004,07008|07007|07005,Arago|Manacor|Camí Muntanya,Sa Creu Vermella|Sant Jordi|Sa Casa Blanca,0.40,89,30/06/2026
+0704005,07007|07006|07610,Cardenal Rossell|Llucmajor|Camí Can Pastilla,Platja de Palma|Es Coll De'n Rabassa|Can Pastilla,0.81,23,30/06/2026
+0801501,08911|08912,Canonge Baranera|Francesc Layret|Marti Pujol,,0.00,6,30/06/2026
+0801502,08917|08911,Coll i Pujol|Angel Guimera|Antoni Botey,,0.00,13,30/06/2026
+0801503,08912,Guifre|Industria|Alfons XII,,0.00,13,30/06/2026
+0801504,08915|08917,Marti Pujol|Independencia|Doctor Robert,,0.00,17,30/06/2026
+0801505,08911,Sant Bru|Canyado|Santiago Rusiñol,,0.00,8,30/06/2026
+0801506,08915|08916,Terrassa|Carretera Canyet|Canyet,,0.00,6,30/06/2026
+0801507,08914|08917|08912,Baldomer Sola|Pau Piferrer|Don Pelayo,,0.00,25,30/06/2026
+0801508,08917,Liszt|Lloreda|Navata,,0.00,13,30/06/2026
+0801509,08913|08914|08918,Alfons XIII|Carretera Antiga de Valencia|Maresme,,0.00,48,30/06/2026
+0801901,08003|08001|08002,La Rambla|Vía Laietana|Princesa,,0.00,54,30/06/2026
+0801902,08013|08015,Arago|Provença|Valencia,,0.00,173,30/06/2026
+0801903,08014|08004|08028,Sants|Corts Catalanes|Rambla Badal (de),,0.00,117,30/06/2026
+0801904,08028|08029|08014,Corts|Diagonal|Galileu,,0.00,57,30/06/2026
+0801905,08017|08022|08006|08021,Ronda General Mitre|Vía Augusta|Balmes,,0.00,98,30/06/2026
+0801906,08024|08012|08023,Gracia (de)|Torrent de L'olla|L'escorial,,0.00,87,30/06/2026
+0801907,08032,Ronda Guinardo|Mare Deu de Montserrat|Fastenrath,,0.00,123,30/06/2026
+0801908,08016|08042|08031,Vía Favencia|Artesania (de L')|Cartella,,0.00,117,30/06/2026
+0801909,08030|08027,Meridiana|Gran de Sant Andreu|Concepcion Arenal,,0.00,95,30/06/2026
+0801910,08020|08018|08026,Llull|Corts Catalanes|Rambla Prim,,0.00,147,30/06/2026
+0805601,08860,Església (de L')|Major|General Palafox (del),,0.00,10,30/06/2026
+0805602,08860,Constitució (de La)|Arcadi Balaguer (d')|301,,0.00,7,30/06/2026
+0805603,08860,312|300|301,,0.00,6,30/06/2026
+0805604,08860,Constitució (de La)|Escolana (d')|309,,0.00,7,30/06/2026
+0805605,08860,Castelldefels (de)|Pineda (de La)|Sevilla (de),,0.00,7,30/06/2026
+0807301,08940,Rubio i Ors|Baix Llobregat|Miquel de Roncali,,0.00,14,30/06/2026
+0807302,08940,Dolors Almeda|Carretera Hospitalet|Lleo XIII,Almeda Mercader|Femades,1.00,4,30/06/2026
+0807303,08940,Joan Fernandez|Maria Benlliure|Carretera Esplugues,Fatjo|Fontsanta,0.35,10,30/06/2026
+0807304,08940,Frederic Soler|Carretera Esplugues|Mossen Andreu,,0.00,19,30/06/2026
+0807305,08940,Sant Ildefons|Bedoll|Mossen Andreu,,0.00,9,30/06/2026
+0807306,08940,Doctor Arus|Freixe|Gerdera,,0.00,10,30/06/2026
+0809601,08401|08403,Isabel de Villena|Enric Prat de la Riba|Roger de Flor,,0.00,8,30/06/2026
+0809602,08401|08402,Joan Prim|Corro|Ponent,,0.00,7,30/06/2026
+0809603,08402,Josep Maria de Sagarra|Francesc Ribas|Brasil,,0.00,10,30/06/2026
+0809604,08402|08401,Francesc Macia|Sant Esteve|Isaac Albeniz,,0.00,10,30/06/2026
+0810101,08901,Enric Prat de la Riba|Josep Tarradellas i Joan|Carrilet,,0.00,43,30/06/2026
+0810102,08904|08903,Doctor Marti i Julia|Rafael Campalans|Mas,,0.00,37,30/06/2026
+0810103,08902,Aprestadora|Santa Eulalia|Carrilet,,0.00,29,30/06/2026
+0810104,08905,Bobiles|Miraflors|Florida,,0.00,31,30/06/2026
+0810105,08906,Moli|Severo Ochoa|Can Serra,,0.00,30,30/06/2026
+0810106,08907|08902,Rambla Marina|Europa|Carmen Amaya,,0.00,27,30/06/2026
+0811301,08241,Plaza Major|Plaza Plana de L'om|Sobrerroca,,0.00,2,30/06/2026
+0811302,08242|08241,Barcelona|Bruc|Balsareny,El Poal|Mas Terros|Mas D'en Pla,0.25,14,30/06/2026
+0811303,08241,Muralla de Sant Francesc|Bruc|Cós,,0.00,5,30/06/2026
+0811304,08242|08243|08241,Carretera Santpedor|Carretera Vic|Pau,El Guix|El Colomer,0.15,13,30/06/2026
+0811305,08243|08241,Carretera Pont de Vilomara|Viladordis|Sabadell,Sant Pau|Viladordis|Mas D'en Roca,0.26,16,30/06/2026
+0811306,08241|08240|08243,Cascall|Espígol|Estornells,Santa Caterina|El Xup|Els Comtals,0.99,2,30/06/2026
+0812101,08302|08301,Plaza Tereses (de Les)|Camí Ral|Argentona (d'),,0.00,8,30/06/2026
+0812102,08301|08302,Camí Ral|Floridablanca|Ronda Alfons X el Savi (d'),,0.00,11,30/06/2026
+0812103,08304,Mexic|America|Mata (de),,0.00,14,30/06/2026
+0812104,08304|08303,Torrent de la Polvora|Esteve Albert|Cirera (de),,0.00,9,30/06/2026
+0812105,08303,Puig i Cadafalch|Rossello|Vitoria,,0.00,19,30/06/2026
+0812106,08302|08303,Sant Cugat|Ronda President Macia|Camí Ral,,0.00,14,30/06/2026
+0812401,08100,Burgos|Francesc Macià|Lluís Duran,,0.00,7,30/06/2026
+0812402,08100,Rambla Pompeu Fabra|Enric Morera|Jaume I,,0.00,9,30/06/2026
+0812403,08100,Jaume Coll|Rivoli|Gallecs,Gallecs,0.17,15,30/06/2026
+0816901,08820,Gaiter del Llobregat (lo)|Joan Maragall|Pintor Isidre Nonell,,0.00,5,30/06/2026
+0816902,08820,Verge Montserrat|Carretera Marina|Barcelona,,0.00,7,30/06/2026
+0816903,08820,Remolar|Verge Montserrat|Pompeu Fabra,,0.00,13,30/06/2026
+0816904,08820,Riu Llobregat|Remolar|Riu Anoia,,0.00,6,30/06/2026
+0816905,08820,Lleida|Girona|Tarragona,,0.00,9,30/06/2026
+0818401,08191,Castellbisbal|Can Fatjo|Rossinyol,,0.00,4,30/06/2026
+0818402,08191,Carretera Rubi a Ullastrell|Cabrera|Canejan,,0.00,5,30/06/2026
+0818403,08191,Monturiol|Lumiere|Edison,,0.00,8,30/06/2026
+0818404,08191,Estatut|General Castaños|Carretera Sabadell,,0.00,25,30/06/2026
+0818701,08203|08201|08202,Guell i Ferrer|Calderon|Rambla Rambla,,0.00,38,30/06/2026
+0818702,08208,Carretera Prats de Lluçanes|Batllevell|Agricultura,Togores,0.06,17,30/06/2026
+0818703,08207,Ronda Collsalarca|Matadepera|Llanera,,0.00,27,30/06/2026
+0818704,08206,Ronda Europa|Vía Aurelia|Estrasburg,Berard,0.29,30,30/06/2026
+0818705,08205,Carretera Terrassa|Carretera Barcelona|Jacint Verdaguer,Berard,0.06,15,30/06/2026
+0818706,08204,Carretera Barcelona|Magi Colet|Josep Comas,,0.00,23,30/06/2026
+0818707,08202,Sau|Camí Ripollet a Castellar|Begoña,Sant Nicolau|La Salut,1.00,8,30/06/2026
+0820001,08830,Primer de Maig|Ramon Llull|Camí Vell de la Colònia,,0.00,7,30/06/2026
+0820002,08830,Antoni Gaudí|Ronda Sant Ramon|Eusebi Güell,,0.00,19,30/06/2026
+0820003,08830,Marià Fortuny|Lluís Pascual Roca|Major,,0.00,9,30/06/2026
+0820004,08830,Mossèn Antoni Solanas|Dídac Priu|Bonaventura Aribau,,0.00,9,30/06/2026
+0820005,08830,Aragó|Arànser|Buda,,0.00,3,30/06/2026
+0820006,08830,Ronda Sant Ramon|Viladecans|Coín,,0.00,3,30/06/2026
+0820501,08173|08172,Montserrat|Rambla Celler|Can Volpelleres,,0.00,24,30/06/2026
+0820502,08173|08172,Angel Guimera|Rius i Taulet|Carretera Vallvidrera,,0.00,12,30/06/2026
+0820503,08197|08195|08173|08174,Rambla Mossen Jacint Verdaguer|Mas Fuster|Vall D'or,Valldoreix,1.00,4,30/06/2026
+0820504,08198|08196|08197,Bona Vista|Pearson|Salut,La Floresta,1.00,3,30/06/2026
+0820505,08195|08173,Pompeu Fabra|Camí Sant Cugat al Papiol|Tarragona,Mira-Sol,1.00,8,30/06/2026
+0820506,08196,Abat Odo|Abat Teodor|Aigues de Sabadell,Planes (les),1.00,1,30/06/2026
+0824501,08922|08921,Mila i Fontanals|Rafael Casanova|Irlanda,,0.00,18,30/06/2026
+0824502,08921,Napols|Peru|Sicilia,,0.00,11,30/06/2026
+0824503,08924,Anselm de Riu|Catalunya|Aguileres,,0.00,17,30/06/2026
+0824504,08922|08921,Sant Joaquim|Cultura|Santa Coloma,,0.00,16,30/06/2026
+0824505,08923,Banus|Generalitat|Roselles,,0.00,17,30/06/2026
+0824506,08922|08923|08921,Rambla Fondo (del)|Beethoven|Mossen Jacint Verdaguer,,0.00,9,30/06/2026
+0826601,08290,Primavera|Diagonal|Roma,Bellaterra,0.22,34,30/06/2026
+0827901,08221|08222,Carretera Montcada|Joaquim Costa|Colom,,0.00,24,30/06/2026
+0827902,08222|08227,Sant Cosme|Sant Crispi|Sant Damia,,0.00,13,30/06/2026
+0827903,08223,Carretera Montcada|Colom|Concepcion Arenal,,0.00,15,30/06/2026
+0827904,08224,Carretera Martorell|Pare Llaurador|Doctor Salva,Can Palet de Vista Alegre,0.09,25,30/06/2026
+0827905,08225,Abat Marcet|Carretera Rellinars|Ronda Ponent,Can Gonteres,0.08,32,30/06/2026
+0827906,08226|08227,Carretera Castellar|Pompeu Fabra|Tarragona,,0.00,27,30/06/2026
+0827907,08228|08801,Europa|Holanda|Italia,Fonts (les),0.52,5,30/06/2026
+0830101,08840,Catalunya|Antonio Machado|Carretera Prat,,0.00,20,30/06/2026
+0830102,08840,Dos de Maig|Doctor Reig|M D Montserrat,,0.00,29,30/06/2026
+0830701,08800,Francesc Macia|Cubelles|Providencia,,0.00,11,30/06/2026
+0830702,08800,Rambla Pau|Josep Anselm Clave|Ancora,,0.00,7,30/06/2026
+0830703,08800,Ronda Iberica|Plaza Pou|Santa Magdalena,,0.00,5,30/06/2026
+0830704,08800,Aigua|Ronda Iberica|Sant Onofre,,0.00,17,30/06/2026
+0905901,09003,Arco del Pilar|Cardenal Segura|Carnicerias,,0.00,1,30/06/2026
+0905902,09004|09005|09003,Avenida Del Cid Campeador|San Juan|Plaza España,,0.00,5,30/06/2026
+0905903,09003,Mariana Pineda|Emperador|Villalon,Villalonquejar|Villagonzalo-Arenas,0.14,11,30/06/2026
+0905904,09003|09005,San Francisco|Felipe de Abajo|Subida a San Miguel,,0.00,3,30/06/2026
+0905905,09006|09004|09005,Avenida Cantabria|Avenida Del Cid Campeador|Vitoria,Villatoro|Villimar,0.19,50,30/06/2026
+0905906,09001|09002,Madrid|Paseo Pisones|Calleja y Zurita,,0.00,11,30/06/2026
+0905907,09002,Santa Clara|Santa Cruz|Carcedo,Cortes,0.21,10,30/06/2026
+0905908,09001,San Pedro y San Felices|Alfareros|Fray Esteban de la Villa,,0.00,12,30/06/2026
+0905909,09007,Vitoria|Avenida Constitucion Española|Esteban Saez Alvarado,Villafria|Castañares|Villayuda O la Ventilla,0.27,42,30/06/2026
+1003701,10004|10003,Arsenio Gallego Hernandez|Avenida De la Universidad|Fuente Concejo,,0.00,17,30/06/2026
+1003702,10004|10001|10003,Avenida Hernan Cortes|Carretera De Salamanca|Libra,,0.00,13,30/06/2026
+1003703,10002|10004|10001,Avenida De España|Avenida Virgen de la Montaña|Catedratico Antonio Silva,,0.00,7,30/06/2026
+1003704,10005|10002|10001,Avenida Antonio Hurtado|Avenida De Alemania|Avenida Isabel de Moctezuma,,0.00,26,30/06/2026
+1003705,10005|10002|10003,Colombia|Avenida De la Hispanidad|Bolivia,,0.00,6,30/06/2026
+1003706,10195|10005,Avenida De la Constitucion|Avenida Rio Tiber|Sancho de Figueroa,Estacion de Arroyo-Malpar,0.08,6,30/06/2026
+1003707,10005|10164|10195|10199,Cristobal Colon|Ronda De Arrancajaras|Fernando de Magallanes,Valdesalor|Rincon de Ballesteros,0.86,1,30/06/2026
+1100401,11205|11202|11204,Avenida Diputacion|Avenida Virgen del Carmen|Avenida España,,0.00,26,30/06/2026
+1100402,11207,Carretera Getares Ctra.|Fray Junipero Serra|Juan Ramon Jimenez,,0.00,20,30/06/2026
+1100403,11206|11203,Avenida Gesto Por la Paz|Duero|Andalucia,El Pelayo,0.11,17,30/06/2026
+1100404,11203|11204|11205,Avenida La Caña|San Luis|Avenida Las Flores,,0.00,23,30/06/2026
+1101201,11004|11003|11006,Plaza España|Vea Murguia|Bendicion de Dios,,0.00,6,30/06/2026
+1101202,11001|11004|11005|11006,Sacramento|Rosario|San Francisco,,0.00,5,30/06/2026
+1101203,11002|11003|11001,Torre|Soledad|Virgili,,0.00,5,30/06/2026
+1101204,11002,Pericon de Cadiz|Arricruz|Lubet,,0.00,3,30/06/2026
+1101205,11002|11001|11005|11004,Sagasta|Regimiento Infanteria de Cadiz|Cardoso,,0.00,5,30/06/2026
+1101206,11005|11001|11006,Obispo Urquinaona|Compañia|Plaza Catedral,,0.00,4,30/06/2026
+1101207,11006|11005|11008,Merced|Mirador|Teniente Andujar,,0.00,4,30/06/2026
+1101208,11007|11008|11012,Avenida Andalucia|Avenida Sanidad Publica|Francisco Garcia de Sola,,0.00,24,30/06/2026
+1101209,11009|11012|11008,Trille|Avenida Portugal|Avenida Ana de Viya,,0.00,23,30/06/2026
+1101210,11011|11010|11012,Pintor Zuloaga|Paseo Maritimo|Avenida Cayetano del Toro,,0.00,25,30/06/2026
+1101501,11130,Avenida Diputacion (de La)|Carretera Barrosa (de La)|Plaza Retortillo (del),,0.00,10,30/06/2026
+1101502,11130,Avenida Mayorazgo (del)|Aguila (del)|Agustin Blazquez,,0.00,7,30/06/2026
+1101503,11130,Carretera Fuente Amarga (de)|Pablo Martin Sarasate|Cuesta del Matadero,,0.00,7,30/06/2026
+1101504,11130,Carretera Medina (de)|Travesía Alameda de Solano|Frailes (de Los),,0.00,17,30/06/2026
+1101505,11130,Carretera Barrosa (de La)|Avenida Atlantico (del)|Camino Agadir (de),Sancti Petri-La Barrosa,0.18,16,30/06/2026
+1102001,11403|11404|11408|11402,Torneria|Plaza Arroyo (del)|Plaza Compañia,,0.00,4,30/06/2026
+1102002,11401|11402|11403|11405,Diego Fernandez Herrera|Sol|Medina,,0.00,25,30/06/2026
+1102003,11404|11408,Avenida Amontillado (del)|Avenida Mosto (del)|Avenida San Juan Bosco,,0.00,19,30/06/2026
+1102004,11405|11407,Avenida Alcalde Alvaro Domecq|Avenida El Altillo|Avenida Espera (de),,0.00,14,30/06/2026
+1102005,11407,Avenida Tomas Garcia Figueras|Avenida Ingeniero Angel Mayo|Federico Garcia Lorca,,0.00,12,30/06/2026
+1102006,11406|11405,Paseo Las Delicias|Avenida Arcos de la Frontera|Avenida Nazaret (de),,0.00,51,30/06/2026
+1102007,11408,Avenida Puerta del Sur|Arquitecto Hernandez Rubio|Avenida Blas Infante,,0.00,22,30/06/2026
+1102008,11406|11400|11402|11596,Avenida Medina Sidonia (de)|Albarizones|Albarizuela,El Portal,0.27,2,30/06/2026
+1102009,11570|11591|11592,Plaza Artesania|Cadiz|Olivo,La Barca de la Florida|Guadalcacin|Nueva Jarilla,1.00,12,30/06/2026
+1102010,11400|11595|11406|11579,Olivo|Alcalde Juan Romero|Alcornoque,Torrecera|Los Repastaderos|La Ina,1.00,4,30/06/2026
+1102201,11300,Sol (del)|Isabel la Catolica|Avenida España (de),,0.00,6,30/06/2026
+1102202,11300,Gibraltar|Avenida Menendez Pelayo|San Jose,,0.00,7,30/06/2026
+1102203,11300,Avenida Maria Guerrero|Blanca de los Rios|Angel (del),,0.00,13,30/06/2026
+1102204,11300,Rocio (del)|Andalucia|Buenos Aires,,0.00,6,30/06/2026
+1102205,11300,Virgen del Rosario|Fernando Diaz de Mendoza|Zorrilla,,0.00,6,30/06/2026
+1102206,11300,Cartagena|Lepanto|Pavia,,0.00,7,30/06/2026
+1102207,11300,Avenida Hacienda (de La)|Camino Sobrevela|Camino Torrenueva,,0.00,4,30/06/2026
+1102701,11500,Federico Rubio|Cruces|Pedro Muñoz Seca,,0.00,36,30/06/2026
+1102702,11500,Carretera Puerto de Santa Maria-Rota|Camino del Aguila|Amparo Osborne Vazquez,Costa Oeste|Los Arenales,1.00,10,30/06/2026
+1102703,11500,Camino El Juncal|Carretera Sanlucar (de)|Camino Cañada del Verdugo,Campiña-Serrano|El Juncal|San Ignacio-Sierra,1.00,15,30/06/2026
+1102704,11500,Avenida Cadiz (de)|Avenida La Paz|Olas,Valdelagrana,1.00,4,30/06/2026
+1103101,11100,Doctor Francisco Cobos|Juan de Austria|San Rafael,Arsenal de la Carraca,0.01,16,30/06/2026
+1103102,11100,Churruca|Jesus de la Misericordia|Lanza,,0.00,1,30/06/2026
+1103103,11100,Colon|Almirante Cervera|Montañeses de la Isla,,0.00,7,30/06/2026
+1103104,11100,General Garcia de la Herran|Real|Acacias,,0.00,6,30/06/2026
+1103105,11100,Real|San Marcos|Sanchez Cerquero,,0.00,7,30/06/2026
+1103106,11100,Real|Buen Pastor|Carretera Camposoto (de),,0.00,32,30/06/2026
+1103201,11540,Avenida Via Ferrea|Avenida Constitucion (de La)|Puerto,Pastrana|Miraflores,0.13,19,30/06/2026
+1103202,11540,Plaza Capuchinos (de)|Carretera Chipiona (de)|Molinillo 2ª,La Jara,0.65,5,30/06/2026
+1103203,11540,Banda Playa|Avenida Calzada Duquesa Isabel|Avenida Cerro Falon (del),,0.00,6,30/06/2026
+1103204,11540,Carril San Diego|Santo Domingo|Alcoba,,0.00,2,30/06/2026
+1103205,11540|11549,Avenida 1492|Rubiños|Trasbolsa,Bonanza|La Algaida,0.72,14,30/06/2026
+1204001,12001|12002|12004|12006,Avenida Rey Don Jaime|Plaza Mayor|Alloza,,0.00,3,30/06/2026
+1204002,12004|12001,Avenida Cardenal Costa|Avenida Espronceda|Maestro Llorens,,0.00,8,30/06/2026
+1204003,12003|12001,Gobernador|Tenerias|Prim,,0.00,11,30/06/2026
+1204004,12005|12002,Avenida Casalduch|Herrero|Maestro Falla,,0.00,22,30/06/2026
+1204005,12006|12002,Avenida Alcora|Avenida Doctor Clara|Lucena,,0.00,14,30/06/2026
+1204006,12006|12005,Avenida Valencia|Juan Ramon Jimenez|Avenida Gran Via Tarrega Monteblanco,,0.00,17,30/06/2026
+1204007,12004|12003,Alcalde Tarrega|Camino De la Plana|Maria Rosa Molas,,0.00,14,30/06/2026
+1204008,12004|12006,Segorbe|Honori Garcia i Garcia|Botanico Cavanilles,,0.00,10,30/06/2026
+1204009,12100,Camino Serradal|Camino Serradal (1)|Juan de Austria,,0.00,12,30/06/2026
+1213501,12540,Solades|Borriana|Carlos Sarthou,,0.00,3,30/06/2026
+1213502,12540,Josep Nebot|Calvari|Santa Caterina,Virgen de Gracia,0.01,16,30/06/2026
+1213503,12540,Ermita|Creus Velles|Onda,Virgen de Gracia,0.04,7,30/06/2026
+1213504,12540,Avinguda Italia|Sant Bertomeu|Rei en Jaume,Pinella,0.03,7,30/06/2026
+1303401,13004|13001|13005,Ronda Ciruela|Carretera de Fuensanta|Tinte,,0.00,11,30/06/2026
+1303402,13002|13003|13005,Ronda Carmen|Pedrera Baja|Esperanza,,0.00,23,30/06/2026
+1303403,13003|13004|13005,Luz|Altagracia|Calatrava,,0.00,6,30/06/2026
+1303404,13004|13003|13001|13005,La Mata|Libertad|Calatrava,,0.00,14,30/06/2026
+1303405,13002|13005|13195|13196,Alcala (v)|Altillo (v)|Azada (c),Las Casas|Valverde,0.63,1,30/06/2026
+1402101,14006|14012|14001,Avenida Almogavares (de)|Avenida Brillante (del)|Avenida Virgen de las Angustias,Cerro Muriano|Los Morales|Santo Domingo,0.17,32,30/06/2026
+1402102,14014|14007,Arcos de la Frontera|Avenida Carlos Iii (de)|Avenida Virgen de Fatima (de),Nuestra Señora de Linares|Alcolea|Las Quemadas,0.29,45,30/06/2026
+1402103,14001|14002,Juan Rufo|Realejo|Conde de Arenales,,0.00,2,30/06/2026
+1402104,14002|14010,Plaza Magdalena (de La)|Escañuela|Ronda de Andujar,,0.00,4,30/06/2026
+1402105,14010|14014,Avenida Virgen del Mar (de La)|Federico Mayo|Arquitecto Hurtado Izquierdo,Alcolea|Las Quemadas|Los Cansinos,0.37,31,30/06/2026
+1402106,14011|14005,Carretera de Trassierra|Avenida Gran Capitan (del)|Avenida America (de),Santa Maria de Trassierra|Las Ermitas|Los Arenales,0.21,55,30/06/2026
+1402107,14001|14002|14003|14008,Plaza San Miguel (de)|Plaza Carrillos (de Los)|Conde de Torres Cabrera,,0.00,5,30/06/2026
+1402108,14002|14003|14001,San Fernando|Paseo Ribera (de La)|Plaza Almagra (de La),,0.00,4,30/06/2026
+1402109,14013|14009,General Lazaro Cardenas|Carretera de Castro|Beato Henares,Santa Cruz|Valchillon|Puente Viejo,0.14,32,30/06/2026
+1402110,14005|14004,Avenida Gran Via Parque|Avenida Aeropuerto (del)|Infanta Doña Maria,Majaneque|El Higueron|Villarrubia,0.63,48,30/06/2026
+1503001,15001|15003|15006,Orzan|San Andres|Sol,,0.00,10,30/06/2026
+1503002,15002|15001,Avenida Hercules|Angel Rebollo|Ronda Monte Alto,,0.00,23,30/06/2026
+1503003,15005|15004|15006,Juan Florez|Avenida Fernandez Latorre|Avenida Oza,,0.00,21,30/06/2026
+1503004,15007,Ronda Outeiro|Avenida Arteixo|Avenida Mallos,,0.00,26,30/06/2026
+1503005,15011|15004,Ronda Outeiro|Manuel Azaña|Avenida Calvo Sotelo,San Pedro de Visma|El Portiño|Gramela,0.23,22,30/06/2026
+1503006,15010|15011,Ronda Outeiro|Barcelona|Villa de Negreira,,0.00,23,30/06/2026
+1503007,15009|15008|15006,Avenida Concordia|Avenida Oza|Ronda Outeiro,Martinete|La Cabana|El Birloque,0.13,41,30/06/2026
+1503008,15009|15006|15008,Castaño de Eiris|Eiris de Arriba|Carretera Eiris,Casanova de Eiris|Peñarredonda|Zapateira,1.00,7,30/06/2026
+1503009,15190|15008,Avenida Nueva York|Avenida Novo Mesoiro|Penas da Agrela (das),Feans|Mesoiro|Zapateira,1.00,7,30/06/2026
+1503010,15010|15008|15007,Alcalde Jaime Hervada|Monasterio de Caaveiro|Avenida Fisterra,La Grela|Pena Moa|La Silva,0.83,6,30/06/2026
+1503601,15403,Avenida Vigo|Avenida Esteiro|Españoleto,,0.00,6,30/06/2026
+1503602,15404|15403|15402|15405,Alcalde Usero|Castela|San Salvador,,0.00,14,30/06/2026
+1503603,15401|15402|15405,A Coruña|Concepcion Arenal|Alegre,,0.00,3,30/06/2026
+1503604,15401|15402,Mendez Nuñez|Sanchez Barcaiztegui|A Coruña,,0.00,3,30/06/2026
+1503605,15401,Alonso Lopez|Avenida Breogan|Alta do Porto,,0.00,4,30/06/2026
+1503606,15406|15404,Avenida Castelao|Armada Española|Berton,,0.00,14,30/06/2026
+1503607,15404|15405,Catabois|San Pedro|Castela,Calvario|Leixa|Beleicon,0.12,7,30/06/2026
+1503608,15405|15590|15593|15594,Real Alta|Catabois|Cobas,A Cabana|A Graña|Mouga,0.81,9,30/06/2026
+1507801,15705|15897|15896,Pedreiras (das)|Carretas (das)|Cruceiro do Gaio (do),Roxos|Piñeiro de Villestro|Paredes de Laraño,0.49,7,30/06/2026
+1507802,15705|15704,Vilares (dos)|Tambre (do)|Avenida Cruceiro da Coruña (do),Boisaca|Lermo|Santo Ignacio do Monte,0.19,13,30/06/2026
+1507803,15703|15704|15707|15820,Pena Maria (da)|Agro dos Mozos (do)|Campo da Angustia (do),San Marcos|A Devesa|Agra dos Campos,0.40,9,30/06/2026
+1507804,15702|15707|15703,Avenida Lugo (de)|Lisboa (de)|Madrid (de),A Susana|Piñeiro do Eixo|A Veiga,0.21,18,30/06/2026
+1507805,15701|15706|15702,Republica Arxentina (da)|Horreo (do)|San Pedro de Mezonzo (de),A Rocha Vella|Outeiro do Castiñeiriño|O Porto de Conxo,0.09,23,30/06/2026
+1507806,15820|15884|15688|15707,Carballa (da)|Avenida Aeroporto (do)|Avenida Grabanxa (da),A Foca|A Barciela|O Valado da Barciela,0.99,5,30/06/2026
+1607801,16001|16146,Alfonso VIII|Plaza Carmen (del)|Castillo,Valdecabras,0.23,1,30/06/2026
+1607802,16001|16002,Gonzalez Frances|Posito|Tintes,,0.00,2,30/06/2026
+1607803,16002|16001|16191,Avenida Alfares (de Los)|Colon|Avenida San Julian,Colliga|Nohales|Villanueva Escuderos,0.29,8,30/06/2026
+1607804,16004|16003,Avenida Reyes Catolicos|Paseo San Antonio (de)|Avenida Castilla-La Mancha (de),La Melgosa|Mohorte,0.09,25,30/06/2026
+1707901,17004,Carme|Carretera Sant Feliu|Vista Alegre,Vila-Roja|Font de la Pólvora,0.29,6,30/06/2026
+1707902,17003|17002|17005,Migdia|Barcelona|Lluís Pericot,Creu de Palau,0.01,22,30/06/2026
+1707903,17005|17006|17001,Riu Güell|Santa Eugènia|Sant Narcís,,0.01,21,30/06/2026
+1707904,17004,Plaça Lledoners|Sant Domènec|Claveria,,0.00,2,30/06/2026
+1707905,17007,Bellpuig|Ronda Fort Roig|Plaça Sant Pere,Campdorà,0.05,6,30/06/2026
+1707906,17007|17004|17006,Antoni Varés i Martinell|Torre de Taialà|Can Massa,Domeny|Taialà-Germans Sàbat,0.04,5,30/06/2026
+1808701,18002|18004|18003,Camino Ronda (de)|Arabial|Pedro Antonio de Alarcon,,0.00,18,30/06/2026
+1808702,18007|18006|18005,Avenida Dilar (de)|Avenida Cadiz (de)|Camino Ronda (de),,0.00,47,30/06/2026
+1808703,18011|18013|18014,Avenida Juan Pablo II|Joaquina Eguaras|Ribera del Beiro,Cerrillo de Maracena,0.05,44,30/06/2026
+1808704,18009|18010,Carrera del Darro|San Juan de los Reyes|Puente Cabrera,,0.00,2,30/06/2026
+1808705,18009|18010,Aguirre|Alamo del Marques|Aljibe de Trillo,,0.00,1,30/06/2026
+1808706,18008|18006,Camino Bajo de Huetor|Poeta Manuel de Gongora|Avenida America (de),,0.00,24,30/06/2026
+1808707,18015|18003,Carretera Malaga (de)|Avenida Andalucia (de)|Doctor Medina Olmos,Bobadilla,0.05,29,30/06/2026
+1808708,18010|18011|18008|18009,Cruz de Piedra (de La)|Plaza Larga|Carretera Murcia (de),Alqueria del Fargue,0.11,5,30/06/2026
+1808709,18008|18009,Camino Real de los Neveros|Hoya de la Mora|Carretera Sierra (de La),Lancha del Genil,0.17,10,30/06/2026
+1814001,18600|18613,Avenida Salobreña|Rio Ebro|Camino de las Cañas,,0.00,4,30/06/2026
+1814002,18600,Avenida Angel Gijon Diaz|Manuel Peña Alta|Camino de las Cañas,,0.00,7,30/06/2026
+1814003,18600,Nueva|Plaza Javier de Burgos|Milanesa,,0.00,4,30/06/2026
+1814004,18600,Santisimo|Ancha|Padre Vazquez Alfalla,,0.00,14,30/06/2026
+1814005,18600|18613|18730|18614,Avenida Julio Moreno|Avenida Nuestra Señora de la Cabeza - Varadero|Carretera Celulosa (de La),Carchuna|El Varadero|Puntalon,1.00,5,30/06/2026
+1913001,19004|19003|19001,Avenida Ejercito|Cifuentes|Constitucion,Iriepal|Taracena|Usanos,0.47,15,30/06/2026
+1913002,19005,Avenida Barcelona|Avenida El Vado|Avenida Burgos,,0.00,18,30/06/2026
+1913003,19005|19002|19001,Ferial|Avenida Venezuela|Plaza Capitan Boixareu Rivera,,0.00,11,30/06/2026
+1913004,19002|19003,Dr Layna Serrano|Alvargomez de Ciudad Real|Siguenza,,0.00,11,30/06/2026
+1913005,19004|19080,Francisco Aritio|Plaza Los Manantiales|Buenafuente,,0.00,5,30/06/2026
+2004501,20304|20302|20303,Paseo Colon|Escuelas|Fermin Calbeton,,0.00,4,30/06/2026
+2004502,20304|20305|20303,Arbesko Errota|Juan Thalamas Labandibar|Dario de Regoyos,,0.02,11,30/06/2026
+2004503,20301|20302|20303,Anaca|Avenida Elizatxo|Paseo Colon,,0.00,19,30/06/2026
+2004504,20303|20305,Avenida Elizatxo|Araba Kalea|Bizkaia Kalea,,0.00,9,30/06/2026
+2006901,20003,Narrica|San Jeronimo|Iñigo,,0.00,5,30/06/2026
+2006902,20004|20005|20006|20007,San Martin|Arrasate|Avenida Libertad de la,,0.00,8,30/06/2026
+2006903,20011|20006|20010|20014,Avenida Isabel Ii de|Jose M. Salaberria|Eustasio Amilibia,,0.01,33,30/06/2026
+2006904,20012|20015|20001|20002,Virgen del Carmen|Paseo Duque de Mandas|Iparragirre,,0.00,20,30/06/2026
+2006905,20001|20013|20002,Segundo Ispizua|Bermingham|Avenida Navarra de,,0.00,14,30/06/2026
+2006906,20009|20018|20008,Paseo Aiete de|Zarautz|Paseo Doctor Marañon,Igeldo|Zubieta|Añorga,0.16,30,30/06/2026
+2006907,20017|20015|20016,Paseo Larratxo de|Paseo Altza de|Paseo Bertsol. Txirrita,,0.00,31,30/06/2026
+2104101,21003|21001|21002|21004,Puerto|Gines Martin|Avenida Italia,,0.00,13,30/06/2026
+2104102,21002|21001,Avenida Cristobal Colon|Perez Galdos|Avenida Union Europea de la,,0.00,10,30/06/2026
+2104103,21003|21001|21004|21006,Avenida Escultora Miss Whitney|Ismael Serrano|Avenida Pio XII,,0.00,11,30/06/2026
+2104104,21004|21006|21002,Marchena Colombo|Avenida Adoratrices|Nuestra Sra. del Rocio,,0.00,14,30/06/2026
+2104105,21006|21007|21003,Avenida Alcalde Federico Molina|Isla Cristina|Alosno,,0.00,14,30/06/2026
+2104106,21007|21006,Plaza Juan XXIII|Rio Tajo|Plaza Sancho Panza,,0.00,9,30/06/2026
+2104107,21005|21006|21007,Avenida Honduras|Avenida Andalucia|Avenida Pablo Ruiz Picasso,La Ribera|La Alquería,0.10,22,30/06/2026
+2104108,21005|21002,Avenida Diego Moron de|Avenida Manuel Siurot|Legion Española,Peguerillas|Santa Isabel,0.04,16,30/06/2026
+2212501,22001|22002|22003,Doña Petronila|Desengaño|Plaza Lizana,,0.00,3,30/06/2026
+2212502,22001|22005,Paseo Ramon y Cajal|Jose Maria Lacasa|Avenida Los Danzantes de Huesca,,0.00,6,30/06/2026
+2212503,22005|22002|22001|22196,Doña Sancha|Calatayud|Plaza Santa Clara,Buñales|Tabernas del Isuela,0.10,9,30/06/2026
+2212504,22006|22005|22195|22196,Miguel Fleta|Zacarias Martinez|Paseo Ramon y Cajal,Apies|Bellestar del Flumen|Fornillos de Apies,0.35,4,30/06/2026
+2212505,22004|22005|22197|22001,Avenida Martinez de Velasco|Cerro San Jorge|Algascar,Cuarte|Huerrios|Banaries,0.47,2,30/06/2026
+2212506,22003|22004|22005,Menendez Pidal|San Jorge|Avenida Juan XXIII,,0.00,4,30/06/2026
+2212507,22004|22003|22194|22002,Avenida Doctor Artero|Avenida Pirineos (de Los)|Pasaje Agustin de Carreras,,0.00,4,30/06/2026
+2212508,22003|22002|22005,Parque|San Jorge|Coso Alto,,0.00,3,30/06/2026
+2305001,23002|23001,Carrera de Jesus|Principe Alfonso|Francisco Coello,Puente de la Sierra,0.09,8,30/06/2026
+2305002,23001|23003,Plaza La Constitucion|Adarves Bajos|Puerta del Angel,Puente Jontoya,0.08,7,30/06/2026
+2305003,23009|23008|23003,Avenida Madrid (de)|La Luna|Santa Maria del Valle,Galapagar|Puente Nuevo,0.23,15,30/06/2026
+2305004,23008|23009,Paseo España (de)|Paseo La Estacion|Avenida Madrid (de),Las Infantas|Grañena,0.15,17,30/06/2026
+2305005,23006|23005,Avenida Andalucia|Avenida Barcelona|Avenida Arjona,La Imora|Villar de Cuevas,0.07,21,30/06/2026
+2305006,23004|23005|23007,Plaza La Magdalena|Santo Domingo|Doctor Luzon,Caño Quebrado,0.02,6,30/06/2026
+2305007,23004|23002|23007,Martinez Molina|Arroyo de San Pedro|Las Huertas,,0.00,4,30/06/2026
+2305008,23004|23001|23002|23007,San Clemente|Plaza San Bartolome|Capitan Oviedo,,0.00,4,30/06/2026
+2305009,23002|23004,Carretera Jabalcuz|Almodovar|Carretera Circunvalacion,Jabalcuz,0.08,6,30/06/2026
+2305501,23700,Avenida Andalucia|Cid Campeador|Plaza Anibal e Himilce,Arrayanes-La Cruz-La Lagu|Tobaruela-La Tortilla|Cañada Incosa-Cerro Pelad,0.27,9,30/06/2026
+2305502,23700,Avenida San Sebastian|Avenida Andres Segovia|Avenida Maria Auxiliadora,,0.00,3,30/06/2026
+2305503,23700,Calderon|Martinez de la Rosa|Carretera Arrayanes,,0.00,6,30/06/2026
+2305504,23700,Julio Burell|Pedro Poveda|Senda de la Moza,,0.00,8,30/06/2026
+2305505,23700,Plaza Alfonso XII|Alonso Poves|Ayala,,0.00,4,30/06/2026
+2305506,23700,Plaza Colon|Raphael|Sagunto,,0.00,5,30/06/2026
+2305507,23700,Reino Unido|Holanda|Alemania,,0.00,3,30/06/2026
+2305508,23490,Amor de Dios|Anastasio Fernandez de Rivas|Paseo Arquillos,Estacion Linares-Baeza,1.00,1,30/06/2026
+2408901,24004|24001|24003,Villa Benavente|Burgo Nuevo|Avenida Republica Argentina,,0.00,5,30/06/2026
+2408902,24001|24002,Gran Via de San Marcos|Plaza La Inmaculada|Roa de la Vega,,0.00,10,30/06/2026
+2408903,24008|24002,Avenida Mariano Andres|Reyes Leoneses|Carretera Carbajal,,0.00,20,30/06/2026
+2408904,24007|24008,Avenida Nocedo|Avenida San Mames|Avenida San Juan de Sahagun,,0.00,15,30/06/2026
+2408905,24006|24003|24005,Los Bordadores|Santa Ana|Moises de Leon,,0.00,11,30/06/2026
+2408906,24005|24004,Avenida Fernandez Ladreda|Avenida Jose Aguado|Avenida Alcalde Miguel Castaño,,0.00,17,30/06/2026
+2408907,24009|24010,Avenida Doctor Fleming|Paseo Salamanca|Avenida Quevedo,Armunia,0.24,13,30/06/2026
+2408908,24005,Avenida Madrid|Cirujano Rodriguez|La Alegria,,0.00,2,30/06/2026
+2408909,24009|24010|24192,Plaza Iglesia|Avenida Antibioticos|La Cuesta,Armunia|Oteruelo de la Valdoncina|Trobajo del Cerecedo,1.00,3,30/06/2026
+2408910,24006|24007,Avenida Real|Batalla de Clavijo|Avenida Jose Maria Fernandez,,0.00,7,30/06/2026
+2411501,24401,Avenida Castillo|San Fructuoso|Plaza El Ayuntamiento,Santo Tomas de las Ollas,0.08,12,30/06/2026
+2411502,24402|24404,Avenida La Libertad|Camino de Santiago|Avenida Castillo,,0.00,17,30/06/2026
+2411503,24403,Avenida Portugal|Vista Alegre|Avenida La Cemba,Flores del Sil|Dehesas|La Placa,0.92,7,30/06/2026
+2411504,24415|24414|24448,La Fuente|El Cristo|Camino Ozuela,Campo|Toral de Merayo|San Lorenzo,0.92,2,30/06/2026
+2411505,24404|24411,San Roque|Avenida Galicia|Iglesia,Fuentesnuevas|Columbrianos|Cuatrovientos,1.00,7,30/06/2026
+2411506,24414|24415,Real|Iglesia|La Fuente,Villar de los Barrios|Villanueva de Valdueza|San Esteban de Valdueza,1.00,1,30/06/2026
+2512001,25005|25007|25004,Del Corregidor Escofet|Del Baró de Maials|Dels Comtes D'urgell,,0.01,13,30/06/2026
+2512002,25001|25197,Avinguda De València|De la Doctora Castells|Avinguda De Les Garrigues,,0.00,8,30/06/2026
+2512003,25002,Avinguda De Catalunya|De República del Paraguai|Avinguda De Madrid,,0.00,6,30/06/2026
+2512004,25003|25002,Avinguda De Pius XII|De la Mariola|Del Cardenal Cisneros,,0.00,14,30/06/2026
+2512005,25006|25003,Avinguda Del Doctor Fleming|De Magí Morera|De Vallcalent,,0.00,11,30/06/2026
+2512006,25008|25004|25005|25006,D'alfred Pereña|Avinguda De Prat de la Riba|Avinguda De L'alcalde Porqueras,,0.00,15,30/06/2026
+2512007,25001|25191|25197,Avinguda De Flix|D'ignasi Bastús|De Sant Paulí de Nola,,0.00,8,30/06/2026
+2512008,25199|25198|25111|25113,De Victoria Kent|Del Bou - Sucs|Del Castell - Raimat,Raimat|Suchs|Torres de Sanui (les),0.73,4,30/06/2026
+2512009,25196|25005|25195|25198,Del Castell Formós|Gran - Llívia|D'albareda - Llivia,Llivia|Gualda|Basses D'alpicat (les),0.57,2,30/06/2026
+2608901,26001|26003|26004,Plaza Mercado (del)|Caballeria|Duquesa de la Victoria,,0.00,4,30/06/2026
+2608902,26004|26006|26007,Madre de Dios|Avenida La Paz de|Cigueña,Varea,0.13,29,30/06/2026
+2608903,26003|26002|26004,Avenida Solidaridad|General Vara de Rey|Avenida Colon,,0.00,25,30/06/2026
+2608904,26007|26005|26002,Avenida Perez Galdos|Huesca|Chile,,0.00,39,30/06/2026
+2608905,26005,Gonzalo de Berceo|Ronda de los Cuarteles|General Urrutia,El Cortijo,0.24,13,30/06/2026
+2608906,26001|26005|26009,San Agustin|Barriocepo|Marques de San Nicolas,,0.00,2,30/06/2026
+2702801,27001|27002,Praza Santo Domingo|Praza Campo (do)|Praza Pio XII,,0.00,3,30/06/2026
+2702802,27002,Ronda Fontiñas (das)|San Roque|Afonso X O Sabio,,0.00,21,30/06/2026
+2702803,27003,Conde (do)|Rio Sil|Gandaras (das),,0.00,11,30/06/2026
+2702804,27003|27004,Avenida Coruña (da)|Lavandeira|Angelo Colocci,,0.00,14,30/06/2026
+2702805,27004,Lamas de Prado|Praza Fonte dos Ranchos|Avenida Americas (das),,0.00,18,30/06/2026
+2702806,27230|27231|27232|27233,,Vilar|Vilaestevez|As Illas,1.00,1,30/06/2026
+2702807,27181|27180|27182|27185,Rego do Espiño,Cuiña|Argonde|Esperante,1.00,2,30/06/2026
+2702808,27140|27190|27141|27146,,A Estrada|Barbain|Coeo,1.00,2,30/06/2026
+2702809,27003|27191|27192|27289,Inspeccion (da)|Camiño da Rozanova|Camiño de Liñares,Urbanizacion Campiña|A Airexe|Gundin,0.88,2,30/06/2026
+2800501,28801|28807|28804|28805,Via Complutense|Paseo Estacion (de La)|Gran Canal,,0.00,23,30/06/2026
+2800502,28803|28802,Avenida Reyes Catolicos|Nuñez de Guzman|Ronda Fiscal,Soto de la Ciudad y Geraf,0.02,38,30/06/2026
+2800503,28806,Avenida Juan Carlos I|Torrelaguna|Ventura Rodriguez,,0.01,18,30/06/2026
+2800504,28806|28805,Avenida Miguel de Unamuno|Jose Maria Pereda|Jorge Luis Borges,,0.00,22,30/06/2026
+2800505,28804|28805,Avenida Juan de Austria|Avenida Lope de Figueroa|Via Complutense,,0.01,31,30/06/2026
+2800601,28100,Paseo Chopera (de La)|Marques de la Valdavia (del)|Constitucion (de La),,0.00,66,30/06/2026
+2800701,28921|28922,Polvoranca|Oslo|Mayor,Campodon|Ventorro del Cano|Carretera de San Martin,0.27,20,30/06/2026
+2800702,28924|28925,Avenida Lisboa|Avenida Las Flores|Avenida Los Castillos,,0.00,37,30/06/2026
+2800703,28923|28921,Polvoranca|Sapporo|Sierra de Albarracin,,0.00,28,30/06/2026
+2800704,28922|28921,Cisneros|Avenida Las Retamas|Alfredo Nobel,,0.00,38,30/06/2026
+2801301,28300,Moreras (de Las)|Foso (del)|Primero de Mayo (del),,0.00,10,30/06/2026
+2801302,28300,Camino Noblejas (de)|Jesus (de)|Abastos (de),,0.00,9,30/06/2026
+2801303,28300,Paseo Deleite (del)|Carretera Andalucia (de)|Calandria (de La),,0.00,10,30/06/2026
+2801304,28300,San Cristobal de la Laguna|Santiago de Compostela|Praga,La Montaña|Real Cortijo de San Isidr|Sotomayor,0.63,7,30/06/2026
+2801401,28500,Avenida Ejercito (del)|Carretera Loeches (de)|Carretera Valencia (de),Los Villares|Puente de Arganda,0.16,27,30/06/2026
+2802201,28660,Avenida Infante Don Luis (del)|Avenida Adolfo Suarez (de)|Avenida Condesa de Chinchon (de La),Boadilla del Monte|Urbanizaciones Este|Prado del Espino-San Babi,0.43,35,30/06/2026
+2804501,28770,Avenida Libertad (de La)|Mosquilona (de La)|Avenida Mediterraneo (del),Las Pueblas|Los Chortales|Navarrosillos-Poligono Su,0.05,31,30/06/2026
+2804701,28400,Carretera Moralzarzal|Playa Frexeira|Real,Collado Villalba|Dominio de Fontenebro,0.42,33,30/06/2026
+2804901,28821,Avenida Constitucion (de La)|Dr Fleming (del)|Avenida España (de),,0.00,21,30/06/2026
+2804902,28822|28823,Chile|Avenida Berlin (de)|Avenida Madrid (de),,0.00,19,30/06/2026
+2804903,28823|28822,Argentina|Peru|Mejico,,0.00,9,30/06/2026
+2804904,28823,Avenida Industria (de La)|Avenida Fuentemar (de)|Avenida Jose Garate (de),,0.00,2,30/06/2026
+2805801,28945,Avenida Andes (de Los)|Callao (de)|Habana (de La),,0.00,6,30/06/2026
+2805802,28945|28944,Lima (de)|Cuzco (de)|Avenida Francisco Javier Sauquillo,,0.00,17,30/06/2026
+2805803,28945|28944,Leganes (de)|Pozuelo (de)|Polvoranca (de),,0.00,10,30/06/2026
+2805804,28944,Extremadura (de)|Luis Sauquillo|Comunidad de Madrid (de La),,0.00,16,30/06/2026
+2805805,28941|28943,Nazaret (de)|Avenida España|Mostoles (de),,0.00,6,30/06/2026
+2805806,28941|28942,Avenida Provincias (de Las)|Avenida Comarcas (de Las)|Galicia,Loranca,0.04,19,30/06/2026
+2805807,28943|28942,Mostoles (de)|Alemania (de)|Belgica (de),,0.00,17,30/06/2026
+2805808,28943,Grecia (de)|Avenida Naciones (de Las)|Italia (de),,0.00,16,30/06/2026
+2805809,28942,Federica Montseny|Avenida Miguel de Cervantes|Avenida Tolerancia (de La),Loranca,1.00,12,30/06/2026
+2806501,28901|28902,Toledo|Magdalena (de La)|Madrid,,0.00,18,30/06/2026
+2806502,28903|28902,Madrid|General Castaños|San Jose de Calasanz,,0.00,21,30/06/2026
+2806503,28905|28904,Avenida Juan Carlos I|Garcilaso|Alonso de Mendoza,El Bercial,0.16,49,30/06/2026
+2806504,28903|28906,Avenida Aragon|Andalucia|Avenida España,Perales del Rio|Los Llanos|Aldehuela y la Torrecilla,0.40,34,30/06/2026
+2807401,28911|28912|28914,Avenida Fuenlabrada|Polvoranca|Hernan Cortes,,0.00,26,30/06/2026
+2807402,28912|28911,Avenida Fuenlabrada|Avenida Universidad|Madrid,,0.00,19,30/06/2026
+2807403,28918|28913,Rio Manzanares|Rio Duero|Argentina,,0.00,20,30/06/2026
+2807404,28915,Rioja|Monegros|Avenida Mancha (de La),,0.00,41,30/06/2026
+2807405,28916|28919,Avenida Maria Guerrero|Avenida Rey Juan Carlos I|Avenida Francia,Butarque,0.20,21,30/06/2026
+2807406,28917,Avenida Libertad|Santo Domingo|San Amado,Fortuna,1.00,8,30/06/2026
+2807407,28914,Alcalde Pedro Gonzalez Gonzalez|Coslada (de)|Plaza Alcalde Jose Manuel Matheo Luaces (del),,0.00,7,30/06/2026
+2807901,28012|28004|28005|28013,San Bernardo|Fuencarral|Gran Via,,0.00,110,30/06/2026
+2807902,28045|28005,Embajadores|Paseo Delicias|Paseo Santa Maria de la Cabeza,,0.00,111,30/06/2026
+2807903,28007|28009,Doctor Esquerdo|Avenida Ciudad de Barcelona|Valderribas,,0.00,93,30/06/2026
+2807904,28028|28006|28001,Hermosilla|Alcala|Jorge Juan,,0.00,124,30/06/2026
+2807905,28002|28016|28036,Lopez de Hoyos|Principe de Vergara|Paseo La Habana,,0.00,101,30/06/2026
+2807906,28020|28039|28029,Bravo Murillo|Orense|Paseo Direccion,,0.00,117,30/06/2026
+2807907,28003|28015|28010,Santa Engracia|Guzman el Bueno|Andres Mellado,,0.00,121,30/06/2026
+2807908,28034|28029|28035,Avenida Cardenal Herrera Oria|Avenida Monforte de Lemos|Avenida Betanzos,,0.00,187,30/06/2026
+2807909,28008|28023|28039,Juan Alvarez Mendizabal|Ferraz|Martin de los Heros,,0.00,90,30/06/2026
+2807910,28011|28047|28024,Paseo Extremadura|Camarena|Illescas,,0.00,196,30/06/2026
+2807911,28025|28019,General Ricardos|Camino Viejo de Leganes|Avenida Abrantes,,0.00,182,30/06/2026
+2807912,28026|28041,Marcelo Usera|Avenida Rafaela Ybarra|Camino Perales,,0.00,93,30/06/2026
+2807913,28038|28018|28053,Avenida Albufera|Avenida Pablo Neruda|Arroyo del Olivar,,0.00,176,30/06/2026
+2807914,28030,Hacienda de Pavones|Avenida Doctor Garcia Tapia|Camino de los Vinateros,,0.00,83,30/06/2026
+2807915,28017|28027,Arturo Soria|Alcala|Elfo,,0.00,168,30/06/2026
+2807916,28033|28043,Carretera Canillas|Lopez de Hoyos|Avenida San Luis,,0.00,126,30/06/2026
+2807917,28021|28041,Avenida Real de Pinto|Paseo Alberto Palacios|La del Manojo de Rosas,,0.00,109,30/06/2026
+2807918,28031|28051,Avenida Ensanche de Vallecas|Avenida Las Suertes|Congosto,,0.00,75,30/06/2026
+2807919,28032,Indalecio Prieto|Minerva|San Cipriano,,0.00,56,30/06/2026
+2807920,28022|28037,Alcala|Avenida Canillejas a Vicalvaro|Avenida Guadalajara,,0.00,112,30/06/2026
+2807921,28042,Avenida Logroño|Paseo Alameda de Osuna|Avenida Cantabria,,0.00,32,30/06/2026
+2808001,28220|28222,Doctor Bastos|Charaima|Granadilla,La Cumbre|La Grajera,0.06,19,30/06/2026
+2808002,28221|28220|28222,Norias|Avenida España|Avenida Paralela,Monte del Pilar,0.01,28,30/06/2026
+2809201,28935|28934,Pintor Velazquez (del)|Villaamil|Avenida Dos de Mayo (del),Parque Coimbra|Parque Guadarrama|Pinares Llanos,0.53,24,30/06/2026
+2809202,28933|28932,Pintor Velazquez (del)|Avenida Alcalde de Mostoles (del)|Paseo Goya (de),Las Nieves,0.04,37,30/06/2026
+2809203,28937|28936|28931,Baleares|Empecinado (del)|Camino de Leganes,,0.00,30,30/06/2026
+2809204,28938|28934,Alfonso XII|Palmas (de Las)|Camino de Humanes,,0.00,48,30/06/2026
+2810601,28981|28982|28983,Jaime i el Conquistador|Avenida Planetas (de Los)|Real,,0.00,67,30/06/2026
+2811301,28320,Juana Frances|Plaza Constitucion (de La)|Real (del),,0.00,15,30/06/2026
+2811302,28320,Castilla (de)|Avenida Europa (de)|Cordoba,Las Arenas,0.02,16,30/06/2026
+2811501,28223,Doctor Cornago|Avenida Pablo VI|Camino Alcorcon,Monteclaro-La Cabaña|Humera-Somosaguas|Los Angeles,0.51,34,30/06/2026
+2811502,28224,Carretera Humera (de)|Avenida Europa|Avenida Comunidad de Madrid (de La),,0.00,22,30/06/2026
+2812301,28523|28521|28522,Avenida Pablo Iglesias (de)|Avenida Almendros (de Los)|Avenida Levante (de),Rivas-Vaciamadrid|Rivas de Jarama|El Porcal,0.21,58,30/06/2026
+2812701,28231|28232|28290,Avenida Atenas|Carretera Escorial|Carretera Coruña,Las Rozas de Madrid|La Chopera|Las Ceudas,0.46,50,30/06/2026
+2813401,28701|28702|28703,Real|Avenida Navarrondan|Real Vieja,Ciudalcampo|Fuente del Fresno|La Granjilla,0.23,55,30/06/2026
+2814801,28850,Londres|Avenida Madrid|Avenida Constitucion,Casablanca,0.02,26,30/06/2026
+2814802,28850,Circunvalacion|Carretera Loeches|Solana,,0.00,29,30/06/2026
+2814803,28850,Carretera Loeches|Zeus|Avenida Constitucion,El Castillo,0.05,10,30/06/2026
+2814804,28850,Curas|Madrid|Cristo,,0.00,19,30/06/2026
+2816101,28341|28343,Avenida Mar Mediterraneo (del)|Avenida Andalucia (de)|Paseo Estacion (de La),,0.00,26,30/06/2026
+2816102,28342|28341,Agustina de Aragon|Lili Alvarez|Maria Curie,,0.00,17,30/06/2026
+2890301,28760,Avenida Artesanos (de Los)|Avenida Labradores (de Los)|Avenida Castilla y Leon (de),,0.00,30,30/06/2026
+2902501,29639|29630,Avenida Retamar|Avenida Juan Luis Peralta|Camino Real de Fuengirola,Benalmadena,1.00,5,30/06/2026
+2902502,29631,Velarde|Avenida Inmaculada Concepcion|Avenida Constitucion de la,,0.00,20,30/06/2026
+2902503,29630,Avenida Antonio Machado|Ronda del Golf Oeste|Avenida Bonanza de,,0.00,12,30/06/2026
+2905101,29680,Avenida Juan Carlos I|Avenida España|Avenida Andalucia,La Gaspara|Bahia Dorada|Buenas Noches,0.34,17,30/06/2026
+2905102,29680,Terraza|Avenida Andalucia|Avenida Reales (de Los),,0.00,13,30/06/2026
+2905103,29688|29689,Priorato|Avenida Hacienda del Sol|Abordaje (del),Saladillo-Benamara|Cancelada|Resinera-Voladilla,1.00,8,30/06/2026
+2905401,29640,Avenida Mijas|Avenida Alcalde Clemente Diaz Ruiz|Avenida Condes de San Isidro,,0.00,27,30/06/2026
+2905402,29640,Avenida Nuestro Padre Jesus Cautivo|Paseo Jesus Santos Rein|Avenida Boliches de los,,0.00,6,30/06/2026
+2905403,29640,Avenida Pacos los|Avenida Carvajal|Paseo Maritimo Rey de España,,0.00,7,30/06/2026
+2906701,29001|29005|29008|29015,Plaza Marina de la|Colon|Principal,,0.00,3,30/06/2026
+2906702,29018|29017|29016,Avenida Juan Sebastian Elcano|Avenida Salvador Allende|Almeria,Olias,0.16,52,30/06/2026
+2906703,29008|29012|29001|29015,Beatas|Juan de Padilla|Pozos Dulces,,0.00,2,30/06/2026
+2906704,29012|29013,Plaza Victoria|Cristo de la Epidemia|Ferrandiz,,0.00,12,30/06/2026
+2906705,29008|29012|29013,Ollerias|Cabello|Alvarez,,0.00,2,30/06/2026
+2906706,29014|29013,Francisco Lopez Lopez|Jerez Perchet|Avenida Santiago Ramon y Cajal,Verdiales,0.00,46,30/06/2026
+2906707,29011|29010|29009,Martinez de la Rosa|Eugenio Gross|Camino Suarez,Verdiales,0.12,90,30/06/2026
+2906708,29010|29006,Navarro Ledesma|Avenida Jose Ortega y Gasset|Avenida Plutarco,Campanillas|Verdiales,0.46,79,30/06/2026
+2906709,29002|29006|29007,Heroe de Sostoa|Union|Avenida Andalucia,,0.00,68,30/06/2026
+2906710,29004|29003,Avenida Velazquez|Avenida Europa|Avenida Sor Teresa Prat,,0.00,72,30/06/2026
+2906711,29140|29004,Carretera Coin|Avenida San Javier|Doctor Ramos Acosta,Churriana,1.00,15,30/06/2026
+2906901,29601|29602|29603,Avenida General Lopez Dominguez|Avenida Ricardo Soriano|Boqueron,,0.00,43,30/06/2026
+2906902,29670,Avenida Pablo Ruiz Picasso (sp)|Fuente Nueva (sp)|Alamos (sp),San Pedro Alcantara,1.00,19,30/06/2026
+2906903,29660|29602,Avenida Gustavo Adolfo Becquer|Avenida Miguel de Cervantes|Avenida Bulevar Principe Alfonso de Hohenlohe,Nueva Andalucia,0.63,10,30/06/2026
+2906904,29603|29604,Avenida Santa Clara Golf|Avenida Alcudia (de) (golf Rio Real)|Avenida Alisos (los) (artola Alta),,0.00,7,30/06/2026
+2907001,29651|29649|29650,Camino Viejo de Coin|Avenida Mijas de|Rio de las Pasadas,Las Lagunas|Osunillas-Peña Blanquilla|Mijas,0.58,44,30/06/2026
+2908201,29730|29720|29738,Camino Viejo de Velez|Avenida Mediterraneo (del)|Avenida Malaga,Torre de Benagalbon|La Cala del Moral|Benagalbon,0.66,29,30/06/2026
+2909401,29700,Camino Algarrobo|Avenida Vivar Tellez|Magallanes,Lagos,0.10,18,30/06/2026
+2909402,29700,Plaza India de la|Felix Lomas|Pancho Lopez,Cabrillas,0.13,9,30/06/2026
+2909403,29740,Avenida Andalucia|Mar (del)|Infantes,Torre del Mar|Caleta de Velez,1.00,15,30/06/2026
+2909404,29790|29749,Carretera Malaga Almeria|Carretera Malaga|Antonio Marquez Robles,Almayate Bajo|Benajarafe|Chilches,1.00,7,30/06/2026
+2909405,29700|29718|29719,Arroyo Moneda|Carretera Benamargosa|Cañada del Estudiante,Triana|Trapiche,1.00,1,30/06/2026
+2990101,29620,Avenida Carlota Alessandri|Cruz de la|Paseo Maritimo,,0.00,43,30/06/2026
+3001601,30201|30202|30203,Duque|Plaza Risueño (de)|Plaza Hospital (del),,0.00,3,30/06/2026
+3001602,30203|30201|30202,Avenida Pintor Portela|Carlos III|Paseo Alfonso XIII,,0.00,11,30/06/2026
+3001603,30204|30203|30205,Juan Fernandez|Avenida Reina Victoria Eugenia|Pintor Balaca,,0.00,31,30/06/2026
+3001604,30203,Cabrera|Alcalde Bartolome Spottorno|Plaza Alcalde Cendra Badia,,0.00,5,30/06/2026
+3001605,30202|30351|30392,Era Baja|Mayor|Sol,Santa Lucia|Alumbres|Los Mateos,1.00,10,30/06/2026
+3001606,30366,Mayor|Calderon de la Barca|Ramon y Cajal,El Algar|La Manga del Mar Menor|Los Urrutias,1.00,17,30/06/2026
+3001607,30593|30594|30330|30390,Santa Florentina|Jilguero (del)|San Juan,Pozo Estrecho|La Aljorra|La Palma,1.00,14,30/06/2026
+3001608,30205|30300|30310,Mayor|Avenida Colon (de)|Santiago Ramon y Cajal,Barrio de Peral|San Antonio Abad|Barrio de la Concepcion,1.00,39,30/06/2026
+3001609,30393|30396|30868|30391,Carretera A Mazarron|Lebeche|Puerto Libre,Isla Plana|La Azohia|Molinos Marfagones,1.00,5,30/06/2026
+3001610,30310|30319,Mayor|Carretera Palma (de La)|Camino Viejo Pozo Estrecho,Los Dolores|Canteras|Los Barreros,1.00,44,30/06/2026
+3002401,30800,Avenida Juan Carlos I|Jeronimo Santa Fe|Cervantes (de),,0.00,43,30/06/2026
+3002402,30813|30815,Camino Vera (de)|Carretera Aguilas (de)|Carretera Altobordo,Zarcilla de Ramos|La Hoya|Casa de las Monjas,1.00,25,30/06/2026
+3002701,30500|30509,Mayor|Avenida Madrid (de)|Avenida Gutierrez Mellado,Romeral|El Llano|Ribera de Molina,0.61,57,30/06/2026
+3003001,30009|30005|30100,Avenida Miguel de Cervantes|Calvario|Ronda Norte,,0.00,62,30/06/2026
+3003002,30008|30007|30003|30006,Avenida Fama|Ronda Levante|Avenida Marques de los Velez,,0.00,49,30/06/2026
+3003003,30002|30011,Torre de Romo|Cartagena|Orilla de la Via,,0.00,47,30/06/2026
+3003004,30007|30110,Mayor|Avenida Alicante|San Jose,Cabezo de Torres|Esparragal|Puente Tocinos,1.00,77,30/06/2026
+3003005,30120,Mayor|Gloria|Avenida Libertad,Palmar O Lugar D. Juan|Sangonera Verde O Ermita|Alberca de las Torres,1.00,63,30/06/2026
+3003006,30570,Mayor|Escuelas|San Antonio,Beniajan|Torreaguera|Los Garres,1.00,41,30/06/2026
+3003007,30107,Mayor|San Antonio|Fuensanta,San Jose de la Montaña|Aljucer|Guadalupe de Maciascoque,1.00,44,30/06/2026
+3003008,30153|30590,San Jose|Carmen|Mayor,La Tercia|Corvera|Sucina,1.00,6,30/06/2026
+3120101,31001,Hilarion Eslava / Hilarion Eslava Kalea|Mayor / Kale Nagusia|Plaza Consistorial / Udaletxe Plaza,,0.00,12,30/06/2026
+3120102,31004|31002|31003,Avenida Carlos Iii el Noble / Karlos Iii Noblearen Etorbid|Francisco Bergamin / Francisco Bergamin Kalea|Paulino Caballero / Paulino Caballero Kalea,,0.00,18,30/06/2026
+3120103,31011|31008,Avenida Barañain / Barañaingo Etorbidea|Avenida Bayona / Baiona Etorbidea|Ermitagaña / Ermitagañako Kalea,,0.00,27,30/06/2026
+3120104,31007,Iturrama / Iturrama Kalea|Serafin Olave / Serafin Olave Kalea|Avenida Sancho el Fuerte / Antso Azkarraren Etorbidea,,0.00,25,30/06/2026
+3120105,31006|31005,Avenida Zaragoza / Zaragozako Etorbidea|Julian Gayarre / Julian Gayarre Kalea|Tajonar / Taxoare Kalea,,0.00,16,30/06/2026
+3120106,31015|31014,Avenida Villava / Atarrabiako Etorbidea|Cuenca de Pamplona / Iruñerria Kalea|San Cristobal / San Kristobal Kalea,,0.00,15,30/06/2026
+3120107,31014|31012,Avenida Marcelo Celayeta / Marcelo Celayeta Etorbidea|Bernardino Tirapu / Bernardino Tirapu Kalea|Artica / Artika Kalea,,0.00,27,30/06/2026
+3120108,31016,Concejo de Elcano / Elkano Kontzejuaren Kalea|Señorio de Eransus / Erantsus Jaurerriaren Kalea|Palacio / Jauregiko Kalea,,0.00,11,30/06/2026
+3205401,32004|32003,Avenida Buenos Aires|Avenida Habana (de La)|Valle Inclan,Ceboliño|Velle|O Meson,0.21,18,30/06/2026
+3205402,32005|32004,A Granxa|Nuño de Ousende|Avenida Buenos Aires,Rairo|Santa Mariña do Monte|As Curuxeiras,0.21,11,30/06/2026
+3205403,32002|32003,Ervedelo|Avenida Portugal (de)|Faustino Santalices,A Granxa|Reza|Estrada de Reza,0.10,17,30/06/2026
+3205404,32005|32002,Avenida Zamora (de)|Bonhome|Nosa Sra. da Sainza,Seixalbo,0.27,14,30/06/2026
+3205405,32001,Avenida Santiago (de)|Alejandro Pedrosa|Rio Xares,Cudeiro|Val do Regueiro|Untes,0.53,20,30/06/2026
+3300401,33402|33401,Jose Cueto|Camara la|Gutierrez Herrero de,Heros|Valgranda|El Caliero,0.21,64,30/06/2026
+3302401,33205|33201|33202|33206,Avenida Costa|Cabrales|Menendez Valdes,,0.00,29,30/06/2026
+3302402,33201,Plaza Marques|Plaza Periodista Arturo Arias|Remedios los,,0.00,3,30/06/2026
+3302403,33203|33204|33202,Ezcurdia|Emilio Tuya|Marques de Casa Valdes,,0.01,25,30/06/2026
+3302404,33212,"Avenida Galicia|Avenida Jose Manuel Palacio Alvarez|Camino Cortijo, del",,0.00,12,30/06/2026
+3302405,33213|33212,Avenida Argentina|Brasil|Andes,Veriña de Riba|Veriña de Baxo,0.08,21,30/06/2026
+3302406,33210|33211,Cataluña|Carretera Carbonera|Avenida Gaspar Garcia Laviana,,0.00,22,30/06/2026
+3302407,33209|33208|33204|33205,Avenida Schulz|Juan Alvargonzalez|Avenida Llano del,,0.00,51,30/06/2026
+3302408,33207|33211,Avenida Constitucion|Avenida Portugal de|Magnus Blikstad,,0.00,22,30/06/2026
+3302409,33203|33391|33392|33394,"Carretera As-377 (gijon-Pola de Siero)|Carretera Providencia, de la|Carretera Somio, de",Cimavilla|La Pontica|Granda de Riba,0.79,19,30/06/2026
+3304401,33007|33003|33009|33008,Perez de la Sala|Rosal|Santa Susana,,0.00,8,30/06/2026
+3304402,33008|33007,Muñoz Degrain|Avenida Pedro Masaveu|Carretera Bolgachina de la,El Caseron|Campiello,0.20,9,30/06/2026
+3304403,33008|33009|33010,San Melchor Garcia Sampedro|Fernando Alonso|Vetusta,El Monte San Cristoba,0.07,12,30/06/2026
+3304404,33010|33008,Tenderina|Avenida Torrelavega de|Armando Álvarez Palacio,Colloto/cualloto|Cerdeño|Caravia,0.42,13,30/06/2026
+3304405,33011|33010,Bermudez de Castro|Rosa Maria Menendez Lopez|Manuel Llaneza,,0.01,13,30/06/2026
+3304406,33011,Avenida Aureliano San Roman|Avenida Pumarin de|Plaza Cuatro Caños,La Corredoria|El Pontón de Vaqueros|La Granxa,0.40,26,30/06/2026
+3304407,33001|33002|33003,General Elorza|Fray Ceferino|Caveda,,0.00,11,30/06/2026
+3304408,33012|33001|33011,Torrecerredo|Fernandez de Oviedo|Monte Gamonal,Fitoria,0.07,16,30/06/2026
+3304409,33012,Paseo Florida de la|Vazquez de Mella|Victor Hevia,,0.00,15,30/06/2026
+3304410,33013|33006,Alejandro Casona|Argañosa|Avenida Valentin Masip,,0.00,14,30/06/2026
+3304411,33005|33004|33007,Avenida Galicia de|Cervantes|Independencia,,0.00,11,30/06/2026
+3304412,33006|33005,Avenida Cristo de las Cadenas|Alvarez Lorenzana|Baldomero Fernandez,Latores/llatores|Cellagú|Ayones,0.09,15,30/06/2026
+3304413,33660|33669|33910|33919,Carretera Cargadero del|Corsino Naves Llaneza|Manzanilla,Veguín|Olloniego/lluniego|Arguañes,1.00,2,30/06/2026
+3304414,33171|33195|33196|33010,Avenida Ramon Pandiello|Tapia de Casariego,La Barraca|Llamascura|Llanu'l Río,1.00,2,30/06/2026
+3304415,33119|33140|33174,Aranjuez|Carretera Aviles-Soto (godos)|Celestino Zuazua,La Fábrica|Caces|Sotu,1.00,3,30/06/2026
+3304416,33194|33191|33012|33193,Carretera General|Carretera Oviedo|Camino Villamar de,San Roque|Cotayon|San Claudio/san Cloyo,0.98,4,30/06/2026
+3306601,33420|33510,Avenida Oviedo|Carretera Santander|Celleruelo,La Pola Siero|Urbanización la Fresneda|El Berrón,0.92,40,30/06/2026
+3412001,34002|34001,Empedrada|Paseo Salon (del)|Plaza San Lazaro,,0.00,4,30/06/2026
+3412002,34005|34001|34191,Mayor Antigua|Avenida Castilla|Marques de Albaida,Paredes de Monte,0.03,3,30/06/2026
+3412003,34001|34005,Mayor Principal|Lope de Vega|Avenida Casado del Alisal,,0.00,4,30/06/2026
+3412004,34005,Avenida Asturias|Primera Universidad de España|Avenida Simon Nieto,,0.00,8,30/06/2026
+3412005,34003|34004,Avenida Cuba|Los Robles|Tomillo,,0.00,15,30/06/2026
+3412006,34003,Paseo Otero (del)|Camino La Miranda|Lanzarote,,0.00,6,30/06/2026
+3412007,34004|34002,Avenida Cardenal Cisneros|Avenida San Telmo|Avenida Valladolid,,0.00,18,30/06/2026
+3500401,35500,Leon y Castillo|Manolo Millares|Triana,,0.00,12,30/06/2026
+3500402,35500,Avenida Temisas|La Joaquina|Dr. Juan Negrin,,0.00,22,30/06/2026
+3501601,35016|35015|35017,"Paseo San Jose|Cordoba|Paseo Blas Cabrera Felipe ""fisico""",Tafira|Marzagan|La Montañeta,0.43,59,30/06/2026
+3501602,35014|35004,Leon y Castillo|Pio XII|Paseo Tomas Morales,,0.00,58,30/06/2026
+3501603,35009|35010|35007|35008,Fernando Guanarteme|Avenida Jose Mesa y Lopez|Paseo Canteras las,,0.00,47,30/06/2026
+3501604,35012|35011|35013,Avenida Escaleritas|Mariucha|Federico Viera,,0.00,81,30/06/2026
+3501605,35018,Carretera San Lorenzo (de)|San Juan de Avila|Avenida Cesar Manrique,Tamaraceite|Tenoya|San Lorenzo,1.00,38,30/06/2026
+3501901,35100|35108|35280|35290,Santiago Cazorla|Ansite|Bartolome Febles,Tunte|Fataga|Cercados de Araña,1.00,1,30/06/2026
+3501902,35107|35100|35119,Barlovento|Honorato Martin Cobos|Era (de La),Castillo del Romeral|Aldea Blanca|Juan Grande,1.00,3,30/06/2026
+3501903,35100,Avenida Tirajana (de)|Avenida Alejand. del Castillo|Avenida Galdar (de),Playa del Ingles|San Agustin|Campo Internacional,0.61,18,30/06/2026
+3501904,35109|35100|35106,Jamaica|Panama|Avenida Americas (de Las),El Tablero|Montaña la Data|El Salobre,1.00,6,30/06/2026
+3502201,35110|35280,Alcalde Facundo Lopez|Baldomero Argente|Buenavista,Santa Lucia|Rosiana|El Ingenio,1.00,1,30/06/2026
+3502202,35110,Leon y Castillo|Orilla Baja|Becquer,Sardina,1.00,7,30/06/2026
+3502203,35110,Avenida Canarias|Avenida Atlantico del|Avenida Union de la,Vecindario|El Doctoral|Pozo Izquierdo,0.63,34,30/06/2026
+3502601,35200,Luis Doreste Silva|Doctor Castro Ojeda|Plaza San Juan de,,0.00,3,30/06/2026
+3502602,35200,Parque Franchy y Roca|Plaza San Gregorio de|Doctor Melian,Valle de los Nueve,0.01,11,30/06/2026
+3502603,35220|35210|35218,Fernando Sagaseta|Manuel Aleman Alamo|Lomo de las Brujas,Valle de Jinamar|Jinamar|Lomo de la Herradura,1.00,23,30/06/2026
+3502604,35200|35211|35215,Carretera Picos los|Carretera Breña la|Alto del Lomo Magullo,Lomo Magullo|Valle de los Nueve|Las Medianias,1.00,4,30/06/2026
+3502605,35213|35212,John Lennon|Fresno|Misericordia,La Garita|San Antonio|La Pardilla,1.00,11,30/06/2026
+3502606,35215|35200|35214,Americo Vespucio|Bravo Murillo|Callejon del Castillo,El Calero|Ojos de Garza|Las Huesas,1.00,16,30/06/2026
+3603801,36002|36001|36005,Praza España|Juan Bautista Andrade|Praza Ferreria (da),,0.00,10,30/06/2026
+3603802,36004|36003|36001,Joaquin Costa|Doutor Loureiro Crespo (do)|Avenida Vigo,A Ponte Muiños,0.06,26,30/06/2026
+3603803,36910|36143|36153,Avenida Avelino Montero Rios|Areal (do)|Caritel,Estribela|Os Praceres|O Carballo do Pazo,1.00,5,30/06/2026
+3603804,36162|36158|36004|36164,Alemania|Avenida Montecelo|Avenida Lugo,Moldes|Santa Margarida|Vilaverde,0.80,11,30/06/2026
+3603805,36157|36156,Avenida Medico Ballina|Rvdo. Don Leandro del Rio,San Caetano|O Bispo|Medico Ballina,1.00,6,30/06/2026
+3603806,36151|36150,,O Couso,1.00,3,30/06/2026
+3603807,36690,Antonio Medal Carrera|Ballota|Concello,A Ponte|Rabaleira,1.00,1,30/06/2026
+3605701,36201|36202,Avenida Garcia Barbon|Rosalia de Castro|Areal,,0.01,16,30/06/2026
+3605702,36204|36203|36206,Urzaiz|Avenida Gran Via|Venezuela,Raviso,0.03,30,30/06/2026
+3605703,36211|36202|36203,Avenida Camelias|Avenida Gran Via|Barcelona,,0.00,36,30/06/2026
+3605704,36209|36210|36208,Avenida Florida|Avenida Castelao|Espedrigada,,0.00,41,30/06/2026
+3605705,36210|36204|36213|36214,Avenida Castrelos|Finca dos Aires|Laxe,Freixeiro|Raviso|Laxe,1.00,12,30/06/2026
+3605706,36207|36216,Sanjurjo Badia|Travesia de Vigo|Avenida Galicia,Roris|Paraixal|Mouta,0.24,25,30/06/2026
+3605707,36205|36215|36206|36214,Avenida Aeroporto|Avenida E. Mtnez Garrido-Alcalde|Avenida Ramon Nieto,Pardavila|Bouciña|Fonte Escura,0.71,44,30/06/2026
+3605708,36312|36314|36213|36214,Carretera Bembrive|Carretera Valadares|Manuel Cominges,Babio|Saa|Carballo do Pazo,1.00,17,30/06/2026
+3605709,36212|36390|36213|36330,Avenida Ricardo Mella|Carretera Camposancos|As Teixugueiras,Casas|Igrexa|Gandara,1.00,19,30/06/2026
+3727401,37002|37001|37007,Toro|Paseo Carmelitas|Zamora,,0.00,11,30/06/2026
+3727402,37003|37001,Paseo Rollo|Doctor Gomez Ulla|Camino Aguas,,0.00,20,30/06/2026
+3727403,37008,Saavedra y Fajardo|Avenida Juan de Austria|Avenida Hilario Goyenechea,,0.00,20,30/06/2026
+3727404,37006|37007,Carretera Ledesma|Arapiles|Avenida Filiberto Villalobos,,0.00,23,30/06/2026
+3727405,37005|37004|37006,Avenida Federico Anaya|Avenida Portugal|Paseo Doctor Torres Villarroel,,0.00,21,30/06/2026
+3727406,37004|37003,Paseo Estacion|Maria Auxiliadora|Greco,,0.00,22,30/06/2026
+3800601,38632|38627|38650,Carretera General Tf-657 Cabo Blanco|Avenida Juan Carlos I|Carretera General Tf-28 Valle San Lorenzo,Buzanada|Los Cristianos|Arona,0.86,38,30/06/2026
+3801701,38611|38617,Avenida Santa Cruz|Isla de Lanzarote|La Constitucion,Granadilla de Abona|El Medano|Los Abrigos,0.59,29,30/06/2026
+3802301,38204|38202|38205|38201,Herradores|Avenida Los Menceyes|Juan de Vera,San Lazaro|La Vega Lagunera|Gracia,0.43,33,30/06/2026
+3802302,38320|38205,Carretera General Santa Cruz Laguna|Avenida Los Menceyes|Narciso de Vera,La Cuesta|Los Valles|Finca España,1.00,24,30/06/2026
+3802303,38108|38296,Camino Los Andenes|Camino San Bartolome de Geneto|Avenida Los Majuelos,Taco|Geneto|Guajara,1.00,29,30/06/2026
+3802304,38330|38206|38291,Carretera La Esperanza|Camino Santa Rosa de Lima|Camino Medio (del),Guamasa|Los Baldios|El Ortigal,1.00,8,30/06/2026
+3802305,38260|38270|38250,Carretera Tejina Tacoronte|Carretera General la Laguna Punta del Hidalgo|Juan Fernandez,Tejina|Valle de Guerra|Bajamar,1.00,15,30/06/2026
+3802306,38208|38293|38294,Camino Mercedes|Camino Mercedes (de Las)|Camino Las Mercedes,Vega de las Mercedes|Jardina|Las Mercedes,1.00,4,30/06/2026
+3803801,38001|38002|38004,San Martin|San Francisco|Santiago,,0.00,11,30/06/2026
+3803802,38002|38003,Castillo|El Pilar|Juan Padron,,0.00,9,30/06/2026
+3803803,38005|38003,Avenida Tres de Mayo|Avenida San Sebastian|Avenida Salle (de La),,0.00,20,30/06/2026
+3803804,38008,Hero|La Orotava|Enrique de Anaga,,0.00,12,30/06/2026
+3803805,38004|38006|38003,Alvarez de Lugo|Benavides|Rambla Santa Cruz (de),,0.00,15,30/06/2026
+3803806,38007|38008|38009,Avenida Benito Perez Armas|Avenida Islas Canarias|Eladio Roca y Salazar,,0.00,25,30/06/2026
+3803807,38120|38001|38150|38180,Avenida Anaga (de)|La Arena|Dique,Pueblo de San Andres|Maria Jimenez|Valleseco,0.90,8,30/06/2026
+3803808,38129|38130|38139|38294,Plaza Virgen de las Nieves|Plaza Afur|Camino Azano-Portugal,Pueblo de Taganana|Almaciga|Roque Negro,1.00,1,30/06/2026
+3803809,38010|38009,Carretera Rosario (del)|Sargento Provisional|Avenida Principes de España,,0.00,16,30/06/2026
+3803810,38010|38009,Carretera Rosario (del)|Elias Bacallado|Avenida Principes de España,,0.00,15,30/06/2026
+3803811,38107|38111,Avenida Luis Celso Garcia Guadalupe|Carretera Sobradillo (del)|Carretera General del Sur,El Sobradillo|Barranco Grande|Tincer,1.00,22,30/06/2026
+3803812,38107|38111,Carretera Santa Maria del Mar|Avenida Los Majuelos|Columbrete,El Sobradillo|El Tablero|Alisios,1.00,12,30/06/2026
+3907501,39001|39002|39003|39007,Santa Clara|Cardenal Cisneros|Isabel la Catolica,,0.00,10,30/06/2026
+3907502,39007|39010|39011,Floranes|Avenida Cardenal Herrera Oria|Avenida José Hierro,,0.01,25,30/06/2026
+3907503,39001|39003|39006,Prado San Roque|Sol|Rio de la Pila,,0.00,14,30/06/2026
+3907504,39004|39005|39003,Avenida Reina Victoria|Paseo Canalejas|Paseo Pereda,,0.00,14,30/06/2026
+3907505,39009|39002,Castilla|Marques de la Hermida|Ruiz Zorrilla,,0.00,15,30/06/2026
+3907506,39008|39010,Alta|Isaac Peral|Tres de Noviembre,,0.00,13,30/06/2026
+3907507,39005|39006|39012,Paseo Altamira (de)|Fernando de los Rios|Avenida Los Castros,,0.00,21,30/06/2026
+3907508,39011|39012,Avenida Deporte|Francisco Iturrino|La Pereda,San Roman|Peñacastillo|Cueto,0.98,29,30/06/2026
+3908701,39300,Alonso Astulez|Consolacion|Avenida España,Campuzano,0.03,13,30/06/2026
+3908702,39300,Casimiro Sainz|Juan XXIII|Pablo Garnica,,0.00,9,30/06/2026
+3908703,39300,Avenida Besaya|Avenida Palencia|Avenida Cantabria,Campuzano|Torres|Ganzo,0.97,11,30/06/2026
+3908704,39300,Tanos|Avenida Bilbao|Paseo Fernandez Vallejo,Tanos|Sierrapando|Viernoles,0.99,9,30/06/2026
+3908705,39300,Avenida Solvay|Plaza Antigua Ferretera (de La)|Concesa Josue,Barreda|Sierrapando,1.00,3,30/06/2026
+4019401,40001|40003|40002,Plaza Mayor|Plaza Guevara|Plaza Potro (del),,0.00,3,30/06/2026
+4019402,40001|40002|40003,Plaza Doctor Gila (del)|Santo Domingo de Silos|Paseo Ezequiel Gonzalez,,0.00,2,30/06/2026
+4019403,40002|40001|40005|40004,Gobernador Fernandez Jimenez (del)|Roble (del)|Los Coches,,0.00,9,30/06/2026
+4019404,40006|40002|40005,Jose Zorrilla|Agapito Marazuela|Rancho (del),Revenga|Madrona|Fuentemilanos,0.65,10,30/06/2026
+4019405,40006|40005|40004,Damaso Alonso|Avenida Vicente Aleixandre|Avenida La Constitucion,,0.00,8,30/06/2026
+4019406,40004,Avenida Marques de Lozoya (del)|Caceres|Claudio Moreno,,0.00,5,30/06/2026
+4019407,40003|40196,Avenida La Via Roma|Las Nieves|Puente de San Lorenzo (del),Zamarramala|Las Serillas,0.36,4,30/06/2026
+4100401,41500,Conde de Guadalhorce|Blanca de los Rios|Juan Abad,,0.00,2,30/06/2026
+4100402,41500,Abderraman|Avicena|Avenida Dos Hermanas,,0.00,5,30/06/2026
+4100403,41500,Avenida La Purisima Concepcion|Avenida La Asuncion|Escultor Pineda Calderon,,0.00,11,30/06/2026
+4100404,41500,Avenida La Constitucion|Avenida Santa Lucia|Rafael Beca,El Acebuchal|La Soledad|Trujillo - Cabeza Sordo,0.28,31,30/06/2026
+4103801,41702|41701,Real Utrera|Hojiblanca|Nuestra Señora del Carmen,,0.00,8,30/06/2026
+4103802,41702|41701,Avenida Andalucia|Avenida Reyes Catolicos|Aragon,,0.00,12,30/06/2026
+4103803,41703|41701|41702,Avenida Los Pirralos|Avenida Cristobal Colon|Doctor Fleming,,0.00,17,30/06/2026
+4103804,41701|41704|41702,Avenida España (de)|Esperanza|Luis Cernuda,,0.00,22,30/06/2026
+4103805,41089|41704,Avenida Europa|Avenida Los Pinos|Hierbaluisa,Quinto|Fuente del Rey|Marisma Puntales Adriano,0.68,32,30/06/2026
+4109101,41003|41002|41001,Feria|San Vicente|Plaza Alameda de Hercules,,0.00,47,30/06/2026
+4109102,41009|41008,Avenida Miraflores|Avenida Doctor Fedriani|Leon XIII,,0.00,59,30/06/2026
+4109103,41005|41018,Avenida Eduardo Dato|Luis Montoto|Marques de Nervion,,0.00,41,30/06/2026
+4109104,41006,Afan de Ribera|Lisboa|Avenida Los Gavilanes,,0.00,66,30/06/2026
+4109105,41013,Avenida La Paz|Nuestra Señora de las Mercedes|Cardenal Bueno Monreal,,0.00,51,30/06/2026
+4109106,41010,Pages del Corro|San Vicente de Paul|Evangelista,,0.00,41,30/06/2026
+4109107,41015|41008,Esturion|Mejillon|Medina y Galnares,,0.00,51,30/06/2026
+4109108,41007|41008,Avenida Kansas City|Arroyo|Avenida El Greco,,0.00,48,30/06/2026
+4109109,41020|41019,Avenida Emilio Lemos|Avenida Las Ciencias|Avenida Ciudad de Chiva,,0.00,71,30/06/2026
+4109110,41012|41014|41013,Avenida Jerez|Avenida Bellavista|Guadalajara,,0.00,29,30/06/2026
+4109111,41011,Virgen de Lujan|Fernando IV|Virgen de la Victoria,,0.00,19,30/06/2026
+4109501,41710,Avenida Maria Auxiliadora|Ronda Zarzuelas (de Las)|Avenida Blas Infante,,0.00,10,30/06/2026
+4109502,41710|41728,Avenida San Juan Bosco|Molares|Avenida Curro Guillen,,0.00,5,30/06/2026
+4109503,41710,Plaza Trianilla (de La)|Azorin|Eduardo Dato,,0.00,6,30/06/2026
+4109504,41710,San Fernando|Juan de Anaya|Plaza Fernan Caballero,,0.00,3,30/06/2026
+4109505,41710,Avenida Dolores Ibarruri|Avenida Constelacion Corona Boreal|Constelacion Cruz del Sur,Guadalema de los Quintero|Trajano|Pinzon,0.21,12,30/06/2026
+4312301,43201|43204|43202,Plaza Mercadal|Santa Anna|Llovera,,0.00,3,30/06/2026
+4312302,43202|43205|43201|43206,Paisos Catalans|Argentera|Lepant,,0.00,14,30/06/2026
+4312303,43205|43204,Pere el Cerimonios|Sant Bernat Calvó (de)|Miami,,0.00,11,30/06/2026
+4312304,43204|43205,President Macia|Pere el Cerimonios|Aigua Nova (cami de L'),,0.00,6,30/06/2026
+4312305,43204|43203|43201,Roser|Miro (de)|Maria Fortuny,,0.00,6,30/06/2026
+4312306,43203|43202|43201|43206,Onze de Setembre|Frederic Soler|Antoni Gaudi,,0.00,13,30/06/2026
+4312307,43204|43206|43205,Bellissens|Jaume Vidal i Alcover|Tarragona (de),,0.00,4,30/06/2026
+4312308,43205|43206,Riudoms|Paisos Catalans|Astorga,Aigüesverds|Sol i Vista|Blancafort,0.15,8,30/06/2026
+4312309,43206|43201|43203|43204,Castellvell|Abeurada (de L')|Garrotxa,El Pinar|Sant Joan|Pelayo,0.47,2,30/06/2026
+4312310,43203|43204|43205|43206,Montblanc|Camí Alzines (de Les)|Camí Burgar (del),Mas Carpa,0.18,1,30/06/2026
+4314801,43003,Baixada de la Peixateria|Baixada de Misericordia|Carrero de la Rosa,,0.00,1,30/06/2026
+4314802,43003,Portella (de La)|Sant Pere i Estubes|Abat (de L'),,0.00,1,30/06/2026
+4314803,43003|43007,Vía Augusta|Antoni Company i Fernandez de Cordoba (d')|Ernest Lluch,,0.00,3,30/06/2026
+4314804,43002|43003,Antoni Rovira i Virgili (d')|Catalunya|Estanislau Figueres (d'),Sant Pere i Sant Pau|L'oliva,0.11,14,30/06/2026
+4314805,43001|43004,Unio (de La)|Plaza Ponent (de)|Sant Miquel (de),,0.00,8,30/06/2026
+4314806,43005|43001|43004|43006,Ramon i Cajal|Pere Martell (de)|Cardenal Vidal i Barraquer,Els Montgons|Campsa|Pinedes (les),0.40,15,30/06/2026
+4314807,43007|43005,Vía Augusta|Sant Salvador|Carretera Valls,Sant Pere i Sant Pau|Monnars|Arrabassada i Savinosa,0.90,25,30/06/2026
+4314808,43006,Rambla Ponent|Prades (de)|Riu Llobregat,Torreforta,1.00,14,30/06/2026
+4314809,43100,Vint-I-Dos|Vint-I-Un|Vint,Bonavista,1.00,7,30/06/2026
+4516501,45600,Calera|Avenida Real Fabrica de Sedas|San Antonio,Talavera la Nueva|Barrio de Santa Maria,0.25,8,30/06/2026
+4516502,45600,Joaquina Santander|Banderas de Castilla|Avenida Constitucion,,0.00,21,30/06/2026
+4516503,45600,Santa Teresa de Jesus|Avenida Francisco Aguirre|Avenida Pio XII,,0.00,24,30/06/2026
+4516504,45600,Comuneros de Castilla|Avenida Francisco Aguirre|Cardenal Gil Albornoz,Gamonal|El Casar de Talavera|Colonia Ntra Sra Prado,0.48,9,30/06/2026
+4516801,45001|45002|45003,Plaza Zocodover|Armas|Comercio,,0.00,2,30/06/2026
+4516802,45001|45002,Plaza Colegio Infantes|Plaza San Justo|Plaza Fuentes,,0.00,2,30/06/2026
+4516803,45002|45004,Mano|Plaza Cerro de las Melojas|Granado,,0.00,3,30/06/2026
+4516804,45002|45003|45001|45004,Plaza Capuchinas|Plaza Padre Juan de Mariana|Bulas,,0.00,3,30/06/2026
+4516805,45005|45004,Ronda Buenavista|Avenida Portugal|Avenida Europa,,0.00,30,30/06/2026
+4516806,45003|45008,Camino Viejo|Plaza Azucaica|Carretera Mocejon,,0.00,4,30/06/2026
+4516807,45007|45006,Rio Alberche|Avenida Rio Boladiez|Avenida Rio Guadarrama,,0.00,19,30/06/2026
+4613101,46701|46702,Plaça Rei en Jaume i (del)|Major|Beneficencia,,0.00,2,30/06/2026
+4613102,46701,Avinguda Valencia (de)|Cardenal Cisneros|Avinguda Republica Argentina,,0.00,16,30/06/2026
+4613103,46702,Avinguda Raval (del)|Mesquita del Raval (de La)|Plaça Prado (del),,0.00,4,30/06/2026
+4613104,46730|46701,La Goleta|Carretera Natzaret-Oliva (cm.vell Vcia.)|Alcoi,Grau i Platja,0.99,7,30/06/2026
+4613105,46702|46701,Pintor Sorolla|Primer de Maig|Abat Sola,,0.00,9,30/06/2026
+4613106,46702,Avinguda Esclaves (de Les)|Lector Romero|Ameriques,,0.00,5,30/06/2026
+4613107,46702|46728,Carretera Barx (de)|Barranc|Falconera,Marxuquera Alta|Marxuquera Baixa,0.59,3,30/06/2026
+4619001,46980,Avinguda Vicent Mortes Alfonso|Santissim Crist de la Fe|Dels Molins,Paterna|La Coma|Terramelar,0.53,48,30/06/2026
+4622001,46500|46530,Camino Bonilles|Camino Gausa|Camino Pla del Aljup,Partida de Gausa|Sagunt/sagunto|Partida de Montiver,1.00,1,30/06/2026
+4622003,46500,Avenida Sants de la Pedra|Cami Real|Huertos,Sagunt/sagunto|Partida de Montiver|Partida de Gausa,1.00,13,30/06/2026
+4622004,46500,"Partida de L'oliba|Alquerieta de Roc, l'|Assalit de Gudal",Sagunt/sagunto,1.00,2,30/06/2026
+4622005,46520|46500,Avenida Advocat Fausto Caruana|Azorin|Plaza Juan Ramon Jimenez,El Baladre,0.94,2,30/06/2026
+4622006,46520,Avenida Nueve de Octubre|Teodoro Llorente|Luis Cendoya,,0.00,9,30/06/2026
+4622007,46520,Avenida Camp.morvedre|Alcala Galiano|Avenida Ribera la,,0.00,16,30/06/2026
+4622008,46500,Camino Corral del Batle|Avenida Europa|Gola,Almarda,1.00,1,30/06/2026
+4624401,46900,Gómez Ferrer|València|Santa Llúcia,,0.00,12,30/06/2026
+4624402,46900,Pare Méndez|Sant Pere D'alcàntera|Maria Auxiliadora,,0.00,7,30/06/2026
+4624403,46900,Al Vedat|Germanies|Constitució,,0.00,26,30/06/2026
+4624404,46901|46900,Sant Llorenç|Vicent Pallardó|Pare Méndez,Monte Vedat|Masia del Juez|Cumbres de Calicanto,0.98,12,30/06/2026
+4625001,46003|46001|46002,De la Pau|Guillem de Castro|Sant Vicent Màrtir,,0.00,24,30/06/2026
+4625002,46005|46006|46004,Regne de València|Cuba|Ciscar,,0.00,39,30/06/2026
+4625003,46008|46007,Ferran el Catòlic|Palleter|Pérez Galdós,,0.00,37,30/06/2026
+4625004,46015|46009,Mestre Rodrigo (músic)|General Avilés|Vall de la Ballestera,,0.00,29,30/06/2026
+4625005,46009,Constitució|Sagunt|Portugal,,0.00,35,30/06/2026
+4625006,46010|46021,Blasco Ibáñez|Aragó|Polo i Peyrolón,,0.00,23,30/06/2026
+4625007,46018|46014,Cid|Democràcia|Pérez Galdós,,0.00,35,30/06/2026
+4625008,46014|46018|46007,Arxiduc Carles|Fontanars Dels Alforins|Tres Forques,,0.00,40,30/06/2026
+4625009,46017|46007,Sant Vicent Màrtir|Jerónima Galés (impressora)|Carters,,0.00,38,30/06/2026
+4625010,46006|46013|46026,Fonteta de Sant Lluís|Ausiàs March|Malilla,,0.00,52,30/06/2026
+4625011,46011|46024|46022,Escalante|Josep Benlliure|Progrés,,0.00,39,30/06/2026
+4625012,46023|46022,Port|Illes Canàries|Sants Just i Pastor,,0.00,43,30/06/2026
+4625013,46021|46022,Blasco Ibáñez|Poeta Mas i Ros|Campoamor,,0.00,27,30/06/2026
+4625014,46020,Primat Reig|Emili Baró|Doctor Vicent Zaragozà,,0.00,21,30/06/2026
+4625015,46019|46025,Pare Viñas|Arquitecte Rodríguez|Duc de Mandas,,0.00,39,30/06/2026
+4625016,46025|46015,Burjassot|José Grollo|Florista,,0.00,32,30/06/2026
+4625017,46016|46025|46112,Camí Montcada|Rocafort|Camí Carpesa a Montcada,Masarrochos|Carpesa|Borboto,1.00,6,30/06/2026
+4625018,46035,Felipe Valls|Crisòstom Martínez|Campament,Benimamet-Beniferri,1.00,10,30/06/2026
+4625019,46026|46012|46017,Real de Madrid|Camí Tremolar|Carretera Riu,Castellar-Oliveral|El Perellonet|Pinedo,0.80,15,30/06/2026
+4718601,47001|47003|47002|47006,Plaza Santa Ana|Plaza Mayor|Plaza Poniente,,0.00,3,30/06/2026
+4718602,47006|47007,Paseo Zorrilla|Paseo Hospital Militar|Gabilondo,,0.00,14,30/06/2026
+4718603,47004|47001,Dos de Mayo|Panaderos|Estacion,,0.00,8,30/06/2026
+4718604,47013|47012,Paseo Juan Carlos I|Avenida Segovia|Caamaño,,0.00,37,30/06/2026
+4718605,47002|47001|47003,Lopez Gomez|Teresa Gil|Bajada de la Libertad,,0.00,4,30/06/2026
+4718606,47012|47005,Cigueña|Villabañez|Paseo Juan Carlos I,,0.00,34,30/06/2026
+4718607,47005|47011|47002,Paseo Cauce|Puente la Reina|Plaza Batallas,,0.00,18,30/06/2026
+4718608,47010|47011,Portillo de Balboa|Cardenal Torquemada|Moradas,,0.00,30,30/06/2026
+4718609,47003|47010|47011,Imperial|Plaza San Miguel|Plaza San Pablo,,0.00,9,30/06/2026
+4718610,47014|47009,Avenida Salamanca|Hernando de Acuña|Mieses,La Overuela,0.01,54,30/06/2026
+4718611,47008|47007,Paseo Zorrilla|Carretera Rueda|Doctor Moreno,,0.00,41,30/06/2026
+4718612,47009|47152|47008|47153,Carretera Fuensaldaña|Camino Fuensaldaña Valladolid Ramal 1|Carretera Rueda,La Overuela|Puente Duero-Esparragal|Pinar de Antequera,1.00,4,30/06/2026
+4801301,48901|48902,Juntas Generales|Avenida La Libertad|Juan de Garai,,0.00,7,30/06/2026
+4801302,48901,Murrieta|Paseo Dolores Ibarruri|Pormetxeta,,0.00,11,30/06/2026
+4801303,48902|48901,Bizkaia|Arrandi|Castilla-Leon,,0.00,8,30/06/2026
+4801304,48901|48902,Avenida La Libertad|Gabriel Aresti|Zorrilla,,0.00,11,30/06/2026
+4801305,48902,Avenida Gernikako Arbola|San Vicente|Francisco Gomez,,0.00,11,30/06/2026
+4801306,48902,Arteagabeitia|Avenida Euskadi|La Economia,,0.00,13,30/06/2026
+4801307,48903|48902,Retuerto|Avenida Euskadi|Rio Castaños,El Regato,0.42,5,30/06/2026
+4801308,48903,Andikollano|Guridi|Alberdi,,0.00,8,30/06/2026
+4801309,48903,Plaza Cruces|La Paz|Balejo,,0.00,12,30/06/2026
+4802001,48014|48015,Avenida Aguirre Lehendakari|Otero Blas de|Avenida Madariaga,,0.00,42,30/06/2026
+4802002,48007,Tiboli|Camino Via Vieja de Lezama|Avenida Ravel Maurice,,0.00,32,30/06/2026
+4802003,48004,Avenida Aresti Gabriel|Avenida Galindez Jesus|Avenida Garat Txomin,,0.00,19,30/06/2026
+4802004,48004|48006,Santutxu|Bonaparte Luis Luciano|Zabalbide,,0.00,34,30/06/2026
+4802005,48003|48006,Zabalbide|Zamacola|Iturribide,,0.00,42,30/06/2026
+4802006,48010|48011|48009,Poza Licenciado|Recalde|Urquijo,,0.00,43,30/06/2026
+4802007,48002|48012,Gordoniz|Avenida Kirikiño|Irala,,0.00,35,30/06/2026
+4802008,48013|48002|48012,Avenida Arana Sabino|Carretera Basurtu-Kastrexana|Avenida Montevideo,,0.00,23,30/06/2026
+4804401,48993|48991|48990,Maidagan|Avenida Angel|Bostgarrena,Andra Mari,0.99,9,30/06/2026
+4804402,48991|48992|48993,Avenida Algorta|Avenida Los Chopos|Avenida Basagoiti,,0.00,32,30/06/2026
+4804403,48930,Santa Ana|Joaquin Arellano|Avenida Zugatzarte,Las Arenas-Areeta,1.00,25,30/06/2026
+4927501,49008|49009|49004|49006,Avenida Cardenal Cisneros|Amargura|Libertad,,0.00,15,30/06/2026
+4927502,49021|49020|49016|49030,Avenida Requejo|Argentina|Colon,,0.00,17,30/06/2026
+4927503,49028|49027,Salamanca|Jose Regojo|Cañizal,Carrascal,0.10,4,30/06/2026
+4927504,49026|49001|49004|49031,Ramiro Don|Doctor Fleming|Avenida Feria,,0.00,4,30/06/2026
+4927505,49023|49024|49032|49025,Avenida Galicia|San Blas|Pinar,,0.00,7,30/06/2026
+5029701,50003|50002|50001,Coso|Boggiero|Paseo Echegaray y Caballero,,0.00,30,30/06/2026
+5029702,50008|50004,Leon XIII|Camino Las Torres|San Vicente Martir,,0.00,45,30/06/2026
+5029703,50010|50017,Avenida Madrid|Duquesa Villahermosa|Avenida Navarra,,0.00,81,30/06/2026
+5029704,50009|50006|50019,Paseo Fernando el Catolico|San Antonio Maria Claret|Vía Iberica,,0.00,70,30/06/2026
+5029705,50007|50013|50008,Avenida San Jose|Avenida Cesareo Alierta|Maria Moliner,,0.00,48,30/06/2026
+5029706,50002|50013,Doctor Iranzo|Salvador Minguijon|Avenida Compromiso de Caspe,Cartuja Baja|Torrecilla de Valmadrid,0.26,36,30/06/2026
+5029707,50003,Avenida Pablo Gargallo|Avenida Almozara|Avenida Puerta de Sancho,,0.00,16,30/06/2026
+5029708,50011|50012,"Carretera Madrid|Camino Pilon (el) (miralbueno)|Avenida Rodriguez Ayuso, Manuel",,0.00,29,30/06/2026
+5029709,50007,Lasierra Purroy|Avenida America|Fray Julian Garces,,0.00,29,30/06/2026
+5029710,50018|50015|50014,Avenida Cataluña|Avenida San Juan de la Peña|Avenida Salvador Allende,,0.00,92,30/06/2026
+5029711,50016,Avenida Santa Isabel|Avenida Movera|Carretera Huesca,Movera|Montañana|Peñaflor,0.70,17,30/06/2026
+5029712,50011|50620|50190,Avenida Autovia de Logroño (casetas)|Camino Pinseque|Carretera Logroño (autovia),Garrapinillos|Casetas|Venta del Olivar,1.00,10,30/06/2026
+5100101,51001,Paseo Marina Española (de La)|Real|Sargento Mena,,0.00,10,30/06/2026
+5100102,51001|51005,Real|Recinto Sur|Echegaray,,0.00,7,30/06/2026
+5100103,51002|51001,Avenida Africa (de)|Avenida España|Avenida Otero,,0.00,12,30/06/2026
+5100104,51002|51001,Avenida Ejercito Español|Argentina|Avenida Reyes Catolicos,,0.00,11,30/06/2026
+5100105,51002|51004,Capitan Claudio Vazquez|Alcalde Joaq. Garcia de la Torre Almenara|Alta,,0.00,7,30/06/2026
+5100106,51003|51004,Agrupacion Central|Agrupacion Este|Agrupacion Fuerte,El Principe|Benzu,0.74,7,30/06/2026
+5200101,52001,"Avenida Candido Lobera|Hornabeque, Foso de|Muelle de Ribera",,0.00,2,30/06/2026
+5200102,52003|52004|52001|52002,"Avenida Reyes Catolicos|Buceta, General|Constancia",,0.00,3,30/06/2026
+5200103,52001|52002,Avenida Castelar|Alicante|Almeria,,0.00,2,30/06/2026
+5200104,52002|52003,"Ricardos, General|Diaz Otero, Alfereces|Diego de Paredes",,0.00,4,30/06/2026
+5200105,52003,Carretera Hidum|Venezuela|Casiopea,,0.00,8,30/06/2026
+5200106,52003|52004|52005|52001,Querol|Plaza Velazquez|Actor Tallavi,,0.00,3,30/06/2026
+5200107,52006|52005,"Legion, la|Jimenez e Iglesias|Mar Chica",,0.00,7,30/06/2026
+5200108,52005|52006,"Carretera Alfonso XIII|Paseo Francisco Mir Berlanga, Maritimo|Avenida Donantes de Sangre",,0.00,15,30/06/2026

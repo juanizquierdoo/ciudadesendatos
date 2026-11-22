@@ -72,13 +72,39 @@ if f_nombres.exists():
 else:
     print("AVISO: no existe nombres_distritos.csv; se usará 'Distrito N' en todas las ciudades.")
 
+_TIPOS_VIA = ("Plaza ", "Praza ", "Plaça ", "Paseo ", "Avenida ", "Avinguda ", "Ronda ", "Rambla ", "Glorieta ", "Carretera ",
+              "Travesía ", "Pasaje ", "Camino ", "Camí ", "Parque ", "Vía ", "Cuesta ", "Senda ")
+
+
+def etiqueta_zona(z):
+    """Nombre corto y comprensible de un distrito sin nombre oficial ni barrios (sin códigos postales):
+    - si la mayor parte del distrito está fuera del núcleo principal: sus núcleos de población (INE);
+    - si no: 'zona de' + sus 2 calles principales (las que pasan por más secciones censales)."""
+    nuc = z.get("nucleos") or []
+    if nuc and z.get("fuera_principal", 0) >= 0.5:
+        return (", ".join(nuc[:2]) + " y otros núcleos") if len(nuc) > 2 else lista_y(nuc)
+    calles = []
+    for c in z.get("calles") or []:
+        # 'Avenida Alcudia (de) (golf Rio Real)' -> 'Avenida Alcudia'; 'Avenida Diego Moron de' -> 'Avenida Diego Moron'
+        c = re.sub(r"\s*\(.*$", "", c).strip()
+        c = re.sub(r"\s+(de|del|de la|de los|de las)$", "", c, flags=re.I)
+        if c and c not in calles:
+            calles.append(c)
+    if calles:
+        cs = [c if c.startswith(_TIPOS_VIA) else "calle " + c for c in calles[:2]]
+        return "zona de " + lista_y(cs)
+    return lista_y(nuc[:2]) if nuc else ""
+
+
 # Zonas de los distritos sin nombre oficial (preparar_zonas.py, callejero del INE)
 zonas, fecha_callejero = {}, ""
 f_zonas = datos / "zonas_distritos.csv"
 if f_zonas.exists():
     zd = leer_csv(f_zonas, dtype=str).fillna("")
     for _, z in zd.iterrows():
-        zonas[z["codigo"]] = {k: [x for x in z[k].split("|") if x] for k in ("cps", "calles", "nucleos")}
+        zonas[z["codigo"]] = {k: [x for x in z[k].split("|") if x] for k in ("calles", "nucleos")}
+        # los códigos postales no se usan: Juan quiere zonas que se entiendan a simple vista (22/11/2026)
+        zonas[z["codigo"]]["fuera_principal"] = float(z.get("fuera_principal") or 0)
         fecha_callejero = z["fecha_callejero"]
     print("Zonas de distrito cargadas:", len(zonas))
 else:
@@ -154,7 +180,7 @@ for _, f in sel.iterrows():
             zona = None
             bs = barrios.get(d["codigo"])   # también en distritos con nombre oficial, para buscarlos por barrio (B-32)
             if d["codigo"] not in nombres and d["codigo"] in zonas:
-                # Sin nombre oficial: se identifica por sus códigos postales y calles (callejero del INE)
+                # Sin nombre oficial: se identifica por sus núcleos de población o sus calles principales (callejero del INE)
                 zona = zonas[d["codigo"]]
             if bs and d["codigo"] in nombres:
                 pass   # el nombre oficial ya identifica el distrito; los barrios se ven debajo y en el buscador
@@ -166,8 +192,8 @@ for _, f in sel.iterrows():
                     nombre_d += f" · {bs[0]}, {bs[1]} y otros barrios"
                 else:
                     nombre_d += f" · {bs[0]} y otros barrios"
-            elif zona and zona["cps"]:
-                nombre_d += " · CP " + " y ".join(zona["cps"][:2])
+            elif zona and etiqueta_zona(zona):
+                nombre_d += " · " + etiqueta_zona(zona)
             distritos.append({
                 "codigo": d["codigo"], "numero": num, "nombre": nombre_d,
                 "con_nombre_oficial": d["codigo"] in nombres, "zona": zona, "barrios": bs or [],
