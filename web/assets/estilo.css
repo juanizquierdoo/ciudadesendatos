@@ -128,6 +128,15 @@ tbody tr:hover{background:var(--surface)}
 .lnk.cols{columns:2 300px;column-gap:28px;border-top:0}
 .lnk.cols li{break-inside:avoid}
 .legal-texto ul{padding-left:20px}
+/* páginas legales: letra más pequeña y datos del titular discretos */
+.legal-hero{padding:20px 0 16px}
+.legal-hero h1{font-size:clamp(24px,4vw,30px);margin:0 0 4px}
+.legal-hero .lead{font-size:14px;color:var(--muted);margin:0}
+.legal-texto{font-size:15px;line-height:1.6}
+.legal-texto h2{font-size:18px;margin:30px 0 6px}
+.legal-texto .titular{font-size:13px;color:var(--muted)}
+.legal-texto .titular a{color:var(--muted);font-weight:400}
+.legal-texto a[href^="mailto:"]{color:inherit;font-weight:400}
 /* pie: azul oscuro y letra pequeña, igual en todas las páginas */
 main{padding:0}
 footer{background:var(--navy);color:var(--pie-fg);font-size:13px;line-height:1.6;margin-top:72px}

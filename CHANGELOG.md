@@ -150,3 +150,8 @@ Hecho:
 - Nuevos PROYECTO.md, BACKLOG.md, FUENTES.md, CHANGELOG.md e INFORME_FASE0.md.
 
 No se ha cambiado ningún script del pipeline, ningún dato ni la web.
+
+## 22/11/2026: aviso legal más discreto
+- Páginas legales con letra más pequeña (texto 15 px, títulos 18 px, cabecera reducida), solo en esas páginas (clases `legal-hero` y `legal-texto` en la constante CSS de `generar_web.py`).
+- Datos del titular (nombre y correo) en una sola línea de letra pequeña y gris, sin negritas, al final del aviso legal (apartado 8) y de la política de privacidad (apartado 6). Los correos de las páginas legales ya no salen en azul y negrita, pero siguen siendo enlaces.
+- Siguen publicados y accesibles desde el pie de todas las páginas (LSSI art. 10). `ACTUALIZADO` = 22/11/2026. Tests: 21 OK, 0 FALLA. No es asesoramiento legal.

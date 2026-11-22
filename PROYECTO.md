@@ -104,3 +104,6 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Sin códigos postales (22/11/2026)
 - Decisión de Juan: en la web no aparece ningún código postal; las zonas se nombran por barrios, distritos o algo que se entienda a simple vista. Los distritos sin barrios se nombran por sus núcleos de población o sus dos calles principales (INE), con `etiqueta_zona()` en `preparar_json.py`. El test "Ningún código postal en la web" lo vigila.
 - Para mejorar esos 144 distritos (Huelva, Ávila, Toledo, Castellón, San Fernando…) haría falta una lista oficial de barrios de cada ayuntamiento (B-32).
+
+## Páginas legales discretas (22/11/2026)
+- Decisión de Juan: su nombre y correo deben verse lo menos posible. Van al final del aviso legal y de la privacidad, en letra pequeña y gris (`_titular_html()` en `paginas_legales.py`). No quitarlos: la LSSI exige que sean accesibles.
