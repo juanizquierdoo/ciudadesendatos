@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 22/11/2026: comparador de 2 a 4 ciudades (Fase 2, funcionalidad 2, B-35)
+- Nuevo `comparador_ciudades.py`: página /comparar-ciudades/. Eliges de 2 a 4 ciudades (desplegables por comunidad) y salen lado a lado: alquiler mediano, €/m² con su rango p25-p75, superficie, alquiler sobre la renta, ingresos para la regla del 30 %, cambio del alquiler 2019-2024 y 2023-2024, renta por hogar y por persona y su cambio, población, edad, menores de 18, mayores de 65, hogares unipersonales, tamaño del hogar, distritos con dato y el distrito más barato y el más caro (con enlace a su fila de la ficha). Encima, frases con las diferencias principales; debajo, gráfico de la evolución del alquiler 2011-2024.
+- Solo datos que ya estaban en ciudades_nivel1.json; los cálculos son los mismos que los rankings y la calculadora del sueldo. Distritos con la regla de la ficha (menos de 30 inmuebles no se usan; 30-99 con *) y sin códigos postales. El cálculo se hace en el navegador; la dirección guarda las ciudades (?c=valladolid,salamanca) para compartir, y hay botón «Copiar enlace».
+- Una sola página, sin páginas por pareja de ciudades (serían miles casi iguales, regla 8). Sin JavaScript (y para Google) se ve la comparación de las 4 ciudades más pobladas, calculada en Python con las mismas reglas, más un texto «Qué dicen los datos al comparar» y 6 comparaciones de ejemplo.
+- `generar_web.py`: 4 líneas (import, tarjeta en la portada, enlace «Compara X lado a lado con otras ciudades» en la sección «Compara con otras ciudades» de cada ficha y llamada en main() que añade la URL al sitemap).
+- Nuevo `tests/test_comparador.py` (8 comprobaciones). `ejecutar_tests.py`: 22 OK, 0 FALLA.
+- Probado en Chromium (1280 px y 390 px): carga, cambio de ciudades, ciudad repetida, enlaces con parámetros (también inválidos), enlace desde la ficha, enlace a distrito, sin scroll horizontal de página, sin errores de JavaScript, y la tabla que pinta el JavaScript es idéntica a la fija. Firefox, Safari y móvil real sin probar (B-14).
+
 ## 22/11/2026: ningún código postal en la web (petición de Juan)
 - Antes, 144 distritos sin nombre oficial ni barrios se llamaban "Distrito N · CP 21003 y 21001", y otros 500 llevaban "CP ..." en la segunda línea de la tabla (128 fichas). Ahora ningún código postal aparece en la web.
 - Distritos sin barrios: si más de la mitad del distrito está fuera del núcleo principal, se nombran por sus núcleos de población del INE ("Distrito 8 · Gevora, Valdebotoa y otros núcleos"); si no, por sus dos calles principales del callejero del INE ("Distrito 1 · zona de Plaza Zocodover y calle Armas"). No se inventa ningún nombre.

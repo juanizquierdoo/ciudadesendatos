@@ -99,7 +99,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 
 ## Fase 2: "¿Dónde puedo vivir con mi sueldo?" (22/11/2026)
 - Hecho B-33: `herramienta_sueldo.py` genera /donde-vivir-con-mi-sueldo/ (calculadora en el navegador + texto y tabla fijos). `generar_web.py` solo la importa, pone la tarjeta en la portada y la añade al sitemap. Test: `tests/test_sueldo.py`.
-- Siguiente de la hoja de ruta: comparador de 2 a 4 ciudades (B-35). Después, descarga de datos. El mapa nacional sigue a la espera de confirmar la licencia de la cartografía.
+- Siguiente de la hoja de ruta: comparador de 2 a 4 ciudades (B-35, hecho el 22/11/2026, ver abajo). Después, descarga de datos. El mapa nacional sigue a la espera de confirmar la licencia de la cartografía.
 
 ## Sin códigos postales (22/11/2026)
 - Decisión de Juan: en la web no aparece ningún código postal; las zonas se nombran por barrios, distritos o algo que se entienda a simple vista. Los distritos sin barrios se nombran por sus núcleos de población o sus dos calles principales (INE), con `etiqueta_zona()` en `preparar_json.py`. El test "Ningún código postal en la web" lo vigila.
@@ -107,3 +107,9 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 
 ## Páginas legales discretas (22/11/2026)
 - Decisión de Juan: su nombre y correo deben verse lo menos posible. Van al final del aviso legal y de la privacidad, en letra pequeña y gris (`_titular_html()` en `paginas_legales.py`). No quitarlos: la LSSI exige que sean accesibles.
+
+## Fase 2: comparador de ciudades (22/11/2026)
+- Hecho B-35: `comparador_ciudades.py` genera /comparar-ciudades/ (2 a 4 ciudades lado a lado; la dirección guarda las ciudades: ?c=madrid,valladolid). `generar_web.py` solo lo importa, pone la tarjeta en la portada, el enlace en la sección «Compara con otras ciudades» de cada ficha y la URL en el sitemap. Test: `tests/test_comparador.py`.
+- Para añadir una fila (por ejemplo, un dato nuevo de un módulo futuro): una línea en `filas()` y el valor en `ciudad_js()`; la tabla fija y la del navegador salen de esa misma lista.
+- Decisión: no hay páginas por pareja de ciudades (regla 8). Medir en Search Console (B-36) antes de plantearlo.
+- Siguiente de la hoja de ruta: descarga de datos (CSV/JSON). El mapa nacional sigue a la espera de la licencia de la cartografía.

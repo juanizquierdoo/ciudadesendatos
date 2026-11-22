@@ -16,6 +16,7 @@ from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
 import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
 import herramienta_sueldo   # herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2)
+import comparador_ciudades   # comparador de 2 a 4 ciudades (Fase 2, B-35)
 import paginas_legales
 
 base = Path(__file__).parent
@@ -518,7 +519,7 @@ def pagina_ciudad(c, todas, rank_n):
     if prov:
         rel += f'<div><h3>Otras ciudades de {esc(c["provincia"])}</h3><ul class="lnk">{lnk(prov)}</ul></div>'
     rel += f'<div><h3>Ciudades con un peso del alquiler parecido</h3><ul class="lnk">{lnk(cerca)}</ul></div>'
-    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2>{comp_ccaa}<div class="two">{rel}</div></section>')
+    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2>{comparador_ciudades.enlace_ficha(root, c)}{comp_ccaa}<div class="two">{rel}</div></section>')
 
     # puesto en cada ranking, con enlace a la fila de la ciudad
     lis = "".join(
@@ -619,7 +620,7 @@ def pagina_indice(todas, rank_n):
     N = len(todas)
     orden = sorted(todas, key=lambda c: c["rank"]["alquiler_pct_renta"])
     li = lambda arr: "".join(f'<li><a href="{c["slug"]}/">{esc(c["nombre"])}</a><strong>{pc(c["alquiler_pct_renta"])}</strong></li>' for c in arr)
-    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root) + herramienta_sueldo.tarjeta(root)
+    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root) + herramienta_sueldo.tarjeta(root) + comparador_ciudades.tarjeta(root)
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
@@ -1080,6 +1081,7 @@ def main():
         escribir(WEB / "rankings" / slug / "index.html", pagina_ranking(slug, clave, titulo, df, todas, rank_n))
     urls_temas = rankings_temas.generar(sys.modules[__name__], todas)
     urls_temas += herramienta_sueldo.generar(sys.modules[__name__], todas)
+    urls_temas += comparador_ciudades.generar(sys.modules[__name__], todas)
     for c in todas:
         escribir(WEB / c["slug"] / "index.html", pagina_ciudad(c, todas, rank_n))
     if COMUNIDADES:
