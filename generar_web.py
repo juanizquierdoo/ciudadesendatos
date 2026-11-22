@@ -928,6 +928,7 @@ tbody tr:hover{background:var(--surface)}
 .resb li{padding:6px 0;border-bottom:1px solid var(--line)}
 .resb a{color:var(--ink);font-weight:600}
 .resb span{color:var(--muted);font-size:14px}
+.resb .rciu a{font-size:19px}
 .todas{list-style:none;margin:0;padding:0;columns:3 260px;column-gap:28px}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
@@ -1009,10 +1010,17 @@ if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("
     cu.textContent=k+(k===1?" ciudad":" ciudades");barrios(s)});
   var zd=document.getElementById("zonas-datos"),Z=zd?JSON.parse(zd.textContent):[],rb=document.getElementById("resbarrios");
   Z.forEach(function(z){z.push(norm(z[0]))});
-  function barrios(s){rb.innerHTML="";if(s.length<3)return;
+  // ciudades que coinciden, arriba del todo (las que empiezan por lo escrito primero); luego barrios
+  var C=[].map.call(li,function(e){var a=e.querySelector("a");return [a.textContent,a.getAttribute("href"),e.querySelector("span").textContent,norm(a.textContent)]});
+  function item(txt,href,extra,cls){var e=document.createElement("li"),a=document.createElement("a");a.href=href;a.textContent=txt;
+    var sp=document.createElement("span");sp.textContent=extra;e.appendChild(a);e.appendChild(sp);if(cls)e.className=cls;rb.appendChild(e)}
+  q.addEventListener("keydown",function(ev){if(ev.key==="Enter"){var a=rb.querySelector("a");if(a){ev.preventDefault();location.href=a.href}}});
+  function barrios(s){rb.innerHTML="";if(s.length<2)return;
+    C.filter(function(c){return c[3].indexOf(s)>-1}).sort(function(a,b){return (b[3].indexOf(s)===0)-(a[3].indexOf(s)===0)||(a[3].length-b[3].length)}).slice(0,5).forEach(function(c){
+      item(c[0],c[1]," · ciudad, "+c[2],"rciu")});
+    if(s.length<3)return;
     Z.filter(function(z){return z[4].indexOf(s)>-1}).sort(function(a,b){return (b[4].indexOf(s)===0)-(a[4].indexOf(s)===0)}).slice(0,8).forEach(function(z){
-      var e=document.createElement("li"),a=document.createElement("a");a.href=z[2]+"/#d"+z[3];a.textContent=z[0];
-      var sp=document.createElement("span");sp.textContent=" · "+z[1]+", distrito "+z[3];e.appendChild(a);e.appendChild(sp);rb.appendChild(e)})}}
+      item(z[0],z[2]+"/#d"+z[3]," · "+z[1]+", distrito "+z[3])})}}
 // mapa esquemático
 var el=document.getElementById("mapa-datos");
 if(el){

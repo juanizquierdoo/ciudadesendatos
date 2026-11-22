@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 22/11/2026: el buscador de la portada muestra primero las ciudades (petición de Juan)
+- Antes, al escribir "Madrid" debajo de la caja solo salían barrios (Puerta de Madrid, Colònia Madrid); la ciudad solo aparecía filtrada en "Todas las ciudades", mucho más abajo.
+- Ahora salen primero hasta 5 ciudades que coinciden (las que empiezan por lo escrito, antes), desde 2 letras, y después los barrios. Con Enter se abre el primer resultado.
+- `generar_web.py`: JavaScript del buscador y una regla de CSS. `ejecutar_tests.py`: 22 OK. Probado en Chromium ("Madrid", "va", "triana", "sevilla"), sin errores de JavaScript.
+
 ## 22/11/2026: "Todas las ciudades" plegada con botón «Ver las 151 ciudades» (petición de Juan)
 - En la portada solo se ven 4 filas de la lista (12 ciudades en ordenador, 8 en tableta, 5 en móvil) y un botón «Ver las 151 ciudades ▾» / «Ver menos ▴» que despliega el resto.
 - Sin JavaScript: casilla oculta + CSS, así que funciona aunque el JavaScript falle. Los 151 enlaces siguen en el HTML (Google los ve igual). Al escribir en el buscador se muestran todas las coincidencias y el botón se oculta.
