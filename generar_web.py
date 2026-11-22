@@ -645,7 +645,12 @@ def pagina_indice(todas, rank_n):
               f'<div><h3>Menos peso sobre la renta</h3><ol class="lnk">{li(orden[:-6:-1])}</ol></div></div>{aviso_turistico()}</section>'
               + comunidades_portada() +
               f'<section id="ciudades"><h2>Todas las ciudades</h2><p class="sub" id="cuenta">{N} ciudades</p>'
-              f'<ul class="todas" id="lista">{lista}</ul></section>{pie(root)}</main>')
+              # Solo se ven las primeras filas; el resto se despliega con "Ver más" sin JavaScript (casilla + CSS).
+              # Todos los enlaces siguen en el HTML para Google.
+              f'<input type="checkbox" id="vermas" class="vermas-c" aria-controls="lista">'
+              f'<ul class="todas" id="lista">{lista}</ul>'
+              f'<label for="vermas" class="vermas"><span class="mas">Ver las {N} ciudades</span><span class="menos">Ver menos</span></label>'
+              f'</section>{pie(root)}</main>')
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "url": url_abs(""), "inLanguage": "es"},
           dataset(f"Alquiler y renta en {N} ciudades de España", desc, "", "España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"])]
@@ -927,6 +932,18 @@ tbody tr:hover{background:var(--surface)}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
 .todas strong{grid-row:1/3;grid-column:2;align-self:center;font-variant-numeric:tabular-nums}
+/* "Todas las ciudades" plegada: 4 filas visibles según las columnas (3 col = 12, 2 col = 8, 1 col = 5) */
+.vermas-c{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+13){display:none}
+@media (max-width:875px){.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+9){display:none}}
+@media (max-width:587px){.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+6){display:none}}
+.vermas{display:inline-block;margin-top:18px;font-size:16px;font-weight:600;padding:9px 20px;border:1px solid var(--acc);border-radius:20px;color:var(--acc);background:var(--bg);cursor:pointer;user-select:none}
+.vermas:hover{background:var(--acc);color:var(--on-acc)}
+.vermas-c:focus-visible~.vermas{outline:3px solid var(--acc);outline-offset:2px}
+.vermas .mas::after{content:"\00a0▾"}.vermas .menos::after{content:"\00a0▴"}
+.vermas .menos,.vermas-c:checked~.vermas .mas{display:none}
+.vermas-c:checked~.vermas .menos{display:inline}
+.todas.buscando~.vermas{display:none}
 .ccaa td:nth-child(2){text-align:left}
 .migas{font-size:14px;color:var(--muted);margin:0 0 10px}
 .migas a{color:var(--muted);font-weight:400}
@@ -988,6 +1005,7 @@ var q=document.getElementById("buscador");
 if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("cuenta");
   q.addEventListener("input",function(){var s=norm(q.value.trim()),k=0;
     li.forEach(function(e){var ok=!s||e.dataset.b.indexOf(s)>-1;e.style.display=ok?"":"none";if(ok)k++});
+    document.getElementById("lista").classList.toggle("buscando",!!s);
     cu.textContent=k+(k===1?" ciudad":" ciudades");barrios(s)});
   var zd=document.getElementById("zonas-datos"),Z=zd?JSON.parse(zd.textContent):[],rb=document.getElementById("resbarrios");
   Z.forEach(function(z){z.push(norm(z[0]))});

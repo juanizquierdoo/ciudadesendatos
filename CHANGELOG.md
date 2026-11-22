@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 22/11/2026: "Todas las ciudades" plegada con botón «Ver las 151 ciudades» (petición de Juan)
+- En la portada solo se ven 4 filas de la lista (12 ciudades en ordenador, 8 en tableta, 5 en móvil) y un botón «Ver las 151 ciudades ▾» / «Ver menos ▴» que despliega el resto.
+- Sin JavaScript: casilla oculta + CSS, así que funciona aunque el JavaScript falle. Los 151 enlaces siguen en el HTML (Google los ve igual). Al escribir en el buscador se muestran todas las coincidencias y el botón se oculta.
+- `generar_web.py`: HTML de la sección, unas reglas de CSS y una línea en el JavaScript del buscador. `ejecutar_tests.py`: 22 OK, 0 FALLA.
+- Probado en Chromium a 1400 px, 800 px y 390 px (iPhone 13), también con el móvil en modo oscuro (la web se ve en claro, como el resto): plegar, desplegar, volver a plegar, buscar, borrar la búsqueda y abrir con teclado.
+
 ## 22/11/2026: comparador de 2 a 4 ciudades (Fase 2, funcionalidad 2, B-35)
 - Nuevo `comparador_ciudades.py`: página /comparar-ciudades/. Eliges de 2 a 4 ciudades (desplegables por comunidad) y salen lado a lado: alquiler mediano, €/m² con su rango p25-p75, superficie, alquiler sobre la renta, ingresos para la regla del 30 %, cambio del alquiler 2019-2024 y 2023-2024, renta por hogar y por persona y su cambio, población, edad, menores de 18, mayores de 65, hogares unipersonales, tamaño del hogar, distritos con dato y el distrito más barato y el más caro (con enlace a su fila de la ficha). Encima, frases con las diferencias principales; debajo, gráfico de la evolución del alquiler 2011-2024.
 - Solo datos que ya estaban en ciudades_nivel1.json; los cálculos son los mismos que los rankings y la calculadora del sueldo. Distritos con la regla de la ficha (menos de 30 inmuebles no se usan; 30-99 con *) y sin códigos postales. El cálculo se hace en el navegador; la dirección guarda las ciudades (?c=valladolid,salamanca) para compartir, y hay botón «Copiar enlace».

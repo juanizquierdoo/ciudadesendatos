@@ -26,6 +26,7 @@ var q=document.getElementById("buscador");
 if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("cuenta");
   q.addEventListener("input",function(){var s=norm(q.value.trim()),k=0;
     li.forEach(function(e){var ok=!s||e.dataset.b.indexOf(s)>-1;e.style.display=ok?"":"none";if(ok)k++});
+    document.getElementById("lista").classList.toggle("buscando",!!s);
     cu.textContent=k+(k===1?" ciudad":" ciudades");barrios(s)});
   var zd=document.getElementById("zonas-datos"),Z=zd?JSON.parse(zd.textContent):[],rb=document.getElementById("resbarrios");
   Z.forEach(function(z){z.push(norm(z[0]))});

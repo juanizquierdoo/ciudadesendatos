@@ -121,6 +121,18 @@ tbody tr:hover{background:var(--surface)}
 .todas li{display:grid;grid-template-columns:1fr auto;gap:0 10px;padding:7px 0;border-bottom:1px solid var(--line);break-inside:avoid}
 .todas span{grid-column:1;color:var(--muted);font-size:14px}
 .todas strong{grid-row:1/3;grid-column:2;align-self:center;font-variant-numeric:tabular-nums}
+/* "Todas las ciudades" plegada: 4 filas visibles según las columnas (3 col = 12, 2 col = 8, 1 col = 5) */
+.vermas-c{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+13){display:none}
+@media (max-width:875px){.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+9){display:none}}
+@media (max-width:587px){.vermas-c:not(:checked)~.todas:not(.buscando) li:nth-child(n+6){display:none}}
+.vermas{display:inline-block;margin-top:18px;font-size:16px;font-weight:600;padding:9px 20px;border:1px solid var(--acc);border-radius:20px;color:var(--acc);background:var(--bg);cursor:pointer;user-select:none}
+.vermas:hover{background:var(--acc);color:var(--on-acc)}
+.vermas-c:focus-visible~.vermas{outline:3px solid var(--acc);outline-offset:2px}
+.vermas .mas::after{content:"\00a0▾"}.vermas .menos::after{content:"\00a0▴"}
+.vermas .menos,.vermas-c:checked~.vermas .mas{display:none}
+.vermas-c:checked~.vermas .menos{display:inline}
+.todas.buscando~.vermas{display:none}
 .ccaa td:nth-child(2){text-align:left}
 .migas{font-size:14px;color:var(--muted);margin:0 0 10px}
 .migas a{color:var(--muted);font-weight:400}
