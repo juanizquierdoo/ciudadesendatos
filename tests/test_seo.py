@@ -46,6 +46,11 @@ descs = {r: campo(r'<meta name="description" content="(.*?)"', s) for r, s in pa
 
 comprobar("Todas las páginas tienen título y descripción",
           [r or "portada" for r in paginas if not titulos[r] or not descs[r]])
+# decisión de Juan (23/11/2026): ningún <title> ni og:title lleva el año; el año va en el H1, la descripción y el texto
+comprobar("Ningún título lleva el año",
+          [f"{r or 'portada'}: {t}" for r, t in titulos.items() if t and re.search(r"\b20\d\d\b", t)]
+          + [r or "portada" for r, s in paginas.items()
+             if re.search(r'property="og:title" content="[^"]*\b20\d\d\b', s)])
 comprobar(f"Títulos de {TITULO_MAX} caracteres o menos",
           [f"{r}: {len(t)} car." for r, t in titulos.items() if t and len(t) > TITULO_MAX])
 comprobar(f"Descripciones de {DESC_MAX} caracteres o menos",

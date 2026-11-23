@@ -105,8 +105,8 @@ if "Cómo se ha calculado" not in t:
     err.append("falta la metodología")
 if "no anuncios" not in t:
     err.append("no explica que son contratos vigentes, no anuncios")
-if f"({ANIO})" not in re.search(r"<title>(.*?)</title>", s).group(1):
-    err.append("el título no lleva el año")
+if str(ANIO) in re.search(r"<title>(.*?)</title>", s).group(1):
+    err.append("el <title> lleva el año (decisión 23/11/2026: va sin año)")
 if "no se envía ni se guarda" not in t:
     err.append("falta la nota de privacidad")
 comprobar("Texto propio, metodología, año y aviso de privacidad", err)

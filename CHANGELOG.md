@@ -174,3 +174,9 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 - Páginas legales con letra más pequeña (texto 15 px, títulos 18 px, cabecera reducida), solo en esas páginas (clases `legal-hero` y `legal-texto` en la constante CSS de `generar_web.py`).
 - Datos del titular (nombre y correo) en una sola línea de letra pequeña y gris, sin negritas, al final del aviso legal (apartado 8) y de la política de privacidad (apartado 6). Los correos de las páginas legales ya no salen en azul y negrita, pero siguen siendo enlaces.
 - Siguen publicados y accesibles desde el pie de todas las páginas (LSSI art. 10). `ACTUALIZADO` = 22/11/2026. Tests: 21 OK, 0 FALLA. No es asesoramiento legal.
+
+## 23/11/2026: títulos sin el año
+- Decisión de Juan: el `<title>` (lo que enseña Google) y `og:title` ya no llevan "(2024)", porque el año hace que el dato parezca viejo y puede quitar clics. Se quita en un solo sitio, `head()` de `generar_web.py`, así que vale para todas las páginas (fichas, rankings, comunidades, portada, sueldo y comparador). El resto del título no cambia.
+- El año sigue en el H1 de los rankings, en el texto, en el pie y en los datos estructurados (JSON-LD), para que quede claro de qué año son los datos.
+- Comprobado: solo cambian los 177 títulos y la fecha de generación; ningún otro byte de la web. Tests: `test_seo.py` exige que ningún título lleve año; `test_rankings_temas.py` y `test_sueldo.py` cambiados en consecuencia. 22 OK, 0 FALLA.
+- Medir en Search Console (CTR de las fichas) 3-4 semanas después de publicarlo.

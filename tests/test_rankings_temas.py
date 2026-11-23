@@ -157,9 +157,11 @@ err = []
 for s, raw in pag.items():
     if 'id="metodologia"' not in raw:
         err.append(f"{s}: falta la metodología")
-    if f"({ANIO})</title>" not in raw:
-        err.append(f"{s}: el título no lleva el año {ANIO}")
-comprobar("Metodología en cada página y año de los datos en el título", err)
+    if f"({ANIO})</title>" in raw:
+        err.append(f"{s}: el <title> lleva el año (decisión 23/11/2026: va sin año)")
+    if str(ANIO) not in re.search(r"<h1>(.*?)</h1>", raw, re.S).group(1):
+        err.append(f"{s}: el H1 no lleva el año {ANIO} de los datos")
+comprobar("Metodología en cada página, año en el H1 y no en el <title>", err)
 
 print(f"\nResultado: {resultados.count('OK')} OK, {resultados.count('FALLA')} FALLA")
 sys.exit(1 if "FALLA" in resultados else 0)

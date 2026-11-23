@@ -290,6 +290,9 @@ def fecha_es(iso):
 
 
 def head(titulo, desc, root, ruta, ld=()):
+    # Decisión de Juan (23/11/2026): el <title> y og:title van sin "(2024)", porque en Google el año
+    # hace que el dato parezca viejo. El año sigue en el H1, la descripción, el texto y el JSON-LD.
+    titulo = re.sub(rf"\s*\({ANIO}\)", "", titulo)
     # canonical, og:url y og:image necesitan la dirección completa: solo se escriben cuando BASE_URL tiene valor
     extra = ""
     if BASE_URL:

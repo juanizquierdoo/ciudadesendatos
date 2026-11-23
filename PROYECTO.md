@@ -113,3 +113,6 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Para añadir una fila (por ejemplo, un dato nuevo de un módulo futuro): una línea en `filas()` y el valor en `ciudad_js()`; la tabla fija y la del navegador salen de esa misma lista.
 - Decisión: no hay páginas por pareja de ciudades (regla 8). Medir en Search Console (B-36) antes de plantearlo.
 - Siguiente de la hoja de ruta: descarga de datos (CSV/JSON). El mapa nacional sigue a la espera de la licencia de la cartografía.
+
+## Títulos sin año (23/11/2026)
+- Decisión de Juan: ningún `<title>` ni `og:title` lleva el año (lo quita `head()` en `generar_web.py`; el test "Ningún título lleva el año" lo vigila). El año sigue en el H1, el texto, el pie y el JSON-LD. Medir el CTR en Search Console a las 3-4 semanas.
