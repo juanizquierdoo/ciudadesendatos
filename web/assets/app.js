@@ -47,19 +47,20 @@ if(el){
   var M=JSON.parse(el.textContent),D=M.distritos,grid=document.getElementById("grid"),panel=document.getElementById("panel"),mctl=document.getElementById("mctl");
   var MET=[["pct","Peso del alquiler",function(v){return df(v,1)+" %"}],["alq","Alquiler al mes",function(v){return nf(v)+" €"}],["renta","Renta del hogar",function(v){return nf(v)+" €"}]];
   var mk="pct",tiles=[];
+  function u(v,s){return v==="—"?v:v+s}
   function show(r,i){
-    var dif=r.pct-M.media.pct,t=i<0?"Pasa el cursor por un distrito.":(Math.abs(dif)<0.05?"En la media de la ciudad.":df(Math.abs(dif),1)+" puntos "+(dif>0?"por encima":"por debajo")+" de la media de la ciudad.");
-    panel.innerHTML="<h3>"+r.nombre+"</h3><p>"+t+"</p><dl><dt>Alquiler mediano</dt><dd>"+nf(r.alq)+" €/mes</dd><dt>Por m²</dt><dd>"+df(r.m2,2)+" €</dd><dt>Superficie mediana</dt><dd>"+nf(r.sup)+" m²</dd><dt>Renta del hogar</dt><dd>"+nf(r.renta)+" €/año</dd><dt>Alquiler sobre renta</dt><dd>"+df(r.pct,1)+" %</dd><dt>Inmuebles en la muestra</dt><dd>"+nf(r.inm)+"</dd></dl>";
+    var dif=r.pct-M.media.pct,t=i<0?"Pasa el cursor por un distrito.":(r.pct==null?"Muy pocos pisos en alquiler para dar una cifra fiable.":(Math.abs(dif)<0.05?"En la media de la ciudad.":df(Math.abs(dif),1)+" puntos "+(dif>0?"por encima":"por debajo")+" de la media de la ciudad.")+(r.aviso?" Pocos inmuebles en la muestra: interpreta la cifra con cuidado.":""));
+    panel.innerHTML="<h3>"+r.nombre+"</h3><p>"+t+"</p><dl><dt>Alquiler mediano</dt><dd>"+u(nf(r.alq)," €/mes")+"</dd><dt>Por m²</dt><dd>"+u(df(r.m2,2)," €")+"</dd><dt>Superficie mediana</dt><dd>"+u(nf(r.sup)," m²")+"</dd><dt>Renta del hogar</dt><dd>"+u(nf(r.renta)," €/año")+"</dd><dt>Alquiler sobre renta</dt><dd>"+u(df(r.pct,1)," %")+"</dd><dt>Inmuebles en la muestra</dt><dd>"+nf(r.inm)+"</dd></dl>";
   }
   D.forEach(function(r,i){
     var b=document.createElement("button");b.type="button";b.className="tile";
-    b.style.gridColumn=r.col+1;b.style.gridRow=r.fila+1;b.setAttribute("aria-label","Distrito "+r.n+", "+r.nombre);
-    b.innerHTML="<b>"+(r.n<10?"0":"")+r.n+"</b><span>"+r.nombre+"</span>";
+    b.style.gridColumn=r.col+1;b.style.gridRow=r.fila+1;b.setAttribute("aria-label",r.aria||("Distrito "+r.n+", "+r.nombre));
+    b.innerHTML="<b>"+(r.n<10?"0":"")+r.n+(r.aviso?"*":"")+"</b><span>"+(r.corto||r.nombre)+"</span>";
     b.onmouseenter=b.onfocus=b.onclick=function(){tiles.forEach(function(t,j){t.setAttribute("aria-pressed",String(j===i))});show(r,i)};
     grid.appendChild(b);tiles.push(b)});
   function paint(){
-    var vals=D.map(function(r){return r[mk]}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
-    tiles.forEach(function(b,i){var t=(D[i][mk]-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
+    var vals=D.map(function(r){return r[mk]}).filter(function(v){return v!=null}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
+    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=(v-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
     document.getElementById("lmin").textContent=f(mn);document.getElementById("lmax").textContent=f(mx);
     mctl.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.k===mk))});
   }

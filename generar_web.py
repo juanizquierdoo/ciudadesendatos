@@ -86,10 +86,15 @@ FUENTES_LD = [   # Google exige description en cada Dataset; creator debe ser Or
      "license": "https://creativecommons.org/licenses/by/4.0/"},
 ]
 
-# Posición aproximada de cada distrito en el mapa esquemático (columna, fila). Solo Madrid por ahora.
-TILE = {"28079": {1: (2, 3), 2: (2, 4), 3: (3, 3), 4: (3, 2), 5: (3, 1), 6: (2, 1), 7: (2, 2), 8: (2, 0),
-                  9: (1, 1), 10: (0, 2), 11: (1, 3), 12: (1, 4), 13: (4, 3), 14: (4, 2), 15: (4, 1),
-                  16: (4, 0), 17: (2, 5), 18: (5, 3), 19: (5, 2), 20: (5, 1), 21: (6, 0)}}
+# Posición de cada distrito en el mapa esquemático (columna, fila), por ciudad. La calcula mapa_distritos.py
+# (Madrid está colocado a mano) y la deja en datos_limpios/mapa_distritos.csv. Sin ese archivo no hay mapas.
+TILE, TILE_CALCULADO = {}, set()
+if (base / "datos_limpios" / "mapa_distritos.csv").exists():
+    import csv  # noqa: E402
+    for _r in csv.DictReader(open(base / "datos_limpios" / "mapa_distritos.csv", encoding="utf-8")):
+        TILE.setdefault(_r["codigo"][:5], {})[int(_r["codigo"][5:])] = (int(_r["col"]), int(_r["fila"]))
+        if _r["metodo"] != "manual":
+            TILE_CALCULADO.add(_r["codigo"][:5])
 
 # ------------------------------------------------------------------ utilidades
 def esc(s):
@@ -453,20 +458,33 @@ def pagina_ciudad(c, todas, rank_n):
         pos = TILE.get(c["cod_muni"])
         if pos:
             md = []
-            for x in dist_ok:
-                if x["numero"] in pos and x["fiabilidad"] == "ok":
+            for x in dist:
+                if x["numero"] in pos:
                     cx, cy = pos[x["numero"]]
-                    md.append({"n": x["numero"], "nombre": x["nombre"], "col": cx, "fila": cy,
-                               "pct": x["alquiler_pct_renta"], "alq": x["alquiler_mes"], "renta": x["renta_hogar"],
-                               "m2": x["eur_m2"], "sup": x["superficie_m2"], "inm": x["inmuebles"]})
+                    # mismo criterio que la tabla: menos de 30 inmuebles, sin alquiler; de 30 a 99, con aviso
+                    ver = x["fiabilidad"] in ("ok", "pocos_datos") and x["alquiler_mes"] is not None
+                    md.append({"n": x["numero"], "nombre": x["nombre"], "corto": x["nombre"].split(" · ", 1)[-1],
+                               "col": cx, "fila": cy,
+                               "aria": x["nombre"] if x["nombre"].startswith("Distrito") else f'Distrito {x["numero"]}, {x["nombre"]}',
+                               "pct": x["alquiler_pct_renta"] if ver else None, "alq": x["alquiler_mes"] if ver else None,
+                               "renta": x["renta_hogar"], "m2": x["eur_m2"] if ver else None,
+                               "sup": x["superficie_m2"] if ver else None, "inm": x["inmuebles"],
+                               "aviso": x["fiabilidad"] == "pocos_datos" and ver})
+            ncol = max(r["col"] for r in md) + 1
+            nota_mapa = "Mapa esquemático: cada casilla es un distrito en su posición aproximada, no sus límites reales."
+            if c["cod_muni"] in TILE_CALCULADO:
+                nota_mapa += (" Posición calculada con el callejero del INE y las calles de OpenStreetMap"
+                              " (© colaboradores de OpenStreetMap, ODbL).")
+            if any(r["alq"] is None for r in md):
+                nota_mapa += " En gris, distritos con muy pocos pisos en alquiler para dar una cifra fiable."
             avg = {"nombre": f"{nombre} (media de la ciudad)", "pct": c["alquiler_pct_renta"], "alq": c["alquiler_mes"],
                    "renta": c["renta_hogar"], "m2": c["eur_m2"], "sup": c["superficie_m2"], "inm": c["inmuebles"]}
             nav.insert(1, ("#mapa", "Mapa"))
             mapa = ('<section id="mapa"><h2>Mapa de distritos</h2><p class="sub">Elige qué comparar y pasa el cursor (o toca) un distrito.</p>'
                     '<div class="ctl" id="mctl" role="group" aria-label="Dato del mapa"><span>Colorear por</span></div>'
-                    '<div class="mapbox"><div><div class="grid" id="grid"></div>'
+                    f'<div class="mapbox"><div><div class="grid" id="grid" style="grid-template-columns:repeat({ncol},minmax(0,1fr));max-width:{ncol * 112}px"></div>'
                     '<div class="legend"><span id="lmin"></span><i></i><span id="lmax"></span></div>'
-                    '<p class="sub" style="margin-top:12px;font-size:14px">Mapa esquemático: cada casilla es un distrito en su posición aproximada, no sus límites reales.</p></div>'
+                    f'<p class="sub" style="margin-top:12px;font-size:14px">{esc(nota_mapa)}</p></div>'
                     '<aside class="panel" aria-live="polite" id="panel"></aside></div></section>')
             mapa_js = ('<script type="application/json" id="mapa-datos">'
                        + json.dumps({"distritos": md, "media": avg}, ensure_ascii=False).replace("</", "<\\/") + "</script>")
@@ -876,10 +894,11 @@ main p,main li{max-width:70ch}
 button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
 .mapbox{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,1fr);gap:24px;align-items:start}
 @media (max-width:760px){.mapbox{grid-template-columns:1fr}}
-.grid{display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:repeat(6,1fr);gap:5px}
+.grid{display:grid;grid-auto-rows:1fr;gap:5px}
 .tile{aspect-ratio:1/.85;border:0;border-radius:6px;padding:4px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;font:inherit;line-height:1.15;cursor:pointer;background:color-mix(in srgb,var(--hi) calc(var(--t)*100%),var(--lo));color:var(--c);transition:transform .12s}
 .tile b{font-size:15px}
-.tile span{font-size:11.5px;margin-top:2px}
+.tile span{font-size:11.5px;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.tile.nd{background:var(--surface);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line)}
 .tile:hover,.tile:focus-visible,.tile[aria-pressed="true"]{transform:scale(1.08);outline:3px solid var(--ink);position:relative;z-index:2}
 @media (max-width:640px){.tile span{display:none}.tile b{font-size:14px}}
 .legend{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:14px;color:var(--muted)}
@@ -1030,19 +1049,20 @@ if(el){
   var M=JSON.parse(el.textContent),D=M.distritos,grid=document.getElementById("grid"),panel=document.getElementById("panel"),mctl=document.getElementById("mctl");
   var MET=[["pct","Peso del alquiler",function(v){return df(v,1)+" %"}],["alq","Alquiler al mes",function(v){return nf(v)+" €"}],["renta","Renta del hogar",function(v){return nf(v)+" €"}]];
   var mk="pct",tiles=[];
+  function u(v,s){return v==="—"?v:v+s}
   function show(r,i){
-    var dif=r.pct-M.media.pct,t=i<0?"Pasa el cursor por un distrito.":(Math.abs(dif)<0.05?"En la media de la ciudad.":df(Math.abs(dif),1)+" puntos "+(dif>0?"por encima":"por debajo")+" de la media de la ciudad.");
-    panel.innerHTML="<h3>"+r.nombre+"</h3><p>"+t+"</p><dl><dt>Alquiler mediano</dt><dd>"+nf(r.alq)+" €/mes</dd><dt>Por m²</dt><dd>"+df(r.m2,2)+" €</dd><dt>Superficie mediana</dt><dd>"+nf(r.sup)+" m²</dd><dt>Renta del hogar</dt><dd>"+nf(r.renta)+" €/año</dd><dt>Alquiler sobre renta</dt><dd>"+df(r.pct,1)+" %</dd><dt>Inmuebles en la muestra</dt><dd>"+nf(r.inm)+"</dd></dl>";
+    var dif=r.pct-M.media.pct,t=i<0?"Pasa el cursor por un distrito.":(r.pct==null?"Muy pocos pisos en alquiler para dar una cifra fiable.":(Math.abs(dif)<0.05?"En la media de la ciudad.":df(Math.abs(dif),1)+" puntos "+(dif>0?"por encima":"por debajo")+" de la media de la ciudad.")+(r.aviso?" Pocos inmuebles en la muestra: interpreta la cifra con cuidado.":""));
+    panel.innerHTML="<h3>"+r.nombre+"</h3><p>"+t+"</p><dl><dt>Alquiler mediano</dt><dd>"+u(nf(r.alq)," €/mes")+"</dd><dt>Por m²</dt><dd>"+u(df(r.m2,2)," €")+"</dd><dt>Superficie mediana</dt><dd>"+u(nf(r.sup)," m²")+"</dd><dt>Renta del hogar</dt><dd>"+u(nf(r.renta)," €/año")+"</dd><dt>Alquiler sobre renta</dt><dd>"+u(df(r.pct,1)," %")+"</dd><dt>Inmuebles en la muestra</dt><dd>"+nf(r.inm)+"</dd></dl>";
   }
   D.forEach(function(r,i){
     var b=document.createElement("button");b.type="button";b.className="tile";
-    b.style.gridColumn=r.col+1;b.style.gridRow=r.fila+1;b.setAttribute("aria-label","Distrito "+r.n+", "+r.nombre);
-    b.innerHTML="<b>"+(r.n<10?"0":"")+r.n+"</b><span>"+r.nombre+"</span>";
+    b.style.gridColumn=r.col+1;b.style.gridRow=r.fila+1;b.setAttribute("aria-label",r.aria||("Distrito "+r.n+", "+r.nombre));
+    b.innerHTML="<b>"+(r.n<10?"0":"")+r.n+(r.aviso?"*":"")+"</b><span>"+(r.corto||r.nombre)+"</span>";
     b.onmouseenter=b.onfocus=b.onclick=function(){tiles.forEach(function(t,j){t.setAttribute("aria-pressed",String(j===i))});show(r,i)};
     grid.appendChild(b);tiles.push(b)});
   function paint(){
-    var vals=D.map(function(r){return r[mk]}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
-    tiles.forEach(function(b,i){var t=(D[i][mk]-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
+    var vals=D.map(function(r){return r[mk]}).filter(function(v){return v!=null}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
+    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=(v-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
     document.getElementById("lmin").textContent=f(mn);document.getElementById("lmax").textContent=f(mx);
     mctl.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.k===mk))});
   }

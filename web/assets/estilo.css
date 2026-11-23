@@ -62,10 +62,11 @@ main p,main li{max-width:70ch}
 button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
 .mapbox{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,1fr);gap:24px;align-items:start}
 @media (max-width:760px){.mapbox{grid-template-columns:1fr}}
-.grid{display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:repeat(6,1fr);gap:5px}
+.grid{display:grid;grid-auto-rows:1fr;gap:5px}
 .tile{aspect-ratio:1/.85;border:0;border-radius:6px;padding:4px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;font:inherit;line-height:1.15;cursor:pointer;background:color-mix(in srgb,var(--hi) calc(var(--t)*100%),var(--lo));color:var(--c);transition:transform .12s}
 .tile b{font-size:15px}
-.tile span{font-size:11.5px;margin-top:2px}
+.tile span{font-size:11.5px;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.tile.nd{background:var(--surface);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line)}
 .tile:hover,.tile:focus-visible,.tile[aria-pressed="true"]{transform:scale(1.08);outline:3px solid var(--ink);position:relative;z-index:2}
 @media (max-width:640px){.tile span{display:none}.tile b{font-size:14px}}
 .legend{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:14px;color:var(--muted)}

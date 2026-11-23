@@ -92,6 +92,14 @@ Script: `zonas_ciudades.py` → `datos_limpios/zonas_nombradas.csv` (columnas co
 - **Licencia de lo publicado:** la lista de barrios por distrito es una base de datos derivada y se publica con ODbL; la web lo dice en el pie de página.
 - **Prioridad:** nunca sustituye a una fuente municipal (fuentes 4 y 6, Valladolid).
 
+### 8. Posición de los distritos en el mapa esquemático (desde 23/11/2026)
+- **Para qué:** colocar cada distrito en su casilla del mapa esquemático de la ficha (como el de Madrid). No se publica ninguna coordenada ni ningún límite: solo la columna y la fila de cada casilla.
+- **Fuentes (ya en la carpeta, nada nuevo descargado):** callejero electoral del INE de julio de 2026 (fuente 5: en qué distrito está cada tramo de calle y, en el fichero UP, el nombre de cada parroquia o entidad colectiva) y calles y parroquias de OpenStreetMap (fuente 7, © colaboradores de OpenStreetMap, ODbL 1.0, consulta del 20/11/2026).
+- **Método (`mapa_distritos.py`):** una calle del INE se asigna a un distrito si al menos el 80 % de sus tramos están en él; se buscan sus puntos en OSM por nombre (mismo cruce que la fuente 7) y el centro del distrito es la mediana de latitud y longitud (mínimo 10 puntos). Distritos rurales con pocas calles (Lugo, Santiago, Pontevedra): centro de sus parroquias del INE que tienen límite `place=civil_parish` en OSM con el mismo nombre, ponderado por tramos, si se encuentra al menos la mitad de los tramos. Los centros se pasan a una rejilla con una asignación óptima (método húngaro) que conserva norte-sur y este-oeste.
+- **Comprobación:** con Madrid, el cálculo coincide con la colocación hecha a mano en el 99 % de las comparaciones norte-sur y este-oeste entre pares de distritos (`tests/test_mapa.py`). Madrid sigue con la colocación a mano.
+- **Cita:** bajo cada mapa calculado: "Posición calculada con el callejero del INE y las calles de OpenStreetMap (© colaboradores de OpenStreetMap, ODbL)". La rejilla es un trabajo producido a partir de la base de datos (ODbL 4.3): basta la atribución.
+- **Cobertura (23/11/2026):** 88 ciudades. Sin mapa: Zaragoza, Valladolid y Las Palmas (no se bajaron sus calles de OSM porque tenían fuente municipal), San Fernando y Ferrol (un distrito sin calles suficientes) y las 37 ciudades con menos de 5 distritos.
+
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
 |---|---|---|---|---|---|

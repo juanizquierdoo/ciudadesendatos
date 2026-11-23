@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 23/11/2026: mapa de distritos en 88 ciudades (petición de Juan)
+- Antes solo Madrid tenía el mapa esquemático (casillas coloreadas por peso del alquiler, alquiler o renta). Ahora lo tienen las 88 ciudades con 5 distritos o más cuya posición se puede calcular: entre ellas Barcelona, Valencia, Sevilla, Málaga, Bilbao, Vitoria, Donostia, Vigo, A Coruña, Santiago, Lugo, Pontevedra, Oviedo y Gijón.
+- Nuevo paso del pipeline `mapa_distritos.py` (ya en `actualizar.py`, antes de `generar_web.py`): calcula el centro de cada distrito con el callejero del INE y las calles y parroquias de OpenStreetMap, y lo pasa a una rejilla. Escribe `datos_limpios/mapa_distritos.csv`. Método y cita en FUENTES.md (fuente 8). Madrid conserva su colocación hecha a mano.
+- `generar_web.py`: lee ese CSV (antes, posiciones de Madrid escritas en el código); el mapa incluye también los distritos con pocos datos (con * y aviso) y los de menos de 30 inmuebles (en gris, solo con la renta), igual que la tabla. Ancho de la rejilla según la ciudad, nombres largos recortados en la casilla (enteros en el panel) y cita de OpenStreetMap bajo el mapa.
+- Sin mapa: Zaragoza, Valladolid y Las Palmas (faltan sus calles de OSM), San Fernando y Ferrol (un distrito sin calles suficientes) y 37 ciudades con menos de 5 distritos.
+- Nuevo `tests/test_mapa.py` (5 comprobaciones). `ejecutar_tests.py`: 23 OK, 0 FALLA. Probado en Chromium (1280 px y 390 px) en 14 ciudades: casillas, panel, cambio de color, sin scroll horizontal y sin errores de JavaScript.
+
 ## 22/11/2026: el buscador de la portada muestra primero las ciudades (petición de Juan)
 - Antes, al escribir "Madrid" debajo de la caja solo salían barrios (Puerta de Madrid, Colònia Madrid); la ciudad solo aparecía filtrada en "Todas las ciudades", mucho más abajo.
 - Ahora salen primero hasta 5 ciudades que coinciden (las que empiezan por lo escrito, antes), desde 2 letras, y después los barrios. Con Enter se abre el primer resultado.

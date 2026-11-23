@@ -10,8 +10,9 @@ Pasos:
     3. preparar_zonas.py     códigos postales y calles de cada distrito (callejero del INE)
     4. preparar_json.py      selecciona ciudades y comprueba los valores de referencia
     5. preparar_comunidades.py  alquiler oficial por comunidad autónoma (SERPAVI, hoja CCAA)
-    6. generar_web.py        genera la carpeta web/
-    7. tests/ejecutar_tests.py
+    6. mapa_distritos.py     posición de los distritos en el mapa esquemático (callejero del INE + calles de OSM)
+    7. generar_web.py        genera la carpeta web/
+    8. tests/ejecutar_tests.py
 
 Se para en el primer paso que falle. El año de los datos se cambia en config.py.
 """
@@ -24,7 +25,7 @@ from config import ANIO
 
 BASE = Path(__file__).parent
 PASOS = ["procesar_nacional.py", "unir_nacional.py", "preparar_zonas.py", "preparar_json.py", "preparar_comunidades.py",
-         "generar_web.py", "tests/ejecutar_tests.py"]
+         "mapa_distritos.py", "generar_web.py", "tests/ejecutar_tests.py"]
 
 
 def main():
