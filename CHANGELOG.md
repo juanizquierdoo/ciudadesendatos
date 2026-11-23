@@ -192,3 +192,6 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 - El año sigue en el H1 de los rankings, en el texto, en el pie y en los datos estructurados (JSON-LD), para que quede claro de qué año son los datos.
 - Comprobado: solo cambian los 177 títulos y la fecha de generación; ningún otro byte de la web. Tests: `test_seo.py` exige que ningún título lleve año; `test_rankings_temas.py` y `test_sueldo.py` cambiados en consecuencia. 22 OK, 0 FALLA.
 - Medir en Search Console (CTR de las fichas) 3-4 semanas después de publicarlo.
+
+## 23/11/2026: revisión mensual de datos nuevos
+- Nuevo `REVISION_DATOS.md`: qué fuentes se revisan, dónde mirar y el historial de revisiones. Tarea programada el día 1 de cada mes. Primera revisión: ninguna fuente tiene datos más recientes que los de la web. No se ha cambiado ningún dato ni la web.

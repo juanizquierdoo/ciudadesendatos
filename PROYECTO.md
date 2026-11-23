@@ -121,3 +121,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Hecho (petición de Juan): `mapa_distritos.py` calcula la casilla de cada distrito (callejero del INE + calles y parroquias de OSM) y deja `datos_limpios/mapa_distritos.csv`; `generar_web.py` lo lee. Madrid sigue colocado a mano. 88 ciudades con mapa. Test: `tests/test_mapa.py`.
 - Para dar mapa a Zaragoza, Valladolid y Las Palmas: añadir sus códigos (50297, 47186, 35016) a las tareas de `osm_descarga.py`, que Juan baje las calles con `descargar_osm.html` y ejecutar `python actualizar.py --desde 6`. Ojo: `zonas_osm.py` no pisa sus barrios oficiales, pero comprobarlo.
 - Nota técnica: la carpeta conectada no deja borrar sin permiso; `generar_web.py` (borra web/) y git lo necesitan.
+
+## Revisión mensual de datos nuevos (23/11/2026)
+- Petición de Juan: una tarea programada revisa el día 1 de cada mes (8:47, hora de Madrid) si SERPAVI, el ADRH del INE o el callejero del INE tienen datos más recientes. Método, enlaces e historial en `REVISION_DATOS.md`. Solo avisa y ofrece actualizar; no cambia datos sin aprobación.
+- Primera revisión (23/11/2026): todo al día. Próximas novedades previsibles: callejero de enero de 2027, SERPAVI con 2025 (hacia marzo de 2027) y ADRH 2025 (hacia octubre de 2027).
