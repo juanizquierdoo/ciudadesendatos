@@ -45,7 +45,8 @@ if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("
 var el=document.getElementById("mapa-datos");
 if(el){
   var M=JSON.parse(el.textContent),D=M.distritos,grid=document.getElementById("grid"),panel=document.getElementById("panel"),mctl=document.getElementById("mctl");
-  var MET=[["pct","Peso del alquiler",function(v){return df(v,1)+" %"}],["alq","Alquiler al mes",function(v){return nf(v)+" €"}],["renta","Renta del hogar",function(v){return nf(v)+" €"}]];
+  // escala fija, la misma en todas las ciudades (de ESCALA_MAPA en generar_web.py); fuera del rango, el color del extremo
+  var MET=[["pct","Peso del alquiler",function(v){return df(v,0)+" %"},"Alquiler sobre renta del hogar (%)"],["alq","Alquiler al mes",function(v){return nf(v)+" €"},"Alquiler mediano al mes (€)"],["renta","Renta del hogar",function(v){return nf(v)+" €"},"Renta neta media del hogar (€ al año)"]],ESC={"pct": [10, 25], "alq": [300, 1100], "renta": [20000, 80000]};
   var mk="pct",tiles=[];
   function u(v,s){return v==="—"?v:v+s}
   function show(r,i){
@@ -59,9 +60,9 @@ if(el){
     b.onmouseenter=b.onfocus=b.onclick=function(){tiles.forEach(function(t,j){t.setAttribute("aria-pressed",String(j===i))});show(r,i)};
     grid.appendChild(b);tiles.push(b)});
   function paint(){
-    var vals=D.map(function(r){return r[mk]}).filter(function(v){return v!=null}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
-    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=(v-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
-    document.getElementById("lmin").textContent=f(mn);document.getElementById("lmax").textContent=f(mx);
+    var met=MET.filter(function(m){return m[0]===mk})[0],mn=ESC[mk][0],mx=ESC[mk][1],f=met[2];
+    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=Math.max(0,Math.min(1,(v-mn)/(mx-mn)));b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
+    document.getElementById("lnom").textContent=met[3];document.getElementById("lmin").textContent="≤ "+f(mn);document.getElementById("lmax").textContent="≥ "+f(mx);
     mctl.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.k===mk))});
   }
   MET.forEach(function(m){var b=document.createElement("button");b.type="button";b.textContent=m[1];b.dataset.k=m[0];b.onclick=function(){mk=m[0];paint()};mctl.appendChild(b)});

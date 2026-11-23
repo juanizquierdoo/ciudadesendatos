@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 23/11/2026: mapa de distritos con escala de color fija y etiqueta (petición de Juan)
+- La escala de color es la misma en todas las ciudades (antes iba del mínimo al máximo de cada ciudad, y una ciudad barata podía parecer cara). Rangos fijos en `ESCALA_MAPA` (`generar_web.py`): peso del alquiler 10-25 %, alquiler 300-1.100 €/mes, renta del hogar 20.000-80.000 €/año, elegidos con los 677 distritos con mapa (del percentil 2 al 98 aprox.). Lo que queda fuera toma el color del extremo; la barra lo indica con ≤ y ≥.
+- Encima de la barra se dice qué se mide: "Alquiler sobre renta del hogar (%)", "Alquiler mediano al mes (€)" o "Renta neta media del hogar (€ al año)". Nota bajo el mapa: "Los colores usan la misma escala en todas las ciudades".
+- `tests/test_mapa.py`: nueva comprobación (6 OK). `ejecutar_tests.py`: 23 OK. Probado en Chromium (1280 y 390 px) en 14 ciudades, sin errores de JavaScript.
+
 ## 23/11/2026: mapa de distritos en 88 ciudades (petición de Juan)
 - Antes solo Madrid tenía el mapa esquemático (casillas coloreadas por peso del alquiler, alquiler o renta). Ahora lo tienen las 88 ciudades con 5 distritos o más cuya posición se puede calcular: entre ellas Barcelona, Valencia, Sevilla, Málaga, Bilbao, Vitoria, Donostia, Vigo, A Coruña, Santiago, Lugo, Pontevedra, Oviedo y Gijón.
 - Nuevo paso del pipeline `mapa_distritos.py` (ya en `actualizar.py`, antes de `generar_web.py`): calcula el centro de cada distrito con el callejero del INE y las calles y parroquias de OpenStreetMap, y lo pasa a una rejilla. Escribe `datos_limpios/mapa_distritos.csv`. Método y cita en FUENTES.md (fuente 8). Madrid conserva su colocación hecha a mano.

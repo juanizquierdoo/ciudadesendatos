@@ -471,7 +471,8 @@ def pagina_ciudad(c, todas, rank_n):
                                "sup": x["superficie_m2"] if ver else None, "inm": x["inmuebles"],
                                "aviso": x["fiabilidad"] == "pocos_datos" and ver})
             ncol = max(r["col"] for r in md) + 1
-            nota_mapa = "Mapa esquemático: cada casilla es un distrito en su posición aproximada, no sus límites reales."
+            nota_mapa = ("Mapa esquemático: cada casilla es un distrito en su posición aproximada, no sus límites reales."
+                         " Los colores usan la misma escala en todas las ciudades.")
             if c["cod_muni"] in TILE_CALCULADO:
                 nota_mapa += (" Posición calculada con el callejero del INE y las calles de OpenStreetMap"
                               " (© colaboradores de OpenStreetMap, ODbL).")
@@ -483,7 +484,7 @@ def pagina_ciudad(c, todas, rank_n):
             mapa = ('<section id="mapa"><h2>Mapa de distritos</h2><p class="sub">Elige qué comparar y pasa el cursor (o toca) un distrito.</p>'
                     '<div class="ctl" id="mctl" role="group" aria-label="Dato del mapa"><span>Colorear por</span></div>'
                     f'<div class="mapbox"><div><div class="grid" id="grid" style="grid-template-columns:repeat({ncol},minmax(0,1fr));max-width:{ncol * 112}px"></div>'
-                    '<div class="legend"><span id="lmin"></span><i></i><span id="lmax"></span></div>'
+                    '<div class="legend"><b id="lnom"></b><span id="lmin"></span><i></i><span id="lmax"></span></div>'
                     f'<p class="sub" style="margin-top:12px;font-size:14px">{esc(nota_mapa)}</p></div>'
                     '<aside class="panel" aria-live="polite" id="panel"></aside></div></section>')
             mapa_js = ('<script type="application/json" id="mapa-datos">'
@@ -901,7 +902,8 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(-
 .tile.nd{background:var(--surface);color:var(--muted);box-shadow:inset 0 0 0 1px var(--line)}
 .tile:hover,.tile:focus-visible,.tile[aria-pressed="true"]{transform:scale(1.08);outline:3px solid var(--ink);position:relative;z-index:2}
 @media (max-width:640px){.tile span{display:none}.tile b{font-size:14px}}
-.legend{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:14px;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:14px;font-size:14px;color:var(--muted)}
+.legend b{flex-basis:100%;font-weight:600;color:var(--ink)}
 .legend i{flex:1;max-width:240px;height:10px;border-radius:5px;background:linear-gradient(90deg,var(--lo),var(--hi))}
 .panel{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--acc);border-radius:6px;padding:18px 20px}
 .panel h3{font:700 22px/1.2 Georgia,serif;margin:0 0 2px}
@@ -1047,7 +1049,8 @@ if(q){var li=document.querySelectorAll("#lista li"),cu=document.getElementById("
 var el=document.getElementById("mapa-datos");
 if(el){
   var M=JSON.parse(el.textContent),D=M.distritos,grid=document.getElementById("grid"),panel=document.getElementById("panel"),mctl=document.getElementById("mctl");
-  var MET=[["pct","Peso del alquiler",function(v){return df(v,1)+" %"}],["alq","Alquiler al mes",function(v){return nf(v)+" €"}],["renta","Renta del hogar",function(v){return nf(v)+" €"}]];
+  // escala fija, la misma en todas las ciudades (de ESCALA_MAPA en generar_web.py); fuera del rango, el color del extremo
+  var MET=[["pct","Peso del alquiler",function(v){return df(v,0)+" %"},"Alquiler sobre renta del hogar (%)"],["alq","Alquiler al mes",function(v){return nf(v)+" €"},"Alquiler mediano al mes (€)"],["renta","Renta del hogar",function(v){return nf(v)+" €"},"Renta neta media del hogar (€ al año)"]],ESC=__ESCALA__;
   var mk="pct",tiles=[];
   function u(v,s){return v==="—"?v:v+s}
   function show(r,i){
@@ -1061,9 +1064,9 @@ if(el){
     b.onmouseenter=b.onfocus=b.onclick=function(){tiles.forEach(function(t,j){t.setAttribute("aria-pressed",String(j===i))});show(r,i)};
     grid.appendChild(b);tiles.push(b)});
   function paint(){
-    var vals=D.map(function(r){return r[mk]}).filter(function(v){return v!=null}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),f=MET.filter(function(m){return m[0]===mk})[0][2];
-    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=(v-mn)/((mx-mn)||1);b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
-    document.getElementById("lmin").textContent=f(mn);document.getElementById("lmax").textContent=f(mx);
+    var met=MET.filter(function(m){return m[0]===mk})[0],mn=ESC[mk][0],mx=ESC[mk][1],f=met[2];
+    tiles.forEach(function(b,i){var v=D[i][mk];b.classList.toggle("nd",v==null);if(v==null)return;var t=Math.max(0,Math.min(1,(v-mn)/(mx-mn)));b.style.setProperty("--t",t.toFixed(3));b.style.setProperty("--c",t>.5?"var(--on-acc)":"var(--ink)")});
+    document.getElementById("lnom").textContent=met[3];document.getElementById("lmin").textContent="≤ "+f(mn);document.getElementById("lmax").textContent="≥ "+f(mx);
     mctl.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.k===mk))});
   }
   MET.forEach(function(m){var b=document.createElement("button");b.type="button";b.textContent=m[1];b.dataset.k=m[0];b.onclick=function(){mk=m[0];paint()};mctl.appendChild(b)});
@@ -1072,6 +1075,12 @@ if(el){
 })();
 """
 
+
+# Escala de color fija del mapa de distritos, igual en todas las ciudades (petición de Juan, 23/11/2026): así una
+# ciudad barata no parece cara porque un distrito cueste algo más que los demás. Rangos elegidos con los 677
+# distritos con mapa (23/11/2026): cubren del percentil 2 al 98 aprox.; los valores de fuera toman el color del extremo.
+ESCALA_MAPA = {"pct": [10, 25], "alq": [300, 1100], "renta": [20000, 80000]}
+JS = JS.replace("__ESCALA__", json.dumps(ESCALA_MAPA))
 
 # Versión de estilo.css y app.js en sus enlaces (?v=...): cambia sola cuando cambian, para que
 # los navegadores no sigan usando una copia antigua guardada en caché.

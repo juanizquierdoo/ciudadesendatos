@@ -111,5 +111,18 @@ sin_mapa = [c["nombre"] for c in ciudades if c["cod_muni"] not in por_ciudad
 err += [f"{n}: tiene mapa sin estar en el CSV" for n in sin_mapa]
 comprobar("Fichas con mapa: datos iguales que el JSON, sin alquiler poco fiable y con la cita de OSM", err)
 
+# 6. escala de color fija, la misma en todas las ciudades, y etiqueta de lo que se mide
+import generar_web as gw  # noqa: E402
+js = (WEB / "assets" / "app.js").read_text(encoding="utf-8")
+err = []
+if json.dumps(gw.ESCALA_MAPA) not in js or "__ESCALA__" in js:
+    err.append("app.js no lleva la escala fija ESCALA_MAPA")
+if "Math.min.apply" in js.split("mapa esquemático")[-1]:
+    err.append("el mapa todavía calcula la escala con el mínimo y el máximo de cada ciudad")
+for k in ("Alquiler sobre renta del hogar (%)", "Alquiler mediano al mes (€)", "Renta neta media del hogar (€ al año)"):
+    if k not in js:
+        err.append(f"falta la etiqueta «{k}»")
+comprobar("Misma escala de color en todos los mapas y etiqueta junto a la barra", err)
+
 print(f"\nResumen: {resultados.count('OK')} OK, {resultados.count('FALLA')} FALLA")
 sys.exit(1 if "FALLA" in resultados else 0)
