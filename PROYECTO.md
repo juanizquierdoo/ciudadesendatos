@@ -15,7 +15,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 | Ciudades con desglose por distrito | 130 (843 distritos) |
 | Distritos con nombre oficial | 58 (Madrid 21, Valencia 19, Barcelona 10, Bilbao 8) |
 | Páginas de la web | 170: portada, 4 rankings, índice de comunidades, 13 comunidades y 151 ciudades |
-| Mapa | Esquemático (casillas, no límites reales) en 88 ciudades desde el 23/11/2026 (`mapa_distritos.py`) |
+| Mapa | Esquemático (casillas, no límites reales) en 91 ciudades (88 desde el 23/11/2026; Zaragoza, Valladolid y Las Palmas desde el 26/11/2026) (`mapa_distritos.py`) |
 | Publicada | **Sí, desde el 20/11/2026** en https://ciudadesendatos.es (HTTPS, http y www redirigen). Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
 | Páginas legales y analítica | Aviso legal, privacidad y cookies en /aviso-legal/, /privacidad/ y /cookies/ (`paginas_legales.py`), con nombre y correo ciudadesendatos@gmail.com. Decidido por Juan (20/11/2026): NIF y domicilio solo cuando haya anuncios (ANUNCIOS = True). Sin analítica |
 | Logo e iconos | Desde el 26/11/2026: chincheta de mapa con barras. favicon.ico, favicon.svg, icono-192.png, apple-touch-icon.png y logo-512.png (logo de Organization en la portada), creados con `crear_imagenes.py` |
@@ -120,7 +120,8 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 
 ## Mapa de distritos en más ciudades (23/11/2026)
 - Hecho (petición de Juan): `mapa_distritos.py` calcula la casilla de cada distrito (callejero del INE + calles y parroquias de OSM) y deja `datos_limpios/mapa_distritos.csv`; `generar_web.py` lo lee. Madrid sigue colocado a mano. 88 ciudades con mapa. Test: `tests/test_mapa.py`.
-- Para dar mapa a Zaragoza, Valladolid y Las Palmas: añadir sus códigos (50297, 47186, 35016) a las tareas de `osm_descarga.py`, que Juan baje las calles con `descargar_osm.html` y ejecutar `python actualizar.py --desde 6`. Ojo: `zonas_osm.py` no pisa sus barrios oficiales, pero comprobarlo.
+- 26/11/2026: Zaragoza, Valladolid y Las Palmas ya tienen mapa (91 ciudades). Sus calles están en `datos_municipales/osm/osm_calles_<ciudad>.csv` (SOLO_CALLES en `osm_descarga.py`). Las Palmas se baja por su límite municipal (POR_LIMITE), porque el servidor no responde a la consulta por municipio. `descargar_osm.html` ahora solo pide los archivos que faltan y prueba dos servidores (overpass-api.de y maps.mail.ru). `zonas_osm.py` no pisa sus barrios oficiales (conserva las filas que no vienen de OSM).
+- Nota técnica: overpass-api.de rechaza el navegador integrado de Claude (error 406); las descargas de OSM las hace Juan con `descargar_osm.html`.
 - Nota técnica: la carpeta conectada no deja borrar sin permiso; `generar_web.py` (borra web/) y git lo necesitan.
 
 ## Revisión mensual de datos nuevos (23/11/2026)

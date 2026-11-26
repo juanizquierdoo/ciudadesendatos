@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 26/11/2026: mapa de distritos en Zaragoza, Valladolid y Las Palmas (petición de Juan, B-37)
+- Las tres fichas tienen ya el mapa esquemático de distritos, con la misma escala de color que el resto (91 ciudades con mapa). Zaragoza y Valladolid, 12 distritos cada una; Las Palmas, 5.
+- Calles de OpenStreetMap (© colaboradores de OpenStreetMap, ODbL) bajadas por Juan con `descargar_osm.html`: `osm_calles_zaragoza.csv`, `osm_calles_valladolid.csv` y `osm_calles_laspalmas.csv`. Las Palmas, por su límite municipal (relación 340783), filtrando las calles que caen dentro.
+- `osm_descarga.py`: solo pide los archivos que faltan, prueba dos servidores y añade el método por límite municipal. No cambia ningún otro script, dato ni página.
+- Comprobado: 26 OK, 0 FALLA. En la web solo cambian las tres fichas. Capturas revisadas: la colocación coincide con la geografía conocida (p. ej., Casco Histórico en el centro de Zaragoza, Parquesol al oeste de Valladolid, La Isleta al norte de Las Palmas). No son límites reales, como en el resto.
+
 ## 26/11/2026: mapa de precios de España por municipios y distritos (petición de Juan, B-44)
 - Nueva página /mapa/: mapa de los 8.132 municipios coloreado por peso del alquiler, alquiler al mes o renta del hogar, con la misma escala de color que el mapa de distritos de las fichas (ESCALA_MAPA). Buscador de municipios, zoom con rueda, botones, arrastre y dos dedos, y enlace a la ficha cuando la hay. /mapa/#m=28079 abre el mapa centrado en un municipio.
 - Al acercarse se cargan solo las provincias que se ven, con más detalle y con los 3.393 distritos de los municipios que tienen más de uno (nombres de barrio de las fichas cuando los hay). Distritos sin dato fiable en gris; si menos de 2 distritos de un municipio tienen el dato, se pinta el municipio entero.

@@ -14,6 +14,9 @@ HECHAS = {"50297", "35016", "47186"}   # con fuente oficial o en otro hilo (Vall
 # Solo calles, una ciudad por archivo, para el mapa esquemático (mapa_distritos.py). Sus barrios oficiales no se tocan:
 # zonas_osm.py conserva las filas que no vienen de OpenStreetMap.
 SOLO_CALLES = {"osm_calles_zaragoza.csv": "50297", "osm_calles_valladolid.csv": "47186", "osm_calles_laspalmas.csv": "35016"}
+# Las Palmas: el servidor no tiene calculada su "área" y la consulta normal no responde. Se piden las calles del
+# rectángulo que contiene el límite municipal de OSM (relación 340783) y la página se queda con las que caen dentro.
+POR_LIMITE = {"osm_calles_laspalmas.csv": (340783, "35016", "Las Palmas de Gran Canaria")}
 SERVIDORES = ["https://overpass-api.de/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
 
 
@@ -44,7 +47,7 @@ def main():
             for j in range(0, len(g), 5):
                 tareas.append((f"osm_calles_{i}{'abc'[j // 5]}.csv", consultas(g[j:j + 5])[0]))
         tareas += [t for t in ((f"osm_calles_{i}.csv", c), (f"osm_barrios_{i}.json", b)) if t[0] not in YA_BAJADOS | PARTIR]
-    tareas += [(n, consultas([m])[0]) for n, m in SOLO_CALLES.items()]
+    tareas += [(n, consultas([m])[0]) if n not in POR_LIMITE else (n, "", *POR_LIMITE[n]) for n, m in SOLO_CALLES.items()]
     carpeta = DATOS.parent / "datos_municipales" / "osm"
     tareas = [t for t in tareas if not (carpeta / t[0]).exists()]      # solo lo que falta
     html = """<!doctype html><meta charset="utf-8"><title>Descargar OpenStreetMap</title>
@@ -54,12 +57,27 @@ def main():
 <button id="b" style="font-size:18px;padding:10px 20px">Descargar</button><ul id="l"></ul>
 <script>
 const T=__TAREAS__, S=__SERVIDORES__;
-async function bajar(nombre,q,li){
+async function pedir(srv,q){const r=await fetch(srv,{method:'POST',body:new URLSearchParams({data:q})});
+  if(!r.ok) throw new Error('error '+r.status); return r.text();}
+async function porLimite(srv,rel,cod,nom){
+  // límite municipal -> rectángulo -> calles del rectángulo -> solo las que caen dentro del límite (par/impar de cortes)
+  const g=JSON.parse(await pedir(srv,'[out:json][timeout:180];rel('+rel+');out geom;')).elements[0];
+  const seg=[];let a0=90,a1=-90,o0=180,o1=-180;
+  for(const m of g.members){if(m.type!=='way'||!m.geometry||(m.role!=='outer'&&m.role!=='inner'))continue;const p=m.geometry;
+    for(let i=0;i<p.length-1;i++)seg.push([p[i].lat,p[i].lon,p[i+1].lat,p[i+1].lon]);
+    for(const q of p){a0=Math.min(a0,q.lat);a1=Math.max(a1,q.lat);o0=Math.min(o0,q.lon);o1=Math.max(o1,q.lon);}}
+  const dentro=(la,lo)=>{let c=false;for(const [y1,x1,y2,x2] of seg)if((y1>la)!==(y2>la)&&lo<x1+(la-y1)*(x2-x1)/(y2-y1))c=!c;return c;};
+  const t=await pedir(srv,'[out:csv(::type,::id,name,::lat,::lon;true;"|")][timeout:600];way["highway"]["name"]('+[a0,o0,a1,o1].join(',')+');out center;');
+  const out=['@type|ine:municipio|name|@lat|@lon','area|'+cod+'|'+nom+'||'];
+  for(const l of t.trim().split('\\n').slice(1)){const c=l.split('|');if(c[0]==='way'&&c[2]&&dentro(+c[3],+c[4]))out.push('way||'+c[2]+'|'+c[3]+'|'+c[4]);}
+  if(out.length<100) throw new Error('respuesta vacía');
+  return out.join('\\n')+'\\n';}
+async function bajar(nombre,q,li,rel,cod,nom){
   for(let i=1;i<=5;i++){
     li.textContent=nombre+': descargando (intento '+i+')...';
-    try{const r=await fetch(S[(i-1)%S.length],{method:'POST',body:new URLSearchParams({data:q})});
-      if(!r.ok) throw new Error('error '+r.status);
-      const b=await r.blob(); if(b.size<200) throw new Error('respuesta vacía');
+    try{const srv=S[(i-1)%S.length];
+      const b=rel?new Blob([await porLimite(srv,rel,cod,nom)]):await (async()=>new Blob([await pedir(srv,q)]))();
+      if(b.size<200) throw new Error('respuesta vacía');
       const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=nombre;a.click();
       li.textContent=nombre+': listo ('+Math.round(b.size/1e6)+' MB)';return;
     }catch(e){li.textContent=nombre+': '+e.message+', reintento en 2 minutos';await new Promise(s=>setTimeout(s,120000));}
@@ -67,7 +85,7 @@ async function bajar(nombre,q,li){
   li.textContent=nombre+': no se pudo descargar';
 }
 document.getElementById('b').onclick=async()=>{document.getElementById('b').disabled=true;
-  for(const [n,q] of T){const li=document.createElement('li');document.getElementById('l').appendChild(li);await bajar(n,q,li);await new Promise(s=>setTimeout(s,60000));}
+  for(const [n,q,rel,cod,nom] of T){const li=document.createElement('li');document.getElementById('l').appendChild(li);await bajar(n,q,li,rel,cod,nom);await new Promise(s=>setTimeout(s,60000));}
   const li=document.createElement('li');li.innerHTML='<b>Terminado.</b> Mueve los archivos osm_* de Descargas a datos_municipales\\\\osm';document.getElementById('l').appendChild(li);};
 </script>""".replace("__TAREAS__", json.dumps(tareas)).replace("__SERVIDORES__", json.dumps(SERVIDORES)).replace("__N__", str(len(tareas)))
     (carpeta / "descargar_osm.html").write_text(html, encoding="utf-8")
