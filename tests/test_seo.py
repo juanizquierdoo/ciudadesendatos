@@ -100,6 +100,22 @@ comprobar("Favicon como archivo (no incrustado) y presente en web/",
           [r or "portada" for r, s in paginas.items() if 'rel="icon"' not in s or "data:image" in campo(r'<link rel="icon"[^>]*href="([^"]*)"', s)]
           + [f"falta web/{x}" for x in ("favicon.png", "favicon.ico", "og.png") if not (WEB / x).exists()])
 
+# logo del 26/11/2026: iconos en todos los tamaños, enlazados en cada página, y logo en los datos estructurados
+ICONOS = ("favicon.ico", "favicon.svg", "icono-192.png", "apple-touch-icon.png", "logo-512.png")
+comprobar("Iconos del logo presentes y enlazados en todas las páginas (ico, svg, 192 px y apple-touch-icon)",
+          [f"falta web/{x}" for x in ICONOS if not (WEB / x).exists()]
+          + [r or "portada" for r, s in paginas.items()
+             if not all(x in s for x in ('favicon.ico"', 'favicon.svg"', 'icono-192.png"', 'rel="apple-touch-icon"'))])
+ld_portada = [json.loads(b) for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', paginas[""], re.S)]
+org = [b for b in ld_portada if b.get("@type") == "Organization"]
+web_ld = [b for b in ld_portada if b.get("@type") == "WebSite"]
+comprobar("La portada declara el nombre del sitio (WebSite) y el logo (Organization)",
+          ([] if web_ld and web_ld[0].get("name") == "ciudadesendatos" else ["falta WebSite con name"])
+          + ([] if org and str(org[0].get("logo", "")).endswith("/logo-512.png") else ["falta Organization con logo"]))
+# decisión de Juan (26/11/2026): los títulos no terminan con el nombre del sitio
+comprobar("Ningún título termina con el nombre del sitio",
+          [f"{r or 'portada'}: {t}" for r, t in titulos.items() if t and re.search(r"[-|·–]\s*ciudadesendatos\s*$", t)])
+
 # cada ficha enlaza a los 4 rankings y la fila de destino existe
 errores = []
 for r, c in ciudades.items():

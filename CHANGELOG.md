@@ -228,3 +228,10 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 
 ## 23/11/2026: revisión mensual de datos nuevos
 - Nuevo `REVISION_DATOS.md`: qué fuentes se revisan, dónde mirar y el historial de revisiones. Tarea programada el día 1 de cada mes. Primera revisión: ninguna fuente tiene datos más recientes que los de la web. No se ha cambiado ningún dato ni la web.
+
+## 26/11/2026: logo nuevo y títulos sin la marca
+- Logo elegido por Juan (opción 1): chincheta de mapa blanca con tres barras dentro, sobre cuadrado verde redondeado. `crear_imagenes.py` lo dibuja desde una sola geometría en SVG y PNG: `favicon.ico` (16/32/48), `favicon.svg`, `favicon.png` (48), `icono-192.png`, `apple-touch-icon.png` (180, sin esquinas transparentes) y `logo-512.png`. `og.png` lleva el logo nuevo.
+- Todas las páginas enlazan ico, svg, PNG de 192 px y apple-touch-icon (`head()` de `generar_web.py`).
+- Portada: `<title>` sin "| ciudadesendatos". JSON-LD con WebSite (name "ciudadesendatos", alternateName "ciudadesendatos.es") y Organization con logo. Las páginas legales mantienen "de ciudadesendatos" porque forma parte del título, no es una coletilla.
+- El " - ciudadesendatos" que se veía en Google no estaba en nuestro título: Google reescribió el título de Valladolid usando el H1 y le añadió el nombre del sitio. Eso lo decide Google y no se puede prohibir; el favicon nuevo también puede tardar días o semanas en verse en los resultados.
+- Tests: 3 comprobaciones nuevas en `test_seo.py` (iconos enlazados, WebSite y Organization con logo, ningún título termina con la marca). 26 OK, 0 FALLA. En la web solo cambian las etiquetas de iconos, el título y el JSON-LD de la portada, y las imágenes.

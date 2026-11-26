@@ -18,6 +18,7 @@ Las reglas completas están en INSTRUCCIONES_PROYECTO.md; aquí va el **estado**
 | Mapa | Esquemático (casillas, no límites reales) en 88 ciudades desde el 23/11/2026 (`mapa_distritos.py`) |
 | Publicada | **Sí, desde el 20/11/2026** en https://ciudadesendatos.es (HTTPS, http y www redirigen). Dominio ciudadesendatos.es (DonDominio). BASE_URL activo: sitemap, canonical y CNAME se generan. Despliegue con GitHub Pages vía `.github/workflows/publicar.yml` |
 | Páginas legales y analítica | Aviso legal, privacidad y cookies en /aviso-legal/, /privacidad/ y /cookies/ (`paginas_legales.py`), con nombre y correo ciudadesendatos@gmail.com. Decidido por Juan (20/11/2026): NIF y domicilio solo cuando haya anuncios (ANUNCIOS = True). Sin analítica |
+| Logo e iconos | Desde el 26/11/2026: chincheta de mapa con barras. favicon.ico, favicon.svg, icono-192.png, apple-touch-icon.png y logo-512.png (logo de Organization en la portada), creados con `crear_imagenes.py` |
 | Git | Repositorio local desde el 18/11/2026. Remoto previsto: github.com/juanizquierdoo/ciudadesendatos (público, lo crea Juan) |
 
 ## Cómo se ejecuta

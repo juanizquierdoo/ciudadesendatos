@@ -28,6 +28,7 @@ WEB = base / "web"
 
 BASE_URL = "https://ciudadesendatos.es"   # sin barra final. Vacío = sin sitemap ni canonical.
 SITIO = "ciudadesendatos"
+DOMINIO = "ciudadesendatos.es"
 MIN_POB = "50.000"
 # Fecha de actualización de cada fuente (la piden sus licencias). Cambiarla al cargar datos nuevos.
 FECHA_SERPAVI = "08/07/2026"   # metadatos corregidos de la BD SERPAVI 2011-2024
@@ -309,8 +310,13 @@ def head(titulo, desc, root, ruta, ld=()):
             extra += (f'<meta property="og:image" content="{BASE_URL}/og.png"><meta property="og:image:width" content="1200">'
                       f'<meta property="og:image:height" content="630"><meta property="og:image:alt" content="{esc(SITIO)}: alquiler y renta en las ciudades de España">'
                       f'<meta name="twitter:card" content="summary_large_image">')
-    icono = (f'<link rel="icon" type="image/png" sizes="48x48" href="{root}favicon.png">'
-             if (RECURSOS / "favicon.png").exists() else "")
+    # Iconos (logo del 26/11/2026, crear_imagenes.py): .ico para navegadores antiguos, SVG para los modernos,
+    # PNG de 192 px (Google prefiere múltiplos de 48 px) y apple-touch-icon para iPhone/iPad.
+    icono = (f'<link rel="icon" href="{root}favicon.ico" sizes="48x48">'
+             f'<link rel="icon" href="{root}favicon.svg" type="image/svg+xml">'
+             f'<link rel="icon" type="image/png" sizes="192x192" href="{root}icono-192.png">'
+             f'<link rel="apple-touch-icon" href="{root}apple-touch-icon.png">'
+             if (RECURSOS / "favicon.svg").exists() else "")
     bloques = "".join(jsonld(x) for x in ld if x)
     return (f'<!doctype html><html lang="es"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
@@ -721,10 +727,15 @@ def pagina_indice(todas, rank_n):
               f'<ul class="todas" id="lista">{lista}</ul>'
               f'<label for="vermas" class="vermas"><span class="mas">Ver las {N} ciudades</span><span class="menos">Ver menos</span></label>'
               f'</section>{pie(root)}</main>')
-    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "url": url_abs(""), "inLanguage": "es"},
+    # Nombre del sitio y logo para Google: WebSite (name + alternateName) y Organization (logo), solo en la portada.
+    # Google decide por su cuenta si añade el nombre al título; esto le dice cuál es el nombre correcto.
+    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITIO, "alternateName": DOMINIO,
+           "url": url_abs(""), "inLanguage": "es", "publisher": {"@id": url_abs("#organizacion") if BASE_URL else None}},
+          {"@context": "https://schema.org", "@type": "Organization", "@id": url_abs("#organizacion") if BASE_URL else None,
+           "name": SITIO, "url": url_abs(""), "logo": url_abs("logo-512.png") if BASE_URL else None},
           dataset(f"Alquiler y renta en {N} ciudades de España", desc, "", "España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"])]
-    return head(f"Alquiler y renta por ciudad en España ({ANIO}) | {SITIO}", desc, root, "", ld) + cuerpo + fin(root)
+    return head(f"Alquiler y renta por ciudad en España ({ANIO})", desc, root, "", ld) + cuerpo + fin(root)
 
 
 # ------------------------------------------------------------------ comunidades autónomas (B-18)
@@ -1175,7 +1186,8 @@ def main():
         shutil.rmtree(WEB)
     escribir(WEB / "assets" / "estilo.css", CSS)
     escribir(WEB / "assets" / "app.js", JS)
-    for nombre_rec in ("og.png", "favicon.png", "favicon.ico"):
+    for nombre_rec in ("og.png", "favicon.png", "favicon.ico", "favicon.svg", "icono-192.png",
+                       "apple-touch-icon.png", "logo-512.png"):
         if (RECURSOS / nombre_rec).exists():
             shutil.copy(RECURSOS / nombre_rec, WEB / nombre_rec)
     escribir(WEB / "index.html", pagina_indice(todas, rank_n))
