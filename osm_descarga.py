@@ -11,6 +11,10 @@ YA_BAJADOS = {"osm_calles_1.csv", "osm_barrios_1.json", "osm_barrios_2.json", "o
 PARTIR = {"osm_calles_4.csv", "osm_calles_7.csv"}   # fallaron 2 veces: se piden en trozos de 5 ciudades (4a, 4b, 4c...)
 HECHAS = {"50297", "35016", "47186"}   # con fuente oficial o en otro hilo (Valladolid)
 # Sevilla y Málaga se bajan también, solo para comprobar el método contra sus barrios oficiales.
+# Solo calles, una ciudad por archivo, para el mapa esquemático (mapa_distritos.py). Sus barrios oficiales no se tocan:
+# zonas_osm.py conserva las filas que no vienen de OpenStreetMap.
+SOLO_CALLES = {"osm_calles_zaragoza.csv": "50297", "osm_calles_valladolid.csv": "47186", "osm_calles_laspalmas.csv": "35016"}
+SERVIDORES = ["https://overpass-api.de/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
 
 
 def ciudades():
@@ -40,17 +44,20 @@ def main():
             for j in range(0, len(g), 5):
                 tareas.append((f"osm_calles_{i}{'abc'[j // 5]}.csv", consultas(g[j:j + 5])[0]))
         tareas += [t for t in ((f"osm_calles_{i}.csv", c), (f"osm_barrios_{i}.json", b)) if t[0] not in YA_BAJADOS | PARTIR]
+    tareas += [(n, consultas([m])[0]) for n, m in SOLO_CALLES.items()]
+    carpeta = DATOS.parent / "datos_municipales" / "osm"
+    tareas = [t for t in tareas if not (carpeta / t[0]).exists()]      # solo lo que falta
     html = """<!doctype html><meta charset="utf-8"><title>Descargar OpenStreetMap</title>
 <body style="font-family:sans-serif;max-width:640px;margin:40px auto;line-height:1.5">
 <h1>Descargar barrios y calles de OpenStreetMap</h1>
-<p>Pulsa el botón y deja esta pestaña abierta. Tarda unos minutos. Se guardan __N__ archivos en Descargas.</p>
+<p>Pulsa el botón y deja esta pestaña abierta. Tarda unos minutos (si el servidor está ocupado, reintenta solo). Se guardan __N__ archivos en Descargas.</p>
 <button id="b" style="font-size:18px;padding:10px 20px">Descargar</button><ul id="l"></ul>
 <script>
-const T=__TAREAS__;
+const T=__TAREAS__, S=__SERVIDORES__;
 async function bajar(nombre,q,li){
   for(let i=1;i<=5;i++){
     li.textContent=nombre+': descargando (intento '+i+')...';
-    try{const r=await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:new URLSearchParams({data:q})});
+    try{const r=await fetch(S[(i-1)%S.length],{method:'POST',body:new URLSearchParams({data:q})});
       if(!r.ok) throw new Error('error '+r.status);
       const b=await r.blob(); if(b.size<200) throw new Error('respuesta vacía');
       const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=nombre;a.click();
@@ -62,9 +69,9 @@ async function bajar(nombre,q,li){
 document.getElementById('b').onclick=async()=>{document.getElementById('b').disabled=true;
   for(const [n,q] of T){const li=document.createElement('li');document.getElementById('l').appendChild(li);await bajar(n,q,li);await new Promise(s=>setTimeout(s,60000));}
   const li=document.createElement('li');li.innerHTML='<b>Terminado.</b> Mueve los archivos osm_* de Descargas a datos_municipales\\\\osm';document.getElementById('l').appendChild(li);};
-</script>""".replace("__TAREAS__", json.dumps(tareas)).replace("__N__", str(len(tareas)))
-    (DATOS.parent / "datos_municipales" / "osm" / "descargar_osm.html").write_text(html, encoding="utf-8")
-    print(len(cods), "ciudades")
+</script>""".replace("__TAREAS__", json.dumps(tareas)).replace("__SERVIDORES__", json.dumps(SERVIDORES)).replace("__N__", str(len(tareas)))
+    (carpeta / "descargar_osm.html").write_text(html, encoding="utf-8")
+    print(len(cods), "ciudades;", len(tareas), "archivos por descargar:", ", ".join(t[0] for t in tareas))
 
 
 if __name__ == "__main__":

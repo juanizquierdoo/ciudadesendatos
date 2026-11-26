@@ -209,10 +209,27 @@ def p_mercado(c, todas):
     return t
 
 
+def p_zonas_con_mas_alquiler(c):
+    """Distritos con más pisos alquilados declarados (24/11/2026). Responde a búsquedas tipo
+    "zonas de <ciudad> con más alquiler". Es un recuento del SERPAVI, no una medida de demanda."""
+    dist = [x for x in c.get("distritos", []) if x.get("inmuebles")]
+    if len(dist) < 4:
+        return None
+    total = sum(x["inmuebles"] for x in dist)
+    top = sorted(dist, key=lambda x: (-x["inmuebles"], x["numero"]))[:3]
+    parte = sum(x["inmuebles"] for x in top) / total * 100
+    if parte < 3 / len(dist) * 100 * 1.15:   # reparto casi uniforme: la frase no aportaría nada
+        return None
+    lista = ", ".join(f"{esc(x['nombre'])} ({n(x['inmuebles'])})" for x in top[:-1]) + f" y {esc(top[-1]['nombre'])} ({n(top[-1]['inmuebles'])})"
+    return (f"¿Dónde hay más pisos en alquiler? Los distritos con más viviendas alquiladas como residencia habitual y declaradas en el IRPF son "
+            f"{lista}: entre los tres reúnen el {d(parte, 0)} % de los {n(total)} pisos alquilados declarados en los {len(dist)} distritos. "
+            f"Es un recuento de pisos alquilados, no una medida de cuánta gente busca piso en cada zona.")
+
+
 def seccion_claves(c, todas, anio, ambito):
     """HTML de la sección. todas = ciudades con página (con alquiler y renta)."""
     parrafos = [p_alquiler_renta(c, todas, ambito), p_ultimo_anio(c, todas, anio), p_rango(c),
-                p_provincia(c, todas), p_distritos(c), p_poblacion(c, todas), p_mercado(c, todas)]
+                p_provincia(c, todas), p_distritos(c), p_zonas_con_mas_alquiler(c), p_poblacion(c, todas), p_mercado(c, todas)]
     parrafos = [p for p in parrafos if p]
     if not parrafos:
         return ""

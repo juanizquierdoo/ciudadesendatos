@@ -446,7 +446,8 @@ def generar(gw, todas):
     """Escribe las páginas en web/rankings/<slug>/ y devuelve sus rutas para el sitemap.
 
     gw es el módulo generar_web ya en marcha (con FECHA_GEN, etc. rellenos)."""
-    rutas = [(s, t) for s, _, t, _ in gw.RANKINGS] + [(s, t) for s, t, _ in TEMAS]
+    import alquiler_barato   # su ranking por comunidad sale también en "Más rankings"
+    rutas = [(s, t) for s, _, t, _ in gw.RANKINGS] + [(s, t) for s, t, _ in TEMAS] + [(alquiler_barato.SLUG_CCAA, alquiler_barato.TITULO_CCAA)]
     urls = []
     for slug, _, _ in TEMAS:
         gw.escribir(gw.WEB / "rankings" / slug / "index.html", PAGINAS[slug](gw, todas, rutas))

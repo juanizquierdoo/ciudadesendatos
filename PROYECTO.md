@@ -125,3 +125,18 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Revisión mensual de datos nuevos (23/11/2026)
 - Petición de Juan: una tarea programada revisa el día 1 de cada mes (8:47, hora de Madrid) si SERPAVI, el ADRH del INE o el callejero del INE tienen datos más recientes. Método, enlaces e historial en `REVISION_DATOS.md`. Solo avisa y ofrece actualizar; no cambia datos sin aprobación.
 - Primera revisión (23/11/2026): todo al día. Próximas novedades previsibles: callejero de enero de 2027, SERPAVI con 2025 (hacia marzo de 2027) y ADRH 2025 (hacia octubre de 2027).
+
+## Páginas de alquiler barato para búsquedas concretas (24/11/2026)
+- Hecho B-38 (Juan aprobó "más páginas que respondan a búsquedas concretas"): `alquiler_barato.py` genera /rankings/ciudad-mas-barata-de-cada-comunidad/ y 11 páginas /alquiler-barato/<ciudad>/ (Madrid, Barcelona, València, Sevilla, Málaga, Murcia, Alicante, Las Palmas, Gijón, Jerez y Santa Cruz de Tenerife). Cada una junta en un solo ranking los distritos de la ciudad más poblada de la provincia y las demás ciudades de la provincia, con ahorro al año frente a la mediana y los ingresos necesarios (regla del 30 %).
+- Regla 8: solo hay página si la ciudad tiene 5 distritos o más con alquiler fiable y la provincia 3 ciudades más con datos (MIN_DISTRITOS, MIN_OTRAS). Sin datos de distancia ni transporte: la página lo dice.
+- `generar_web.py` solo lo importa, pone la tarjeta en la portada, el enlace en la ficha (ciudad principal y ciudades de su provincia) y lo llama en main(). Test: `tests/test_alquiler_barato.py`.
+- Siguiente: medir en Search Console (B-39) antes de crear más páginas de este tipo.
+
+## Títulos y descripciones con la cifra (24/11/2026)
+- Título y descripción de fichas y comunidades salen de `titulo_desc_ciudad()` y `titulo_desc_comunidad()` en `generar_web.py`: cifra en el título, cambio anual, rango por barrios y peso sobre la renta en la descripción. Si se añade un dato al título, respetar 60 caracteres (hay variantes cortas) y no poner el año.
+- Párrafo "¿Dónde hay más pisos en alquiler?" en `textos_ciudad.py` (`p_zonas_con_mas_alquiler`).
+- Medir a las 3-4 semanas (B-41). Búsquedas de rentabilidad y tasación: B-42.
+
+## Evolución de precios en las fichas (24/11/2026)
+- `evolucion_precios.py` escribe la sección #evolucion de cada ficha (gráfico + texto + tabla año a año); `generar_web.py` solo la llama. Test: `tests/test_evolucion.py`. Al llegar los datos de 2025 sale sola una fila más.
+- Siguiente posible: lo mismo en las páginas de comunidad y una página nacional «evolución del precio del alquiler en España», si Search Console muestra búsquedas de evolución (B-43).

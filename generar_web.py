@@ -14,9 +14,12 @@ import unicodedata
 
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
+from evolucion_precios import seccion as seccion_evolucion
 import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
 import herramienta_sueldo   # herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2)
 import comparador_ciudades   # comparador de 2 a 4 ciudades (Fase 2, B-35)
+import mapa_precios   # mapa de precios de España por municipios y distritos (/mapa/)
+import alquiler_barato   # páginas de alquiler barato por comunidad y por provincia (B-38)
 import paginas_legales
 
 base = Path(__file__).parent
@@ -354,6 +357,77 @@ def th_orden(i, texto, tipo="num"):
     return f'<th><button type="button" data-col="{i}" data-type="{tipo}">{esc(texto)}</button></th>'
 
 
+
+# ------------------------------------------------------------------ títulos y descripciones (CTR en Google, 24/11/2026)
+# Search Console (23-24/11/2026): las fichas salen en posiciones 3-10 pero casi sin clics. El título y la
+# descripción llevan ahora la cifra principal, que es lo que busca quien escribe "precio alquiler <ciudad>".
+# Sin año en el <title> (decisión de Juan); máximo 60 caracteres de título y 155 de descripción.
+def primero_que_quepa(opciones, maximo):
+    for o in opciones:
+        if o and len(o) <= maximo:
+            return o
+    return opciones[-1]
+
+
+def juntar_hasta(partes, maximo=155):
+    """Une frases en orden y deja fuera las que ya no caben (la primera siempre entra).
+    Una tupla son variantes de la misma frase, de la larga a la corta: entra la primera que quepa."""
+    t = partes[0]
+    for p in partes[1:]:
+        for v in (p if isinstance(p, tuple) else (p,)):
+            if v and len(t) + 1 + len(v) <= maximo:
+                t += " " + v
+                break
+    return t
+
+
+def titulo_desc_ciudad(c, corto, dist, dist_ok):
+    alq = f"{n(c['alquiler_mes'])} € al mes"
+    zonas = "barrios" if any(x.get("barrios") or x.get("con_nombre_oficial") for x in dist) else "distritos"
+    if dist:
+        titulo = primero_que_quepa([f"Precio del alquiler en {corto}: {alq}, por {zonas}",
+                                    f"Alquiler en {corto}: {alq}, por {zonas}",
+                                    f"Alquiler en {corto}: {n(c['alquiler_mes'])} €/mes por {zonas}",
+                                    f"Alquiler en {corto}: {n(c['alquiler_mes'])} €/mes"], 60)
+    else:
+        titulo = primero_que_quepa([f"Precio del alquiler y renta en {corto}: {alq}",
+                                    f"Alquiler y renta en {corto}: {alq}",
+                                    f"Alquiler en {corto}: {n(c['alquiler_mes'])} €/mes"], 60)
+    serie = {s["anio"]: s["alquiler_mes"] for s in c["serie_alquiler"] if s.get("alquiler_mes")}
+    cambio = ""
+    if serie.get(ANIO) and serie.get(ANIO - 1):
+        ch = (serie[ANIO] / serie[ANIO - 1] - 1) * 100
+        cambio = f" ({'+' if ch > 0 else ''}{d(ch)} % en un año)"
+    peso = d(c["alquiler_pct_renta"])
+    partes = [f"Alquiler mediano en {corto}: {alq}{cambio}.",
+              (f"Supone el {peso} % de la renta del hogar ({n(c['renta_hogar'])} €).",
+               f"Supone el {peso} % de la renta del hogar.")]
+    ok = [x for x in dist_ok if x["fiabilidad"] == "ok" and x.get("alquiler_mes")]
+    if len(ok) >= 2:
+        lo = min(x["alquiler_mes"] for x in ok); hi = max(x["alquiler_mes"] for x in ok)
+        partes.insert(1, f"Por {zonas}, de {n(lo)} a {n(hi)} €.")
+    partes.append(f"Datos oficiales de {ANIO}.")
+    return titulo, juntar_hasta(partes)
+
+
+def titulo_desc_comunidad(cc, ciu, en, alq):
+    if alq:
+        titulo = primero_que_quepa([f"Precio del alquiler {en}: {n(alq)} € al mes, por ciudad",
+                                    f"Alquiler {en}: {n(alq)} € al mes, por ciudad",
+                                    f"Alquiler {en}: {n(alq)} €/mes por ciudad",
+                                    f"Alquiler {en} por ciudad"], 60)
+    else:
+        titulo = primero_que_quepa([f"Precio del alquiler {en} por ciudad", f"Alquiler {en} por ciudad"], 60)
+    por_alq = sorted(ciu, key=lambda c: -c["alquiler_mes"])
+    partes = [(f"Alquiler mediano de un piso {en}: {n(alq)} € al mes." if alq else
+               f"Alquiler y renta de las {len(ciu)} ciudades grandes {en}."),
+              f"Por ciudad, de {n(por_alq[-1]['alquiler_mes'])} € en {por_alq[-1]['nombre']} a "
+              f"{n(por_alq[0]['alquiler_mes'])} € en {por_alq[0]['nombre']}.",
+              f"Renta y peso del alquiler en sus {len(ciu)} ciudades, con datos oficiales de {ANIO}.",
+              f"Datos oficiales de {ANIO}."]
+    return titulo, juntar_hasta(partes)
+
+
 # ------------------------------------------------------------------ página de ciudad
 def pagina_ciudad(c, todas, rank_n):
     root = "../"
@@ -366,13 +440,7 @@ def pagina_ciudad(c, todas, rank_n):
     m2 = dict(ser)
 
     corto = nombre_comun(c)
-    titulo = (f"Precio del alquiler en {corto} por distrito ({ANIO})" if dist
-              else f"Precio del alquiler y renta en {corto} ({ANIO})")
-    if len(titulo) > 60:   # nombres largos: versión corta para que Google no corte el título
-        titulo = f"Alquiler en {corto} por distrito ({ANIO})" if dist else f"Alquiler y renta en {corto} ({ANIO})"
-    desc = (f"El alquiler mediano en {corto} es de {n(c['alquiler_mes'])} € al mes y equivale al "
-            f"{d(c['alquiler_pct_renta'])} % de la renta del hogar. "
-            + ("Datos oficiales por distrito." if dist else "Elaboración propia con datos oficiales."))
+    titulo, desc = titulo_desc_ciudad(c, corto, dist, dist_ok)
 
     lead = (f"La mitad de los pisos alquilados en {esc(nombre)} cuesta menos de {n(c['alquiler_mes'])} € al mes. "
             f"Al año, ese alquiler equivale al {d(c['alquiler_pct_renta'])} % de la renta media de un hogar "
@@ -395,28 +463,8 @@ def pagina_ciudad(c, todas, rank_n):
     # texto explicativo generado desde los datos (textos_ciudad.py, B-17)
     sec.append(seccion_claves(c, todas, ANIO, f"ciudades de más de {MIN_POB} habitantes"))
 
-    # evolución
-    svg = chart_svg(ser, f"Evolución del alquiler mediano por m² en {nombre}")
-    if svg:
-        txt = []
-        a0, v0 = ser[0]
-        ch = cambio(v0, ser[-1][1])
-        if ch is not None and a0 < ser[-1][0]:
-            txt.append(f"En {ser[-1][0]} el alquiler por m² es un {d(abs(ch), 0)} % {'mayor' if ch >= 0 else 'menor'} que en {a0}.")
-        if 2019 in m2 and ANIO in m2 and a0 < 2019:
-            ch19 = cambio(m2[2019], m2[ANIO])
-            txt.append(f"Desde 2019 ha {'subido' if ch19 >= 0 else 'bajado'} un {d(abs(ch19), 0)} %.")
-        if 2015 in m2 and ANIO in m2 and 2015 in rent and ANIO in rent:
-            ca, cr = cambio(m2[2015], m2[ANIO]), cambio(rent[2015], rent[ANIO])
-            if ca is not None and cr is not None:
-                rel = ("más rápido" if ca > cr else "más despacio")
-                txt.append(f"Entre 2015 y {ANIO} el alquiler por m² ha cambiado un {d(ca, 0)} % y la renta del hogar un {d(cr, 0)} %: "
-                           f"el alquiler ha crecido {rel} que los ingresos.")
-        sec.append(f'<section id="evolucion"><h2>Cómo ha cambiado el alquiler en {esc(nombre)}</h2>'
-                   f'<p class="sub">Alquiler mediano de un piso, en euros por m² al mes.</p>{svg}'
-                   f'<p class="sub" style="margin-top:12px">{" ".join(txt)}</p></section>')
-    else:
-        sec.append(f'<section id="evolucion"><h2>Evolución</h2><p class="sub">No hay serie histórica suficiente para {esc(nombre)}.</p></section>')
+    # evolución: gráfico, texto y tabla año a año (evolucion_precios.py)
+    sec.append(seccion_evolucion(c, chart_svg(ser, f"Evolución del alquiler mediano por m² en {nombre}"), ANIO))
 
     # distritos
     mapa_js = ""
@@ -541,7 +589,7 @@ def pagina_ciudad(c, todas, rank_n):
     if prov:
         rel += f'<div><h3>Otras ciudades de {esc(c["provincia"])}</h3><ul class="lnk">{lnk(prov)}</ul></div>'
     rel += f'<div><h3>Ciudades con un peso del alquiler parecido</h3><ul class="lnk">{lnk(cerca)}</ul></div>'
-    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2>{comparador_ciudades.enlace_ficha(root, c)}{comp_ccaa}<div class="two">{rel}</div></section>')
+    sec.append(f'<section id="comparar"><h2>Compara con otras ciudades</h2>{comparador_ciudades.enlace_ficha(root, c)}{alquiler_barato.enlace_ficha(root, c, todas)}{comp_ccaa}<div class="two">{rel}</div></section>')
 
     # puesto en cada ranking, con enlace a la fila de la ciudad
     lis = "".join(
@@ -642,7 +690,7 @@ def pagina_indice(todas, rank_n):
     N = len(todas)
     orden = sorted(todas, key=lambda c: c["rank"]["alquiler_pct_renta"])
     li = lambda arr: "".join(f'<li><a href="{c["slug"]}/">{esc(c["nombre"])}</a><strong>{pc(c["alquiler_pct_renta"])}</strong></li>' for c in arr)
-    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root) + herramienta_sueldo.tarjeta(root) + comparador_ciudades.tarjeta(root)
+    tarjetas = "".join(f'<a class="card" href="rankings/{s}/"><strong>{esc(t)}</strong><span>{esc(df)}</span></a>' for s, k, t, df in RANKINGS) + rankings_temas.tarjetas(root) + alquiler_barato.tarjeta(root) + herramienta_sueldo.tarjeta(root) + comparador_ciudades.tarjeta(root) + mapa_precios.tarjeta(root)
     lista = "".join(f'<li data-b="{esc(norm(c["nombre"] + " " + c["provincia"]))}"><a href="{c["slug"]}/">{esc(c["nombre"])}</a>'
                     f'<span>{esc(c["provincia"])}</span><strong>{pc(c["alquiler_pct_renta"])}</strong></li>'
                     for c in sorted(todas, key=lambda c: norm(c["nombre"])))
@@ -703,11 +751,7 @@ def pagina_comunidad(cc, todas, rank_n):
     alq = cc.get("alquiler_mes")
     ch19 = cambio_19(cc["serie_alquiler"])
 
-    titulo = f"Precio del alquiler {en} por ciudad ({ANIO})"
-    if len(titulo) > 60:
-        titulo = f"Alquiler {en} por ciudad ({ANIO})"
-    desc = ((f"El alquiler mediano {en} es de {n(alq)} € al mes. " if alq else "")
-            + f"Alquiler, renta y peso del alquiler en sus {N} ciudades de más de {MIN_POB} habitantes ({ANIO}).")
+    titulo, desc = titulo_desc_comunidad(cc, ciu, en, alq)
 
     por_alq = sorted(ciu, key=lambda c: -c["alquiler_mes"])
     lead = (f"La mitad de los pisos alquilados como vivienda habitual {en} cuesta menos de {n(alq)} € al mes "
@@ -1140,6 +1184,8 @@ def main():
     urls_temas = rankings_temas.generar(sys.modules[__name__], todas)
     urls_temas += herramienta_sueldo.generar(sys.modules[__name__], todas)
     urls_temas += comparador_ciudades.generar(sys.modules[__name__], todas)
+    urls_temas += mapa_precios.generar(sys.modules[__name__], todas)
+    urls_temas += alquiler_barato.generar(sys.modules[__name__], todas)
     for c in todas:
         escribir(WEB / c["slug"] / "index.html", pagina_ciudad(c, todas, rank_n))
     if COMUNIDADES:
