@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 26/11/2026: mapa de precios de España por municipios y distritos (petición de Juan, B-44)
+- Nueva página /mapa/: mapa de los 8.132 municipios coloreado por peso del alquiler, alquiler al mes o renta del hogar, con la misma escala de color que el mapa de distritos de las fichas (ESCALA_MAPA). Buscador de municipios, zoom con rueda, botones, arrastre y dos dedos, y enlace a la ficha cuando la hay. /mapa/#m=28079 abre el mapa centrado en un municipio.
+- Al acercarse se cargan solo las provincias que se ven, con más detalle y con los 3.393 distritos de los municipios que tienen más de uno (nombres de barrio de las fichas cuando los hay). Distritos sin dato fiable en gris; si menos de 2 distritos de un municipio tienen el dato, se pinta el municipio entero.
+- Misma regla de fiabilidad que en toda la web: menos de 30 inmuebles, sin alquiler; de 30 a 99, con aviso. Sin dato = gris, nunca estimado.
+- Límites: cartografía de secciones censales del INE de 2025 (CC BY 4.0, FUENTES.md fuente 9), unidos y simplificados con `preparar_mapa.py` (sin librerías externas). No forma parte de `actualizar.py`: los datos se añaden al generar la web, así que solo hay que rehacer los límites si cambian las secciones.
+- Peso: la página 26 KB; España 1,7 MB sin comprimir (unos 570 KB como la sirve GitHub Pages); cada provincia, menos de 300 KB, solo al acercarse. Sin mapas de terceros, sin cookies.
+- `generar_web.py`: 1 import, la tarjeta de la portada y la URL en el sitemap. Nuevo `tests/test_mapa_precios.py` (9 comprobaciones: límites de todos los municipios y distritos, arcos válidos, valores de referencia, regla de fiabilidad, peso, fuentes y aviso turístico, sitemap y portada).
+- Probado en Chromium (1280 y 390 px): carga, buscador, cambio de dato, zoom a Valladolid, Madrid y Barcelona con distritos, toque en el móvil; sin scroll horizontal y sin errores de JavaScript. Sin probar en Firefox, Safari ni en un móvil real (B-14).
+
 ## 24/11/2026: evolución de los precios año a año en cada ficha (petición de Juan, B-43)
 - Nuevo `evolucion_precios.py`: la sección «Evolución» de cada ficha pasa a llamarse «Evolución del precio del alquiler en <ciudad>» y, además del gráfico del €/m², lleva una tabla «El alquiler en <ciudad>, año a año» (2011-2024): alquiler mediano al mes, €/m², cambio del €/m² en un año, pisos alquilados declarados, renta neta media del hogar (desde 2015) y alquiler sobre la renta de cada año. El año más reciente, arriba.
 - Texto calculado con los datos: de cuánto a cuánto ha pasado el alquiler al mes, cambio por m² desde el primer año, año en que el precio tocó fondo, cambio desde 2019, mayor subida anual y alquiler frente a renta desde 2015.

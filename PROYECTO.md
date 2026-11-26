@@ -140,3 +140,8 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 ## Evolución de precios en las fichas (24/11/2026)
 - `evolucion_precios.py` escribe la sección #evolucion de cada ficha (gráfico + texto + tabla año a año); `generar_web.py` solo la llama. Test: `tests/test_evolucion.py`. Al llegar los datos de 2025 sale sola una fila más.
 - Siguiente posible: lo mismo en las páginas de comunidad y una página nacional «evolución del precio del alquiler en España», si Search Console muestra búsquedas de evolución (B-43).
+
+## Mapa de precios de España (26/11/2026)
+- Hecho B-44 (petición de Juan): /mapa/ con todos los municipios y, al acercarse, sus distritos. `mapa_precios.py` genera la página y sus datos (web/mapa/espana.json y web/mapa/p/<prov>.json); `generar_web.py` solo lo importa. Test: `tests/test_mapa_precios.py`.
+- Los límites están en `datos_limpios/mapa/` y los crea `python preparar_mapa.py` con `datos_originales/seccionado_2025.zip` (INE, CC BY 4.0, FUENTES.md fuente 9). No está en `actualizar.py`: solo se rehace si cambian las secciones censales. Se usa 2025 porque es el que cuadra distrito a distrito con los datos de renta.
+- Siguiente: medir en Search Console (B-45) y, si funciona, enlazar «Ver en el mapa» desde cada ficha (/mapa/#m=<código>).

@@ -23,6 +23,7 @@ que devuelve la URL para el sitemap.
 """
 import csv
 import json
+import re
 
 import herramienta_sueldo
 
@@ -54,13 +55,25 @@ def _num(v, k=None):
     return round(x, k) if k is not None else round(x)
 
 
-def leer_municipios(gw):
+ARTICULO = re.compile(r"^(.*), (El|La|Los|Las|Lo|Les|Els|Es|Sa|Ses|O|A|Os|As|L'|Na)$")
+
+
+def nombre_comun(nom):
+    """El INE pone el artículo detrás ("Viso del Alcor, El"); en el mapa se lee mejor delante."""
+    m = ARTICULO.match(nom.strip())
+    if not m:
+        return nom
+    return m.group(2) + ("" if m.group(2).endswith("'") else " ") + m.group(1)
+
+
+def leer_municipios(gw, todas=()):
     from config import MUNICIPIOS
+    propios = {c["cod_muni"]: c["nombre"] for c in todas}
     out = {}
     for r in csv.DictReader(open(MUNICIPIOS, encoding="utf-8-sig")):
         fiable = r["fiabilidad"] in FIABLES
         out[r["cod_muni"].zfill(5)] = {
-            "nombre": r["nombre_muni"], "provincia": r["provincia"], "poblacion": _num(r["poblacion"]),
+            "nombre": propios.get(r["cod_muni"].zfill(5)) or nombre_comun(r["nombre_muni"]), "provincia": r["provincia"], "poblacion": _num(r["poblacion"]),
             "alq": _num(r["alquiler_mes"]) if fiable else None,
             "m2": _num(r["eur_m2"], 2) if fiable else None,
             "pct": _num(r["alquiler_pct_renta"], 1) if fiable else None,
@@ -120,7 +133,8 @@ def resumen(munis, dist, geo):
 
 CSS_PAGINA = """<style>
 .mp{position:relative;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);margin-top:12px}
-.mp canvas{display:block;width:100%;height:min(76vh,620px);touch-action:none;cursor:grab}
+.mp canvas{display:block;width:100%;aspect-ratio:4/3;max-height:min(76vh,640px);touch-action:none;cursor:grab}
+@media (max-width:600px){.mp canvas{aspect-ratio:1/1.08}}
 .mp canvas.arr{cursor:grabbing}
 .mp-zoom{position:absolute;top:10px;right:10px;display:flex;flex-direction:column;gap:6px}
 .mp-zoom button{width:38px;height:38px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:600 20px/1 inherit;cursor:pointer}
@@ -156,7 +170,7 @@ var LO=hex(css.getPropertyValue("--lo")||"#e4edf8"),HI=hex(css.getPropertyValue(
 var NB=24,COL=[];for(var b=0;b<NB;b++){var t=b/(NB-1);COL.push("rgb("+LO.map(function(l,i){return Math.round(l+(HI[i]-l)*t)}).join(",")+")")}
 function bucket(v){if(v==null)return -1;var e=ESC[mk],t=Math.max(0,Math.min(1,(v-e[0])/(e[1]-e[0])));return Math.round(t*(NB-1))}
 // ---- geometría
-function arcos(A,u){return A.map(function(a){var x=0,y=0,o=new Float64Array(a.length*2);for(var i=0;i<a.length;i++){x+=a[i][0];y+=a[i][1];o[2*i]=x*u/1000;o[2*i+1]=-y*u/1000}return o})}
+function arcos(A,u){return A.map(function(a){var x=0,y=0,o=new Float64Array(a.length);for(var i=0;i<a.length;i+=2){x+=a[i];y+=a[i+1];o[i]=x*u/1000;o[i+1]=-y*u/1000}return o})}
 function anillo(refs,A,p,bb){var first=true;refs.forEach(function(r){var a=A[r<0?~r:r],n=a.length/2;for(var j=0;j<n;j++){var k=r<0?n-1-j:j;if(!first&&j===0)continue;var x=a[2*k],y=a[2*k+1];if(first){p.moveTo(x,y);first=false}else p.lineTo(x,y);if(x<bb[0])bb[0]=x;if(y<bb[1])bb[1]=y;if(x>bb[2])bb[2]=x;if(y>bb[3])bb[3]=y}});p.closePath()}
 function forma(rs,A){var p=new Path2D(),bb=[1e9,1e9,-1e9,-1e9],big=0,c=null;rs.forEach(function(r){var b0=[1e9,1e9,-1e9,-1e9];anillo(r,A,p,b0);var s=(b0[2]-b0[0])*(b0[3]-b0[1]);if(s>big){big=s;c=b0}for(var i=0;i<2;i++){bb[i]=Math.min(bb[i],b0[i]);bb[i+2]=Math.max(bb[i+2],b0[i+2])}});return {p:p,bb:bb,c:c?[(c[0]+c[2])/2,(c[1]+c[3])/2]:[0,0]}}
 function lineas(ids,A){var p=new Path2D();ids.forEach(function(i){var a=A[i];p.moveTo(a[0],a[1]);for(var j=2;j<a.length;j+=2)p.lineTo(a[j],a[j+1])});return p}
@@ -178,11 +192,15 @@ function cargar(p){if(cargando[p])return;cargando[p]=1;fetch("p/"+p+".json").the
   var A=arcos(j.arcos,j.unidad),U=[],mods={};
   Object.keys(j.unidades).forEach(function(id){var g=forma(j.unidades[id],A),m=id.substr(0,5),md=E.byId[m];
     U.push({id:id,m:m,p:g.p,bb:g.bb,c:g.c,dd:id.length>5?(j.datos[id]||null):null,mu:md})});
-  // en cada municipio con distritos: ¿todos tienen el dato elegido? si no, se pinta el dato del municipio
-  var por={};U.forEach(function(u){if(u.id.length>5)(por[u.m]=por[u.m]||[]).push(u)});
-  PROV[p]={U:U,lim:lineas(j.limites,A),todas:lineas(j.arcos.map(function(_,i){return i}),A),por:por};pintar()}).catch(function(){cargando[p]=0})}
-function valU(u,P){var m=u.mu&&u.mu.d,ds=P.por[u.m];var idx={pct:4,alq:1,renta:3}[mk];
-  if(ds&&ds.every(function(x){return x.dd&&x.dd[idx]!=null}))return {v:u.dd[idx],dis:true};return {v:m?m[idx]:null,dis:false}}
+  var por={},uso={},borde={};U.forEach(function(u){if(u.id.length>5)(por[u.m]=por[u.m]||[]).push(u)});
+  // contorno de cada municipio: los arcos que usa una sola vez entre todas sus unidades
+  Object.keys(j.unidades).forEach(function(id){var m=id.substr(0,5),c=uso[m]=uso[m]||{};j.unidades[id].forEach(function(r){r.forEach(function(a){a=a<0?~a:a;c[a]=(c[a]||0)+1})})});
+  Object.keys(uso).forEach(function(m){borde[m]=lineas(Object.keys(uso[m]).filter(function(a){return uso[m][a]===1}).map(Number),A)});
+  PROV[p]={U:U,lim:lineas(j.limites,A),todas:lineas(j.arcos.map(function(_,i){return i}),A),por:por,borde:borde};pintar()}).catch(function(){cargando[p]=0})}
+// en un municipio con distritos se pintan los distritos si al menos 2 tienen el dato elegido (los demás, en gris);
+// si no, el municipio entero con su cifra general
+function valU(u,P){var m=u.mu&&u.mu.d,ds=P.por[u.m],idx={pct:4,alq:1,renta:3}[mk];
+  if(ds&&ds.filter(function(x){return x.dd&&x.dd[idx]!=null}).length>=2)return {v:u.dd?u.dd[idx]:null,dis:true};return {v:m?m[idx]:null,dis:false}}
 var DET=6;   // píxeles por km a partir de los que se usa el detalle por provincia
 function visibles(){var x0=-tx/k,y0=-ty/k,x1=x0+W/k,y1=y0+H/k;return Object.keys(E.provincias).filter(function(p){var b=E.provincias[p],u=E.unidad/1000;
   var bx0=b[0]*u,bx1=b[2]*u,by0=-b[3]*u,by1=-b[1]*u;return bx1>=x0&&bx0<=x1&&by1>=y0&&by0<=y1})}
@@ -198,7 +216,8 @@ function dib(){pend=0;if(!E)return;ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0
     ctx.strokeStyle=LINE;ctx.lineWidth=.6/k;ctx.stroke(P.todas);ctx.lineWidth=1.6/k;ctx.stroke(P.lim)});
   ctx.strokeStyle=INK;ctx.globalAlpha=.55;ctx.lineWidth=(k>DET?1.2:.8)/k;ctx.stroke(E.lim);ctx.globalAlpha=1;
   ctx.strokeStyle=INK;ctx.lineWidth=.8/k;ctx.strokeRect(E.can[0],E.can[1],E.can[2],E.can[3]);
-  if(sel){ctx.strokeStyle=INK;ctx.lineWidth=2.5/k;ctx.stroke(sel.p)}
+  if(sel){ctx.strokeStyle=INK;ctx.lineWidth=2.5/k;var P=hecho[sel.prov||sel.m.substr(0,2)]&&PROV[sel.prov||sel.m.substr(0,2)];
+    ctx.stroke(sel.prov&&P?P.borde[sel.id]:sel.p)}
   etiquetas();
 }
 function etiquetas(){var min=k<1.2?400000:k<2.5?150000:k<DET?50000:k<15?10000:2000,usadas=[];
@@ -292,8 +311,8 @@ def pagina(gw, todas, r):
               f"{gw.n(r['con_alquiler'])} tienen suficientes pisos alquilados en la muestra (30 o más) para dar un alquiler mediano fiable. "
               "En el resto, sobre todo pueblos pequeños, el mapa los deja en gris: no inventamos ni estimamos el dato.</p>"
               f"<p>Al acercarte aparecen los distritos de los municipios que tienen más de uno ({gw.n(r['distritos'])} distritos, "
-              f"{gw.n(r['distritos_alquiler'])} con alquiler fiable). Si algún distrito de un municipio no tiene el dato elegido, "
-              "ese municipio se pinta entero con su cifra general, para no mezclar escalas.</p>"
+              f"{gw.n(r['distritos_alquiler'])} con alquiler fiable). Los distritos sin dato fiable quedan en gris. "
+              "Si en un municipio menos de dos distritos tienen el dato elegido, se pinta entero con su cifra general.</p>"
               "<p>Los colores usan la misma escala que los mapas de distritos de las fichas: el mismo color significa lo mismo en toda la web. "
               "Los valores por encima o por debajo de la escala toman el color del extremo.</p>")
     met = ('<section id="metodologia"><h2>Cómo se ha hecho</h2><ul class="notes">'
@@ -315,7 +334,7 @@ def pagina(gw, todas, r):
               f'<section><h2>Relacionado</h2><ul class="lnk"><li><a href="{root}{herramienta_sueldo.SLUG}/">¿Dónde puedo vivir con mi sueldo?</a></li>'
               f'<li><a href="{root}comparar-ciudades/">Compara ciudades</a></li>'
               f'<li><a href="{root}comunidades/">Alquiler por comunidad autónoma</a></li></ul></section>{gw.pie(root)}</main>')
-    desc = ("Mapa interactivo del alquiler, la renta de los hogares y el peso del alquiler en cada municipio de España, "
+    desc = ("Mapa del alquiler, la renta y el peso del alquiler en cada municipio de España, "
             f"con detalle por distritos y barrios. Datos oficiales de {gw.ANIO}.")
     ld = [gw.dataset(f"{TITULO} ({gw.ANIO})", desc, f"{SLUG}/", "España",
                      ["Alquiler mensual mediano por municipio y distrito", "Renta neta media por hogar", "Alquiler sobre renta"]),
@@ -335,7 +354,7 @@ def generar(gw, todas):
         print("AVISO: falta datos_limpios/mapa/espana.json (python preparar_mapa.py). Sin mapa de España.")
         return []
     geo = json.loads((geo_dir / "espana.json").read_text(encoding="utf-8"))
-    munis = leer_municipios(gw)
+    munis = leer_municipios(gw, todas)
     dist = leer_distritos(gw, todas)
     geo["datos"] = datos_espana(gw, todas, munis, geo)
     gw.escribir(gw.WEB / SLUG / "espana.json", _json(geo))

@@ -39,9 +39,10 @@ ORIGEN = BASE / "datos_originales"
 SALIDA = BASE / "datos_limpios" / "mapa"
 
 # Resolución: unidad de las coordenadas guardadas (metros) y tolerancia de la simplificación (metros)
-NAC_UNIDAD, NAC_TOL = 100, 450      # vista de toda España
+NAC_UNIDAD, NAC_TOL = 100, 600      # vista de toda España
 PROV_UNIDAD, PROV_TOL = 10, 25      # vista de una provincia o una ciudad
 CANARIAS = ("35", "38")
+MIN_AREA = 1000                     # m²: anillos más pequeños se consideran restos y se quitan
 
 
 # ------------------------------------------------------------------ lectura del SHAPE
@@ -142,7 +143,10 @@ def disolver(anillos):
                 p = sig[p].pop()
             if len(ring) >= 3:
                 out.append(ring)
-    return [r for r in (sin_pinchos(r) for r in out) if len(r) >= 3 and area(r) != 0]
+    out = [r for r in (sin_pinchos(r) for r in out) if len(r) >= 3 and area(r) != 0]
+    # restos diminutos de lados que no encajan del todo entre secciones (menos de 1.000 m²): se quitan
+    grandes = [r for r in out if abs(area(r)) >= MIN_AREA]
+    return grandes or sorted(out, key=lambda r: -abs(area(r)))[:1]
 
 
 def sin_pinchos(r):
@@ -216,8 +220,8 @@ def dp(pts, tol):
 def topologia(grupos, tol):
     """grupos: {id: [anillos]}. Devuelve (arcos, {id: [[referencias de arco]]}) estilo TopoJSON.
 
-    Un punto es fijo si es de 3 o más grupos o si en algún anillo cambia el conjunto de grupos al pasar
-    por él. Entre dos puntos fijos, el tramo es el mismo para los dos vecinos y se simplifica una vez."""
+    Un punto es fijo si es de 3 o más grupos o si en algún anillo cambia el vecino del lado al pasar
+    por él (por ejemplo, donde una frontera entre dos municipios llega a la costa). Entre dos puntos fijos, el tramo es el mismo para los dos vecinos y se simplifica una vez."""
     dueños = defaultdict(set)
     for g, anillos in grupos.items():
         for r in anillos:
@@ -229,7 +233,7 @@ def topologia(grupos, tol):
             m = len(r)
             for i in range(m):
                 d = dueños[r[i]]
-                if len(d) >= 3 or d != dueños[r[i - 1]] or d != dueños[r[(i + 1) % m]]:
+                if len(d) >= 3 or (d & dueños[r[i - 1]]) != (d & dueños[r[(i + 1) % m]]):
                     fijos.add(r[i])
     arcos, indice, geoms = [], {}, {}
     for g, anillos in grupos.items():
@@ -266,7 +270,7 @@ def arco(tramo, tol, arcos, indice):
 
 
 def delta(arcos, u_in, u_out):
-    """Arcos en enteros de u_out metros con diferencias (como TopoJSON cuantizado)."""
+    """Arcos en enteros de u_out metros con diferencias, en una lista plana [dx0, dy0, dx1, dy1, ...]."""
     f = u_in / u_out
     out = []
     for a in arcos:
@@ -276,10 +280,10 @@ def delta(arcos, u_in, u_out):
             qx, qy = round(x * f), round(y * f)
             if r and qx == px and qy == py:
                 continue
-            r.append([qx - px, qy - py])
+            r += [qx - px, qy - py]
             px, py = qx, qy
-        if len(r) < 2:
-            r.append([0, 0])
+        if len(r) < 4:
+            r += [0, 0]
         out.append(r)
     return out
 

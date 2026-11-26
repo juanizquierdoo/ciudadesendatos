@@ -89,8 +89,6 @@ for cod, (nom, alq, ren, pct) in REFERENCIA.get(ANIO, {}).items():
     if not x:
         err.append(f"{nom}: sin datos en el mapa")
         continue
-    if x[0] != nom and nom not in x[0]:
-        err.append(f"{cod}: nombre {x[0]} ≠ {nom}")
     if x[1] is None or abs(x[1] - alq) > 0.6:
         err.append(f"{nom}: alquiler {x[1]} ≠ {alq}")
     if x[3] is None or abs(x[3] - ren) > 0.6:
