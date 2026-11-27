@@ -563,9 +563,7 @@ def pagina_ciudad(c, todas, rank_n):
                    + ('' if any(x["con_nombre_oficial"] or x.get("zona") for x in dist) else
                       '<p class="proto">Los distritos se identifican con el número del INE. Los nombres de barrio todavía no están incorporados.</p>')
                    + '</section>')
-    else:
-        sec.append(f'<section id="distritos"><h2>Distritos</h2><p class="sub">{esc(nombre)} tiene un único distrito censal en los datos del INE, '
-                   f'así que no hay desglose interno.</p></section>')
+    # sin desglose: no se pone una sección vacía (B-17); lo explica una línea en "Quién vive"
 
     # perfil
     perfil = [("Población", n(c["poblacion"])), ("Edad media", d(c.get("edad_media")) + " años" if c.get("edad_media") else None),
@@ -575,7 +573,9 @@ def pagina_ciudad(c, todas, rank_n):
               ("Tamaño medio del hogar", d(c.get("tam_hogar"), 2) + " personas" if c.get("tam_hogar") else None)]
     items = "".join(f"<div><dt>{esc(a)}</dt><dd>{esc(b)}</dd></div>" for a, b in perfil if b)
     sec.append(f'<section id="perfil"><h2>Quién vive en {esc(nombre)}</h2><dl class="perfil">{items}</dl>'
-               f'<p class="sub" style="margin-top:12px;font-size:14px">Datos de {ANIO} del INE.</p></section>')
+               f'<p class="sub" style="margin-top:12px;font-size:14px">Datos de {ANIO} del INE.'
+               + ('' if dist else f' {esc(nombre)} tiene un único distrito censal, así que no hay desglose por barrios.')
+               + '</p></section>')
 
     # enlaces internos
     prov = [x for x in todas if x["provincia"] == c["provincia"] and x["slug"] != c["slug"]][:8]

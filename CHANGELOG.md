@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 27/11/2026: fichas «Rastreada: actualmente sin indexar» (Search Console)
+- Search Console marcaba 9 fichas como rastreadas sin indexar (Marbella, Zaragoza, Arganda del Rey, Lugo, Castelldefels, Gijón, Reus, Getxo y Jerez), rastreadas del 23 al 25/11.
+- Diagnóstico (comparadas con las 151 fichas): ningún error técnico (canonical propio, sin noindex, en el sitemap, mismo número de enlaces internos que el resto: 12-19 desde otras páginas, mediana 16). Tampoco son más cortas ni más repetidas que las indexadas: su texto propio (5-gramas que no comparten con más de 3 fichas) va del 8 % al 20 %, con mediana del 13 % en todas las fichas. Conclusión: es la cola normal de Google en una web de una semana, no un fallo de estas páginas.
+- Google las rastreó con la versión anterior al 26/11 (título genérico «por distrito», sin la sección de evolución; Marbella tenía unas 1.300 palabras y ahora unas 1.850). La versión publicada el 26/11 es más completa.
+- Cambio (B-17): las 21 fichas sin desglose ya no tienen una sección «Distritos» vacía; la frase pasa a «Quién vive en…». Solo cambian esas 21 páginas. Tests: 26 OK, 0 FALLA.
+- Pendiente de Juan: publicar (git push) y pedir la indexación de las 9 URL en Search Console.
+
 ## 26/11/2026: mapa de distritos en Zaragoza, Valladolid y Las Palmas (petición de Juan, B-37)
 - Las tres fichas tienen ya el mapa esquemático de distritos, con la misma escala de color que el resto (91 ciudades con mapa). Zaragoza y Valladolid, 12 distritos cada una; Las Palmas, 5.
 - Calles de OpenStreetMap (© colaboradores de OpenStreetMap, ODbL) bajadas por Juan con `descargar_osm.html`: `osm_calles_zaragoza.csv`, `osm_calles_valladolid.csv` y `osm_calles_laspalmas.csv`. Las Palmas, por su límite municipal (relación 340783), filtrando las calles que caen dentro.

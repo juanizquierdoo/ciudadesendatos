@@ -147,3 +147,8 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Hecho B-44 (petición de Juan): /mapa/ con todos los municipios y, al acercarse, sus distritos. `mapa_precios.py` genera la página y sus datos (web/mapa/espana.json y web/mapa/p/<prov>.json); `generar_web.py` solo lo importa. Test: `tests/test_mapa_precios.py`.
 - Los límites están en `datos_limpios/mapa/` y los crea `python preparar_mapa.py` con `datos_originales/seccionado_2025.zip` (INE, CC BY 4.0, FUENTES.md fuente 9). No está en `actualizar.py`: solo se rehace si cambian las secciones censales. Se usa 2025 porque es el que cuadra distrito a distrito con los datos de renta.
 - Siguiente: medir en Search Console (B-45) y, si funciona, enlazar «Ver en el mapa» desde cada ficha (/mapa/#m=<código>).
+
+## Fichas rastreadas sin indexar (27/11/2026)
+- 9 fichas en «Rastreada: actualmente sin indexar». Sin error técnico y sin diferencia medible con las indexadas (enlaces, longitud, texto propio); Google las vio antes de las mejoras del 26/11. Detalle en CHANGELOG. Quitada la sección «Distritos» vacía en 21 fichas (B-17).
+- Para medir cuánto texto propio tiene cada ficha: 5-gramas del texto (números sustituidos) que no aparecen en más de 3 fichas; mediana 13 %. Revisar el 11/12/2026 (B-46).
+
