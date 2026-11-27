@@ -152,3 +152,8 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - 9 fichas en «Rastreada: actualmente sin indexar». Sin error técnico y sin diferencia medible con las indexadas (enlaces, longitud, texto propio); Google las vio antes de las mejoras del 26/11. Detalle en CHANGELOG. Quitada la sección «Distritos» vacía en 21 fichas (B-17).
 - Para medir cuánto texto propio tiene cada ficha: 5-gramas del texto (números sustituidos) que no aparecen en más de 3 fichas; mediana 13 %. Revisar el 11/12/2026 (B-46).
 
+
+## Fase 3: paro registrado (27/11/2026)
+- Aprobado por Juan: Fase 3, primer módulo = paro registrado del SEPE (B-47). `paro.py` es el módulo completo (carga, aportación al JSON, sección #empleo de la ficha); `preparar_json.py`, `generar_web.py` y `comparador_ciudades.py` solo lo llaman. Test: `tests/test_paro.py`.
+- Datos de octubre de 2026, serie de octubre 2016-2026. Para actualizar: CSV del SEPE a `datos_originales/sepe/`, `python paro.py --extraer`, cambiar `DESCARGA` y `python actualizar.py --desde 4`.
+- Siguiente: medir (B-48) y, si Juan lo aprueba, el módulo 2 (población por edades o precio de compra, B-49).

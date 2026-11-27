@@ -254,3 +254,9 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 - Causa: (1) Google aún no ha vuelto a rastrear algunas páginas (la portada sale con el título antiguo, anterior al 23/11); (2) cuando Google reescribe un título usa el H1, y 22 H1 llevaban "(2024)" (las 10 páginas de alquiler barato, los 11 rankings y la de comunidades). El " - ciudadesendatos" lo añade Google al reescribir; no se puede prohibir.
 - Cambio: esos H1 van sin año; el año pasa a una línea pequeña debajo ("Datos oficiales de 2024."). Sigue en descripción, texto, pie y JSON-LD.
 - Tests: nueva comprobación en `test_seo.py` (ningún H1 con año ni marca); `test_alquiler_barato.py` y `test_rankings_temas.py` adaptados. 26 OK, 0 FALLA. En la web solo cambian esos 22 archivos.
+
+## 27/11/2026: paro registrado en cada ficha (Fase 3, módulo 1)
+- Nuevo `paro.py` (SEPE, «Paro registrado por municipio», CC BY 4.0; FUENTES.md fuente 10). `preparar_json.py` añade `paro` a cada ciudad del JSON; `generar_web.py` pone la sección «Paro registrado en <ciudad>» (#empleo) en las 151 fichas, con: parados en octubre de 2026, cambio en un año, parados por cada 100 habitantes de 18 a 64 años (estimación propia) con su puesto y la mediana de las 151, texto propio calculado, gráfico y tabla de octubre de 2016 a 2026, desglose por sexo y edad y por sector. Comparador: 3 filas nuevas (grupo «Empleo»). Pie: cita del SEPE.
+- Datos: extracto de los CSV del SEPE en `datos_municipales/sepe_paro/` (ninguna cifra cambiada). Comprobado que el desglose suma el total en las 151 ciudades. `python paro.py --extraer` rehace el extracto desde los CSV completos (no probado todavía con los CSV completos en Windows: se usará en la próxima actualización).
+- Tests: nuevo `tests/test_paro.py` (7 comprobaciones, con valores de referencia de Madrid, Valencia y Valladolid). 27 OK, 0 FALLA. Valores de referencia de alquiler y renta sin cambios.
+- No probado en un navegador real: solo el HTML generado.

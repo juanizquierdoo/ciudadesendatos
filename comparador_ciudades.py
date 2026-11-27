@@ -82,6 +82,9 @@ def filas(gw):
         ["renta", "Renta neta media por hogar", 0, " € al año", False, "Renta de los hogares", ""],
         ["rper", "Renta neta media por persona", 0, " € al año", False, "Renta de los hogares", ""],
         ["chr5", f"Cambio de la renta del hogar {A0}-{A}", 1, " %", True, "Renta de los hogares", "Sin descontar la inflación"],
+        ["par", "Paro registrado (personas)", 0, "", False, "Empleo", "SEPE, último mes publicado. No es la tasa de paro de la EPA"],
+        ["p100", "Parados por cada 100 habitantes de 18 a 64 años", 1, "", False, "Empleo", "Estimación propia: paro registrado / población de 18 a 64 años"],
+        ["chpar", "Cambio del paro registrado en un año", 1, " %", True, "Empleo", "Mismo mes del año anterior"],
         ["pob", "Población", 0, "", False, "Población", ""],
         ["edad", "Edad media", 1, " años", False, "Población", ""],
         ["m18", "Menores de 18 años", 1, " %", False, "Población", ""],
@@ -109,7 +112,9 @@ def ciudad_js(gw, c):
          "renta": c["renta_hogar"], "rper": c.get("renta_persona"),
          "chr5": _var(_en(c, A0, "serie_renta", "renta_hogar"), _en(c, A, "serie_renta", "renta_hogar")),
          "pob": c.get("poblacion"), "edad": c.get("edad_media"), "m18": c.get("pct_menor_18"), "m65": c.get("pct_65_mas"),
-         "uni": c.get("pct_unipersonales"), "tam": c.get("tam_hogar"), "nd": len(ds)}
+         "uni": c.get("pct_unipersonales"), "tam": c.get("tam_hogar"), "nd": len(ds),
+         "par": (c.get("paro") or {}).get("total"), "p100": (c.get("paro") or {}).get("por_100"),
+         "chpar": _var((c.get("paro") or {}).get("anterior"), (c.get("paro") or {}).get("total"))}
     out = {"n": c["nombre"], "s": c["slug"], "p": c["provincia"], "cc": cc, "pob": c.get("poblacion") or 0,
            "v": {k: _r(x) for k, x in v.items()},
            "m2r": [c["eur_m2_p25"], c["eur_m2_p75"]] if c.get("eur_m2_p25") is not None and c.get("eur_m2_p75") is not None else None,

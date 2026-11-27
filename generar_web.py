@@ -15,6 +15,7 @@ import unicodedata
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
 from evolucion_precios import seccion as seccion_evolucion
+import paro   # paro registrado del SEPE en cada ficha (Fase 3, paro.py)
 import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
 import herramienta_sueldo   # herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2)
 import comparador_ciudades   # comparador de 2 a 4 ciudades (Fase 2, B-35)
@@ -280,8 +281,9 @@ def pie(root):
             f"<p>Alquiler: Origen de los datos: Ministerio de Vivienda y Agenda Urbana (SERPAVI, datos de {ANIO}; actualizado el {FECHA_SERPAVI}). "
             "Renta y población: Elaboración propia con datos extraídos del sitio web del INE: www.ine.es "
             f"(Atlas de Distribución de Renta de los Hogares, {ANIO}; actualizado el {FECHA_ADRH}). "
+            f"Paro registrado: Servicio Público de Empleo Estatal (SEPE), datos abiertos CC BY 4.0 (descargados el {paro.DESCARGA}). "
             "Los indicadores combinados, como el alquiler sobre la renta, son estimaciones propias de "
-            f"{SITIO}. Esta web no está vinculada al INE ni al Ministerio de Vivienda.</p>"
+            f"{SITIO}. Esta web no está vinculada al INE, al Ministerio de Vivienda ni al SEPE.</p>"
             f'<p>Los datos elaborados y los textos de {SITIO} se publican con licencia '
             f'<a href="{LICENCIA_URL}" rel="license">{LICENCIA}</a>: puedes reutilizarlos citando {SITIO} con un enlace a esta web.'
             " Los datos de origen mantienen la licencia de sus fuentes."
@@ -472,6 +474,12 @@ def pagina_ciudad(c, todas, rank_n):
     # evolución: gráfico, texto y tabla año a año (evolucion_precios.py)
     sec.append(seccion_evolucion(c, chart_svg(ser, f"Evolución del alquiler mediano por m² en {nombre}"), ANIO))
 
+    # paro registrado (SEPE): sección #empleo, solo si hay dato (paro.py)
+    s_paro = paro.seccion(c, todas)
+    if s_paro:
+        sec.append(s_paro)
+        nav.append(("#empleo", "Paro"))
+
     # distritos
     mapa_js = ""
     if dist:
@@ -622,7 +630,8 @@ def pagina_ciudad(c, todas, rank_n):
     ruta = f"{c['slug']}/"
     ld = [dataset(f"Alquiler y renta en {nombre}", desc, ruta, f"{nombre}, {c['provincia']}, España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"]
-                  + (["Desglose por distrito censal"] if dist else []),
+                  + (["Desglose por distrito censal"] if dist else [])
+                  + (["Paro registrado"] if c.get("paro") else []),
                   f"{ser[0][0]}/{ser[-1][0]}" if ser else str(ANIO)),
           migas([(t, r) for t, r in pasos] + [(nombre, ruta)])]
     return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root, mapa_js)

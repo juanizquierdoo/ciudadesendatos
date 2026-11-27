@@ -223,6 +223,11 @@ for s, lista in vistos.items():
             c["slug"] = f"{s}-{slug(c['provincia'])}"
         print("Slug repetido resuelto:", s, "->", [c["slug"] for c in lista])
 
+# módulo de paro registrado (SEPE, paro.py): añade c["paro"] a cada ciudad
+import paro  # noqa: E402
+paro.aportar(ciudades)
+print("Ciudades con paro registrado (SEPE):", sum(1 for c in ciudades if c["paro"]))
+
 salida = {"generado": date.today().isoformat(), "anio_datos": ANIO, "fecha_callejero": fecha_callejero, "ciudades": ciudades}
 ruta_json = JSON_NIVEL1
 ruta_json.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
