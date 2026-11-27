@@ -115,6 +115,10 @@ comprobar("La portada declara el nombre del sitio (WebSite) y el logo (Organizat
 # decisión de Juan (26/11/2026): los títulos no terminan con el nombre del sitio
 comprobar("Ningún título termina con el nombre del sitio",
           [f"{r or 'portada'}: {t}" for r, t in titulos.items() if t and re.search(r"[-|·–]\s*ciudadesendatos\s*$", t)])
+# decisión de Juan (27/11/2026): Google a veces usa el H1 como título, así que el H1 tampoco lleva año ni marca
+comprobar("Ningún H1 lleva el año entre paréntesis ni empieza o termina con la marca",
+          [f"{r or 'portada'}: {h}" for r, s in paginas.items() for h in re.findall(r"<h1[^>]*>(.*?)</h1>", s, re.S)
+           if re.search(r"\(\d{4}\)", h) or re.search(r"^\s*ciudadesendatos|ciudadesendatos\s*$", h)])
 
 # cada ficha enlaza a los 4 rankings y la fila de destino existe
 errores = []

@@ -103,7 +103,7 @@ def _pagina(gw, slug, titulo, desc, lead, claves, aviso, tabla, metodologia, var
     titulo_a = f"{titulo} ({gw.ANIO})"
     otros = "".join(f'<li><a href="{root}rankings/{s}/">{gw.esc(t)}</a></li>' for s, t in todas_rutas if s != slug)
     cuerpo = (gw.cabecera(root, [("#claves", "Claves"), ("#tabla", "Tabla")]) +
-              f'<div class="hero"><div>{gw.migas_html(root, [("Inicio", "")], titulo)}<h1>{gw.esc(titulo_a)}</h1>'
+              f'<div class="hero"><div>{gw.migas_html(root, [("Inicio", "")], titulo)}<h1>{gw.esc(titulo)}</h1><p class="sub">Datos oficiales de {gw.ANIO}.</p>'  # Decisión de Juan (27/11/2026): el H1 va sin año, porque Google a veces usa el H1 como título del resultado.
               f'<p class="lead">{lead}</p>{aviso}</div></div><main>'
               f'<section id="claves"><h2>Qué dicen los datos</h2>{"".join(f"<p>{p}</p>" for p in claves)}</section>'
               f'<section id="tabla">{tabla}</section>{metodologia}'

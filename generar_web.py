@@ -659,7 +659,7 @@ def pagina_ranking(slug, clave, titulo, def_, todas, rank_n):
     otros = "".join(f'<li><a href="{root}rankings/{s}/">{esc(t)}</a></li>' for s, k, t, _ in RANKINGS if s != slug)
     desc = f"{titulo} en {ANIO}, con datos oficiales de las {len(todas)} ciudades españolas de más de {MIN_POB} habitantes."
     cuerpo = (cabecera(root, [("#tabla", "Tabla")]) +
-              f'<div class="hero"><div>{migas_html(root, [("Inicio", "")], titulo)}<h1>{esc(titulo)} ({ANIO})</h1><p class="lead">{esc(def_)}</p>'
+              f'<div class="hero"><div>{migas_html(root, [("Inicio", "")], titulo)}<h1>{esc(titulo)}</h1><p class="sub">Datos oficiales de {ANIO}.</p><p class="lead">{esc(def_)}</p>'
               f'<p class="sub"><strong>Mayor:</strong> {top}.<br><strong>Menor:</strong> {bot}.</p>{aviso_turistico()}</div></div>'
               f'<main><section id="tabla"><div class="wrap"><table class="sortable numbered" data-sort="{ {"alquiler_pct_renta": 7, "alquiler_mes": 4, "eur_m2": 5, "renta_hogar": 6}[clave] }">'
               f'<thead><tr><th>#</th>{th_orden(1, "Ciudad", "text")}{th_orden(2, "Provincia", "text")}{th_orden(3, "Población")}'
@@ -875,7 +875,7 @@ def pagina_comunidades(todas):
             if sin_pag else "")
     cuerpo = (cabecera(root, [("#tabla", "Tabla")]) +
               f'<div class="hero"><div>{migas_html(root, [("Inicio", "")], "Comunidades autónomas")}'
-              f'<h1>Alquiler por comunidad autónoma ({ANIO})</h1><p class="lead">{lead}</p>{aviso_turistico()}</div></div>'
+              f'<h1>Alquiler por comunidad autónoma</h1><p class="sub">Datos oficiales de {ANIO}.</p><p class="lead">{lead}</p>{aviso_turistico()}</div></div>'
               f'<main><section id="tabla"><div class="wrap"><table class="sortable" data-sort="1"><thead><tr>'
               f'{th_orden(0, "Comunidad", "text")}{th_orden(1, "Alquiler al mes")}{th_orden(2, "€/m²")}{th_orden(3, "Cambio €/m² desde 2019")}'
               f'{th_orden(4, f"Ciudades de más de {MIN_POB} hab.")}</tr></thead><tbody>{"".join(filas)}</tbody></table></div>{nota}</section>'

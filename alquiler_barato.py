@@ -249,7 +249,8 @@ def pagina_provincia(gw, cap, otras, provs, todas):
         titulo = f"Alquiler barato en {corto}: barrios y alrededores"
     if len(titulo) > 60:
         titulo = f"Alquiler barato en {corto} y su provincia"
-    h1 = f"Dónde alquilar más barato en {nom} y su provincia ({A})"
+    # Decisión de Juan (27/11/2026): el H1 va sin año, porque Google a veces usa el H1 como título del resultado.
+    h1 = f"Dónde alquilar más barato en {nom} y su provincia"
     desc = (f"Distritos más baratos de {corto} (desde {n(bd['alquiler_mes'])} €/mes) y "
             + (f"{len(baratas)} ciudades de la provincia con alquiler más bajo" if baratas else "las demás ciudades de su provincia")
             + f". Datos oficiales de {A}.")
@@ -268,7 +269,7 @@ def pagina_provincia(gw, cap, otras, provs, todas):
     pasos = [("Inicio", ""), (nom, f"{cap['slug']}/")]
     actual = "Dónde alquilar más barato"
     cuerpo = (gw.cabecera(root, [("#claves", "Claves"), ("#tabla", "Tabla"), ("#metodologia", "Metodología")]) +
-              f'<div class="hero"><div>{gw.migas_html(root, pasos, actual)}<h1>{esc(h1)}</h1>'
+              f'<div class="hero"><div>{gw.migas_html(root, pasos, actual)}<h1>{esc(h1)}</h1><p class="sub">Datos oficiales de {A}.</p>'
               f'<p class="lead">{lead}</p>{facts}{aviso}</div></div><main>'
               f'<section id="claves"><h2>Qué dicen los datos</h2>{"".join(f"<p>{p}</p>" for p in claves)}{dos}{comp}</section>'
               f'{tabla}{enl}{met}{gw.pie(root)}</main>')

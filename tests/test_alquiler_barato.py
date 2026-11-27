@@ -163,14 +163,14 @@ for r, raw in rutas.items():
             err.append(f"{r}: enlace roto {h}")
 comprobar("Todos los enlaces internos llevan a una página que existe", err)
 
-# 6. título sin año, H1 con año, metodología, aviso de distancias y aviso turístico en la costa
+# 6. título y H1 sin año (el año va en la línea de debajo), metodología, aviso de distancias y aviso turístico en la costa
 err = []
 for r, raw in rutas.items():
     tit = re.search(r"<title>(.*?)</title>", raw).group(1)
     if str(ANIO) in tit or len(tit) > 60:
         err.append(f"{r}: título con año o de más de 60 caracteres ({tit})")
-    if not re.search(rf"<h1>[^<]*\({ANIO}\)</h1>", raw):
-        err.append(f"{r}: el H1 no lleva el año")
+    if re.search(r"<h1>[^<]*\(20\d\d\)</h1>", raw) or f"Datos oficiales de {ANIO}." not in raw:
+        err.append(f"{r}: el H1 lleva año o falta la línea con el año de los datos")
     if 'id="metodologia"' not in raw:
         err.append(f"{r}: sin metodología")
 for cap, _ in provs:

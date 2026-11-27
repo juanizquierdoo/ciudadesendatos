@@ -248,3 +248,9 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 - Portada: `<title>` sin "| ciudadesendatos". JSON-LD con WebSite (name "ciudadesendatos", alternateName "ciudadesendatos.es") y Organization con logo. Las páginas legales mantienen "de ciudadesendatos" porque forma parte del título, no es una coletilla.
 - El " - ciudadesendatos" que se veía en Google no estaba en nuestro título: Google reescribió el título de Valladolid usando el H1 y le añadió el nombre del sitio. Eso lo decide Google y no se puede prohibir; el favicon nuevo también puede tardar días o semanas en verse en los resultados.
 - Tests: 3 comprobaciones nuevas en `test_seo.py` (iconos enlazados, WebSite y Organization con logo, ningún título termina con la marca). 26 OK, 0 FALLA. En la web solo cambian las etiquetas de iconos, el título y el JSON-LD de la portada, y las imágenes.
+
+## 27/11/2026: H1 sin año
+- Juan vio en Google títulos con "(2024)" y con "ciudadesendatos" delante o detrás. Comprobado en la web publicada: ningún `<title>` ni `og:title` lleva ya año ni marca, y el favicon está enlazado en todas las páginas, se sirve bien (ico 48 px, PNG 192 px, SVG) y robots.txt no lo bloquea.
+- Causa: (1) Google aún no ha vuelto a rastrear algunas páginas (la portada sale con el título antiguo, anterior al 23/11); (2) cuando Google reescribe un título usa el H1, y 22 H1 llevaban "(2024)" (las 10 páginas de alquiler barato, los 11 rankings y la de comunidades). El " - ciudadesendatos" lo añade Google al reescribir; no se puede prohibir.
+- Cambio: esos H1 van sin año; el año pasa a una línea pequeña debajo ("Datos oficiales de 2024."). Sigue en descripción, texto, pie y JSON-LD.
+- Tests: nueva comprobación en `test_seo.py` (ningún H1 con año ni marca); `test_alquiler_barato.py` y `test_rankings_temas.py` adaptados. 26 OK, 0 FALLA. En la web solo cambian esos 22 archivos.
