@@ -227,6 +227,10 @@ for s, lista in vistos.items():
 import paro  # noqa: E402
 paro.aportar(ciudades)
 print("Ciudades con paro registrado (SEPE):", sum(1 for c in ciudades if c["paro"]))
+# módulo de precio de compra (valor tasado, Ministerio de Transportes; precio_vivienda.py)
+import precio_vivienda  # noqa: E402
+precio_vivienda.aportar(ciudades)
+print("Ciudades con valor tasado:", sum(1 for c in ciudades if c["compra"]))
 
 salida = {"generado": date.today().isoformat(), "anio_datos": ANIO, "fecha_callejero": fecha_callejero, "ciudades": ciudades}
 ruta_json = JSON_NIVEL1

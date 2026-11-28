@@ -157,3 +157,7 @@ En paralelo, cuando Juan tenga el dominio: Fase 1 (publicar en GitHub Pages, pá
 - Aprobado por Juan: Fase 3, primer módulo = paro registrado del SEPE (B-47). `paro.py` es el módulo completo (carga, aportación al JSON, sección #empleo de la ficha); `preparar_json.py`, `generar_web.py` y `comparador_ciudades.py` solo lo llaman. Test: `tests/test_paro.py`.
 - Datos de octubre de 2026, serie de octubre 2016-2026. Para actualizar: CSV del SEPE a `datos_originales/sepe/`, `python paro.py --extraer`, cambiar `DESCARGA` y `python actualizar.py --desde 4`.
 - Siguiente: medir (B-48) y, si Juan lo aprueba, el módulo 2 (población por edades o precio de compra, B-49).
+
+## Fase 3: precio de compra (28/11/2026)
+- Módulo 2 = valor tasado de la vivienda (B-50), `precio_vivienda.py` + `tests/test_precio_vivienda.py`. Para actualizar cada trimestre: Juan baja de nuevo `35103500.xls` a datos_originales/, `python precio_vivienda.py --extraer` (necesita xlrd), cambiar DESCARGA y PUBLICADO, `python actualizar.py --desde 4`.
+- Siguiente: medir (B-48, B-51); módulo 3 posible: población por edades.

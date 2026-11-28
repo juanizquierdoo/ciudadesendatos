@@ -119,6 +119,16 @@ Script: `zonas_ciudades.py` → `datos_limpios/zonas_nombradas.csv` (columnas co
 - **Indicador propio:** parados por cada 100 habitantes de 18 a 64 años = paro registrado / (población × (100 − % menores de 18 − % mayores de 65) / 100), con población del ADRH del INE (2024). Se presenta siempre como estimación propia, no como tasa.
 - **Actualizar:** descargar los CSV anuales a `datos_originales/sepe/`, `python paro.py --extraer`, cambiar `DESCARGA` en `paro.py` y `python actualizar.py --desde 4`.
 
+### 11. Precio de compra: valor tasado de la vivienda libre por municipios, Ministerio de Transportes (desde 28/11/2026)
+- **Tabla:** «Valor tasado medio de vivienda libre de los municipios mayores de 25.000 habitantes» (tabla 4 del Boletín Estadístico, sección «Valor tasado de la vivienda»), https://boletinestadistico.transportes.gob.es/2?nivel=2&orden=35000000. Archivo `https://cdn.transportes.gob.es/estadistica/BoletinOnline2/35103500.xls`, última modificación en el servidor 09/10/2026, descargado por Juan el 28/11/2026 a `datos_originales/35103500.xls` (fuera de git).
+- **Qué mide:** valor medio por m² de las tasaciones de vivienda libre del trimestre (total y por antigüedad) y número de tasaciones. No es el precio de venta. «n.r» = no representativo o sin observaciones.
+- **Nivel y periodo:** municipios de más de 25.000 habitantes, una pestaña por trimestre desde 2005. Usamos 2015T1-2026T2. No trae código INE: se casa por nombre (`precio_vivienda.py`, `claves()` y 7 alias comprobados a mano); las 151 ciudades casan en los 46 trimestres con el mismo municipio del Excel y ninguna fila sirve a dos ciudades (test).
+- **Extracto en git:** `datos_municipales/mivau_valor_tasado/valor_tasado_trimestres.csv` (cifras sin cambiar; el test lo coteja con el Excel).
+- **Licencia:** aviso legal de transportes.gob.es (https://www.transportes.gob.es/aviso-legal), leído el 28/11/2026: «La información disponible en este sitio web, salvo indicación expresa en contrario, es susceptible de reutilización», también para usos comerciales, con tres condiciones: no desnaturalizar, citar la fuente y mencionar la fecha de la última actualización. El Excel no lleva indicación en contrario. Los logotipos no se usan.
+- **Cita que usamos:** «Origen de los datos: Ministerio de Transportes y Movilidad Sostenible, Boletín Estadístico, Valor tasado medio de vivienda libre de los municipios mayores de 25.000 habitantes (actualizado el 09/10/2026)», en la sección de la ficha y en el pie.
+- **Indicadores propios (siempre como estimación):** rentabilidad bruta = alquiler mediano €/m² de 2024 (SERPAVI) × 12 / media del valor tasado de los 4 trimestres de 2024; veces la renta = valor tasado medio 2024 × superficie mediana alquilada / renta neta media del hogar 2024. Mismo año para no mezclar periodos.
+- **Descartadas:** «Valor tasado de la Vivienda» y «Transacciones inmobiliarias» de datos.gob.es (VDP006, VDP003) llegan solo a provincia; las transacciones por municipio son número, sin precio. La ficha de datos.gob.es del valor tasado municipal (a13002908…) no indica licencia. Notariado: licencia no confirmada.
+
 ## Candidatas comprobadas (todavía sin usar)
 | Fuente | Publicador | Nivel | Periodicidad | Licencia (dónde se leyó, 18/11/2026) | Pendiente de verificar |
 |---|---|---|---|---|---|

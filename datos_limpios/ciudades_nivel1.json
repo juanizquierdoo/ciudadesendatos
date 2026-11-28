@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-27",
+ "generado": "2026-11-28",
  "anio_datos": 2024,
  "fecha_callejero": "30/06/2026",
  "ciudades": [
@@ -682,6 +682,67 @@
      "servicios": 114081,
      "sin_empleo_anterior": 11016
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5418.4,
+    "tasaciones": 11686,
+    "anterior": 4952.5,
+    "v2019": 3223.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2492.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2591.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2677.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3012.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3223.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3174.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3288.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3643.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3727.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4144.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4952.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5418.4
+     }
+    ],
+    "valor_m2_anio": 4225.0,
+    "rentabilidad": 3.97,
+    "anios_renta": 5.2
    }
   },
   {
@@ -1123,6 +1184,67 @@
      "servicios": 52535,
      "sin_empleo_anterior": 7433
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4601.8,
+    "tasaciones": 5519,
+    "anterior": 4305.7,
+    "v2019": 3417.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2521.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2656.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2836.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3297.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3417.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3283.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3354.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3546.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3600.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3832.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4305.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4601.8
+     }
+    ],
+    "valor_m2_anio": 3872.6,
+    "rentabilidad": 4.24,
+    "anios_renta": 5.3
    }
   },
   {
@@ -1749,6 +1871,67 @@
      "servicios": 33029,
      "sin_empleo_anterior": 4501
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2972.8,
+    "tasaciones": 2735,
+    "anterior": 2541.7,
+    "v2019": 1461.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1181.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1180.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1099.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1244.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1461.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1421.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1592.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1701.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1880.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2077.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2541.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2972.8
+     }
+    ],
+    "valor_m2_anio": 2185.4,
+    "rentabilidad": 4.49,
+    "anios_renta": 4.4
    }
   },
   {
@@ -2302,6 +2485,67 @@
      "servicios": 20416,
      "sin_empleo_anterior": 4295
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2240.3,
+    "tasaciones": 1940,
+    "anterior": 1989.7,
+    "v2019": 1420.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1295.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1275.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1212.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1308.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1420.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1377.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1460.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1595.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1582.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1726.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1989.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2240.3
+     }
+    ],
+    "valor_m2_anio": 1749.9,
+    "rentabilidad": 5.29,
+    "anios_renta": 3.0
    }
   },
   {
@@ -2918,6 +3162,67 @@
      "servicios": 35817,
      "sin_empleo_anterior": 7374
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2652.3,
+    "tasaciones": 2543,
+    "anterior": 2313.0,
+    "v2019": 1646.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1629.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1501.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1520.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1565.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1646.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1694.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1889.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1869.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1973.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2111.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2313.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2652.3
+     }
+    ],
+    "valor_m2_anio": 2118.7,
+    "rentabilidad": 5.19,
+    "anios_renta": 4.0
    }
   },
   {
@@ -3466,6 +3771,67 @@
      "servicios": 29122,
      "sin_empleo_anterior": 5373
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3320.5,
+    "tasaciones": 1722,
+    "anterior": 2893.5,
+    "v2019": 1717.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1264.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1346.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1346.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1513.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1717.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1740.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1839.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2011.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2213.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2506.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2893.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3320.5
+     }
+    ],
+    "valor_m2_anio": 2561.0,
+    "rentabilidad": 4.47,
+    "anios_renta": 5.3
    }
   },
   {
@@ -3942,6 +4308,67 @@
      "servicios": 18037,
      "sin_empleo_anterior": 2668
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1579.6,
+    "tasaciones": 2035,
+    "anterior": 1388.5,
+    "v2019": 1057.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 963.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 919.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 903.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1005.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1057.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 997.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1105.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1164.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1217.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1324.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1388.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1579.6
+     }
+    ],
+    "valor_m2_anio": 1305.8,
+    "rentabilidad": 5.99,
+    "anios_renta": 2.9
    }
   },
   {
@@ -4330,6 +4757,67 @@
      "servicios": 9419,
      "sin_empleo_anterior": 1948
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3814.5,
+    "tasaciones": 1274,
+    "anterior": 3337.1,
+    "v2019": 2096.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1511.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1526.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1669.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1855.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2096.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2080.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2292.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2390.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2626.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2889.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3337.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3814.5
+     }
+    ],
+    "valor_m2_anio": 2968.3,
+    "rentabilidad": 3.98,
+    "anios_renta": 5.2
    }
   },
   {
@@ -4708,6 +5196,67 @@
      "servicios": 21816,
      "sin_empleo_anterior": 2728
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2337.4,
+    "tasaciones": 1058,
+    "anterior": 2046.8,
+    "v2019": 1524.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1328.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1357.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1407.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1499.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1524.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1491.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1639.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1741.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1746.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1816.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2046.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2337.4
+     }
+    ],
+    "valor_m2_anio": 1864.9,
+    "rentabilidad": 5.21,
+    "anios_renta": 3.4
    }
   },
   {
@@ -5159,6 +5708,67 @@
      "servicios": 18350,
      "sin_empleo_anterior": 4579
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2279.2,
+    "tasaciones": 1213,
+    "anterior": 2024.9,
+    "v2019": 1186.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1106.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1071.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1037.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1150.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1186.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1126.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1248.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1348.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1541.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1703.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2024.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2279.2
+     }
+    ],
+    "valor_m2_anio": 1757.1,
+    "rentabilidad": 4.86,
+    "anios_renta": 4.2
    }
   },
   {
@@ -5541,6 +6151,67 @@
      "servicios": 14907,
      "sin_empleo_anterior": 4027
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3529.3,
+    "tasaciones": 956,
+    "anterior": 3267.9,
+    "v2019": 2433.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2344.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2392.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2268.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2320.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2433.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2522.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2588.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2724.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2721.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2908.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3267.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3529.3
+     }
+    ],
+    "valor_m2_anio": 2891.7,
+    "rentabilidad": 4.78,
+    "anios_renta": 4.3
    }
   },
   {
@@ -6081,6 +6752,67 @@
      "servicios": 16490,
      "sin_empleo_anterior": 3075
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1783.8,
+    "tasaciones": 1202,
+    "anterior": 1579.2,
+    "v2019": 1315.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1226.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1237.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1262.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1288.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1315.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1279.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1329.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1353.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1366.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1463.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1579.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1783.8
+     }
+    ],
+    "valor_m2_anio": 1449.6,
+    "rentabilidad": 5.91,
+    "anios_renta": 3.0
    }
   },
   {
@@ -6636,6 +7368,67 @@
      "servicios": 9820,
      "sin_empleo_anterior": 2059
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1946.5,
+    "tasaciones": 819,
+    "anterior": 1659.8,
+    "v2019": 1327.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1229.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1235.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1175.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1259.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1327.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1282.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1394.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1448.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1451.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1496.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1659.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1946.5
+     }
+    ],
+    "valor_m2_anio": 1542.6,
+    "rentabilidad": 5.26,
+    "anios_renta": 3.1
    }
   },
   {
@@ -7141,6 +7934,67 @@
      "servicios": 11284,
      "sin_empleo_anterior": 1601
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2346.3,
+    "tasaciones": 692,
+    "anterior": 2092.0,
+    "v2019": 1405.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1308.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1322.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1330.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1404.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1405.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1450.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1544.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1649.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1753.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1841.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2092.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2346.3
+     }
+    ],
+    "valor_m2_anio": 1878.6,
+    "rentabilidad": 4.86,
+    "anios_renta": 3.8
    }
   },
   {
@@ -7529,6 +8383,67 @@
      "servicios": 9275,
      "sin_empleo_anterior": 1664
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3094.1,
+    "tasaciones": 1114,
+    "anterior": 2773.4,
+    "v2019": 2198.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1423.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1465.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1629.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1928.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2198.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2139.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2179.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2216.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2328.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2475.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2773.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3094.1
+     }
+    ],
+    "valor_m2_anio": 2513.0,
+    "rentabilidad": 6.21,
+    "anios_renta": 3.6
    }
   },
   {
@@ -8008,6 +8923,67 @@
      "servicios": 11108,
      "sin_empleo_anterior": 1674
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2343.3,
+    "tasaciones": 790,
+    "anterior": 2082.7,
+    "v2019": 1399.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1377.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1254.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1312.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1385.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1399.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1438.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1525.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1574.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1648.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1786.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2082.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2343.3
+     }
+    ],
+    "valor_m2_anio": 1818.5,
+    "rentabilidad": 4.76,
+    "anios_renta": 3.6
    }
   },
   {
@@ -8393,6 +9369,67 @@
      "servicios": 9704,
      "sin_empleo_anterior": 2731
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2680.9,
+    "tasaciones": 537,
+    "anterior": 2534.8,
+    "v2019": 2030.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2011.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1919.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1881.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1942.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2030.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2107.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2197.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2224.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2259.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2266.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2534.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2680.9
+     }
+    ],
+    "valor_m2_anio": 2305.6,
+    "rentabilidad": 4.79,
+    "anios_renta": 4.1
    }
   },
   {
@@ -8927,6 +9964,67 @@
      "servicios": 9431,
      "sin_empleo_anterior": 1694
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2774.8,
+    "tasaciones": 583,
+    "anterior": 2572.4,
+    "v2019": 1625.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1577.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1566.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1571.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1525.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1625.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1737.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1809.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1840.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2021.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2111.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2572.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2774.8
+     }
+    ],
+    "valor_m2_anio": 2174.7,
+    "rentabilidad": 3.92,
+    "anios_renta": 4.1
    }
   },
   {
@@ -9357,6 +10455,67 @@
      "servicios": 11105,
      "sin_empleo_anterior": 2440
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1635.1,
+    "tasaciones": 790,
+    "anterior": 1435.4,
+    "v2019": 890.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 805.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 822.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 774.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 841.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 890.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 883.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 998.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1006.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1081.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1147.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1435.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1635.1
+     }
+    ],
+    "valor_m2_anio": 1213.8,
+    "rentabilidad": 5.39,
+    "anios_renta": 3.4
    }
   },
   {
@@ -9846,6 +11005,67 @@
      "servicios": 12387,
      "sin_empleo_anterior": 3026
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2446.5,
+    "tasaciones": 789,
+    "anterior": 2186.3,
+    "v2019": 1590.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1378.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1410.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1447.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1457.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1590.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1583.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1641.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1734.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1828.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1909.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2186.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2446.5
+     }
+    ],
+    "valor_m2_anio": 1964.2,
+    "rentabilidad": 4.18,
+    "anios_renta": 4.5
    }
   },
   {
@@ -10276,6 +11496,67 @@
      "servicios": 7574,
      "sin_empleo_anterior": 1631
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2272.5,
+    "tasaciones": 1244,
+    "anterior": 2067.0,
+    "v2019": 1587.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1129.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1142.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1226.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1388.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1587.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1583.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1711.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1725.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1803.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1890.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2067.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2272.5
+     }
+    ],
+    "valor_m2_anio": 1907.6,
+    "rentabilidad": 5.6,
+    "anios_renta": 3.5
    }
   },
   {
@@ -10761,6 +12042,67 @@
      "servicios": 8171,
      "sin_empleo_anterior": 1862
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2824.2,
+    "tasaciones": 1113,
+    "anterior": 2506.3,
+    "v2019": 1982.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1476.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1552.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1544.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1760.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1982.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1998.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2078.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2117.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2226.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2394.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2506.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2824.2
+     }
+    ],
+    "valor_m2_anio": 2387.6,
+    "rentabilidad": 5.11,
+    "anios_renta": 4.2
    }
   },
   {
@@ -11197,6 +12539,67 @@
      "servicios": 7309,
      "sin_empleo_anterior": 1524
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2397.4,
+    "tasaciones": 1095,
+    "anterior": 2200.5,
+    "v2019": 1738.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1227.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1220.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1317.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1502.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1738.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1652.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1808.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1820.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1947.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2039.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2200.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2397.4
+     }
+    ],
+    "valor_m2_anio": 2037.8,
+    "rentabilidad": 5.05,
+    "anios_renta": 3.9
    }
   },
   {
@@ -11891,6 +13294,67 @@
      "servicios": 7976,
      "sin_empleo_anterior": 1367
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2214.7,
+    "tasaciones": 724,
+    "anterior": 1876.8,
+    "v2019": 1321.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1344.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1358.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1216.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1293.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1321.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1309.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1369.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1397.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1515.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1552.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1876.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2214.7
+     }
+    ],
+    "valor_m2_anio": 1556.3,
+    "rentabilidad": 5.64,
+    "anios_renta": 2.9
    }
   },
   {
@@ -12418,6 +13882,67 @@
      "servicios": 8535,
      "sin_empleo_anterior": 1765
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1485.6,
+    "tasaciones": 934,
+    "anterior": 1307.9,
+    "v2019": 1008.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 973.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 938.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 891.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 921.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1008.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 923.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1076.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1059.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1102.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1141.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1307.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1485.6
+     }
+    ],
+    "valor_m2_anio": 1217.2,
+    "rentabilidad": 5.34,
+    "anios_renta": 3.0
    }
   },
   {
@@ -12944,6 +14469,67 @@
      "servicios": 13053,
      "sin_empleo_anterior": 2473
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1815.0,
+    "tasaciones": 847,
+    "anterior": 1519.6,
+    "v2019": 970.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 893.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 868.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 894.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 866.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 970.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 955.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1047.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1058.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1164.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1298.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1519.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1815.0
+     }
+    ],
+    "valor_m2_anio": 1322.8,
+    "rentabilidad": 5.91,
+    "anios_renta": 3.2
    }
   },
   {
@@ -13284,6 +14870,67 @@
      "servicios": 7409,
      "sin_empleo_anterior": 717
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3074.5,
+    "tasaciones": 579,
+    "anterior": 2587.4,
+    "v2019": 1673.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1175.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1240.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1321.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1505.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1673.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1677.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1754.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1920.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2012.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2197.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2587.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3074.5
+     }
+    ],
+    "valor_m2_anio": 2224.5,
+    "rentabilidad": 4.97,
+    "anios_renta": 4.2
    }
   },
   {
@@ -13839,6 +15486,67 @@
      "servicios": 12322,
      "sin_empleo_anterior": 1465
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2330.0,
+    "tasaciones": 648,
+    "anterior": 1948.8,
+    "v2019": 1351.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1166.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1145.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1167.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1203.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1351.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1289.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1397.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1466.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1622.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1731.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1948.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2330.0
+     }
+    ],
+    "valor_m2_anio": 1750.4,
+    "rentabilidad": 5.35,
+    "anios_renta": 3.3
    }
   },
   {
@@ -14277,6 +15985,67 @@
      "servicios": 7409,
      "sin_empleo_anterior": 1515
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2695.0,
+    "tasaciones": 388,
+    "anterior": 2578.8,
+    "v2019": 1785.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1555.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1426.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1650.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1728.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1785.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1836.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1840.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2134.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2234.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2422.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2578.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2695.0
+     }
+    ],
+    "valor_m2_anio": 2382.9,
+    "rentabilidad": 3.99,
+    "anios_renta": 4.4
    }
   },
   {
@@ -14735,6 +16504,67 @@
      "servicios": 9589,
      "sin_empleo_anterior": 2287
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1796.4,
+    "tasaciones": 723,
+    "anterior": 1487.2,
+    "v2019": 1205.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1121.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1092.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1055.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1109.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1205.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1198.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1200.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1254.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1336.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1379.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1487.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1796.4
+     }
+    ],
+    "valor_m2_anio": 1400.2,
+    "rentabilidad": 5.8,
+    "anios_renta": 3.1
    }
   },
   {
@@ -15108,6 +16938,67 @@
      "servicios": 6882,
      "sin_empleo_anterior": 792
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2942.2,
+    "tasaciones": 587,
+    "anterior": 2445.2,
+    "v2019": 1640.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1298.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1302.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1350.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1481.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1640.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1609.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1674.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1793.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1949.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2069.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2445.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2942.2
+     }
+    ],
+    "valor_m2_anio": 2120.2,
+    "rentabilidad": 5.33,
+    "anios_renta": 3.5
    }
   },
   {
@@ -15452,6 +17343,67 @@
      "servicios": 6654,
      "sin_empleo_anterior": 789
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3272.2,
+    "tasaciones": 453,
+    "anterior": 2689.1,
+    "v2019": 1846.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1378.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1426.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1421.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1642.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1846.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1855.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1906.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2120.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2173.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2368.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2689.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3272.2
+     }
+    ],
+    "valor_m2_anio": 2413.2,
+    "rentabilidad": 5.07,
+    "anios_renta": 3.6
    }
   },
   {
@@ -15872,6 +17824,67 @@
      "servicios": 6676,
      "sin_empleo_anterior": 724
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3253.9,
+    "tasaciones": 467,
+    "anterior": 2816.9,
+    "v2019": 1846.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1421.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1462.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1463.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1669.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1846.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1839.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1937.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2048.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2148.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2349.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2816.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3253.9
+     }
+    ],
+    "valor_m2_anio": 2393.6,
+    "rentabilidad": 4.89,
+    "anios_renta": 4.0
    }
   },
   {
@@ -16338,6 +18351,67 @@
      "servicios": 6964,
      "sin_empleo_anterior": 831
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2922.0,
+    "tasaciones": 523,
+    "anterior": 2510.3,
+    "v2019": 1616.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1193.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1238.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1314.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1482.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1616.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1626.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1739.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1882.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1938.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2056.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2510.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2922.0
+     }
+    ],
+    "valor_m2_anio": 2116.6,
+    "rentabilidad": 5.13,
+    "anios_renta": 3.9
    }
   },
   {
@@ -16759,6 +18833,67 @@
      "servicios": 5180,
      "sin_empleo_anterior": 748
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5208.3,
+    "tasaciones": 424,
+    "anterior": 4788.0,
+    "v2019": 3620.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 3059.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 3132.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 3436.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3564.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3620.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3568.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 4033.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3998.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 4240.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4413.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4788.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5208.3
+     }
+    ],
+    "valor_m2_anio": 4364.6,
+    "rentabilidad": 3.85,
+    "anios_renta": 5.6
    }
   },
   {
@@ -17201,6 +19336,67 @@
      "servicios": 7720,
      "sin_empleo_anterior": 2101
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1516.1,
+    "tasaciones": 658,
+    "anterior": 1315.0,
+    "v2019": 917.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 892.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 902.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 800.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 879.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 917.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 923.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1002.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1010.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1077.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1109.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1315.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1516.1
+     }
+    ],
+    "valor_m2_anio": 1162.8,
+    "rentabilidad": 5.6,
+    "anios_renta": 2.9
    }
   },
   {
@@ -17695,6 +19891,67 @@
      "servicios": 4989,
      "sin_empleo_anterior": 695
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2059.8,
+    "tasaciones": 451,
+    "anterior": 1709.1,
+    "v2019": 1348.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1185.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1160.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1202.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1258.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1348.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1307.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1371.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1438.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1468.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1565.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1709.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2059.8
+     }
+    ],
+    "valor_m2_anio": 1561.8,
+    "rentabilidad": 5.45,
+    "anios_renta": 2.9
    }
   },
   {
@@ -18030,6 +20287,67 @@
      "servicios": 5757,
      "sin_empleo_anterior": 514
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3561.5,
+    "tasaciones": 405,
+    "anterior": 3042.4,
+    "v2019": 2048.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1449.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1539.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1590.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1812.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2048.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2014.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2134.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2305.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2408.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2554.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3042.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3561.5
+     }
+    ],
+    "valor_m2_anio": 2596.3,
+    "rentabilidad": 4.71,
+    "anios_renta": 4.4
    }
   },
   {
@@ -18494,6 +20812,67 @@
      "servicios": 6768,
      "sin_empleo_anterior": 1183
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1803.7,
+    "tasaciones": 588,
+    "anterior": 1562.1,
+    "v2019": 1215.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1171.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1096.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1088.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1093.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1215.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1148.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1253.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1269.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1339.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1423.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1562.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1803.7
+     }
+    ],
+    "valor_m2_anio": 1430.5,
+    "rentabilidad": 5.02,
+    "anios_renta": 3.3
    }
   },
   {
@@ -18960,6 +21339,67 @@
      "servicios": 6465,
      "sin_empleo_anterior": 1068
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2662.3,
+    "tasaciones": 514,
+    "anterior": 2331.8,
+    "v2019": 1708.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1662.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1677.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1601.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1552.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1708.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1629.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1747.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1792.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1986.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2100.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2331.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2662.3
+     }
+    ],
+    "valor_m2_anio": 2169.8,
+    "rentabilidad": 4.58,
+    "anios_renta": 3.8
    }
   },
   {
@@ -19374,6 +21814,67 @@
      "servicios": 8365,
      "sin_empleo_anterior": 1046
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2041.9,
+    "tasaciones": 415,
+    "anterior": 1757.5,
+    "v2019": 1143.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 979.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 995.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1033.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1099.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1143.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1100.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1224.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1216.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1347.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1557.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1757.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2041.9
+     }
+    ],
+    "valor_m2_anio": 1580.7,
+    "rentabilidad": 5.55,
+    "anios_renta": 3.2
    }
   },
   {
@@ -19703,6 +22204,67 @@
      "servicios": 5213,
      "sin_empleo_anterior": 460
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4528.3,
+    "tasaciones": 748,
+    "anterior": 3915.8,
+    "v2019": 2540.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1920.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1971.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2134.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2335.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2540.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2564.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2641.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2815.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3145.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3394.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3915.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4528.3
+     }
+    ],
+    "valor_m2_anio": 3395.9,
+    "rentabilidad": 3.4,
+    "anios_renta": 7.6
    }
   },
   {
@@ -20107,6 +22669,67 @@
      "servicios": 4257,
      "sin_empleo_anterior": 415
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1902.4,
+    "tasaciones": 393,
+    "anterior": 1717.5,
+    "v2019": 1160.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1174.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1167.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1110.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1132.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1160.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1197.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1289.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1390.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1424.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1470.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1717.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1902.4
+     }
+    ],
+    "valor_m2_anio": 1547.9,
+    "rentabilidad": 4.99,
+    "anios_renta": 3.2
    }
   },
   {
@@ -20632,6 +23255,67 @@
      "servicios": 7457,
      "sin_empleo_anterior": 949
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1580.4,
+    "tasaciones": 530,
+    "anterior": 1443.2,
+    "v2019": 1127.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1110.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1114.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1050.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1092.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1127.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1164.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1250.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1251.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1321.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1398.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1443.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1580.4
+     }
+    ],
+    "valor_m2_anio": 1420.0,
+    "rentabilidad": 4.98,
+    "anios_renta": 3.4
    }
   },
   {
@@ -21033,6 +23717,67 @@
      "servicios": 6019,
      "sin_empleo_anterior": 1309
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2134.7,
+    "tasaciones": 414,
+    "anterior": 1889.2,
+    "v2019": 1504.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1472.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1503.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1479.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1376.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1504.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1563.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1482.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1663.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1597.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1638.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1889.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2134.7
+     }
+    ],
+    "valor_m2_anio": 1674.1,
+    "rentabilidad": 4.57,
+    "anios_renta": 4.1
    }
   },
   {
@@ -21523,6 +24268,67 @@
      "servicios": 4630,
      "sin_empleo_anterior": 1470
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1369.4,
+    "tasaciones": 450,
+    "anterior": 1244.2,
+    "v2019": 906.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 945.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 846.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 834.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 893.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 906.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 870.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 944.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 997.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1068.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1139.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1244.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1369.4
+     }
+    ],
+    "valor_m2_anio": 1148.0,
+    "rentabilidad": 6.91,
+    "anios_renta": 2.3
    }
   },
   {
@@ -21944,6 +24750,67 @@
      "servicios": 6734,
      "sin_empleo_anterior": 1477
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1658.1,
+    "tasaciones": 546,
+    "anterior": 1360.3,
+    "v2019": 983.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1043.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 951.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 937.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 946.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 983.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1010.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1068.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1073.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1161.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1314.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1360.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1658.1
+     }
+    ],
+    "valor_m2_anio": 1294.2,
+    "rentabilidad": 6.3,
+    "anios_renta": 2.9
    }
   },
   {
@@ -22267,6 +25134,67 @@
      "servicios": 4970,
      "sin_empleo_anterior": 372
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3042.7,
+    "tasaciones": 428,
+    "anterior": 2619.4,
+    "v2019": 1707.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1195.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1242.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1316.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1493.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1707.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1687.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1789.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1947.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2056.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2199.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2619.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3042.7
+     }
+    ],
+    "valor_m2_anio": 2233.8,
+    "rentabilidad": 4.95,
+    "anios_renta": 4.2
    }
   },
   {
@@ -22643,6 +25571,67 @@
      "servicios": 7342,
      "sin_empleo_anterior": 965
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1992.9,
+    "tasaciones": 528,
+    "anterior": 1709.3,
+    "v2019": 1200.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1041.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1086.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1086.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1152.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1200.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1226.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1323.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1363.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1477.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1565.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1709.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1992.9
+     }
+    ],
+    "valor_m2_anio": 1594.3,
+    "rentabilidad": 5.61,
+    "anios_renta": 3.3
    }
   },
   {
@@ -23131,6 +26120,67 @@
      "servicios": 4420,
      "sin_empleo_anterior": 1284
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1851.4,
+    "tasaciones": 547,
+    "anterior": 1657.6,
+    "v2019": 1182.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1145.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 993.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1021.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1066.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1182.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1121.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1251.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1355.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1384.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1502.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1657.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1851.4
+     }
+    ],
+    "valor_m2_anio": 1539.2,
+    "rentabilidad": 5.85,
+    "anios_renta": 2.9
    }
   },
   {
@@ -23353,6 +26403,67 @@
      "servicios": 4973,
      "sin_empleo_anterior": 974
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2410.0,
+    "tasaciones": 437,
+    "anterior": 2067.5,
+    "v2019": 1296.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 976.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 971.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1035.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1150.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1296.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1323.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1384.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1486.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1559.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1707.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2067.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2410.0
+     }
+    ],
+    "valor_m2_anio": 1761.0,
+    "rentabilidad": 5.59,
+    "anios_renta": 3.7
    }
   },
   {
@@ -23748,6 +26859,67 @@
      "servicios": 4418,
      "sin_empleo_anterior": 989
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2549.4,
+    "tasaciones": 480,
+    "anterior": 2260.2,
+    "v2019": 1738.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1304.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1330.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1420.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1533.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1738.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1691.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1898.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1938.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2019.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2119.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2260.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2549.4
+     }
+    ],
+    "valor_m2_anio": 2143.6,
+    "rentabilidad": 5.0,
+    "anios_renta": 4.0
    }
   },
   {
@@ -24087,6 +27259,67 @@
      "servicios": 7638,
      "sin_empleo_anterior": 2159
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1595.3,
+    "tasaciones": 413,
+    "anterior": 1321.4,
+    "v2019": 1013.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 963.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 965.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 877.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 954.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1013.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 969.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1089.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1109.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1152.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1242.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1321.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1595.3
+     }
+    ],
+    "valor_m2_anio": 1233.2,
+    "rentabilidad": 6.59,
+    "anios_renta": 2.8
    }
   },
   {
@@ -24596,6 +27829,67 @@
      "servicios": 4342,
      "sin_empleo_anterior": 924
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1646.8,
+    "tasaciones": 415,
+    "anterior": 1418.3,
+    "v2019": 1141.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1139.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1082.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1064.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1141.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1141.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1151.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1178.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1218.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1314.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1290.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1418.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1646.8
+     }
+    ],
+    "valor_m2_anio": 1322.0,
+    "rentabilidad": 5.11,
+    "anios_renta": 3.1
    }
   },
   {
@@ -24818,6 +28112,67 @@
      "servicios": 3275,
      "sin_empleo_anterior": 231
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4914.2,
+    "tasaciones": 322,
+    "anterior": 4262.1,
+    "v2019": 2881.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2437.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2407.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2376.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2701.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2881.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2941.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3121.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3373.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3701.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3596.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4262.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4914.2
+     }
+    ],
+    "valor_m2_anio": 3649.0,
+    "rentabilidad": 3.89,
+    "anios_renta": 4.1
    }
   },
   {
@@ -25213,6 +28568,67 @@
      "servicios": 4494,
      "sin_empleo_anterior": 1115
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2586.4,
+    "tasaciones": 486,
+    "anterior": 2268.8,
+    "v2019": 1748.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1301.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1345.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1401.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1543.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1748.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1710.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1785.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1897.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1867.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2059.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2268.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2586.4
+     }
+    ],
+    "valor_m2_anio": 2128.4,
+    "rentabilidad": 5.59,
+    "anios_renta": 3.8
    }
   },
   {
@@ -25707,6 +29123,67 @@
      "servicios": 4724,
      "sin_empleo_anterior": 1022
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1469.1,
+    "tasaciones": 459,
+    "anterior": 1293.0,
+    "v2019": 1065.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1111.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1106.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1073.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1122.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1065.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1125.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1135.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1164.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1209.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1187.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1293.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1469.1
+     }
+    ],
+    "valor_m2_anio": 1177.9,
+    "rentabilidad": 6.03,
+    "anios_renta": 2.6
    }
   },
   {
@@ -26230,6 +29707,67 @@
      "servicios": 3652,
      "sin_empleo_anterior": 1033
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1592.5,
+    "tasaciones": 463,
+    "anterior": 1416.8,
+    "v2019": 959.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 976.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 955.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 894.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 931.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 959.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 987.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1129.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1172.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1178.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1270.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1416.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1592.5
+     }
+    ],
+    "valor_m2_anio": 1328.0,
+    "rentabilidad": 5.82,
+    "anios_renta": 2.7
    }
   },
   {
@@ -26737,6 +30275,67 @@
      "servicios": 5838,
      "sin_empleo_anterior": 835
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3021.1,
+    "tasaciones": 339,
+    "anterior": 2771.4,
+    "v2019": 1965.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1779.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1815.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1733.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1862.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1965.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2003.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2033.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2196.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2409.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2597.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2771.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3021.1
+     }
+    ],
+    "valor_m2_anio": 2616.8,
+    "rentabilidad": 4.16,
+    "anios_renta": 4.8
    }
   },
   {
@@ -27014,6 +30613,67 @@
      "servicios": 3564,
      "sin_empleo_anterior": 841
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1706.1,
+    "tasaciones": 552,
+    "anterior": 1494.7,
+    "v2019": 1035.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 923.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 953.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 911.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 982.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1035.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1017.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1081.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1155.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1186.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1351.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1494.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1706.1
+     }
+    ],
+    "valor_m2_anio": 1357.9,
+    "rentabilidad": 5.36,
+    "anios_renta": 3.1
    }
   },
   {
@@ -27419,6 +31079,67 @@
      "servicios": 2950,
      "sin_empleo_anterior": 620
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2315.8,
+    "tasaciones": 366,
+    "anterior": 2176.5,
+    "v2019": 1653.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1422.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1356.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1450.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1521.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1653.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1647.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1763.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1893.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1875.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2079.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2176.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2315.8
+     }
+    ],
+    "valor_m2_anio": 2057.5,
+    "rentabilidad": 5.32,
+    "anios_renta": 3.4
    }
   },
   {
@@ -27805,6 +31526,67 @@
      "servicios": 3825,
      "sin_empleo_anterior": 918
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1445.2,
+    "tasaciones": 243,
+    "anterior": 1431.6,
+    "v2019": 1168.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1178.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1113.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1083.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1062.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1168.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1214.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1132.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1242.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1291.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1292.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1431.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1445.2
+     }
+    ],
+    "valor_m2_anio": 1313.1,
+    "rentabilidad": 4.63,
+    "anios_renta": 3.2
    }
   },
   {
@@ -28222,6 +32004,67 @@
      "servicios": 6012,
      "sin_empleo_anterior": 588
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1796.0,
+    "tasaciones": 253,
+    "anterior": 1601.1,
+    "v2019": 1073.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 944.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 968.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 979.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1079.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1073.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1136.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1242.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1300.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1338.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1347.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1601.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1796.0
+     }
+    ],
+    "valor_m2_anio": 1389.3,
+    "rentabilidad": 6.17,
+    "anios_renta": 2.9
    }
   },
   {
@@ -28707,6 +32550,67 @@
      "servicios": 4310,
      "sin_empleo_anterior": 832
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2875.4,
+    "tasaciones": 343,
+    "anterior": 2597.5,
+    "v2019": 1936.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1823.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1747.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1818.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1819.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1936.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2093.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2086.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2242.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2307.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2339.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2597.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2875.4
+     }
+    ],
+    "valor_m2_anio": 2339.5,
+    "rentabilidad": 5.37,
+    "anios_renta": 3.9
    }
   },
   {
@@ -28929,6 +32833,67 @@
      "servicios": 3220,
      "sin_empleo_anterior": 195
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3521.2,
+    "tasaciones": 238,
+    "anterior": 2993.7,
+    "v2019": 1948.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1538.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1577.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1719.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1881.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1948.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2017.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2078.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2317.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2424.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2554.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2993.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3521.2
+     }
+    ],
+    "valor_m2_anio": 2627.7,
+    "rentabilidad": 4.18,
+    "anios_renta": 4.9
    }
   },
   {
@@ -29241,6 +33206,67 @@
      "servicios": 5508,
      "sin_empleo_anterior": 601
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2254.0,
+    "tasaciones": 716,
+    "anterior": 1931.3,
+    "v2019": 1241.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1074.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1078.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1056.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1151.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1241.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1201.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1215.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1366.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1507.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1600.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1931.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2254.0
+     }
+    ],
+    "valor_m2_anio": 1697.1,
+    "rentabilidad": 4.67,
+    "anios_renta": 4.2
    }
   },
   {
@@ -29715,6 +33741,67 @@
      "servicios": 3042,
      "sin_empleo_anterior": 791
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1404.5,
+    "tasaciones": 250,
+    "anterior": 1352.1,
+    "v2019": 921.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 881.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 868.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 853.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 896.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 921.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 935.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 984.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1069.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1110.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1149.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1352.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1404.5
+     }
+    ],
+    "valor_m2_anio": 1179.4,
+    "rentabilidad": 4.97,
+    "anios_renta": 3.0
    }
   },
   {
@@ -30140,6 +34227,67 @@
      "servicios": 2804,
      "sin_empleo_anterior": 492
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2338.9,
+    "tasaciones": 186,
+    "anterior": 2210.0,
+    "v2019": 1681.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1486.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1423.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1383.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1608.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1681.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1706.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1673.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1708.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1794.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1904.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2210.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2338.9
+     }
+    ],
+    "valor_m2_anio": 1944.2,
+    "rentabilidad": 4.45,
+    "anios_renta": 3.5
    }
   },
   {
@@ -30362,6 +34510,67 @@
      "servicios": 2257,
      "sin_empleo_anterior": 75
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4486.0,
+    "tasaciones": 348,
+    "anterior": 3938.1,
+    "v2019": 2630.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1993.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2035.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2282.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2410.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2630.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2704.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2881.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3131.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3262.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3512.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3938.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4486.0
+     }
+    ],
+    "valor_m2_anio": 3539.1,
+    "rentabilidad": 4.54,
+    "anios_renta": 3.8
    }
   },
   {
@@ -30649,6 +34858,67 @@
      "servicios": 2210,
      "sin_empleo_anterior": 394
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1170.2,
+    "tasaciones": 280,
+    "anterior": 979.6,
+    "v2019": 799.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 792.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 737.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 715.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 752.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 799.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 795.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 825.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 863.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 872.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 970.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 979.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1170.2
+     }
+    ],
+    "valor_m2_anio": 964.6,
+    "rentabilidad": 6.0,
+    "anios_renta": 2.6
    }
   },
   {
@@ -30871,6 +35141,67 @@
      "servicios": 2865,
      "sin_empleo_anterior": 252
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4041.0,
+    "tasaciones": 262,
+    "anterior": 3411.1,
+    "v2019": 2445.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1772.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1794.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1941.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2064.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2445.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2402.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2572.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2833.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2917.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3014.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3411.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4041.0
+     }
+    ],
+    "valor_m2_anio": 3047.6,
+    "rentabilidad": 4.52,
+    "anios_renta": 4.2
    }
   },
   {
@@ -31306,6 +35637,67 @@
      "servicios": 4342,
      "sin_empleo_anterior": 634
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1542.8,
+    "tasaciones": 323,
+    "anterior": 1374.1,
+    "v2019": 1100.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1119.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1056.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1055.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1047.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1100.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1092.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1089.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1163.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1191.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1237.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1374.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1542.8
+     }
+    ],
+    "valor_m2_anio": 1262.7,
+    "rentabilidad": 5.13,
+    "anios_renta": 3.1
    }
   },
   {
@@ -31713,6 +36105,67 @@
      "servicios": 1827,
      "sin_empleo_anterior": 186
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5016.7,
+    "tasaciones": 328,
+    "anterior": 4705.8,
+    "v2019": 3438.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2385.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2539.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2877.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3337.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3438.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3347.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3657.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3934.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 4142.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4314.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4705.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5016.7
+     }
+    ],
+    "valor_m2_anio": 4265.5,
+    "rentabilidad": 3.81,
+    "anios_renta": 4.6
    }
   },
   {
@@ -31935,6 +36388,67 @@
      "servicios": 3852,
      "sin_empleo_anterior": 389
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3365.1,
+    "tasaciones": 675,
+    "anterior": 3014.8,
+    "v2019": 1743.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1218.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1302.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1398.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1523.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1743.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1757.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1898.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2078.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2324.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2521.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3014.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3365.1
+     }
+    ],
+    "valor_m2_anio": 2618.2,
+    "rentabilidad": 3.98,
+    "anios_renta": 6.3
    }
   },
   {
@@ -32304,6 +36818,67 @@
      "servicios": 5403,
      "sin_empleo_anterior": 1052
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1962.5,
+    "tasaciones": 331,
+    "anterior": 1726.6,
+    "v2019": 1139.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1086.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1088.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1065.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1094.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1139.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1131.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1209.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1330.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1414.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1550.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1726.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1962.5
+     }
+    ],
+    "valor_m2_anio": 1562.5,
+    "rentabilidad": 5.16,
+    "anios_renta": 3.4
    }
   },
   {
@@ -32699,6 +37274,67 @@
      "servicios": 2927,
      "sin_empleo_anterior": 440
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3142.1,
+    "tasaciones": 309,
+    "anterior": 2784.1,
+    "v2019": 2256.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1612.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1594.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1732.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2004.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2256.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2227.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2371.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2335.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2409.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2578.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2784.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3142.1
+     }
+    ],
+    "valor_m2_anio": 2612.7,
+    "rentabilidad": 5.21,
+    "anios_renta": 3.9
    }
   },
   {
@@ -33060,6 +37696,67 @@
      "servicios": 2884,
      "sin_empleo_anterior": 419
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2136.2,
+    "tasaciones": 222,
+    "anterior": 1870.5,
+    "v2019": 1199.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1012.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1077.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1072.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1127.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1199.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1175.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1229.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1285.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1441.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1560.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1870.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2136.2
+     }
+    ],
+    "valor_m2_anio": 1590.7,
+    "rentabilidad": 5.47,
+    "anios_renta": 3.2
    }
   },
   {
@@ -33405,6 +38102,67 @@
      "servicios": 4584,
      "sin_empleo_anterior": 903
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2229.0,
+    "tasaciones": 389,
+    "anterior": 1913.9,
+    "v2019": 1341.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1233.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1118.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1160.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1265.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1341.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1275.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1477.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1528.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1609.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1701.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1913.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2229.0
+     }
+    ],
+    "valor_m2_anio": 1743.1,
+    "rentabilidad": 4.62,
+    "anios_renta": 3.8
    }
   },
   {
@@ -33736,6 +38494,67 @@
      "servicios": 4155,
      "sin_empleo_anterior": 635
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1903.8,
+    "tasaciones": 366,
+    "anterior": 1568.6,
+    "v2019": 882.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 746.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 781.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 733.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 827.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 882.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 879.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 977.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1030.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1125.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1256.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1568.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1903.8
+     }
+    ],
+    "valor_m2_anio": 1304.5,
+    "rentabilidad": 5.78,
+    "anios_renta": 3.2
    }
   },
   {
@@ -33958,6 +38777,67 @@
      "servicios": 2174,
      "sin_empleo_anterior": 582
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1371.6,
+    "tasaciones": 372,
+    "anterior": 1129.5,
+    "v2019": 912.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 794.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 825.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 828.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 887.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 912.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 883.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 967.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 949.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 972.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1035.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1129.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1371.6
+     }
+    ],
+    "valor_m2_anio": 1048.2,
+    "rentabilidad": 6.02,
+    "anios_renta": 2.6
    }
   },
   {
@@ -34302,6 +39182,67 @@
      "servicios": 5018,
      "sin_empleo_anterior": 794
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2559.3,
+    "tasaciones": 336,
+    "anterior": 2164.9,
+    "v2019": 1340.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1297.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1302.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1248.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1330.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1340.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1364.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1607.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1660.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1772.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1900.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2164.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2559.3
+     }
+    ],
+    "valor_m2_anio": 1983.6,
+    "rentabilidad": 4.56,
+    "anios_renta": 4.0
    }
   },
   {
@@ -34583,6 +39524,67 @@
      "servicios": 1688,
      "sin_empleo_anterior": 54
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5206.2,
+    "tasaciones": 324,
+    "anterior": 4773.4,
+    "v2019": 3186.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2423.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2538.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2775.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3029.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3186.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3304.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3483.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3563.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3844.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4138.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4773.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5206.2
+     }
+    ],
+    "valor_m2_anio": 4154.4,
+    "rentabilidad": 3.95,
+    "anios_renta": 3.9
    }
   },
   {
@@ -34805,6 +39807,67 @@
      "servicios": 3916,
      "sin_empleo_anterior": 303
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2945.8,
+    "tasaciones": 268,
+    "anterior": 2561.8,
+    "v2019": 1659.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1194.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1292.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1427.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1538.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1659.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1682.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1698.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1897.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1973.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2347.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2561.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2945.8
+     }
+    ],
+    "valor_m2_anio": 2309.3,
+    "rentabilidad": 4.75,
+    "anios_renta": 4.4
    }
   },
   {
@@ -35178,6 +40241,67 @@
      "servicios": 3415,
      "sin_empleo_anterior": 628
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2788.4,
+    "tasaciones": 303,
+    "anterior": 2308.8,
+    "v2019": 1431.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1033.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1133.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1175.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1265.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1431.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1451.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1487.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1559.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1725.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2014.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2308.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2788.4
+     }
+    ],
+    "valor_m2_anio": 1987.1,
+    "rentabilidad": 4.13,
+    "anios_renta": 5.3
    }
   },
   {
@@ -35572,6 +40696,67 @@
      "servicios": 2586,
      "sin_empleo_anterior": 455
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2113.5,
+    "tasaciones": 255,
+    "anterior": 1773.8,
+    "v2019": 1287.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1229.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1265.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1212.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1205.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1287.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1337.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1383.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1417.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1608.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1558.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1773.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2113.5
+     }
+    ],
+    "valor_m2_anio": 1553.1,
+    "rentabilidad": 5.66,
+    "anios_renta": 2.9
    }
   },
   {
@@ -35850,6 +41035,67 @@
      "servicios": 2925,
      "sin_empleo_anterior": 265
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2681.1,
+    "tasaciones": 367,
+    "anterior": 2324.5,
+    "v2019": 1491.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1194.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1213.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1285.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1406.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1491.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1603.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1646.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1787.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1884.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1980.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2324.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2681.1
+     }
+    ],
+    "valor_m2_anio": 2020.3,
+    "rentabilidad": 5.32,
+    "anios_renta": 3.6
    }
   },
   {
@@ -36233,6 +41479,67 @@
      "servicios": 2661,
      "sin_empleo_anterior": 397
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2800.6,
+    "tasaciones": 405,
+    "anterior": 2554.0,
+    "v2019": 2082.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1514.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1565.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1681.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1904.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2082.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2089.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2152.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2213.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2291.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2401.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2554.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2800.6
+     }
+    ],
+    "valor_m2_anio": 2399.3,
+    "rentabilidad": 5.44,
+    "anios_renta": 3.7
    }
   },
   {
@@ -36537,6 +41844,67 @@
      "servicios": 2943,
      "sin_empleo_anterior": 450
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3758.0,
+    "tasaciones": 423,
+    "anterior": 3274.3,
+    "v2019": 2130.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1430.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1506.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1648.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1866.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2130.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2026.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2094.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2326.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2531.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2957.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3274.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3758.0
+     }
+    ],
+    "valor_m2_anio": 2941.4,
+    "rentabilidad": 3.79,
+    "anios_renta": 6.9
    }
   },
   {
@@ -37003,6 +42371,67 @@
      "servicios": 2723,
      "sin_empleo_anterior": 566
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2079.9,
+    "tasaciones": 538,
+    "anterior": 1764.6,
+    "v2019": 1223.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1051.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1012.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1071.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1088.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1223.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1170.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1257.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1367.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1347.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1495.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1764.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2079.9
+     }
+    ],
+    "valor_m2_anio": 1562.3,
+    "rentabilidad": 3.76,
+    "anios_renta": 4.7
    }
   },
   {
@@ -37440,6 +42869,67 @@
      "servicios": 5937,
      "sin_empleo_anterior": 1232
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2164.5,
+    "tasaciones": 198,
+    "anterior": 1993.1,
+    "v2019": 1641.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1434.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1468.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1572.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1613.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1641.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1647.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1689.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1772.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1814.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1916.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1993.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2164.5
+     }
+    ],
+    "valor_m2_anio": 1903.3,
+    "rentabilidad": 5.74,
+    "anios_renta": 2.7
    }
   },
   {
@@ -37787,6 +43277,67 @@
      "servicios": 5375,
      "sin_empleo_anterior": 1184
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1241.1,
+    "tasaciones": 337,
+    "anterior": 1031.2,
+    "v2019": 745.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 739.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 705.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 669.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 678.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 745.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 710.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 790.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 734.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 833.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 896.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1031.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1241.1
+     }
+    ],
+    "valor_m2_anio": 896.2,
+    "rentabilidad": 6.91,
+    "anios_renta": 2.2
    }
   },
   {
@@ -38211,6 +43762,67 @@
      "servicios": 2917,
      "sin_empleo_anterior": 386
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2060.0,
+    "tasaciones": 218,
+    "anterior": 1779.2,
+    "v2019": 1137.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1071.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1009.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 992.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1017.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1137.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1147.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1189.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1371.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1407.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1527.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1779.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2060.0
+     }
+    ],
+    "valor_m2_anio": 1579.8,
+    "rentabilidad": 4.8,
+    "anios_renta": 3.7
    }
   },
   {
@@ -38630,6 +44242,67 @@
      "servicios": 3793,
      "sin_empleo_anterior": 543
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1757.0,
+    "tasaciones": 372,
+    "anterior": 1459.8,
+    "v2019": 881.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 860.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 845.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 760.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 851.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 881.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 883.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1017.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1045.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1060.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1266.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1459.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1757.0
+     }
+    ],
+    "valor_m2_anio": 1265.4,
+    "rentabilidad": 4.95,
+    "anios_renta": 3.6
    }
   },
   {
@@ -38973,6 +44646,67 @@
      "servicios": 2718,
      "sin_empleo_anterior": 463
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2479.0,
+    "tasaciones": 396,
+    "anterior": 2200.8,
+    "v2019": 1729.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1228.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1290.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1397.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1585.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1729.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1742.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1825.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1855.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1905.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2041.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2200.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2479.0
+     }
+    ],
+    "valor_m2_anio": 2058.7,
+    "rentabilidad": 5.35,
+    "anios_renta": 3.6
    }
   },
   {
@@ -39357,6 +45091,67 @@
      "servicios": 5859,
      "sin_empleo_anterior": 1294
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2214.9,
+    "tasaciones": 170,
+    "anterior": 2079.0,
+    "v2019": 1731.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1727.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1742.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1818.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1728.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1731.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1749.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1796.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1850.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1862.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1950.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2079.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2214.9
+     }
+    ],
+    "valor_m2_anio": 1945.0,
+    "rentabilidad": 5.83,
+    "anios_renta": 3.0
    }
   },
   {
@@ -39762,6 +45557,67 @@
      "servicios": 2832,
      "sin_empleo_anterior": 862
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1530.6,
+    "tasaciones": 324,
+    "anterior": 1352.8,
+    "v2019": 1051.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 976.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 929.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 893.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 942.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1051.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1004.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1105.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1111.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1183.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1241.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1352.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1530.6
+     }
+    ],
+    "valor_m2_anio": 1284.1,
+    "rentabilidad": 5.91,
+    "anios_renta": 2.8
    }
   },
   {
@@ -40081,6 +45937,67 @@
      "servicios": 2704,
      "sin_empleo_anterior": 91
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3299.3,
+    "tasaciones": 229,
+    "anterior": 2831.0,
+    "v2019": 1817.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1441.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1461.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1538.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1653.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1817.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1878.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1921.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2103.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2221.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2379.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2831.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3299.3
+     }
+    ],
+    "valor_m2_anio": 2425.2,
+    "rentabilidad": 4.84,
+    "anios_renta": 4.2
    }
   },
   {
@@ -40394,6 +46311,67 @@
      "servicios": 2342,
      "sin_empleo_anterior": 328
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3518.4,
+    "tasaciones": 470,
+    "anterior": 3138.4,
+    "v2019": 1747.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1321.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1366.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1424.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1577.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1747.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1710.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1794.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2053.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2364.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2685.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3138.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3518.4
+     }
+    ],
+    "valor_m2_anio": 2691.7,
+    "rentabilidad": 3.73,
+    "anios_renta": 6.6
    }
   },
   {
@@ -40710,6 +46688,67 @@
      "servicios": 4196,
      "sin_empleo_anterior": 430
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1761.4,
+    "tasaciones": 212,
+    "anterior": 1627.5,
+    "v2019": 1065.4,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 855.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 827.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 951.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 926.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1065.4
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1091.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1073.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1158.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1185.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1332.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1627.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1761.4
+     }
+    ],
+    "valor_m2_anio": 1334.5,
+    "rentabilidad": 6.09,
+    "anios_renta": 3.0
    }
   },
   {
@@ -41009,6 +47048,67 @@
      "servicios": 2908,
      "sin_empleo_anterior": 373
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3782.7,
+    "tasaciones": 402,
+    "anterior": 3354.6,
+    "v2019": 2025.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1411.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1505.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1643.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1815.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2025.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1989.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2177.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2321.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2516.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2968.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3354.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3782.7
+     }
+    ],
+    "valor_m2_anio": 2946.5,
+    "rentabilidad": 4.11,
+    "anios_renta": 6.7
    }
   },
   {
@@ -41231,6 +47331,67 @@
      "servicios": 2628,
      "sin_empleo_anterior": 515
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1325.2,
+    "tasaciones": 375,
+    "anterior": 1129.6,
+    "v2019": 884.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 795.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 782.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 811.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 841.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 884.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 875.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 909.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 893.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 969.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1010.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1129.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1325.2
+     }
+    ],
+    "valor_m2_anio": 1011.5,
+    "rentabilidad": 6.25,
+    "anios_renta": 2.5
    }
   },
   {
@@ -41554,6 +47715,67 @@
      "servicios": 4319,
      "sin_empleo_anterior": 664
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1701.3,
+    "tasaciones": 279,
+    "anterior": 1447.1,
+    "v2019": 1017.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 977.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 952.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1022.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1007.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1017.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1051.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1072.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1170.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1193.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1320.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1447.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1701.3
+     }
+    ],
+    "valor_m2_anio": 1322.9,
+    "rentabilidad": 5.71,
+    "anios_renta": 3.1
    }
   },
   {
@@ -41975,6 +48197,67 @@
      "servicios": 2584,
      "sin_empleo_anterior": 423
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1471.1,
+    "tasaciones": 228,
+    "anterior": 1230.1,
+    "v2019": 1156.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1147.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1050.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1058.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1021.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1156.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1076.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1149.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1161.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1171.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1192.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1230.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1471.1
+     }
+    ],
+    "valor_m2_anio": 1189.9,
+    "rentabilidad": 5.81,
+    "anios_renta": 2.6
    }
   },
   {
@@ -42314,6 +48597,67 @@
      "servicios": 2523,
      "sin_empleo_anterior": 183
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3216.5,
+    "tasaciones": 288,
+    "anterior": 2780.2,
+    "v2019": 1963.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1686.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1506.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1706.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1832.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1963.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1900.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2055.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2129.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2293.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2444.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2780.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3216.5
+     }
+    ],
+    "valor_m2_anio": 2473.5,
+    "rentabilidad": 4.1,
+    "anios_renta": 5.3
    }
   },
   {
@@ -42536,6 +48880,67 @@
      "servicios": 3076,
      "sin_empleo_anterior": 621
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1553.0,
+    "tasaciones": 264,
+    "anterior": 1332.0,
+    "v2019": 1099.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1119.2
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1112.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1045.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1077.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1099.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1007.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1090.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1127.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1167.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1175.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1332.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1553.0
+     }
+    ],
+    "valor_m2_anio": 1190.2,
+    "rentabilidad": 6.03,
+    "anios_renta": 2.5
    }
   },
   {
@@ -42887,6 +49292,67 @@
      "servicios": 3375,
      "sin_empleo_anterior": 684
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1519.7,
+    "tasaciones": 215,
+    "anterior": 1313.5,
+    "v2019": 959.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1002.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 987.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1019.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 957.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 959.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 951.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 981.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1043.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1062.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1160.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1313.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1519.7
+     }
+    ],
+    "valor_m2_anio": 1144.1,
+    "rentabilidad": 6.07,
+    "anios_renta": 2.3
    }
   },
   {
@@ -43200,6 +49666,67 @@
      "servicios": 2146,
      "sin_empleo_anterior": 316
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4137.5,
+    "tasaciones": 206,
+    "anterior": 3824.8,
+    "v2019": 2962.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2861.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2645.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2658.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2763.2
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2962.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3003.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3086.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3330.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3524.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3493.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3824.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4137.5
+     }
+    ],
+    "valor_m2_anio": 3463.3,
+    "rentabilidad": 3.93,
+    "anios_renta": 4.4
    }
   },
   {
@@ -43422,6 +49949,67 @@
      "servicios": 3294,
      "sin_empleo_anterior": 351
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2294.8,
+    "tasaciones": 285,
+    "anterior": 1984.6,
+    "v2019": 1087.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 914.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 907.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 938.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 918.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1087.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1040.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1145.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1223.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1391.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1566.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1984.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2294.8
+     }
+    ],
+    "valor_m2_anio": 1618.4,
+    "rentabilidad": 4.91,
+    "anios_renta": 3.8
    }
   },
   {
@@ -43698,6 +50286,67 @@
      "servicios": 1607,
      "sin_empleo_anterior": 50
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5005.5,
+    "tasaciones": 193,
+    "anterior": 4350.5,
+    "v2019": 3030.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2415.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2447.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2556.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2925.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3030.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3155.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3348.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3539.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3746.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3832.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4350.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5005.5
+     }
+    ],
+    "valor_m2_anio": 3865.2,
+    "rentabilidad": 4.1,
+    "anios_renta": 4.5
    }
   },
   {
@@ -44128,6 +50777,67 @@
      "servicios": 2894,
      "sin_empleo_anterior": 669
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1628.6,
+    "tasaciones": 366,
+    "anterior": 1395.2,
+    "v2019": 814.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 757.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 794.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 736.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 795.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 814.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 830.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 865.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 890.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 982.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1156.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1395.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1628.6
+     }
+    ],
+    "valor_m2_anio": 1207.3,
+    "rentabilidad": 5.93,
+    "anios_renta": 3.1
    }
   },
   {
@@ -44350,6 +51060,67 @@
      "servicios": 3019,
      "sin_empleo_anterior": 465
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3758.3,
+    "tasaciones": 326,
+    "anterior": 3482.4,
+    "v2019": 1958.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1355.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1470.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1433.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1740.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1958.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2019.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2051.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2214.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2531.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2986.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3482.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3758.3
+     }
+    ],
+    "valor_m2_anio": 2987.8,
+    "rentabilidad": 4.08,
+    "anios_renta": 6.1
    }
   },
   {
@@ -44727,6 +51498,67 @@
      "servicios": 3772,
      "sin_empleo_anterior": 606
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2064.6,
+    "tasaciones": 213,
+    "anterior": 1832.2,
+    "v2019": 1153.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1053.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1002.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1093.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1070.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1153.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1164.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1303.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1359.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1419.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1554.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1832.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2064.6
+     }
+    ],
+    "valor_m2_anio": 1599.2,
+    "rentabilidad": 4.97,
+    "anios_renta": 4.2
    }
   },
   {
@@ -45098,6 +51930,67 @@
      "servicios": 1943,
      "sin_empleo_anterior": 172
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4336.7,
+    "tasaciones": 264,
+    "anterior": 4043.0,
+    "v2019": 3087.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2108.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2290.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2510.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2788.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3087.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2911.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3183.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3486.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3536.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3616.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 4043.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4336.7
+     }
+    ],
+    "valor_m2_anio": 3691.4,
+    "rentabilidad": 4.16,
+    "anios_renta": 5.0
    }
   },
   {
@@ -45380,6 +52273,67 @@
      "servicios": 2943,
      "sin_empleo_anterior": 217
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2016.3,
+    "tasaciones": 208,
+    "anterior": 1672.1,
+    "v2019": 1225.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1008.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 969.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 951.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1110.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1225.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1235.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1234.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1248.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1309.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1475.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1672.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2016.3
+     }
+    ],
+    "valor_m2_anio": 1517.3,
+    "rentabilidad": 5.62,
+    "anios_renta": 3.0
    }
   },
   {
@@ -45721,6 +52675,67 @@
      "servicios": 2529,
      "sin_empleo_anterior": 383
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2737.6,
+    "tasaciones": 336,
+    "anterior": 2455.6,
+    "v2019": 1733.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1403.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1424.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1399.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1600.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1733.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1738.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1805.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1914.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2062.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2079.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2455.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2737.6
+     }
+    ],
+    "valor_m2_anio": 2160.7,
+    "rentabilidad": 4.91,
+    "anios_renta": 4.1
    }
   },
   {
@@ -46004,6 +53019,67 @@
      "servicios": 2133,
      "sin_empleo_anterior": 232
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3119.4,
+    "tasaciones": 402,
+    "anterior": 2715.6,
+    "v2019": 2282.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1614.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1671.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1820.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1990.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2282.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2210.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2323.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2335.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2443.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2542.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2715.6
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3119.4
+     }
+    ],
+    "valor_m2_anio": 2575.7,
+    "rentabilidad": 4.78,
+    "anios_renta": 4.3
    }
   },
   {
@@ -46226,6 +53302,67 @@
      "servicios": 2640,
      "sin_empleo_anterior": 242
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2993.8,
+    "tasaciones": 233,
+    "anterior": 2574.5,
+    "v2019": 1587.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1256.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1260.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1329.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1505.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1587.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1648.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1754.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1916.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2046.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2156.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2574.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2993.8
+     }
+    ],
+    "valor_m2_anio": 2245.1,
+    "rentabilidad": 5.07,
+    "anios_renta": 3.9
    }
   },
   {
@@ -46448,6 +53585,67 @@
      "servicios": 1370,
      "sin_empleo_anterior": 35
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4304.2,
+    "tasaciones": 296,
+    "anterior": 3794.7,
+    "v2019": 2668.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1999.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2086.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2258.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2423.4
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2668.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2693.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2877.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3048.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3287.8
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3410.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3794.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4304.2
+     }
+    ],
+    "valor_m2_anio": 3519.5,
+    "rentabilidad": 4.31,
+    "anios_renta": 4.3
    }
   },
   {
@@ -46811,6 +54009,67 @@
      "servicios": 2176,
      "sin_empleo_anterior": 307
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3008.3,
+    "tasaciones": 207,
+    "anterior": 2757.7,
+    "v2019": 2348.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1750.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1896.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1944.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2107.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2348.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2310.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2294.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2370.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2449.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2600.7
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2757.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3008.3
+     }
+    ],
+    "valor_m2_anio": 2595.8,
+    "rentabilidad": 5.06,
+    "anios_renta": 4.1
    }
   },
   {
@@ -47243,6 +54502,67 @@
      "servicios": 4713,
      "sin_empleo_anterior": 1442
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1624.1,
+    "tasaciones": 249,
+    "anterior": 1352.8,
+    "v2019": 1080.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1016.6
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 998.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1069.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1045.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1080.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1097.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1137.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1135.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1235.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1338.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1352.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1624.1
+     }
+    ],
+    "valor_m2_anio": 1307.4,
+    "rentabilidad": 7.15,
+    "anios_renta": 3.2
    }
   },
   {
@@ -47585,6 +54905,67 @@
      "servicios": 1972,
      "sin_empleo_anterior": 360
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2407.6,
+    "tasaciones": 253,
+    "anterior": 2226.1,
+    "v2019": 1831.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1329.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1363.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1437.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1626.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1831.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1697.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1831.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1956.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2003.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2031.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2226.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2407.6
+     }
+    ],
+    "valor_m2_anio": 2087.8,
+    "rentabilidad": 5.02,
+    "anios_renta": 3.6
    }
   },
   {
@@ -48044,6 +55425,67 @@
      "servicios": 2579,
      "sin_empleo_anterior": 769
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1212.5,
+    "tasaciones": 233,
+    "anterior": 1007.1,
+    "v2019": 722.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 713.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 677.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 696.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 685.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 722.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 744.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 793.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 778.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 770.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 880.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1007.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1212.5
+     }
+    ],
+    "valor_m2_anio": 889.5,
+    "rentabilidad": 6.42,
+    "anios_renta": 2.2
    }
   },
   {
@@ -48382,6 +55824,67 @@
      "servicios": 2423,
      "sin_empleo_anterior": 448
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3074.8,
+    "tasaciones": 146,
+    "anterior": 2590.1,
+    "v2019": 1965.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1746.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1793.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1853.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1847.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1965.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2017.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2060.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2278.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2348.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2422.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2590.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3074.8
+     }
+    ],
+    "valor_m2_anio": 2415.6,
+    "rentabilidad": 4.91,
+    "anios_renta": 4.1
    }
   },
   {
@@ -48772,6 +56275,67 @@
      "servicios": 2394,
      "sin_empleo_anterior": 454
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 923.3,
+    "tasaciones": 188,
+    "anterior": 855.0,
+    "v2019": 739.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 790.9
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 713.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 720.2
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 764.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 739.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 785.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 750.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 802.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 790.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 833.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 855.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 923.3
+     }
+    ],
+    "valor_m2_anio": 842.6,
+    "rentabilidad": 7.13,
+    "anios_renta": 2.2
    }
   },
   {
@@ -49119,6 +56683,67 @@
      "servicios": 2185,
      "sin_empleo_anterior": 363
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2184.9,
+    "tasaciones": 234,
+    "anterior": 1934.3,
+    "v2019": 1376.1,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1081.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1076.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1088.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1181.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1376.1
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1327.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1428.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1455.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1514.0
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1669.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1934.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2184.9
+     }
+    ],
+    "valor_m2_anio": 1699.5,
+    "rentabilidad": 5.58,
+    "anios_renta": 2.9
    }
   },
   {
@@ -49560,6 +57185,67 @@
      "servicios": 2968,
      "sin_empleo_anterior": 313
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1131.6,
+    "tasaciones": 224,
+    "anterior": 905.4,
+    "v2019": 645.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 649.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 605.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 584.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 603.6
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 645.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 633.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 717.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 711.3
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 721.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 757.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 905.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1131.6
+     }
+    ],
+    "valor_m2_anio": 788.4,
+    "rentabilidad": 6.83,
+    "anios_renta": 2.1
    }
   },
   {
@@ -49960,6 +57646,67 @@
      "servicios": 3180,
      "sin_empleo_anterior": 397
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1129.7,
+    "tasaciones": 234,
+    "anterior": 1006.0,
+    "v2019": 859.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 811.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 750.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 765.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 829.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 859.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 806.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 839.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 867.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 893.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 940.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1006.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1129.7
+     }
+    ],
+    "valor_m2_anio": 934.5,
+    "rentabilidad": 6.56,
+    "anios_renta": 2.3
    }
   },
   {
@@ -50322,6 +58069,67 @@
      "servicios": 2331,
      "sin_empleo_anterior": 526
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1623.1,
+    "tasaciones": 219,
+    "anterior": 1379.8,
+    "v2019": 1034.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1021.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 944.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 945.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1016.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1034.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 967.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1074.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1135.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1149.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1244.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1379.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1623.1
+     }
+    ],
+    "valor_m2_anio": 1241.6,
+    "rentabilidad": 5.26,
+    "anios_renta": 3.2
    }
   },
   {
@@ -50636,6 +58444,67 @@
      "servicios": 2754,
      "sin_empleo_anterior": 351
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1974.2,
+    "tasaciones": 201,
+    "anterior": 1733.8,
+    "v2019": 1055.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 892.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 855.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 870.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 935.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1055.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1045.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1103.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1178.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1277.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1390.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1733.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1974.2
+     }
+    ],
+    "valor_m2_anio": 1439.8,
+    "rentabilidad": 5.37,
+    "anios_renta": 3.5
    }
   },
   {
@@ -51008,6 +58877,67 @@
      "servicios": 2547,
      "sin_empleo_anterior": 355
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1436.4,
+    "tasaciones": 177,
+    "anterior": 1197.1,
+    "v2019": 1034.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1006.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1016.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 983.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1055.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1034.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1083.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1033.7
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1062.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1127.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1192.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1197.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1436.4
+     }
+    ],
+    "valor_m2_anio": 1133.3,
+    "rentabilidad": 5.2,
+    "anios_renta": 3.0
    }
   },
   {
@@ -51230,6 +59160,67 @@
      "servicios": 2275,
      "sin_empleo_anterior": 242
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2704.0,
+    "tasaciones": 225,
+    "anterior": 2268.8,
+    "v2019": 1496.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1175.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1156.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1235.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1335.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1496.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1476.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1561.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1717.6
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1775.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1935.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2268.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2704.0
+     }
+    ],
+    "valor_m2_anio": 1955.7,
+    "rentabilidad": 4.98,
+    "anios_renta": 3.7
    }
   },
   {
@@ -51606,6 +59597,67 @@
      "servicios": 2040,
      "sin_empleo_anterior": 464
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1637.1,
+    "tasaciones": 228,
+    "anterior": 1414.0,
+    "v2019": 976.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 842.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 823.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 906.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 940.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 976.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 965.5
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1037.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1074.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1125.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1263.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1414.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1637.1
+     }
+    ],
+    "valor_m2_anio": 1282.7,
+    "rentabilidad": 5.54,
+    "anios_renta": 3.0
    }
   },
   {
@@ -51828,6 +59880,67 @@
      "servicios": 2532,
      "sin_empleo_anterior": 310
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2501.8,
+    "tasaciones": 196,
+    "anterior": 2090.3,
+    "v2019": 1294.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 954.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 959.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1106.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1156.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1294.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1227.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1388.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1470.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1575.4
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1826.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2090.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2501.8
+     }
+    ],
+    "valor_m2_anio": 1821.7,
+    "rentabilidad": 5.58,
+    "anios_renta": 3.6
    }
   },
   {
@@ -52050,6 +60163,67 @@
      "servicios": 1570,
      "sin_empleo_anterior": 228
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2964.5,
+    "tasaciones": 220,
+    "anterior": 2593.3,
+    "v2019": 2109.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1582.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1664.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1778.1
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1934.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2109.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2123.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2273.4
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2274.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2387.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2472.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2593.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2964.5
+     }
+    ],
+    "valor_m2_anio": 2496.8,
+    "rentabilidad": 4.83,
+    "anios_renta": 3.9
    }
   },
   {
@@ -52272,6 +60446,67 @@
      "servicios": 1684,
      "sin_empleo_anterior": 141
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3114.6,
+    "tasaciones": 210,
+    "anterior": 2663.0,
+    "v2019": 1766.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1488.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1463.3
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1500.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1648.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1766.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1870.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1932.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2004.9
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2277.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2411.3
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2663.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3114.6
+     }
+    ],
+    "valor_m2_anio": 2405.6,
+    "rentabilidad": 4.35,
+    "anios_renta": 3.7
    }
   },
   {
@@ -52549,6 +60784,67 @@
      "servicios": 1872,
      "sin_empleo_anterior": 212
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2951.6,
+    "tasaciones": 151,
+    "anterior": 2563.0,
+    "v2019": 1792.7,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1289.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1444.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1432.0
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1566.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1792.7
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1796.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1888.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2020.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2059.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2258.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2563.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2951.6
+     }
+    ],
+    "valor_m2_anio": 2286.2,
+    "rentabilidad": 4.95,
+    "anios_renta": 4.2
    }
   },
   {
@@ -52917,6 +61213,67 @@
      "servicios": 2597,
      "sin_empleo_anterior": 906
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1013.1,
+    "tasaciones": 230,
+    "anterior": 791.4,
+    "v2019": 593.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 540.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 508.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 510.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 514.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 593.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 563.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 593.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 631.1
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 647.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 675.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 791.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1013.1
+     }
+    ],
+    "valor_m2_anio": 710.0,
+    "rentabilidad": 7.61,
+    "anios_renta": 2.2
    }
   },
   {
@@ -53382,6 +61739,67 @@
      "servicios": 2632,
      "sin_empleo_anterior": 641
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 888.6,
+    "tasaciones": 232,
+    "anterior": 803.7,
+    "v2019": 752.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 785.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 829.6
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 803.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 720.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 752.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 725.2
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 743.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 754.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 721.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 799.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 803.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 888.6
+     }
+    ],
+    "valor_m2_anio": 769.3,
+    "rentabilidad": 6.5,
+    "anios_renta": 2.1
    }
   },
   {
@@ -53733,6 +62151,67 @@
      "servicios": 2520,
      "sin_empleo_anterior": 192
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3286.3,
+    "tasaciones": 144,
+    "anterior": 2719.0,
+    "v2019": 2003.6,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1579.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1712.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1792.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1991.0
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2003.6
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1940.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2132.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2327.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2642.2
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2671.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2719.0
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3286.3
+     }
+    ],
+    "valor_m2_anio": 2668.3,
+    "rentabilidad": 4.02,
+    "anios_renta": 5.2
    }
   },
   {
@@ -53955,6 +62434,67 @@
      "servicios": 1277,
      "sin_empleo_anterior": 52
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 4390.6,
+    "tasaciones": 152,
+    "anterior": 3916.2,
+    "v2019": 2540.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1932.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2041.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2216.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2391.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2540.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 2565.6
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 2760.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2933.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3248.9
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 3401.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3916.2
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 4390.6
+     }
+    ],
+    "valor_m2_anio": 3413.5,
+    "rentabilidad": 4.04,
+    "anios_renta": 4.5
    }
   },
   {
@@ -54407,6 +62947,67 @@
      "servicios": 1499,
      "sin_empleo_anterior": 298
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1809.5,
+    "tasaciones": 132,
+    "anterior": 1651.5,
+    "v2019": 1176.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1046.0
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 997.0
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 982.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 954.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1176.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1139.7
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1189.6
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1400.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1327.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1563.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1651.5
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1809.5
+     }
+    ],
+    "valor_m2_anio": 1558.6,
+    "rentabilidad": 5.14,
+    "anios_renta": 3.1
    }
   },
   {
@@ -54794,6 +63395,67 @@
      "servicios": 757,
      "sin_empleo_anterior": 44
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5502.2,
+    "tasaciones": 191,
+    "anterior": 5106.7,
+    "v2019": 2936.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2396.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2406.1
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2477.6
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 2658.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 2936.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3147.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 3281.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3495.5
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 3924.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4543.1
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 5106.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5502.2
+     }
+    ],
+    "valor_m2_anio": 4621.1,
+    "rentabilidad": 3.3,
+    "anios_renta": 6.5
    }
   },
   {
@@ -55105,6 +63767,67 @@
      "servicios": 921,
      "sin_empleo_anterior": 26
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 5473.3,
+    "tasaciones": 121,
+    "anterior": 5328.4,
+    "v2019": 3708.8,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 2391.7
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 2689.8
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 2875.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 3292.7
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 3708.8
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 3995.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 4155.8
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 3813.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 4349.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 4662.5
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 5328.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 5473.3
+     }
+    ],
+    "valor_m2_anio": 4836.2,
+    "rentabilidad": 3.14,
+    "anios_renta": 7.1
    }
   },
   {
@@ -55439,6 +64162,67 @@
      "servicios": 1945,
      "sin_empleo_anterior": 330
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1583.0,
+    "tasaciones": 162,
+    "anterior": 1402.7,
+    "v2019": 1082.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1077.3
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1080.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1027.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1022.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1082.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1073.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1181.1
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1214.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1231.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1223.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1402.7
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1583.0
+     }
+    ],
+    "valor_m2_anio": 1268.2,
+    "rentabilidad": 5.32,
+    "anios_renta": 3.3
    }
   },
   {
@@ -55769,6 +64553,67 @@
      "servicios": 1935,
      "sin_empleo_anterior": 450
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1200.7,
+    "tasaciones": 196,
+    "anterior": 962.1,
+    "v2019": 724.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 731.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 679.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 718.4
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 697.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 724.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 742.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 754.2
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 798.2
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 776.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 875.6
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 962.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1200.7
+     }
+    ],
+    "valor_m2_anio": 911.0,
+    "rentabilidad": 6.41,
+    "anios_renta": 2.4
    }
   },
   {
@@ -55991,6 +64836,67 @@
      "servicios": 1809,
      "sin_empleo_anterior": 277
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1564.2,
+    "tasaciones": 195,
+    "anterior": 1328.3,
+    "v2019": 1111.5,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1006.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1040.9
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 978.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1046.8
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1111.5
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1038.0
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1088.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1139.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1155.5
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1228.0
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1328.3
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1564.2
+     }
+    ],
+    "valor_m2_anio": 1260.2,
+    "rentabilidad": 5.73,
+    "anios_renta": 2.5
    }
   },
   {
@@ -56213,6 +65119,67 @@
      "servicios": 1954,
      "sin_empleo_anterior": 220
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 3506.2,
+    "tasaciones": 201,
+    "anterior": 3072.4,
+    "v2019": 1807.2,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1207.5
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1321.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1449.5
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1656.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1807.2
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1796.9
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1879.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 2146.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 2355.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2611.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 3072.4
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 3506.2
+     }
+    ],
+    "valor_m2_anio": 2719.1,
+    "rentabilidad": 3.86,
+    "anios_renta": 6.3
    }
   },
   {
@@ -56565,6 +65532,67 @@
      "servicios": 2780,
      "sin_empleo_anterior": 440
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1510.6,
+    "tasaciones": 182,
+    "anterior": 1267.9,
+    "v2019": 918.3,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 902.1
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 871.2
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 893.7
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 891.1
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 918.3
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 932.1
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 988.9
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1061.0
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1066.7
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1179.4
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1267.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1510.6
+     }
+    ],
+    "valor_m2_anio": 1180.6,
+    "rentabilidad": 5.52,
+    "anios_renta": 3.3
    }
   },
   {
@@ -56875,6 +65903,67 @@
      "servicios": 1616,
      "sin_empleo_anterior": 289
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2524.6,
+    "tasaciones": 218,
+    "anterior": 2303.9,
+    "v2019": 1766.0,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1344.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1414.4
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1408.9
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1554.5
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1766.0
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1717.3
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1947.3
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1946.8
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1986.1
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 2130.8
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 2303.9
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2524.6
+     }
+    ],
+    "valor_m2_anio": 2123.0,
+    "rentabilidad": 4.77,
+    "anios_renta": 4.0
    }
   },
   {
@@ -57289,6 +66378,67 @@
      "servicios": 1319,
      "sin_empleo_anterior": 258
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 2179.1,
+    "tasaciones": 155,
+    "anterior": 1827.8,
+    "v2019": 1314.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 1398.4
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 1315.7
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 1309.8
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 1301.3
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1314.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1301.8
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 1362.5
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1426.7
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1531.3
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1600.2
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1827.8
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 2179.1
+     }
+    ],
+    "valor_m2_anio": 1631.2,
+    "rentabilidad": 5.05,
+    "anios_renta": 3.4
    }
   },
   {
@@ -57667,6 +66817,67 @@
      "servicios": 2060,
      "sin_empleo_anterior": 479
     }
+   },
+   "compra": {
+    "periodo": "2026T2",
+    "periodo_texto": "segundo trimestre de 2026",
+    "valor_m2": 1701.9,
+    "tasaciones": 166,
+    "anterior": 1294.1,
+    "v2019": 1003.9,
+    "serie": [
+     {
+      "anio": 2015,
+      "valor_m2": 999.8
+     },
+     {
+      "anio": 2016,
+      "valor_m2": 943.5
+     },
+     {
+      "anio": 2017,
+      "valor_m2": 947.3
+     },
+     {
+      "anio": 2018,
+      "valor_m2": 950.9
+     },
+     {
+      "anio": 2019,
+      "valor_m2": 1003.9
+     },
+     {
+      "anio": 2020,
+      "valor_m2": 1031.4
+     },
+     {
+      "anio": 2021,
+      "valor_m2": 988.0
+     },
+     {
+      "anio": 2022,
+      "valor_m2": 1039.4
+     },
+     {
+      "anio": 2023,
+      "valor_m2": 1066.6
+     },
+     {
+      "anio": 2024,
+      "valor_m2": 1151.9
+     },
+     {
+      "anio": 2025,
+      "valor_m2": 1294.1
+     },
+     {
+      "anio": 2026,
+      "valor_m2": 1701.9
+     }
+    ],
+    "valor_m2_anio": 1167.5,
+    "rentabilidad": 6.44,
+    "anios_renta": 2.7
    }
   }
  ]

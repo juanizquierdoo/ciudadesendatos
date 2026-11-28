@@ -15,6 +15,7 @@ import unicodedata
 from config import ANIO, ANIO_INICIO_ALQUILER
 from textos_ciudad import seccion_claves
 from evolucion_precios import seccion as seccion_evolucion
+import precio_vivienda   # precio de compra: valor tasado (Fase 3, precio_vivienda.py)
 import paro   # paro registrado del SEPE en cada ficha (Fase 3, paro.py)
 import rankings_temas   # rankings temáticos para búsquedas concretas (B-29)
 import herramienta_sueldo   # herramienta "¿Dónde puedo vivir con mi sueldo?" (Fase 2)
@@ -22,6 +23,7 @@ import comparador_ciudades   # comparador de 2 a 4 ciudades (Fase 2, B-35)
 import mapa_precios   # mapa de precios de España por municipios y distritos (/mapa/)
 import alquiler_barato   # páginas de alquiler barato por comunidad y por provincia (B-38)
 import paginas_legales
+import menu_lateral   # menú lateral con todas las secciones (botón de tres rayas, 28/11/2026)
 
 base = Path(__file__).parent
 DATOS = base / "datos_limpios" / "ciudades_nivel1.json"
@@ -251,9 +253,9 @@ def cabecera(root, extra):
     Los enlaces dentro de la propia página (extra) van en una barra aparte, "En esta página",
     solo si hay 3 o más; así el menú principal no cambia al pasar de una página a otra.
     """
-    cab = (f'<header class="top"><nav aria-label="Principal"><a class="brand" href="{root}">ciudades<b>en</b>datos</a>'
+    cab = (f'<header class="top"><nav aria-label="Principal">{menu_lateral.boton()}<a class="brand" href="{root}">ciudades<b>en</b>datos</a>'
            f'<a href="{root}#ciudades">Ciudades</a><a href="{root}#rankings">Rankings</a>'
-           f'<a href="{root}comunidades/">Comunidades</a></nav></header>')
+           f'<a href="{root}comunidades/">Comunidades</a></nav></header>') + menu_lateral.panel(root)
     if len(extra) >= 3:
         enl = "".join(f'<a href="{h}">{esc(t)}</a>' for h, t in extra)
         cab += f'<nav class="secc" aria-label="En esta página"><div><span>En esta página</span>{enl}</div></nav>'
@@ -282,8 +284,10 @@ def pie(root):
             "Renta y población: Elaboración propia con datos extraídos del sitio web del INE: www.ine.es "
             f"(Atlas de Distribución de Renta de los Hogares, {ANIO}; actualizado el {FECHA_ADRH}). "
             f"Paro registrado: Servicio Público de Empleo Estatal (SEPE), datos abiertos CC BY 4.0 (descargados el {paro.DESCARGA}). "
+            "Precio de compra: Origen de los datos: Ministerio de Transportes y Movilidad Sostenible (Boletín Estadístico, valor tasado "
+            f"de la vivienda libre; actualizado el {precio_vivienda.PUBLICADO}). "
             "Los indicadores combinados, como el alquiler sobre la renta, son estimaciones propias de "
-            f"{SITIO}. Esta web no está vinculada al INE, al Ministerio de Vivienda ni al SEPE.</p>"
+            f"{SITIO}. Esta web no está vinculada al INE, a los Ministerios de Vivienda y de Transportes ni al SEPE.</p>"
             f'<p>Los datos elaborados y los textos de {SITIO} se publican con licencia '
             f'<a href="{LICENCIA_URL}" rel="license">{LICENCIA}</a>: puedes reutilizarlos citando {SITIO} con un enlace a esta web.'
             " Los datos de origen mantienen la licencia de sus fuentes."
@@ -480,6 +484,10 @@ def pagina_ciudad(c, todas, rank_n):
         sec.append(s_paro)
         nav.append(("#empleo", "Paro"))
 
+    # precio de compra (valor tasado): sección #compra (precio_vivienda.py)
+    sec.append(precio_vivienda.seccion(c, todas, sys.modules[__name__]))
+    nav.append(("#compra", "Compra"))
+
     # distritos
     mapa_js = ""
     if dist:
@@ -631,7 +639,8 @@ def pagina_ciudad(c, todas, rank_n):
     ld = [dataset(f"Alquiler y renta en {nombre}", desc, ruta, f"{nombre}, {c['provincia']}, España",
                   ["Alquiler mensual mediano", "Alquiler mediano por m²", "Renta neta media del hogar", "Alquiler sobre renta"]
                   + (["Desglose por distrito censal"] if dist else [])
-                  + (["Paro registrado"] if c.get("paro") else []),
+                  + (["Paro registrado"] if c.get("paro") else [])
+                  + (["Valor tasado de la vivienda"] if c.get("compra") else []),
                   f"{ser[0][0]}/{ser[-1][0]}" if ser else str(ANIO)),
           migas([(t, r) for t, r in pasos] + [(nombre, ruta)])]
     return head(titulo, desc, root, ruta, ld) + cuerpo + fin(root, mapa_js)
@@ -1145,6 +1154,8 @@ if(el){
 # distritos con mapa (23/11/2026): cubren del percentil 2 al 98 aprox.; los valores de fuera toman el color del extremo.
 ESCALA_MAPA = {"pct": [10, 25], "alq": [300, 1100], "renta": [20000, 80000]}
 JS = JS.replace("__ESCALA__", json.dumps(ESCALA_MAPA))
+CSS += menu_lateral.CSS   # estilos y script del menú lateral (menu_lateral.py)
+JS += menu_lateral.JS
 
 # Versión de estilo.css y app.js en sus enlaces (?v=...): cambia sola cuando cambian, para que
 # los navegadores no sigan usando una copia antigua guardada en caché.
@@ -1190,6 +1201,7 @@ def main():
     else:
         print("AVISO: falta datos_limpios/comunidades.json (python preparar_comunidades.py). Sin páginas de comunidad.")
     con_pagina = sorted([x for x in COMUNIDADES.values() if x["pagina"]], key=lambda x: x["cod_ccaa"])
+    menu_lateral.preparar(sys.modules[__name__], todas)   # enlaces del menú lateral (necesita COMUNIDADES)
 
     if WEB.exists():
         shutil.rmtree(WEB)

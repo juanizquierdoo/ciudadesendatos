@@ -260,3 +260,7 @@ No se ha cambiado ningún script del pipeline, ningún dato ni la web.
 - Datos: extracto de los CSV del SEPE en `datos_municipales/sepe_paro/` (ninguna cifra cambiada). Comprobado que el desglose suma el total en las 151 ciudades. `python paro.py --extraer` rehace el extracto desde los CSV completos (no probado todavía con los CSV completos en Windows: se usará en la próxima actualización).
 - Tests: nuevo `tests/test_paro.py` (7 comprobaciones, con valores de referencia de Madrid, Valencia y Valladolid). 27 OK, 0 FALLA. Valores de referencia de alquiler y renta sin cambios.
 - No probado en un navegador real: solo el HTML generado.
+
+## 28/11/2026: precio de compra en cada ficha (Fase 3, módulo 2)
+- Nuevo `precio_vivienda.py` (valor tasado de la vivienda libre por municipios, Ministerio de Transportes; FUENTES.md fuente 11). Sección «Precio de la vivienda en venta en <ciudad>» (#compra) en las 151 fichas: valor tasado del 2.º trimestre de 2026 con puesto y mediana, cambio en un año y desde 2019, piso tipo, rentabilidad bruta del alquiler y veces la renta (2024, estimaciones propias), gráfico y tabla del 2.º trimestre de 2015 a 2026. Comparador: 3 filas (grupo «Compra»). Pie: cita del Ministerio de Transportes.
+- Tests: nuevo `tests/test_precio_vivienda.py` (coteja el extracto con el Excel, referencias de Madrid 5.418,4, Valencia 2.972,8 y Valladolid 1.946,5 €/m²). 28 OK, 0 FALLA. Valores de referencia de alquiler y renta sin cambios. No probado en un navegador real.

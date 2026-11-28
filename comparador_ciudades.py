@@ -82,6 +82,9 @@ def filas(gw):
         ["renta", "Renta neta media por hogar", 0, " € al año", False, "Renta de los hogares", ""],
         ["rper", "Renta neta media por persona", 0, " € al año", False, "Renta de los hogares", ""],
         ["chr5", f"Cambio de la renta del hogar {A0}-{A}", 1, " %", True, "Renta de los hogares", "Sin descontar la inflación"],
+        ["vt", "Valor tasado de la vivienda", 0, " €/m²", False, "Compra", "Ministerio de Transportes, último trimestre. No es el precio de venta"],
+        ["chvt", "Cambio del valor tasado en un año", 1, " %", True, "Compra", "Mismo trimestre del año anterior"],
+        ["rent", f"Rentabilidad bruta del alquiler ({A})", 2, " %", False, "Compra", "Estimación propia: alquiler anual / valor tasado, mismo año"],
         ["par", "Paro registrado (personas)", 0, "", False, "Empleo", "SEPE, último mes publicado. No es la tasa de paro de la EPA"],
         ["p100", "Parados por cada 100 habitantes de 18 a 64 años", 1, "", False, "Empleo", "Estimación propia: paro registrado / población de 18 a 64 años"],
         ["chpar", "Cambio del paro registrado en un año", 1, " %", True, "Empleo", "Mismo mes del año anterior"],
@@ -114,6 +117,8 @@ def ciudad_js(gw, c):
          "pob": c.get("poblacion"), "edad": c.get("edad_media"), "m18": c.get("pct_menor_18"), "m65": c.get("pct_65_mas"),
          "uni": c.get("pct_unipersonales"), "tam": c.get("tam_hogar"), "nd": len(ds),
          "par": (c.get("paro") or {}).get("total"), "p100": (c.get("paro") or {}).get("por_100"),
+         "vt": (c.get("compra") or {}).get("valor_m2"), "rent": (c.get("compra") or {}).get("rentabilidad"),
+         "chvt": _var((c.get("compra") or {}).get("anterior"), (c.get("compra") or {}).get("valor_m2")),
          "chpar": _var((c.get("paro") or {}).get("anterior"), (c.get("paro") or {}).get("total"))}
     out = {"n": c["nombre"], "s": c["slug"], "p": c["provincia"], "cc": cc, "pob": c.get("poblacion") or 0,
            "v": {k: _r(x) for k, x in v.items()},
